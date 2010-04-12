@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/PGP-Sign-\d"
+make:
+  expect:
+    - "\QProgram to sign data"
+    - "\n"
+    - "\QProgram to verify signatures"
+    - "\n"
+    - "\QPGP style"
+    - "\n"

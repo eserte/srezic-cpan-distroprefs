@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/Class-DBI-Sweet-0\.(09|10)\."
+patches:
+  - "S/SR/SREZIC/patches/Class-DBI-Sweet-0.09-ISHIGAKI-01.patch"
+comment: "http://rt.cpan.org/Public/Bug/Display.html?id=32673"

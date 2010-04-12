@@ -1,0 +1,17 @@
+--- 
+comment: |
+
+  disabled because the tests take too long. Last time verified with
+  Math::BigInt 1.82 and Crypt-DSA-0.14. 0.16 seems to be OK, took
+  only 40 wallclock secs.
+
+match:
+  distribution: "/Crypt-DSA-0\.14\."
+pl: 
+  args: ["--defaultdeps"]
+disabled: 1
+--- 
+match:
+  distribution: "/Crypt-DSA-"
+pl: 
+  args: ["--defaultdeps"]

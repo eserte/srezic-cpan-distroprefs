@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-Pcap-Easy-\d"
+pl:
+  expect:
+    - "\Qnetwork device on which to run tests"
+    - "skip\n"

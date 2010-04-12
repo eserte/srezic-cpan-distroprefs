@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/OpenResty-\d"
+pl:
+  eexpect:
+    timeout: 40
+    talk:
+      - "\QDownload the Chinese font file (14 MB) from agentzh.org to get Chinese captcha support?"
+      - "\n"
+## Problem with 0.3.21: svk blocks, it seems
+## Only with 0.4.1: svk info blocks

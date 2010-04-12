@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/FSSM-SOAPClient-\d"
+pl:
+  expect:
+    - "\QShould I run network tests?"
+    - "n\n"

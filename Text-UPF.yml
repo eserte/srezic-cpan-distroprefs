@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Text-UPF-\d"
+pl:
+  expect:
+    - "\QWord Wrap populated output to this many columns"
+    - "80\n"
+    - "\QDo you want UPF.pm to be able to retrieve forms from a database"
+    - "no\n"

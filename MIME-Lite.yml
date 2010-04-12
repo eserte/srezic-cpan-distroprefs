@@ -1,0 +1,10 @@
+---
+match:
+  distribution: "/MIME-Lite-\d"
+pl:
+  eexpect:
+    mode: anyorder
+    timeout: 1
+    talk:
+      - "\QAdd prereqs? [Yes]"
+      - "\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/IO-Lambda-\d"
+pl:
+  expect:
+    - "\QDo you want to enable these tests? [y]"
+    - "\n"

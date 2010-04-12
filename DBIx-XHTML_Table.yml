@@ -1,0 +1,5 @@
+--- 
+match:
+  module: "^DBIx::XHTML_Table$"
+test:
+  expect: ["\QTest database? [n]\E", "\n"]

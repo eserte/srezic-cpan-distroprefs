@@ -1,0 +1,14 @@
+---
+match:
+  distribution: "/Asterisk-CoroManager-\d"
+pl:
+  expect:
+    - "\QSpecify AMI host   for test: [localhost ]"
+    - "\n"
+    - "\QSpecify AMI port   for test: [5038 ]"
+    - "\n"
+    - "\QSpecify AMI user   for test:"
+    - "\n"
+    - "\QSpecify AMI secret for test:"
+    - "\n"
+

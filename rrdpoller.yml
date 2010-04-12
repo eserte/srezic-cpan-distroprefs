@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/rrdpoller-\d"
+pl:
+  args:
+    - DEFAULTS

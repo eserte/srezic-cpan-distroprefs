@@ -1,0 +1,18 @@
+---
+match:
+  distribution: "/BerkeleyDB-\d"
+  perlconfig:
+    archname: i386-freebsd
+pl:
+  env:
+    BERKELEYDB_INCLUDE: /usr/local/include/db42
+    BERKELEYDB_LIB: /usr/local/lib/db42
+---
+match:
+  distribution: "/BerkeleyDB-\d"
+  perlconfig:
+    archname: amd64-freebsd
+pl:
+  env:
+    BERKELEYDB_INCLUDE: /usr/local/include/db44
+    BERKELEYDB_LIB: /usr/local/lib/db44

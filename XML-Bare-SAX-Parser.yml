@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/XML-Bare-SAX-Parser-\d"
+pl: 
+  expect:
+    - "\QDo you want to modify ParserDetails.ini? [Y]\E"
+    - "\n"

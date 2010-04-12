@@ -1,0 +1,22 @@
+--- 
+match:
+  distribution: "/Math-Pari-\d"
+  env:
+    HOST: "biokovo-amd64.(herceg.de|rezic.de)"
+pl:
+  commandline: env FTP_PASSIVE=1 perl Makefile.PL
+  eexpect:
+    timeout: 7
+    talk:
+      - "\QFetch? (y/n, press Enter)"
+      - "y\n"
+comment: "need passive ftp here at home"
+--- 
+match:
+  distribution: "/Math-Pari-\d"
+pl:
+  eexpect:
+    timeout: 7
+    talk:
+      - "\QFetch? (y/n, press Enter)"
+      - "y\n"

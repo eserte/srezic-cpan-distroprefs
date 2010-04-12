@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WWW-Dilbert-\d"
+pl:
+  expect:
+    - "\QSend this anonymous information?"
+    - "n\n"

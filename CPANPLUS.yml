@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "KANE/CPANPLUS-0.8601.tar.gz"
+disabled: 1
+comment: "The t/20_CPANPLUS-Dist-MM.t test runs forever, at least on big installations"

@@ -1,0 +1,8 @@
+--- 
+match:
+  distribution: "/SOAP-\d"
+test:
+  expect:
+    - "\QDo you want me to skip this test? [no]"
+    - "yes\n"
+comment: "It seems that the online test needs root privileges because of sending a real ping"

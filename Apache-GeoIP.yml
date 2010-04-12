@@ -1,0 +1,12 @@
+---
+match:
+  distribution: "/Apache-GeoIP-\d"
+pl:
+  expect:
+    - "\QShould I use the GeoIP.dat under /usr/local/share/GeoIP"
+    - "\n"
+    - "\QAdd mod_perl-2 [v 1.999022] to prerequisites"
+    - "no\n"
+    - "\QAdd mod_perl-1 [v 1.26] to prerequisites"
+    - "yes\n"
+

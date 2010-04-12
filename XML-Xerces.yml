@@ -1,0 +1,17 @@
+---
+match:
+  distribution: "/XML-Xerces-\d"
+  perlconfig:
+    archname: freebsd
+pl:
+  env:
+    XERCES_LIB: "/usr/local/lib"
+    XERCES_INCLUDE: "/usr/local/include"
+    MAKE: gmake
+---
+match:
+  distribution: "/XML-Xerces-\d"
+pl:
+  env:
+    XERCES_LIB: "/usr/local/lib"
+    XERCES_INCLUDE: "/usr/local/include"

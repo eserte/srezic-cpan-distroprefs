@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Palm-Ztxt-\d"
+pl:
+  expect:
+    - "\Qmake_ztxt home direcotry [./makeztxt-1.62]"
+    - "\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/OpenPlugin-\d"
+pl:
+  expect:
+    - "\Q[d]one"
+    - "d\n"

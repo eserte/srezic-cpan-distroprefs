@@ -1,0 +1,28 @@
+--- 
+match:
+  distribution: "/Wx-0\.8[012]\.tar\.gz"
+  perlconfig:
+    archname: freebsd
+disabled: 1
+comment: "Endless recursion in all test files"
+--- 
+match:
+  distribution: "/Wx-0\.8[34]\.tar\.gz"
+  perlconfig:
+    archname: freebsd
+disabled: 1
+comment: "Test failures - do not bother installing it at all"
+--- 
+match:
+  distribution: "/Wx-0\.87\.tar\.gz"
+  perlconfig:
+    archname: freebsd
+disabled: 1
+comment: "Test failures (ld problems?)"
+--- 
+match:
+  distribution: "/Wx-0\.(89|92)\.tar\.gz"
+  perlconfig:
+    archname: freebsd
+disabled: 1
+comment: "At least builds and the test failures does not look so bad anymore, but still a waste of time"

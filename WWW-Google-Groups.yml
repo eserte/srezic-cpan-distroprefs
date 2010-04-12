@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WWW-Google-Groups-\d"
+pl:
+  expect:
+    - "\QPlease set your PROXY server for faster testing"
+    - "\n"

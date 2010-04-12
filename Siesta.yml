@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Siesta-\d"
+pl:
+  expect:
+    - "\Qwhere do we install to guv"
+    - "\n"

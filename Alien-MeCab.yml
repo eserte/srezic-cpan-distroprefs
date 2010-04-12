@@ -1,0 +1,15 @@
+---
+match:
+  distribution: "/Alien-MeCab-\d"
+pl:
+  eexpect:
+    reuse: 1
+    mode: anyorder
+    timeout: 5
+    talk:
+      - "\QMecab source directory has not been unpacked yet. Unpack it now? [y]"
+      - "\n"
+      - "\QNo config.status found. Run MeCab's configure now? [y]"
+      - "\n"
+      - "\QWould you like to pass any arguments to configure?"
+      - "\n"

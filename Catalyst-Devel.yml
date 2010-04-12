@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Catalyst-Devel-\d"
+  perlconfig:
+    version: "^5\.10\.0"
+pl:
+  commandline: env CATALYST_DEVEL_NO_510_CHECK=1 perl Makefile.PL

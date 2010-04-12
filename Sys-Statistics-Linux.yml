@@ -1,0 +1,6 @@
+--- 
+match:
+  distribution: "/Sys-Statistics-Linux-"
+  perlconfig:
+    archname: -freebsd
+disabled: 1

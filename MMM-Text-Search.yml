@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/MMM-Text-Search-\d"
+test:
+  expect:
+    - "^\Q:"
+    - "1\n"

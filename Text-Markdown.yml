@@ -1,0 +1,22 @@
+---
+match:
+  distribution: "/Text-Markdown-\d"
+pl:
+  expect:
+    - "\QDo you want to install 'Markdown.pl'? [n]"
+    - "\n"
+    - "\QDo you want to install 'MultiMarkdown.pl'? [n]"
+    - "\n"
+## Not asked anymore???
+#make:
+#  expect:
+#    - "\QDo you want to install 'Markdown.pl'? [n]"
+#    - "\n"
+#    - "\QDo you want to install 'MultiMarkdown.pl'? [n]"
+#    - "\n"
+#test:
+#  expect:
+#    - "\QDo you want to install 'Markdown.pl'? [n]"
+#    - "\n"
+#    - "\QDo you want to install 'MultiMarkdown.pl'? [n]"
+#    - "\n"

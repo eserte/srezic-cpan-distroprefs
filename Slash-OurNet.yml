@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Slash-OurNet-\d"
+pl:
+  expect:
+    - "\QAutomatically install Slash::OurNet's prerequisites from CPAN"
+    - "\n"

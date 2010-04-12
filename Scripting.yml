@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Scripting-\d"
+pl:
+  expect:
+    - "\QDo you want JavaScript support"
+    - "\n"
+    - "\QDo you want to install the sign_script.pl tool"
+    - "\n"

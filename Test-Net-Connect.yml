@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Test-Net-Connect-\d"
+pl:
+  expect:
+    - "\Qhost:port"
+    - "\n"
+    - "\Qip:port"
+    - "\n"
+    - "\Qhost:port"
+    - "\n"

@@ -1,0 +1,30 @@
+---
+match:
+  distribution: "/DBI-([2-9]\.|1\.[7-9]|1\.6[1-9]|1\.60[5-9])"
+  perlconfig:
+    version: "^5\.6\."
+goto: "TIMB/DBI-1.604.tar.gz"
+--- 
+match:
+  distribution: "/DBI-\d+"
+  perlconfig:
+    version: "^5\.6\."
+pl:
+  expect:
+    - "Press return to continue..."
+    - "\n"
+# Otherwise the build stops after building Storable...
+depends:
+  requires:
+    Storable: 0
+--- 
+comment: "The patch by Steve Peters was posted to P5P 2006-10-23"
+match:
+  distribution: "^\QTIMB/DBI-1.52.tar.gz\E$"
+patches:
+  - ANDK/patches/DBI-1.52-SMPETERS-01.patch
+--- 
+match:
+  distribution: "^\QTIMB/DBI-1.53.tar.gz\E$"
+patches:
+  - ANDK/patches/DBI-1.53-NWCLARK-01.patch.gz

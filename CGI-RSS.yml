@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/CGI-RSS-\d"
+pl:
+  expect:
+    - "\QSubmit sample rss to W3 for validation? [no]"
+    - "\n"

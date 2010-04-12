@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Apache-Filter-\d"
+pl:
+  expect:
+    - "\Q('!' to skip)"
+    - "!\n"

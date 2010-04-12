@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Coro-\d+"
+pl:
+  expect:
+    - "Skip further questions and use defaults"
+    - "y\n"
+

@@ -1,0 +1,9 @@
+---
+comment: "Unfortunately this does not work. Tk-JPEG.yml always wins..."
+match:
+  module: "^Tk::PNG$"
+  perlconfig:
+    version: "^5\.6\."
+
+goto: "NI-S/Tk-PNG-2.005.tar.gz"
+

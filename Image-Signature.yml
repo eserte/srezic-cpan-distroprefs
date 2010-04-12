@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Image-Signature-\d"
+test:
+  expect:
+    - "\QPlease specify the path of an image file [leave it blank to skip]:"
+    - "\n"
+    - "\QPlease specify the path of another image file for comparison [leave it blank to skip]:"
+    - "\n"

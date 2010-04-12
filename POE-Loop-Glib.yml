@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/POE-Loop-Glib-\d"
+pl:
+  expect:
+    - "\QWould you like to skip the network tests"
+    - "\n"

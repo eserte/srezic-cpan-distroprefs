@@ -1,0 +1,15 @@
+--- 
+match:
+  distribution: "/Alzabo-\d"
+pl:
+  expect:
+    - "\QAlzabo root?"
+    - "/tmp\n"
+    - "\QDo you want to use the MySQL driver?"
+    - "yes\n"
+    - "\QDo you want to use the PostgreSQL driver?"
+    - "yes\n"
+    - "\QDo tests with Mysql RDBMS?"
+    - "no\n"
+    - "\QDo tests with Postgres RDBMS?"
+    - "no\n"

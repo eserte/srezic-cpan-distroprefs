@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/AcePerl-\d"
+pl:
+  expect:
+    - "\QEnter your choice:  [1]"
+    - "\n"
+    - "\QDo you want to install Ace::Browser?  [n]"
+    - "\n"

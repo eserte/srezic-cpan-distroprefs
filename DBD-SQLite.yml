@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/DBD-SQLite-1\.14\.tar"
+depends:
+  configure_requires:
+    DBI: 0

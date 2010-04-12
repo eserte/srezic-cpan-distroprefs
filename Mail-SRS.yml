@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Mail-SRS-\d"
+pl:
+  expect:
+    - "\QDo you want to install 'srs'"
+    - "n\n"
+    - "\QDo you want to install 'srsd'"
+    - "n\n"
+    - "\QDo you want to install 'srsc'"
+    - "n\n"

@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/TaskForest-1\.3[0123]\."
+disabled: 1
+comment: "Hangs in 25 test"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WWW-WhitePages-\d"
+pl:
+  expect:
+    - "Import CPAN Author"
+    - "n\n"

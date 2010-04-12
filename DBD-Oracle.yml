@@ -1,0 +1,5 @@
+--- 
+match:
+  distribution: "/DBD-Oracle-\d"
+disabled: 1
+comment: "I don't have Oracle installed nowhere"

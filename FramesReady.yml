@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/FramesReady-\d"
+pl:
+  expect:
+    - "\QDo you want to enable these tests"
+    - "\n"

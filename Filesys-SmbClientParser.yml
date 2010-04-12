@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Filesys-SmbClientParser-\d"
+pl:
+  expect:
+    - "\Qto make read write access"
+    - "\n"

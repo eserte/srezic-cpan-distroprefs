@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WWW-Dictionary-\d"
+pl:
+  expect:
+    - "\QDo you want to run live tests"
+    - "\n"

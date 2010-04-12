@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Chart-Graph-\d"
+pl:
+  expect:
+    - "\QEnter (space separated) graphing drivers to test:"
+    - "gnuplot\n"

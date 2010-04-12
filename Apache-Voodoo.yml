@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Apache-Voodoo-\d"
+pl:
+  expect:
+    - "\QWould you like me to add the dependencies to enable this feature? (y/n) [y]"
+    - "\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Archive-Tar-Streamed-\d"
+pl:
+  expect:
+    - "\QEnter name of tar program"
+    - "\n"

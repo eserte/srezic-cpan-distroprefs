@@ -1,0 +1,10 @@
+---
+match:
+  distribution: "/DbFramework-\d"
+pl:
+  expect:
+    - "\Qeturn to continue"
+    - "\n"
+    - "\QEnter (space seperated) DBI drivers to test"
+    - " \n"
+

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Log-Dispatch-DesktopNotification-\d"
+pl:
+  expect:
+    - "\Qsupport GTK+ notifications? [yes]"
+    - "\n"

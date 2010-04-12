@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/POE-Component-Client-NSCA-\d"
+pl:
+  expect:
+    - "\QDo you want encryption ( requires Mcrypt ) [y/N]? [N]"
+    - "\n"

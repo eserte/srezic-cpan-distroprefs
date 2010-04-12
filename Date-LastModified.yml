@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Date-LastModified-\d"
+test:
+  expect:
+    - "\QMySQL database name, or (none) if no MySQL"
+    - "\n"
+    - "\QOracle database name, or (none) if no Oracle"
+    - "\n"
+    - "\QSQLite database name, or (none) if no SQLite"
+    - "\n"

@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Module-Signature-\d"
+  env:
+    PERL_BATCH: yes
+pl:
+  expect:
+    - "\QImport PAUSE and author keys to GnuPG"
+    - "n\n"

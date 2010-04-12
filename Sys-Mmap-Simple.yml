@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Sys-Mmap-Simple-\d"
+disabled: 1
+comment: "Marked as deprecated, at least 0.14"

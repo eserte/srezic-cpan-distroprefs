@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Module-Text-Template-Build-\d"
+pl:
+  expect:
+    - "\QCreate a default template in your home directory? [no ]"
+    - "\n"

@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Nagios-WebTransact-\d"
+pl:
+  expect:
+    - "\QPlease enter the name of any required Proxy server [if necessary for Internet access]"
+    - "\n"
+    - "\QPlease enter the name of the account"
+    - "\n"
+    - "\QPlease enter the name of the password"
+    - "\n"

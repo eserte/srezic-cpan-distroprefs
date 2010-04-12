@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/Proc-ProcessTable-0.45.tar.gz"
+patches:
+  - SREZIC/patches/Proc-ProcessTable-0.45-SREZIC-01.patch
+comment: "Fixing FreeBSD stuff..."

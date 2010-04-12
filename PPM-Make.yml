@@ -1,0 +1,11 @@
+--- 
+match:
+  distribution: "/PPM-Make-\d"
+pl:
+  eexpect:
+    mode: anyorder
+    talk:
+      - "\QAdd SOAP::Lite? [yes]"
+      - "\n"
+      - "\QAdd PPM? [no]"
+      - "\n"

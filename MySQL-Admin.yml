@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/MySQL-Admin-\d"
+pl:
+  expect:
+    - "\QFiles chmod:  0755 [yes ]"
+    - "\n"

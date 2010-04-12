@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/SQL-Statement-\d"
+pl:
+  env:
+    SQL_STATEMENT_WARN_UPDATE: sure
+comment: "Introduced in 1.20 or so because of incompatible changes"

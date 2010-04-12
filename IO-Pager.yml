@@ -1,0 +1,8 @@
+--- 
+match:
+  module: "^IO::Pager$"
+test: 
+  expect:
+    - "\QIs this reasonable? [Yn]\E"
+    - "\n"
+

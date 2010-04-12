@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/XML-Smart-\d"
+test:
+  expect:
+    - "\QDo you want to test XML::Smart with an URL\E"
+    - "n\n"

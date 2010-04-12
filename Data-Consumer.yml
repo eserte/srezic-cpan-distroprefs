@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Data-Consumer-\d"
+pl:
+  expect:
+    - "\QRun MySQL tests? [yes/no] [no]"
+    - "\n"

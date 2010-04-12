@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Heap-Simple-Perl-\d"
+pl:
+  expect:
+    - "\QRun Heap::Simple benchmarks during 'make test' ? [n]"
+    - "y\n"
+    - "\QBenchmarks against other heap modules that happen to be installed on this machine during 'make test' ? [n]"
+    - "y\n"

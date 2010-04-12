@@ -1,0 +1,5 @@
+--- 
+match:
+  distribution: "/Tcl-\d"
+pl:
+  args: ["--tclsh", "tclsh8.4"]

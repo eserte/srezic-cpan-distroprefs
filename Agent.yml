@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Agent-\d"
+pl:
+  expect:
+    - "\QPress <enter>"
+    - "\n"

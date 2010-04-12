@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Net-TCPwrappers-\d"
+pl:
+  expect:
+    - "\Qdo you want to link against"
+    - "\n"
+    - "\Qdo you want to use"
+    - "\n"

@@ -1,0 +1,12 @@
+---
+match:
+  distribution: "/DBIx-FullTextSearch-\d"
+pl:
+  expect:
+    - "\QThe dsn for tests"
+    - "undef\n"
+    - "\QThe username:"
+    - "\n"
+    - "\QThe password:"
+    - "\n"
+comment: "Using undef is documented, but does not seem to work..."

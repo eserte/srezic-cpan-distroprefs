@@ -1,0 +1,10 @@
+---
+match:
+  distribution: "/Text-GenderFromName-\d"
+pl:
+  eexpect:
+    reuse: 1
+    mode: anyorder
+    talk:
+      - "\QWould you like me to make Text::DoubleMetaphone"
+      - "\n"

@@ -1,0 +1,13 @@
+---
+match:
+  distribution: "/Teamspeak-\d"
+pl:
+  expect:
+    - "\Quse telnet to connect"
+    - "\n"
+    - "\Quse mysql to connect"
+    - "\n"
+    - "\Quse sqlite to connect"
+    - "\n"
+    - "\Quse Web-Interface to connect"
+    - "\n"

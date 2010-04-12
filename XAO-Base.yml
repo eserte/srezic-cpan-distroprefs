@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/XAO-Base-\d"
+pl:
+  expect:
+    - "\QDirectory name"
+    - "\n"
+    - "\Is that OK"
+    - "y\n"

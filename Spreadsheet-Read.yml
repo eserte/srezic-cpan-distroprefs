@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Spreadsheet-Read-\d"
+pl:
+  expect:
+    - "Do you want to install 'xlscat'"
+    - "y\n"
+    - "Do you want to install 'ss2tk'"
+    - "y\n"
+    - "\QDo you want to install 'xls2csv'"
+    - "\n"

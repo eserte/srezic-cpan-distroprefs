@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/DBM-Deep-1\.0013\."
+depends:
+  requires:
+    FileHandle::Fmode: 0

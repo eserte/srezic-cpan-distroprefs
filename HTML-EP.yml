@@ -1,0 +1,17 @@
+---
+match:
+  distribution: "/HTML-EP-\d"
+pl:
+  expect:
+    - "\QEnter an email address for sending test mails:  [none]"
+    - "\n"
+    - "\QEnter a mail server for sending mails:  [127.0.0.1]"
+    - "\n"
+    - "\Qmode:  [^(?:127\.0\.0\.1$|192\.168\.)]"
+    - "\n"
+    - "\QEP:  [\.ep$]"
+    - "\n"
+    - "\Qmod_perl. Shall I optimize for fast startup, aka mod_perl?  [y]"
+    - "\n"
+    - "\QEnter the default language, for example de (German) or en (English):  [de]"
+    - "\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Graph-Layout-Aesthetic-\d"
+pl:
+  expect:
+    - "\QInstall gloss.pl, a commandline graph layouter"
+    - "y\n"

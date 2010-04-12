@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/NetSuite-\d"
+pl:
+  expect:
+    - "\Q(This is highly recommended.) [yes]"
+    - "\n"
+    - "\QDo you want to run the test suite? [yes]"
+    - "\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WebTools-\d"
+pl:
+  expect:
+    - "\QPlease specify directory"
+    - "/tmp/webtools"

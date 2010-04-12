@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/App-Framework-\d"
+pl:
+  expect:
+    - "\QEnter your choices, separated by spaces (0=none, a=all): [0]"
+    - "\n"

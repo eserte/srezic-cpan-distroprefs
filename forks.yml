@@ -1,0 +1,8 @@
+--- 
+match:
+  module: "^forks$"
+
+pl:
+  expect:
+    - "\Qload forks and forks::shared? [no]"
+    - "\n"

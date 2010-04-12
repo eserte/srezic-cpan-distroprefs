@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Test-Data-1\.21\.tar\.gz"
+disabled: 1
+comment: "see https://rt.cpan.org/Ticket/Display.html?id=45967"

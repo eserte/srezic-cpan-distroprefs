@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Test-NoWarnings-0\.84\.tar\.gz"
+patches:
+  - SREZIC/patches/Test-NoWarnings-0.84-SREZIC-01.patch

@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/Carp-Clan-([01234]\.|5\.[0123456789]\.)"
+pl: 
+  expect:
+    - "\QAdd Object::Deadly 0.08+ to prerequisites for testing? [Ny] [no]"
+    - "\n"

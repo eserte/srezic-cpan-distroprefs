@@ -1,0 +1,9 @@
+--- 
+match:
+  distribution: "/POE-Component-Server-NSCA-\d"
+pl:
+  expect:
+    - "\QDo you want encryption ( requires Mcrypt ) [y/N]? [N]"
+    - "\n"
+    - '\QSpecify the path to the "send_nsca" program (leave blank to skip) []? []'
+    - "\n"

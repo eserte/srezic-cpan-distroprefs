@@ -1,0 +1,11 @@
+--- 
+comment: "do not require Apache::Test, because I don't have modperl everywhere"
+match:
+  distribution: "/CGI-Application-Dispatch-\d"
+pl:
+  eexpect:
+    reuse: 1
+    mode: anyorder
+    talk:
+      - "\QInstall Apache::Test now from CPAN? [y]"
+      - "n\n"

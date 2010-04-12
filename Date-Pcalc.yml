@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Date-Pcalc-[0-5]\."
+comment: no questions
+---
+match:
+  distribution: "/Date-Pcalc-\d"
+pl:
+  expect:
+    - "\QInstall C/XS version (answer 'c') or pure-Perl version (answer 'p')?"
+    - "p\n"

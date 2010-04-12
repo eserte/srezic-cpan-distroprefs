@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/WordNet-QueryData-\d"
+pl:
+  env:
+    WNHOME: /usr/local/share/WordNet
+test:
+  env:
+    WNHOME: /usr/local/share/WordNet

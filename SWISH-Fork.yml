@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/SWISH-Fork-\d"
+pl:
+  expect:
+    - "\QEnter the location of a the swish-e executable"
+    - "\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Games-Go-Sgf2Dg-\d"
+pl:
+  expect:
+    - "\QPlease select one:  [q]"
+    - "\n"

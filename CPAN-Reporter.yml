@@ -1,0 +1,12 @@
+--- 
+match:
+  distribution: "/CPAN-Reporter-1.04.tar.gz"
+  perlconfig:
+    version: "^5\.00505$"
+patches:
+  - SREZIC/patches/CPAN-Reporter-1.04-SREZIC-01.patch
+--- 
+match:
+  distribution: "/CPAN-Reporter-1.1701.tar.gz"
+disabled: 1
+comment: "ALERT: Stop CPAN-Reporter 1.1701 from running, sends bogus fail reports; http://rt.cpan.org/Ticket/Display.html?id=39240"

@@ -1,0 +1,15 @@
+--- 
+match:
+  distribution: "/POE-Component-Server-SimpleHTTP-\d"
+pl:
+  eexpect:
+    reuse: 1
+    mode: anyorder
+    timeout: 2
+    talk:
+      - "\QDo you want to test streaming ( requires POE::Component::Client::HTTP )"
+      - "\n"
+      - "\QDo you want SSL support ( requires POE::Component::SSLify )"
+      - "\n"
+      - "\QDo you want PreFork support ( requires IPC::Shareable )"
+      - "\n"

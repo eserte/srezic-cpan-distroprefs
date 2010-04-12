@@ -1,0 +1,28 @@
+--- 
+match:
+  distribution: "/Mail-Box-\d"
+pl:
+  eexpect:
+    timeout: 2
+    mode: anyorder
+    talk:
+      - "\QDo you want to install Mail::SpamAssassin? yes/no/all [y]"
+      - "n\n"
+      - "\QDo you want to install Mail::Internet? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to install Mail::Box::Parser::C? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to install Mail::Transport::Dbx? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to install Mail::IMAPClient? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to install MIME::Entity? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to install HTML::TreeBuilder? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to install Time::HiRes? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to install HTML::FormatText? yes/no/all [y]"
+      - "\n"
+      - "\QDo you want to run the (large set of) tests? yes/no [yes]"
+      - "\n"

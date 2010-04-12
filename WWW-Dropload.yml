@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WWW-Dropload-\d"
+pl:
+  expect:
+    - "\QDo you want to skip the tests?"
+    - "y\n"

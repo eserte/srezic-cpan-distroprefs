@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/tk-zinc-3\.303\.tar.gz"
+patches:
+  - "SREZIC/patches/tk-zinc-3.303-SREZIC-02.patch"
+comment: "FreeBSD has no malloc.h: http://rt.cpan.org/Ticket/Display.html?id=21409"

@@ -1,0 +1,75 @@
+#
+# $Id: SlayMakefile,v 2.13 2009/10/24 15:43:50 eserte Exp $
+#
+
+{
+    use File::chmod qw(symchmod);
+    use CPAN::Kwalify;
+    use Data::Dumper;
+    BEGIN {
+        if (!eval q{
+            use YAML::Syck qw(LoadFile);
+            1;
+        }) {
+            warn "Cannot load YAML::Syck, fallback to YAML...\n";
+            require YAML;
+            YAML->import(qw(LoadFile));
+        }
+    }
+    use Kwalify qw(validate);
+    use Safe;
+}
+
+all:	validate dd-prefs permissions
+
+dd-prefs: { map { s{\.yml$}{.dd}; $_ } glob("*.yml") }
+
+%.dd: %.yml
+	{
+		my($self, $target) = @_;
+		(my $base = $target) =~ s{\.dd$}{};
+		my $file = $base . ".yml";
+	       	print STDERR "$base...\n";
+		my @y = LoadFile($file);
+		open my $ofh, ">", "$target~" or die $!;
+		print $ofh Data::Dumper->new(\@y)->Indent(1)->Useqq(1)->Purity(1)->Sortkeys(1)->Dump or die $!;
+		close $ofh or die $!;
+		rename "$target~", $target or die $!;
+		"";
+	}
+
+permissions:
+	{
+		$File::chmod::UMASK = 0;
+		symchmod "ugo+r", glob("*.yml"), glob("*.dd");
+		"";
+	}
+
+validate:
+	{
+		my @errors;
+		my $distroprefs_path = $INC{"CPAN/Kwalify.pm"};
+		$distroprefs_path =~ s{\.pm$}{/distroprefs.dd};
+		my $cpt = Safe->new;
+		our $VAR1;
+		$cpt->share('$VAR1');
+		$cpt->rdo($distroprefs_path);
+		my $schema = $VAR1;
+		die "Cannot load schema from $distroprefs_path" if !$schema;
+		for my $yml (glob("*.yml")) {
+			my $data = eval { LoadFile($yml) };
+			if (!$data) {
+				push @errors, "Errors while loading $yml: $@";
+				next;
+			}
+			push @errors, $@ if (!eval { validate($schema, $data) });
+			if (eval { require YAML; 1 }) {
+				if (!eval { YAML::LoadFile($yml) }) {
+					push @errors, "Errors while loading $yml with YAML.pm: $@";
+					next;
+				}
+			}
+		}
+		if (@errors) { die "Found errors:\n" . join("\n", @errors) }
+		else { "Validation OK.\n" }
+	}

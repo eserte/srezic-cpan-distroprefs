@@ -1,0 +1,11 @@
+--- 
+match:
+  distribution: "/Wais-\d"
+  perlconfig:
+    archname: "-freebsd"
+comment: "With all these things, it still does not compile or pass the basic tests... Note that the freewais-sf freebsd package seems to be broken, but the port seems ok"
+pl:
+  args:
+    - "INC=-I/usr/local/include/freeWAIS-sf"
+    - "LIBS=-L/usr/local/lib/freeWAIS-sf"
+    - "POLLUTE=1"

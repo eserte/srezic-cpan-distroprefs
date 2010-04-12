@@ -1,0 +1,9 @@
+--- 
+match:
+  distribution: "/Getopt-Long-\d+"
+pl:
+  eexpect:
+    mode: anyorder
+    talk:
+      - "\QShall I add the remove instructions?"
+      - "\n"

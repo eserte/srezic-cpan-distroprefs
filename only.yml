@@ -1,0 +1,10 @@
+--- 
+match:
+  module: "^only$"
+pl:
+  eexpect:
+    timeout: 2
+    mode: anyorder
+    talk:
+      - '\QDo you want to use the "suggested" directory (y/n)? [y]'
+      - "\n"

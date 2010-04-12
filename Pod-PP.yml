@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Pod-PP-\d"
+pl:
+  expect:
+    - "\QStrip Carp::Datum calls in installed Pod::PP"
+    - "\n"

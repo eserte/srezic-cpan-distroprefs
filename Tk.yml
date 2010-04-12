@@ -1,0 +1,69 @@
+---
+match:
+  module: "^Tk$"
+  perlconfig:
+    version: "^5\.6\."
+
+goto: "NI-S/Tk800.025.tar.gz"
+
+---
+match:
+  module: "^Tk$"
+  perlconfig:
+    version: "^5\.00505$"
+    archname: "^i386-freebsd$"
+disabled: 1
+comment: "Dumps core while building"
+
+---
+match:
+  module: "^Tk$"
+  perlconfig:
+    version: "^5\.005"
+
+goto: "NI-S/Tk-800.024.tar.gz"
+
+--- 
+match:
+  distribution: "NI-S/Tk-804."
+
+#goto: "SREZIC/Tk-804.027_501.tar.gz"
+disabled: 1
+
+--- 
+match:
+  distribution: "SREZIC/Tk-804."
+  perlconfig:
+    archname: "MSWin32"
+comment: "No truetype support here, no ccache available"
+
+--- 
+match:
+  distribution: "SREZIC/Tk-804."
+  perlconfig:
+    archname: "-freebsd"
+
+pl:
+  # Build with truetype support
+  args: ["XFT=1"]
+
+make:
+  args: ["CC='ccache cc'"]
+
+--- 
+match:
+  distribution: "SREZIC/Tk-804."
+
+pl:
+  # Build with truetype support
+  args: ["XFT=1"]
+
+--- 
+comment: "When building directly from source"
+match:
+  env:
+    PWD: ".*/git-checkouts/Tk$"
+
+pl:
+  # Build with truetype support
+  args: ["XFT=1"]

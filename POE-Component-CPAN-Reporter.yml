@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/POE-Component-CPAN-Reporter-\d"
+pl:
+  expect:
+    - "\QDo you want to enable optional Proc::ProcessTable support"
+    - "n\n"

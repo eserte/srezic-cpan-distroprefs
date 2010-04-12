@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/DBIx-MyParse-\d"
+disabled: 1
+comment: "Needs pre-built mysql or so"
+#pl:
+#  expect:
+#    - "\QPlease provide the path to your MySQL source tree"
+#    - "/usr/ports/databases/mysql50-server/work/mysql-5.0.51a\n"

@@ -1,0 +1,13 @@
+--- 
+match:
+  distribution: "/Filesys-SmbClient-\d"
+pl:
+  expect:
+    - "\QWhere can I find libsmbclient.h"
+    - "\n"
+    - "\QWhere can I find libsmbclient.so"
+    - "\n"
+    - "\QDo you want make tests"
+    - "no\n"
+    - "\QCompile module with trace to STDERR"
+    - "\n"

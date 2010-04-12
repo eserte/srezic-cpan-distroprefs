@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Rudesind-\d"
+pl:
+  expect:
+    - "\QWhere do you want the Mason components for Rudesind installed"
+    - "\n"
+    - "\QWhere do you want the boilerplate Rudesind  configuration file installed"
+    - "\n"

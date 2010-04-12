@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/GD-Chart-\d"
+pl:
+  expect:
+    - "\QBuild JPEG support"
+    - "\n"
+    - "\QBuild Freetype support"
+    - "\n"
+    - "\QBuild XPM support"
+    - "\n"

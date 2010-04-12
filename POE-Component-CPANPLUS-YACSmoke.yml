@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/POE-Component-CPANPLUS-YACSmoke-\d"
+pl:
+  expect:
+    - "\QDo you want to enable optional Proc::ProcessTable support [y/N]? [N]"
+    - "\n"

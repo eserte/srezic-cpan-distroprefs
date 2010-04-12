@@ -1,0 +1,21 @@
+--- 
+match:
+  module: "^GD$"
+  perlconfig:
+    myuname: "gnulinux"
+pl:
+  expect:
+    - "\QWhere is libgd installed? [/usr/lib]\E"
+    - "\n"
+    - "\QBuild JPEG support? [y]\E"
+    - "\n"
+    - "\QBuild PNG support? [y]\E"
+    - "\n"
+    - "\QBuild FreeType support? [y]\E"
+    - "\n"
+    - "\QBuild GIF support? [y]\E"
+    - "\n"
+    - "\QBuild support for animated GIFs? [y]\E"
+    - "\n"
+    - "\QBuild XPM support? [y]\E"
+    - "\n"

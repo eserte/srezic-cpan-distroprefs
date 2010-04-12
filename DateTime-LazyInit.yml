@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/DateTime-LazyInit-1\.0200\."
+pl:
+  expect:
+    - "\QPress return to acknowledge that you've read this warning."
+    - "\n"

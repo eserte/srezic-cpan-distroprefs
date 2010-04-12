@@ -1,0 +1,11 @@
+--- 
+match:
+  distribution: "/Config-(Merge|Loader)-\d"
+pl:
+  eexpect:
+    timeout: 2
+    mode: anyorder
+    reuse: 1
+    talk:
+      - "\QInstall : [y/N] [n]"
+      - "\n"

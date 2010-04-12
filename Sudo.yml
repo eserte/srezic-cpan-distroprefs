@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Sudo-\d"
+disabled: 1
+comment: "Wants a real password"

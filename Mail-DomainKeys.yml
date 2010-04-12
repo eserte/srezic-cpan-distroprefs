@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Mail-DomainKeys-\d"
+pl:
+  eexpect:
+    mode: anyorder
+    talk:
+      - "\QDo you want to enable these tests?"
+      - "y\n"

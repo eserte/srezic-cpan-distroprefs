@@ -1,0 +1,25 @@
+---
+match:
+  distribution: "/NNML-\d"
+pl:
+  expect:
+    - "\QNNML base directory?"
+    - "\n"
+    - "\QNNML active file?"
+    - "\n"
+    - "\QNNML passwd file?"
+    - "\n"
+    - "\QNNML default port?"
+    - "\n"
+    - "\QDefault mirror host?"
+    - "\n"
+    - "\QDefault mirror port?"
+    - "\n"
+    - "\QDefault user on remote server?"
+    - "\n"
+    - "\QDefault user on local server?"
+    - "\n"
+    - "\QDefault passwd on remote server?"
+    - "\n"
+    - "\QDefault passwd on local server?"
+    - "\n"

@@ -1,0 +1,5 @@
+--- 
+match:
+  distribution: "/Data-Dump-Streamer-\d"
+pl:
+  expect: ["\QWould you like me to install the shortcut? (yes/no) [no]\E", "\n"]

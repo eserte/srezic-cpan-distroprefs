@@ -1,0 +1,929 @@
+---
+comment: "namespace clash"
+match:
+  distribution: |
+    ^(?x:
+      .*/CPAN-Index-\d # https://rt.cpan.org/Ticket/Display.html?id=43349
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+---
+comment: "not a threaded perl"
+match:
+  distribution: |
+    ^(?x:
+      .*/Thread-Apartment-\d
+     |.*/Thread-Barrier-\d
+     |.*/Thread-Bless-\d
+     |.*/Thread-Conveyor-\d
+     |.*/Thread-CriticalSection-\d
+     |.*/Thread-Detach-\d
+     |.*/Thread-Isolate-\d
+     |.*/Thread-Queue-Duplex-\d
+     |.*/Thread-RWLock-\d
+     |.*/Thread-Serialize-\d
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  perlconfig:
+    archname: "(i386-freebsd$|i386-freebsd-64int$|amd64-freebsd$)"
+disabled: 1
+--- 
+comment: "Distributions which are known to not work with 5.005"
+match:
+  perlconfig:
+    version: "5.00505"
+  distribution: |
+    ^(?x:
+      INGY/YAML-0\.66\.
+     |GAAS/libwww-perl-5\.808\.
+     |.*/CatalystX?-
+     |.*/Jifty-
+     |.*/MojoMojo-
+     |RJBS/Email-Address-1\.888\.tar\.gz # slow endless loop, it seems
+     |.*/CGI-Application-4\.06\.tar\.gz # interactive CGI queries
+     |.*/RCAPUTO/POE-0\.9999\.tar\.gz # hangs
+     |.*/Email-Address-1\.889\.tar\.gz # hanging tests
+     |.*/IPC-Locker-1\.48[12]\. # mysteriously dies and kills CPAN.pm
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+--- 
+comment: "Distributions which are known to not work with 5.6.x"
+match:
+  perlconfig:
+    version: "^5\.6\.\d"
+  distribution: |
+    ^(?x:
+      .*/CatalystX?-
+     |.*/Jifty-
+     |.*/MojoMojo-
+     |.*/Net-Daemon-0\.43\. # test hangs with 5.6.2 on i386-freebsd
+     |.*/Net-UCP-\d # ExtUtils::AutoInstall is causing problems?
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+--- 
+comment: "Never install perl from CPAN.pm"
+match:
+  distribution: "/perl-5\.(6|7|8|9|10|11|12|13|14|15)\.\d+"
+#  env:
+#    PERL_BATCH: yes
+disabled: 1
+--- 
+comment: "... or parrot ..."
+match:
+  distribution: "/parrot-0\.\d+"
+disabled: 1
+--- 
+comment: "Do not need to test the guerilla"
+match:
+  distribution: "/kurila-\d+"
+disabled: 1
+--- 
+comment: "Archaic OSes, probably will never work with them"
+match:
+  distribution: "/(OS390|OS2|SGI|VMS|vms|AIX|Software-Packager-Aix|HPUX|MPE)-"
+  perlconfig:
+    archname: "(-freebsd|darwin|MSWin32|cygwin|-linux)"
+disabled: 1
+--- 
+comment: "An obsolete OS..."
+match:
+  distribution: |
+    ^(?x:
+     .*/NPRG-
+    |.*/MSN-PersonalMessage-
+    |.*/DBD-ADO-
+    |.*/MSDOS-
+    |.*/libwin32-
+    |.*/Cache-FastMmap-WithWin32-
+    |.*/Win32(API)?-
+    |.*/win-
+    |.*/SystemTray-Applet-Win32-
+    |.*/XML-API-WIX2-\d # needs Windows Installer XML verion 2
+    |.*/Device-Velleman-K8055-\d # "can currently only be installed on Microsoft Windows Platforms"
+    |.*/SkypeAPI-0\.0[0-7]\. # currently windows only
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  perlconfig:
+    archname: "(-freebsd|-linux|darwin)"
+disabled: 1
+--- 
+comment: "this is probably linux-specific"
+match:
+  distribution: |
+    ^(?x:
+     .*/Audio-RaveMP-
+    |.*/Curses-UI-Mousehandler-GPM-
+    |.*/DPKG-Tools-
+    |.*/Device-LabJack-
+    |.*/IPTables-
+    |.*/IO-Epoll-
+    |.*/LSF-Batch-
+    |.*/Linux-Distribution-
+    |.*/Linux-DVB-DVBT-
+    |.*/Linux-Inotify-
+    |.*/Linux-stat-
+    |.*/Linux-Svgalib-
+    |.*/Linux-Input-Info-
+    |.*/Linux-Bootloader-
+    |.*/Linux-USBKeyboard-
+    |.*/Linux-SysInfo-
+    |.*/Linux-Input-Wiiuse- # pity
+    |.*/Linux-Fuser-
+    |.*/Linux-Unshare-
+    |.*/Net-Int-Stats- # explicitely checks for $^O eq linux
+    |.*/Passwd-Linux-
+    )\d|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  perlconfig:
+    archname: "(-freebsd|darwin|MSWin32|cygwin)"
+disabled: 1
+---
+comment: "FreeBSD specific"
+match:
+  distribution: |
+    ^(?x:
+     .*/FreeBSD-i386-Ptrace-
+    )\d|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+disabled: 1
+--- 
+comment: "Mac specific"
+match:
+  distribution: "/((Mac|MacOSX)-\D+|DBD-DtfSQLmac-\d|Net-Rendezvous-Publish-Backend-Apple-|AudioCD-Mac-)"
+  perlconfig:
+    archname: "(-freebsd|-linux|MSWin32|cygwin)"
+disabled: 1
+--- 
+comment: "Cygwin specific"
+match:
+  distribution: "/(Filesys-CygwinPaths)-\d"
+  perlconfig:
+    archname: "(-freebsd|darwin|MSWin32|linux)"
+disabled: 1
+--- 
+comment: "this is solaris-specific"
+match:
+  distribution: "/(IPC-Door-|Solaris-|Sun-Solaris-|Passwd-Solaris-|Software-Packager-Svr4-)"
+  perlconfig:
+    archname: "(-freebsd|MSWin32|cygwin|darwin|linux)"
+disabled: 1
+--- 
+match:
+  distribution: "/Devel-DTrace-\d"
+  perlconfig:
+    archname: "(-freebsd|-linux|MSWin32|cygwin)"
+disabled: 1
+--- 
+comment: "test hangs on t/04_fork"
+match:
+  distribution: "^MLEHMANN/IO-AIO-"
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+--- 
+comment: "cups installation seems to be broken on my machine"
+match:
+  distribution: "/Net-CUPS-\d+"
+  perlconfig:
+    archname: "amd64-freebsd"
+disabled: 1
+--- 
+comment: "no filesystem with quotas available"
+match:
+  distribution: "/Quota-\d+"
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+---
+comment: "no gnome old old gnome here"
+match:
+  distribution: "/(OIS-|Device-Cdio-v|Gnome2-Wnck-)\d+"
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+--- 
+comment: "freebsd has only rpm3, my system at least"
+match:
+  distribution: "/RPM4-\d"
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+--- 
+comment: "assumes GNU make, hangs with BSD make"
+match:
+  distribution: "/rpm-build-perl-0\.6\.5\."
+  perlconfig:
+    archname: bsd
+disabled: 1
+--- 
+comment: "Interactive, needs parameter from command line, maybe because of old CGI?"
+match:
+  distribution: "/FormValidator-Simple-0\.22\.tar.gz"
+  perlconfig:
+    version: "^5\.00505$"
+disabled: 1
+--- 
+comment: "Not on my FreeBSD system(s)"
+match:
+  perlconfig:
+    archname: "-freebsd"
+  distribution: |
+    ^(?x:
+     .*/QtGui-\d
+    |.*/QtCore-\d # needs probably qt4-corelib, which is only available as port, not as package
+    |.*/Ogre-\d # no ogre installed here (freebsd), looks large, needs gnome
+    |.*/Ogre-BetaGUI-\d # dito
+    |.*/Physics-Udunits2-\d # no port for udunits
+    |.*/mod_perl-2\. # no apache2 on my machines
+    |.*/libapreq2-\d # no apache2 on my machines
+    |.*/AuthLLDAPSympa-\d # needs apache2
+    |.*/Apache2- # - dito -     
+    |.*/Apache-HTTunnel-\d # - dito -
+    |.*/Net-Z3950-ZOOM- # need a new version of yaz (in freebsd package there is only an old one)
+    |.*/Net-Z3950-SimpleServer- # need a new version of yaz (in freebsd package there is only an old one)
+    |.*/Speech-Recognizer-SPX-\d # missing prereqs on my freebsd system
+    |.*/UnixODBC-\d # unixODBC exists on FreeBSD, but conflicts with iodbc, so skip this one
+    |.*/Text-Scws-\d # what is libscws? does not seem to exist in the freebsd ports
+    |.*/HTML-CTPP2-\d # needs ctpp2 library, I have only ctpp
+    |.*/CIAO-Lib-Param-\d # needs cxcparam lib
+    |.*/Sys-Virt-\d # needs libvirt, which does not exist in FreeBSD's ports
+    |.*/Data-LetterTree-\d # needs lettertree lib, not a freebsd port
+    |.*/Convert-Ethiopic-\d # needs libeth, not in freebsd
+    |.*/Gtk2-ImageView-\d # missing library in freebsd
+    |.*/String-Thai-Segmentation-\d # needs libwordcut
+    |.*/Text-Migemo-\d # needs libmigemo
+    |.*/Tie-Judy-\d # needs libJudy
+    |.*/Gtk2-WebKit-\d # needs webkit-1.0
+    |.*/IBM-LoadLeveler- # only linux and aix
+    |.*/text_hunspell_\d # is this hunspell? but probably not worth...
+    |.*/IPTables-IPv4-DBTarpit-0\.38\. # linux specific?
+    |.*/Net-DNS-SEC-Validator-\d # needs libval-config or so
+    |.*/Mobile-P2kMoto-\d # needs -lp2kmoto
+    |.*/Bio-Emboss-\d # needs a lot of libs
+    |.*/PDFLib-\d # a package exists, but is not installed properly here (pdflib_pl.pm is missing)
+    |.*/re-engine-Plan9-\d # strange libs needed
+    |.*/OpenGuides-\d # needs openguides
+    |.*/Calendar-CSA-\d # needs libcal etc.
+    |.*/NISPlus-\d # needs libnisdb etc.
+    |.*/Qt-\d # qt libs seem to be missing here...
+    |.*/Gtk2-Phat-\d # port exists, but no package...
+    |.*/WSO2-WSF-Perl-v?\d # needs a lot of axis2-related libs
+    |.*/File-Scan-ClamAV-\d # needs clamd/clamav
+    |.*/OpenOffice-UNO-\d # needs openoffice sdk
+    |.*/Clutter-\d # no freebsd port?
+    |.*/Text-Kakasi-\d # needs libkakasi, no port
+    |.*/Text-MeCab-\d # mecab port exists, but no package
+    |.*/sapnwrfc-\d # no port?
+    |.*/Gtk2-Ex-Geo-\d # needs libral, no port
+    |.*/Geo-Vector-\d # needs libral, no port
+    |.*/Geo-Raster-\d # needs libral, no port
+    |.*/PITA-Guest-Driver-Qemu-\d # no qemu as package
+    |.*/Statistics-Suggest-\d # no freebsd port
+    |.*/Algorithm-SVMLight-\d # port on freebsd is broken
+    |.*/Crypt-PBC-\d # port exists, but no package, and X11 problems...
+    |.*/CORBA-omniORB-\d # a lot of omniorb things need, did not check for availability of port...
+    |.*/Statistics-Cluto-\d # no cluto for freebsd
+    |.*/ARSperl-\d
+    |XXXX.*/Archive-ZZip-\d # not valid anymore: port exists, but currently does not build
+    |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
+    |.*/PHP-\d # no PHP installed
+    |.*/Teradata-SQL-\d # many dependencies
+    |.*/Text-CSV-LibCSV-\d # no available as a freebsd port
+    |XXXX.*/Ganglia-Gmetric-\d # not valid anymore: needs ganglia-monitor-core port, N/A as package
+    |.*/Audio-PortAudio-\d # portaudio not installed here
+    |.*/Verilog-Pli-\d # needs some env variable set to find some header file
+    |.*/Math-MPC-\d # needs mpc library, not available as port
+    |.*/X11-Aosd-\d # no port
+    |.*/TCC-\d # freebsd: tcc only for i386 available
+    |.*/C-TCC-\d # freebsd: tcc only for i386 available
+    |.*/Net-Z3950-Simple2ZOOM-\d # freebsd port version of yaz is too old
+    |.*/IPTables-libiptc-\d # no freebsd package, probably linux-centric
+    |.*/Crypt-Cracklib-\d # exists as freebsd port, but crack.h is not installed by default
+    |.*/Lingua-PT-Speaker-\d # needs some mbrola library
+    |.*/pcsc-perl-\d+ # needs something running (but freebsd port is available)
+    |.*/Device-Velleman-K8055-Fuse-\d # I don't think that I can use this
+    |.*/PDF-OCR-\d # needs tesseract
+    |.*/LibTracker-Client-\d # freebsd package exists, but hard too install on my old 6.1 system
+    |.*/DCOP-Amarok-Player-\d # not anymore on my i386 system
+    |.*/Astro-FITS-CFITSIO-\d # cfitsio not buildable on my i386 system
+    |.*/Net-Lorcon-\d # no fbsd port
+    |.*/Astro-SkyCat-\d # no fbsd port
+    |.*/CIsam-\d # no fbsd port for isam
+    |.*/Isam-\d # no fbsd port for isam
+    |.*/CyberSource-\d # needs ics2, no fbsd port
+    |.*/DCE-Perl-\d # no dce fbsd port
+    |.*/IPC-XPA-\d # no fbsd port for libxpa
+    |.*/Lingua-TH-Segmentation-\d # no fbsd port for -lwordcut
+    |.*/Language-MzScheme-\d # no fbsd port for mzscheme
+    |.*/Math-Matlab-Engine-\d # no mathlab/-leng port 
+    |.*/Mt-\d # needs some special device /dev/st0
+    |.*/tux_perl-\d # needs tuxmodule.h
+    |.*/pBLADE-\d # needs libblade-config
+    |.*/fameperl-\d # needs libchli
+    |.*/Perl-RPM-\d # needs rpm stuff (maybe available for fbsd, but not on my system)
+    |.*/Software-Packager-Rpm-\d # needs rpm stuff (maybe available for fbsd, but not on my system)
+    |.*/RPM2-\d # needs rpm stuff (maybe available for fbsd, but not on my system)
+    |.*/PGPLOT-\d # libpgplot exists, but currently not installed from port
+    |XXX/OpenGL-\d # port exists, but currently not installed from port
+    |.*/SDL-sdlpl-\d # needs opengl, not yet installed
+    |.*/SDL_Perl-\d # needs opengl, not yet installed
+    |.*/Sys-Ptrace-\d # not for freebsd?
+    |.*/Math-GammaFunction-\d # NA as port
+    |.*/Language-XSB-\d # could not install xsb port
+    |.*/Language-Prolog-SWI- # could not install swig port
+    |.*/IO-Tty-Util-\d # needs pty.h, NA on freebsd
+    |.*/Tuxedo-\d # required includes not in ports
+    |.*/Teradata-BTET-\d # needs ppcmain, not in the ports
+    |.*/Statistics-R-\d # needs R package
+    |.*/Statistics-Gap-\d # needs cluto
+    |.*/Starlink-AST-\d # needs ast_link
+    |.*/Search-Namazu-\d # needs namazu
+    |.*/Schedule-DRMAAc-\d # needs SGE_ROOT configured (and probably some prereqs)
+    |.*/SAVI-Perl-\d # needs savi library
+    |.*/PowerBuilder-ORCA-\d
+    |.*/Pogo-\d
+    |.*/PerlMaple-\d # needs maple 9
+    |.*/Cache-Swifty-\d # needs swifty, not in the ports
+    |.*/Geo-Coder-Ja-\d # needs -lgeocoderja, not in ports
+    |.*/Astro-WCS-LibWCS-\d # needs wcstools, not in ports
+    |.*/Ruby-0\.0[01234]\. # needs 1.8.6 --- latest fbsd port is 1.8.4, and 1.9.x (available in ports) does not work with the module
+    |.*/Image-DecodeQR-\d # needs libdecodeqr, not in ports
+    |.*/LSF_Base_\d # needs /etc/lsf.conf, not in ports?
+    |.*/LSF_Batch_\d # needs /etc/lsf.conf, not in ports?
+    |.*/Config-Augeas-\d # needs augeas, not in ports
+    |.*/Math-RngStream-\d # needs librngstream(s), not in ports
+    |.*/Lucene-Search-Highlight-\d # needs clucene, not in ports
+    |.*/Device-Serdisp-\d # needs -lserdisp, not in ports
+    |.*/Compress-LZMA-Simple-\d # needs -llzma, not in ports
+    |.*/MonetDB- # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
+    |.*/DBD-monetdb-\d # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
+    |.*/Bio-SCF-\d # no port for this (-lread, io_lib/scf.h...)
+    |.*/iodbc_ext_\d # no fbsd port for iodbc.h
+    |.*/Net-Dnet-\d # no fbsd port for netdnet
+    |.*/DBD-SearchServer-\d # needs sqlc.h, not found in ports
+    |.*/Ar-\d # needs arextern.h, not in ports
+    |.*/Authen-ACE-\d # needs sdacmvls.h etc., not in ports
+    |.*/CodeBase-\d # needs d4all.h, not in ports
+    |.*/Net-Pcap-Easy-1\.31\.tar\.gz # this version hangs in multiple tests
+    |.*/Net-Pcap-Easy-1\.322\.tar\.gz # this version hangs in multiple tests
+    |.*/Astro-SLA-\d # needs slalib.h, not in ports
+    |.*/Bio-Medpost-\d # needs medpost, not in ports
+    |.*/Bio-MedChunker-\d # insists on installing Bio-Medpost
+    |.*/TUXEDO-\d # not in ports
+    |.*/Encode-TECkit-\d # TECkit not in ports
+    |.*/Db-GTM-\d # needs gtm/mumps, not in ports
+    |.*/LWES-\d # not in ports
+    |.*/Math-Matlab-\d # mathlab not in ports
+    |.*/Net-Arping-\d # libnet (libnet-config) not in ports
+    |.*/Term-TermKey-\d # no port for termkey
+    |.*/Authen-ACE4-\d # no port for acexport.h or libaceclnt.a
+    |.*/Lux-IO-\d # no port for luxio/btree.h
+    |.*/Device-Velleman-K8055-libk8055-\d # no port for libk8055.a
+    |.*/Net-Libproxy-\d # no port for libproxy-1.0.pc
+    |.*/Bio-SamTools-\d # no port for samtools (or libbam.a)
+    |.*/DBD-drizzle-\d # no port for libdrizzle
+    |.*/JSONRPC-Transport-TCP-0.02.tar.gz # hangs
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+--- 
+comment: "Problems with freebsd and 5.8.8 (endless loop with CPAN.pm)"
+match:
+  perlconfig:
+    version: "^5\.8\.8"
+    archname: "(-freebsd)"
+  distribution: "/XXXClass-DBI-Plugin-FilterOnClick-1\.1\.tar\.gz"
+disabled: 1
+--- 
+comment: "Interactive tests"
+match:
+  distribution: |
+    ^(?x:
+      TURNERJW/Tk-JBrowseEntry-4.70.tar.gz
+    |TURNERJW/Tk-JBrowseEntry-4.74.tar.gz
+    |.*/ApacheBench-\d # wants some URLs
+    |.*/Astro-satpass-\d # questions in test phase
+    |.*/Aut-\d # asks for a password
+    |.*/Authen-CyrusSASL-\d
+    |.*/B-Debugger-\d # needs to answer "c" or so (invisible)
+    |.*/Costume-Doublet-\d # shows eog window which has to be closed
+    |.*/Crypt-SKey-\d
+    |.*/CursesWidgets-\d
+    |.*/CursesApplication-\d
+    |.*/DBIx-SQLEngine-\d # wants a list of DSNs to test against (or n)
+    |.*/EZDBI-\d
+    |.*/File-SmartTail-\d # wants rsh password
+    |.*/Games-Sudoku-SudokuTk-\d
+    |.*/Graphics-Libplot-\d # needs to click on windows
+    |.*/Log-Dispatch-Tk-\d
+    |.*/Mail-SendEasy-\d # wants smtp server etc. for tests
+    |.*/Math-Units-1\.3\. # in fact, not really interactive, but hangs because of "gunits -v"
+    |.*/MMM-Text-Search-\d # asks for a search term while testing
+    |.*/Net-FTPSSL-0.04 # asks for a "deeper" test
+    |.*/Net-Ifconfig-Wrapper/Net-Ifconfig-Wrapper-\d # test asks question
+    |.*/Net-DBus-Skype-0.02.tar.gz # asks questions; check and fix! XXX
+    |.*/POE-Component-WebService-HtmlKitCom-FavIconFromImage-0.002.tar.gz # 00-load test always hangs on freebsd and needs manual killing
+    |.*/POE-Component-WWW-Google-PageRank-0\.04\.tar\.gz # 00-load test always hangs on freebsd and needs manual killing
+    |.*/Perl-Tags-0.26.tar.gz # asks for RETURN in test
+    |.*/PerlMagick-6\.40\. # composite+montage tests are interactive
+    |.*/Proc-JobQueue-0\.3\. # asks for a password
+    |.*/Puppet-Log-1.012.tar.gz
+    |.*/Qtk-QuickTk-0\.90
+    |.*/RAS-PortMaster-\d
+    |.*/SVN-Notify-Mirror-0.038.tar.gz # asks questions; check and fix! XXX
+    |.*/Schema-RDBMS-AUS-0.04.tar.gz # asks questions; check and fix! XXX
+    |.*/Script-0\.53\. # test is rather interactive
+    |.*/TAP-Convert-TET-0.2.1.tar.gz # asks questions; check and fix! XXX
+    |.*/Term-Screen-\d
+    |.*/Term-Screen-ReadLine-\d
+    |.*/Term-ShellKit-\d
+    |.*/Term-Title-\d
+    |.*/TextLinkAds-\d # wants a valid XML
+    |.*/Tk-CanvasLogo-\d
+    |.*/Tk-CursorControl-0\.[0123]\. # at least 0.4 has an automatic test
+    |.*/Tk-GridEntry-\d
+    |.*/Tk-HistMenu-\d
+    |.*/Tk-Image-Cut-\d
+    |.*/Tk-JFileDialog-\d
+    |.*/Tk-LabPopEntry-0.05.tar.gz
+    |.*/Tk-LockDisplay-\d
+    |.*/Tk-MListbox-\d
+    |.*/Tk-MenuHash-\d
+    |.*/Tk-Multi-1.006.tar.gz
+    |.*/Tk-PopEntry-0.06.tar.gz
+    |.*/Tk-SMListbox-1.11.tar.gz
+    |.*/Tk-TM-\d
+    |.*/Tk-TextHighlight-\d
+    |.*/Tk-Text-SuperText-\d
+    |.*/Tk-Updown-\d
+    |.*/TkUtil-Configure-\d
+    |.*/UDPM-\d
+    |.*/WWW-Search-Googlism-\d # asking whether connected to internet
+    |.*/X11-Protocol-\d
+    |.*/pgk_xs-0.05.tar.gz
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  env:
+    PERL_BATCH: yes
+disabled: 1
+--- 
+comment: "Various reasons"
+match:
+  distribution: |
+    ^(?x:
+     HBIERSMA/MQSeries-\d # works only with an IBM MQSeries installation
+    |.*/smokeinabox-\d
+    |.*/illguts-\d # has no test target
+    |.*/WWW-Google-API-\d # asks for Google API key
+    |.*/Acme-BadExample-\d # causes endless loops in all modules trying to parse the version
+    |PERFORIN/WWW-Wuala-00.1.zip # generated Makefile.PL
+    |BROWSERUK/ppm/ # contains only ppm packages, unsmokable
+    |FALCONE/RT-OnlineDocs-\d # needs path to RT
+    |.*/RTx-EmailCompletion- # all RT extensions probably need path to RT
+    |.*/RTx-BecomeUser-\d # needs RT
+    |.*/RTx-Shredder-\d # needs RT
+    |.*/RTx-Calendar-\d # needs RT
+    |.*/RTx-RightsMatrix-\d # needs RT
+    |.*/RTx-WebCronTool-\d
+    |.*/RTx-Foundry-\d
+    |.*/RTx-AuthTool-\d
+    |.*/RTx-MD5Auth-\d
+    |.*/RTx-Tags-\d
+    |.*/RTx-WorkflowBuilder-\d
+    |.*/RTx-CFC-\d
+    |.*/RT-Crypt-SMIME-\d
+    |.*/RT-Journal-\d
+    |.*/RT-Atom-\d
+    |.*/RT-Extension- # all RT extensions probably need path to RT
+    |.*/RT-Authen-Federation-\d
+    |.*/RT-Authen-CookieAuth-\d
+    |.*/RT-Authen-PAUSE-\d
+    |.*/RT-Authen-ExternalAuth-\d
+    |.*/RT-Authen-Bitcard-\d
+    |.*/RT-Action-LinearEscalate-\d # needs RT
+    |.*/RT-Action-NotifyGroup-\d
+    |.*/RT-Condition-Complex-\d
+    |.*/RT-BugTracker-Public-\d
+    |.*/RT-BugTracker-\d
+    |.*/RT-SimpleGPGVerify-\d
+    |.*/RT-Integration-SVN-\d
+    |.*/RT-IODEF-\d
+    |.*/RT-TicketWhiteboard-\d
+    |.*/RT-View-ConciseSpreadsheet-\d
+    |.*/RT-View-Directory-\d
+    |.*/RTx-S3Invoker-\d
+    |.*/RTx-RT34-Bulk-CF-Edit-\d
+    |.*/RTx-Timeline-\d
+    |.*/RTx-From-\d
+    |.*/RT-View-Tree-\d
+    |.*/RT-Todo-\d
+    |.*/RT-Authen-OpenID-\d
+    |.*/RTFM-Extension-ArticleTemplates-\d
+    |.*/NBU-\d # needs NetBackup
+    |.*/Lingua-CollinsParser-\d # needs some grammar files
+    |.*/Crypt-OpenPGP-\d # komische Dependency-Aufloesung, moechte immer gleich alles installieren
+    |.*/AI-FANN-\d # needs -ldoublefann
+    |KANE/CPANPLUS-0\.82\.tar.gz # wants my root password using sudo
+    |.*/STAFService-\d # needs STAF 3
+    |.*/Mail-ClamAV-\d # needs clamav
+    |.*/Lab-VISA-\d # needs libvisa
+    |.*/Search-Xapian-\d # needs xapian      
+    |.*/BS2000-LMS-\d # only for BS2000
+    |.*/Patch-SREZIC-Tk- # not necessary anymore
+    |.*/Algorithm-OpenFST-\d # needs some additional stuff
+    |.*/Audio-Ecasound-\d # I have only an old ecasound available, also expected problems with unthreaded perls
+    |.*/RAR-Unrar-1.01 # wrong directory permissions
+    |OEMBRY/HTML2XHTML-0.04[ab]\.tar\.gz # wrong directory permissions http://rt.cpan.org/Ticket/Display.html?id=32099
+    |.*/Ante-Deluvian-Dialog-0.01.tar.gz # wrong directory permissions, fixed in 0.02
+    |.*/Math-Transform-List-1.001.tar.gz # wrong directory permissions? reported!
+    |.*/Math-Transform-List-1.002.tar.gz # wrong directory permissions? reported! https://rt.cpan.org/Ticket/Display.html?id=44450
+    |.*/Math-Disarrange-List-1.002.tar.gz # wrong directory permissions? reported!
+    |.*/Math-Subsets-List-1.002.tar.gz # wrong directory permissions? reported!
+    |.*/Statistics-ANOVA-0.062.tar.gz # wrong directory permissions? reported by Frank Wiegand
+    |.*/Statistics-FisherPitman-0.032.tar.gz # wrong directory permissions , reported
+    |.*/Statistics-Zed-0.022.tar.gz # wrong directory permissions?, same author
+    |.*/Statistics-Sequences-0.031.tar.gz # wrong directory permissions?, same author
+    |.*/Statistics-SDT-0.031.tar.gz # still ...
+    |.*/Math-Permute-List-1.002.tar.gz #  wrong directory permissions?, reported!
+    |.*/Math-Permute-List-1.004.tar.gz # still ...
+    |.*/Math-Cartesian-Product-1.001.tar.gz # wrong directory permissions, same author as above
+    |.*/Math-Cartesian-Product-1.003.tar.gz # still ...
+    |PRBRENAN/ # I am giving up ... everything by PRBRENAN is broken. Wait until he is reacting on the RT tickets
+    |.*/GNTP-Growl-0.\d+.tar.gz # wrong directory permissions (seen with 0.01, 0.03, 0.04)
+    |.*/XML-Reader-0.01.tar.gz # wrong directory permissions. same author like Term-Sprog (KEICHNER), see below. no RT queue!
+    |.*/DateTime-TimeZone-HPUX-0.01.tar.gz # wrong directory permissions
+    |.*/DateTime-TimeZone-HPUX-0.03.tar.gz # wrong directory permissions
+    |.*/DateTime-TimeZone-HPUX-0.04.tar.gz # wrong directory permissions
+    |.*/Time-Simple-0.055b.tar.gz # wrong directory permissions
+    |.*/Filesys-SamFS-\d # seems to be sun-only
+    |.*/DBD-DB2-\d # needs DB2 database
+    |.*/DBD-Sybase-\d # needs Sybase database
+    |.*/sybperl-\d
+    |.*/Sybase-Simple-\d
+    |.*/Sybase-RepAgent-\d
+    |.*/Sybase-Xfer-\d
+    |.*/DBD-Unify-\d # some database
+    |.*/DBD-InterBase-\d
+    |.*/DBD-PrimeBase-\d
+    |XXXXXXXXXXXXXXXXX.*/DBD-Pg-\d # postgres is installed, but needs test database   -> creates automatically test db
+    |.*/PgSQL-\d # dito
+    |.*/Postgres-\d # dito
+    |.*/pgsql_perl5-\d # needs postgres env variables
+    |.*/DBD-MaxDB-\d
+    |.*/DBD-Adabas-\d
+    |.*/DBD-Informix-\d
+    |.*/DBD-Informix4-\d
+    |.*/DB2-Admin-\d
+    |.*/DBD-SQLAnywhere-\d
+    |.*/DBD-ASAny-\d
+    |.*/DBD-Teradata-\d
+    |.*/DBD-Mimer-\d
+    |.*/DBD-Redbase-\d
+    |.*/DBD-Solid-\d
+    |.*/DBD_SQLFLEX_\d
+    |.*/DBD-DBMaker-\d
+    |.*/DBD-EmpressNet-\d
+    |.*/DBD-Fulcrum-\d
+    |.*/DBD-Informix4\d
+    |.*/DBD-Illustra-\d
+    |.*/DBD-Ingres-\d
+    |.*/DBD-TimesTen-\d
+    |.*/DBIx-TableReferences-MSSQL-\d # needs mssql database
+    |.*/DB-Appgen-\d
+    |.*/ObjStore-\d
+    |.*/Tivoli-AccessManager-Admin-\d # unlikely I have this installed anywhere
+    |.*/Net-Amazon-AWIS-\d # needs credentials
+    |.*/VCS-CMSynergy-\d
+    |.*/Tk-GridColumns-0\.07\.tar\.gz # broken tarball
+    |SANKO/Net-BitTorrent-0\.027_001\.tar\.gz # maybe broken tarball; permission problems
+    |.*/Language-Lisp-ECLs-0\.21\.tar\.gz # broken tarball (permissions!) (fixed in later distros, at least in 0.27)
+    |.*/PDF-API2-0\.71\.tar\.gz # broken tarball (directory permissions!) (http://rt.cpan.org/Public/Bug/Display.html?id=38376, fixed in later distros, at least in 0.72.003)
+    |.*/Pod-Trial-LinkImg-0.005.tgz # broken tarball? (directory permissions?)
+    |.*/Mail-Cclient-\d # probably needs Cclient?
+    |.*/Net-LDAPapi-\d # needs probably libraries I don't have, also does not use prompt(), so determining the questions is difficult
+    |.*/Text-Templar-2\.43 # wants to install ExtUtils::AutoInstall
+    |.*/Tie-Google-\d # ask for the google api key, which is possibly visible in test results
+    |.*/CGI-JSONRPC-\d # test needs apache2?
+    |.*/RayApp-\d # needs apache2
+    |.*/tkjuke-\d 
+    |.*/Embperl-\d # complicated to build, many question, not using prompt()
+    |.*/Authen-TacacsPlus-\d # needs connection to some host
+    |.*/Net-SLP-\d # needs a running slpd
+    |.*/AFS-Monitor-\d # needs afs
+    |.*/AFS-\d # needs afs
+    |.*/Alzabo-GUI-Mason-0\.1201\.tar\.gz # seems to cause endless loops (not CPAN.pm's fault!)
+    |.*/Game-Planeshift-Info-0\.5\. # seems to cause an endless loop in the test
+    |.*/Net-Amazon-Thumbnail-\d # I have no amazon key
+    |.*/CAS-\d # needs CAS database
+    |.*/CAS-Apache-\d # probably also needs CAS database (and it also asks questions)
+    |.*/WWW-Salesforce-\d # needs user/password
+    |.*/Graph-Maker\.zip # wrong distname format
+    |CHI/link_NCBI\.zip # wrong distname format
+    |.*/tic.tar.gz # wrong distname format
+    |.*/swd.tar.gz # wrong distname format
+    |.*/RadiusPerl-\d # probably need things I do not have
+    |.*/Mobile-Wurfl-\d # needs a database
+    |.*/XAO-Indexer-\d # needs a database
+    |.*/XAO-FS-\d # needs a database
+    |.*/XAO-ImageCache-\d # needs a database
+    |.*/XAO-Content-\d # needs a database
+    |.*/XAO-Catalogs-\d # needs a database
+    |.*/Authen-Krb5-Admin-\d # asks questions
+    |.*/DBIx-Recordset-\d # asks questions
+    |DCOPPIT/Benchmark-Timer-0.7100.tar.gz # problems with ExtUtils::AutoInstall
+    |.*/Rsync-Config-\d # problems with ExtUtils::AutoInstall
+    |.*/Apache-AuthTypeKey-\d # problems with ExtUtils::AutoInstall or Module::Install
+    |.*/Wiki-Gateway-\d # problems with ExtUtils::AutoInstall or Module::Install
+    |.*/App-GUI-Notepad-\d # problems with Module::Install
+    |.*/ASNMTAP-\d # asks questions
+    |.*/Keystone-Resolver-\d # needs special database
+    |.*/Net-Radius-Server-\d # too many questions in test suite
+    |.*/Net-Radius-Client-\d # probably needs something I do not have
+    |.*/bbobj-\d # too many (invisible) questions
+    |.*/WWW-Autosite-\d # too many (invisible) questions
+    |.*/CPAN-Search-Lite-\d # needs modperl 2
+    |.*/Apache-Peek-\d # needs modperl 2
+    |.*/Apache-Wyrd-\d # wants to call home
+    |.*/Apache-Compress-\d # wants to test with a mod_perl enabled apache
+    |.*/Proc-JobQueue-0.3.tar.gz # asks for password
+    |.*/RPC-Oracle-\d # needs access to db
+    |.*/Oracle-Debug-\d # needs oracle
+    |.*/Oracle-CAPI-\d # needs oracle
+    |.*/extproc_perl-\d # needs oracle
+    |.*/Oracle-SQLLoader-\d # needs oracle
+    |.*/Salesforce-\d
+    |.*/Cisco-Conf-\d
+    |.*/Cisco-Management-\d
+    |.*/Winamp-Control-\d
+    |.*/Business-CSI-\d # needs some LinkPoint lib
+    |.*/WebService-Mappoint-\d # needs a mappoint account
+    |.*/LSF-Base-\d # what's this???
+    |.*/WebService-FreeDB-\d # too many warnings, overflowing /tmp with CPAN::Reporter
+    |.*/Qmail- # needs qmail
+    |.*/WWW-LEO-0\.01\. # infinite loop, module's fault
+    |.*/Devel-PreProcessor-2003.1128.tar.gz # infinite loop, module's fault
+    |.*/AltaVista-PerlSDK-\d # do not have this sdk
+    |.*/AltaVista-SDKLinguistics-\d # more altavista stuff
+    |.*/CAD-ProEngineer-\d # probably needs additional libraries
+    |.*/CECALA\.tar\.gz # no makefile.pl, no tests, no report
+    |.*/Getopt-ExPar-1\.01\.tar\.gz # no Makefile.PL, would be tested every time
+    |.*/Net-Amazon-ATS-\d # needs some secrets
+    |.*/Java-Build-\d # wants to put tools.jar somewhere into the classpath
+    |.*/Jvm-0.9.2.tar.gz # works only with java 1.3 which is somewhat outdated
+    |.*/LSF-\d # what is LSF?
+    |.*/Mail-Webmail-Yahoo-\d # wants yahoo username
+    |.*/Net-Goofey-\d # wants some password
+    |.*/Net-APP-\d # needs a cleatext server
+    |.*/582\+/perl_mlb.zip # os2-specific?
+    |STRYTOAST/lot.tar.gz # distname not ok
+    |STRYTOAST/log.tar.gz # distname not ok    
+    |.*/manish-db.tar.gz # distname not ok
+    |.*/YAML-Parser-Syck-\d # needs libsyck --- i don't think this module is needed at all...
+    |.*/Sniffer-HTTP-\d # needs root privileges for test (Net::Pcap...)
+    |.*/SVN-Web-\d # needs non-CPAN (?) dependency SVN::Core
+    |.*/SVK-v\d # needs non-CPAN (?) dependency SVN::Core
+    |.*/SVN-Simple-\d # needs non-CPAN (?) dependency SVN::Core
+    |.*/SVN-Push-\d  # needs non-CPAN (?) dependency SVN::Core
+    |.*/VCP-Dest-svk-\d # needs non-CPAN (?) dependency SVN::Core
+    |.*/Telephony-CTPort-\d # test connects to some tcp port
+    |.*/TableMap-\d # needs connection to a database
+    |.*/TSM_\d # needs username/password
+    |.*/Slinke-\d # needs something in a serial port
+    |.*/SOM-\d # os2 specific?
+    |.*/Mail-vpopmail-\d # I do not want another mail daemon?
+    |.*/Krb4-\d # krb5 exists, is there need for possibly conflicting krb4?
+    |.*/DFS-Perl-\d
+    |.*/DCE-Perl-RPC-\d
+    |.*/Bio-Genex-\d # the author wants me to read a README
+    |.*/WebService-Upcoming-\d # needs an API key
+    |.*/WebService-GoogleHack-\d # needs google api key
+    |.*/Test-MockDBI-\d # needs a database to connect to
+    |.*/TAM-Admin-\d # needs a PolicyDirector
+    |.*/SQL-AnyDBD-\d # needs a database
+    |.*/Alien-Iconv-\d # wants to override an existing iconv
+    |.*/Tk-Pgplot-\d # needs a patches pgplot
+    |.*/Zucchini-\d # asks for a password
+    |.*/Fax-Hylafax-Client-\d # needs a configured hylafax server
+    |.*/Hardware-1Wire-HA7Net-\d # needs some 1wire device
+    |.*/MyLibrary-\d # needs a database
+    |.*/Net-BobrDobr-\d # needs an API key
+    |.*/Apache-Backhand-\d # needs mod_backhand, usually not available
+    |.*/Business-Cashcow-\d # needs libcashcow
+    |.*/Acme-Tests-\d # interactive test
+    |.*/Drupal-Module-Starter-\d # needs php
+    |.*/HTTP-QuickBase-\d # something proprietary, it seems ("QuickBase KnowledgeBase and Support Center")
+    |.*/Relations-Abstract-\d # seems to need a database
+    |.*/perlhbm-\d # needs hb-config
+    |.*/tinyperl-1.0-580-win32\. # seems to be dangerous - defining another Config.pm in @INC!
+    |.*/Java-\d # needs running Java server
+    |.*/Business-OnlinePayment-Exact-\d # needs account
+    |.*/MARC-Errorchecks-\d # unnecessary interactive test
+    |.*/Term-Twiddle-\d # interactive test
+    |.*/CGI-Wiki-\d # wants a database
+    |.*/Geo-Weather-\d # interactive test
+    |.*/Net-Trac-0\.01_01\.tar\.gz # kills the smoker
+    |.*/Lingua-BrillTagger-\d # needs some files like CONTEXTUALRULEFILE for tests
+    |.*/IO-Compress-Zlib-2\.014\.tar\.gz # circular dependency
+    |.*/IMAP-Admin-\d # wants passwords
+    |.*/Net-Netflix-\d # moved to WWW-Netflix
+    |.*/Search-Circa-\d # wants a mysql database, many questions
+    |.*/zxid-\d # it seems that the author does not want to make this module into a proper perl distribution, so exclude him from tests
+    |VVELOX/.*\.pl$ # do not test perl scripts
+    |.*/Authen-OPIE-\d # needs a login
+    |.*/CGI-Debug-\d # wants an email address for sending fake test info
+    |.*/RAS-HiPerARC-\d # asks some questions about ARC
+    |.*/github_creator-0\.13\. # scans the whole harddisk
+    |.*/sitemapper-\d # wants to create a sitemap on a real URL, not a good idea
+    |TURNERJW/ptkftp.1.00.tgz # distro contains both files and directories, bad
+    |.*/FreeHAL-\d # dangerous! some versions of this distro contain old version of version.pm
+    |.*/Net-Peep-\d # needs a peep server
+    |ARFREITAS/DTS-0\.07\.tar\.gz # distribution has bad permissions (anyway a windows-only package, it seems)
+    |LDOMKE/Tk-XPMs-1.10.tar.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=41176>, fixed in 1.11
+    |RENEEB/Wx-Perl-DirTree-0.01.tar.gz # distribution has bad directory permissions, fixed in 0.06, it seems
+    |RENEEB/Tk-Airports-0.04.tar.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=41433>, fixed in 0.061
+    |.*/Term-Sprog-0.01.tar.gz # distribution has bad directory permissions
+    |.*/Term-Sprog-0.03.tar.gz # distribution has still bad directory permissions. Reported by email, because there's no RT queue for this package
+    |.*/Term-Sprog-0.04.tar.gz # distribution has still bad directory permissions
+    |.*/Tk-Wizard-2\.14[34]\.tar\.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=42080>
+    |.*/Catalyst-View-Component-SubInclude-0.0[23]\.tar.gz # distribution has bad directory permissions
+    |.*/Text-NLP-Stanford-EntityExtract-\d # needs the Stanford Named Entity recogniser from http://nlp.stanford.edu/ner/index.shtml
+    |.*/Ocsinventory-Agent-0.0.9.2- # invisible postinstall questions (answer "n"!)
+    |.*/Ocsinventory-Agent-1.1.tar.gz # invisible postinstall questions (answer "n"!)
+    |.*/FusionInventory-Agent-\d # postinstall questions (answer "n"!)
+    |ANONWB/WWW-Patent-Page-0.106.0.tar.gz # dangerous if there are test failures, may destroy terminal or print via xterm!
+    |BOKUTIN/WWW-Hashdb-0.01.tar.gz # endless loop
+    |.*/DBIx-Librarian-\d # asks for password
+    |.*/DBIx-PhraseBook-\d # asks for dsn, user, password
+    |.*/VCS-Vss-\d # needs visual sourcesafe
+    |.*/MyConText-\d # needs a database
+    |.*/Dyns-Client-\d # wants a user etc. (and I am using Net::DNS::DynDNS currently)
+    |.*/XML-DB.tar.gz # asking for some xml db
+    |.*/XAO-MySQL-\d # needs a DSN
+    |.*/Carp-Ensure-0.23.tar.gz # wrong usage of pod2html (stdin reads nothing...)
+    |.*/HTML-Puzzle-\d # wants a database
+    |.*/htpl-\d # hmm, whats this?
+    |.*/Genetics-\d # wants a database
+    |.*/MySQL-TableInfo-\d # wants a database
+    |.*/Speech-Recognizer-ViaVoice-\d # needs viavoice
+    |.*/Msql-Mysql-modules-\d # this for sure is obsolete
+    |.*/DBIx-Broker-\d # needs database
+    |.*/Arch-\d # needs tom lord's arch installed
+    |.*/Bio-Maxd-\d # needs a database
+    |.*/Bundle-Cobalt-0\.04\. # test explicitely says "do not install this module"
+    |.*/DBO-\d # wants a database
+    |.*/DBIx-Schema-\d # needs a database for test
+    |.*/SNMP-Util-\d # wants id for (snmp?) device
+    |.*/RAS-AS5200-\d # wants Hostname or IP of AS5200
+    |.*/iThenticate-API-Client-\d # needs iThenticate
+    |.*/Email-Blaster-\d # needs: DBI connect('email_blaster:localhost','root',...)
+    |.*/BluepayBluepay20DailyReport/Bluepay-Bluepay20DailyReport-0\.20\.tar\.gz # badly packaged (extra directory)
+    |.*/BluepayBluepay20Post/Bluepay-Bluepay20Post-0\.15\.tar\.gz # badly packaged (extra directory)
+    |.*/ZConf-Cron-0.0.1targz # ups?
+    |.*/Net-Telnet-Trango-\d # needs "an IP and a password of an AP"
+    |.*/Task-POE-All-\d # this is simply too large
+    |JONADAB/resched-0.7.3.zip # no top-level directory in archive
+    |.*/Apache-AuthNetLDAP-0.29.tar.gz # old ExtUtils::AutoInstall? tries cpanplus if modperl is not installed
+    |.*/Apache-AuthenNIS-0.13.tar.gz # dito
+    |.*/Apache-AuthenSmb-0.72.tar.gz # dito 
+    |.*/Apache-AuthzSplitDomainUser-0.01.tar.gz # dito
+    |.*/Apache-AuthzPasswd-0.12.tar.gz # dito
+    |.*/Apache-AuthzNIS-0.11.tar.gz # dito
+    |.*/Apache-AuthenPasswd-0.12.tar.gz # dito
+    |.*/Apache-AuthzNetLDAP-0.07.tar.gz # dito
+    |.*/Acme-RPC-\d # strange interactive test
+    |.*/Flickr-Embed-\d # needs flickr API key
+    |.*/Acme-Mom-Yours-\d # tests half of CPAN
+    |.*/OpenThought-1\.99\.16\.tar\.gz # http://rt.cpan.org/Ticket/Display.html?id=33279
+    |.*/threads-emulate-0.0.5\.tar\.gz # perl dumps core
+    |STEVAN/JSORB-0.01.tar.gz # it is killing CPAN.pm
+    |TOKUHIROM/Test-TCP-0.11.tar.gz # it is killing CPAN.pm
+    |FDULAU/Tie-Queue-README$ # an obvious accident
+    |MIKEOB/README$ # another accident
+    |JCLINE/Robotics-020/.* # another obvious accident
+    |.*/Server-Starter-0.03 # may loop endlessly if Proc::Wait3 is not available
+    |.*/Server-Starter-0.04 # dito
+    |.*/Ogre-AL-\d # neither exists as fbsd port nor as debian package, it seems
+    |.*/WWW-Compete-\d # asks for an API key
+    |.*/XAO-Web-\d # needs a XAO::FS database for tests
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+--- 
+comment: "temporary disabled on my freebsd system, all to be analyzed and re-checked"
+match:
+  distribution: |
+    ^(?x:
+     .*/Image-Imlib2-\d # imlib not installed (X11!)
+    |.*/File-Extractor-\d # libextractor needs X11
+    |.*/SVN-Notify-\d # general svn problem (krb)
+    |.*/SVN-Deploy-\d # general svn problem 
+    |.*/Alien-SVN-\d  # general svn problem 
+    |.*/Catalyst-Model-SVN-\d # general svn problem 
+    |.*/SVN-Mirror-\d # SVN::Core not installed
+    |.*/P5NCI-\d # to be analyzed
+    |.*/XXXMath-MPFR-\d # was a library problem, but no more with a recent mpfr-2.4.1_1
+    |.*/XXXMath-GMPq-\d # was a library problem --- seems to be fine now!
+    |.*/XXXMath-GMPz-\d # was a library problem --- seems to be fine now!
+    |.*/Audio-LADSPA-\d # possible library problem
+    |.*/Audio-XMMSClient-\d # not installed (X11?)
+    |.*/Speech-eSpeak-\d # pthread problem?
+    |.*/XXXImage-Magick-Stencilize-\d # library problem (or old ImageMagick?)
+    |.*/XXXImage-Magick-Text-AutoBreak-\d # library problem (or old ImageMagick?)
+    |.*/XXXFinance-MICR-GOCR-Check-\d # old ImageMagick?
+    |.*/XXXGD-SecurityImage-\d # old ImageMagick?: Deep recursion on subroutine "Image::Magick::AUTOLOAD"
+    |.*/XXXCatalyst-Plugin-Upload-Image-Magick-\d # imagemagick problem, see above
+    |.*/XXXImage-Magick-PixelMosaic-\d # imagemagick problem
+    |XXXKARASIK/Prima-Image-Magick-0.05.tar.gz # endless loop, because ImageMagick failed?
+    |.*/Event-Lib-\d # not installed (lazyness?)
+    |.*/Event-Lib-UDPPump-\d # not installed (lazyness?)
+    |.*/Encode-BOCU1-XS-\d # not installed (lazyness)
+    |.*/GCJ-Cni-\d # part of mingw32-gcc??? not installed
+    |.*/Geo-GDAL-\d # gdal not installed (because depending graphics/libGL because depending on new X11)
+    |.*/Geo-Proj4-\d # proj4 maybe not installed?
+    |.*/XXXXTcl-Tk-\d # missing tk8.5 (X11?) --- not used, because Tcl-Tk.yml seem to have higher precedence (?)
+    |.*/Language-Prolog-Yaswi-\d # swi-prolog not installed
+    |.*/Log-Fine-\d # .ph files not available everywhere --- have to decide how to deal with this...
+    |.*/Db-Ctree-\d # not checked if available (ctstdr.h et al)
+    |.*/FLTK-\d #  not checked if available (libfltk)
+    |.*/Chemistry-OpenBabel-\d # probably a dependency missing, too much error output...
+    |.*/SNMP-Info-\d # needs manually installed Net-SNMP (not from CPAN!)
+    |.*/Mozilla-nsID-\d # needs -lxpcom, seems to be available as port (lazyness!)
+    |.*/SQLite-VirtualTable-\d # explicitely specify path to SQLite source
+    |.*/P4-\d # needs perforce, not installed here it seems
+    |.*/SGML-SPGroveBuilder-\d # needs textproc/opensp
+    |.*/Net-NISplusTied-\d # needs nis stuff (nis_freeresult symbol)
+    |.*/perldap-\d # needs (netscape?) ldap libraries
+    |.*/Curses-Devkit-\d # needs cdk port
+    |.*/DBZ_File_\d # needs dbz.h, seems to exist in some news-related ports (cnews, inn)
+    |.*/Test.php-\d # php not installed here
+    |.*/Xfce4-\d # libxfcegui4-1.0 >= 4.3.4 not installed
+    |.*/Apache-SSI-\d # too many questions about apache etc.
+    |.*/Inline-Octave-\d # not installed (is there a port at all?). It works on linux, if it's installed, but I saw endless loops asking for the octave binary
+    |.*/Config-Framework-\d # too many questions (lazyness)
+    |.*/Lingua-LinkParser-\d # needs linkparser, whatever this is
+    |.*/Inline-Parrot-\d # parrot not installed, yet
+    |.*/Openview-Message-\d # needs openview
+    |.*/Qpsmtpd- # p5-qpsmtpd port exists, but does not install on my system currently
+    |.*/Email-Abstract-QpsmtpdTransaction- # dito
+    |.*/Alien-wxWidgets-0\.39\. # Wx does not work on my machine, and it takes a long time to discover
+    |.*/Wx-0\.86\. # Wx does not work on my machine, and it takes a long time to discover
+    |.*/Padre-Debugger-\d # needs Padre needs Wx and seems to hang without
+    |.*/Inline-Java-0\.52\. # unreliable, often the t/10_2_shared_start test hangs
+    |.*/PDF-Haru-\d # FreeBSD is currently at 2.0.8, but module needs 2.1.0 (missing header file)
+    |.*/Lighttpd-Control-\d # needs lighttpd, not yet installed here
+    |.*/IPTables-IPv4-DBTarpit-\d # too many questions...
+    |.*/Inline-Python-\d # does not seem to work here, Undefined symbol "pthread_attr_destroy" etc.
+    |.*/Redland-\d # until mysql stuff is fixed... libmysqlclient.so: undefined reference to `gethostbyname_r'
+    |STUIFZAND/Sleep-0.0.4.tar.gz # hangs with perl 5.8.8, 5.10.0
+    |.*/Video-ZVBI-0\.2\.4 # needs setting of an env variable, check!
+    |GWYN/POE-Component-Generic-0.1100.tar.gz # hangs (sometimes), see http://www.nntp.perl.org/group/perl.cpan.testers/2008/04/msg1386605.html
+    |.*/PDL-Graphics-OpenGL-Perl-OpenGL-\d # errors while compiling, check if OpenGL is alright: In file included from glut_util.h:4, from OpenGL.xs:29: /usr/X11R6/include/GL/glut.h:531: error: syntax error before "glutInit"
+    |CHM/PDL-2.4.4.tar.gz # check first if opengl is OK on my system
+    |.*/Zoidberg-0\.96\. # may kill the CPAN shell?
+    |.*/DJabberd-0.85_01.tar.gz # may kill the CPAN shell
+    |.*/Apache-AuthKrb5Afs-\d # asks to build apache
+    |.*/Catalyst-Model-MogileFS-Client-\d # needs mogilefs test host
+    |.*/TDB_File-\d # databases/tdb conflichts with samba on FreeBSD --- I need the latter
+    |.*/go-db-perl-\d # too many questions XXX
+    |.*/Perlbal-XS-HTTPHeaders-0.19.tar.gz # hangs, maybe because it was running in parallel?
+    |.*/Facebook-0.0.0alpha1.tar.gz # hangs
+    |SAMV/T2-0.10.tar.gz # asks questions XXX 
+    |GEOTIGER/Net-SFTP-Recursive-0.12.tar.gz # tries CPANPLUS? XXX
+    |.*/Net-Nessus-\d # needs nessusd etc.
+    |.*/bioperl-ext-\d # needs some io_lib etc.
+    |.*/ePortal- # what's this?
+    |.*/stem-\d # too many questions
+    |.*/Cluster-Init-0.215.tar.gz # hangs on FreeBSD 08daemon.t etc.
+    |.*/perlipq-\d # uses iptables, which is probably Linux-only
+    |.*/Apache-AppCluster-\d # needs apache, should probably go to Apache-misc
+    |.*/PBJ-JNI-\d # needs path to java etc.
+    |.*/Alien-ElasticSearch-\d # needs java (6)
+    |IX/Apache-Wombat-0.5.1.tar.gz # too many questions about location for installation
+    |.*/Apache-Roaming-\d # asks for apache server
+    |.*/Acme-YBFOD-\d # questions, not worth...
+    |.*/Async-Callback-\d # wants to install header file in /usr/local/include
+    |.*/Replication-Recall-\d # too many questions
+    |.*/DB_File-SV18x-kit-\d # questions about bdb version
+    |OESI/GSAPI-0.5.tar.gz # need to install ghostscript first
+    |.*/CGI-Application-Plugin-Apache-1.01.tar.gz # test hangs (maybe only if prereqs (Apache?) are missing)
+    |.*/Alien-Judy-\d # not needed to build, I have libjudy installed
+    |.*/Data-UUID-LibUUID-\d # there are some ports providing libuuid.a, but which one is the correct one?
+    |JESSE/Net-Trac-0.0[43].tar.gz # kills whole smoker if trac-admin does not exist
+    |.*/LedgerSMB-API-\d # needs /usr/local/lesgersmb
+    |.*/Kools-Okapi-\d # needs: KPLUSHOME3 must be set to Kondor+ installation directory
+    |.*/Net-ZooKeeper-\d # needs zookeeper, no port?
+    |.*/MPEG-MP3Play-\d # needs xaudiosdk (and asks for it), not yet installed
+    |.*/Jabber-mod_perl-\d # needs jabberd source code
+    |.*/Business-Shipping-UPS_XML-\d # wants UPS user id etc.
+    |.*/Class-DBI-DB2-\d # asks questions
+    |.*/DBIx-PasswordIniFile-\d # asks questions about database conn
+    |.*/Class-Tables-\d # wants a dsn for tests
+    |.*/Authen-Krb5-Easy-\d # wants path to kerberos libraries etc.
+    |.*/DBIx-NamedDSN-\d # asks for a path for configuration files
+    |.*/DBIx-Tree-NestedSet-\d # asks for RDBMS to test
+    |.*/ALPM-\d # no port for freebsd
+    |.*/Mail-IMAPFolderSearch-\d # wants an imap server for test
+    |.*/SPOPSx-Ginsu-\d # wants a test database
+    |.*/Wizard-\d # asking too many questions
+    |.*/Net-Drizzle-\d+ # no fbsd port for libdrizzle/drizzle_client.h etc.
+    |SULLR/IO-Socket-SSL-1.30.tar.gz # test hangs under FreeBSD, needs more research!
+    |.*/Posterous-\d # wants an account for testing
+    |.*/Lingua-Lid-\d # wants lid.h, not available under freebsd
+    |.*/Mozilla-DOM-0\.23\.tar\.gz # does not build anyway on my system
+    |.*/Lingua-EN-GeniaTagger-\d+ # wants path to geniatagger
+    |KTHAKORE/SDL_Perl-v2\.2\.6\. # hangs on freebsd, both 5.10.1 and 5.12.0
+    |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1

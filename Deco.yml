@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Deco-\d"
+make:
+  expect:
+    - "\QWhere should the config files be placed"
+    - "\n"

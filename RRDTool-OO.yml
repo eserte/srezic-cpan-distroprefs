@@ -1,0 +1,8 @@
+--- 
+match:
+  distribution: "/RRDTool-OO-\d"
+comment: "RRDTool-OO needs RRD, which seems to be install with rrdtool but only for perl5.8.8. All the other perls would ask for downloading and installing rrdtool, but will fail because of not being sudo..."
+pl:
+  expect:
+    - "\QDo you want me to install it for you right now (y/n)?"
+    - "y\n"

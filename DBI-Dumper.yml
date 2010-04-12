@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/DBI-Dumper-\d"
+pl:
+  expect:
+    - "\QContinue installing DBI::Dumper?"
+    - "y\n"
+# or have a Inline::C dependency?

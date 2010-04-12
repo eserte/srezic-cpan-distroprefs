@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/Perl-Version-v?\d"
+pl:
+  expect:
+    - "\QInstall perl-reversion script? [N]"
+    - "y\n"

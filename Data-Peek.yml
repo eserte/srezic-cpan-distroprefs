@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Data-Peek-\d"
+pl:
+  expect:
+    - "\QDo you want to install module DP as a shortcut for Data::Peek ? [y]"
+    - "n\n"

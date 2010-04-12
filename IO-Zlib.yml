@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/IO-Zlib-1\.07\."
+  perlconfig:
+    version: "^5\.00505$"
+patches:
+  - SREZIC/patches/IO-Zlib-1.07-SREZIC-01.patch

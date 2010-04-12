@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/CPAN-Site-\d"
+pl:
+  expect:
+    - "\QRunning client or server? [client]"
+    - "\n"

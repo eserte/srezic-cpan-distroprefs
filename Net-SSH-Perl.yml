@@ -1,0 +1,29 @@
+--- 
+match:
+  distribution: "/Net-SSH-Perl-\d"
+  perlconfig:
+    version: "^5\.10\.\d"
+    archname: freebsd
+disabled: 1
+comment: "One test seems to hang"
+--- 
+match:
+  distribution: "/Net-SSH-Perl-1\.33\."
+  perlconfig:
+    version: "^5\.8\.8"
+    archname: freebsd
+disabled: 1
+comment: "The 03-packet test hangs"
+--- 
+match:
+  distribution: "/Net-SSH-Perl-\d"
+pl:
+  expect:
+    - "\QWhich protocol(s) do you plan to use?"
+    - "\n"
+    - "\QEnter your choices, separated by spaces:"
+    - "\n"
+    - "\QWould you like to install it? (y/n)"
+    - "n\n"
+    - "\QWould you like to install it? (y/n)"
+    - "n\n"

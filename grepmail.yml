@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/grepmail-\d"
+pl:
+  expect:
+    - "\Q5% slower.\E\n\Q=> [n]"
+    - "\n"
+    - "\Q[2] custom locations\E\n\Q=> [1]"
+    - "\n"

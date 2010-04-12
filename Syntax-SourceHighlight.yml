@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Syntax-SourceHighlight-\d"
+pl:
+  expect:
+    - "\QTry to build a private backend library"
+    - "yes\n"

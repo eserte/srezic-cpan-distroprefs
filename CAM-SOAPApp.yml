@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/CAM-SOAPApp-\d"
+pl:
+  expect:
+    - "\QDo you want to enable these tests"
+    - "n\n"
+comment: "Do not run the server tests, test failures are possible if multiple smokers run in parallel"

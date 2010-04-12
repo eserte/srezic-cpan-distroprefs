@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "DONEILL/MIME-tools-5.425.tar.gz"
+  perlconfig:
+    archname: "MSWin32"
+disabled: 1
+comment: "Hangs on smtpsend test"

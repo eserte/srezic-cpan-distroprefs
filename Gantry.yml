@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Gantry-\d"
+pl:
+  expect:
+    - "\QPath for Gantry templates [/home/httpd/html/gantry"
+    - "\n"
+    - "\Q/home/httpd/html/gantry does not exist, should I make it"
+    - "n\n"

@@ -1,0 +1,18 @@
+---
+match:
+  distribution: "/Luka-\d"
+disabled: 1
+comment: "Fails with the below specified settings"
+pl:
+  expect:
+    - "\QSMTP SERVER for the tests:"
+    - "localhost\n"
+    - "USERNAME:"
+    - "test\n"
+    - "PASSWORD:"
+    - "test\n"
+    - "FROM:"
+    - "test@example.com\n"
+    - "TO:"
+    - "test@example.com\n"
+

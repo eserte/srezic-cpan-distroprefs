@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-DLookup-\d"
+test:
+  expect:
+    - "\QEnter complete domain name to check"
+    - "cpan.org\n"

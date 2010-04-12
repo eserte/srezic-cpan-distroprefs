@@ -1,0 +1,14 @@
+--- 
+match:
+  distribution: "XXXXXGBARR/IO-1\.20\.tar\.gz"
+  perlconfig:
+    version: "^5\.005"
+comment: "to prevent endless loops - rule disabled, now this seems to cause endless loops with 1.9261"
+
+--- 
+match:
+  distribution: "XXXXXXXX/IO-\d"
+  perlconfig:
+    version: "^5\.005"
+goto: "GBARR/IO-1.20.tar.gz"
+comment: "also rule disabled, now this seems to cause endless loops with 1.9261"

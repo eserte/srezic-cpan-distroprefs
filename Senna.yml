@@ -1,0 +1,16 @@
+---
+match:
+  distribution: "/Senna-\d"
+disabled: 1
+comment: "/usr/local/lib/libmecab.so.1, undefined symbol problem --- wrong build here?"
+pl:
+  expect:
+    - "\QPath to senna-cfg"
+    - "\n"
+    - "\Qlibsenna version"
+    - "\n"
+    - "\Qadditional compiler flags"
+    - "\n"
+    - "\Qadditional linker flags"
+    - "\n"
+

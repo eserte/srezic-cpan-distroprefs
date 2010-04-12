@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/POE-Component-SmokeBox-Recent-\d"
+pl:
+  expect:
+    - "\QDo you want live network tests [N/y]? [N]"
+    - "\n"

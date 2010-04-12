@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "CHM/PDL-2.4.3_\d+.tar.gz"
+disabled: 1
+comment: "Do not need to test old devel versions"
+--- 
+match:
+  module: "^PDL$"
+cpanconfig:
+  make: "/usr/local/bin/gmake"
+  make_install_make_command: "sudo gmake"

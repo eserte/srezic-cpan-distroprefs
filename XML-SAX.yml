@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/XML-SAX-\d"
+pl: 
+  expect:
+    - "\QDo you want XML::SAX to alter ParserDetails.ini? [Y]\E"
+    - "\n"

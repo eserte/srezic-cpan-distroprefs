@@ -1,0 +1,13 @@
+---
+match:
+  distribution: "/DBI-Library-\d"
+pl:
+  expect:
+    - "\QEnter your Database Name: []"
+    - "\n"
+    - "\QEnter your User Name: []"
+    - "\n"
+    - "\QEnter your host: []"
+    - "\n"
+    - "\QEnter your Database password: []"
+    - "\n"

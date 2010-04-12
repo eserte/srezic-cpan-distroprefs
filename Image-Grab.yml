@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Image-Grab-\d"
+pl:
+  expect:
+    - "\Qthat require an active Network connection"
+    - "\n"

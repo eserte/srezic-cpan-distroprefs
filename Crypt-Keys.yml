@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Crypt-Keys-\d"
+pl:
+  expect:
+    - "\QEnter your choices for encoding(s), separated by spaces: [3]"
+    - "\n"

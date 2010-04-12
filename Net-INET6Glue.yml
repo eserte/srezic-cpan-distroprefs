@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-INET6Glue-\d"
+pl:
+  expect:
+    - "\Q[y/N] [n]"
+    - "\n"

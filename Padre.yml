@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Padre-"
+  perlconfig:
+    archname: -thread
+# threaded is OK
+---
+match:
+  distribution: "/Padre-"
+disabled: 1
+comment: "Padre requires threaded perl"

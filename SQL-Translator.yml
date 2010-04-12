@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/SQL-Translator-0\.09001\."
+depends:
+  requires:
+    YAML: 0

@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Net-Bind-rbldnsdAccessor-\d"
+disabled: 1
+comment: "Too many questions"
+#pl:
+#  expect:
+#    - "\Qdo you want to include support for compressed files"
+#    - "\n"
+#    - "\Q/usr/src/rbldnsd-{version}"
+#    - "\n"

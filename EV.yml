@@ -1,0 +1,13 @@
+--- 
+match:
+  distribution: "/EV-\d"
+  perlconfig:
+    version: "^5\.005"
+comment: "No questions"
+--- 
+match:
+  distribution: "/EV-\d"
+pl:
+  expect:
+    - "\QSkip further questions and use defaults (y/n)? [y]"
+    - "\n"

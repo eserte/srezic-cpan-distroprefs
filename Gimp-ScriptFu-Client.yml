@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Gimp-ScriptFu-Client-\d"
+#disabled: 1
+# The tests only pass if you run
+#   gimp -b '(plug-in-script-fu-server 1 10008 "")'
+# beforehand.
+# Maybe I will find I way to do this automatically before
+# testing and shutdown gimp after testing.

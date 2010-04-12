@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Term-ANSIColorx-ColorNicknames-\d"
+pl:
+  expect:
+    - "\Qinstall the STDOUT pipe highlighter \E\"hi\"\Q?"
+    - "n\n"

@@ -1,0 +1,25 @@
+--- 
+match:
+  module: "^Apache::SessionX$"
+pl:
+  eexpect:
+    timeout: 2
+    mode: anyorder
+    reuse: 1
+    talk:
+      - "\QWould you like to configure DB_File (DB_File)(y/n) [y]"
+      - "n\n"
+      - "\QWould you like to configure File, use semaphore for locking (File)(y/n) [y]"
+      - "n\n"
+      - "\QWould you like to configure File, use lockfiles (FileFile)(y/n) [y]"
+      - "y\n"
+      - "\QDirectory []"
+      - "/tmp\n"
+      - "\QLockDirectory []"
+      - "/tmp\n"
+      - "\QWould you like to configure MySQL, use semaphore for locking (Mysql)(y/n) [y]"
+      - "n\n"
+      - "\QWould you like to configure MySQL, use MySQL for locking (MysqlMysql)(y/n) [y]"
+      - "n\n"
+      - "\QWhich of the above should be your default store (1-0) []"
+      - "\n"

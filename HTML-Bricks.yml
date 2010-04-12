@@ -1,0 +1,16 @@
+---
+match:
+  distribution: "/HTML-Bricks-\d"
+disabled: 1
+comment: "Too many questions..."
+pl:
+  expect:
+    - "\Qwww user name [nobody]:"
+    - "\n"
+    - "\Qwww group name [nobody]:"
+    - "\n"
+    - "\QEnter Mason base directory []:"
+    - "/tmp\n"
+    - "\QEnter directory for installation of Bricks Site Builder [/usr/local/bin/bricks]:"
+    - "/tmp\n"
+# etc.

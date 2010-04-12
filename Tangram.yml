@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Tangram-\d"
+pl:
+  expect:
+    - "\Q(you will need to set up an *EMPTY* database) (Y/n)"
+    - "n\n"

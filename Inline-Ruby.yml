@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Inline-Ruby-\d"
+pl:
+  expect:
+    - "\QUse which"
+    - "\n"
+# first (default) is good enough

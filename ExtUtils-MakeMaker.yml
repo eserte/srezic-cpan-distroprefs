@@ -1,0 +1,39 @@
+comment: "broken for XS modules"
+match:
+  distribution: "^MSCHWERN/ExtUtils-MakeMaker-6.37_01.tar.gz$"
+disabled: 1
+--- 
+comment: "will be installed every time with BSDPAN"
+match:
+  distribution: "^MSCHWERN/ExtUtils-MakeMaker-6.36.tar.gz$"
+  perlconfig:
+    archname: amd64-freebsd
+    version: 5.8.8
+disabled: 1
+--- 
+comment: "will be installed every time with BSDPAN"
+match:
+  distribution: "^MSCHWERN/ExtUtils-MakeMaker-6.36.tar.gz$"
+  perlconfig:
+    archname: i386-freebsd-64int
+    osvers: 6.1-release
+    version: 5.8.8
+disabled: 1
+--- 
+comment: "will be installed every time with BSDPAN"
+match:
+  distribution: "^MSCHWERN/ExtUtils-MakeMaker-6.48.tar.gz$"
+  perlconfig:
+    archname: amd64-freebsd
+    version: 5.8.8
+  perl: "^(/usr/bin/perl|/usr/local/bin/perl|/usr/local/bin/perl5|/usr/local/bin/perl5.8.8)$"
+disabled: 1
+--- 
+comment: "will be installed every time with BSDPAN"
+match:
+  distribution: "^MSCHWERN/ExtUtils-MakeMaker-6.54.tar.gz$"
+  perlconfig:
+    archname: amd64-freebsd
+    version: 5.8.8
+  perl: "^(/usr/bin/perl|/usr/local/bin/perl|/usr/local/bin/perl5|/usr/local/bin/perl5.8.8)$"
+disabled: 1

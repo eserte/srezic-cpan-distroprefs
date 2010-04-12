@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Data-Localize-\d"
+pl:
+  expect:
+    - "\Q  Add Moose to the prerequisites?"
+    - "\n"
+    - "\Q  Add MooseX::AttributeHelpers to the prerequisites?"
+    - "\n"

@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Proc-Exists-\d"
+pl:
+  expect:
+#    - "\QDo you want to forego XS for the pureperl implementation"
+    - "\QDo you want to use the pureperl implementation (y/n)? [no]"
+    - "\n"

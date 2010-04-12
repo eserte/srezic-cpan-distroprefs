@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Event-SlidingWindow-\d"
+test:
+  expect:
+    - "\QDo you wish to execute the interactive tests"
+    - "\n"

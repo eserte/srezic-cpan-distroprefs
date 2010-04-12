@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/deltax-modules-\d"
+pl:
+  expect:
+    - "\QDo you want to setup database tests"
+    - "n\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Device-WxM2-\d"
+test:
+  expect:
+    - "\QIs it? [no]"
+    - "\n"

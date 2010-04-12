@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/CGI-Ex-Recipes-\d"
+pl:
+  expect:
+    - "\QWhere the example application should be installed?"
+    - "\n"
+    - "\QSpecify defaults for Mail::Sender?"
+    - "\n"

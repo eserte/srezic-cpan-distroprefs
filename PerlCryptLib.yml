@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/PerlCryptLib-\d"
+  perlconfig:
+    archname: "amd64-freebsd"
+disabled: 1
+comment: "no port available for non-i386"

@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/BioPerl-Run-\d"
+pl:
+  expect:
+    - "\QInstall scripts? y/n [n ]"
+    - "\n"
+    - "\Q(likely to cause some failures)? y/n [n ]"
+    - "\n"

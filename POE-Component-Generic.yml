@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/POE-Component-Generic-0\.1201\."
+  perlconfig:
+    archname: freebsd
+disabled: 1
+comment: "Hanging tests, never had success on freebsd with this version"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Alien-Gearman-\d"
+pl:
+  expect:
+    - "\QReally install? [n]"
+    - "\n"

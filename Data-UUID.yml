@@ -1,0 +1,9 @@
+--- 
+match:
+  distribution: "/Data-UUID-\d"
+pl:
+  expect:
+    - "\QUUID state storage [\E(/tmp|.*Temp|/.*/tmp/.*)\Q]"
+    - "\n"
+    - "\Qdefault umask [0007]"
+    - "\n"

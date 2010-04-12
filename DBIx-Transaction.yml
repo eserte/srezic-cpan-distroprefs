@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/DBIx-Transaction-\d"
+pl:
+  expect:
+    - "\Q [] []"
+    - "\n"

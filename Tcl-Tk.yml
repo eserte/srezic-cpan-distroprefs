@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/Tcl-Tk-\d"
+  perlconfig:
+    archname: -freebsd
+pl:
+  args: ["--tclsh", "tclsh8.5"]

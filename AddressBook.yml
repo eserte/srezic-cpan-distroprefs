@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/AddressBook-\d"
+pl:
+  expect:
+    - "\Qyour LDAP server.  Continue? [y/n] [y]"
+    - "n\n"

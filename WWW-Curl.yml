@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WWW-Curl-\d"
+## Not needed anymore, also cause CPAN::Reporter to send reports automatically
+#test:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1 

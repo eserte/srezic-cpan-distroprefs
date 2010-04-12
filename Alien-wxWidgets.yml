@@ -1,0 +1,18 @@
+--- 
+comment: "I have wxWidgets on my system, but config program is named wxgtk2-2.6-config"
+match:
+  distribution: "/Alien-wxWidgets-\d"
+  perlconfig:
+    archname: -freebsd
+pl: 
+  eexpect:
+    mode: anyorder
+    talk:
+      - "Do you want to (?:fetch and )?build wxWidgets(?: from sources)?\? \[yes *\]"
+      - "\n"
+      - "\QWhich archive type?\E"
+      - "\n"
+      - "\QDo you want to enable Unicode support [yes ]"
+      - "\n"
+      - "\QDo you want to include OpenGL support\E"
+      - "\n"

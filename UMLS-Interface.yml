@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/UMLS-Interface-\d"
+disabled: 1
+comment: "needs a mysql database"

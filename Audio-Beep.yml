@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Audio-Beep-\d"
+pl:
+  expect:
+    - "\QPRESS [ENTER]\n"
+    - "\n"
+    - "\QDefault is to not install Japanese docs. [N/y]"
+    - "\n"

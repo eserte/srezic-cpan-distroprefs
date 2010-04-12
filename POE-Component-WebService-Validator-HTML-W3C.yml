@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/POE-Component-WebService-Validator-HTML-W3C-\d"
+pl:
+  expect:
+    - "\QDo you want to perform validation tests"
+    - "n\n"

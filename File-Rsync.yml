@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/File-Rsync-\d"
+make: 
+  expect:
+    - "Path to rsync "
+    - "\n"

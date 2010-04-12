@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-FTPSSL-\d"
+test:
+  expect:
+    - "\QDo you want to make a deeper test ? [y/N]"
+    - "\n"

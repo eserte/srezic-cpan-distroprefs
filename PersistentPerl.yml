@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/PersistentPerl-\d"
+pl:
+  expect:
+    - "\QCompile mod_persistentperl (default no)"
+    - "\n"

@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/POE-Component-SNMP-Session-\d+"
+pl:
+  expect:
+    - "\Qenter a hostname [leave empty to skip all tests]"
+    - "\n"

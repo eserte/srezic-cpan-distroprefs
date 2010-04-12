@@ -1,0 +1,9 @@
+--- 
+match:
+  distribution: "/AI-Categorizer-\d"
+pl:
+  expect:
+    - "install.*script"
+    - "y\n"
+    - "CLASSPATH"
+    - "\n"

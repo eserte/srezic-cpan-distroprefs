@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Crypt-SKey-\d"
+test:
+  expect:
+    - "\QEnter secret password"
+    - "pwd\n"

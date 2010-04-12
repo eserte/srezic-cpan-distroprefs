@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/iCal-Parser-HTML-\d"
+pl:
+  expect:
+    - "\QWould you like to install ical2html, a command line frontend"
+    - "y\n"

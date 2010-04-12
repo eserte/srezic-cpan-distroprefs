@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/B-JVM-Jasmin-\d"
+pl:
+  expect:
+    - "\QInstall .class files to"
+    - "\n"

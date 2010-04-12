@@ -1,0 +1,9 @@
+--- 
+match:
+  distribution: "/Cvs-Simple-\d"
+pl:
+  expect:
+    - "\QYour cvs path and binary name:"
+    - "\n"
+    - "\Qcvs -d option"
+    - "\n"

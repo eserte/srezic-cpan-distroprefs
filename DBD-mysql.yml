@@ -1,0 +1,29 @@
+--- 
+comment: "the Bundle::DBD::mysql includes Mysql which isn't in 4.00 anymore"
+match:
+  distribution: "^CAPTTOFU/DBD-mysql-3\.\d+.tar.gz$"
+disabled: 1
+--- 
+match:
+  distribution: "/DBD-mysql-\d"
+  perlconfig:
+    archname: -linux
+comment: "Fits for debian, needs grant all on test.* to test@'localhost' identified by 'test';"
+pl: 
+  args: 
+    - --testdb=test
+    - --testhost=localhost
+    - --testport=3306
+    - --testuser=test
+    - --testpassword=test
+--- 
+match:
+  distribution: "/DBD-mysql-\d"
+pl: 
+  args: 
+    - --testdb=test
+    - --testhost=localhost
+    - --testport=3306
+    - --testuser=test
+    - --testpassword=test
+    - --testsocket=/tmp/mysql.sock

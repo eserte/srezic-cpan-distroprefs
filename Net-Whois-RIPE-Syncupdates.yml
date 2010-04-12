@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Net-Whois-RIPE-Syncupdates-\d"
+pl:
+  expect:
+    - "\QTEST syncupdates frontend URL"
+    - "\n"
+    - "\QDEFAULT syncupdates frontend URL"
+    - "\n"

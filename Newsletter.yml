@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Newsletter-\d"
+pl:
+  expect:
+    - "\QInstall? [y]"
+    - "n\n"

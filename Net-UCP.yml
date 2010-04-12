@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Net-UCP-0\.40\.tar\.gz"
+patches:
+  - SREZIC/patches/Net-UCP-0.40-SREZIC-01.patch

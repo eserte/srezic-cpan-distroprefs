@@ -1,0 +1,17 @@
+---
+match:
+  distribution: "/Apache-JemplateFilter-\d"
+pl:
+  expect:
+    - "to skip.*httpd"
+    - "\n"
+    - "\QSearch existing config file for dynamic module dependencies"
+    - "y\n"
+    - "Config file"
+    - "\n"
+    - "\QUser to run tests under"
+    - "\n"
+    - "\QGroup to run tests under"
+    - "\n"
+    - "\QPort to run tests under"
+    - "\n"

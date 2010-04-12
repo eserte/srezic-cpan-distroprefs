@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-DBus-Skype-\d"
+pl:
+  expect:
+    - "\QDo you want to install 'skype-action-handler'"
+    - "\n"

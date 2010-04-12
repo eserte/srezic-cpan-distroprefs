@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-PingFM-\d"
+pl:
+  expect:
+    - "\QRun online tests"
+    - "\n"

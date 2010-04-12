@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Frivolity-0\.7\.1\."
+disabled: 1
+comment: "Using outdated ExtUtils::AutoInstall, which wants to use CPANPLUS"
+---
+match:
+  distribution: "/Frivolity-\d"
+pl:
+  args:
+    - "--default"

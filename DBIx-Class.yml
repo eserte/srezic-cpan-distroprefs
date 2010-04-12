@@ -1,0 +1,20 @@
+--- 
+match:
+  distribution: "/DBIx-Class-0\.0[1234567]"
+disabled: 1
+--- 
+match:
+  distribution: "/DBIx-Class-\d"
+  perlconfig:
+# essentially Unix-like systems:
+    archname: "(freebsd|linux)"
+#pl:
+#  eexpect:
+#    timeout: 5
+#    mode: anyorder
+#    reuse: 1
+#    talk:
+#      - "\Q==> Auto-install the \E\d+\Q \E(mandatory|optional)\Q module(s) from CPAN? [y]"
+#      - "\n"
+test:
+  commandline: "make test DBIC_NO_WARN_BAD_PERL=1"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/HTML-Embperl-\d"
+pl:
+  expect:
+    - "\QBuild with support for Apache mod_perl?(y/n) [y]"
+    - "n\n"

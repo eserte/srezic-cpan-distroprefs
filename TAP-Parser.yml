@@ -1,0 +1,25 @@
+---
+match:
+  distribution: "\QANDYA/TAP-Parser-0.51.tar.gz"
+disabled: 1
+--- 
+match:
+  distribution: "\QANDYA/TAP-Parser-0.54.tar.gz"
+disabled: 1
+--- 
+match:
+  distribution: "/TAP-Parser-\d"
+pl: 
+  eexpect:
+    mode: anyorder
+    # Should not be necessary:
+    timeout: 2
+    reuse: 1
+    talk:
+      - "\QDo you wish to install the 'runtests' utility? [y]"
+      - "\n"
+#--- 
+#match:
+#  distribution: "\QANDYA/Test-Harness-3.03.tar.gz"
+#disabled: 1
+#comment: "Seems to break many CPAN dists"

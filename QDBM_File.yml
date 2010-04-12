@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/QDBM_File-\d"
+pl:
+  expect:
+    - "\Qlibqdbm link type: [1]"
+    - "\n"

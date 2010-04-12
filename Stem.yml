@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Stem-\d"
+make:
+  expect:
+    - "\Q/usr/local/stem/conf"
+    - "\n"
+    - "\QEnter the path to xterm"
+    - "/usr/X11R6/bin/xterm\n"
+    - "\QDo you want to install ssfe"
+    - "\n"

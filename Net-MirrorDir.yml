@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Net-(MirrorDir|UploadMirror|DownloadMirror)-\d"
+## sometimes MirrorDir seems to be interactive and sometimes not?!
+disabled: 1
+#test:
+#  expect:
+#    - "\QWould you like to  test the module with a ftp-server"
+#    - "n\n"

@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Filesys-Ext2-\d"
+  perlconfig:
+    archname: "(-freebsd)"
+test:
+  expect:
+    - "\QPATH:"
+    - "/usr/local/bin\n"

@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/YAML-\d"
+pl: 
+  expect:
+    - "\QContinue installing YAML.pm? [y]\E"
+    - "\n"

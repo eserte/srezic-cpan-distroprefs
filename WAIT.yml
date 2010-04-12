@@ -1,0 +1,11 @@
+--- 
+match:
+  distribution: "/WAIT-\d"
+pl:
+  expect:
+    - "\QWAIT database directory?"
+    - "/tmp\n"
+    - "\Qpath|[+-]number"
+    - "q\n"
+    - "\Qpager"
+    - "\n"

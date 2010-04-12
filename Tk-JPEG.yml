@@ -1,0 +1,9 @@
+---
+match:
+  module: "^Tk::JPEG$"
+  perlconfig:
+    version: "^5\.6\."
+
+#goto: "NI-S/Tk-JPEG-2.014.tar.gz"
+disabled: 1
+comment: "No need to test this one"

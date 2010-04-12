@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Font-TFM-\d"
+pl:
+  expect:
+    - "\QWhere should I search for tfm files"
+    - "\n"

@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/Astro-SIMBAD-Client-\d+"
+pl:
+  expect:
+    - "\QDo you want to install simbadc? [n]\E"
+    - "\n"

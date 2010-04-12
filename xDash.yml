@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/xDash-\d"
+pl:
+  expect:
+    - "\QPlease enter the number of the option from"
+    - "2\n"

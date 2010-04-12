@@ -1,0 +1,13 @@
+--- 
+match:
+  distribution: "^\QTJENNESS/File-Temp-0.18.tar.gz\E$"
+  perlconfig:
+    version: "^5.005"
+patches:
+  - SREZIC/patches/File-Temp-0.18-SREZIC-02.patch.gz
+---
+match:
+  distribution: "TJENNESS/File-Temp-0.2[01].tar.gz"
+  perl: "^(/usr/local/bin/perl5.8.8t|/usr/perl5.8.8t/bin/perl)$"
+disabled: 1
+comment: "Hangs in lock.t test"

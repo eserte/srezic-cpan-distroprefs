@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/XUL-Node-\d"
+pl:
+  expect:
+    - "\Q/usr/local/xul-node"
+    - "\n"

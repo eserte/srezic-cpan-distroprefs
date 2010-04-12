@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/HTML-Perlinfo-\d"
+pl:
+  expect:
+    - "\QHmmm... You don't have App::Info installed. You don't need it, but it can be useful to get extra information about the Apache HTTPD server. Install"
+    - "y\n"

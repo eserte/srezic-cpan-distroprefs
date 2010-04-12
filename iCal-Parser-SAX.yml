@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/iCal-Parser-SAX-\d"
+pl:
+  expect:
+    - "\QWould you like to install ical2xml, a command line frontend?"
+    - "n\n"
+    - "\QWould you like to test a remote (http) calendar?"
+    - "\n"

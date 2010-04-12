@@ -1,0 +1,15 @@
+---
+match:
+  distribution: "/HTML-Validator-\d"
+pl:
+  expect:
+    - "\QPlease insert the path to the nsgmls"
+# default is good enough here: /usr/local/bin/nsgmls
+    - "\n"
+    - "\QPlease insert the path to the SGML catalog file [/usr/local/lib/sgml-lib/catalog] :"
+    - "/tmp\n"
+# haeh?
+    - "\QFile '/tmp' does not exist, do you want to use it anyway ? [Y/n]"
+    - "\n"
+    - "\QDo you want XML support ? [y/N]"
+    - "\n"

@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Games-Worms-\d"
+pl:
+  expect:
+    - "\QDo you want to install 'worms'? [n]"
+    - "\n"

@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/PSPP-Perl-0.7.2.20090730"
+disabled: 1
+comment: "Fails even if I specify the source directory"

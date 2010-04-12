@@ -1,0 +1,59 @@
+---
+comment: "have to be reviewed for the smokers"
+match:
+  distribution: "/mod_perl-\d"
+  env:
+    USER: cpansand
+disabled: 1
+--- 
+comment: "this prefs would work only on FreeBSD, but it works nowhere"
+match:
+  distribution: "^GOZER/mod_perl-1.29"
+  perlconfig:
+    archname: -freebsd
+pl: 
+  expect:
+    - "../apache_x.x/src"
+    - "/usr/ports/www/apache13/work/apache_1.3.37/src\n"
+    - "Configure mod_perl with "
+    - "y\n"
+    - "Shall I build httpd.*for you"
+    - "y\n"
+disabled: 1
+--- 
+comment: "This prefs works only on FreeBSD. It makes sure that the Apache source directory is extracted and patched, and that the PWD environment variable is set correctly (needed by the test suite)"
+match:
+  distribution: "^GOZER/mod_perl-1.30"
+  perlconfig:
+    archname: -freebsd
+pl: 
+  commandline: "(cd /usr/ports/www/apache13 && make patch) && perl Makefile.PL EVERYTHING=1"
+  expect:
+    - "Please tell me where I can find your apache src"
+    - "/usr/ports/www/apache13/work/apache_1.3.41/src\n"
+    - "Configure mod_perl with "
+    - "y\n"
+    - "Shall I build httpd.*for you"
+    - "y\n"
+test:
+  commandline: 'env PWD=`pwd` make test'
+--- 
+comment: "This prefs works only on a specific Debian machine."
+match:
+  distribution: "^GOZER/mod_perl-1.30"
+  perlconfig:
+    archname: -linux
+  env:
+    HOSTNAME: devpc01-debian
+pl: 
+  args:
+    - EVERYTHING=1
+  expect:
+    - "Please tell me where I can find your apache src"
+    - "/usr/local/src/apache_1.3.34/src\n"
+    - "Configure mod_perl with "
+    - "y\n"
+    - "Shall I build httpd.*for you"
+    - "y\n"
+patches:
+  - "SREZIC/patches/mod_perl-1.30-SREZIC-01.patch"

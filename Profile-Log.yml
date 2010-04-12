@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Profile-Log-\d"
+pl:
+  expect:
+    - "\QDirectory to install templates?"
+    - "/tmp\n"

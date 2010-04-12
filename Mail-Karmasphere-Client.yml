@@ -1,0 +1,13 @@
+---
+match:
+  distribution: "/Mail-Karmasphere-Client-\d"
+pl:
+  expect:
+    - "\QDo you want to install 'karmaclient'"
+    - "\n"
+    - "\QDo you want to install 'karmad-exim'"
+    - "\n"
+    - "\QDo you want to install 'karmad-postfix'"
+    - "\n"
+    - "\QDo you want to install 'karma-publish'"
+    - "\n"

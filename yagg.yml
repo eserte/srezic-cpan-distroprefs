@@ -1,0 +1,14 @@
+---
+match:
+  distribution: "/yagg-\d"
+pl:
+  eexpect:
+    reuse: 1
+    mode: anyorder
+    talk:
+      - "\QWould you like to install this package into a location other than the"
+      - "\n"
+      - "\QWhere can I find your \"make\" executable?"
+      - "/usr/local/bin/gmake\n"
+      - "Where can I find your .* executable"
+      - "\n"

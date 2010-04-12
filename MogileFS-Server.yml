@@ -1,0 +1,7 @@
+--- 
+match:
+  module: "^MogileFS::Server$"
+
+test:
+  env:
+    MOGSTORED_RUN_WITHOUT_AIO: 1

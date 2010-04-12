@@ -1,0 +1,38 @@
+--- 
+comment: "Test hangs and eventually fails"
+match:
+  distribution: "^RCAPUTO/POE-0\.9999\.tar\.gz"
+  perlconfig:
+    archname: "-freebsd"
+    version: "^(5\.00505|5\.6\.2)$"
+disabled: 1
+--- 
+comment: "Workaround a problem in Tk <= 804.028 on 64bit machines"
+match:
+  distribution: "^RCAPUTO/POE-0\.9999\.tar\.gz"
+  perlconfig:
+    archname: "^amd64-freebsd"
+pl: 
+  args:
+    - --default
+patches:
+  - "SREZIC/patches/POE-0.9999-SREZIC-02.patch"
+--- 
+comment: "Workaround a problem in Tk <= 804.028 on 64bit machines"
+match:
+  distribution: "^RCAPUTO/POE-1\.007\.tar\.gz"
+  perlconfig:
+    archname: "^amd64-freebsd"
+pl:
+  args:
+    - --default
+depends:
+  requires:
+    Tk: 804.028_500
+--- 
+comment: "Or if you prefer to follow the defaults..."
+match:
+  distribution: "^RCAPUTO/POE-\d"
+pl: 
+  args:
+    - --default

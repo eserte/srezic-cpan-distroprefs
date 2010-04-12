@@ -1,0 +1,11 @@
+--- 
+match:
+  distribution: "/Ogre-BetaGUI-\d"
+pl:
+  eexpect:
+    mode: anyorder
+    timeout: 2
+    reuse: 1
+    talk:
+      - "\QDo you want to install OIS now? [y]"
+      - "n\n"

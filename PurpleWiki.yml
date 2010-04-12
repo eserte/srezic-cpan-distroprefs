@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/PurpleWiki-\d"
+pl:
+  expect:
+    - "\QWhere should the wiki.pl CGI be installed"
+    - "\n"

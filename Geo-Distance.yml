@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/Geo-Distance-0\.14\."
+patches:
+  - SREZIC/patches/Geo-Distance-0.14-SREZIC-01.patch
+comment: https://rt.cpan.org/Ticket/Display.html?id=48611

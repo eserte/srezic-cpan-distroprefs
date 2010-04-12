@@ -1,0 +1,25 @@
+--- 
+match:
+  distribution: "/Mail-SpamAssassin-2\.\d"
+disabled: 1
+comment: "ignore old distribution"
+--- 
+match:
+  distribution: "/Mail-SpamAssassin-3\.1.\d"
+disabled: 1
+comment: "ignore old distribution"
+--- 
+match:
+  distribution: "/Mail-SpamAssassin-\d"
+pl: 
+  expect:
+    - "\Qdefault text: [the administrator of that system]\E"
+    - "\n"
+
+test: 
+  args: []
+
+  env: {}
+
+  expect: []
+

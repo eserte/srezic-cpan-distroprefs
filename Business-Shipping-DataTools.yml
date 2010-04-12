@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Business-Shipping-DataTools-\d"
+pl:
+  expect:
+    - "\QBusiness::Shipping::DataTools Support files directory"
+    - "\n"

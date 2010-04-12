@@ -1,0 +1,6 @@
+--- 
+comment: "Needs the Google API key for tests, so skip tests"
+match:
+  distribution: "/Net-Google-\d"
+test:
+  commandline: "true"

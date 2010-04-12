@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Mail-DSPAM-Learning-\d"
+pl:
+  expect:
+    - "\QDefault directory for personal configuration"
+    - "\n"
+    - "\QDefault mailbox containing the SPAMS"
+    - "\n"

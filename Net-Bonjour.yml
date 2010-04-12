@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-Bonjour-\d"
+pl:
+  expect:
+    - "\QEnable enterprise tests"
+    - "n\n"

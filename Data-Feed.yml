@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Data-Feed-\d"
+pl:
+  expect:
+    - "\QAdd Moose to the prerequisites?"
+    - "\n"

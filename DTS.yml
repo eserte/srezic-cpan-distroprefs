@@ -1,0 +1,7 @@
+--- 
+match:
+  distribution: "/DTS-\d"
+pl:
+  expect:
+    - "\QDo you want to enable extended tests? [no]"
+    - "\n"

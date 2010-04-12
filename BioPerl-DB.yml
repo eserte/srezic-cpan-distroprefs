@@ -1,0 +1,23 @@
+---
+match:
+  distribution: "/BioPerl-DB-\d"
+disabled: 1
+comment: "Too many questions..."
+#pl:
+#  expect:
+#    - "\QHave you already installed BioSQL? y/n"
+#    - "\n"
+#    - "\QDo you want to use the existing 't/DBHarness.biosql.conf' config file? y/n"
+#    - "n\n"
+#    - "\QDBD driver to use (mandatory)?"
+#    - "SQLite\n"
+#    - "\QMachine to connect to (mandatory)?"
+#    - "\n"
+#    - "\QUser to connect to server as (mandatory)?"
+#    - "\n"
+#    - "\QPort the server is running on (optional, '' for undef/none)?"
+#    - "\n"
+#    - "\QPassword (optional)?"
+#    - "\n"
+#    - "\QName of your existing Biosql database, as it is known to your RDBMS (optional, '' for none)?"
+#    - "\n"

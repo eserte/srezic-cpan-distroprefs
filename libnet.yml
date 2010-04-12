@@ -1,0 +1,8 @@
+--- 
+match:
+  distribution: "/libnet-\d"
+pl:
+  expect:
+    - "\QDo you want to modify/update your configuration (y|n) ? [no]"
+    - "\n"
+

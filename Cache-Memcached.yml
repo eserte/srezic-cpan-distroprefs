@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Cache-Memcached-1\.26\.tar\.gz"
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+comment: "t/100_flush_bug.t often hangs, disturbing the smokers"
+# is not freebsd specific, may also happen on all other OS

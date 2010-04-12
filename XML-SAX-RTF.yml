@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/XML-SAX-RTF-0.1.tar.gz"
+disabled: 1
+comment: "http://rt.cpan.org/Public/Bug/Display.html?id=5943"

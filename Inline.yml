@@ -1,0 +1,9 @@
+--- 
+match:
+  distribution: "(INGY|SISYPHUS)/Inline-\d"
+pl: 
+  expect:
+    - "Do you want to install Inline::C"
+    - "y\n"
+# This question only appears if perl was build with CC="ccache cc"
+# An RT ticket exists.

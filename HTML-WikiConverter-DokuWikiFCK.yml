@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/HTML-WikiConverter-DokuWikiFCK-\d"
+pl:
+  expect:
+    - "\QDirectory Name:"
+    - "\n"

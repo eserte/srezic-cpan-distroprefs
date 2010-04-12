@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-Telnet-Cisco-\d"
+test:
+  expect:
+    - "\QRouter:"
+    - "\n"

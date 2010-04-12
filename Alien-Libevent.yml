@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Alien-Libevent-\d"
+pl:
+  expect:
+    - "\QReally install? [n]"
+    - "\n"
