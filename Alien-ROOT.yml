@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Alien-ROOT-\d"
+pl:
+  expect:
+    - "\QROOT was not found on your system. Install it now?"
+    - "\n"
