@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Alien-PNG-\d"
+pl:
+  expect:
+    - "\QWhat way do you wanna go?"
+    - "1\n"
