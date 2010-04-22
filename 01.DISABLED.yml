@@ -925,5 +925,6 @@ match:
     |.*/Lingua-EN-GeniaTagger-\d+ # wants path to geniatagger
     |KTHAKORE/SDL_Perl-v2\.2\.6\. # hangs on freebsd, both 5.10.1 and 5.12.0
     |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
+    |MBRANDON/README$ # an upload accident?
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
