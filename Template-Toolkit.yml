@@ -28,18 +28,10 @@ match:
 patches:
   # The "cease warnings" patch
   - SREZIC/patches/Template-2.22-SREZIC-01.patch
-pl: 
-  expect:
-    - "Do you want to build the XS Stash module"
-    - "y\n"
-    - "\QDo you want to use the XS Stash by default? [y]\E"
-    - "y\n"
+pl:
+  args: ["TT_ACCEPT=y"]
 --- 
 match:
   distribution: "/Template-Toolkit-\d"
-pl: 
-  expect:
-    - "Do you want to build the XS Stash module"
-    - "y\n"
-    - "\QDo you want to use the XS Stash by default? [y]\E"
-    - "y\n"
+pl:
+  args: ["TT_ACCEPT=y"]
