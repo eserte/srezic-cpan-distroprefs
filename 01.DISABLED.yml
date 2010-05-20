@@ -459,6 +459,16 @@ match:
   env:
     PERL_BATCH: yes
 disabled: 1
+---
+comment: "Tests likely to hang, so disable in PERL_BATCH mode"
+match:
+  distribution: |
+    ^(?x:
+      IPC-Shareable-0\.60\.
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  env:
+    PERL_BATCH: yes
+disabled: 1
 --- 
 comment: "Various reasons"
 match:
