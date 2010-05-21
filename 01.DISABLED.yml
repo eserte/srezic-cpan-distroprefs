@@ -400,6 +400,7 @@ match:
     |.*/Aut-\d # asks for a password
     |.*/Authen-CyrusSASL-\d
     |.*/B-Debugger-\d # needs to answer "c" or so (invisible)
+    |.*/CGI-Application-Plugin-LinkIntegrity-\d # asks from terminal something
     |.*/Costume-Doublet-\d # shows eog window which has to be closed
     |.*/Crypt-SKey-\d
     |.*/CursesWidgets-\d
