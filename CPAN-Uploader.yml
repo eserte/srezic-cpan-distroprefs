@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/CPAN-Uploader-\d"
+  distribution: "/CPAN-Uploader-(0\.00[12345]|0\.091270)\."
 disabled: 1
-comment: "May overwrite the cpan-upload script by Neil Bowers, but actually is less capable, see http://rt.cpan.org/Ticket/Display.html?id=41560 . Try NEILB/scripts/cpan-upload-2.2.tar.gz instead"
+comment: "May overwrite the cpan-upload script by Neil Bowers, but actually is less capable, see http://rt.cpan.org/Ticket/Display.html?id=41560 . Try NEILB/scripts/cpan-upload-2.2.tar.gz instead or a newer version of CPAN-Uploader"
