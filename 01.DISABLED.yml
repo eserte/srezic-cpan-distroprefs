@@ -419,7 +419,7 @@ match:
     |.*/Net-DBus-Skype-0.02.tar.gz # asks questions; check and fix! XXX
     |.*/POE-Component-WebService-HtmlKitCom-FavIconFromImage-0.002.tar.gz # 00-load test always hangs on freebsd and needs manual killing
     |.*/POE-Component-WWW-Google-PageRank-0\.04\.tar\.gz # 00-load test always hangs on freebsd and needs manual killing
-    |.*/Perl-Tags-0.26.tar.gz # asks for RETURN in test
+    |.*/Perl-Tags-0.\d+.tar.gz # asks for RETURN in test, seen with 0.26 and 0.28
     |.*/PerlMagick-6\.40\. # composite+montage tests are interactive
     |.*/Proc-JobQueue-0\.3\. # asks for a password
     |.*/Puppet-Log-1.012.tar.gz
