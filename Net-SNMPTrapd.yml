@@ -1,7 +1,7 @@
 ---
 match:
   distribution: "/Net-SNMPTrapd-\d"
-pl:
+test:
   expect:
     - "\QContinue with tests?"
     - "\n"

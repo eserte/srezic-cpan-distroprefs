@@ -471,6 +471,8 @@ match:
     |.*/Template-Provider-HTTP-0\.02\. # simple.t may hang
     |.*/HTML-Tested-JavaScript-0\.25\. # GtkMozEmbed.t may hang
     |.*/Ocsinventory-Agent-\d # invisible postinstall questions (answer "n"!)
+    |.*/Bootylicious-0\.910101\. # app.t test may hang
+    |.*Bootylicious-Plugin-GoogleAnalytics-0\.990201\. # may also hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
