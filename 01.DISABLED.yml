@@ -472,7 +472,10 @@ match:
     |.*/HTML-Tested-JavaScript-0\.25\. # GtkMozEmbed.t may hang
     |.*/Ocsinventory-Agent-\d # invisible postinstall questions (answer "n"!)
     |.*/Bootylicious-0\.910101\. # app.t test may hang
-    |.*Bootylicious-Plugin-GoogleAnalytics-0\.990201\. # may also hang
+    |.*/Bootylicious-Plugin-GoogleAnalytics-0\.990201\. # may also hang
+    |.*/Log-Syslog-Fast-0\.30\. # may hang
+    |.*/MojoX-Session-Store-File-0\.01\. # plugin.t may hang
+    |.*/Event-RPC-1\.01\. # 04.cnct-auth-ssl.t may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
