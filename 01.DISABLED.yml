@@ -410,6 +410,7 @@ match:
     |.*/File-SmartTail-\d # wants rsh password
     |.*/Games-Sudoku-SudokuTk-\d
     |.*/Graphics-Libplot-\d # needs to click on windows
+    |.*/Gtk-Perl-0\.7009\. # interactive test
     |.*/Log-Dispatch-Tk-\d
     |.*/Mail-SendEasy-\d # wants smtp server etc. for tests
     |.*/Math-Units-1\.3\. # in fact, not really interactive, but hangs because of "gunits -v"
@@ -475,7 +476,12 @@ match:
     |.*/Bootylicious-Plugin-GoogleAnalytics-0\.990201\. # may also hang
     |.*/Log-Syslog-Fast-0\.30\. # may hang
     |.*/MojoX-Session-Store-File-0\.01\. # plugin.t may hang
+    |.*/MojoX-Session-0\.(19|20)\. # plugin.t may hang
+    |.*/MojoX-Renderer-XSLT-0\.01\. # basic.t and 02-params.t may hang
+    |.*/Mojolicious-Plugin-BasicAuth-0\.02\. # auth.t may hang
+    |.*/Test-WWW-Mechanize-Mojo-v0\.0\.4\. # auth_test.t may hang
     |.*/Event-RPC-1\.01\. # 04.cnct-auth-ssl.t may hang
+    |.*/Maplat-0\.99\. # make test may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
