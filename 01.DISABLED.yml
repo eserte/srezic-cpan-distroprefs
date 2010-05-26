@@ -411,6 +411,7 @@ match:
     |.*/Games-Sudoku-SudokuTk-\d
     |.*/Graphics-Libplot-\d # needs to click on windows
     |.*/Gtk-Perl-0\.7009\. # interactive test
+    |.*/Imager-Album-0\.06\. # gtk based interactive test
     |.*/Log-Dispatch-Tk-\d
     |.*/Mail-SendEasy-\d # wants smtp server etc. for tests
     |.*/Math-Units-1\.3\. # in fact, not really interactive, but hangs because of "gunits -v"
@@ -479,9 +480,29 @@ match:
     |.*/MojoX-Session-0\.(19|20)\. # plugin.t may hang
     |.*/MojoX-Renderer-XSLT-0\.01\. # basic.t and 02-params.t may hang
     |.*/Mojolicious-Plugin-BasicAuth-0\.02\. # auth.t may hang
+    |.*/Gearman-Driver-0\.02005\. # may hang
     |.*/Test-WWW-Mechanize-Mojo-v0\.0\.4\. # auth_test.t may hang
-    |.*/Event-RPC-1\.01\. # 04.cnct-auth-ssl.t may hang
+    |.*/Event-RPC-1\.01\. # 04.cnct-auth-ssl.t and many others may hang
     |.*/Maplat-0\.99\. # make test may hang
+    |.*/Pod-Simple-XHTML-BlendedCode-1\.003\. # probably asks invisible questions in Build.PL
+    |.*/CGI-Ex-2\.(27|32)\. # waits for terminal input (why?) https://rt.cpan.org/Ticket/Display.html?id=48605
+    |.*/Audio-aKodePlayer-0\.01\. # 10-player.t may hang
+    |.*/Alvis-Convert-0\.4\. # 1-read.t may hang
+    |.*/REST-Application-0\.992\. # ttyin
+    |.*/Net-Proxy-0\.12\. # 36ssl_tcp.t may hang
+    |.*/Lingua-JA-Romanize-Japanese-0\.23\. # probably asking an invisible question
+    |.*/Rubric-0\.145\. # t/www/www_main.t may hang
+    |.*/Alvis-Pipeline-0\.11\. # may hang on 1-read.t test
+    |.*/HTML-Tempi-0\.01\. # test.pl may hang
+    |.*/File-FDpasser-0\.09\. # t12serv_cli.t may hang
+    |.*/POE-Component-Child-1\.39\. # test may hang
+    |.*/OpenFrame-Segment-Apache-1\.20\. # apache.t may hang
+    |.*/WWW-Google-Groups-0\.09\. # test.pl may hang
+    |.*/CGI-Application-Plugin-FormState-0\.12\. # tests may hang
+    |.*/TiVo-HME-1\.3\. # 1.t test may hang
+    |.*/DBIx-XMLServer-0\.02\. # seemingly asks for database name
+    |.*/Teamspeak-0\.6\. # 10distribution.t may hang
+    |.*/XiaoI-0\.03\. # XiaoI.t may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
