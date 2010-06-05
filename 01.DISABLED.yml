@@ -503,6 +503,7 @@ match:
     |.*/DBIx-XMLServer-0\.02\. # seemingly asks for database name
     |.*/Teamspeak-0\.6\. # 10distribution.t may hang
     |.*/XiaoI-0\.03\. # XiaoI.t may hang
+    |.*/POE-Component-MessageQueue-0\.2\.9\. # t/09_ack_auto.t may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
