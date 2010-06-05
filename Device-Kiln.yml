@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Device-Kiln-\d"
+pl:
+  expect:
+    - "\QWhere would you like kilngraph.pl & kilnserve.pl installed"
+    - "\n"
