@@ -504,6 +504,7 @@ match:
     |.*/Teamspeak-0\.6\. # 10distribution.t may hang
     |.*/XiaoI-0\.03\. # XiaoI.t may hang
     |.*/POE-Component-MessageQueue-0\.2\.9\. # t/09_ack_auto.t may hang
+    |.*/Test-WWW-Simple-0\.29\. # may hang, maybe if Regexp::Common is not installed
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
