@@ -2,4 +2,4 @@
 match:
   distribution: "/IO-Async-SSL-0\.01\."
 disabled: 1
-comment: "may kill the CPAN client"
+comment: "may kill the CPAN client if socat not found"
