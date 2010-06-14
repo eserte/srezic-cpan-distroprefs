@@ -506,6 +506,7 @@ match:
     |.*/POE-Component-MessageQueue-0\.2\.9\. # t/09_ack_auto.t may hang
     |.*/Test-WWW-Simple-0\.29\. # may hang, maybe if Regexp::Common is not installed
     |.*/Mojolicious-0\.999926\. # many tests may hang
+    |.*/Test-WWW-Mechanize-Mojo-v0\.0\.5\. # tests may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
