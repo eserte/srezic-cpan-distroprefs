@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/IPC-Run-0\.84\.tar\.gz"
+  distribution: "/IPC-Run-0\.8[4-9]\.tar\.gz"
 test:
   env:
     LANG: C
