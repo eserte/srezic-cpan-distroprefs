@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-IMAP-Simple-\d"
+pl:
+  expect:
+    - "\QDo you wish to include some simple protocol extensions"
+    - "\n"
