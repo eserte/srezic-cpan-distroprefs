@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Xymon-Server-ExcelOutages-\d"
+pl:
+  expect:
+    - "\QWhere is you cgi-bin directory"
+    - "\n"
