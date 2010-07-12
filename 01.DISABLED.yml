@@ -510,7 +510,8 @@ match:
     |.*/Mojolicious-Plugin-ContentManagement-0\.011\. # tests may hang
     |.*/FlatFile-DataStore-0\.1[34]\. # tests may hang
     |.*/RDF-ACL-0\.100\. # tests may hang
-    |.*/HTTP-LoadGen-0\.01\. # thread test may hang
+    |.*/HTTP-LoadGen-0\.0\d\. # thread test may hang (seen with 01,02,04,05)
+    |.*/Gtk2-MozEmbed-0\.08\. # may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
