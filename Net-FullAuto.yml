@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-FullAuto-\d"
+pl:
+  expect:
+    - "\QPLEASE ENTER A CHOICE:"
+    - "1\n"
