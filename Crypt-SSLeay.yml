@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "^DLAND/Crypt-SSLeay-"
+  distribution: "/Crypt-SSLeay-\d"
 pl:
   eexpect:
     mode: anyorder
