@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/REST-Client-\d"
+pl:
+  expect:
+    - "\QPlease select one"
+    - "\n"
