@@ -1,6 +1,6 @@
 --- 
 comment: "A large number of tests is known to fail, so skip tests"
 match:
-  module: WWW::Shorten
+  module: "^WWW::Shorten$"
 test:
   commandline: "true"
