@@ -20,7 +20,14 @@
     use Safe;
 }
 
-all:	validate dd-prefs permissions
+all:	do-stuff
+
+do-stuff: validate dd-prefs permissions
+
+update:	git-pull do-stuff
+
+git-pull:
+	git pull --rebase
 
 dd-prefs: { map { s{\.yml$}{.dd}; $_ } glob("*.yml") }
 
