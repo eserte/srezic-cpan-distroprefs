@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Gearman-XS-\d"
+  env:
+    HOSTNAME: devpc01-debian
+pl:
+  env:
+    GEARMAN_INCLUDE: /usr/local/include
+    GEARMAN_LIB: /usr/local/lib
