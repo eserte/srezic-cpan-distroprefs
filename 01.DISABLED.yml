@@ -512,6 +512,11 @@ match:
     |.*/RDF-ACL-0\.100\. # tests may hang
     |.*/HTTP-LoadGen-0\.0\d\. # thread test may hang (seen with 01,02,04,05)
     |.*/Gtk2-MozEmbed-0\.08\. # may hang
+    |.*/Mildew-Setting-SMOP-0.03.tar.gz # hangs in Build
+    |.*/Mojolicious-Plugin-TweetButton-0.0002.tar.gz # may hang if Mojo does not build
+    |.*/Apache-Sling-0.12.tar.gz # the Apache-Sling-Print.t hangs
+    |KAMAL/LiteProcess-0.01.tar.gz # hangs
+    |BINGOS/Module-Install-ReadmeFromPod-0.10.tar.gz # hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
@@ -847,12 +852,14 @@ match:
     |TOKUHIROM/Test-TCP-0.11.tar.gz # it is killing CPAN.pm
     |FDULAU/Tie-Queue-README$ # an obvious accident
     |MIKEOB/README$ # another accident
+    |YKO/(README|MANIFEST) # another accident
     |JCLINE/Robotics-020/.* # another obvious accident
     |.*/Server-Starter-0.03 # may loop endlessly if Proc::Wait3 is not available
     |.*/Server-Starter-0.04 # dito
     |.*/Ogre-AL-\d # neither exists as fbsd port nor as debian package, it seems
     |.*/WWW-Compete-\d # asks for an API key
     |.*/XAO-Web-\d # needs a XAO::FS database for tests
+    |.*/Alien-IUP-v\d # does a find over the whole (!) disk and building takes forever
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
