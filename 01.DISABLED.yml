@@ -518,6 +518,7 @@ match:
     |KAMAL/LiteProcess-0.01.tar.gz # hangs
     |BINGOS/Module-Install-ReadmeFromPod-0.10.tar.gz # hangs
     |.*/Module-Install-GithubMeta-0.10- # hangs in 01compile, needs a ctrl-d
+    |BRADFITZ/TheSchwartz-Worker-PubSubHubbubPublish-1.00.tar.gz # hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
