@@ -8,12 +8,12 @@ disabled: 1
 comment: "One test seems to hang"
 --- 
 match:
-  distribution: "/Net-SSH-Perl-1\.33\."
+  distribution: "/Net-SSH-Perl-1\.(33|34)\."
   perlconfig:
-    version: "^5\.8\.8"
+#    version: "^5\.8\.8"
     archname: freebsd
 disabled: 1
-comment: "The 03-packet test hangs"
+comment: "The 03-packet test hangs (seen with 5.8.8, and 5.12.x)"
 --- 
 match:
   distribution: "/Net-SSH-Perl-\d"
