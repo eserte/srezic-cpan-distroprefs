@@ -524,6 +524,7 @@ match:
     |MUIR/modules/Log-Parallel-0.303.tar.gz # jobqueue test may hang
     |MSCHOUT/Apache-Profiler-0.10.tar.gz # may hang
     |.*/Math-TrulyRandom-1.0 # test hangs, on freebsd and linux
+    |.*/Mail-GPG-1.0.6 # may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes

@@ -1,3 +1,10 @@
+---
+match:
+  distribution: "/POE-Loop-EV-0.06."
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+comment: "Tests may hang miserably..."
 --- 
 match:
   distribution: "/POE-Loop-EV-\d"
