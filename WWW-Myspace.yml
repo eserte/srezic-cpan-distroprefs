@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/WWW-Myspace-0\.92\."
+disabled: 1
+comment: "Test takes long (half an hour) and seems to fail on all platforms for long time..."
