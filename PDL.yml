@@ -6,6 +6,10 @@ comment: "Do not need to test old devel versions"
 --- 
 match:
   module: "^PDL$"
+  perlconfig:
+# probably all BSDs...
+    archname: "-freebsd"
 cpanconfig:
   make: "/usr/local/bin/gmake"
-  make_install_make_command: "sudo gmake"
+## The below rule is disturbing my smoker: must not be called with sudo!!!
+#  make_install_make_command: "sudo gmake"
