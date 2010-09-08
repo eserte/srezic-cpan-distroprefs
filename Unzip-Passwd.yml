@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Unzip-Passwd_0.0.12-Alpha.tar.gz"
+disabled: 1
+comment: "Interactive test"
