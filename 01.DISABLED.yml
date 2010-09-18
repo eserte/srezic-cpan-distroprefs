@@ -525,6 +525,9 @@ match:
     |MSCHOUT/Apache-Profiler-0.10.tar.gz # may hang
     |.*/Math-TrulyRandom-1.0 # test hangs, on freebsd and linux
     |.*/Mail-GPG-1.0.6 # may hang
+    |.*/Net-Mollom-0.07 # may hang
+    |KTHAKORE/SDL-2.515.tar.gz # may hang
+    |KTHAKORE/SDL-2.516.tar.gz # dito
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
