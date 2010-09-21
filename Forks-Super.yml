@@ -1,11 +1,12 @@
 ---
 match:
   distribution: "/Forks-Super-\d"
-pl:
-  eexpect:
-    reuse: 1
-    mode: anyorder
-    timeout: 10
-    talk:
-      - "\QDo you want to attempt to install Sys::CpuLoadX"
-      - "\n"
+comment: "No extra handling needed anymore, it seems"
+#pl:
+#  eexpect:
+#    reuse: 1
+#    mode: anyorder
+#    timeout: 10
+#    talk:
+#      - "\QDo you want to attempt to install Sys::CpuLoadX"
+#      - "\n"

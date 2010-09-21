@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/RRD-Simple-\d"
+pl:
+  expect:
+    - "\QSend this anonymous information"
+    - "n\n"
+comment: "Shortcuts configure phase, otherwise waits 20s"

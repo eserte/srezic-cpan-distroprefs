@@ -528,6 +528,7 @@ match:
     |.*/Net-Mollom-0.07 # may hang
     |KTHAKORE/SDL-2.515.tar.gz # may hang
     |KTHAKORE/SDL-2.516.tar.gz # dito
+    |MDORMAN/Memcached-Client-0.96.tar.gz # killing the CPAN client
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
