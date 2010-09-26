@@ -1,0 +1,23 @@
+---
+match:
+  distribution: "/PApp-\d"
+pl:
+  expect:
+    - "\Qpapp library directory"
+    - "\n"
+    - "\Qdirectory for i18n tables"
+    - "\n"
+    - "\Qunique system id"
+    - "\n"
+    - "\Qpapp user id"
+    - "\n"
+    - "\Qpapp group id"
+    - "\n"
+    - "\Qpapp database"
+    - "\n"
+    - "\Qpapp database user"
+    - "\n"
+    - "\Qpapp database password"
+    - "\n"
+    - "\Qthe serverwide cipherkey"
+    - "\n"
