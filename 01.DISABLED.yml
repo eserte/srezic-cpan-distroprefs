@@ -529,6 +529,12 @@ match:
     |KTHAKORE/SDL-2.515.tar.gz # may hang
     |KTHAKORE/SDL-2.516.tar.gz # dito
     |MDORMAN/Memcached-Client-0.96.tar.gz # killing the CPAN client
+    |SHLOMIF/Net-SeedServe-0.2.1.tar.gz # t/protocol.t
+    |.*/HTTP-Server-Simple-Recorder-0.03 # may hang (01.live.t)
+    |.*/POE-Component-Server-Postfix-0.001 # may hang
+    |SPROUT/JE-0.049.tar.gz # may hang
+    |BARBIE/CPAN-YACSmoke-Plugin-NNTPWeb-0.07.tar.gz # may hang
+    |NUFFIN/Directory-Transactional-0.09.tar.gz # may hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
