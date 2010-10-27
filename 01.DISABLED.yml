@@ -536,6 +536,7 @@ match:
     |BARBIE/CPAN-YACSmoke-Plugin-NNTPWeb-0.07.tar.gz # may hang
     |NUFFIN/Directory-Transactional-0.09.tar.gz # may hang
     |MLEHMANN/AnyEvent-FastPing-1.13.tar.gz # load test hangs
+    |SAMV/Lingua-Translate-0.09. # systran test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
@@ -872,6 +873,7 @@ match:
     |FDULAU/Tie-Queue-README$ # an obvious accident
     |MIKEOB/README$ # another accident
     |YKO/(README|MANIFEST) # another accident
+    |FDULAU/.*\.CHANGELOG # more accidents (?)
     |JCLINE/Robotics-020/.* # another obvious accident
     |.*/Server-Starter-0.03 # may loop endlessly if Proc::Wait3 is not available
     |.*/Server-Starter-0.04 # dito
@@ -879,6 +881,7 @@ match:
     |.*/WWW-Compete-\d # asks for an API key
     |.*/XAO-Web-\d # needs a XAO::FS database for tests
     |.*/Alien-IUP-v\d # does a find over the whole (!) disk and building takes forever
+    |REEDFISH/Net-FullAuto-0\.5[12]\. # permission problems while building
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
