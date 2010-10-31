@@ -3,8 +3,9 @@ match:
   distribution: "/bioperl-\d"
 pl:
   expect:
-    - "\QInstall [a]ll Bioperl scripts, [n]one, or choose groups [i]nteractively? [a]"
-    - "n\n"
+## does not appear (anymore?) in 1.2.3:
+#    - "\QInstall [a]ll Bioperl scripts, [n]one, or choose groups [i]nteractively? [a]"
+#    - "n\n"
     - "\QDo you want to run the BioDBGFF tests"
     - "n\n"
 --- 

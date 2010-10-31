@@ -537,6 +537,8 @@ match:
     |NUFFIN/Directory-Transactional-0.09.tar.gz # may hang
     |MLEHMANN/AnyEvent-FastPing-1.13.tar.gz # load test hangs
     |SAMV/Lingua-Translate-0.09. # systran test hangs
+    |SPROUT/JE-0.051. # test hangs with 5.13.5
+    |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
@@ -560,6 +562,7 @@ match:
     |.*/RTx-Calendar-\d # needs RT
     |.*/RTx-RightsMatrix-\d # needs RT
     |.*/RTx-WebCronTool-\d
+    |.*/RTx-TicketlistTransactions-\d
     |.*/RTx-Foundry-\d
     |.*/RTx-AuthTool-\d
     |.*/RTx-MD5Auth-\d
@@ -1010,5 +1013,6 @@ match:
     |KTHAKORE/SDL_Perl-v2\.2\.6\. # hangs on freebsd, both 5.10.1 and 5.12.0
     |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
     |MBRANDON/README$ # an upload accident?
+    |.*/Lingua-TreeTagger-.* # needs treetagger, not installed here
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
