@@ -1,7 +1,7 @@
 ---
 match:
   distribution: "/Net-Syslogd-\d"
-pl:
+test:
   expect:
     - "\QContinue with tests?"
     - "y\n"
