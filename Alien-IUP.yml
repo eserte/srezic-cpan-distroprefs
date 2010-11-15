@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Alien-IUP-\d"
+disabled: 1
+comments: "too many questions, brute force search over whole harddisk"
