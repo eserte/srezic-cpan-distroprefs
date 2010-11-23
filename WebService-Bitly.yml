@@ -1,7 +1,7 @@
 ---
 match:
   distribution: "/WebService-Bitly-\d"
-pl:
+test:
   expect:
     - "\Qinput bit.ly test user name"
     - "\n"
