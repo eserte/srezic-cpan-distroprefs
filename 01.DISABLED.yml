@@ -518,6 +518,8 @@ match:
     |KAMAL/LiteProcess-0.01.tar.gz # hangs
     |BINGOS/Module-Install-ReadmeFromPod-0.10.tar.gz # hangs
     |.*/Module-Install-GithubMeta-0.10- # hangs in 01compile, needs a ctrl-d
+    |XAICRON/Module-Install-TestTarget-0.13. # hangs, probably because of the MI::RPM::WriteAll problem
+    |XAICRON/Module-Install-TestTarget-0.15. # hangs, probably because of the MI::RPM::WriteAll problem
     |BRADFITZ/TheSchwartz-Worker-PubSubHubbubPublish-1.00.tar.gz # hangs
     |BINGOS/POE-Component-CPAN-Mirror-Multiplexer-0.04.tar.gz # tests may hang
     |DOY/IO-Socket-Telnet-HalfDuplex-0.02.tar.gz # tests may hang
@@ -539,6 +541,7 @@ match:
     |SAMV/Lingua-Translate-0.09. # systran test hangs
     |SPROUT/JE-0.051. # test hangs with 5.13.5
     |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
+    |.*/Device-RFXCOM-1.103240 # endless loop in several tests
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
