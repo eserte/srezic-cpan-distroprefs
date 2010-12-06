@@ -542,6 +542,11 @@ match:
     |SPROUT/JE-0.051. # test hangs with 5.13.5
     |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
     |.*/Device-RFXCOM-1.103240 # endless loop in several tests
+    |PFARR/Net-SMS-Clickatell-SOAP-v0.01. # invisible question
+    |DPCHRIST/Dpchrist-Is-1.027. # pod2html in make phase does not work
+    |DPCHRIST/Dpchrist-LangUtil-1.013. # pod2html in make phase does not work
+    |DPCHRIST/Dpchrist- # seems to be a systematic error, skip all
+    |DPCHRIST/Bundle-Dpchrist- # this one, too
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
