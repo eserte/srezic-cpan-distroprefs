@@ -1,3 +1,11 @@
+---
+match:
+  distribution: "/Mail-Box-\d"
+  env:
+    PERL_BATCH: yes
+pl:
+  env:
+    MAILBOX_INSTALL_OPTIONALS: n
 --- 
 match:
   distribution: "/Mail-Box-\d"
