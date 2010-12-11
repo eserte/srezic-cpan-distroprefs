@@ -6,6 +6,7 @@ match:
 pl:
   env:
     MAILBOX_INSTALL_OPTIONALS: n
+    MAILBOX_RUN_TESTS: y
 --- 
 match:
   distribution: "/Mail-Box-\d"
