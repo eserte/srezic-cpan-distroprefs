@@ -547,6 +547,8 @@ match:
     |DPCHRIST/Dpchrist-LangUtil-1.013. # pod2html in make phase does not work
     |DPCHRIST/Dpchrist- # seems to be a systematic error, skip all
     |DPCHRIST/Bundle-Dpchrist- # this one, too
+    |ZENTOOO/Plack-App-Proxy-Selective-0.06. # "selective" test hangs
+    |BLX/XSDSQL_20101209. # interactive questions about database parameters
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
