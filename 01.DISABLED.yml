@@ -549,6 +549,7 @@ match:
     |DPCHRIST/Bundle-Dpchrist- # this one, too
     |ZENTOOO/Plack-App-Proxy-Selective-0.06. # "selective" test hangs
     |BLX/XSDSQL_20101209. # interactive questions about database parameters
+    |GWYN/POEx-HTTP-Server-0.0600. # 26... test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
