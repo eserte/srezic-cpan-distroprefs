@@ -1,5 +1,7 @@
 ---
 match:
   distribution: "/Data-Encoder-0\.03\."
+  env:
+    PERL_BATCH: yes
 disabled: 1
 comment: "Archive::Tar cannot handle the tar.gz format correctly, see https://rt.cpan.org/Ticket/Display.html?id=64037"
