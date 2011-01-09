@@ -23,7 +23,8 @@ match:
     archname: i386-freebsd
 pl:
   args:
-    - J2SDK=/usr/local/linux-sun-jdk1.4.2
+    - J2SDK=/usr/local/linux-sun-jre1.6.0
+#was:    - J2SDK=/usr/local/linux-sun-jdk1.4.2
   expect:
     - "\QDo you wish to build the JNI extension? [y]"
     - "\n"
