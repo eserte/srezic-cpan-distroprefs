@@ -111,6 +111,7 @@ match:
      .*/Audio-RaveMP-
     |.*/Curses-UI-Mousehandler-GPM-
     |.*/DPKG-Tools-
+    |.*/Device-Blkid-E2fsprogs-\d
     |.*/Device-LabJack-
     |.*/IPTables-
     |.*/IO-Epoll-
@@ -548,7 +549,7 @@ match:
     |DPCHRIST/Dpchrist- # seems to be a systematic error, skip all
     |DPCHRIST/Bundle-Dpchrist- # this one, too
     |ZENTOOO/Plack-App-Proxy-Selective-0.06. # "selective" test hangs
-    |BLX/XSDSQL_20101209. # interactive questions about database parameters
+    |BLX/XSDSQL_(20101209|\d+). # interactive questions about database parameters
     |GWYN/POEx-HTTP-Server-0.0600. # 26... test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
