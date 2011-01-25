@@ -1,6 +1,11 @@
 --- 
+# Not interactive anymore. From Changes:
+#
+# 1.203 Tue Nov  3 16:46:50 EST 2009
+#  - avoid interactive configuration (thanks, DAXIM)
+#
 match:
-  distribution: "/Data-UUID-\d"
+  distribution: "/Data-UUID-(0\.|1\.[01]|1\.20[0123])"
 pl:
   expect:
     - "\QUUID state storage [\E(/tmp|.*Temp|/.*/tmp/.*)\Q]"
