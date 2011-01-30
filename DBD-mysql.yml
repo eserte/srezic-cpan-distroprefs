@@ -14,7 +14,7 @@ match:
   distribution: "/DBD-mysql-4\.018\."
   perlconfig:
     archname: -linux
-    version: "^5\.(13|14|15)\."
+    version: "^5\.13\."
 patches:
   - SREZIC/patches/DBD-mysql-4.018-ANDK-01.patch
 comment: "Fits for debian, needs grant all on test.* to test@'localhost' identified by 'test';"
@@ -32,7 +32,7 @@ pl:
 match:
   distribution: "/DBD-mysql-\d"
   perlconfig:
-    version: "^5\.(13|14|15)\."
+    version: "^5\.13\."
 patches:
   - SREZIC/patches/DBD-mysql-4.018-ANDK-01.patch
 pl: 
