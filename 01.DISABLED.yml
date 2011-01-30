@@ -111,7 +111,7 @@ match:
      .*/Audio-RaveMP-
     |.*/Curses-UI-Mousehandler-GPM-
     |.*/DPKG-Tools-
-    |.*/Device-Blkid-E2fsprogs-\d
+    |.*/Device-Blkid-E2fsprogs-
     |.*/Device-LabJack-
     |.*/IPTables-
     |.*/IO-Epoll-
