@@ -1,5 +1,13 @@
 --- 
 match:
+  distribution: "/YAML-0\.72\."
+  perlconfig:
+    version: "^5\.13\."
+patches:
+  - "ANDK/patches/YAML-0.72-ANDK-01.patch.gz"
+comment: https://rt.cpan.org/Ticket/Display.html?id=62258
+--- 
+match:
   distribution: "/YAML-\d"
 pl: 
   expect:
