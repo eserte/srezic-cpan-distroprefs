@@ -1,5 +1,14 @@
 --- 
 match:
+  distribution: "/XML-Twig-3\.37\."
+  perlconfig:
+    version: "^5\.13\."
+patches:
+  - "ANDK/patches/XML-Twig-3.37-ANDK-01.patch.gz"
+pl:
+  args: ["-y"]
+--- 
+match:
   distribution: "/XML-Twig-\d"
 pl:
   args: ["-y"]
