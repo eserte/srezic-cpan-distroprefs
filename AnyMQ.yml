@@ -7,3 +7,4 @@ pl:
     - "\n"
     - "\QAdd MooseX::Types::DateTime to the prerequisites? [n]"
     - "\n"
+# See also: https://rt.cpan.org/Ticket/Display.html?id=65342
