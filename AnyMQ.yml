@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/AnyMQ-\d"
+pl:
+  expect:
+    - "\QAdd MooseX::Traits to the prerequisites? [n]"
+    - "\n"
+    - "\QAdd MooseX::Types::DateTime to the prerequisites? [n]"
+    - "\n"
