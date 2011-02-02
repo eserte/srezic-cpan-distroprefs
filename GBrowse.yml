@@ -1,5 +1,6 @@
 ---
 match:
+# The Generic Genome Browser
   distribution: "/GBrowse-\d"
   env:
     PERL_BATCH: yes
