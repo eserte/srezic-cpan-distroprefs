@@ -1,6 +1,9 @@
 ---
 match:
   distribution: "/GBrowse-\d"
+  env:
+    PERL_BATCH: yes
+# This distroprefs is only suitable for smokers
 disabled: 1
 # Too many questions
 pl:
@@ -23,4 +26,3 @@ pl:
     - "\n"
     - "\QAutomatically update Apache config files to run GBrowse? [y]"
     - "n\n"
-# This distroprefs is only suitable for smokers
