@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/WWW-BBB-API-\d"
+pl:
+  expect:
+    - "\QDo you want to run the network test"
+    - "\n"
