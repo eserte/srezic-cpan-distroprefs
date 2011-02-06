@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Test-Simple-2\.00_\d"
+disabled: 1
+comment: "Suspicious! Breaks other dists, it seems!"
