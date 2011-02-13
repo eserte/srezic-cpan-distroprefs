@@ -884,6 +884,7 @@ match:
     |.*/OpenThought-1\.99\.16\.tar\.gz # http://rt.cpan.org/Ticket/Display.html?id=33279
     |.*/threads-emulate-0.0.5\.tar\.gz # perl dumps core
     |STEVAN/JSORB-0.01.tar.gz # it is killing CPAN.pm
+    |STEVAN/JSORB-0.04.tar.gz # it is killing CPAN.pm
     |TOKUHIROM/Test-TCP-0.11.tar.gz # it is killing CPAN.pm
     |FDULAU/Tie-Queue-README$ # an obvious accident
     |MIKEOB/README$ # another accident
