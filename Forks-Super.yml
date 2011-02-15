@@ -1,13 +1,9 @@
 ---
 match:
-  distribution: "/Forks-Super-\d"
-#pl:
-#  eexpect:
-#    reuse: 1
-#    mode: anyorder
-#    timeout: 10
-#    talk:
-#      - "\QDo you want to attempt to install Sys::CpuLoadX"
-#      - "\n"
-#      - "\QDo you want to attempt to install Sys::CpuAffinity"
-#      - "\n"
+  distribution: "/Forks-Super-0.46"
+  perlconfig:
+    archname: "-freebsd"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# tests hang
