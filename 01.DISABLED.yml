@@ -551,6 +551,7 @@ match:
     |ZENTOOO/Plack-App-Proxy-Selective-0.06. # "selective" test hangs
     |BLX/XSDSQL_(20101209|\d+). # interactive questions about database parameters
     |GWYN/POEx-HTTP-Server-0.0600. # 26... test hangs
+    |GWYN/POEx-HTTP-Server-0.0700. # 26... test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
