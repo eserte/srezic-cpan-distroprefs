@@ -1,5 +1,12 @@
 ---
 match:
+  distribution: "/Net-FullAuto-"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# Aggresively searches whole disk for BerkeleyDB.
+---
+match:
   distribution: "/Net-FullAuto-0\.92\."
   env:
     PERL_BATCH: yes
@@ -8,11 +15,11 @@ disabled: 1
 # sed 's/^#[ ]*\(.\)editor[ ]*[=].*/\1editor = '';/g' <blib/lib/Net/FullAuto/Custom/fa_conf.pm >tmp_conf.pm
 # mv tmp_conf.pm blib/lib/Net/FullAuto/Custom/fa_conf.pm
 # override r-xr-xr-x  cpansand/cpansand for blib/lib/Net/FullAuto/Custom/fa_conf.pm? (y/n [n])   
----
-match:
-  distribution: "/Net-FullAuto-\d"
-pl:
-  expect:
-    - "\QPLEASE ENTER A CHOICE:"
-    - "1\n"
-#XXX could be obsolete by now
+#---
+#match:
+#  distribution: "/Net-FullAuto-\d"
+#pl:
+#  expect:
+#    - "\QPLEASE ENTER A CHOICE:"
+#    - "1\n"
+##XXX could be obsolete by now
