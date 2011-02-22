@@ -20,7 +20,7 @@ pl:
       - "n\n"
       - "\QDo you want to run the Bio::DB::GFF or Bio::DB::SeqFeature::Store live database tests? y/n [n]"
       - "n\n"
-      - "\QInstall [a]ll Bioperl scripts, [n]one, or choose groups [i]nteractively? [a]"
+      - "(?i)\QInstall [a]ll BioPerl scripts, [n]one, or choose groups [i]nteractively? [a]"
       - "a\n"
       - "\Q(likely to cause some failures)? y/n [n]"
       - "\n"
