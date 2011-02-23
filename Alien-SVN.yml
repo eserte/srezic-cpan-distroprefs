@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Alien-SVN-\d"
+  distribution: "/Alien-SVN-v?\d"
 pl:
   eexpect:
     timeout: 2
