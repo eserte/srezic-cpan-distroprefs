@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/NIKOSV/"
-  env:
-    PERL_BATCH: yes
-disabled: 1
-# Too much "garbage" in author's directory
