@@ -1,0 +1,12 @@
+---
+match:
+  distribution: "/CHI-Driver-HandlerSocket-\d"
+pl:
+  expect:
+    - "\QMySQL database name to test with"
+    - "test\n"
+    - "\QMySQL database username to test with"
+    - "test\n"
+    - "\QMySQL database password to test with"
+    - "test\n"
+
