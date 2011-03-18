@@ -396,6 +396,7 @@ match:
     ^(?x:
       TURNERJW/Tk-JBrowseEntry-4.70.tar.gz
     |TURNERJW/Tk-JBrowseEntry-4.74.tar.gz
+    |JNK/Tk-QuickTk-0.92.tar.gz
     |.*/ApacheBench-\d # wants some URLs
     |.*/Astro-satpass-\d # questions in test phase
     |.*/Aut-\d # asks for a password
@@ -552,6 +553,7 @@ match:
     |BLX/XSDSQL_(20101209|\d+). # interactive questions about database parameters
     |GWYN/POEx-HTTP-Server-0.0600. # 26... test hangs
     |GWYN/POEx-HTTP-Server-0.0700. # 26... test hangs
+    |FRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz # endless loop, filling up /tmp
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
