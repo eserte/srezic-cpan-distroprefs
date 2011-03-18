@@ -1030,5 +1030,6 @@ match:
     |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
     |MBRANDON/README$ # an upload accident?
     |.*/Lingua-TreeTagger-.* # needs treetagger, not installed here
+    |.*/WebService-ScormCloud- # needs some scorm id and creds
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
