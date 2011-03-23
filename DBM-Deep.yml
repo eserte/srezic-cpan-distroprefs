@@ -10,3 +10,10 @@ match:
 cpanconfig:
   prefer_installer: "EUMM"
 # with MB too many question, solve one day...
+#
+# Run the long-running tests [n ]
+# n 
+# Run the tests against the DBI engine via SQLite? [n ]
+# n 
+# Run the tests against the DBI engine via MySQL? [n ]
+# n 
