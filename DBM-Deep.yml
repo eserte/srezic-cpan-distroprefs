@@ -4,3 +4,9 @@ match:
 depends:
   requires:
     FileHandle::Fmode: 0
+---
+match:
+  distribution: "/DBM-Deep-[23456789]\."
+cpanconfig:
+  prefer_installer: "EUMM"
+# with MB too many question, solve one day...
