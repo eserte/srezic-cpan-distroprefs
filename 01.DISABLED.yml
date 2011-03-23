@@ -369,7 +369,6 @@ match:
     |.*/Encode-TECkit-\d # TECkit not in ports
     |.*/Db-GTM-\d # needs gtm/mumps, not in ports
     |.*/LWES-\d # not in ports
-    |.*/Math-Matlab-\d # mathlab not in ports
     |.*/Net-Arping-\d # libnet (libnet-config) not in ports
     |.*/Term-TermKey-\d # no port for termkey
     |.*/Authen-ACE4-\d # no port for acexport.h or libaceclnt.a
@@ -901,6 +900,7 @@ match:
     |.*/XAO-Web-\d # needs a XAO::FS database for tests
     |.*/Alien-IUP-v\d # does a find over the whole (!) disk and building takes forever
     |REEDFISH/Net-FullAuto-0\.5[12]\. # permission problems while building
+    |.*/Math-Matlab-\d # mathlab not in freebsd ports and also not in debian
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
