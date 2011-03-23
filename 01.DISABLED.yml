@@ -657,7 +657,6 @@ match:
     |.*/DBD-Unify-\d # some database
     |.*/DBD-InterBase-\d
     |.*/DBD-PrimeBase-\d
-    |XXXXXXXXXXXXXXXXX.*/DBD-Pg-\d # postgres is installed, but needs test database   -> creates automatically test db
     |.*/PgSQL-\d # dito
     |.*/Postgres-\d # dito
     |.*/pgsql_perl5-\d # needs postgres env variables
