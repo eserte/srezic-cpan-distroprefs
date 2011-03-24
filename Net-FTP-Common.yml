@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Net-FTP-Common-7\.0\.d"
+  env:
+    PERL_PARALLEL_SMOKER: yes
+disabled: 1
+# flapping results
+# rt ticket exists
