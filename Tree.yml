@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/Tree-\d"
+cpanconfig:
+  prefer_installer: "EUMM"
+# use EUMM to prevent interactive questions
