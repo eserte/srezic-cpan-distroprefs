@@ -363,7 +363,6 @@ match:
     |.*/Net-Pcap-Easy-1\.31\.tar\.gz # this version hangs in multiple tests
     |.*/Net-Pcap-Easy-1\.322\.tar\.gz # this version hangs in multiple tests
     |.*/Astro-SLA-\d # needs slalib.h, not in ports
-    |.*/Bio-Medpost-\d # needs medpost, not in ports
     |.*/Bio-MedChunker-\d # insists on installing Bio-Medpost
     |.*/TUXEDO-\d # not in ports
     |.*/Encode-TECkit-\d # TECkit not in ports
@@ -900,6 +899,7 @@ match:
     |.*/Alien-IUP-v\d # does a find over the whole (!) disk and building takes forever
     |REEDFISH/Net-FullAuto-0\.5[12]\. # permission problems while building
     |.*/Math-Matlab-\d # mathlab not in freebsd ports and also not in debian
+    |.*/Bio-Medpost-\d # needs medpost, not in ports and neither part of debian
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
