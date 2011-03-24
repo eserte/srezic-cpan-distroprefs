@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/B-XPath-0\.01\."
+  env:
+    PERL_PARALLEL_SMOKER: yes
+disabled: 1
+# flapping results, most often failing, but sometimes not
