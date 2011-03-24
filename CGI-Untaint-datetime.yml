@@ -4,4 +4,4 @@ match:
   env:
     PERL_PARALLEL_SMOKER: yes
 disabled: 1
-# flaky results
+# flapping results
