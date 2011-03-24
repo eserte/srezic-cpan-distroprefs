@@ -4,4 +4,5 @@ match:
   env:
     PERL_PARALLEL_SMOKER: yes
 depends:
-  GD: 0
+  requires:
+    GD: 0
