@@ -471,6 +471,7 @@ match:
      .*/Daizu-0\.3\.
     |.*/B-XPath-0\.01\.
     |.*/AmbientOrb-Serial-0\.02\.
+    |.*/Finance-Bank-DE-NetBank-1\.05\. # mymeta+sig problem, it seems
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
