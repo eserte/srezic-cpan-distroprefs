@@ -464,6 +464,18 @@ match:
     PERL_BATCH: yes
 disabled: 1
 ---
+comment: "Tests which should not run in a parallel smoke"
+match:
+  distribution: |
+    ^(?x:
+     .*/Daizu-0\.3\.
+    |.*/B-XPath-0\.01\.
+    |.*/AmbientOrb-Serial-0\.02\.
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  env:
+    PERL_PARALLEL_SMOKER: yes
+disabled: 1
+---
 comment: "Tests likely to hang, or some other hangs, so disable in PERL_BATCH mode"
 match:
   distribution: |
