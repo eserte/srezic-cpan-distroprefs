@@ -473,6 +473,7 @@ match:
     |.*/AmbientOrb-Serial-0\.02\.
     |.*/Finance-Bank-DE-NetBank-1\.05\. # mymeta+sig problem, it seems
     |.*/Sub-Nary-0\.03\. # author declares the module as broken, see https://rt.cpan.org/Ticket/Display.html?id=66913
+    |.*/Text-Mining-0\.08\. # not a single PASS, but may differ between NA, FAIL, and DISCARD
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
