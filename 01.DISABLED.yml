@@ -566,6 +566,8 @@ match:
     |GWYN/POEx-HTTP-Server-0.0600. # 26... test hangs
     |GWYN/POEx-HTTP-Server-0.0700. # 26... test hangs
     |FRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz # endless loop, filling up /tmp
+    |.*/LWP-UserAgent-POE-0.03. # lwp_use... test hangs
+    |.*/POE-Component-Server-HTTP-KeepAlive-0.0302- # poco test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
