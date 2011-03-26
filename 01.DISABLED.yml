@@ -472,6 +472,7 @@ match:
     |.*/B-XPath-0\.01\.
     |.*/AmbientOrb-Serial-0\.02\.
     |.*/Finance-Bank-DE-NetBank-1\.05\. # mymeta+sig problem, it seems
+    |.*/Sub-Nary-0\.03\. # author declares the module as broken, see https://rt.cpan.org/Ticket/Display.html?id=66913
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
@@ -567,7 +568,7 @@ match:
     |GWYN/POEx-HTTP-Server-0.0700. # 26... test hangs
     |FRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz # endless loop, filling up /tmp
     |.*/LWP-UserAgent-POE-0.03. # lwp_use... test hangs
-    |.*/POE-Component-Server-HTTP-KeepAlive-0.0302- # poco test hangs
+    |.*/POE-Component-Server-HTTP-KeepAlive-0.0302. # poco test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
