@@ -475,6 +475,7 @@ match:
     |.*/Sub-Nary-0\.03\. # author declares the module as broken, see https://rt.cpan.org/Ticket/Display.html?id=66913
     |.*/Text-Mining-0\.08\. # not a single PASS, but may differ between NA, FAIL, and DISCARD
     |.*/Cache-Sliding-1\.0\.0\. # flapping - not often, but it happens on my freebsd box
+    |.*/Server-Starter-0\.11\. # flapping - not often, but it happens on my freebsd box
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
