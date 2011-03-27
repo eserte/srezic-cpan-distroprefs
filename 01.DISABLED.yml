@@ -476,6 +476,7 @@ match:
     |.*/Text-Mining-0\.08\. # not a single PASS, but may differ between NA, FAIL, and DISCARD
     |.*/Cache-Sliding-1\.0\.0\. # flapping - not often, but it happens on my freebsd box
     |.*/Server-Starter-0\.11\. # flapping - not often, but it happens on my freebsd box
+    |.*/Time-Mock-v0\.0\.2\. # flapping - time-related
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
