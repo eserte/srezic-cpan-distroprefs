@@ -477,6 +477,7 @@ match:
     |.*/Cache-Sliding-1\.0\.0\. # flapping - not often, but it happens on my freebsd box
     |.*/Server-Starter-0\.11\. # flapping - not often, but it happens on my freebsd box
     |.*/Time-Mock-v0\.0\.2\. # flapping - time-related
+    |.*/WWW-Shorten-SnipURL-2\.00\. # flapping - maybe website does not answers
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
