@@ -423,6 +423,7 @@ match:
     |.*/Perl-Tags-0.\d+.tar.gz # asks for RETURN in test, seen with 0.26 and 0.28
     |.*/PerlMagick-6\.40\. # composite+montage tests are interactive
     |.*/Proc-JobQueue-0\.3\. # asks for a password
+    |.*/Proc-JobQueue-0\.4\. # still asks for a password, probably...
     |.*/Puppet-Log-1.012.tar.gz
     |.*/Qtk-QuickTk-0\.90
     |.*/RAS-PortMaster-\d
