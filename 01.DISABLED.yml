@@ -926,6 +926,7 @@ match:
     |.*/Math-Matlab-\d # mathlab not in freebsd ports and also not in debian
     |.*/Bio-Medpost-\d # needs medpost, not in ports and neither part of debian
     |.*/Module-Install-RPM-0\.01\. # dangerous, as it overrides the standard WriteAll function, leading into interactive questions https://rt.cpan.org/Ticket/Display.html?id=67027
+    |.*/Bundle-Everything- # no point in testing this one... but excluding it does not work?!
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
@@ -1056,5 +1057,6 @@ match:
     |MBRANDON/README$ # an upload accident?
     |.*/Lingua-TreeTagger-.* # needs treetagger, not installed here
     |.*/WebService-ScormCloud- # needs some scorm id and creds
+    |.*/Net-Plurk-0.09. # was hanging
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
