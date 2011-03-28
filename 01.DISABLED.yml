@@ -575,6 +575,7 @@ match:
     |FRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz # endless loop, filling up /tmp
     |.*/LWP-UserAgent-POE-0.03. # lwp_use... test hangs
     |.*/POE-Component-Server-HTTP-KeepAlive-0.0302. # poco test hangs
+    |.*/WebService-Async-0.03.tar.gz # another hanging one
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
