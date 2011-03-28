@@ -1058,5 +1058,6 @@ match:
     |.*/Lingua-TreeTagger-.* # needs treetagger, not installed here
     |.*/WebService-ScormCloud- # needs some scorm id and creds
     |.*/Net-Plurk-0.09. # was hanging
+    |HKOBA/YATT-v0.0.5.tar.gz # was hanging
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
