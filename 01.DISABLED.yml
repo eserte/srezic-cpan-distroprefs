@@ -605,6 +605,7 @@ match:
     |.*/RTx-Tags-\d
     |.*/RTx-WorkflowBuilder-\d
     |.*/RTx-CFC-\d
+    |.*/RTx-AttachmentZip-\d
     |.*/RT-Crypt-SMIME-\d
     |.*/RT-Journal-\d
     |.*/RT-Atom-\d
