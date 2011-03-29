@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Devel-Maypole-\d"
+pl:
+  expect:
+    - "\QInstallation location"
+    - "14\n"
