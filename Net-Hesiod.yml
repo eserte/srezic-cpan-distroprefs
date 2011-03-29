@@ -1,0 +1,15 @@
+---
+match:
+  distribution: "/Net-Hesiod-\d"
+disabled: 1
+# Too many questions, see below, and it's not yet finished...
+pl:
+  expect:
+    - "\QEnter HESIOD domain"
+    - "\n"
+    - "\QEnter HESIOD bind suffix"
+    - "\n"
+    - "\QEnter name for Hesiod query"
+    - "hesinfo $name $type\n"
+    - "\QIs this correct"
+    - "\n"
