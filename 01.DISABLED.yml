@@ -376,6 +376,7 @@ match:
     |.*/Bio-SamTools-\d # no port for samtools (or libbam.a)
     |.*/DBD-drizzle-\d # no port for libdrizzle
     |.*/JSONRPC-Transport-TCP-0.02.tar.gz # hangs
+    |.*/Pod-Wrap-0.01.tar.gz # deparse_cmp.t hangs, but only freebsd
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
@@ -479,6 +480,7 @@ match:
     |.*/Server-Starter-0\.11\. # flapping - not often, but it happens on my freebsd box
     |.*/Time-Mock-v0\.0\.2\. # flapping - time-related
     |.*/WWW-Shorten-SnipURL-2\.00\. # flapping - maybe website does not answers
+    |.*/Curses-Toolkit-0\.206\. # flapping - not often
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
