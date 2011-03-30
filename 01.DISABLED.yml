@@ -481,6 +481,7 @@ match:
     |.*/Time-Mock-v0\.0\.2\. # flapping - time-related
     |.*/WWW-Shorten-SnipURL-2\.00\. # flapping - maybe website does not answers
     |.*/Curses-Toolkit-0\.206\. # flapping - not often
+    |.*/Lexical-Util-0.8 # "not supported past Perl version 5.8.x"
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
