@@ -931,6 +931,7 @@ match:
     |.*/Bio-Medpost-\d # needs medpost, not in ports and neither part of debian
     |.*/Module-Install-RPM-0\.01\. # dangerous, as it overrides the standard WriteAll function, leading into interactive questions https://rt.cpan.org/Ticket/Display.html?id=67027
     |.*/Bundle-Everything- # no point in testing this one... but excluding it does not work?!
+    |WOLDRICH/App-re.pl-0.122.tar.gz # empty dist
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
