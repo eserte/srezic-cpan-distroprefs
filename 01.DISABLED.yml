@@ -1064,5 +1064,6 @@ match:
     |.*/WebService-ScormCloud- # needs some scorm id and creds
     |.*/Net-Plurk-0.09. # was hanging
     |HKOBA/YATT-v0.0.5.tar.gz # was hanging
+    |XAICRON/WWW-YouTube-Download-0.25.tar.gz # PaxHeader stuff while extracting, maybe Archive::Tar problem?
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
