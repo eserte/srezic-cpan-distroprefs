@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Forks-Super-0.4[678]"
+  distribution: "/Forks-Super-0.4[6789]"
   perlconfig:
     archname: "-freebsd"
   env:
