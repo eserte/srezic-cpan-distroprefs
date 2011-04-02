@@ -3,7 +3,7 @@ comment: https://rt.cpan.org/Ticket/Display.html?id=62266
 match:
   distribution: '/YAML-LibYAML-0.34'
   perlconfig:
-    version: "^5\.13\."
+    version: "^5\.1[34]\."
 patches:
   - "ANDK/patches/YAML-LibYAML-0.34-ANDK-01.patch.gz"
 #  - "ANDK/patches/YAML-LibYAML-0.34-ANDK-02.patch.gz"
