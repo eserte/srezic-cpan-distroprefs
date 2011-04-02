@@ -29,6 +29,11 @@ update:	git-pull do-stuff
 git-pull:
 	git pull --rebase
 
+push:	do-stuff git-push
+
+git-push:
+	git push
+
 dd-prefs: { map { s{\.yml$}{.dd}; $_ } glob("*.yml") }
 
 %.dd: %.yml
