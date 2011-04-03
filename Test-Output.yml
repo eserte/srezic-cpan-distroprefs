@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/Test-Output-0\.16\.tar\.gz"
+  perlconfig:
+    version: "^5\.1[34]\."
+goto: "BDFOY/Test-Output-0.16_03.tar.gz"
