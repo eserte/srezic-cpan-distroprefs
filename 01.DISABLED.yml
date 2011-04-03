@@ -502,7 +502,7 @@ match:
     |.*/Bootylicious-Plugin-GoogleAnalytics-0\.990201\. # may also hang
     |.*/Log-Syslog-Fast-0\.30\. # may hang
     |.*/MojoX-Session-Store-File-0\.01\. # plugin.t may hang
-    |.*/MojoX-Session-0\.(19|20)\. # plugin.t may hang
+    |.*/MojoX-Session-0\.(19|20|23)\. # plugin.t may hang
     |.*/MojoX-Renderer-XSLT-0\.01\. # basic.t and 02-params.t may hang
     |.*/Mojolicious-Plugin-BasicAuth-0\.02\. # auth.t may hang
     |.*/Gearman-Driver-0\.02005\. # may hang
