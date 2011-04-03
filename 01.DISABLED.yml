@@ -483,6 +483,7 @@ match:
     |.*/WWW-Shorten-SnipURL-2\.00\. # flapping - maybe website does not answers
     |.*/Curses-Toolkit-0\.206\. # flapping - not often
     |.*/Lexical-Util-0.8 # "not supported past Perl version 5.8.x"
+    |.*/Task-BeLike- # I like to have better control of what is smoked
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
