@@ -14,7 +14,7 @@ match:
   distribution: "/DBD-mysql-4\.018\."
   perlconfig:
     archname: -linux
-    version: "^5\.13\."
+    version: "^5\.1[34]\."
 patches:
   - SREZIC/patches/DBD-mysql-4.018-ANDK-01.patch
 comment: "Fits for debian, needs grant all on test.* to test@'localhost' identified by 'test';"
@@ -30,9 +30,9 @@ pl:
 ## perl 5.13.x removed some PL_ variables --- the non-linux version
 ##
 match:
-  distribution: "/DBD-mysql-\d"
+  distribution: "/DBD-mysql-4\.018\."
   perlconfig:
-    version: "^5\.13\."
+    version: "^5\.1[34]\."
 patches:
   - SREZIC/patches/DBD-mysql-4.018-ANDK-01.patch
 pl: 
