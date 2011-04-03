@@ -5,3 +5,10 @@ match:
   perl: "/home/cpansand/var/ctps/2pre5140/install/perl-(v5.13.11-100-g167630b|167630b6ab7e291cbd4f89943a3aec8d6a1ecbfc)/bin/perl"
 disabled: 1
 comment: "Known to fail tests, don't spend in any time trying..."
+---
+match:
+  distribution: "/Catalyst-Runtime-5\.80032\."
+# ~cpansand is really /usr/home/cpansand on my home machine, so no "^"
+  perl: "/home/cpansand/var/ctps/5140RC0/install/perl-v5.13.11-368-gc2c97af/bin/perl"
+disabled: 1
+comment: "Known to fail tests, don't spend in any time trying..."
