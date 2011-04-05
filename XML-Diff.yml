@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/XML-Diff-0\.05\."
+patches:
+  - SREZIC/patches/XML-Diff-0.05-MAREKR-01.patch 
+# see: http://rt.cpan.org/Public/Bug/Display.html?id=42211
+# Maybe not needed for XML::LibXML < 1.68
