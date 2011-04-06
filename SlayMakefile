@@ -26,6 +26,9 @@ do-stuff: validate dd-prefs permissions
 
 update:	git-pull do-stuff
 
+# alias for update
+pull:	update
+
 git-pull:
 	git pull --rebase
 
