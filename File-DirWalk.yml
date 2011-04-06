@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/File-DirWalk-\d"
+test:
+  env:
+    HOME: /does.not.exist
+# use an invalid directory to shortcut test runtime
+# otherwise test will visit every file in $ENV{HOME}
+# and this could take forever (> 1 hour in cpansand)
