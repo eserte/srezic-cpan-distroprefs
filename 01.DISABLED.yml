@@ -484,6 +484,8 @@ match:
     |.*/Curses-Toolkit-0\.206\. # flapping - not often
     |.*/Lexical-Util-0.8 # "not supported past Perl version 5.8.x"
     |.*/Task-BeLike- # I like to have better control of what is smoked
+    |.*/File-Info-1.02.tar.gz # does not build most of the time, probably broken dependency spec
+    |.*/Dist-Zilla-Plugin-MetaProvides-FromFile-1.11060208. # dz2-provides.t may fail, perl version independent
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
@@ -582,6 +584,7 @@ match:
     |.*/POE-Component-Server-HTTP-KeepAlive-0.0302. # poco test hangs
     |.*/WebService-Async-0.03.tar.gz # another hanging one
     |.*/Task-BeLike-BURAK- # simply too large, so not smoking during regular smokes...
+    |.*/POEx-WorkerPool- # endless loop Nonexistent 'POE::Wheel::Run(1) -> select stdin' event delivered to Worker:E6E22AE8-5F0F-11E0-A7EF-02CBD929F522
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
