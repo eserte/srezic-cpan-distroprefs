@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/IPC-MPS-\d"
+depends:
+# so no interactive questions anymore:
+  configure_requires:
+    Event: 0
+    EV: 0
