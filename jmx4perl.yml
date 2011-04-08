@@ -1,0 +1,15 @@
+---
+match:
+  distribution: "/jmx4perl-\d"
+  env:
+    PERL_BATCH: yes
+pl:
+  expect:
+    - "\QInstall 'check_jmx4perl'"
+    - "n\n"
+    - "\QInstall 'cacti_jmx4perl'"
+    - "n\n"
+    - "\QInstall 'j4psh'"
+    - "n\n"
+    - "\QInstall 'jolokia'"
+    - "n\n"
