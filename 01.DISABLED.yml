@@ -486,6 +486,7 @@ match:
     |.*/Task-BeLike- # I like to have better control of what is smoked
     |.*/File-Info-1.02.tar.gz # does not build most of the time, probably broken dependency spec
     |.*/Dist-Zilla-Plugin-MetaProvides-FromFile-1.11060208. # dz2-provides.t may fail, perl version independent
+    |.*/TheSchwartz-1\.10\. # t/parallel-workers.t often hangs on freebsd
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
