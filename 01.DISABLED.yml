@@ -942,6 +942,7 @@ match:
     |.*/Bundle-Everything- # no point in testing this one... but excluding it does not work?!
     |WOLDRICH/App-re.pl-0.122.tar.gz # empty dist
     |WOLDRICH/re.pl-0.120.tar.gz # empty dist
+    |.*/IO-Moose-0\.1004\. # broken tarball, contains blib directories, https://rt.cpan.org/Ticket/Display.html?id=67360
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
