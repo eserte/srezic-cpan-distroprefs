@@ -489,6 +489,7 @@ match:
     |.*/TheSchwartz-1\.10\. # t/parallel-workers.t often hangs on freebsd
     |.*/Algorithm-DecisionTree-1\.2\. # flapping https://rt.cpan.org/Ticket/Display.html?id=67356
     |.*/Algorithm-TokenBucket-0\.32\. # occasional test failures https://rt.cpan.org/Ticket/Display.html?id=67357
+    |.*/Boost-Graph-1\.4\. # test suite may segfault, see http://www.cpantesters.org/cpan/report/07032416-b19f-3f77-b713-d32bba55d77f
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
