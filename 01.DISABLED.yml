@@ -487,6 +487,8 @@ match:
     |.*/File-Info-1.02.tar.gz # does not build most of the time, probably broken dependency spec
     |.*/Dist-Zilla-Plugin-MetaProvides-FromFile-1.11060208. # dz2-provides.t may fail, perl version independent
     |.*/TheSchwartz-1\.10\. # t/parallel-workers.t often hangs on freebsd
+    |.*/Algorithm-DecisionTree-1\.2\. # flapping https://rt.cpan.org/Ticket/Display.html?id=67356
+    |.*/Algorithm-TokenBucket-0\.32\. # occasional test failures https://rt.cpan.org/Ticket/Display.html?id=67357
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
