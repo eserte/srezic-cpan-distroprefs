@@ -491,6 +491,7 @@ match:
     |.*/Algorithm-TokenBucket-0\.32\. # occasional test failures https://rt.cpan.org/Ticket/Display.html?id=67357
     |.*/Boost-Graph-1\.4\. # test suite may segfault, see http://www.cpantesters.org/cpan/report/07032416-b19f-3f77-b713-d32bba55d77f
     |.*/Cache-Historical-0\.03\.
+    |.*/IPC-MorseSignals-0\.15\.
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
