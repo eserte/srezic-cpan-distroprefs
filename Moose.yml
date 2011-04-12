@@ -3,7 +3,9 @@ match:
   distribution: "/Moose-1\.25\."
   perlconfig:
     version: "^5\.1[34]\."
-goto: "DOY/Moose-1.9906-TRIAL.tar.gz"
+#goto: "DOY/Moose-1.9906-TRIAL.tar.gz"
+comment: "do nothing"
+# not needed anymore, Moose 2.0 is out
 ---
 match:
   distribution: "/Moose-1\.25\."
@@ -11,5 +13,7 @@ match:
     version: "^5\.12\.3"
   env:
     PERL_PARALLEL_SMOKER: yes
-goto: "DOY/Moose-1.9906-TRIAL.tar.gz"
+#goto: "DOY/Moose-1.9906-TRIAL.tar.gz"
+comment: "do nothing"
 # in parallel smoking the other perl should also install the same moose
+# not needed anymore, Moose 2.0 is out
