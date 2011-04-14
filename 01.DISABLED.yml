@@ -492,6 +492,7 @@ match:
     |.*/Boost-Graph-1\.4\. # test suite may segfault, see http://www.cpantesters.org/cpan/report/07032416-b19f-3f77-b713-d32bba55d77f
     |.*/Cache-Historical-0\.03\.
     |.*/IPC-MorseSignals-0\.15\.
+    |.*/Lingua-EN-SimilarNames-Levenshtein-0\.06\. # Wall vs. Wayne
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
@@ -1079,5 +1080,6 @@ match:
     |HKOBA/YATT-v0.0.5.tar.gz # was hanging
     |XAICRON/WWW-YouTube-Download-0.25.tar.gz # PaxHeader stuff while extracting, maybe Archive::Tar problem?
     |.*/MozRepl-RemoteObject-0.22.tar.gz # hanging tests
+    |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
