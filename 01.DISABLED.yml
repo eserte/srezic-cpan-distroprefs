@@ -1079,7 +1079,7 @@ match:
     |.*/Net-Plurk-0.09. # was hanging
     |HKOBA/YATT-v0.0.5.tar.gz # was hanging
     |XAICRON/WWW-YouTube-Download-0.25.tar.gz # PaxHeader stuff while extracting, maybe Archive::Tar problem?
-    |.*/MozRepl-RemoteObject-0.22.tar.gz # hanging tests
+    |.*/MozRepl-RemoteObject-0.2[23].tar.gz # hanging tests
     |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
