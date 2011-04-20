@@ -947,6 +947,7 @@ match:
     |WOLDRICH/re.pl-0.120.tar.gz # empty dist
     |.*/IO-Moose-0\.1004\. # broken tarball, contains blib directories, https://rt.cpan.org/Ticket/Display.html?id=67360
     |.*/Weather-WWO-0\.03\. # installs inc/Module/Install.pm: https://rt.cpan.org/Ticket/Display.html?id=67519
+    |DROLSKY/Params-Validate-0.96.tar.gz # breakage, avoid, use 0.97
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
