@@ -2,6 +2,19 @@
 #comment: "Usually only works with current source which comes with PerlMagick anyway"
 match:
   distribution: "^JCRISTY/PerlMagick-"
+  perlconfig:
+    osname: freebsd
+    osvers: 8.0-release
+  env:
+    PERL_PARALLEL_SMOKER: "^(|no)$"
+goto: /usr/local/src/work/ImageMagick-6.5.5-10/PerlMagick/.
+test:
+  env:
+    DISPLAY: ""
+--- 
+#comment: "Usually only works with current source which comes with PerlMagick anyway"
+match:
+  distribution: "^JCRISTY/PerlMagick-"
 #disabled: 1
 test:
   env:
