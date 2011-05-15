@@ -949,6 +949,7 @@ match:
     |.*/IO-Moose-0\.1004\. # broken tarball, contains blib directories, https://rt.cpan.org/Ticket/Display.html?id=67360
     |.*/Weather-WWO-0\.03\. # installs inc/Module/Install.pm: https://rt.cpan.org/Ticket/Display.html?id=67519
     |DROLSKY/Params-Validate-0.96.tar.gz # breakage, avoid, use 0.97
+    |XIAODIAN/SVGLAB.tar.gz # broken tarball, no toplevel directory
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
@@ -1084,5 +1085,7 @@ match:
     |XAICRON/WWW-YouTube-Download-0.25.tar.gz # PaxHeader stuff while extracting, maybe Archive::Tar problem?
     |.*/MozRepl-RemoteObject-0.2[23].tar.gz # hanging tests
     |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
+    |LEONT/Signal-More-0.001.tar.gz # basics test may hang (happened at least twice on my machine)
+    |DOHERTY/App-Sysadmin-Log-Simple-0.004.tar.gz # tests take forever on a freebsd system
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
