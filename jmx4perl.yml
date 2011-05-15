@@ -5,6 +5,8 @@ match:
     PERL_BATCH: yes
 pl:
   expect:
+    - "\QInstall 'jmx4perl'"
+    - "n\n"
     - "\QInstall 'check_jmx4perl'"
     - "n\n"
     - "\QInstall 'cacti_jmx4perl'"
