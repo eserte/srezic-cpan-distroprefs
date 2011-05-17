@@ -30,3 +30,13 @@ pl:
       - "a\n"
       - "\Q(likely to cause some failures)? y/n [n]"
       - "\n"
+
+# XXX why not working???
+#---
+#match:
+#  distribution: "/BioPerl-\d"
+#cpanconfig:
+#  prefer_installer: "MB"
+#pl:
+#  args:
+#    - "--accept"
