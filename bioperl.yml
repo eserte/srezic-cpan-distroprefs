@@ -31,12 +31,18 @@ pl:
       - "\Q(likely to cause some failures)? y/n [n]"
       - "\n"
 
-# XXX why not working???
+## The following does not work, at least with CPAN 1.9600
 #---
 #match:
 #  distribution: "/BioPerl-\d"
+## First alternative: hack the CPAN::Config setting
 #cpanconfig:
-#  prefer_installer: "MB"
+#  mbuildpl_arg: "--accept"
+## Better alternative: use the distropref setting. But
+## this unfortunately works only for EUMM, it seems. Problem is
+## that one does not always know whether EUMM or MB is used,
+## so the real solution would need to use another keyword than
+## pl (!)
 #pl:
 #  args:
 #    - "--accept"
