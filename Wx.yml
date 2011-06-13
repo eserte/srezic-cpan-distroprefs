@@ -21,7 +21,7 @@ disabled: 1
 comment: "Test failures (ld problems?)"
 --- 
 match:
-  distribution: "/Wx-0\.(89|92)\.tar\.gz"
+  distribution: "/Wx-0\.(89|92|9901)\.tar\.gz"
   perlconfig:
     archname: freebsd
 disabled: 1
