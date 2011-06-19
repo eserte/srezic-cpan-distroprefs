@@ -45,6 +45,7 @@ match:
 
 pl:
   # Build with truetype support
+  # XXX remove once I have Tk-804.030 released
   args: ["XFT=1"]
 
 make:
@@ -56,14 +57,16 @@ match:
 
 pl:
   # Build with truetype support
+  # XXX remove once I have Tk-804.030 released
   args: ["XFT=1"]
 
---- 
-comment: "When building directly from source"
-match:
-  env:
-    PWD: ".*/git-checkouts/Tk$"
-
-pl:
-  # Build with truetype support
-  args: ["XFT=1"]
+#--- 
+#comment: "When building directly from source"
+#match:
+#  env:
+#    PWD: ".*/git-checkouts/Tk$"
+#
+#pl:
+#  # Build with truetype support
+#  # XXX remove once I have Tk-804.030 released
+#  args: ["XFT=1"]
