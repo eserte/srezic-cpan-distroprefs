@@ -171,6 +171,7 @@ match:
 disabled: 1
 --- 
 comment: "test hangs on t/04_fork"
+# But there are PASS reports with freebsd version != 8.0-release
 match:
   distribution: "^MLEHMANN/IO-AIO-"
   perlconfig:
@@ -515,6 +516,7 @@ match:
     |.*/MojoX-Session-Store-File-0\.01\. # plugin.t may hang
     |.*/MojoX-Session-0\.(19|20|23)\. # plugin.t may hang
     |.*/MojoX-Renderer-XSLT-0\.01\. # basic.t and 02-params.t may hang
+    |BFG/MojoX-Run-0.15.tar.gz # the mojox-run-* tests hang
     |.*/Mojolicious-Plugin-BasicAuth-0\.02\. # auth.t may hang
     |.*/Gearman-Driver-0\.02005\. # may hang
     |.*/Test-WWW-Mechanize-Mojo-v0\.0\.4\. # auth_test.t may hang
@@ -587,6 +589,8 @@ match:
     |BLX/XSDSQL_(20101209|\d+). # interactive questions about database parameters
     |GWYN/POEx-HTTP-Server-0.0600. # 26... test hangs
     |GWYN/POEx-HTTP-Server-0.0700. # 26... test hangs
+    |GWYN/POEx-HTTP-Server-0.0800. # test hangs
+    |GWYN/POEx-HTTP-Server-0.0\d+. # guessing...
     |FRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz # endless loop, filling up /tmp
     |.*/LWP-UserAgent-POE-0.03. # lwp_use... test hangs
     |.*/POE-Component-Server-HTTP-KeepAlive-0.0302. # poco test hangs
@@ -954,6 +958,8 @@ match:
     |DROLSKY/Params-Validate-0.96.tar.gz # breakage, avoid, use 0.97
     |XIAODIAN/SVGLAB.tar.gz # broken tarball, no toplevel directory
     |.*/Module-Install-Clib-\d # module was deprecated and removed from CPAN
+    |RDIETRICH/xmlrpc-pureperl-0.03.tar.gz # hidden macosx files
+    |MARKSTOS/CGI-Session-4.44.tar.gz # broken tarball, only META.yml
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
@@ -1091,5 +1097,6 @@ match:
     |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
     |LEONT/Signal-More-0.001.tar.gz # basics test may hang (happened at least twice on my machine)
     |DOHERTY/App-Sysadmin-Log-Simple-0.004.tar.gz # tests take forever on a freebsd system
+    |JJORE/App-Stacktrace-0.03.tar.gz # test hangs (gdb)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
