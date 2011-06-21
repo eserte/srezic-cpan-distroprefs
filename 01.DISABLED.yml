@@ -517,6 +517,7 @@ match:
     |.*/MojoX-Session-0\.(19|20|23)\. # plugin.t may hang
     |.*/MojoX-Renderer-XSLT-0\.01\. # basic.t and 02-params.t may hang
     |BFG/MojoX-Run-0.15.tar.gz # the mojox-run-* tests hang
+    |XANTUS/MojoX-AIO-0.02.tar.gz # the t/00_simple.t test may hang
     |.*/Mojolicious-Plugin-BasicAuth-0\.02\. # auth.t may hang
     |.*/Gearman-Driver-0\.02005\. # may hang
     |.*/Test-WWW-Mechanize-Mojo-v0\.0\.4\. # auth_test.t may hang
@@ -1097,6 +1098,6 @@ match:
     |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
     |LEONT/Signal-More-0.001.tar.gz # basics test may hang (happened at least twice on my machine)
     |DOHERTY/App-Sysadmin-Log-Simple-0.004.tar.gz # tests take forever on a freebsd system
-    |JJORE/App-Stacktrace-0.03.tar.gz # test hangs (gdb)
+    |JJORE/App-Stacktrace-0.(03|04).tar.gz # test hangs (gdb)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
