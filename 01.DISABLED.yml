@@ -409,6 +409,7 @@ match:
     |.*/DBIx-SQLEngine-\d # wants a list of DSNs to test against (or n)
     |.*/EZDBI-\d
     |.*/File-SmartTail-\d # wants rsh password
+    |.*/FusionInventory-Agent-\d # postinstall questions (answer "n"!)
     |.*/Games-Sudoku-SudokuTk-\d
     |.*/Graphics-Libplot-\d # needs to click on windows
     |.*/Gtk-Perl-0\.7009\. # interactive test
@@ -495,6 +496,7 @@ match:
     |.*/Cache-Historical-0\.03\.
     |.*/IPC-MorseSignals-0\.15\.
     |.*/Lingua-EN-SimilarNames-Levenshtein-0\.06\. # Wall vs. Wayne
+    |.*/WebService-FuncNet-0\.2\. # test suite may hang (t/live_test.t is likely to sleep forever), or is flapping (website related?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
@@ -887,7 +889,6 @@ match:
     |.*/Tk-Wizard-2\.14[34]\.tar\.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=42080>
     |.*/Catalyst-View-Component-SubInclude-0.0[23]\.tar.gz # distribution has bad directory permissions
     |.*/Text-NLP-Stanford-EntityExtract-\d # needs the Stanford Named Entity recogniser from http://nlp.stanford.edu/ner/index.shtml
-    |.*/FusionInventory-Agent-\d # postinstall questions (answer "n"!)
     |ANONWB/WWW-Patent-Page-0.106.0.tar.gz # dangerous if there are test failures, may destroy terminal or print via xterm!
     |BOKUTIN/WWW-Hashdb-0.01.tar.gz # endless loop
     |.*/DBIx-Librarian-\d # asks for password
@@ -1098,6 +1099,13 @@ match:
     |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
     |LEONT/Signal-More-0.001.tar.gz # basics test may hang (happened at least twice on my machine)
     |DOHERTY/App-Sysadmin-Log-Simple-0.004.tar.gz # tests take forever on a freebsd system
-    |JJORE/App-Stacktrace-0.(03|04).tar.gz # test hangs (gdb)
+    |JJORE/App-Stacktrace-0.(03|04|05|06|07).tar.gz # test hangs (gdb)
+    |BOOK/HTTP-Proxy-0.24.tar.gz # tests hang, at least with 5.12.3+4
+    |HANENKAMP/Bot-Net-0.1.0.tar.gz # tests hang, at least with 5.12.3+4
+    |XENU/CGI-Env-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
+    |CHETANG/API-ReviewBoard-0.1.tar.gz # no Makefile.PL, no proper directory structure
+    |ROKR/Acme-Indigest-Crypt-0.0011.tar.gz # runtime 45 min
+    |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
+    |WOLDRICH/Bundle-Woldrich-Term-0.02.tar.gz # nearly empty tarball, just a META.yml
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1

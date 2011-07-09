@@ -1,3 +1,12 @@
+match:
+  distribution: "/Alien-SDL-1\.427\."
+disabled: 1
+# XXX investigation needed...
+---
+match:
+  distribution: "/Alien-SDL-1\.428_"
+disabled: 1
+# XXX investigation needed...
 ---
 match:
   distribution: "/Alien-SDL-v?\d"
