@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Cosmic-DB-\d"
+pl:
+  expect:
+    - "\QDo you want to enter test DB info? [no]"
+    - "\n"
