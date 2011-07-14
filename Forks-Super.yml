@@ -7,3 +7,10 @@ match:
     PERL_BATCH: yes
 disabled: 1
 # tests hang or take forever
+---
+match:
+  distribution: "/Forks-Super-0.53"
+pl:
+  expect:
+    - "\QDo you want to attempt to install Sys::CpuLoadX v0.03?"
+    - "\n"
