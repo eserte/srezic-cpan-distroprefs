@@ -14,3 +14,5 @@ pl:
   expect:
     - "\QDo you want to attempt to install Sys::CpuLoadX v0.03?"
     - "\n"
+disabled: 1
+# tests still hang or take forever
