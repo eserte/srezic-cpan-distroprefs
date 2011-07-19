@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/GSM-SMS-\d"
+pl:
+  expect:
+    - "\QDo you want to configurate the package?"
+    - "n\n"
