@@ -9,6 +9,11 @@ disabled: 1
 # XXX investigation needed...
 ---
 match:
+  distribution: "/Alien-SDL-1\.428\."
+disabled: 1
+# XXX investigation needed...
+---
+match:
   distribution: "/Alien-SDL-v?\d"
 pl:
   eexpect:
