@@ -1,3 +1,10 @@
+---
+match:
+  distribution: "^JCRISTY/PerlMagick-6.71.tar.gz"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# XXX avoid testing this over and over again...
 --- 
 #comment: "Usually only works with current source which comes with PerlMagick anyway"
 match:
