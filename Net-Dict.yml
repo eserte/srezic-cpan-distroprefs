@@ -3,7 +3,7 @@ match:
   distribution: "/Net-Dict-\d"
 pl:
   expect:
-    - "\Qwhat is the hostname for the DICT server? [test.dict.org]"
+    - "\Qwhat is the hostname for the DICT server?"
     - "\n"
-    - "\Qwhat is the port for the DICT server? [2628]"
+    - "\Qwhat is the port for the DICT server?"
     - "\n"
