@@ -568,6 +568,7 @@ match:
     |MSCHOUT/Apache-Profiler-0.10.tar.gz # may hang
     |.*/Math-TrulyRandom-1.0 # test hangs, on freebsd and linux
     |.*/Mail-GPG-1.0.6 # may hang
+    |.*/Mail-GPG-1.0.7 # hangs (04.big.t)
     |.*/Net-Mollom-0.07 # may hang
     |KTHAKORE/SDL-2.515.tar.gz # may hang
     |KTHAKORE/SDL-2.516.tar.gz # dito
@@ -642,6 +643,7 @@ match:
     |.*/RT-Authen-Bitcard-\d
     |.*/RT-Action-LinearEscalate-\d # needs RT
     |.*/RT-Action-NotifyGroup-\d
+    |.*/RT-Action-SetStatus-\d
     |.*/RT-Condition-Complex-\d
     |.*/RT-BugTracker-Public-\d
     |.*/RT-BugTracker-\d
@@ -1109,5 +1111,6 @@ match:
     |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
     |WOLDRICH/Bundle-Woldrich-Term-0.02.tar.gz # nearly empty tarball, just a META.yml
     |.*/Apache-Sling-0\.15\. # two hanging tests
+    |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
