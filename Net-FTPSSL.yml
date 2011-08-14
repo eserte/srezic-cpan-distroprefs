@@ -1,6 +1,8 @@
 ---
 match:
   distribution: "/Net-FTPSSL-\d"
+  env:
+    PERL_BATCH: yes
 test:
   expect:
     - "\QDo you want to make a deeper test ? [y/N]"
