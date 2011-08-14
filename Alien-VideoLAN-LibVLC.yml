@@ -1,7 +1,10 @@
 ---
 match:
   distribution: "/Alien-VideoLAN-LibVLC-\d"
-pl:
-  expect:
-    - "\QWhat way do you wanna go?"
-    - "\n"
+#pl:
+#  expect:
+#    - "\QWhat way do you wanna go?"
+#    - "\n"
+disabled: 1
+## Probably needs vlc or so installed, otherwise nothing no Build is
+## created, and testing not possible
