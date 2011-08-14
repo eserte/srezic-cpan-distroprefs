@@ -29,3 +29,5 @@ pl:
     - "/tmp/sys-path/var/state\n"
     - "\Qwebdir"
     - "/tmp/sys-path/var/www\n"
+    - "\Qsrvdir"
+    - "/tmp/sys-path/srv\n"
