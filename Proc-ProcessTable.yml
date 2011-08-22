@@ -6,3 +6,12 @@ match:
 patches:
   - SREZIC/patches/Proc-ProcessTable-0.45-SREZIC-01.patch
 comment: "Fixing FreeBSD stuff..."
+---
+match:
+  distribution: "/Proc-ProcessTable-0.45.tar.gz"
+  perlconfig:
+    archname: "-linux"
+    useithreads: "^$"
+patches:
+  - SREZIC/patches/Proc-ProcessTable-0.45-MSCHILLI-02.patch
+comment: "Fixing unthreaded perls on linux..."
