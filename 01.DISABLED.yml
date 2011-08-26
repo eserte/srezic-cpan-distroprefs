@@ -618,48 +618,52 @@ match:
     |PERFORIN/WWW-Wuala-00.1.zip # generated Makefile.PL
     |BROWSERUK/ppm/ # contains only ppm packages, unsmokable
     |FALCONE/RT-OnlineDocs-\d # needs path to RT
-    |.*/RTx-EmailCompletion- # all RT extensions probably need path to RT
-    |.*/RTx-BecomeUser-\d # needs RT
-    |.*/RTx-Shredder-\d # needs RT
-    |.*/RTx-Calendar-\d # needs RT
-    |.*/RTx-RightsMatrix-\d # needs RT
-    |.*/RTx-WebCronTool-\d
-    |.*/RTx-TicketlistTransactions-\d
-    |.*/RTx-Foundry-\d
-    |.*/RTx-AuthTool-\d
-    |.*/RTx-MD5Auth-\d
-    |.*/RTx-Tags-\d
-    |.*/RTx-WorkflowBuilder-\d
-    |.*/RTx-CFC-\d
     |.*/RTx-AttachmentZip-\d
-    |.*/RT-Crypt-SMIME-\d
-    |.*/RT-Journal-\d
-    |.*/RT-Atom-\d
-    |.*/RT-Extension- # all RT extensions probably need path to RT
-    |.*/RT-Authen-Federation-\d
-    |.*/RT-Authen-CookieAuth-\d
-    |.*/RT-Authen-PAUSE-\d
-    |.*/RT-Authen-ExternalAuth-\d
-    |.*/RT-Authen-Bitcard-\d
+    |.*/RTx-AuthTool-\d
+    |.*/RTx-BecomeUser-\d # needs RT
+    |.*/RTx-CFC-\d
+    |.*/RTx-Calendar-\d # needs RT
+    |.*/RTx-EmailCompletion- # all RT extensions probably need path to RT
+    |.*/RTx-Foundry-\d
+    |.*/RTx-From-\d
+    |.*/RTx-MD5Auth-\d
+    |.*/RTx-RT34-Bulk-CF-Edit-\d
+    |.*/RTx-RightsMatrix-\d # needs RT
+    |.*/RTx-S3Invoker-\d
+    |.*/RTx-Shredder-\d # needs RT
+    |.*/RTx-Tags-\d
+    |.*/RTx-TicketlistTransactions-\d
+    |.*/RTx-Timeline-\d
+    |.*/RTx-WebCronTool-\d
+    |.*/RTx-WorkflowBuilder-\d
+    |.*/RT-Action-AssignUnownedToActor-\d
     |.*/RT-Action-LinearEscalate-\d # needs RT
+    |.*/RT-Action-MoveQueueBySubject-\d
     |.*/RT-Action-NotifyGroup-\d
+    |.*/RT-Action-SetPriorityFromHeader-\d
     |.*/RT-Action-SetStatus-\d
-    |.*/RT-Condition-Complex-\d
+    |.*/RT-Atom-\d
+    |.*/RT-Authen-Bitcard-\d
+    |.*/RT-Authen-CookieAuth-\d
+    |.*/RT-Authen-ExternalAuth-\d
+    |.*/RT-Authen-Federation-\d
+    |.*/RT-Authen-OpenID-\d
+    |.*/RT-Authen-PAUSE-\d
     |.*/RT-BugTracker-Public-\d
     |.*/RT-BugTracker-\d
-    |.*/RT-SimpleGPGVerify-\d
-    |.*/RT-Integration-SVN-\d
+    |.*/RT-Condition-Complex-\d
+    |.*/RT-Condition-OwnershipChanges-\d
+    |.*/RT-Crypt-SMIME-\d
+    |.*/RT-Extension- # all RT extensions probably need path to RT
     |.*/RT-IODEF-\d
+    |.*/RT-Integration-SVN-\d
+    |.*/RT-Journal-\d
+    |.*/RT-SimpleGPGVerify-\d
     |.*/RT-TicketWhiteboard-\d
+    |.*/RT-Todo-\d
     |.*/RT-View-ConciseSpreadsheet-\d
     |.*/RT-View-Directory-\d
-    |.*/RTx-S3Invoker-\d
-    |.*/RTx-RT34-Bulk-CF-Edit-\d
-    |.*/RTx-Timeline-\d
-    |.*/RTx-From-\d
     |.*/RT-View-Tree-\d
-    |.*/RT-Todo-\d
-    |.*/RT-Authen-OpenID-\d
     |.*/RTFM-Extension-ArticleTemplates-\d
     |.*/NBU-\d # needs NetBackup
     |.*/Lingua-CollinsParser-\d # needs some grammar files
@@ -1115,5 +1119,6 @@ match:
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
     |KRAIH/nothing.tar.gz # not a tarball?
+    |.*/PDL-SVDLIBC- # no svdlibc available
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
