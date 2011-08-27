@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/POE-Component-Server-HTTP-KeepAlive-0.0305"
+disabled: 1
+comment: "Test t/25_poco_simplehttp.t hangs"
