@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/IPC-ConcurrencyLimit-Lock-MySQL-\d"
+pl:
+  expect:
+    - "\QRun MySQL tests? [yes/no] [no]"
+    - "\n"
