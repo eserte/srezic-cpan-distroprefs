@@ -1124,5 +1124,12 @@ match:
     |WSDOOKADR/Constructible-0.02.tar.gz # kills CPAN shell
     |SDPRICE/Linux-DVB-DVBT-Apps-QuartzPVR- # asks for database password etc.
     |KABLAMO/Vim-Debug-0.6.tar.gz # tests hang, anyway it does not work because VimDebug::Daemin prereq is N/A @ CPAN
+    |KABLAMO/Vim-Debug-0.7.tar.gz # same
+    |KABLAMO/Vim-Debug-0.8.tar.gz # maybe the same, not checked
+    |MASANORIH/Net-IPMessenger-0.13.tar.gz # hanging tests
+    |MASANORIH/Net-IPMessenger-0.14.tar.gz # same (t/01.network.t hangs)
+    |PEVANS/IO-Async-Loop-Glib-0.20.tar.gz # t/15share-child.t hangs
+    |PRAMAKERS/JSON-Simple-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
+    |ABCABC/CFTP_01.tar.gz # no Makefile.PL, no proper directory structure
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
