@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Captive-Portal-\d"
+pl:
+  expect:
+    - "\QShall we test the availabilty of RADIUS modules? [no ]"
+    - "\n"
