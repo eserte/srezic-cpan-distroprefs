@@ -5,5 +5,5 @@ pl:
   eexpect:
     timeout: 30
     talk:
-      - "\QEnter your choices, separated by spaces (0=none, a=all): [0]"
+      - "\QEnter your choices, separated by spaces (0=none, a=all): [a]"
       - "\n"
