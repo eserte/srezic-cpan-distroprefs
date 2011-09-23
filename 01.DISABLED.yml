@@ -1131,5 +1131,6 @@ match:
     |PEVANS/IO-Async-Loop-Glib-0.20.tar.gz # t/15share-child.t hangs
     |PRAMAKERS/JSON-Simple-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
     |ABCABC/CFTP_01.tar.gz # no Makefile.PL, no proper directory structure
+    |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]"
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
