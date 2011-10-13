@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Finance-InteractiveBrokers-SWIG-\d"
+pl:
+  expect:
+    - "\Q/bin/swig"
+    - "\n"
+    - "\QAlien/InteractiveBrokers/IBJts"
+    - "\n"
