@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Module-Install-1\.(03|04)"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# See https://rt.cpan.org/Ticket/Display.html?id=71824
