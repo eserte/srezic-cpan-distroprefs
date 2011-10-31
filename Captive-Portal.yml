@@ -1,7 +1,8 @@
 ---
 match:
   distribution: "/Captive-Portal-\d"
-  archname: "linux"
+  perlconfig:
+    archname: "linux"
 pl:
   expect:
     - "\QShall we test the availabilty of RADIUS modules? [no ]"
