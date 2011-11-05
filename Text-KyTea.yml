@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Text-KyTea-\d"
+pl:
+  expect:
+    - "\QPath to lib directory of KyTea"
+    - "\n"
+    - "\QPath to include directory of KyTea"
+    - "\n"
