@@ -1,9 +1,13 @@
 ---
 match:
   distribution: "/Text-KyTea-\d"
-pl:
-  expect:
-    - "\QPath to lib directory of KyTea"
-    - "\n"
-    - "\QPath to include directory of KyTea"
-    - "\n"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+## Probably does not work without installed KyTea
+#pl:
+#  expect:
+#    - "\QPath to lib directory of KyTea"
+#    - "\n"
+#    - "\QPath to include directory of KyTea"
+#    - "\n"
