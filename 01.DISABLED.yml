@@ -655,6 +655,7 @@ match:
     |.*/RT-Condition-OwnershipChanges-\d
     |.*/RT-Crypt-SMIME-\d
     |.*/RT-Extension- # all RT extensions probably need path to RT
+    |.*/rt-extension- # lowercase
     |.*/RT-IODEF-\d
     |.*/RT-Integration-SVN-\d
     |.*/RT-Journal-\d
@@ -1135,5 +1136,7 @@ match:
     |PRAMAKERS/JSON-Simple-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
     |ABCABC/CFTP_01.tar.gz # no Makefile.PL, no proper directory structure
     |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]"
+    |.*/DBIx-DataModel-2.05.tar.gz # tests hang on freebsd
+    |DBMOLESTA/sp.tar.gz # (SharePoint-SOAPHandler) needs credentials for real tests
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
