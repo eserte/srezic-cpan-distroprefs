@@ -1,12 +1,21 @@
 ---
 match:
-  distribution: "/Forks-Super-0.(4[6789]|5[124])"
+  distribution: "/Forks-Super-0.(4[6789]|5[12456])"
   perlconfig:
     archname: "-freebsd"
   env:
     PERL_BATCH: yes
 disabled: 1
 # tests hang or take forever
+---
+match:
+  distribution: "/Forks-Super-0."
+  perlconfig:
+    archname: "-freebsd"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# disable tests for all forthcoming version on freebsd
 ---
 match:
   distribution: "/Forks-Super-0.53"
