@@ -10,15 +10,18 @@ depends:
     Module::Info: 0
     Test::Expect: 0
 pl:
-  eexpect:
-    timeout: 3
-    mode: anyorder
-    talk:
-      - "\QStrict mode requires Lexical::Persistence..  Install [yN]?"
-      - "y\n"
-      - "\QStack/lexical inspection requires PadWalker >= 1.0..  Install [yN]? "
-      - "y\n"
-      - "\QModule::Info required for some Emacs functions..  Install [yN]?"
-      - "y\n"
-      - "\QPrinting variable sizes requires Devel::Size..  Install [yN]"
-      - "y\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  eexpect:
+#    timeout: 3
+#    mode: anyorder
+#    talk:
+#      - "\QStrict mode requires Lexical::Persistence..  Install [yN]?"
+#      - "y\n"
+#      - "\QStack/lexical inspection requires PadWalker >= 1.0..  Install [yN]? "
+#      - "y\n"
+#      - "\QModule::Info required for some Emacs functions..  Install [yN]?"
+#      - "y\n"
+#      - "\QPrinting variable sizes requires Devel::Size..  Install [yN]"
+#      - "y\n"
