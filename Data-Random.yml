@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Data-Random-\d"
+  env:
+    PERL_BATCH: yes
+test:
+  env:
+    AUTOMATED_TESTING: 1
