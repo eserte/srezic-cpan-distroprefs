@@ -1139,5 +1139,7 @@ match:
     |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]"
     |.*/DBIx-DataModel-2.05.tar.gz # tests hang on freebsd
     |DBMOLESTA/sp.tar.gz # (SharePoint-SOAPHandler) needs credentials for real tests
+    |.*/Test-Attribute-AutoLevel-0.02-       # basic.t hangs on freebsd
+    |.*/Test-Attribute-AutoLevel-0.03.tar.gz # basic.t hangs on freebsd
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
