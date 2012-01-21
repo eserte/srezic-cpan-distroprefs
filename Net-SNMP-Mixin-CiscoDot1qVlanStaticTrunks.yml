@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Net-SNMP-Mixin-CiscoDot1qVlanStaticTrunks-\d"
+pl:
+  expect:
+    - "\QDo you want to run live tests against an active SNMP agent?"
+    - "n\n"

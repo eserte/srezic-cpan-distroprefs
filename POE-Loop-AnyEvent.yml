@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/POE-Loop-AnyEvent-\d"
+pl:
+  args:
+    - --default
