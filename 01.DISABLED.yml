@@ -288,6 +288,7 @@ match:
     |XXXX.*/Ganglia-Gmetric-\d # not valid anymore: needs ganglia-monitor-core port, N/A as package
     |.*/Audio-PortAudio-\d # portaudio not installed here
     |.*/Verilog-Pli-\d # needs some env variable set to find some header file
+    |WSNYDER/Verilog-Perl-3.313.tar.gz # hanging flex call without input files (gmake needed?)
     |.*/Math-MPC-\d # needs mpc library, not available as port
     |.*/X11-Aosd-\d # no port
     |.*/TCC-\d # freebsd: tcc only for i386 available
@@ -1007,7 +1008,7 @@ match:
     |.*/Event-Lib-UDPPump-\d # not installed (lazyness?)
     |.*/Encode-BOCU1-XS-\d # not installed (lazyness)
     |.*/GCJ-Cni-\d # part of mingw32-gcc??? not installed
-    |.*/Geo-GDAL-\d # gdal not installed (because depending graphics/libGL because depending on new X11)
+    |.*/Geo-GDAL-\d # module requires *exact* libgdal version to be installed
     |XXX.*/Geo-Proj4-\d # proj4 maybe not installed? --- mittlerweile scheint es zu gehen
     |.*/XXXXTcl-Tk-\d # missing tk8.5 (X11?) --- not used, because Tcl-Tk.yml seem to have higher precedence (?)
     |.*/Language-Prolog-Yaswi-\d # swi-prolog not installed
