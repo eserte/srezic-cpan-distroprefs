@@ -2,5 +2,20 @@
 match:
   distribution: "/LaTeX-CatSuit-\d"
 pl:
-  env:
-    PERL_MM_USE_DEFAULT: 1
+  expect:
+    - "\Qlatex path"
+    - "\n"
+    - "\Qpdflatex path"
+    - "\n"
+    - "\Qbibtex path"
+    - "\n"
+    - "\Qmakeindex path"
+    - "\n"
+    - "\Qdvips path"
+    - "\n"
+    - "\Qdvipdfm path"
+    - "\n"
+    - "\Qps2pdf path"
+    - "\n"
+    - "\Qpdf2ps path"
+    - "\n"
