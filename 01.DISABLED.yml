@@ -289,6 +289,7 @@ match:
     |.*/Audio-PortAudio-\d # portaudio not installed here
     |.*/Verilog-Pli-\d # needs some env variable set to find some header file
     |WSNYDER/Verilog-Perl-3.313.tar.gz # hanging flex call without input files (gmake needed?)
+    |WSNYDER/SystemPerl-1.340.tar.gz # hanging flex call without input files (gmake needed?)
     |.*/Math-MPC-\d # needs mpc library, not available as port
     |.*/X11-Aosd-\d # no port
     |.*/TCC-\d # freebsd: tcc only for i386 available
