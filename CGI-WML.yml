@@ -1,7 +1,7 @@
 ---
 match:
   distribution: "/CGI-WML-\d"
-pl:
+depends:
   requires:
 # To avoid interactive questions
     XML::Parser: 0
