@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Sakai-Nakamura-\d"
+pl:
+  expect:
+    - "\QSkip external tests"
+    - "y\n"
