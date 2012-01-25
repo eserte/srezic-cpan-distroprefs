@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Geo-IP-\d"
+# XXX This is a totally inaccurate proxy check for "CentOS4"
+  perlconfig:
+    osname: linux
+    osvers: 2.6.18-5-xen-686
+pl:
+  args: ["PP=1"]
+# XXX Works anyway only if
+#     /usr/local/share/GeoIP/GeoIP.dat is installed
