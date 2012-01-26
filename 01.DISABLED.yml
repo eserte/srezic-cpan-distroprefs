@@ -557,7 +557,6 @@ match:
     |.*/Gtk2-MozEmbed-0\.08\. # may hang
     |.*/Mildew-Setting-SMOP-0.03.tar.gz # hangs in Build
     |.*/Mojolicious-Plugin-TweetButton-0.0002.tar.gz # may hang if Mojo does not build
-    |.*/Apache-Sling-0.12.tar.gz # the Apache-Sling-Print.t hangs
     |KAMAL/LiteProcess-0.01.tar.gz # hangs
     |BINGOS/Module-Install-ReadmeFromPod-0.10.tar.gz # hangs
     |.*/Module-Install-GithubMeta-0.10- # hangs in 01compile, needs a ctrl-d
@@ -584,7 +583,6 @@ match:
     |MLEHMANN/AnyEvent-FastPing-1.13.tar.gz # load test hangs
     |SAMV/Lingua-Translate-0.09. # systran test hangs
     |SPROUT/JE-0.051. # test hangs with 5.13.5
-    |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
     |.*/Device-RFXCOM-1.103240 # endless loop in several tests
     |PFARR/Net-SMS-Clickatell-SOAP-v0.01. # invisible question
     |DPCHRIST/Dpchrist-Is-1.027. # pod2html in make phase does not work
@@ -1120,11 +1118,14 @@ match:
     |XENU/CGI-Env-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
     |CHETANG/API-ReviewBoard-0.1.tar.gz # no Makefile.PL, no proper directory structure
     |ROKR/Acme-Indigest-Crypt-0.0011.tar.gz # runtime 45 min
-    |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
     |WOLDRICH/Bundle-Woldrich-Term-0.02.tar.gz # nearly empty tarball, just a META.yml
+    |.*/Apache-Sling-0.12.tar.gz # the Apache-Sling-Print.t hangs
+    |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
+    |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
     |.*/Apache-Sling-0\.15\. # two hanging tests
     |.*/Apache-Sling-0\.16\.tar.gz # same
     |.*/Apache-Sling-0\.17\.tar.gz # still hanging tests
+    |.*/Apache-Sling-0\.18\.tar.gz # still hanging tests
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
     |KRAIH/nothing.tar.gz # not a tarball?
@@ -1143,6 +1144,7 @@ match:
     |ABCABC/CFTP_01.tar.gz # no Makefile.PL, no proper directory structure
     |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]"
     |.*/DBIx-DataModel-2.05.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.09.tar.gz # tests hang on freebsd
     |DBMOLESTA/sp.tar.gz # (SharePoint-SOAPHandler) needs credentials for real tests
     |.*/Test-Attribute-AutoLevel-0.02-       # basic.t hangs on freebsd
     |.*/Test-Attribute-AutoLevel-0.03.tar.gz # basic.t hangs on freebsd
