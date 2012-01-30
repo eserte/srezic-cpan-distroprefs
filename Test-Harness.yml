@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Test-Harness-3\.23\."
+patches:
+# This patch improves parsing of the "prove --exec" option
+# See also https://rt.cpan.org/Public/Bug/Display.html?id=74443
+  - "SREZIC/patches/Test-Harness-3.23-SREZIC-01.patch"
