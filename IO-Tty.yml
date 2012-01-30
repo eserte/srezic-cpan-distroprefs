@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "GBARR/IO-Tty-0.04.tar.gz"
+disabled: 1
+# Problem is that IO-Tty-0.04 is the last distribution
+# with a static IO::Tty::Constant, so it last forever
+# in the 02 packages list, and is disturbing on
+# CPAN.pm upgrades.
+#
+# IO-Tty-0.10 creates IO::Tty::Constant dynamically,
+# so PAUSE does not see it.
