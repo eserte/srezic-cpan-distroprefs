@@ -2,6 +2,6 @@
 match:
   distribution: "/CGI-WML-\d"
 depends:
-  requires:
+  configure_requires:
 # To avoid interactive questions
     XML::Parser: 0
