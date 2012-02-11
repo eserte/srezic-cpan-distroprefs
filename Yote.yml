@@ -4,8 +4,8 @@ match:
 pl:
   expect:
     - "\QWhat is the location of your cgi-bin directory?"
-    - "\n"
+    - "/tmp\n"
     - "\QWhat is the relative url of the cgi-bin on your webserver?"
     - "\n"
     - "\QWhat is the location of your javascript Directory?"
-    - "\n"
+    - "/tmp\n"
