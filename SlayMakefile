@@ -88,3 +88,7 @@ validate:
 		if (@errors) { die "Found errors:\n" . join("\n", @errors) }
 		else { "Validation OK.\n" }
 	}
+
+dangerous-cpan-distributions:
+	perl5.12.4 -S find_dangerous_cpan_distributions.pl -distropref > 02.dangerous_cpan_distributions.yml~
+	mv 02.dangerous_cpan_distributions.yml~ 02.dangerous_cpan_distributions.yml
