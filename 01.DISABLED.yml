@@ -1161,5 +1161,7 @@ match:
     |.*/jacode-2.13.4.10.tar.gz # no Makefile.PL
     |.*/Mojolicious-Plugin-Mobi-0.02.tar.gz # broken dist, only a META file
     |.*/PNI-Core-0.06-withoutworldwriteables.tar.gz # broken dist, only META files, no x-bit on directories
+    |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
+    |MNUNBERG/Couchbase-Client-0\.18\. # hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
