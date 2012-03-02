@@ -89,6 +89,9 @@ validate:
 		else { "Validation OK.\n" }
 	}
 
+# find_dangerous_cpan_distributions.pl can be found in:
+#   git://github.com/eserte/cpan-testers-parallelsmoker.git
+# subdirectory utils
 dangerous-cpan-distributions:
-	perl5.12.4 -S find_dangerous_cpan_distributions.pl -distropref > 02.dangerous_cpan_distributions.yml~
+	find_dangerous_cpan_distributions.pl -distropref > 02.dangerous_cpan_distributions.yml~
 	mv 02.dangerous_cpan_distributions.yml~ 02.dangerous_cpan_distributions.yml
