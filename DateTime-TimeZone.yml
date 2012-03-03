@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/DateTime-TimeZone-(1\.43|1\.44)\."
+patches:
+  - SREZIC/patches/DateTime-TimeZone-1.43-SREZIC-01.patch
+comment: https://rt.cpan.org/Ticket/Display.html?id=75508
