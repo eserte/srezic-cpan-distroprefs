@@ -1154,6 +1154,7 @@ match:
     |.*/DBIx-DataModel-2.05.tar.gz # tests hang on freebsd
     |.*/DBIx-DataModel-2.09.tar.gz # tests hang on freebsd
     |.*/DBIx-DataModel-2.10.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.21.tar.gz # tests hang on freebsd
     |DBMOLESTA/sp.tar.gz # (SharePoint-SOAPHandler) needs credentials for real tests
     |.*/Test-Attribute-AutoLevel-0.02-       # basic.t hangs on freebsd
     |.*/Test-Attribute-AutoLevel-0.03.tar.gz # basic.t hangs on freebsd
@@ -1161,5 +1162,8 @@ match:
     |.*/jacode-2.13.4.10.tar.gz # no Makefile.PL
     |.*/Mojolicious-Plugin-Mobi-0.02.tar.gz # broken dist, only a META file
     |.*/PNI-Core-0.06-withoutworldwriteables.tar.gz # broken dist, only META files, no x-bit on directories
+    |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
+    |MNUNBERG/Couchbase-Client-0\.18\. # hangs
+    |WWOLF/Test-\d # shadows the official Test.pm
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1

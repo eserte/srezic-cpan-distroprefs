@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/perlindex-1\.605\."
+patches:
+  - SREZIC/patches/perlindex-1.605-perl4libs-01.patch
+comment: https://rt.cpan.org/Ticket/Display.html?id=74537

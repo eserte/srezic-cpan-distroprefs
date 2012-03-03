@@ -3,3 +3,9 @@ match:
   distribution: "MARKUSB/PDF-Create-1\.02\.tar\.gz"
 disabled: 1
 comment: "https://rt.cpan.org/Ticket/Display.html?id=45965"
+---
+match:
+  distribution: "/PDF-Create-1\.06\.tar\.gz"
+patches:
+  - SREZIC/patches/PDF-Create-1.06-SREZIC-01.patch
+comment: https://rt.cpan.org/Ticket/Display.html?id=73638
