@@ -1164,5 +1164,6 @@ match:
     |.*/PNI-Core-0.06-withoutworldwriteables.tar.gz # broken dist, only META files, no x-bit on directories
     |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
     |MNUNBERG/Couchbase-Client-0\.18\. # hangs
+    |WWOLF/Test-\d # shadows the official Test.pm
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
