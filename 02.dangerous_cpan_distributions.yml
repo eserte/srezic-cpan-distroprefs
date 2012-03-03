@@ -111,8 +111,6 @@ match:
      |\QAWNCORP/Validation-Class-2.3.4.tar.gz\E
      |\QAWNCORP/Validation-Class-3.0.0.tar.gz\E
      |\QAWNCORP/Validation-Class-4.01003514.tar.gz\E
-     |\QAZAWAWI/Padre-Plugin-Moose-0.06.tar.gz\E
-     |\QAZAWAWI/Padre-Plugin-Moose-0.08.tar.gz\E
      |\QAZAWAWI/Padre-Plugin-SpellCheck-1.21.tar.gz\E
      |\QBAERGAJ/Shipment-0.01112650.tar.gz\E
      |\QBAERGAJ/Shipment-0.01120340.tar.gz\E
@@ -420,6 +418,7 @@ match:
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFGLOCK/v6-0.039.tar.gz\E
      |\QFIBO/PNI-0.26.tar.gz\E
+     |\QFIBO/PNI-0.27.tar.gz\E
      |\QFLORA/Audio-File-0.02.tar.gz\E
      |\QFLORA/Audio-File-0.03.tar.gz\E
      |\QFLORA/Audio-XMMSClient-0.01.tar.gz\E
@@ -1283,7 +1282,6 @@ match:
      |\QTCHINCHOW/pcsc-perl-1.0.8.tar.gz\E
      |\QTEAM/EntityModel-0.012.tar.gz\E
      |\QTEEJAY/Autodia-2.07.tar.gz\E
-     |\QTEMPIRE/Mojolicious-2.49.tar.gz\E
      |\QTEODOR/Net-Cassandra-Easy-0.10.tar.gz\E
      |\QTEODOR/Net-Cassandra-Easy-0.12.tar.gz\E
      |\QTEODOR/Net-Cassandra-Easy-0.14.tar.gz\E
@@ -1408,6 +1406,7 @@ match:
      |\QZAG/WebDAO-1.06.tar.gz\E
      |\QZAG/WebDAO-2.0.tar.gz\E
      |\QZAG/WebDAO-v2.2.0.tar.gz\E
+     |\QZAG/WebDAO-v2.2.1.tar.gz\E
      |\QZAKAME/Google-Plus-0.002.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
