@@ -802,7 +802,6 @@ match:
     |.*/CPAN-Search-Lite-\d # needs modperl 2
     |.*/Apache-Peek-\d # needs modperl 2
     |.*/Apache-Wyrd-\d # wants to call home
-    |.*/Apache-Compress-\d # wants to test with a mod_perl enabled apache
     |.*/Proc-JobQueue-0.3.tar.gz # asks for password
     |.*/RPC-Oracle-\d # needs access to db
     |.*/Oracle-Debug-\d # needs oracle
