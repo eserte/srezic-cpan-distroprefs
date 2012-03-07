@@ -1,0 +1,29 @@
+---
+match:
+  distribution: "/Apache-Compress-\d"
+  env:
+    # Because we use here apache-perl:
+    DOMAINNAME: iconmobile.de
+  perlconfig:
+    config_args: -DDEBIAN
+pl:
+  env:
+    APACHE: /usr/sbin/apache-perl
+  expect:
+    - "\Q/usr/sbin/apache-perl"
+    - "\n"
+    - "\QSearch existing config file for dynamic module dependencies"
+    - "y\n"
+    - "\QConfig file"
+    - "/etc/apache-perl/modules.conf\n"
+    - "\QUser to run tests under"
+    - "\n"
+    - "\QGroup to run tests under"
+    - "\n"
+    - "\QPort to run tests under"
+    - "\n"
+---
+match:
+  distribution: "/Apache-Compress-\d"
+disabled: 1
+comment: "Manual configuration necessary etc."

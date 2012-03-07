@@ -40,7 +40,6 @@ match:
     |.*/Apache-Bootstrap-\d
     |.*/Apache-CacheContent-\d
     |.*/Apache-ClearSilver-\d
-    |.*/Apache-Compress-\d
     |.*/Apache-ContentHandler-\d
     |.*/Apache-DBILogConfig-\d
     |.*/Apache-DBILogger-\d
