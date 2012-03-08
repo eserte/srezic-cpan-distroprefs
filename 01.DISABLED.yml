@@ -4,6 +4,7 @@ match:
   distribution: |
     ^(?x:
       .*/CPAN-Index-\d # https://rt.cpan.org/Ticket/Display.html?id=43349
+     |WWOLF/Test-\d # shadows the official Test.pm
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
@@ -1163,6 +1164,5 @@ match:
     |.*/PNI-Core-0.06-withoutworldwriteables.tar.gz # broken dist, only META files, no x-bit on directories
     |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
     |MNUNBERG/Couchbase-Client-0\.18\. # hangs
-    |WWOLF/Test-\d # shadows the official Test.pm
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
