@@ -1,5 +1,5 @@
 ---
-comment: dangerous CPAN distributions which may cause downgrades, automatically created by /home/e/eserte/devel/find_dangerous_cpan_distributions.pl
+comment: dangerous CPAN distributions which may cause downgrades, automatically created by /home/e/eserte/src/perl/CPAN-Testers-ParallelSmoker/utils/find_dangerous_cpan_distributions.pl
 disabled: 1
 match:
   distribution: |-
@@ -32,6 +32,7 @@ match:
      |\QAGOE/Net-PSYC-0.15.tar.gz\E
      |\QAGRUNDMA/Catalyst-Engine-HTTP-POE-0.07.tar.gz\E
      |\QAGRUNDMA/Catalyst-Plugin-UploadProgress-0.03.tar.gz\E
+     |\QAJOLMA/Geo-GDAL-1.81.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
@@ -83,6 +84,7 @@ match:
      |\QASPEER/WebDyne-Session-1.042.tar.gz\E
      |\QASPEER/WebDyne-Template-1.019.tar.gz\E
      |\QASPIERS/MySQL-Diff-0.33.tar.gz\E
+     |\QATHOMASON/Log-Syslog-Fast-0.58.tar.gz\E
      |\QAUDREYT/Algorithm-Diff-XS-0.01.tar.gz\E
      |\QAUDREYT/App-SocialCalc-Multiplayer-20091119.tar.gz\E
      |\QAUDREYT/Locale-Maketext-Lexicon-0.71.tar.gz\E
@@ -111,6 +113,7 @@ match:
      |\QAWNCORP/Validation-Class-2.3.4.tar.gz\E
      |\QAWNCORP/Validation-Class-3.0.0.tar.gz\E
      |\QAWNCORP/Validation-Class-4.01003514.tar.gz\E
+     |\QAZAWAWI/Padre-Plugin-Moose-0.15.tar.gz\E
      |\QAZAWAWI/Padre-Plugin-SpellCheck-1.21.tar.gz\E
      |\QBAERGAJ/Shipment-0.01112650.tar.gz\E
      |\QBAERGAJ/Shipment-0.01120340.tar.gz\E
@@ -142,6 +145,7 @@ match:
      |\QBKB/Lingua-JA-Moji-0.05.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
      |\QBLUEFEET/SQL-Abstract-Query-0.01.tar.gz\E
+     |\QBLX/XSDSQL_20110907.tar.bz2\E
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
      |\QBMORROW/IO-Unread-1.03.tar.gz\E
@@ -322,6 +326,7 @@ match:
      |\QDROLSKY/HTML-Mason-1.28.tar.gz\E
      |\QDROLSKY/Lingua-ZH-CCDICT-0.04.tar.gz\E
      |\QDROLSKY/Markdent-0.09.tar.gz\E
+     |\QDROLSKY/Markdent-0.17.tar.gz\E
      |\QDROLSKY/Moose-1.14.tar.gz\E
      |\QDROLSKY/Moose-1.17.tar.gz\E
      |\QDROLSKY/Moose-1.25.tar.gz\E
@@ -417,8 +422,6 @@ match:
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFGLOCK/v6-0.039.tar.gz\E
-     |\QFIBO/PNI-0.26.tar.gz\E
-     |\QFIBO/PNI-0.27.tar.gz\E
      |\QFLORA/Audio-File-0.02.tar.gz\E
      |\QFLORA/Audio-File-0.03.tar.gz\E
      |\QFLORA/Audio-XMMSClient-0.01.tar.gz\E
@@ -503,6 +506,7 @@ match:
      |\QHACKER/Agent-TCLI-0.02.tar.gz\E
      |\QHAGANK/Apache-RewritingProxy-0.4.tar.gz\E
      |\QHAGGAI/Net-StackExchange-0.102601.tar.gz\E
+     |\QHAGGAI/Scalar-Boolean-1.00.tar.gz\E
      |\QHAMPTON/Finance-Quote-1.13.tar.gz\E
      |\QHANENKAMP/Class-DBI-DDL/Class-DBI-DDL-1.01.tar.gz\E
      |\QHANENKAMP/DustyDB-0.02.tar.gz\E
