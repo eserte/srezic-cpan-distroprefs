@@ -7,3 +7,9 @@ match:
   distribution: '/Test-Warn-0.22.tar.gz'
 patches:
   - "ANDK/patches/Test-Warn-0.22-ANDK-01.patch.gz"
+---
+match:
+  distribution: '/Test-Warn-0.23.tar.gz'
+  perlconfig:
+    version: '^5\.15\.8$'
+goto: "CHORNY/Test-Warn-0.23_01.tar.gz"
