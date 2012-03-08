@@ -94,4 +94,5 @@ validate:
 # subdirectory utils
 dangerous-cpan-distributions:
 	find_dangerous_cpan_distributions.pl -distropref > 02.dangerous_cpan_distributions.yml~
+	chmod ugo+r 02.dangerous_cpan_distributions.yml~
 	mv 02.dangerous_cpan_distributions.yml~ 02.dangerous_cpan_distributions.yml
