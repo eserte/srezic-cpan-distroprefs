@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/Win32-API-0\.67\."
+patches:
+  - "SREZIC/patches/Win32-API-0.67-SREZIC-01.patch"
+comment: "https://rt.cpan.org/Ticket/Display.html?id=75336"
