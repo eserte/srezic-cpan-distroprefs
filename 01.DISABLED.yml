@@ -1155,6 +1155,7 @@ match:
     |.*/DBIx-DataModel-2.09.tar.gz # tests hang on freebsd
     |.*/DBIx-DataModel-2.10.tar.gz # tests hang on freebsd
     |.*/DBIx-DataModel-2.21.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.22.tar.gz # tests hang on freebsd
     |DBMOLESTA/sp.tar.gz # (SharePoint-SOAPHandler) needs credentials for real tests
     |.*/Test-Attribute-AutoLevel-0.02-       # basic.t hangs on freebsd
     |.*/Test-Attribute-AutoLevel-0.03.tar.gz # basic.t hangs on freebsd
@@ -1164,5 +1165,7 @@ match:
     |.*/PNI-Core-0.06-withoutworldwriteables.tar.gz # broken dist, only META files, no x-bit on directories
     |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
     |MNUNBERG/Couchbase-Client-0\.18\. # hangs
+    |.*/Net-MessageBus-0\.03\. # test hangs
+    |.*/Net-MessageBus-0\.04\. # test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
