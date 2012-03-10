@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/Win32-Registry-0\.10\."
+patches:
+  - "SREZIC/patches/Win32-Registry-0.10-SREZIC-02.patch"
+comment: "https://rt.cpan.org/Ticket/Display.html?id=75671"
