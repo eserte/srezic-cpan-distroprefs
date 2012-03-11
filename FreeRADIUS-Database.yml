@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/FreeRADIUS-Database-\d"
+pl:
+  expect:
+    - "\QBinary scripts will be installed here"
+    - "\n"
+    - "\QWhere should I install the config file"
+    - "\n"
