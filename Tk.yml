@@ -30,35 +30,35 @@ match:
 #goto: "SREZIC/Tk-804.027_501.tar.gz"
 disabled: 1
 
---- 
-match:
-  distribution: "SREZIC/Tk-804."
-  perlconfig:
-    archname: "MSWin32"
-comment: "No truetype support here, no ccache available"
-
---- 
-match:
-  distribution: "SREZIC/Tk-804."
-  perlconfig:
-    archname: "-freebsd"
-
-pl:
-  # Build with truetype support
-  # XXX remove once I have Tk-804.030 released
-  args: ["XFT=1"]
-
-make:
-  args: ["CC='ccache cc'"]
-
---- 
-match:
-  distribution: "SREZIC/Tk-804."
-
-pl:
-  # Build with truetype support
-  # XXX remove once I have Tk-804.030 released
-  args: ["XFT=1"]
+#--- 
+#match:
+#  distribution: "SREZIC/Tk-804."
+#  perlconfig:
+#    archname: "MSWin32"
+#comment: "No truetype support here, no ccache available"
+#
+#--- 
+#match:
+#  distribution: "SREZIC/Tk-804."
+#  perlconfig:
+#    archname: "-freebsd"
+#
+#pl:
+#  # Build with truetype support
+#  # XXX remove once I have Tk-804.030 released
+#  args: ["XFT=1"]
+#
+#make:
+#  args: ["CC='ccache cc'"]
+#
+#--- 
+#match:
+#  distribution: "SREZIC/Tk-804."
+#
+#pl:
+#  # Build with truetype support
+#  # XXX remove once I have Tk-804.030 released
+#  args: ["XFT=1"]
 
 #--- 
 #comment: "When building directly from source"
