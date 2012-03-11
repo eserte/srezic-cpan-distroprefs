@@ -1,0 +1,34 @@
+---
+match:
+  distribution: "/DBIx-Recordset-\d"
+pl:
+  eexpect:
+    mode: anyorder
+    timeout: 10
+    talk:
+      - "\QAnyData"
+      - ".\n"
+      - "\QCSV"
+      - ".\n"
+      - "\QDBM"
+      - ".\n"
+      - "\QGofer"
+      - ".\n"
+      - "\QMock"
+      - ".\n"
+      - "\QMulti"
+      - ".\n"
+      - "\QODBC"
+      - ".\n"
+      - "\QPg"
+      - ".\n"
+      - "\QSQLite"
+      - ".\n"
+      - "\QSys"
+      - ".\n"
+      - "\QWire10"
+      - ".\n"
+      - "\QXBase"
+      - ".\n"
+      - "\Qmysql"
+      - ".\n"

@@ -788,7 +788,6 @@ match:
     |.*/XAO-Content-\d # needs a database
     |.*/XAO-Catalogs-\d # needs a database
     |.*/Authen-Krb5-Admin-\d # asks questions
-    |.*/DBIx-Recordset-\d # asks questions
     |DCOPPIT/Benchmark-Timer-0.7100.tar.gz # problems with ExtUtils::AutoInstall
     |.*/Rsync-Config-\d # problems with ExtUtils::AutoInstall
     |.*/Apache-AuthTypeKey-\d # problems with ExtUtils::AutoInstall or Module::Install
