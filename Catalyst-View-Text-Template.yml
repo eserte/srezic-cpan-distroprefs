@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Catalyst-View-Text-Template-0\.006\."
+disabled: 1
+comment: "empty dist"
