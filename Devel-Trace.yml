@@ -1,5 +1,6 @@
---- 
-match:
-  module: "^Devel::Trace$"
-test:
-  expect: ["\QPress enter to execute this file.", "\n"]
+## Not interactive anymore (at least since 0.12)
+--- {}
+#match:
+#  module: "^Devel::Trace$"
+#test:
+#  expect: ["\QPress enter to execute this file.", "\n"]
