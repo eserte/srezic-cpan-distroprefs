@@ -1133,6 +1133,7 @@ match:
     |.*/Apache-Sling-0\.16\.tar.gz # same
     |.*/Apache-Sling-0\.17\.tar.gz # still hanging tests
     |.*/Apache-Sling-0\.18\.tar.gz # still hanging tests
+    |.*/Apache-Sling-0\.19\.tar.gz # still hanging tests
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
     |KRAIH/nothing.tar.gz # not a tarball?
@@ -1166,5 +1167,6 @@ match:
     |MNUNBERG/Couchbase-Client-0\.18\. # hangs
     |.*/Net-MessageBus-0\.03\. # test hangs
     |.*/Net-MessageBus-0\.04\. # test hangs
+    |SHARYANTO/Perinci-Object-0.09.tar.gz # recursive dependency
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
