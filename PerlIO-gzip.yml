@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/PerlIO-gzip-0\.18\."
+  perlconfig:
+    archname: "MSWin32"
+patches:
+  - "SREZIC/patches/PerlIO-gzip-0.18-SREZIC-Windows.diff"
+comment: "Generally this patch is applicable to all OS, but effectively needed only on non-Unix systems"
