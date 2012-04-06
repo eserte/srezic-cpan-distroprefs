@@ -4,5 +4,6 @@ match:
   perlconfig:
     archname: "MSWin32"
 patches:
+# https://rt.cpan.org/Ticket/Display.html?id=76335
   - "SREZIC/patches/PerlIO-gzip-0.18-SREZIC-Windows.diff"
 comment: "Generally this patch is applicable to all OS, but effectively needed only on non-Unix systems"
