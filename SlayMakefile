@@ -22,7 +22,7 @@
 
 all:	do-stuff
 
-do-stuff: validate dd-prefs permissions
+do-stuff: validate dd-prefs permissions remove-outdated-dd
 
 update:	git-pull do-stuff
 
@@ -87,6 +87,26 @@ validate:
 		}
 		if (@errors) { die "Found errors:\n" . join("\n", @errors) }
 		else { "Validation OK.\n" }
+	}
+
+remove-outdated-dd:
+	{
+	    my @candidates;
+	    for my $dd (glob("*.dd")) {
+		my($yml) = $dd =~ m{^(.*)\.dd$};
+		$yml .= ".yml";
+		if (!-e $yml) {
+		    push @candidates, $dd;
+		}
+	    }
+	    if (@candidates) {
+		print STDERR "Remove @candidates? (y/N) ";
+		chomp(my $yn = <STDIN>);
+		if ($yn eq 'y') {
+		    unlink @candidates;
+		}
+	    }
+	    "";
 	}
 
 # find_dangerous_cpan_distributions.pl can be found in:
