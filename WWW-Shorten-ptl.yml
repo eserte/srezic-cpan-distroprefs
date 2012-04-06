@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/WWW-Shorten-ptl-\d"
-pl:
-  expect:
-    - "\QPlease select one"
-    - "\n"

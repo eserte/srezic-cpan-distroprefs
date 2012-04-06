@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/LBMA-Statistics-\d"
-pl:
-  expect:
-    - "\QPlease select one"
-    - "\n"
