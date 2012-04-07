@@ -610,6 +610,7 @@ match:
     |.*/WebService-Async-0.03.tar.gz # another hanging one
     |.*/Task-BeLike-BURAK- # simply too large, so not smoking during regular smokes...
     |.*/POEx-WorkerPool- # endless loop Nonexistent 'POE::Wheel::Run(1) -> select stdin' event delivered to Worker:E6E22AE8-5F0F-11E0-A7EF-02CBD929F522
+    |.*/Crypt-RandPasswd-0\.02\. # test sometimes hangs, see https://rt.cpan.org/Ticket/Display.html?id=4090
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
