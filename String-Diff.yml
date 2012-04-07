@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/String-Diff-0\.04\."
+patches:
+  - SREZIC/patches/String-Diff-0.04-unbundle-YAML.patch
+comment: "https://rt.cpan.org/Ticket/Display.html?id=71678"
