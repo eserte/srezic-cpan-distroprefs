@@ -3,8 +3,8 @@ match:
   distribution: "/PerlIO-gzip-0\.18\."
   perlconfig:
     archname: "MSWin32"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
 # https://rt.cpan.org/Ticket/Display.html?id=76335
   - "SREZIC/patches/PerlIO-gzip-0.18-SREZIC-Windows.diff"

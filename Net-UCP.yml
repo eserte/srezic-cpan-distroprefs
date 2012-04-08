@@ -1,7 +1,7 @@
 ---
 match:
   distribution: "/Net-UCP-0\.40\.tar\.gz"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/Net-UCP-0.40-SREZIC-01.patch

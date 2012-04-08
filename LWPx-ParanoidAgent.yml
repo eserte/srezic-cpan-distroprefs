@@ -8,8 +8,8 @@ patches:
 ---
 match:
   distribution: "/LWPx-ParanoidAgent-1\.07\.tar\.gz"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/LWPx-ParanoidAgent-1.07-SREZIC-01.patch 
 comment: https://rt.cpan.org/Ticket/Display.html?id=44569

@@ -9,8 +9,8 @@ comment: |
 
 match:
   distribution: '/Test-Base-0.59'
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - "ANDK/patches/Test-Base-0.59-ANDK-01.patch.gz"
   - "ANDK/patches/Test-Base-0.59-ANDK-02.patch.gz"

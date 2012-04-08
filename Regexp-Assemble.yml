@@ -5,7 +5,7 @@ comment: |
 
 match:
   distribution: '/Regexp-Assemble-0.34'
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - "ANDK/patches/Regexp-Assemble-0.34-ANDK-01.patch.gz"

@@ -1,8 +1,8 @@
 ---
 match:
   distribution: "/Test-Harness-3\.23\."
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
 # This patch improves parsing of the "prove --exec" option
 # See also https://rt.cpan.org/Public/Bug/Display.html?id=74443

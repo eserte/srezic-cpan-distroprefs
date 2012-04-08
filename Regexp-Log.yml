@@ -7,7 +7,7 @@ comment: |
 
 match:
   distribution: "^BOOK/Regexp-Log-0.05"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - "ANDK/patches/Regexp-Log-0.05-ANDK-01.patch.gz"

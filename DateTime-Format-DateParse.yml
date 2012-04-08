@@ -5,7 +5,7 @@ comment: |
 
 match:
   distribution: 'JHOBLITT/DateTime-Format-DateParse-0.04\.'
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - "ANDK/patches/DateTime-Format-DateParse-0.04-ANDK-01.patch.gz"

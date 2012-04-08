@@ -6,8 +6,8 @@ comment: "https://rt.cpan.org/Ticket/Display.html?id=45965"
 ---
 match:
   distribution: "/PDF-Create-1\.06\.tar\.gz"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/PDF-Create-1.06-SREZIC-01.patch
 comment: https://rt.cpan.org/Ticket/Display.html?id=73638

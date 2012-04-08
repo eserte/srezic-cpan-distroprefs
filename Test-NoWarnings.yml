@@ -1,7 +1,7 @@
 ---
 match:
   distribution: "/Test-NoWarnings-0\.84\.tar\.gz"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/Test-NoWarnings-0.84-SREZIC-01.patch

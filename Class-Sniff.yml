@@ -1,7 +1,10 @@
 ---
 match:
   distribution: "/Class-Sniff-0\.09\."
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: '1'
+---
+match:
+  distribution: "/Class-Sniff-0\.09\."
 patches:
   - "SREZIC/patches/Class-Sniff-0.09-SPROUT-01.patch"

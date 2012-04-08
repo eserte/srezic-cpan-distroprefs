@@ -1,7 +1,7 @@
 ---
 match:
   distribution: "/Astro-Sunrise-0\.91\."
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - "SREZIC/patches/Astro-Sunrise-0.91-SREZIC-01.patch"

@@ -9,8 +9,8 @@ comment: https://rt.cpan.org/Ticket/Display.html?id=62258
 --- 
 match:
   distribution: '/YAML-0.(78|79|80)'
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - "ANDK/patches/YAML-0.78-SPROUT-01.patch.gz"
 comment: https://rt.cpan.org/Ticket/Display.html?id=73673

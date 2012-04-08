@@ -3,8 +3,8 @@ match:
   distribution: "/Proc-ProcessTable-0.45.tar.gz"
   perlconfig:
     archname: "-freebsd"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/Proc-ProcessTable-0.45-SREZIC-01.patch
 comment: "Fixing FreeBSD stuff..."
@@ -14,8 +14,8 @@ match:
   perlconfig:
     archname: "-linux"
     useithreads: "^$"
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/Proc-ProcessTable-0.45-MSCHILLI-02.patch
 comment: "Fixing unthreaded perls on linux..."

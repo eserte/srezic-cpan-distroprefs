@@ -9,7 +9,7 @@ comment: |
   Taken from cpanpm/distroprefs/STBEY.Bit-Vector.yml
 match:
   distribution: 'STBEY/Bit-Vector-7\.1\.tar\.gz'
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 goto: "ANDK/Bit-Vector-7.2-TRIAL.tar.gz"
 # Bit-Vector 7.2 does not have problems

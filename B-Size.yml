@@ -1,8 +1,8 @@
 ---
 match:
   distribution: "/B-Size-0\.09\."
-  env:
-    PERL_TEST_UNPATCHED: ''
+#  env:
+#    PERL_TEST_UNPATCHED: ''
 patches:
   # fixing counting size of lexicals
   - SREZIC/patches/B-Size-0.09-SREZIC-01.patch
