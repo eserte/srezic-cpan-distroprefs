@@ -12,3 +12,4 @@ match:
   env:
     PERL_TEST_UNPATCHED: ''
 goto: "ANDK/Bit-Vector-7.2-TRIAL.tar.gz"
+# Bit-Vector 7.2 does not have problems

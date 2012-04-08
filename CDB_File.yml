@@ -6,3 +6,4 @@ match:
     PERL_TEST_UNPATCHED: ''
 patches:
   - "ANDK/patches/CDB_File-0.95-ANDK-01.patch.gz"
+# CDB_File 0.97 does not have problems
