@@ -2,5 +2,7 @@
 comment: "From ANDK, see http://rt.cpan.org/Ticket/Display.html?id=23997"
 match:
   distribution: "^MSERGEANT/CDB_File-0.95"
+  env:
+    PERL_TEST_UNPATCHED: ''
 patches:
   - "ANDK/patches/CDB_File-0.95-ANDK-01.patch.gz"

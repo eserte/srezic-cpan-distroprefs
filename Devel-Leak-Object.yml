@@ -1,6 +1,8 @@
 ---
 match:
   distribution: "/Devel-Leak-Object-0\.82\."
+  env:
+    PERL_TEST_UNPATCHED: ''
 patches:
 # STDERR instead of STDOUT: http://rt.cpan.org/Ticket/Display.html?id=40991
   - SREZIC/patches/Devel-Leak-Object-0.92-SREZIC-01.patch

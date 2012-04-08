@@ -12,4 +12,6 @@ match:
   distribution: '/Test-Warn-0.23.tar.gz'
   perlconfig:
     version: '^(5\.15\.8|5\.15\.9)$'
+  env:
+    PERL_TEST_UNPATCHED: ''
 goto: "CHORNY/Test-Warn-0.23_01.tar.gz"

@@ -1,6 +1,8 @@
 ---
 match:
   distribution: "/String-Diff-0\.04\."
+  env:
+    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/String-Diff-0.04-unbundle-YAML-2.patch
 comment: "https://rt.cpan.org/Ticket/Display.html?id=71678"
