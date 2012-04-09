@@ -2,7 +2,7 @@
 match:
   distribution: "/Math-Pari-\d"
   env:
-    HOST: "biokovo-amd64.(herceg.de|rezic.de)"
+    HOST: "(biokovo-amd64.(herceg.de|rezic.de)|mosor)"
 pl:
   commandline: env FTP_PASSIVE=1 perl Makefile.PL
   eexpect:
