@@ -1,0 +1,9 @@
+---
+match:
+  distribution: |-
+    ^(?x:
+      \QPHRED/RHP-Timer-0.1.tar.gz\E # https://rt.cpan.org/Ticket/Display.html?id=56070
+     |\QXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx\E
+    )$
+disabled: 1
+comment: "distributions which look like there are dead and not worth to be tested anymore"
