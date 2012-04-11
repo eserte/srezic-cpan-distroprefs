@@ -5,6 +5,13 @@ match:
   env:
     USER: cpansand
 disabled: 1
+---
+comment: "have to be reviewed for the smokers"
+match:
+  distribution: "/mod_perl-\d"
+  env:
+    PERL_PARALLEL_SMOKER: yes
+disabled: 1
 --- 
 comment: "this prefs would work only on FreeBSD, but it works nowhere"
 match:
