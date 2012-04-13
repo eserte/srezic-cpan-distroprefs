@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Db-Documentum-\d"
+disabled: 1
+# "freebsd is not a supported platform for Db::Documentum (or for Documentum in general)."
+# and it seems there's no debian package for it
+# ... so disable for all, as it has an interactive Makefile.PL
