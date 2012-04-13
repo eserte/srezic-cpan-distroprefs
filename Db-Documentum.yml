@@ -1,6 +1,8 @@
 ---
 match:
   distribution: "/Db-Documentum-\d"
+  env:
+    PERL_BATCH: yes
 disabled: 1
 # "freebsd is not a supported platform for Db::Documentum (or for Documentum in general)."
 # and it seems there's no debian package for it
