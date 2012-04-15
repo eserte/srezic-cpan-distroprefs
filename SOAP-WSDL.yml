@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/SOAP-WSDL-2\.00\.10\."
+  env:
+    PERL_PARALLEL_SMOKER: yes
+goto: "MKUTTER/SOAP-WSDL-2.00.99_3.tar.gz"
+# Fails just for bleadperl 5.15.x, but make
+# all perls in a parallel smoke using this version
