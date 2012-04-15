@@ -1,0 +1,10 @@
+---
+match:
+  distribution: "/Glib-1\.242\."
+  env:
+    PERL_PARALLEL_SMOKER: yes
+goto: "XAOC/Glib-1.252_001.tar.gz"
+# See https://rt.cpan.org/Ticket/Display.html?id=76374
+# Actually this is only needed for 5.15.x, but in a
+# parallel smoke it's good to have all perl versions using
+# the same module version.
