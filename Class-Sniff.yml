@@ -8,6 +8,11 @@ match:
   distribution: "/Class-Sniff-0\.09\."
 patches:
   - "SREZIC/patches/Class-Sniff-0.09-SPROUT-01.patch"
-cpanconfig:
-  prefer_installer: "EUMM"
-# use EUMM to prevent interactive questions
+##XXX the following does not work?
+#cpanconfig:
+#  prefer_installer: "EUMM"
+## use EUMM to prevent interactive questions
+expect:
+  - "\QDo you wish to install the 'csniff' utility?"
+  - "\n"
+
