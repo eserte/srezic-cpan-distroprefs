@@ -72,16 +72,20 @@ validate:
 		my $schema = $VAR1;
 		die "Cannot load schema from $distroprefs_path" if !$schema;
 		for my $yml (glob("*.yml")) {
-			my $data = eval { LoadFile($yml) };
-			if (!$data) {
+			my(@data) = eval { LoadFile($yml) };
+			if (!@data) {
 				push @errors, "Errors while loading $yml: $@";
 				next;
 			}
-			push @errors, $@ if (!eval { validate($schema, $data) });
-			if (eval { require YAML; 1 }) {
-				if (!eval { YAML::LoadFile($yml) }) {
-					push @errors, "Errors while loading $yml with YAML.pm: $@";
-					next;
+			my $doc_i = -1;
+			for my $data (@data) {
+				$doc_i++;
+				push @errors, $@ if (!eval { validate($schema, $data) });
+				if (eval { require YAML; 1 }) {
+					if (!eval { YAML::LoadFile($yml) }) {
+						push @errors, "Errors while loading $yml (doc#$doc_i) with YAML.pm: $@";
+						next;
+					}
 				}
 			}
 		}
