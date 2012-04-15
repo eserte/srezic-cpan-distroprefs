@@ -12,7 +12,8 @@ patches:
 #cpanconfig:
 #  prefer_installer: "EUMM"
 ## use EUMM to prevent interactive questions
-expect:
-  - "\QDo you wish to install the 'csniff' utility?"
-  - "\n"
+pl:
+  expect:
+    - "\QDo you wish to install the 'csniff' utility?"
+    - "\n"
 
