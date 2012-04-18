@@ -28,6 +28,8 @@ match:
 patches:
   # The "cease warnings" patch
   - SREZIC/patches/Template-2.22-SREZIC-01.patch
+  # The "cease replace warnings" patch
+  - SREZIC/patches/Template-2.24-SREZIC-replacewarnings.patch
 pl:
   args: ["TT_ACCEPT=y"]
 --- 
