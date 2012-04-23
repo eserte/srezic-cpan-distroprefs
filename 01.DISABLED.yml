@@ -628,6 +628,53 @@ match:
     |.*/Task-BeLike-BURAK- # simply too large, so not smoking during regular smokes...
     |.*/POEx-WorkerPool- # endless loop Nonexistent 'POE::Wheel::Run(1) -> select stdin' event delivered to Worker:E6E22AE8-5F0F-11E0-A7EF-02CBD929F522
     |.*/Crypt-RandPasswd-0\.02\. # test sometimes hangs, see https://rt.cpan.org/Ticket/Display.html?id=4090
+    |.*/POSIX-RT-Signal-0\.010\. # t/10-basics.t test hangs
+    |.*/Gearman-Spawner-1.11.tar.gz # t/09-respawn.t test may hang
+    |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
+    |MNUNBERG/Couchbase-Client-0\.18\. # hangs
+    |.*/Net-MessageBus-0\.03\. # test hangs
+    |.*/Net-MessageBus-0\.04\. # test hangs
+    |.*/Test-Attribute-AutoLevel-0.02-       # basic.t hangs on freebsd
+    |.*/Test-Attribute-AutoLevel-0.03.tar.gz # basic.t hangs on freebsd
+    |.*/DBIx-DataModel-2.05.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.09.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.10.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.21.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.22.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.25.tar.gz # tests hang on freebsd
+    |MASANORIH/Net-IPMessenger-0.13.tar.gz # hanging tests
+    |MASANORIH/Net-IPMessenger-0.14.tar.gz # same (t/01.network.t hangs)
+    |PEVANS/IO-Async-Loop-Glib-0.20.tar.gz # t/15share-child.t hangs
+    |KABLAMO/Vim-Debug-0.6.tar.gz # tests hang, anyway it does not work because VimDebug::Daemin prereq is N/A @ CPAN
+    |KABLAMO/Vim-Debug-0.7.tar.gz # same
+    |KABLAMO/Vim-Debug-0.8.tar.gz # maybe the same, not checked
+    |KABLAMO/Vim-Debug-0.9.tar.gz # same
+    |KABLAMO/Vim-Debug-0.\d+.tar.gz # same with 0.10, disable for all future versions...
+    |.*/Apache-Sling-0.12.tar.gz # the Apache-Sling-Print.t hangs
+    |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
+    |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
+    |.*/Apache-Sling-0\.15\. # two hanging tests
+    |.*/Apache-Sling-0\.16\.tar.gz # same
+    |.*/Apache-Sling-0\.17\.tar.gz # still hanging tests
+    |.*/Apache-Sling-0\.18\.tar.gz # still hanging tests
+    |.*/Apache-Sling-0\.19\.tar.gz # still hanging tests
+    |.*/Apache-Sling-0\.21\.tar.gz # still hanging tests
+    |.*/Apache-Sling-0\..*\.tar.gz # still hanging tests with 0.22, disable forever
+    |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
+    |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
+    |RUSSOZ/Net-LDAP-SimpleServer-0.0.15.tar.gz # dito (and 05-search.t hangs)
+    |JJORE/App-Stacktrace-0.(03|04|05|06|07).tar.gz # test hangs (gdb)
+    |.*/MozRepl-RemoteObject-0.2[23].tar.gz # hanging tests
+    |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
+    |LEONT/Signal-More-0.001.tar.gz # basics test may hang (happened at least twice on my machine)
+    |DOHERTY/App-Sysadmin-Log-Simple-0.004.tar.gz # tests take forever on a freebsd system
+    |BOOK/HTTP-Proxy-0.24.tar.gz # tests hang, at least with 5.12.3+4
+    |HANENKAMP/Bot-Net-0.1.0.tar.gz # tests hang, at least with 5.12.3+4
+    |.*/Net-Plurk-0.09. # was hanging
+    |HKOBA/YATT-v0.0.5.tar.gz # was hanging
+    |KTHAKORE/SDL_Perl-v2\.2\.6\. # hangs on freebsd, both 5.10.1 and 5.12.0
+    |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
+    |SULLR/IO-Socket-SSL-1.30.tar.gz # test hangs under FreeBSD, needs more research!
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
@@ -1115,75 +1162,28 @@ match:
     |.*/SPOPSx-Ginsu-\d # wants a test database
     |.*/Wizard-\d # asking too many questions
     |.*/Net-Drizzle-\d+ # no fbsd port for libdrizzle/drizzle_client.h etc.
-    |SULLR/IO-Socket-SSL-1.30.tar.gz # test hangs under FreeBSD, needs more research!
     |.*/Posterous-\d # wants an account for testing
     |.*/Lingua-Lid-\d # wants lid.h, not available under freebsd
     |.*/Mozilla-DOM-0\.23\.tar\.gz # does not build anyway on my system
     |.*/Lingua-EN-GeniaTagger-\d+ # wants path to geniatagger
-    |KTHAKORE/SDL_Perl-v2\.2\.6\. # hangs on freebsd, both 5.10.1 and 5.12.0
-    |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
     |MBRANDON/README$ # an upload accident?
     |.*/Lingua-TreeTagger-.* # needs treetagger, not installed here
     |.*/WebService-ScormCloud- # needs some scorm id and creds
-    |.*/Net-Plurk-0.09. # was hanging
-    |HKOBA/YATT-v0.0.5.tar.gz # was hanging
     |XAICRON/WWW-YouTube-Download-0.25.tar.gz # PaxHeader stuff while extracting, maybe Archive::Tar problem?
-    |.*/MozRepl-RemoteObject-0.2[23].tar.gz # hanging tests
-    |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
-    |LEONT/Signal-More-0.001.tar.gz # basics test may hang (happened at least twice on my machine)
-    |DOHERTY/App-Sysadmin-Log-Simple-0.004.tar.gz # tests take forever on a freebsd system
-    |JJORE/App-Stacktrace-0.(03|04|05|06|07).tar.gz # test hangs (gdb)
-    |BOOK/HTTP-Proxy-0.24.tar.gz # tests hang, at least with 5.12.3+4
-    |HANENKAMP/Bot-Net-0.1.0.tar.gz # tests hang, at least with 5.12.3+4
     |XENU/CGI-Env-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
     |CHETANG/API-ReviewBoard-0.1.tar.gz # no Makefile.PL, no proper directory structure
     |ROKR/Acme-Indigest-Crypt-0.0011.tar.gz # runtime 45 min
     |WOLDRICH/Bundle-Woldrich-Term-0.02.tar.gz # nearly empty tarball, just a META.yml
-    |.*/Apache-Sling-0.12.tar.gz # the Apache-Sling-Print.t hangs
-    |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
-    |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
-    |.*/Apache-Sling-0\.15\. # two hanging tests
-    |.*/Apache-Sling-0\.16\.tar.gz # same
-    |.*/Apache-Sling-0\.17\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\.18\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\.19\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\.21\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\..*\.tar.gz # still hanging tests with 0.22, disable forever
-    |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
-    |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
-    |RUSSOZ/Net-LDAP-SimpleServer-0.0.15.tar.gz # dito (and 05-search.t hangs)
     |KRAIH/nothing.tar.gz # not a tarball?
     |.*/PDL-SVDLIBC- # no svdlibc available
     |WSDOOKADR/Constructible-0.02.tar.gz # kills CPAN shell
     |SDPRICE/Linux-DVB-DVBT-Apps-QuartzPVR- # asks for database password etc.
-    |KABLAMO/Vim-Debug-0.6.tar.gz # tests hang, anyway it does not work because VimDebug::Daemin prereq is N/A @ CPAN
-    |KABLAMO/Vim-Debug-0.7.tar.gz # same
-    |KABLAMO/Vim-Debug-0.8.tar.gz # maybe the same, not checked
-    |KABLAMO/Vim-Debug-0.9.tar.gz # same
-    |KABLAMO/Vim-Debug-0.\d+.tar.gz # same with 0.10, disable for all future versions...
-    |MASANORIH/Net-IPMessenger-0.13.tar.gz # hanging tests
-    |MASANORIH/Net-IPMessenger-0.14.tar.gz # same (t/01.network.t hangs)
-    |PEVANS/IO-Async-Loop-Glib-0.20.tar.gz # t/15share-child.t hangs
     |PRAMAKERS/JSON-Simple-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
     |ABCABC/CFTP_01.tar.gz # no Makefile.PL, no proper directory structure
     |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]"
-    |.*/DBIx-DataModel-2.05.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.09.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.10.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.21.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.22.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.25.tar.gz # tests hang on freebsd
     |DBMOLESTA/sp.tar.gz # (SharePoint-SOAPHandler) needs credentials for real tests
-    |.*/Test-Attribute-AutoLevel-0.02-       # basic.t hangs on freebsd
-    |.*/Test-Attribute-AutoLevel-0.03.tar.gz # basic.t hangs on freebsd
     |.*/RDF-TrineX-RuleEngine-Jena- # requires ~/Downloads/Jena-2.6.4 (might be downloaded, but I did not configure this yet)
     |.*/jacode-2.13.4.10.tar.gz # no Makefile.PL
-    |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
-    |MNUNBERG/Couchbase-Client-0\.18\. # hangs
-    |.*/Net-MessageBus-0\.03\. # test hangs
-    |.*/Net-MessageBus-0\.04\. # test hangs
     |SHARYANTO/Perinci-Object-0.09.tar.gz # recursive dependency
-    |.*/Gearman-Spawner-1.11.tar.gz # t/09-respawn.t test may hang
-    |.*/POSIX-RT-Signal-0\.010\. # t/10-basics.t test hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
