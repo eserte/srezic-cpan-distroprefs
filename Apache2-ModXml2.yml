@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Apache2-ModXml2-\d"
+pl:
+  expect:
+    - "\QDo you want to skip testing? [y/N] [n]"
+    - "\n"
