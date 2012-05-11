@@ -494,6 +494,7 @@ match:
     |JJORE/B-Utils-0.16. # broken dist containing only META.yml
     |.*/Mojolicious-Plugin-Mobi-0.02.tar.gz # broken dist, only a META file
     |.*/PNI-Core-0.06-withoutworldwriteables.tar.gz # broken dist, only META files, no x-bit on directories
+    |.*/AnyEvent-Peer39-0.3.tar.gz # only META
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
@@ -628,7 +629,7 @@ match:
     |.*/Task-BeLike-BURAK- # simply too large, so not smoking during regular smokes...
     |.*/POEx-WorkerPool- # endless loop Nonexistent 'POE::Wheel::Run(1) -> select stdin' event delivered to Worker:E6E22AE8-5F0F-11E0-A7EF-02CBD929F522
     |.*/Crypt-RandPasswd-0\.02\. # test sometimes hangs, see https://rt.cpan.org/Ticket/Display.html?id=4090
-    |.*/POSIX-RT-Signal-0\.010\. # t/10-basics.t test hangs
+    |.*/XXXPOSIX-RT-Signal-0\.010\. # t/10-basics.t test hangs # but not always, so disabled the disabled
     |.*/Gearman-Spawner-1.11.tar.gz # t/09-respawn.t test may hang
     |MNUNBERG/Couchbase-Client-0.17_0.tar.gz # hangs
     |MNUNBERG/Couchbase-Client-0\.18\. # hangs
@@ -642,6 +643,7 @@ match:
     |.*/DBIx-DataModel-2.21.tar.gz # tests hang on freebsd
     |.*/DBIx-DataModel-2.22.tar.gz # tests hang on freebsd
     |.*/DBIx-DataModel-2.25.tar.gz # tests hang on freebsd
+    |.*/DBIx-DataModel-2.26.tar.gz # tests hang on freebsd
     |MASANORIH/Net-IPMessenger-0.13.tar.gz # hanging tests
     |MASANORIH/Net-IPMessenger-0.14.tar.gz # same (t/01.network.t hangs)
     |PEVANS/IO-Async-Loop-Glib-0.20.tar.gz # t/15share-child.t hangs
