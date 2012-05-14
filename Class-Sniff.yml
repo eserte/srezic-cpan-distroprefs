@@ -3,15 +3,15 @@ match:
   distribution: "/Class-Sniff-0\.09\."
 #  env:
 #    PERL_TEST_UNPATCHED: '1'
+pl:
+  expect:
+    - "\QDo you wish to install the 'csniff' utility?"
+    - "\n"
 ---
 match:
   distribution: "/Class-Sniff-0\.09\."
 patches:
   - "SREZIC/patches/Class-Sniff-0.09-SPROUT-01.patch"
-##XXX the following does not work?
-#cpanconfig:
-#  prefer_installer: "EUMM"
-## use EUMM to prevent interactive questions
 pl:
   expect:
     - "\QDo you wish to install the 'csniff' utility?"
