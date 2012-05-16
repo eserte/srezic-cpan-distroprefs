@@ -1,10 +1,17 @@
 ---
 match:
   distribution: "/MIME-Lite-\d"
-pl:
-  eexpect:
-    mode: anyorder
-    timeout: 1
-    talk:
-      - "\QAdd prereqs? [Yes]"
-      - "\n"
+# Avoid interactive question, better to declare the missing dependencies
+depends:
+  configure_requires:
+    Mail::Address: 1.62
+    MIME::Types: 1.28
+    MIME::Base64: undef
+    MIME::QuotedPrint: 0
+#pl:
+#  eexpect:
+#    mode: anyorder
+#    timeout: 1
+#    talk:
+#      - "\QAdd prereqs? [Yes]"
+#      - "\n"
