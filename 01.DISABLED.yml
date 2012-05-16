@@ -62,7 +62,7 @@ disabled: 1
 --- 
 comment: "Never install perl from CPAN.pm"
 match:
-  distribution: "/perl-5\.(6|7|8|9|10|11|12|13|14|15)\.\d+"
+  distribution: "/perl-5\.(6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)\.\d+"
 #  env:
 #    PERL_BATCH: yes
 disabled: 1
