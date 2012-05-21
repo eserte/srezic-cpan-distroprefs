@@ -57,6 +57,9 @@ match:
      |\QAMAR/Wizard-0.1003.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1004.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1006.tar.gz\E
+     |\QAMD/Tapper-MCP-3.000010.tar.gz\E
+     |\QAMD/Tapper-Reports-Web-3.000010.tar.gz\E
+     |\QAMD/Tapper-Testplan-3.000010.tar.gz\E
      |\QAMS/Mojolicious-2.46.tar.gz\E
      |\QANAZAWA/Blosxom-Header-0.01015.tar.gz\E
      |\QANAZAWA/Blosxom-Header-0.02003.tar.gz\E
@@ -71,6 +74,7 @@ match:
      |\QANDYA/Test-Harness-3.14.tar.gz\E
      |\QANDYA/Test-Harness-3.17.tar.gz\E
      |\QANNELI/Erlang-Parser-0.2.tar.gz\E
+     |\QANNELI/Erlang-Parser-0.5.1.tar.gz\E
      |\QANTRO/PDF-110.tgz\E
      |\QAPOCAL/Test-Apocalypse-0.10.tar.gz\E
      |\QARANDAL/Pod-PseudoPod-0.15.tar.gz\E
@@ -252,6 +256,7 @@ match:
      |\QCZBSD/Myco-0.01.tar.gz\E
      |\QDAGOLDEN/CPAN-Meta-2.120351.tar.gz\E
      |\QDAGOLDEN/HTTP-Tiny-0.016.tar.gz\E
+     |\QDAGOLDEN/Metabase-0.016.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDAHILLMA/Geo-GoogleEarth-Document-modules2.tar.gz\E
      |\QDAMI/DBIx-DataModel-1.30.tar.gz\E
@@ -323,8 +328,10 @@ match:
      |\QDOMM/App-TimeTracker-0.08.tar.gz\E
      |\QDOMM/Module-CPANTS-Analyse-0.82.tar.gz\E
      |\QDONEILL/MIME-tools-5.428.tar.gz\E
+     |\QDORMANDO/MogileFS-Server-2.60.tar.gz\E
      |\QDOUGM/mod_perl-1.27.tar.gz\E
      |\QDOY/Bread-Board-Declare-0.10.tar.gz\E
+     |\QDOY/Devel-REPL-1.003012.tar.gz\E
      |\QDOY/Moose-2.0002.tar.gz\E
      |\QDOY/Moose-2.0004.tar.gz\E
      |\QDPATES/IPTables-IPv4-0.97b.tar.gz\E
@@ -546,6 +553,7 @@ match:
      |\QHIO/Tripletail-0.31.tar.gz\E
      |\QHIO/Tripletail-0.34.tar.gz\E
      |\QHJHELGE/Tk-MListbox-1.09.tar.gz\E
+     |\QHKCLARK/Catalyst-Plugin-StatusMessage-0.003000.tar.gz\E
      |\QHOBBESTIG/Net-Gandi-0.12.tar.gz\E
      |\QHOLLY/App-CLI-Extension-0.7.tar.gz\E
      |\QHOLT/makepp-1.19.tar.gz\E
@@ -577,6 +585,7 @@ match:
      |\QINGY/Pegex-0.15.tar.gz\E
      |\QINGY/Pegex-0.16.tar.gz\E
      |\QINGY/Pegex-0.17.tar.gz\E
+     |\QINGY/Stackato-Stackrad-0.01.tar.gz\E
      |\QINGY/TestML-0.03.tar.gz\E
      |\QINGY/TestML-0.04.tar.gz\E
      |\QINGY/TestML-0.08.tar.gz\E
@@ -729,6 +738,8 @@ match:
      |\QJZUCKER/DBD-CSV-0.22.tar.gz\E
      |\QJZUCKER/SQL-Statement-1.11.tar.gz\E
      |\QKAARE/Catalyst-Model-REST-0.25.tar.gz\E
+     |\QKABLAMO/Test-WWW-Selenium-More-0.10.tar.gz\E
+     |\QKABLAMO/Test-WWW-Selenium-More-0.11.tar.gz\E
      |\QKANE/Archive-Tar-0.23.tgz\E
      |\QKANE/CPANPLUS-0.84.tar.gz\E
      |\QKANE/File-Fetch-0.08.tar.gz\E
@@ -790,7 +801,9 @@ match:
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKRISTINA/MongoDB-0.33.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
+     |\QKRYDE/Math-NumSeq-38.tar.gz\E
      |\QKRYDE/math-image-96.tar.gz\E
+     |\QKRYDE/math-image-97.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
      |\QKSTEPME/FusqlFS-0.004.tar.gz\E
@@ -873,6 +886,7 @@ match:
      |\QMARKF/Test-DatabaseRow-1.04.tar.gz\E
      |\QMARKF/Test-DoubleEncodedEntities-0.01.tar.gz\E
      |\QMARKOV/POSIX-1003-0.02.tar.gz\E
+     |\QMARKOV/POSIX-1003-0.11.tar.gz\E
      |\QMARKOV/XML-Compile-SOAP-0.78.tar.gz\E
      |\QMARKSTOS/CGI-Application-3.31.tar.gz\E
      |\QMARKSTOS/CGI-Application-4.21.tar.gz\E
@@ -884,7 +898,6 @@ match:
      |\QMASAHJI/DB-Introspector-0.01a.tgz\E
      |\QMASAKI/HTTP-Router-0.01.tar.gz\E
      |\QMASANORIH/Net-IPMessenger-0.12.tar.gz\E
-     |\QMATEU/MooX-Types-MooseLike-0.03.tar.gz\E
      |\QMATHEW/Locale-MakePhrase-0.4.tar.gz\E
      |\QMATTBM/DNS-ZoneFile-0.92.tar.gz\E
      |\QMAURICE/Email-Valid-0.08.tar.gz\E
@@ -1266,6 +1279,7 @@ match:
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
+     |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
      |\QSKX/Blog-Spam-1.0.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
@@ -1319,8 +1333,6 @@ match:
      |\QTEODOR/Net-Cassandra-Easy-0.14.tar.gz\E
      |\QTEVERETT/Class-Prototyped-1.10.tar.gz\E
      |\QTFOUCART/WWW-Sucksub-Divxstation-0.01.tar.gz\E
-     |\QTHALJEF/Pinto-0.038.tar.gz\E
-     |\QTHALJEF/Pinto-Common-0.038.tar.gz\E
      |\QTHOMAS/Apache-DnsZone-0.1.tar.gz\E
      |\QTHOSPEL/Heap-Simple-0.06.tar.gz\E
      |\QTHOSPEL/Tie-Cacher-0.04.tar.gz\E
@@ -1411,6 +1423,7 @@ match:
      |\QXAOINC/XAO-FS-1.04.tar.gz\E
      |\QXAOINC/XAO-MySQL-1.0.tar.gz\E
      |\QXAOINC/XAO-Web-1.03.tar.gz\E
+     |\QXENO/Business-CyberSource-0.004008.tar.gz\E
      |\QXEONTIME/Sakai-Nakamura-0.11.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-6.02.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-7.08.tar.gz\E
@@ -1447,6 +1460,7 @@ match:
      |\QZAG/Plosurin-v0.1.1.tar.gz\E
      |\QZAKAME/Google-Plus-0.002.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
+     |\QZBY/WebNano-0.006.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
      |\QZEROLIU/Bio-KEGGI-v0.1.2.tar.gz\E
