@@ -639,6 +639,7 @@ match:
      |\QJESSE/perl-5.13.9.tar.gz\E
      |\QJESTER/Catalyst-Model-CDBI-Plain-0.02.tar.gz\E
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
+     |\QJGAMBLE/Games-Maze-1.03.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
      |\QJGOULAH/WWW-Getsy-0.999003.tar.gz\E
@@ -1456,6 +1457,7 @@ match:
      |\QZAG/Collection-0.38.tar.gz\E
      |\QZAG/HTTP-Server-Simple-WebDAO-0.01.tar.gz\E
      |\QZAG/Perl6-Pod-0.35.tar.gz\E
+     |\QZAG/Perl6-Pod-0.53.tar.gz\E
      |\QZAG/Perl6-Pod-Lib-0.07.tar.gz\E
      |\QZAG/Plosurin-v0.1.1.tar.gz\E
      |\QZAKAME/Google-Plus-0.002.tar.gz\E
