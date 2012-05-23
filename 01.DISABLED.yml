@@ -381,6 +381,7 @@ match:
     |.*/DBD-drizzle-\d # no port for libdrizzle
     |.*/JSONRPC-Transport-TCP-0.02.tar.gz # hangs
     |.*/Pod-Wrap-0.01.tar.gz # deparse_cmp.t hangs, but only freebsd
+    |.*/Metabase-1.001.tar.gz # flatfile.t hangs, probably on all *BSD systems (locking?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
