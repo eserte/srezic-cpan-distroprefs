@@ -11,5 +11,7 @@ match:
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:
+# https://rt.cpan.org/Ticket/Display.html?id=44569
   - SREZIC/patches/LWPx-ParanoidAgent-1.07-SREZIC-01.patch 
-comment: https://rt.cpan.org/Ticket/Display.html?id=44569
+# https://rt.cpan.org/Ticket/Display.html?id=77395
+  - SREZIC/patches/LWPx-ParanoidAgent-1.07-SREZIC-02.patch 
