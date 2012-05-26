@@ -1,7 +1,14 @@
 ---
 match:
   distribution: "/HTTP-Server-EV-\d"
-depends:
-  configure_requires:
-    IO::AIO: y
-# specify dependency to avoid interactive questions
+pl:
+  expect:
+    - "\Q- Install IO::AIO for asynchronous disk IO"
+    - "n\n"
+## no -> because IO::AIO is not available on some platforms (e.g. freebsd)
+
+## This die not work:
+#depends:
+#  configure_requires:
+#    IO::AIO: y
+## specify dependency to avoid interactive questions
