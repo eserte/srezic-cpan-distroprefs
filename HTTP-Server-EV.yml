@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/HTTP-Server-EV-\d"
+depends:
+  requires:
+    IO::AIO: y
+# specify dependency to avoid interactive questions
