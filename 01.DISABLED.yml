@@ -496,6 +496,7 @@ match:
     |.*/Mojolicious-Plugin-Mobi-0.02.tar.gz # broken dist, only a META file
     |.*/PNI-Core-0.06-withoutworldwriteables.tar.gz # broken dist, only META files, no x-bit on directories
     |.*/AnyEvent-Peer39-0.3.tar.gz # only META
+    |.*/App-epic-0.014.tar.gz # only META
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
