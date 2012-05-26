@@ -2,6 +2,6 @@
 match:
   distribution: "/HTTP-Server-EV-\d"
 depends:
-  requires:
+  configure_requires:
     IO::AIO: y
 # specify dependency to avoid interactive questions
