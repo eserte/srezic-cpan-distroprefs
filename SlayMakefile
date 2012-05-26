@@ -79,7 +79,7 @@ dd-prefs: { map { s{\.yml$}{.dd}; $_ } glob("*.yml") }
 		my($self, $target) = @_;
 		(my $base = $target) =~ s{\.dd$}{};
 		my $file = $base . ".yml";
-	       	print STDERR "$base...\n";
+	       	print STDERR "Creating .dd for $base...\n";
 		my @y = LoadFile($file);
 		open my $ofh, ">", "$target~" or die $!;
 		print $ofh Data::Dumper->new(\@y)->Indent(1)->Useqq(1)->Purity(1)->Sortkeys(1)->Dump or die $!;
