@@ -1,7 +1,3 @@
-#
-# $Id: SlayMakefile,v 2.13 2009/10/24 15:43:50 eserte Exp $
-#
-
 {
     use File::chmod qw(symchmod);
     use CPAN::Kwalify;
@@ -18,6 +14,45 @@
     }
     use Kwalify qw(validate);
     use Safe;
+
+    our $DISTROPREFS_SCHEMA;
+
+    sub load_distroprefs_schema {
+        return $DISTROPREFS_SCHEMA if $DISTROPREFS_SCHEMA;
+
+        my $distroprefs_path = $INC{"CPAN/Kwalify.pm"};
+	$distroprefs_path =~ s{\.pm$}{/distroprefs.dd};
+	my $cpt = Safe->new;
+	our $VAR1;
+	$cpt->share('$VAR1');
+	$cpt->rdo($distroprefs_path);
+	my $schema = $VAR1;
+	die "Cannot load schema from $distroprefs_path" if !$schema;
+
+        $DISTROPREFS_SCHEMA = $schema;
+    }
+
+    sub validate_distroprefs {
+        my($yml) = @_;
+	my $schema = load_distroprefs_schema();
+	my @errors;
+	my(@data) = eval { LoadFile($yml) };
+	if (!@data) {
+	    push @errors, "Errors while loading $yml: $@";
+	} else {
+	    my $doc_i = -1;
+	    for my $data (@data) {
+		$doc_i++;
+		push @errors, $@ if (!eval { validate($schema, $data) });
+		if (eval { require YAML; 1 }) {
+		    if (!eval { YAML::LoadFile($yml) }) {
+		        push @errors, "Errors while loading $yml (doc#$doc_i) with YAML.pm: $@";
+		    }
+		}
+	    }
+	}
+	@errors;
+    }
 }
 
 all:	do-stuff
@@ -60,34 +95,27 @@ permissions:
 		"";
 	}
 
-validate:
+validate: { map { ".validated/$_" } glob("*.yml") }
+
+.validated/%.yml: %.yml
+	{
+	    my($self, $target) = @_;
+	    (my $source = $target) =~ s{^\.validated/}{};
+	    print STDERR "Validate $source...\n";
+	    my @errors = validate_distroprefs($source);
+	    if (@errors) {
+		die "Found validation errors ($source):\n" . join("\n", @errors);
+	    }
+	    system 'touch', $target;
+	    $? == 0 or die "Could not touch $target";
+	    "";
+	}
+
+validate-all:
 	{
 		my @errors;
-		my $distroprefs_path = $INC{"CPAN/Kwalify.pm"};
-		$distroprefs_path =~ s{\.pm$}{/distroprefs.dd};
-		my $cpt = Safe->new;
-		our $VAR1;
-		$cpt->share('$VAR1');
-		$cpt->rdo($distroprefs_path);
-		my $schema = $VAR1;
-		die "Cannot load schema from $distroprefs_path" if !$schema;
 		for my $yml (glob("*.yml")) {
-			my(@data) = eval { LoadFile($yml) };
-			if (!@data) {
-				push @errors, "Errors while loading $yml: $@";
-				next;
-			}
-			my $doc_i = -1;
-			for my $data (@data) {
-				$doc_i++;
-				push @errors, $@ if (!eval { validate($schema, $data) });
-				if (eval { require YAML; 1 }) {
-					if (!eval { YAML::LoadFile($yml) }) {
-						push @errors, "Errors while loading $yml (doc#$doc_i) with YAML.pm: $@";
-						next;
-					}
-				}
-			}
+		    push @errors, validate_distroprefs($yml);
 		}
 		if (@errors) { die "Found errors:\n" . join("\n", @errors) }
 		else { "Validation OK.\n" }
