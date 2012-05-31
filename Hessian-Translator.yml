@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Hessian-Translator-\d"
+pl:
+  expect:
+    - "\QNetwork connection available?"
+    - "\n"
