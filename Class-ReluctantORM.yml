@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Class-ReluctantORM-\d"
+pl:
+  expect:
+    - "\QChoose (Sdg)"
+    - "s\n"
