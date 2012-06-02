@@ -385,8 +385,11 @@ match:
     |.*/IPC-AnyEvent-Gearman-0\.1\. # 01-ipc.t test hangs, 03-fork.t forks of a number of busy processes and hangs
     |.*/IPC-AnyEvent-Gearman-0\.3\. # 01-ipc.t test hangs, 03-fork.t forks of a number of busy processes and hangs
     |.*/IPC-AnyEvent-Gearman-0\.5\. # 01-ipc.t test hangs, 03-fork.t forks of a number of busy processes and hangs
+    |.*/IPC-AnyEvent-Gearman-0\.6\. # 01-ipc.t test hangs, 03-fork.t forks of a number of busy processes and hangs
+    |.*/IPC-AnyEvent-Gearman-0\.\d+\. # disabled all following versions
     |.*/Plack-Middleware-JenkinsNotification-0.04 # 04_listener.t test hangs
     |.*/Plack-Middleware-JenkinsNotification-0.05 # 04_listener.t test hangs
+    |.*/Twiggy-Prefork-0.01 # almost all tests hang
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 

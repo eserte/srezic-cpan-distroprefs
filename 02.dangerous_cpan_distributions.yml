@@ -43,6 +43,7 @@ match:
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
      |\QALEXBIO/FFI-Raw-0.04.tar.gz\E
+     |\QALEXBIO/FFI-Raw-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
      |\QALEXMV/Jifty-0.90409.tar.gz\E
@@ -264,7 +265,6 @@ match:
      |\QDANBERR/Test-AutoBuild-1.0.3.tar.gz\E
      |\QDANBERR/Test-AutoBuild-1.2.3.tar.gz\E
      |\QDANDV/MojoMojo-0.999033.tar.gz\E
-     |\QDANFRU/MonitisMonitorManager-3.1.tar.gz\E
      |\QDANIEL/XML-XSPF-0.7.1.tar.gz\E
      |\QDANIELTWC/DBIx-Class-0.07002.tar.gz\E
      |\QDANKOGAI/Encode-2.23.tar.gz\E
@@ -274,7 +274,6 @@ match:
      |\QDAVEBAIRD/Maypole-FormBuilder-0.1.tar.gz\E
      |\QDAVEBAIRD/Maypole-FormBuilder-0.23.tar.gz\E
      |\QDAVIDRW/GBPVR-CDBI-0.01.tar.gz\E
-     |\QDAXIM/PostScript-Barcode-0.003.tar.gz\E
      |\QDBALMER/HTML-Chunks-1.5.tar.gz\E
      |\QDBROWNING/Business-Shipping-1.06.tar.gz\E
      |\QDBROWNING/Business-Shipping-2.03.tar.gz\E
@@ -326,7 +325,6 @@ match:
      |\QDOMIZIO/OOTools-2.21.tar.gz\E
      |\QDOMIZIO/Template-Magic-1.39.tar.gz\E
      |\QDOMM/App-TimeTracker-0.08.tar.gz\E
-     |\QDOMM/Module-CPANTS-Analyse-0.82.tar.gz\E
      |\QDONEILL/MIME-tools-5.428.tar.gz\E
      |\QDORMANDO/MogileFS-Server-2.60.tar.gz\E
      |\QDOUGM/mod_perl-1.27.tar.gz\E
@@ -465,9 +463,6 @@ match:
      |\QFREW/DBIx-Class-0.08123.tar.gz\E
      |\QFREW/DBIx-Class-0.08124.tar.gz\E
      |\QFREW/Web-Simple-0.004.tar.gz\E
-     |\QFUSINV/FusionInventory-Agent-2.1.14.tar.gz\E
-     |\QFUSINV/FusionInventory-Agent-2.1.7.tar.gz\E
-     |\QFUSINV/FusionInventory-Agent-2.1.8.tar.gz\E
      |\QFUSINV/FusionInventory-Agent-Task-NetDiscovery-1.5.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
@@ -526,7 +521,6 @@ match:
      |\QGUIMARD/Lemonldap-NG-Manager-0.992.tar.gz\E
      |\QGUIMARD/Lemonldap-NG-Portal-0.88.tar.gz\E
      |\QGUIMARD/Lemonldap-NG-Portal-0.90.tar.gz\E
-     |\QGWILLIAMS/RDF-Query-2.902.tar.gz\E
      |\QHACKER/Agent-TCLI-0.02.tar.gz\E
      |\QHAGANK/Apache-RewritingProxy-0.4.tar.gz\E
      |\QHAGGAI/Net-StackExchange-0.102601.tar.gz\E
@@ -639,7 +633,6 @@ match:
      |\QJESSE/perl-5.13.9.tar.gz\E
      |\QJESTER/Catalyst-Model-CDBI-Plain-0.02.tar.gz\E
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
-     |\QJGAMBLE/Games-Maze-1.03.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
      |\QJGOULAH/WWW-Getsy-0.999003.tar.gz\E
@@ -805,6 +798,7 @@ match:
      |\QKRYDE/Math-NumSeq-38.tar.gz\E
      |\QKRYDE/math-image-96.tar.gz\E
      |\QKRYDE/math-image-97.tar.gz\E
+     |\QKRYDE/math-image-98.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
      |\QKSTEPME/FusqlFS-0.004.tar.gz\E
@@ -895,6 +889,7 @@ match:
      |\QMARKSTOS/Data-FormValidator-4.66.tar.gz\E
      |\QMARKSTOS/SQL-Interp-1.02.tar.gz\E
      |\QMAROS/Business-UPS-Tracking-1.07.tar.gz\E
+     |\QMAROS/MooseX-App-1.02.tar.gz\E
      |\QMAROS/Text-Phonetic-1.07.tar.gz\E
      |\QMASAHJI/DB-Introspector-0.01a.tgz\E
      |\QMASAKI/HTTP-Router-0.01.tar.gz\E
@@ -1032,7 +1027,6 @@ match:
      |\QNEKOYA/DBIx-Skinny-InflateColumn-DateTime-0.04.tar.gz\E
      |\QNES/Nes-1.02.tar.gz\E
      |\QNEZUMI/MIME-Charset-1.006.2.tar.gz\E
-     |\QNI-S/Tk800.015.tar.gz\E
      |\QNICS/Catmandu-0.0102.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
      |\QNIGE/Goo-0.08.tar.gz\E
@@ -1155,6 +1149,7 @@ match:
      |\QRIBASUSHI/namespace-clean-0.21.tar.gz\E
      |\QRIZEN/Facebook-Graph-1.0200.tar.gz\E
      |\QRJBS/Dist-Zilla-4.300007.tar.gz\E
+     |\QRJBS/Games-Nintendo-Mario-0.204.tar.gz\E
      |\QRJBS/IPC-Run3-0.044.tar.gz\E
      |\QRJBS/Macro-Micro-0.052.tar.gz\E
      |\QRJBS/Number-Tolerant-1.700.tar.gz\E
@@ -1197,6 +1192,7 @@ match:
      |\QSAKOHT/UR-0.26.tar.gz\E
      |\QSAKOHT/UR-0.28.tar.gz\E
      |\QSAKOHT/UR-0.38.1.tar.gz\E
+     |\QSALVA/Math-Int64-0.17.tar.gz\E
      |\QSALVA/Net-OpenSSH-0.50.tar.gz\E
      |\QSALVA/Net-SFTP-Foreign-0.61.tar.gz\E
      |\QSALVA/Net-SFTP-Foreign-1.57.tar.gz\E
@@ -1328,7 +1324,6 @@ match:
      |\QTCHINCHOW/pcsc-perl-1.0.8.tar.gz\E
      |\QTEAM/EntityModel-0.012.tar.gz\E
      |\QTEEJAY/Autodia-2.07.tar.gz\E
-     |\QTEMPIRE/Mojolicious-2.62.tar.gz\E
      |\QTEODOR/Net-Cassandra-Easy-0.10.tar.gz\E
      |\QTEODOR/Net-Cassandra-Easy-0.12.tar.gz\E
      |\QTEODOR/Net-Cassandra-Easy-0.14.tar.gz\E
@@ -1343,6 +1338,7 @@ match:
      |\QTIMA/XML-RSS-Parser-1.02.tar.gz\E
      |\QTIMA/XML-RSS-Parser-2.11.tar.gz\E
      |\QTIMB/perl5.004_04.tar.gz\E
+     |\QTJENNESS/Starlink-AST-0.99.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
@@ -1414,6 +1410,7 @@ match:
      |\QWEAV/DBIx-Perform-0.05.tar.gz\E
      |\QWIGGLY/Autocache-0.002.tar.gz\E
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
+     |\QWPMOORE/NetApp-1.1.2.tgz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
      |\QXAICRON/DBIx-QueryLog-0.06.tar.gz\E
