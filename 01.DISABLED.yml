@@ -1200,5 +1200,6 @@ match:
     |.*/jacode-2.13.4.10.tar.gz # no Makefile.PL
     |SHARYANTO/Perinci-Object-0.09.tar.gz # recursive dependency
     |.*/Debug-Client-0.21_02 # many tests hang on freebsd
+    |.*/Debug-Client-0.21_03. # many tests hang on freebsd
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1

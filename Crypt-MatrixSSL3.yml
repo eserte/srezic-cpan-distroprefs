@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Crypt-MatrixSSL3-\d"
+pl:
+  expect:
+    - "\QRun tests which require internet connection"
+    - "\n"
