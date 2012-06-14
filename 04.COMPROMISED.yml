@@ -1,0 +1,44 @@
+---
+comment: Possibly dangerous CPAN distributions uploaded by pseudo users
+disabled: 1
+match:
+  distribution: |-
+    ^(?x:
+      ABHIISNOT/.*
+     |BCARMER/.*
+     |BDFOY/Acme-BDFOY-0.01.tar.gz
+     |BEAST/.*
+     |BOATES/.*
+     |BRYAN/.*
+     |CTREPTOW/.*
+     |DEVELO/.*
+     |DWCARDER/.*
+     |DYOUNG/.*
+     |ERICYE/.*
+     |GWARMAN/.*
+     |IAMB/.*
+     |JANEZHANG/.*
+     |JARICH/.*
+     |JJCARMAN/.*
+     |JLRUSH/.*
+     |JONI/.*
+     |KENO/.*
+     |KEVINZ/.*
+     |KJAM/.*
+     |LTHARRIS/.*
+     |MARVIN/.*
+     |MBHALL/.*
+     |MLX/.*
+     |MMCCLENN/.*
+     |MTINBERG/.*
+     |MYSFITT/.*
+     |PHILLUP/.*
+     |RICKFORD/.*
+     |ROHLFSC/.*
+     |SMALLEYD/.*
+     |STICKPIN/.*
+     |VNAIPAUL/.*
+     |WALLISDS/.*
+     |YANKAITUO/.*
+     |YARROW/.*
+    )$
