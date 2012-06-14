@@ -390,6 +390,7 @@ match:
     |.*/Plack-Middleware-JenkinsNotification-0.04 # 04_listener.t test hangs
     |.*/Plack-Middleware-JenkinsNotification-0.05 # 04_listener.t test hangs
     |.*/Twiggy-Prefork-0.01 # almost all tests hang
+    |.*/Twiggy-Prefork-0.02 # same
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
