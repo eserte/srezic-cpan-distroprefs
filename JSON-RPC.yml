@@ -1,0 +1,13 @@
+---
+match:
+  distribution: "/JSON-RPC-\d"
+  env:
+    PERL_BATCH: yes
+pl:
+  eexpect:
+    talk:
+      - "\QReally upgrade"
+      - "y\n"
+    reuse: 1
+    mode: anyorder
+    timeout: 5
