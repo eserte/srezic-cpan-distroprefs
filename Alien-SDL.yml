@@ -22,7 +22,7 @@ match:
   distribution: "/Alien-SDL-v?\d"
 pl:
   eexpect:
-    timeout: 180
+    timeout: 360
     talk:
       - "\QWhat way do you wanna go?"
       - "\n"
