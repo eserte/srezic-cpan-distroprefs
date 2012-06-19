@@ -1,5 +1,5 @@
 ---
-comment: Possibly dangerous CPAN distributions uploaded by pseudo users
+comment: "BDFOY class with nonsense distributions"
 disabled: 1
 match:
   distribution: |-
