@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/SVN-Notify-Mirror-\d"
+pl:
+  expect:
+    - "\Q(see the README for details) [N ]"
+    - "\n"
+    - "\Q(see the README for details) [N ]"
+    - "\n"
