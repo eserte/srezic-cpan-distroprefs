@@ -9,7 +9,7 @@ goto: "XAOC/Glib-1.252_001.tar.gz"
 # parallel smoke it's good to have all perl versions using
 # the same module version.
 ---
-# Der Test t/9.t hängt, vielleicht nicht nur unter FreeBSD 9,
+# The test t/9.t hangs, vielleicht nicht nur unter FreeBSD 9,
 # sondern auch anderen Systemen ohne Threads und mit neuem
 # glib
 match:
