@@ -1204,6 +1204,7 @@ match:
     |.*/Debug-Client-0.21_02 # many tests hang on freebsd
     |.*/Debug-Client-0.21_03. # many tests hang on freebsd
     |.*/Debug-Client-0.21_05. # many tests hang on freebsd
+    |.*/Debug-Client-0.21_06. # many tests hang on freebsd
     |.*/Object-Remote-0.001001 # all tests hang on freebsd
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
