@@ -7,6 +7,8 @@ pl:
     mode: anyorder
     reuse: 1
     talk:
+      - "\QFound previous configuration."
+      - "n\n"
       - "\QWould you like to configure DB_File (DB_File)(y/n) [y]"
       - "n\n"
       - "\QWould you like to configure File, use semaphore for locking (File)(y/n) [y]"
