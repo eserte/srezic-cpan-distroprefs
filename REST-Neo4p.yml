@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/REST-Neo4p-v\d"
+  distribution: "/REST-Neo4p-v?\d"
 pl:
   expect:
     - "\QServer for live tests"
