@@ -1,9 +1,16 @@
 ---
 match:
   distribution: "/File-DirWalk-\d"
-test:
-  env:
-    HOME: /does.not.exist
-# use an invalid directory to shortcut test runtime
-# otherwise test will visit every file in $ENV{HOME}
-# and this could take forever (> 1 hour in cpansand)
+## The following was flawed, because it is also setting
+## HOME for CPAN::Reporter, which was not able to
+## send reports anymore.
+##
+## With 0.4 it seems that the home directory is not
+## anymore walked, so this is not neccessary.
+##
+#test:
+#  env:
+#    HOME: /does.not.exist
+## use an invalid directory to shortcut test runtime
+## otherwise test will visit every file in $ENV{HOME}
+## and this could take forever (> 1 hour in cpansand)
