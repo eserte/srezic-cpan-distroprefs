@@ -1208,6 +1208,8 @@ match:
     |.*/Debug-Client-0.21_07. # many tests hang on freebsd
     |.*/Debug-Client-0.21_08. # many tests hang on freebsd
     |.*/Debug-Client-0.21_10. # many tests hang on freebsd
+    |.*/Debug-Client-0.21_11. # many tests hang on freebsd
+    |.*/Debug-Client-0.21_.*  # probably all remaining versions will fail, too
     |.*/Object-Remote-0.001001 # all tests hang on freebsd
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
