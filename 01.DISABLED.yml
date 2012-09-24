@@ -1212,5 +1212,6 @@ match:
     |.*/Debug-Client-0.21_.*  # probably all remaining versions will fail, too
     |.*/Object-Remote-0.001001 # all tests hang on freebsd
     |.*/Bio-SamTools-\d # requires samtools.sf.net installed
+    |BGPMON/BGPmon-core-1-00.tar.gz # tests hang on freebsd8
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
