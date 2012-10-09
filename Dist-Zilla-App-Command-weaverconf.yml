@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Dist-Zilla-App-Command-weaverconf-0\.01\."
+disabled: 1
+comment: "https://rt.cpan.org/Public/Bug/Display.html?id=67379"
