@@ -1213,5 +1213,6 @@ match:
     |.*/Object-Remote-0.001001 # all tests hang on freebsd
     |.*/Bio-SamTools-\d # requires samtools.sf.net installed
     |BGPMON/BGPmon-core-1-00.tar.gz # tests hang on freebsd8
+    |UVOELKER/AnyEvent-TWS-0\.000_01\. # hangs on freebsd
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
