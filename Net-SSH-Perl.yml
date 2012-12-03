@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Net-SSH-Perl-1\.34\."
+  distribution: "/Net-SSH-Perl-1\.(34|35)\."
   perlconfig:
     archname: freebsd
     osvers: "^8\.0"
