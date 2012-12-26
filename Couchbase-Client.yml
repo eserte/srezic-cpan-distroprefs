@@ -1,5 +1,13 @@
 ---
 match:
+  distribution: "/Couchbase-Client-1\.0\.0\."
+  perlconfig:
+    archname: freebsd
+    osvers: "^8\."
+disabled: 1
+# hangs with freebsd8
+---
+match:
   distribution: "/Couchbase-Client-\d"
 pl:
   expect:
