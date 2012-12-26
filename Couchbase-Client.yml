@@ -1,0 +1,9 @@
+---
+match:
+  distribution: "/Couchbase-Client-\d"
+pl:
+  expect:
+    - "\QInstall bundled libraries? [y]"
+    - "\n"
+# checked with M/MN/MNUNBERG/Couchbase-Client-0.18.tar.gz
+# needs -lcouchbase, which does not exist for freebsd9, it seems
