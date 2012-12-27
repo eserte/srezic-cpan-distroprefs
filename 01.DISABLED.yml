@@ -391,6 +391,7 @@ match:
     |.*/Plack-Middleware-JenkinsNotification-0.05 # 04_listener.t test hangs
     |.*/Twiggy-Prefork-0.01 # almost all tests hang
     |.*/Twiggy-Prefork-0.02 # same
+    |.*/Mojolicious-Plugin-TtRenderer-1\.32\. # deep-recursion.t test hangs because of flock/File::Temp problems, see https://github.com/abh/mojox-renderer-tt/issues/33
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
