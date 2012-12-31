@@ -59,7 +59,8 @@ all:	do-stuff
 
 do-stuff: validate dd-prefs permissions remove-outdated-dd
 
-update:	git-pull do-stuff
+update:	git-pull
+	{ system $0, "do-stuff" }
 
 # alias for update
 pull:	update
