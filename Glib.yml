@@ -12,6 +12,8 @@ goto: "XAOC/Glib-1.252_001.tar.gz"
 # The test t/9.t hangs, vielleicht nicht nur unter FreeBSD 9,
 # sondern auch anderen Systemen ohne Threads und mit neuem
 # glib
+#
+# RT ticket: https://rt.cpan.org/Ticket/Display.html?id=82349
 match:
   distribution: "/Glib-1\.(262|280)\."
   perlconfig:
