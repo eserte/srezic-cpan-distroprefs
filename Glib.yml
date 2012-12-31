@@ -13,7 +13,7 @@ goto: "XAOC/Glib-1.252_001.tar.gz"
 # sondern auch anderen Systemen ohne Threads und mit neuem
 # glib
 match:
-  distribution: "/Glib-1\.262\."
+  distribution: "/Glib-1\.(262|280)\."
   perlconfig:
     archname: '^amd64-freebsd$'
 patches:
