@@ -5,6 +5,7 @@ match:
   distribution: |-
     ^(?x:
       \QAALLAN/Astro-Catalog-2.1.3.tar.gz\E
+     |\QABALAMA/CTKlib-1.04.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABRAXXA/Catalyst-Controller-DBIC-API-2.002003.tar.gz\E
      |\QABRAXXA/DBIx-Class-0.08195.tar.gz\E
@@ -146,6 +147,7 @@ match:
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBDFOY/App-Cpan-1.58.tar.gz\E
      |\QBDFOY/Module-Extract-Use-1.01.tar.gz\E
+     |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBEATNIK/Filter-CBC-0.08.tar.gz\E
      |\QBENBOOTH/IntervalTree-0.01.tar.gz\E
@@ -173,7 +175,6 @@ match:
      |\QBOBTFISH/Gitalist-0.000005.tar.gz\E
      |\QBOBTFISH/Message-Passing-0.010.tar.gz\E
      |\QBOBTFISH/Message-Passing-Redis-0.004.tar.gz\E
-     |\QBOOK/App-Wallflower-1.000.tar.gz\E
      |\QBOOK/System-Command-1.02.tar.gz\E
      |\QBORISZ/Business-MaxMind-1.50.tar.gz\E
      |\QBOUMENOT/Net-Amazon-0.60.tar.gz\E
@@ -203,6 +204,7 @@ match:
      |\QBULB/Config-Maker-0.001.tar.gz\E
      |\QBYRNE/SOAP-Lite-0.69.tar.gz\E
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
+     |\QCANID/Yote-0.095.tar.gz\E
      |\QCAPOEIRAB/WWW-Salesforce-0.11.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARPENTER/Storm-Tracker_0.01.tar.gz\E
@@ -325,7 +327,6 @@ match:
      |\QDMAKI/Swarmage-0.01000.tar.gz\E
      |\QDMAKI/Swarmage-0.01002.tar.gz\E
      |\QDMAKI/Twitter-Shell-0.02.tar.gz\E
-     |\QDMAKI/XML-RSS-LibXML-0.23.tar.gz\E
      |\QDMAKI/XML-RSS-Liberal-0.02.tar.gz\E
      |\QDMANURA/SQL-Interpolate-0.30.tar.gz\E
      |\QDMANURA/SQL-Interpolate-0.31.tar.gz\E
@@ -497,7 +498,6 @@ match:
      |\QGBARR/Scalar-List-Utils-1.23.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
-     |\QGLEACH/Audio-TagLib-1.61.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -577,6 +577,7 @@ match:
      |\QIAMCAL/CSS-0.08.tar.gz\E
      |\QIAN/Color-Scheme-1.02.tar.gz\E
      |\QIANRODDIS/SVG-TT-Graph-0.12.tar.gz\E
+     |\QIDOPEREL/Abilities-0.2.tar.gz\E
      |\QIKALLEN/WebService-Technorati/WebService-Technorati-0.02.tar.gz\E
      |\QIKALLEN/XMLXOXO/XML-XOXO-0.03.tar.gz\E
      |\QIKEBE/Pickles-0.06.tar.gz\E
@@ -660,7 +661,7 @@ match:
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
-     |\QJGOULAH/WWW-Getsy-0.999003.tar.gz\E
+     |\QJGOULAH/WWW-Getsy-0.999006.tar.gz\E
      |\QJHALLOCK/Gapp-0.26-withoutworldwriteables.tar.gz\E
      |\QJHALLOCK/Storm-0.03-withoutworldwriteables.tar.gz\E
      |\QJHELWIG/WWW-PivotalTracker-0.17.tar.gz\E
@@ -835,7 +836,6 @@ match:
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
      |\QLBROCARD/perl-5.11.2.tar.gz\E
      |\QLBROCARD/perl-5.13.0.tar.gz\E
-     |\QLCONS/Directory-Queue-1.4.tar.gz\E
      |\QLCONS/Net-STOMP-Client-1.8.tar.gz\E
      |\QLDACHARY/Catalog-0.5.tar.gz\E
      |\QLDS/Apache-MP3-3.01.tar.gz\E
@@ -1075,7 +1075,6 @@ match:
      |\QNIKC/SVN-Web-0.53.tar.gz\E
      |\QNILSONSFJ/Catalyst-View-Component-SubInclude-0.07.tar.gz\E
      |\QNKUITSE/Biblio-COUNTER-0.09.tar.gz\E
-     |\QNLNETLABS/Net-DNS-0.70.tar.gz\E
      |\QNMARDEN/VR-API-1.05.tar.gz\E
      |\QNMCFARL/Finance-QIF-1.03.tar.gz\E
      |\QNPEREZ/Document-Transform-1.110400.tar.gz\E
@@ -1145,7 +1144,6 @@ match:
      |\QPLAVEN/Padre-0.90.tar.gz\E
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
-     |\QPLICEASE/Dist-Zilla-Plugin-Template-Tiny-0.01.tar.gz\E
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
      |\QPMQS/Compress-Raw-Bzip2-2.005.tar.gz\E
      |\QPMQS/Filter-1.39.tar.gz\E
@@ -1290,9 +1288,6 @@ match:
      |\QSEYN/Safe-Hole-0.10.tar.gz\E
      |\QSFLEX/AUBBC-2.20-withoutworldwriteables.tar.gz\E
      |\QSGRAHAM/Template-Benchmark-1.08.tar.gz\E
-     |\QSHARYANTO/Data-Sah-0.08.tar.gz\E
-     |\QSHARYANTO/Perinci-Sub-Property-result_postfilter-0.05.tar.gz\E
-     |\QSHARYANTO/Perinci-Sub-Property-retry-0.04.tar.gz\E
      |\QSHAY/perl-5.17.3.tar.bz2\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
@@ -1537,6 +1532,7 @@ match:
      |\QYSAS/SWF-File-0.40.tar.gz\E
      |\QYUSUKEBE/WWW-Yahoo-Lyrics-JP-0.01.tar.gz\E
      |\QYUTA/Cv-0.04.tar.gz\E
+     |\QYUTA/Cv-0.12.tar.gz\E
      |\QYVES/ExtUtils-Install-1.52.tar.gz\E
      |\QZABA/Treex-Core-0.08399.tar.gz\E
      |\QZAG/Collection-0.38.tar.gz\E
