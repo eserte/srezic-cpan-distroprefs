@@ -232,11 +232,6 @@ match:
     |.*/Ogre-\d # no ogre installed here (freebsd), looks large, needs gnome
     |.*/Ogre-BetaGUI-\d # dito
     |.*/Physics-Udunits2-\d # no port for udunits
-    |.*/mod_perl-2\. # no apache2 on my machines
-    |.*/libapreq2-\d # no apache2 on my machines
-    |.*/AuthLLDAPSympa-\d # needs apache2
-    |.*/Apache2- # - dito -     
-    |.*/Apache-HTTunnel-\d # - dito -
     |.*/Net-Z3950-ZOOM- # need a new version of yaz (in freebsd package there is only an old one)
     |.*/Net-Z3950-SimpleServer- # need a new version of yaz (in freebsd package there is only an old one)
     |.*/Speech-Recognizer-SPX-\d # missing prereqs on my freebsd system
@@ -843,8 +838,6 @@ match:
     |.*/Net-LDAPapi-\d # needs probably libraries I don't have, also does not use prompt(), so determining the questions is difficult
     |.*/Text-Templar-2\.43 # wants to install ExtUtils::AutoInstall
     |.*/Tie-Google-\d # ask for the google api key, which is possibly visible in test results
-    |.*/CGI-JSONRPC-\d # test needs apache2?
-    |.*/RayApp-\d # needs apache2
     |.*/tkjuke-\d 
     |.*/Embperl-\d # complicated to build, many question, not using prompt()
     |.*/Authen-TacacsPlus-\d # needs connection to some host
@@ -880,8 +873,6 @@ match:
     |.*/Net-Radius-Client-\d # probably needs something I do not have
     |.*/bbobj-\d # too many (invisible) questions
     |.*/WWW-Autosite-\d # too many (invisible) questions
-    |.*/CPAN-Search-Lite-\d # needs modperl 2
-    |.*/Apache-Peek-\d # needs modperl 2
     |.*/Apache-Wyrd-\d # wants to call home
     |.*/Proc-JobQueue-0.3.tar.gz # asks for password
     |.*/RPC-Oracle-\d # needs access to db

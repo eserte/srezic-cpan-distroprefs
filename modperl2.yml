@@ -1,0 +1,12 @@
+--- {}
+# The following modperl2-related distributions were disabled on freebsd machines, but not anymore:
+#
+#    |.*/mod_perl-2\. # no apache2 on my machines
+#    |.*/libapreq2-\d # no apache2 on my machines
+#    |.*/AuthLLDAPSympa-\d # needs apache2
+#    |.*/Apache2- # - dito -     
+#    |.*/Apache-HTTunnel-\d # - dito -
+#    |.*/CGI-JSONRPC-\d # test needs apache2?
+#    |.*/RayApp-\d # needs apache2
+#    |.*/Apache-Peek-\d # needs modperl 2
+#    |.*/CPAN-Search-Lite-\d # needs modperl 2
