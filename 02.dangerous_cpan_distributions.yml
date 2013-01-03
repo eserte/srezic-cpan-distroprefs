@@ -84,6 +84,7 @@ match:
      |\QAREGGIORI/RDFStore-0.31.tar.gz\E
      |\QAREGGIORI/RDFStore-0.42.tar.gz\E
      |\QAREIBENS/PDF-API2-0.73.tar.gz\E
+     |\QARISTOTLE/Proc-Fork-0.71.tar.gz\E
      |\QARODLAND/DBIx-Class-0.08196.tar.gz\E
      |\QASCOPE/Image-Shoehorn-Gallery-0.21.tar.gz\E
      |\QASCOPE/Net-Google-0.62.tar.gz\E
@@ -134,6 +135,7 @@ match:
      |\QAWNCORP/Validation-Class-4.01003514.tar.gz\E
      |\QAWNCORP/Validation-Class-6.05.tar.gz\E
      |\QAWNCORP/Validation-Class-7.86.tar.gz\E
+     |\QAWNCORP/Validation-Class-7.900013.tar.gz\E
      |\QAZAWAWI/Padre-Plugin-SpellCheck-1.21.tar.gz\E
      |\QBALDR/BioGraph/BioGraph-1.0.0.tar.gz\E
      |\QBARGLE/Devel-TypeCheck-0.03.tar.gz\E
@@ -1394,6 +1396,7 @@ match:
      |\QTIMA/XML-Elemental-2.011.tar.gz\E
      |\QTIMA/XML-RSS-Parser-1.02.tar.gz\E
      |\QTIMA/XML-RSS-Parser-2.11.tar.gz\E
+     |\QTIMB/DBI-1.622.tar.gz\E
      |\QTIMB/perl5.004_04.tar.gz\E
      |\QTINITA/HTML-Template-Compiled-0.97.tar.gz\E
      |\QTJENNESS/Starlink-AST-0.99.tar.gz\E
@@ -1511,6 +1514,7 @@ match:
      |\QXSAWYERX/MetaCPAN-API-0.02.tar.gz\E
      |\QXSAWYERX/Perlbal-Plugin-SessionAffinity-0.001.tar.gz\E
      |\QYAMATO/QDBM_File-0.05.tar.gz\E
+     |\QYANICK/Git-CPAN-Patch-0.8.0.tar.gz\E
      |\QYANICK/NetPacket-0.43.2.tar.gz\E
      |\QYAPPO/HTTP-Engine-0.0.11.tar.gz\E
      |\QYAPPO/HTTP-Engine-0.0.12.tar.gz\E
