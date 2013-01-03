@@ -10,3 +10,14 @@
 #    |.*/RayApp-\d # needs apache2
 #    |.*/Apache-Peek-\d # needs modperl 2
 #    |.*/CPAN-Search-Lite-\d # needs modperl 2
+--- 
+comment: "This prefs works only on a specific Debian machine."
+match:
+  distribution: "/mod_perl-2\.0\.7\."
+  perlconfig:
+    archname: -linux
+  env:
+    HOSTNAME: dev08
+pl: 
+  args:
+    - MP_APXS=/usr/bin/apxs2
