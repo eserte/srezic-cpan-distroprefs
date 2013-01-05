@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Imager-Screenshot-0\.012\."
+patches:
+  - SREZIC/patches/Imager-Screenshot-0.012-RT82489.patch
