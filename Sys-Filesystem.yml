@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Sys-Filesystem-1\.30\."
+patches:
+  - SREZIC/patches/Sys-Filesystem-1.30-RT77699.patch
