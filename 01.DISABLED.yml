@@ -1192,6 +1192,7 @@ match:
     |.*/RDF-TrineX-RuleEngine-Jena- # requires ~/Downloads/Jena-2.6.4 (might be downloaded, but I did not configure this yet)
     |.*/jacode-2.13.4.10.tar.gz # no Makefile.PL
     |SHARYANTO/Perinci-Object-0.09.tar.gz # recursive dependency
+    |AANOAA/Hubot-0.1.3.tar.gz # recursive dependency
     |.*/Debug-Client-0.21_02 # many tests hang on freebsd
     |.*/Debug-Client-0.21_03. # many tests hang on freebsd
     |.*/Debug-Client-0.21_05. # many tests hang on freebsd
@@ -1206,5 +1207,8 @@ match:
     |BGPMON/BGPmon-core-1-00.tar.gz # tests hang on freebsd8
     |UVOELKER/AnyEvent-TWS-0\.000_01\. # hangs on freebsd
     |K/KK/KKANE/template-provider-http.tar.gz # "does not appear to be packaged according to CPAN tester guidelines" (and test hangs on freebsd)
+    |BJOERN/List-OrderBy-0.1.tar.gz # permission problem (reported by mail)
+    |HOFSTETTM/Geo-Heatmap-0.05.tar.gz # no Makefile.PL, cannot be build, tested, installed (https://rt.cpan.org/Ticket/Display.html?id=82791)
+    |MTHURN/I18N-Charset-1.403.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=82739)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
