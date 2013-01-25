@@ -473,6 +473,11 @@ match:
     |.*/net-smtp-retryable/Net-SMTP-Retryable-0.0.2.tar.gz # asks for smtp server and email address
     |.*/OpenGuides-\d # needs openguides (not available on freebsd, but on linux), but asks way too many questions...
     |.*/Quota-\d # interactive test
+    |.*/Acme-Tests-\d # interactive test
+    |.*/MARC-Errorchecks-\d # unnecessary interactive test
+    |.*/Term-Twiddle-\d # interactive test
+    |.*/Geo-Weather-\d # interactive test
+    |.*/Acme-RPC-\d # strange interactive test
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
@@ -937,7 +942,6 @@ match:
     |.*/Net-BobrDobr-\d # needs an API key
     |.*/Apache-Backhand-\d # needs mod_backhand, usually not available
     |.*/Business-Cashcow-\d # needs libcashcow
-    |.*/Acme-Tests-\d # interactive test
     |.*/Drupal-Module-Starter-\d # needs php
     |.*/HTTP-QuickBase-\d # something proprietary, it seems ("QuickBase KnowledgeBase and Support Center")
     |.*/Relations-Abstract-\d # seems to need a database
@@ -945,10 +949,7 @@ match:
     |.*/tinyperl-1.0-580-win32\. # seems to be dangerous - defining another Config.pm in @INC!
     |.*/Java-\d # needs running Java server
     |.*/Business-OnlinePayment-Exact-\d # needs account
-    |.*/MARC-Errorchecks-\d # unnecessary interactive test
-    |.*/Term-Twiddle-\d # interactive test
     |.*/CGI-Wiki-\d # wants a database
-    |.*/Geo-Weather-\d # interactive test
     |.*/Net-Trac-0\.01_01\.tar\.gz # kills the smoker
     |.*/Lingua-BrillTagger-\d # needs some files like CONTEXTUALRULEFILE for tests
     |.*/IO-Compress-Zlib-2\.014\.tar\.gz # circular dependency
@@ -1015,7 +1016,6 @@ match:
     |.*/Apache-AuthzNIS-0.11.tar.gz # dito
     |.*/Apache-AuthenPasswd-0.12.tar.gz # dito
     |.*/Apache-AuthzNetLDAP-0.07.tar.gz # dito
-    |.*/Acme-RPC-\d # strange interactive test
     |.*/Flickr-Embed-\d # needs flickr API key
     |.*/Acme-Mom-Yours-\d # tests half of CPAN
     |.*/OpenThought-1\.99\.16\.tar\.gz # http://rt.cpan.org/Ticket/Display.html?id=33279
