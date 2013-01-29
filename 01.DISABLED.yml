@@ -1211,5 +1211,6 @@ match:
     |HOFSTETTM/Geo-Heatmap-0.05.tar.gz # no Makefile.PL, cannot be build, tested, installed (https://rt.cpan.org/Ticket/Display.html?id=82791)
     |MTHURN/I18N-Charset-1.403.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=82739)
     |MTHURN/I18N-Charset-1.404.tar.gz # probably also permission problem (without checking...)
+    |MTHURN/I18N-Charset-1.407.tar.gz # probably also permission problem (without checking...)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
