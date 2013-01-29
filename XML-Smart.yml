@@ -1,7 +1,8 @@
 --- 
 match:
-  distribution: "/XML-Smart-\d"
+  distribution: "/XML-Smart-1\.[0123456]\."
 test:
   expect:
     - "\QDo you want to test XML::Smart with an URL\E"
     - "n\n"
+# Since 1.71, XML-Smart's test suite is not interactive anymore
