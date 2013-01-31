@@ -1212,5 +1212,7 @@ match:
     |MTHURN/I18N-Charset-1.403.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=82739)
     |MTHURN/I18N-Charset-1.404.tar.gz # probably also permission problem (without checking...)
     |MTHURN/I18N-Charset-1.407.tar.gz # probably also permission problem (without checking...)
+    |COSIMO/Net-Statsd-Server-0.09.tar.gz # hangs on freebsd8
+    |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
