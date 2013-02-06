@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Proc-ProcessTable-0.45.tar.gz"
+  distribution: "/Proc-ProcessTable-0.(45|46).tar.gz"
   perlconfig:
     archname: "-freebsd"
 #  env:
