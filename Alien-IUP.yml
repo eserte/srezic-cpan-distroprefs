@@ -1,5 +1,11 @@
 ---
 match:
   distribution: "/Alien-IUP-\d"
-disabled: 1
-comment: "too many questions, brute force search over whole harddisk"
+pl: 
+  expect:
+    - "Wanna see more debug info during build"
+    - "\n"
+
+## Earlier versions (ca. until 0.115) needed the following definitions
+#disabled: 1
+#comment: "too many questions, brute force search over whole harddisk"
