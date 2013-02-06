@@ -1,11 +1,17 @@
 ---
 match:
   distribution: "/Alien-IUP-\d"
-pl: 
-  expect:
-    - "Wanna see more debug info during build"
-    - "\n"
-
-## Earlier versions (ca. until 0.115) needed the following definitions
-#disabled: 1
-#comment: "too many questions, brute force search over whole harddisk"
+disabled: 1
+#pl: 
+#  expect:
+#    - "Wanna see more debug info during build"
+#    - "\n"
+#    - "Do you wanna compile built-in images with large (48x48) size?"
+#    - "\n"
+#    - "What do you wanna build?"
+#    - "\n"
+#
+# ... and probably more questions in inc/My/Builder.PL...
+#
+# Additionally, earlier versions (ca. until 0.115) did a brute force
+# search over whole harddisk
