@@ -1,7 +1,15 @@
 ---
 match:
   distribution: "/Alien-IUP-\d"
-disabled: 1
+  env:
+    PERL_BATCH: yes
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+make:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#disabled: 1
 #pl: 
 #  expect:
 #    - "Wanna see more debug info during build"
