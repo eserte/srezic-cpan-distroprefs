@@ -367,7 +367,7 @@ match:
     |.*/Db-GTM-\d # needs gtm/mumps, not in ports
     |.*/LWES-\d # not in ports
     |.*/Net-Arping-\d # libnet (libnet-config) not in ports
-    |.*/Term-TermKey-\d # no port for termkey
+    |.*/Term-TermKey-\d # no port for termkey --- the module may use Alien::libtermkey, but it assumes that this is _installed_, so just testing without installing does not work
     |.*/Authen-ACE4-\d # no port for acexport.h or libaceclnt.a
     |.*/Lux-IO-\d # no port for luxio/btree.h
     |.*/Device-Velleman-K8055-libk8055-\d # no port for libk8055.a
@@ -446,7 +446,7 @@ match:
     |.*/Term-Screen-\d
     |.*/Term-Screen-ReadLine-\d
     |.*/Term-ShellKit-\d
-    |.*/Term-Title-\d
+    |.*/Term-Title-\d # checked with 0.07, it's still interactive
     |.*/TextLinkAds-\d # wants a valid XML
     |.*/Tk-CanvasLogo-\d
     |.*/Tk-CursorControl-0\.[0123]\. # at least 0.4 has an automatic test
