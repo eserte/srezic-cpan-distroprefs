@@ -749,6 +749,7 @@ match:
     |.*/rt-extension- # lowercase
     |.*/RT-IODEF-\d
     |.*/RT-Integration-SVN-\d
+    |.*/RT-Interface-Email-Filter-CheckMessageId-\d
     |.*/RT-Journal-\d
     |.*/RT-CIFMinimal-\d
     |.*/RT-OnlineDocs-\d
