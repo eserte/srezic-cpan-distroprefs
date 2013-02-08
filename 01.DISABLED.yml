@@ -1214,5 +1214,6 @@ match:
     |MTHURN/I18N-Charset-1.407.tar.gz # probably also permission problem (without checking...)
     |COSIMO/Net-Statsd-Server-0.09.tar.gz # hangs on freebsd8
     |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
+    |S/SI/SILLYMOOS/ProxyManager-0.01.tar.gz # BUILD.PL instead of Build.PL
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
