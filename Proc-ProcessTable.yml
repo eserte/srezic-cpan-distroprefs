@@ -8,6 +8,9 @@ match:
 patches:
   - SREZIC/patches/Proc-ProcessTable-0.45-SREZIC-01.patch
 comment: "Fixing FreeBSD stuff..."
+# See RT tickets:
+# - https://rt.cpan.org/Ticket/Display.html?id=68405
+# - https://rt.cpan.org/Ticket/Display.html?id=16978 (with patch)
 ---
 match:
   distribution: "/Proc-ProcessTable-0.(45|46).tar.gz"
