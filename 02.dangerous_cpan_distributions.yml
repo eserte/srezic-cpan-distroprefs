@@ -13,8 +13,6 @@ match:
      |\QACALPINI/Win32-GUI-0.0.558.tar.gz\E
      |\QACDALTON/AI-Pathfinding-AStar-0.07.tar.gz\E
      |\QACH/Tk-Contrib-0.05.tar.gz\E
-     |\QADAMBA/Juno-0.005.tar.gz\E
-     |\QADAMDH/WWW-Shopify-0.03.tar.gz\E
      |\QADAMK/Aspect-0.96.tar.gz\E
      |\QADAMK/Aspect-0.981.tar.gz\E
      |\QADAMK/Aspect-Library-Profiler-0.32.tar.gz\E
@@ -31,10 +29,12 @@ match:
      |\QAGENT/Pugs-Compiler-Rule-0.28.tar.gz\E
      |\QAGJ/Csistck-0.0802.tar.gz\E
      |\QAGOE/Net-PSYC-0.15.tar.gz\E
+     |\QAGRUNDMA/Business-Tax-Canada-0.03.tar.gz\E
      |\QAGRUNDMA/Catalyst-Engine-HTTP-POE-0.07.tar.gz\E
      |\QAGRUNDMA/Catalyst-Plugin-UploadProgress-0.03.tar.gz\E
      |\QAJOLMA/Geo-GDAL-1.81.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
+     |\QAJOLMA/Geo-Raster-0.64.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
@@ -114,6 +114,7 @@ match:
      |\QAVAR/git-deploy-6.00.tar.gz\E
      |\QAVENJ/Bot-Cobalt-0.008.tar.gz\E
      |\QAVENJ/Bot-Cobalt-0.009.tar.gz\E
+     |\QAVENJ/Bot-Cobalt-Plugin-Silly-0.001.tar.gz\E
      |\QAVENJ/IRC-Indexer-0.04.tar.gz\E
      |\QAVIF/Image-Compare-0.3.tar.gz\E
      |\QAVIF/String-REPartition-1.5.tar.gz\E
@@ -189,9 +190,6 @@ match:
      |\QBRONSON/Term-ShellUI-0.86.tar.gz\E
      |\QBROQ/Gitalist-0.003006.tar.gz\E
      |\QBRUCEK/IO-Multiplex-1.00.tar.gz\E
-     |\QBRUMMETT/UR-0.33.tar.gz\E
-     |\QBRUMMETT/UR-v0.12.tar.gz\E
-     |\QBRUMMETT/UR-v0.18.tar.gz\E
      |\QBRYCE/Test-Parser-1.4.tar.gz\E
      |\QBSHENRY/VBTK-0.14.tar.gz\E
      |\QBTMCINNES/UMLS-Interface-0.57.tar.gz\E
@@ -455,7 +453,6 @@ match:
      |\QFALCONE/RTx-Calendar-0.09.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.3.3.tar.gz\E
-     |\QFANGLY/SVG-TT-Graph-0.21.tar.gz\E
      |\QFAYLAND/Padre-Plugin-CSS-0.08.tar.gz\E
      |\QFAYLAND/Padre-Plugin-HTML-0.09.tar.gz\E
      |\QFAYLAND/Padre-Plugin-JavaScript-0.25.tar.gz\E
@@ -468,6 +465,7 @@ match:
      |\QFLORA/B-Lint-1.13.tar.gz\E
      |\QFLORA/Catalyst-Runtime-5.80007.tar.gz\E
      |\QFLORA/CatalystX-Imports-0.04.tar.gz\E
+     |\QFLORA/Data-Riak-1.2.tar.gz\E
      |\QFLORA/Gtk2-Phat-0.04.tar.gz\E
      |\QFLORA/MooseX-AttributeHelpers-0.17.tar.gz\E
      |\QFLORA/perl-5.15.4.tar.gz\E
@@ -499,6 +497,7 @@ match:
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
+     |\QGMCHARLT/MARC-XML-0.93.tar.gz\E
      |\QGMPASSOS/Class-HPLOO-0.15.tar.gz\E
      |\QGMPASSOS/Pod-HtmlEasy-0.07.tar.gz\E
      |\QGMPASSOS/Thread-Isolate-0.01.tar.gz\E
@@ -574,6 +573,7 @@ match:
      |\QHVC/Video-Manip-0.02.tar.gz\E
      |\QIAMCAL/CSS-0.08.tar.gz\E
      |\QIAN/Color-Scheme-1.02.tar.gz\E
+     |\QIANKENT/Devel-Declare-Lexer-0.002.tar.gz\E
      |\QIANRODDIS/SVG-TT-Graph-0.12.tar.gz\E
      |\QIDOPEREL/Abilities-0.2.tar.gz\E
      |\QIKALLEN/WebService-Technorati/WebService-Technorati-0.02.tar.gz\E
@@ -624,6 +624,7 @@ match:
      |\QIRONCAMEL/Net-OpenStack-Compute-1.0900.tar.gz\E
      |\QITUB/Chemistry-Mok-0.16.tar.gz\E
      |\QITUB/IO-All-LWP-0.12.tar.gz\E
+     |\QIVAN/Net-XRC-0.01.tar.gz\E
      |\QIVANWILLS/App-TemplateCMD-v0.1.1.tar.gz\E
      |\QIVORW/Bot-BasicBot-Pluggable-Module-RD-0.01.tar.gz\E
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
@@ -641,6 +642,7 @@ match:
      |\QJASPAX/Lingua-Phonology-0.3503.tar.gz\E
      |\QJBAKER/Apache-Session-0.17.1.tar.gz\E
      |\QJBAKER/Apache-Session-1.03.tar.gz\E
+     |\QJBERGER/Tie-Array-CSV-0.05.tar.gz\E
      |\QJBLAKEY/Crypt-Enigma-1.1.tar.gz\E
      |\QJBRYAN/AI-NeuralNet-BackProp-0.77.zip\E
      |\QJDB/Win32-Daemon-20100921.tar.gz\E
@@ -732,6 +734,7 @@ match:
      |\QJSWARTZ/Log-Any-Adapter-0.04.tar.gz\E
      |\QJSWARTZ/Poet-0.03.tar.gz\E
      |\QJTANG/Module-Pluggable-Singleton-0.02.3.tar.gz\E
+     |\QJTAVERNI/HTML-Content-Extractor-0.01.tar.gz\E
      |\QJTBRAUN/Parse-RecDescent-1.967003.tar.gz\E
      |\QJTPALMER/Box2D-0.05.tar.gz\E
      |\QJTPALMER/SDL-2.512.tar.gz\E
@@ -817,7 +820,7 @@ match:
      |\QKRBURTON/Tree-MultiNode-1.0.10.tar.gz\E
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
-     |\QKRYDE/Math-PlanePath-96.tar.gz\E
+     |\QKRYDE/Math-PlanePath-97.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
      |\QKSTEPME/FusqlFS-0.004.tar.gz\E
@@ -924,7 +927,6 @@ match:
      |\QMASANORIH/Net-IPMessenger-0.12.tar.gz\E
      |\QMATEU/Algorithm-Simplex-0.41.tar.gz\E
      |\QMATHEW/Locale-MakePhrase-0.4.tar.gz\E
-     |\QMATHIAS/SQL-Exec/SQL-Exec-0.01.tar.gz\E
      |\QMATTBM/DNS-ZoneFile-0.92.tar.gz\E
      |\QMAURICE/Email-Valid-0.08.tar.gz\E
      |\QMAURICE/Text-Forge-2.16.tar.gz\E
@@ -942,7 +944,6 @@ match:
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMEPHIST/OpenTok-API-0.01.tar.gz\E
-     |\QMGRIMES/AnyEvent-Filesys-Notify-0.15.tar.gz\E
      |\QMHOOLEHAN/Net-Gnats-0.03.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1072,6 +1073,7 @@ match:
      |\QNICS/Catmandu-0.0102.tar.gz\E
      |\QNICS/Catmandu-0.04.tar.gz\E
      |\QNICS/Catmandu-0.0402.tar.gz\E
+     |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
      |\QNIGE/Goo-0.08.tar.gz\E
      |\QNIKC/SVN-Web-0.53.tar.gz\E
@@ -1126,7 +1128,6 @@ match:
      |\QPETDANCE/Test-Harness-2.64.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
-     |\QPEVANS/IO-Async-0.51.tar.gz\E
      |\QPEVANS/Net-Async-IRC-0.05.tar.gz\E
      |\QPFEIFFER/makepp-1.50-101117.tgz\E
      |\QPFEIFFER/makepp-1.50-110915.tgz\E
@@ -1236,6 +1237,7 @@ match:
      |\QRVOSA/Bio-Phylo-0.18.tar.gz\E
      |\QRVOSA/Bio-Phylo-0.42.tar.gz\E
      |\QRWMJ/Net-FTPServer-1.122.tar.gz\E
+     |\QRWOODARD/Astro-SkyX-0.04.tar.gz\E
      |\QRYBSKEJ/forks-BerkeleyDB-0.01.tar.gz\E
      |\QSABREN/AI-Fuzzy-0.01.tar.gz\E
      |\QSAKOHT/Genome-0.05.tar.gz\E
@@ -1459,7 +1461,7 @@ match:
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
      |\QTULSOFT/App-combinesheets-0.2.11.tar.gz\E
      |\QTURNERJW/Tk-TextHighlight-1.0.4.tar.gz\E
-     |\QTVIGNAUD/urpmi-7.15.1.tar.gz\E
+     |\QTVIGNAUD/urpmi-7.19.tgz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
      |\QTWENRICH/DBD-Solid-0.11a.tar.gz\E
      |\QTWH/Bio-GMOD-0.02.tar.gz\E
