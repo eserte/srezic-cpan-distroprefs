@@ -1,0 +1,6 @@
+---
+match:
+  distribution: "/XML-LibXML-2\.0014\."
+patches:
+  - SREZIC/patches/XML-LibXML-2.0014-RT83322.patch
+  - SREZIC/patches/XML-LibXML-2.0014-RT83322-2.patch 
