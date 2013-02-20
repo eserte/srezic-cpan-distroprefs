@@ -1204,6 +1204,7 @@ match:
     |.*/Debug-Client-0.21_10. # many tests hang on freebsd
     |.*/Debug-Client-0.21_11. # many tests hang on freebsd
     |.*/Debug-Client-0.21_.*  # probably all remaining versions will fail, too
+    |.*/Debug-Client-0.24     # still hanging tests on freebsd
     |.*/Object-Remote-0.001001 # all tests hang on freebsd
     |.*/Bio-SamTools-\d # requires samtools.sf.net installed
     |BGPMON/BGPmon-core-1-00.tar.gz # tests hang on freebsd8
@@ -1218,5 +1219,6 @@ match:
     |COSIMO/Net-Statsd-Server-0.10.tar.gz # hangs on freebsd8 and freebsd9 (Couldn't set SO_RCVBUF: No buffer space available)
     |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
     |SILLYMOOS/ProxyManager-0.01.tar.gz # BUILD.PL instead of Build.PL
+    |RGARTON/Statistics-Zed-0.071.tar.gz # wrong permissions in tarball
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
