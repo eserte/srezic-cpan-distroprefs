@@ -1220,5 +1220,6 @@ match:
     |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
     |SILLYMOOS/ProxyManager-0.01.tar.gz # BUILD.PL instead of Build.PL
     |RGARTON/Statistics-Zed-0.071.tar.gz # wrong permissions in tarball
+    |JFRIED/Rex-Endpoint-HTTP-0.35.0.tar.gz # invisible interactive question when doing a "mv"
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
