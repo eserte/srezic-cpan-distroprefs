@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Term-Caca-2\.0"
+pl:
+  expect:
+    - "\QWhich make should I use to build libcaca?"
+    - "\n"
+    - "\QRun libcaca's configure now?"
+    - "\n"
+    - "\QWould you like to pass any arguments to configure?"
+    - "\n"
