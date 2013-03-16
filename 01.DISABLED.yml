@@ -1228,5 +1228,6 @@ match:
     |JFRIED/Rex-Endpoint-HTTP-0.35.0.tar.gz # invisible interactive question when doing a "mv"
     |BABKIN/triceps-1.0.91-20121129.tgz # no Makefile.PL
     |RKIES/deskpad-0.75.tar.gz # no Makefile.PL
+    |DIEDERICH/IPC-Transit-0.5.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
