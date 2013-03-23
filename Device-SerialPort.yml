@@ -1,14 +1,14 @@
---- 
-comment: "No serial port available on my FreeBSD machine"
-
-match:
-  module: "^Device::SerialPort$"
-  perlconfig:
-    archname: (i386-freebsd-64int|amd64-freebsd)
-
-pl:
-  # for FreeBSD 6.x
-  args: ["TESTPORT=/dev/cuad0"]
-
-test:
-  commandline: "true"
+--- {}
+#comment: "No serial port available on my FreeBSD machine"
+#
+#match:
+#  module: "^Device::SerialPort$"
+#  perlconfig:
+#    archname: (i386-freebsd-64int|amd64-freebsd)
+#
+#pl:
+#  # for FreeBSD 6.x
+#  args: ["TESTPORT=/dev/cuad0"]
+#
+#test:
+#  commandline: "true"
