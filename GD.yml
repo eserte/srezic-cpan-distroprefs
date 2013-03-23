@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/GD-2\.(45|46)\."
+  distribution: "/GD-2\.(45|46|49)\."
   perlconfig:
     archname: "-freebsd"
 patches:
