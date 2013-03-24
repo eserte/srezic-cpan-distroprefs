@@ -653,15 +653,6 @@ match:
     |.*/Net-MessageBus-0\.04\. # test hangs
     |.*/Test-Attribute-AutoLevel-0.02-       # basic.t hangs on freebsd
     |.*/Test-Attribute-AutoLevel-0.03.tar.gz # basic.t hangs on freebsd
-    |.*/DBIx-DataModel-2.05.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.09.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.10.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.21.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.22.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.25.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.26.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2.27.tar.gz # tests hang on freebsd
-    |.*/DBIx-DataModel-2\.\d+.tar.gz # disable for all future versions
     |MASANORIH/Net-IPMessenger-0.13.tar.gz # hanging tests
     |MASANORIH/Net-IPMessenger-0.14.tar.gz # same (t/01.network.t hangs)
     |PEVANS/IO-Async-Loop-Glib-0.20.tar.gz # t/15share-child.t hangs
