@@ -714,8 +714,10 @@ match:
     |.*/RTx-EmailCompletion- # all RT extensions probably need path to RT
     |.*/RTx-Foundry-\d
     |.*/RTx-From-\d
+    |.*/RTx-GoogleAnalytics-\d
     |.*/RTx-MD5Auth-\d
     |.*/RTx-RT34-Bulk-CF-Edit-\d
+    |.*/RTx-RemoteLinks-\d
     |.*/RTx-RightsMatrix-\d # needs RT
     |.*/RTx-S3Invoker-\d
     |.*/RTx-Shredder-\d # needs RT
