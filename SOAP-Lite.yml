@@ -30,7 +30,7 @@ match:
 disabled: 1
 --- 
 match:
-  distribution: "^MKUTTER/SOAP-Lite-\d"
+  distribution: "/SOAP-Lite-\d"
 pl: 
   expect:
     - "see the detailed list"

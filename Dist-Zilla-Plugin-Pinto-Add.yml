@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Dist-Zilla-Plugin-Pinto-Add-\d"
+pl:
+  expect:
+    - "\QShall I also install Pinto?"
+    - "\n"

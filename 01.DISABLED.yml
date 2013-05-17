@@ -1009,6 +1009,8 @@ match:
     |.*/Net-Telnet-Trango-\d # needs "an IP and a password of an AP"
     |.*/Task-POE-All-\d # this is simply too large
     |JONADAB/resched-0.7.3.zip # no top-level directory in archive
+    |JONADAB/resched-0.9.1.zip # distro contains both files and directories
+    |JONADAB/resched-\d+ # skip all future versions, too
     |.*/Apache-AuthNetLDAP-0.29.tar.gz # old ExtUtils::AutoInstall? tries cpanplus if modperl is not installed
     |.*/Apache-AuthenNIS-0.13.tar.gz # dito
     |.*/Apache-AuthenSmb-0.72.tar.gz # dito 
@@ -1236,5 +1238,7 @@ match:
     |MANIGREW/SEG7/SEG7-1.0.0.tar.gz # incomplete distribution, no Makefile.PL
     |MANIGREW/SEG7-1.0.1.tar.gz # incomplete distribution, no Makefile.PL
     |BRUMMETT/Devel-hdb-0.05.tar.gz # a test hangs, both on cvrsnica and biokovo
+    |COOLMEN/Test-Mojo-More-0.02.tar.gz # requires perl 5.100 by accident, see https://rt.cpan.org/Public/Bug/Display.html?id=84679
+    |NIELSD/Speech-Google-0.5.tar.gz # no Makefile.PL, no Build.PL
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1

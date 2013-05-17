@@ -1,12 +1,11 @@
 ---
 match:
   distribution: "/Narada-\d"
-#pl:
-#  expect:
-#    - "\QEnter NON-EXISTING database name (empty to skip test): [test_nosuch ]"
-#    - "\n"
+pl:
+  expect:
+    - "\QEnter NON-EXISTING database name (empty to skip test):"
+    - "\n"
 #    - "\QEnter login for database 'test_nosuch': [test ]"
 #    - "\n"
 #    - "\QEnter pass for login 'test': [ ]"
 #    - "\n"
-#
