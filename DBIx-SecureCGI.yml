@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/DBIx-SecureCGI-\d"
+pl:
+  expect:
+    - "\QEnter database name (empty/space to skip test):"
+    - "\n"
