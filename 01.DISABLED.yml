@@ -752,6 +752,8 @@ match:
     |.*/RT-IODEF-\d
     |.*/RT-Integration-SVN-\d
     |.*/RT-Interface-Email-Filter-CheckMessageId-\d
+    |.*/RT-Interface-Email-RequiredHeaders-\d
+    |.*/RT-Interface-Email-TakeByMail-\d
     |.*/RT-Journal-\d
     |.*/RT-CIFMinimal-\d
     |.*/RT-OnlineDocs-\d
@@ -1242,5 +1244,7 @@ match:
     |BRUMMETT/Devel-hdb-0.05.tar.gz # a test hangs, both on cvrsnica and biokovo
     |COOLMEN/Test-Mojo-More-0.02.tar.gz # requires perl 5.100 by accident, see https://rt.cpan.org/Public/Bug/Display.html?id=84679
     |NIELSD/Speech-Google-0.5.tar.gz # no Makefile.PL, no Build.PL
+    |.*/Twiggy-Prefork-0.04 # tests are hanging on fbsd8
+    |.*/Plack-App-BeanstalkConsole-\d # not tested, see <20130531223444.GJ2094 <AT> tequila.etheridge.ca>
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
