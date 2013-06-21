@@ -30,6 +30,19 @@ match:
 disabled: 1
 --- 
 match:
+  distribution: "/SOAP-Lite-0\.716\."
+pl: 
+  expect:
+    - "see the detailed list"
+    - "\n"
+    - "Do you want to proceed with this configuration\?"
+    - "\n"
+#    - "Do you want to perform these tests in addition to core tests"
+#    - "\n"
+patches:
+  - "SREZIC/patches/SOAP-Lite-0.716-RT85762.patch"
+--- 
+match:
   distribution: "/SOAP-Lite-\d"
 pl: 
   expect:
