@@ -1,0 +1,15 @@
+---
+match:
+  distribution: "/Acme-LookOfDisapproval-0\.001\."
+  perlconfig:
+    archname: freebsd
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=86315
+# non-ascii filenames, cannot be extracted by pax/tar
+# neither on freebsd 8 nor 9
+#
+# alternatively LC_ALL could be set to a utf-8 locale, but
+# this is not possible (?) with distroprefs (i.e. controlling
+# the pre-config extraction phase)
+#
+# or somehow forcing to use Archive::Tar instead of tar?
