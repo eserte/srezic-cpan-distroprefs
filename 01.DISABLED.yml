@@ -1247,5 +1247,6 @@ match:
     |NIELSD/Speech-Google-0.5.tar.gz # no Makefile.PL, no Build.PL
     |.*/Twiggy-Prefork-0.04 # tests are hanging on fbsd8
     |.*/Plack-App-BeanstalkConsole-\d # not tested, see <20130531223444.GJ2094 <AT> tequila.etheridge.ca>
+    |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
