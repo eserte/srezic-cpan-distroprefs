@@ -1,0 +1,10 @@
+---
+match:
+  distribution: "/MooseX-AttributeHelpers-0\.23\."
+  perlconfig:
+    version: "^5\.18\."
+test:
+  env:
+    PERL_HASH_SEED: 22
+    PERL_PERTURB_KEYS: 0
+# hash normalization victim, ticket exists
