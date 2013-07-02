@@ -124,6 +124,7 @@ match:
      |\QAWIN/Qt-0.03.tar.gz\E
      |\QAWNCORP/DBIx-Simple-Batch-1.68.tar.gz\E
      |\QAWNCORP/Dancer-Plugin-ORMesque-1.103180.tar.gz\E
+     |\QAWNCORP/Email-Sender-Server-0.50.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
      |\QAWNCORP/SweetPea-2.25.tar.gz\E
      |\QAWNCORP/SweetPea-Application-0.022.tar.gz\E
@@ -277,6 +278,7 @@ match:
      |\QDANIEL/XML-XSPF-0.7.1.tar.gz\E
      |\QDANIELTWC/DBIx-Class-0.07002.tar.gz\E
      |\QDAPM/perl-5.10.1.tar.gz\E
+     |\QDAVEBAIRD/Class-DBI-FormBuilder-0.481.tar.gz\E
      |\QDAVEBAIRD/MasonX-Maypole-0.222.tar.gz\E
      |\QDAVEBAIRD/MasonX-Maypole-0.32.tar.gz\E
      |\QDAVEBAIRD/Maypole-FormBuilder-0.1.tar.gz\E
@@ -510,7 +512,6 @@ match:
      |\QGMPASSOS/Thread-Isolate-0.01.tar.gz\E
      |\QGMPASSOS/Wx-ActiveX-0.05.tar.gz\E
      |\QGMPASSOS/XML-Smart-1.3.1.tar.gz\E
-     |\QGOCCY/Compiler-Lexer-0.11.tar.gz\E
      |\QGOMOR/Net-Frame-1.00.tar.gz\E
      |\QGOMOR/Net-Packet-1.27.tar.gz\E
      |\QGOMOR/Net-Packet-1.28.tar.gz\E
@@ -575,6 +576,7 @@ match:
      |\QHERVEUS/Weaving-Tablet-0.009.005.tar.gz\E
      |\QHESCO/LedgerSMB-API-0.01.tar.gz\E
      |\QHGDEV/Business-CyberSource-0.007010.tar.gz\E
+     |\QHIDEAKIO/MouseX-SingletonMethod-0.03.tar.gz\E
      |\QHIDEAKIO/autolocale-0.02.tar.gz\E
      |\QHIO/Tripletail-0.31.tar.gz\E
      |\QHIO/Tripletail-0.34.tar.gz\E
@@ -695,9 +697,6 @@ match:
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
      |\QJJOAO/Lingua-PT-PLN-0.15.tar.gz\E
      |\QJJOAO/XML-DT-0.29.tar.gz\E
-     |\QJKEGL/Marpa-R2-2.046000.tar.gz\E
-     |\QJKEGL/Marpa-R2-2.052000.tar.gz\E
-     |\QJKEGL/Marpa-R2-2.054000.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.06.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.11.tar.gz\E
      |\QJKONDO/Text-Hatena-0.16.tar.gz\E
@@ -842,7 +841,6 @@ match:
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKROW/Gearman-XS-0.14.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
-     |\QKRYDE/Math-PlanePath-101.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
      |\QKSTEPME/FusqlFS-0.004.tar.gz\E
@@ -1007,6 +1005,7 @@ match:
      |\QMLEHMANN/AnyEvent-Fork-0.01.tar.gz\E
      |\QMLEHMANN/Gimp-1.211.tar.gz\E
      |\QMLEHMANN/Gnome2-Print-0.52.tar.gz\E
+     |\QMMCLERIC/Flux-1.02.tar.gz\E
      |\QMMCLERIC/Morpheus-0.39.tar.gz\E
      |\QMMIMS/Net-Twitter-3.13000.tar.gz\E
      |\QMMORGAN/MooseX-SlurpyConstructor-1.1.tar.gz\E
@@ -1216,7 +1215,6 @@ match:
      |\QRENEEB/Nexmo-SMS-0.05.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
-     |\QRGARTON/Statistics-Sequences-0.051.tar.gz\E
      |\QRGEOFFREY/ExtUtils-ModuleMaker-0.204.tar.gz\E
      |\QRGEOFFREY/ExtUtils-ModuleMaker-0.32.tar.gz\E
      |\QRHANDOM/CGI-Ex-2.01.tar.gz\E
@@ -1237,7 +1235,6 @@ match:
      |\QRJBS/Macro-Micro-0.052.tar.gz\E
      |\QRJBS/Number-Tolerant-1.700.tar.gz\E
      |\QRJBS/Sub-Import-0.092800.tar.gz\E
-     |\QRJBS/Throwable-X-0.004.tar.gz\E
      |\QRJBS/Try-Tiny-0.07.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
@@ -1253,6 +1250,7 @@ match:
      |\QROBM/Cache-FastMmap-1.37.tar.gz\E
      |\QROCKY/Devel-Trepan-0.46.tar.gz\E
      |\QROCKY/Devel-Trepan-0.48.tar.gz\E
+     |\QROCKY/Devel-Trepan-0.49.tar.gz\E
      |\QROCKY/Term-ReadLine-Perl5-1.08.tar.gz\E
      |\QRODRIGO/Mongoose-0.07.tar.gz\E
      |\QROOTLEVEL/Net-SMS-1.00.tar.gz\E
@@ -1364,12 +1362,14 @@ match:
      |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
      |\QSKX/Blog-Spam-1.0.tar.gz\E
+     |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
      |\QSMUELLER/Dumbbench-0.08.tar.gz\E
      |\QSMUELLER/Math-Symbolic-0.608.tar.gz\E
      |\QSMUELLER/Perl-APIReference-0.09.tar.gz\E
      |\QSMUELLER/Perl-APIReference-0.12.tar.gz\E
+     |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.962.tar.gz\E
@@ -1393,6 +1393,8 @@ match:
      |\QSTARKY/Net-Peep-0.4.4.tar.gz\E
      |\QSTEFANT/WWW-phpBB-0.02.tar.gz\E
      |\QSTEFFENW/Locale-TextDomain-OO-0.04.tar.gz\E
+     |\QSTEPHEN/Video-PlaybackMachine-0.06.tar.gz\E
+     |\QSTEPHEN/Video-Xine-0.18.tar.gz\E
      |\QSTEVAN/Forest-0.01.tar.gz\E
      |\QSTEVAN/HTTP-Throwable-0.004.tar.gz\E
      |\QSTEVAN/MooseX-Getopt-0.06.tar.gz\E
@@ -1413,7 +1415,6 @@ match:
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
      |\QTANIGUCHI/HTML-Entities-Numbered-0.03.tar.gz\E
      |\QTAPPER/Tapper-Producer-4.1.2.tar.gz\E
-     |\QTBENK/App-nrun-v1.0.0.tar.gz\E
      |\QTBONE/DBIx-Cookbook-0.04.tar.gz\E
      |\QTBONE/HTML-Seamstress-3.0.tar.gz\E
      |\QTCHINCHOW/pcsc-perl-1.0.8.tar.gz\E
@@ -1422,7 +1423,6 @@ match:
      |\QTEVERETT/Win32-CtrlGUI-0.30.tar.gz\E
      |\QTFOUCART/WWW-Sucksub-Divxstation-0.01.tar.gz\E
      |\QTHALJEF/Perl-Critic-1.117.tar.gz\E
-     |\QTHALJEF/Pinto-0.084.tar.gz\E
      |\QTHHAMON/Lingua-YaTeA-0.5.tar.gz\E
      |\QTHOMAS/Apache-DnsZone-0.1.tar.gz\E
      |\QTHOSPEL/Heap-Simple-0.06.tar.gz\E
@@ -1475,7 +1475,6 @@ match:
      |\QTOKUHIROM/Perl-Build-0.01.tar.gz\E
      |\QTOKUHIROM/Sledge-Plugin-DebugScreen-0.07.tar.gz\E
      |\QTOKUHIROM/Spellunker-v0.0.8.tar.gz\E
-     |\QTOKUHIROM/Test-Pretty-0.24.tar.gz\E
      |\QTOKUHIROM/nana-0.02.tar.gz\E
      |\QTOMITA/Acme-Ikamusume-0.06.tar.gz\E
      |\QTOMYHERO/Catalyst-Plugin-Log-Colorful-0.12.tar.gz\E
@@ -1492,7 +1491,6 @@ match:
      |\QTSIBLEY/Net-iTMS-0.04.tar.gz\E
      |\QTSIBLEY/RT-Extension-SLA-0.06.tar.gz\E
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
-     |\QTULSOFT/App-combinesheets-0.2.11.tar.gz\E
      |\QTURNERJW/Tk-TextHighlight-1.0.4.tar.gz\E
      |\QTVIGNAUD/urpmi-7.27.3.tgz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
@@ -1595,7 +1593,6 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
-     |\QZEFRAM/Devel-Declare-0.006011.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
      |\QZEROLIU/Bio-KEGGI-v0.1.2.tar.gz\E
