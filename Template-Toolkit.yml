@@ -39,6 +39,7 @@ match:
     version: "^5\.(17\.11|18\.0)"
 patches:
   - SREZIC/patches/Template-Toolkit-2.24-RT84778.patch
+  - SREZIC/patches/Template-Toolkit-2.24-RT85607.patch
 pl:
   args: ["TT_ACCEPT=y"]
 --- 
