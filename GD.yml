@@ -6,6 +6,7 @@ match:
 patches:
   - "SREZIC/patches/GD-2.45-SREZIC-01.patch"
 comment: "freebsd 8.0 and 9.0 ships with new libjpeg, which produces slightly different bits"
+# https://rt.cpan.org/Ticket/Display.html?id=49053
 --- 
 match:
   module: "^GD$"
