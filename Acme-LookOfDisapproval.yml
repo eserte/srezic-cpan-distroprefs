@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Acme-LookOfDisapproval-0\.001\."
+  distribution: "/Acme-LookOfDisapproval-0\.(001|002|004)\."
   perlconfig:
     archname: freebsd
 disabled: 1
