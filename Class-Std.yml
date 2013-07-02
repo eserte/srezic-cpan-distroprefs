@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Class-Std-0.011."
+  perlconfig:
+    version: "^5\.18\."
+patches:
+  - SREZIC/patches/Class-Std-0.011-RT78196.patch
