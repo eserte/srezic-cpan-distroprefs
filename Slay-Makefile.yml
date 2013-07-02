@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Slay-Makefile-0\.12\."
+  perlconfig:
+    version: "^5\.(1[456789]|[23456789].)\."
+patches:
+  - SREZIC/patches/Slay-Makefile-0.12-RT75383.patch
+# The Carp 1.25 problem
