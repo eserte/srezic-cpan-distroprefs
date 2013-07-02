@@ -1,0 +1,11 @@
+---
+match:
+  distribution: "/Geo-Weather-\d"
+test:
+  expect:
+    - "\QEnter city of location you are at"
+    - "Berlin\n"
+    - "\QEnter state of location you are at"
+    - "Berlin\n"
+    - "\QProxy (just press enter if no proxy)"
+    - "\n"
