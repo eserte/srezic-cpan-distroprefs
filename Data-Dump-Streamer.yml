@@ -1,5 +1,15 @@
 --- 
 match:
+  distribution: "/Data-Dump-Streamer-2\.34\."
+  perlconfig:
+    version: "5\.(17|18)\."
+pl:
+  expect: ["\QWould you like me to install the shortcut? (yes/no)\E", "no\n"]
+patches:
+  - SREZIC/patches/Data-Dump-Streamer-2.34-RT82958.patch
+  - SREZIC/patches/Data-Dump-Streamer-2.34-RT79127.patch
+--- 
+match:
   distribution: "/Data-Dump-Streamer-\d"
 pl:
   expect: ["\QWould you like me to install the shortcut? (yes/no)\E", "no\n"]
