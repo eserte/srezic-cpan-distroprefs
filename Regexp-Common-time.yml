@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Regexp-Common-time-0\.04\."
+  perlconfig:
+    version: "^5\.(17|18)\."
+patches:
+  - SREZIC/patches/Regexp-Common-time-0.04-RT82880.patch
