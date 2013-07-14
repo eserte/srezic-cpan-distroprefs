@@ -484,6 +484,7 @@ match:
     |.*/Term-Twiddle-\d # interactive test
     |.*/Geo-Weather-\d # interactive test
     |.*/Acme-RPC-\d # strange interactive test
+    |.*/Forecast-IO-\d # test needs Forecast.io API key, interactively entered
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
@@ -1046,6 +1047,7 @@ match:
     |.*/Bio-Medpost-\d # needs medpost, not in ports and neither part of debian
     |.*/Module-Install-RPM-0\.01\. # dangerous, as it overrides the standard WriteAll function, leading into interactive questions https://rt.cpan.org/Ticket/Display.html?id=67027
     |.*/Bundle-Everything- # no point in testing this one... but excluding it does not work?!
+    |MELO/Task-BeLike-MELO-\d # too big, too much deps
     |WOLDRICH/App-re.pl-0.122.tar.gz # empty dist
     |WOLDRICH/re.pl-0.120.tar.gz # empty dist
     |.*/IO-Moose-0\.1004\. # broken tarball, contains blib directories, https://rt.cpan.org/Ticket/Display.html?id=67360
@@ -1236,9 +1238,7 @@ match:
     |DIEDERICH/IPC-Transit-0.5.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
     |DIEDERICH/IPC-Transit-0.6.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
     |DIEDERICH/IPC-Transit-0.61.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
-    |DIEDERICH/IPC-Transit-0.71.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
-    |DIEDERICH/IPC-Transit-0.72.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
-    |DIEDERICH/IPC-Transit-0.73.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
+    |DIEDERICH/IPC-Transit-0.7\d.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs) (failures seen for 0.71..0.74)
     |DIEDERICH/Message-Match-0.1.tar.gz # Build/Makefile.PL is one directory level too deep
     |MANIGREW/SEG7/SEG7-1.0.0.tar.gz # incomplete distribution, no Makefile.PL
     |MANIGREW/SEG7-1.0.1.tar.gz # incomplete distribution, no Makefile.PL
