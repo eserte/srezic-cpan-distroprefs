@@ -43,7 +43,7 @@ patches:
   - "SREZIC/patches/SOAP-Lite-0.716-RT85762.patch"
 --- 
 match:
-  distribution: "/SOAP-Lite-\d"
+  distribution: "/SOAP-Lite-0\.\d"
 pl: 
   expect:
     - "see the detailed list"
@@ -52,3 +52,4 @@ pl:
     - "\n"
 #    - "Do you want to perform these tests in addition to core tests"
 #    - "\n"
+## Since SOAP-Lite 1.0 Makefile.PL is not interactive anymore
