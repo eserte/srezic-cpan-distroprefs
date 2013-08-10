@@ -485,6 +485,7 @@ match:
     |.*/Geo-Weather-\d # interactive test
     |.*/Acme-RPC-\d # strange interactive test
     |.*/Forecast-IO-\d # test needs Forecast.io API key, interactively entered
+    |.*/WebService-FogBugz-XML-\d # many questions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
