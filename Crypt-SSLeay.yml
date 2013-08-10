@@ -2,11 +2,13 @@
 match:
   distribution: "/Crypt-SSLeay-\d"
 pl:
-  eexpect:
-    mode: anyorder
-    timeout: 2
-    talk:
-      - "\QWhich SSL install path do you want to use? [/usr]"
-      - "\n"
-      - "Do you want to run the live tests"
-      - "n\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#  eexpect:
+#    mode: anyorder
+#    timeout: 2
+#    talk:
+#      - "\QWhich SSL install path do you want to use? [/usr]"
+#      - "\n"
+#      - "Do you want to run the live tests"
+#      - "n\n"
