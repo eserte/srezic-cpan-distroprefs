@@ -1240,6 +1240,7 @@ match:
     |DIEDERICH/IPC-Transit-0.6.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
     |DIEDERICH/IPC-Transit-0.61.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
     |DIEDERICH/IPC-Transit-0.7\d.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs) (failures seen for 0.71..0.74)
+    |DIEDERICH/IPC-Transit-1.132260.tar.gz # may hang
     |DIEDERICH/Message-Match-0.1.tar.gz # Build/Makefile.PL is one directory level too deep
     |MANIGREW/SEG7/SEG7-1.0.0.tar.gz # incomplete distribution, no Makefile.PL
     |MANIGREW/SEG7-1.0.1.tar.gz # incomplete distribution, no Makefile.PL
@@ -1251,5 +1252,6 @@ match:
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
     |KSOLOMKO/Apache2-AuthCookieLDAP-1.10.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=86316
     |.*/XAS-\d # needs STOMP MQ Server
+    |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1

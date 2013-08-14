@@ -1,9 +1,10 @@
 ---
 match:
   distribution: "/HTTP-Lite-\d"
-test:
-  expect:
-    - "\QLocation: [http://www.thetoybox.org/HTTP-Lite-Tests]"
-    - "\n"
-    - "\QProxy: [none]"
-    - "\n"
+## Tests are not interactive anymore (since when?)
+#test:
+#  expect:
+#    - "\QLocation: [http://www.thetoybox.org/HTTP-Lite-Tests]"
+#    - "\n"
+#    - "\QProxy: [none]"
+#    - "\n"
