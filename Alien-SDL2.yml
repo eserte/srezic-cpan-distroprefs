@@ -1,0 +1,15 @@
+---
+match:
+  distribution: "/Alien-SDL2-\d"
+pl:
+  eexpect:
+    timeout: 360
+    talk:
+      - "\QWhat way do you wanna go?"
+      - "\n"
+make:
+  eexpect:
+    timeout: 360
+    talk:
+      - "\QDo you want to see all messages during configure/make"
+      - "\n"
