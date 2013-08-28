@@ -1,5 +1,13 @@
 ---
 match:
+  distribution: "/Alien-SDL2-0\.002\."
+  perlconfig:
+    osname: freebsd
+    osvers: 8.0-release
+disabled: 1
+# Build phase seems to fail
+---
+match:
   distribution: "/Alien-SDL2-\d"
 pl:
   eexpect:
