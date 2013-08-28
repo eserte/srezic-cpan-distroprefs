@@ -7,3 +7,5 @@ pl:
     - "\n"
     - "\QAlien/InteractiveBrokers/IBJts"
     - "\n"
+disabled: 1
+comment: "disabled, because the prereq Finance-InteractiveBrokers-API is also disabled"

@@ -6,4 +6,4 @@ pl:
     - "\Q/bin/swig\]"
     - "\n"
 disabled: 1
-comment: "needs IB source code"
+comment: "needs IB source code, see also Finance-InteractiveBrokers-SWIG"
