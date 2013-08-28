@@ -2,6 +2,8 @@
 match:
   distribution: "/Net-Syslogd-\d"
 test:
-  expect:
-    - "\QContinue with tests?"
-    - "y\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#  expect:
+#    - "\QContinue with tests?"
+#    - "y\n"
