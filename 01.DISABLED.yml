@@ -387,6 +387,8 @@ match:
     |.*/Plack-Middleware-JenkinsNotification-0.05 # 04_listener.t test hangs
     |.*/Twiggy-Prefork-0.01 # almost all tests hang
     |.*/Twiggy-Prefork-0.02 # same
+    |.*/Twiggy-Prefork-0.04 # tests are hanging on fbsd8
+    |.*/Twiggy-Prefork-0.05 # tests are hanging on fbsd8 (probablybecause Server::Starter couldn't get built?)
     |.*/Mojolicious-Plugin-TtRenderer-1\.32\. # deep-recursion.t test hangs because of flock/File::Temp problems, see https://github.com/abh/mojox-renderer-tt/issues/33
     |MUIR/modules/File-Flock-2013.06.tar.gz # hanging tests, see https://rt.cpan.org/Ticket/Display.html?id=84447
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -1249,7 +1251,6 @@ match:
     |BRUMMETT/Devel-hdb-0.05.tar.gz # a test hangs, both on cvrsnica and biokovo
     |COOLMEN/Test-Mojo-More-0.02.tar.gz # requires perl 5.100 by accident, see https://rt.cpan.org/Public/Bug/Display.html?id=84679
     |NIELSD/Speech-Google-0.5.tar.gz # no Makefile.PL, no Build.PL
-    |.*/Twiggy-Prefork-0.04 # tests are hanging on fbsd8
     |.*/Plack-App-BeanstalkConsole-\d # not tested, see <20130531223444.GJ2094 <AT> tequila.etheridge.ca>
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
     |KSOLOMKO/Apache2-AuthCookieLDAP-1.10.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=86316
