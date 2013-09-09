@@ -388,7 +388,8 @@ match:
     |.*/Twiggy-Prefork-0.01 # almost all tests hang
     |.*/Twiggy-Prefork-0.02 # same
     |.*/Twiggy-Prefork-0.04 # tests are hanging on fbsd8
-    |.*/Twiggy-Prefork-0.05 # tests are hanging on fbsd8 (probablybecause Server::Starter couldn't get built?)
+    |.*/Twiggy-Prefork-0.05 # tests are hanging on fbsd8 (probably because Server::Starter couldn't get built?)
+    |.*/Twiggy-Prefork-0.06 # same
     |.*/Mojolicious-Plugin-TtRenderer-1\.32\. # deep-recursion.t test hangs because of flock/File::Temp problems, see https://github.com/abh/mojox-renderer-tt/issues/33
     |MUIR/modules/File-Flock-2013.06.tar.gz # hanging tests, see https://rt.cpan.org/Ticket/Display.html?id=84447
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
