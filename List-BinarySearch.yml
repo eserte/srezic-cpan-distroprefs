@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/List-BinarySearch-\d"
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# promps asks about installing XS version
