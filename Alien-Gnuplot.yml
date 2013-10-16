@@ -1,0 +1,8 @@
+---
+match:
+  distribution: "/Alien-Gnuplot-1\.010\."
+pl:
+  expect:
+    - "\QGnuplot seems to not exist on your system.  Shall I try to install it? [Y/n]"
+    - "\n"
+# See also https://rt.cpan.org/Ticket/Display.html?id=89551
