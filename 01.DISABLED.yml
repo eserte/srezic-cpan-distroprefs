@@ -1260,5 +1260,6 @@ match:
     |KSOLOMKO/Apache2-AuthCookieLDAP-1.10.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=86316
     |.*/XAS-\d # needs STOMP MQ Server
     |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
+    |.*/ServiceNow-Simple-\d # needs a test system (?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
