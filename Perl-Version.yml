@@ -1,7 +1,8 @@
 --- 
 match:
-  distribution: "/Perl-Version-v?\d"
+  distribution: "/Perl-Version-v?1\.00\d\."
 pl:
   expect:
     - "\QInstall perl-reversion script? [N]"
     - "y\n"
+# since Perl-Version-1.009 perl-reversion is installed by default
