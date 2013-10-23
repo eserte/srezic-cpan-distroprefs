@@ -740,8 +740,10 @@ match:
     |.*/RT-Action-LinearEscalate-\d # needs RT
     |.*/RT-Action-MoveQueueBySubject-\d
     |.*/RT-Action-NotifyGroup-\d
+    |.*/RT-Action-RequestUpdateCallback-\d
     |.*/RT-Action-SetPriorityFromHeader-\d
     |.*/RT-Action-SetStatus-\d
+    |.*/RT-Action-UpdateIcestack-\d
     |.*/RT-Atom-\d
     |.*/RT-Authen-Bitcard-\d
     |.*/RT-Authen-CookieAuth-\d
