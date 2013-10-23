@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/Tk-PlotDataset-2\.04\."
+patches:
+  - SREZIC/patches/Tk-PlotDataset-2.04-RT89709.patch
