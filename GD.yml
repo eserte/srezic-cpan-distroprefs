@@ -1,5 +1,17 @@
 ---
 match:
+  distribution: "/GD-2\.(50)\."
+  perlconfig:
+    archname: "-freebsd"
+    osvers: "9.2-release"
+patches:
+  - "SREZIC/patches/GD-2.45-SREZIC-01.patch"
+  - "SREZIC/patches/GD-2.50-SREZIC-02.patch"
+comment: "freebsd 9.2 has even more test failures"
+# https://rt.cpan.org/Ticket/Display.html?id=49053
+# https://rt.cpan.org/Public/Bug/Display.html?id=85789
+---
+match:
   distribution: "/GD-2\.(45|46|49|50)\."
   perlconfig:
     archname: "-freebsd"
