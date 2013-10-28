@@ -1,0 +1,5 @@
+---
+match:
+  distribution: "/XML-XSH2-2\.1\.7\."
+patches:
+  - SREZIC/patches/XML-XSH2-2.1.7-RT88940.patch
