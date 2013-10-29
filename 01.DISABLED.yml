@@ -699,6 +699,7 @@ match:
     |KTHAKORE/SDL_Perl-v2\.2\.6\. # hangs on freebsd, both 5.10.1 and 5.12.0
     |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
     |SULLR/IO-Socket-SSL-1.30.tar.gz # test hangs under FreeBSD, needs more research!
+    |.*/Task-LiveDVD-FrankfurtPM-0\.03\. # testing all the dependencies takes forever
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
