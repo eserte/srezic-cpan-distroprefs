@@ -2,6 +2,8 @@
 match:
   distribution: "/Kafka-\d"
 pl:
-  expect:
-    - "\QDo you want to run a full tests of the client"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#  expect:
+#    - "\QDo you want to run a full tests of the client"
+#    - "\n"
