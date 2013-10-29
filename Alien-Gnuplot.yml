@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Alien-Gnuplot-1\.010\."
+  distribution: "/Alien-Gnuplot-1\.(010|020)\."
 pl:
   expect:
     - "\QGnuplot seems to not exist on your system.  Shall I try to install it? [Y/n]"
