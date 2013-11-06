@@ -1,6 +1,8 @@
+# Probably all WordNet-based distributions need to the following env variables set
+# At least WordNet-QueryData and its dependencies (e.g. WordNet-Similarity)
 ---
 match:
-  distribution: "/WordNet-QueryData-\d"
+  distribution: "/WordNet-.*"
   perlconfig:
     archname: "-freebsd"
 # different installation directories probably on other systems
