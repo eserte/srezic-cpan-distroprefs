@@ -1,5 +1,9 @@
 # Probably all WordNet-based distributions need to the following env variables set
 # At least WordNet-QueryData and its dependencies (e.g. WordNet-Similarity)
+#
+# Note: on freebsd the "WordNet" package has to be installed.
+# otherwise download and install manually from
+# http://wordnet.princeton.edu/wordnet/download/current-version/
 ---
 match:
   distribution: "/WordNet-.*"
