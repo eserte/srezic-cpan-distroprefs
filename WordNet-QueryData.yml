@@ -1,9 +1,14 @@
 ---
 match:
   distribution: "/WordNet-QueryData-\d"
+  perlconfig:
+    archname: "-freebsd"
+# different installation directories probably on other systems
 pl:
   env:
     WNHOME: /usr/local/share/WordNet
+    WNSEARCHDIR: /usr/local/share/WordNet
 test:
   env:
     WNHOME: /usr/local/share/WordNet
+    WNSEARCHDIR: /usr/local/share/WordNet
