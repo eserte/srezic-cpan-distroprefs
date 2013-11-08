@@ -133,11 +133,8 @@ remove-outdated-dd:
 		}
 	    }
 	    if (@candidates) {
-		print STDERR "Remove @candidates? (y/N) ";
-		chomp(my $yn = <STDIN>);
-		if ($yn eq 'y') {
-		    unlink @candidates;
-		}
+		print STDERR "About to remove @candidates...\n";
+		unlink @candidates;
 	    }
 	    "";
 	}
