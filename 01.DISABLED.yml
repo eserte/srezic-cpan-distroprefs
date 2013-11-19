@@ -171,14 +171,6 @@ match:
     archname: "(-freebsd|-linux|MSWin32|cygwin)"
 disabled: 1
 --- 
-comment: "test hangs on t/04_fork"
-# But there are PASS reports with freebsd version != 8.0-release
-match:
-  distribution: "^MLEHMANN/IO-AIO-"
-  perlconfig:
-    archname: "-freebsd"
-disabled: 1
---- 
 comment: "no filesystem with quotas available"
 match:
   distribution: '/Quota-\d+'

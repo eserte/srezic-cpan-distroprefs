@@ -1,0 +1,15 @@
+--- 
+# threaded perl works
+match:
+  distribution: "^MLEHMANN/IO-AIO-"
+  perlconfig:
+    archname: "-freebsd-thread"
+--- 
+comment: "test hangs after 00_load.t, but can be made passing by defining LD_PRELOAD"
+match:
+  distribution: "^MLEHMANN/IO-AIO-"
+  perlconfig:
+    archname: "-freebsd"
+test:
+  env:
+    LD_PRELOAD: /usr/lib/libpthread.so
