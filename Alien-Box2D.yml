@@ -1,8 +1,0 @@
----
-match:
-  distribution: '/Alien-Box2D-\d'
-pl:
-  expect:
-    - '\QWhat way do you wanna go?'
-# note: needs cmake, which is installed on my freebsd box
-    - "1\n"
