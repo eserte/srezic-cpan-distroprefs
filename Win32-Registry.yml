@@ -2,6 +2,9 @@
 match:
   distribution: "/Win32-Registry-0\.10\."
 patches:
-#  - "SREZIC/patches/Win32-Registry-0.10-SREZIC-03.patch"
-  - "SREZIC/patches/Win32-Registry-0.10-RT75671.patch"
+  - "SREZIC/patches/Win32-Registry-0.10-SREZIC-03.patch"
+## This is the more accurate patch probably, but for some
+## reason automatic patching using distroprefs fails with
+## StrawberryPerl 5.18.1.1
+#  - "SREZIC/patches/Win32-Registry-0.10-RT75671.patch"
 comment: "https://rt.cpan.org/Ticket/Display.html?id=75671"
