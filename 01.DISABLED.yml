@@ -62,14 +62,14 @@ disabled: 1
 --- 
 comment: "Never install perl from CPAN.pm"
 match:
-  distribution: '/perl-5\.(6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)\.\d+'
+  distribution: '/perl-5\.(6|7|8|9|1\d|2\d)\.\d+'
 #  env:
 #    PERL_BATCH: yes
 disabled: 1
 --- 
 comment: "... or parrot ..."
 match:
-  distribution: '/parrot-0\.\d+'
+  distribution: '/parrot-\d+\.\d+'
 disabled: 1
 --- 
 comment: "Do not need to test the guerilla"
@@ -170,6 +170,7 @@ match:
   perlconfig:
     archname: "(-freebsd|-linux|MSWin32|cygwin)"
 disabled: 1
+# freebsd has dtrace, but the option -h is not supported
 --- 
 comment: "no filesystem with quotas available"
 match:
