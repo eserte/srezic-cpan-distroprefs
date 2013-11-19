@@ -179,13 +179,6 @@ match:
     archname: "-freebsd"
 disabled: 1
 --- 
-comment: "cups installation seems to be broken on my machine"
-match:
-  distribution: '/Net-CUPS-\d+'
-  perlconfig:
-    archname: "amd64-freebsd"
-disabled: 1
---- 
 comment: "no filesystem with quotas available"
 match:
   distribution: '/Quota-\d+'
