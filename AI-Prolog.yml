@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/AI-Prolog-\d"
+  distribution: '/AI-Prolog-\d'
 pl:
   expect:
     - "Do you wish to install the 'aiprolog' shell?"

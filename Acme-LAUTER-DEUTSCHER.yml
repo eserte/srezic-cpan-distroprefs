@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Acme-LAUTER-DEUTSCHER-\d"
+  distribution: '/Acme-LAUTER-DEUTSCHER-\d'
 pl:
   expect:
-    - "\QWould you like to run these tests"
+    - '\QWould you like to run these tests'
     - "\n"

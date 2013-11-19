@@ -49,7 +49,7 @@ disabled: 1
 comment: "Distributions which are known to not work with 5.6.x"
 match:
   perlconfig:
-    version: "^5\.6\.\d"
+    version: '^5\.6\.\d'
   distribution: |
     ^(?x:
       .*/CatalystX?-
@@ -62,19 +62,19 @@ disabled: 1
 --- 
 comment: "Never install perl from CPAN.pm"
 match:
-  distribution: "/perl-5\.(6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)\.\d+"
+  distribution: '/perl-5\.(6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)\.\d+'
 #  env:
 #    PERL_BATCH: yes
 disabled: 1
 --- 
 comment: "... or parrot ..."
 match:
-  distribution: "/parrot-0\.\d+"
+  distribution: '/parrot-0\.\d+'
 disabled: 1
 --- 
 comment: "Do not need to test the guerilla"
 match:
-  distribution: "/kurila-\d+"
+  distribution: '/kurila-\d+'
 disabled: 1
 --- 
 comment: "Archaic OSes, probably will never work with them"
@@ -146,14 +146,14 @@ disabled: 1
 --- 
 comment: "Mac specific"
 match:
-  distribution: "/((Mac|MacOSX)-\D+|DBD-DtfSQLmac-\d|Net-Rendezvous-Publish-Backend-Apple-|AudioCD-Mac-)"
+  distribution: '/((Mac|MacOSX)-\D+|DBD-DtfSQLmac-\d|Net-Rendezvous-Publish-Backend-Apple-|AudioCD-Mac-)'
   perlconfig:
     archname: "(-freebsd|-linux|MSWin32|cygwin)"
 disabled: 1
 --- 
 comment: "Cygwin specific"
 match:
-  distribution: "/(Filesys-CygwinPaths)-\d"
+  distribution: '/(Filesys-CygwinPaths)-\d'
   perlconfig:
     archname: "(-freebsd|darwin|MSWin32|linux)"
 disabled: 1
@@ -166,7 +166,7 @@ match:
 disabled: 1
 --- 
 match:
-  distribution: "/Devel-DTrace-\d"
+  distribution: '/Devel-DTrace-\d'
   perlconfig:
     archname: "(-freebsd|-linux|MSWin32|cygwin)"
 disabled: 1
@@ -181,44 +181,44 @@ disabled: 1
 --- 
 comment: "cups installation seems to be broken on my machine"
 match:
-  distribution: "/Net-CUPS-\d+"
+  distribution: '/Net-CUPS-\d+'
   perlconfig:
     archname: "amd64-freebsd"
 disabled: 1
 --- 
 comment: "no filesystem with quotas available"
 match:
-  distribution: "/Quota-\d+"
+  distribution: '/Quota-\d+'
   perlconfig:
     archname: "-freebsd"
 disabled: 1
 ---
 comment: "no gnome old old gnome here"
 match:
-  distribution: "/(OIS-|Device-Cdio-v|Gnome2-Wnck-)\d+"
+  distribution: '/(OIS-|Device-Cdio-v|Gnome2-Wnck-)\d+'
   perlconfig:
     archname: "-freebsd"
 disabled: 1
 --- 
 comment: "freebsd has only rpm3, my system at least"
 match:
-  distribution: "/RPM4-\d"
+  distribution: '/RPM4-\d'
   perlconfig:
     archname: "-freebsd"
 disabled: 1
 --- 
 comment: "assumes GNU make, hangs with BSD make"
 match:
-  distribution: "/rpm-build-perl-0\.6\.5\."
+  distribution: '/rpm-build-perl-0\.6\.5\.'
   perlconfig:
     archname: bsd
 disabled: 1
 --- 
 comment: "Interactive, needs parameter from command line, maybe because of old CGI?"
 match:
-  distribution: "/FormValidator-Simple-0\.22\.tar.gz"
+  distribution: '/FormValidator-Simple-0\.22\.tar.gz'
   perlconfig:
-    version: "^5\.00505$"
+    version: '^5\.00505$'
 disabled: 1
 --- 
 comment: "Not on my FreeBSD system(s)"
@@ -400,9 +400,9 @@ disabled: 1
 comment: "Problems with freebsd and 5.8.8 (endless loop with CPAN.pm)"
 match:
   perlconfig:
-    version: "^5\.8\.8"
-    archname: "(-freebsd)"
-  distribution: "/XXXClass-DBI-Plugin-FilterOnClick-1\.1\.tar\.gz"
+    version: '^5\.8\.8'
+    archname: '(-freebsd)'
+  distribution: '/XXXClass-DBI-Plugin-FilterOnClick-1\.1\.tar\.gz'
 disabled: 1
 --- 
 comment: "Interactive configuration or tests"

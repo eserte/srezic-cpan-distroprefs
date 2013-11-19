@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/AI-Categorizer-\d"
+  distribution: '/AI-Categorizer-\d'
 pl:
   expect:
     - "install.*script"
