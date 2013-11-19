@@ -44,12 +44,18 @@
 	    for my $data (@data) {
 		$doc_i++;
 		push @errors, $@ if (!eval { validate($schema, $data) });
-		if (eval { require YAML; 1 }) {
-		    if (!eval { YAML::LoadFile($yml) }) {
-		        push @errors, "Errors while loading $yml (doc#$doc_i) with YAML.pm: $@";
-		    }
+	    }
+	    if (eval { require YAML; 1 }) {
+		if (!eval { YAML::LoadFile($yml) }) {
+		    push @errors, "Errors while loading $yml (doc#$doc_i) with YAML.pm: $@";
 		}
 	    }
+	    ## XXX not yet enabled, most .yml files are not ready yet...
+	    #if (eval { require YAML::XS; 1 }) {
+	    #	if (!eval { YAML::XS::LoadFile($yml) }) {
+	    #	    push @errors, "Errors while loading $yml (doc#$doc_i) with YAML::XS: $@";
+	    #	}
+	    #}
 	}
 	@errors;
     }
