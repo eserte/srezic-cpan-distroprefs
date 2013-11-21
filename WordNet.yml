@@ -16,6 +16,10 @@ pl:
   env:
     WNHOME: /usr/local/share/WordNet
     WNSEARCHDIR: /usr/local/share/WordNet
+make:
+  env:
+    WNHOME: /usr/local/share/WordNet
+    WNSEARCHDIR: /usr/local/share/WordNet
 test:
   env:
     WNHOME: /usr/local/share/WordNet
@@ -27,6 +31,9 @@ match:
     archname: "-linux"
 # different installation directories probably on other distributions
 pl:
+  env:
+    WNSEARCHDIR: /usr/share/wordnet
+make:
   env:
     WNSEARCHDIR: /usr/share/wordnet
 test:
