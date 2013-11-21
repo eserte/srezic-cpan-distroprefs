@@ -113,8 +113,14 @@ validate: { map { ".validated/$_" } glob("*.yml") }
 	    if (@errors) {
 		die "Found validation errors ($source):\n" . join("\n", @errors);
 	    }
-	    system 'touch', $target;
-	    $? == 0 or die "Could not touch $target";
+	    if (0) {
+		system 'touch', $target;
+		$? == 0 or die "Could not touch $target";
+	    } else {
+		open my $ofh, ">", $target or die "Could not touch $target: $!";
+		print $ofh "--- {}\n";
+		close $ofh or die "Error while writing to $target: $!";
+	    }
 	    "";
 	}
 
