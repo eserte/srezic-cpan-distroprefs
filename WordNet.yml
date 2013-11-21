@@ -4,6 +4,8 @@
 # Note: on freebsd the "WordNet" package has to be installed.
 # otherwise download and install manually from
 # http://wordnet.princeton.edu/wordnet/download/current-version/
+#
+# On Debian/Ubuntu it's the "wordnet" package.
 ---
 match:
   distribution: "/WordNet-.*"
@@ -18,3 +20,15 @@ test:
   env:
     WNHOME: /usr/local/share/WordNet
     WNSEARCHDIR: /usr/local/share/WordNet
+---
+match:
+  distribution: "/WordNet-.*"
+  perlconfig:
+    archname: "-linux"
+# different installation directories probably on other distributions
+pl:
+  env:
+    WNSEARCHDIR: /usr/share/wordnet
+test:
+  env:
+    WNSEARCHDIR: /usr/share/wordnet
