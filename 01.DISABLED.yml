@@ -1250,5 +1250,6 @@ match:
     |.*/XAS-\d # needs STOMP MQ Server
     |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
     |.*/ServiceNow-Simple-\d # needs a test system (?)
+    |INA/japerl-0\.01\. # does not have a Makefile.PL, but a pMakefile.PL (?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
