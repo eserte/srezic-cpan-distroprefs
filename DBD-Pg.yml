@@ -7,3 +7,4 @@ match:
 # But currently it is good enough for testing, it seems
 # But note: this one needs the libpq-dev package (on debian) installed!
 # otherwise pg_config is not available
+# On FreeBSD the package postgresql92-server has to be installed.
