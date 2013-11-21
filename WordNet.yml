@@ -5,7 +5,7 @@
 # otherwise download and install manually from
 # http://wordnet.princeton.edu/wordnet/download/current-version/
 #
-# On Debian/Ubuntu it's the "wordnet" package.
+# On Debian/Ubuntu it's the "wordnet" and "wordnet-sense-index" packages.
 ---
 match:
   distribution: "/WordNet-.*"
