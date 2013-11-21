@@ -464,6 +464,7 @@ match:
     |.*/Tk-Updown-\d
     |.*/TkUtil-Configure-\d
     |.*/UDPM-\d
+    |.*/WWW-Salesforce-\d # needs user/password
     |.*/WWW-Search-Googlism-\d # asking whether connected to internet
     |.*/X11-Protocol-\d
     |.*/pgk_xs-0.05.tar.gz
@@ -856,7 +857,6 @@ match:
     |.*/Net-Amazon-Thumbnail-\d # I have no amazon key
     |.*/CAS-\d # needs CAS database
     |.*/CAS-Apache-\d # probably also needs CAS database (and it also asks questions)
-    |.*/WWW-Salesforce-\d # needs user/password
     |.*/Graph-Maker\.zip # wrong distname format
     |CHI/link_NCBI\.zip # wrong distname format
     |.*/tic.tar.gz # wrong distname format
