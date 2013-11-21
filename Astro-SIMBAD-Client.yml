@@ -1,7 +1,11 @@
 --- 
 match:
   distribution: "/Astro-SIMBAD-Client-\d+"
+  env:
+    PERL_BATCH: yes
 pl:
-  expect:
-    - "\QDo you want to install simbadc? [n]\E"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+make:
+  env:
+    PERL_MM_USE_DEFAULT: 1
