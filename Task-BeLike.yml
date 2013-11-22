@@ -1,0 +1,7 @@
+---
+match:
+  distribution: "/Task-BeLike-.*"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# Do not test in batch mode, distributions are often too large

@@ -638,7 +638,6 @@ match:
     |FRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz # endless loop, filling up /tmp
     |.*/LWP-UserAgent-POE-0.03. # lwp_use... test hangs
     |.*/WebService-Async-0.03.tar.gz # another hanging one
-    |.*/Task-BeLike-BURAK- # simply too large, so not smoking during regular smokes...
     |.*/POEx-WorkerPool- # endless loop Nonexistent 'POE::Wheel::Run(1) -> select stdin' event delivered to Worker:E6E22AE8-5F0F-11E0-A7EF-02CBD929F522
     |.*/Crypt-RandPasswd-0\.02\. # test sometimes hangs, see https://rt.cpan.org/Ticket/Display.html?id=4090
     |.*/XXXPOSIX-RT-Signal-0\.010\. # t/10-basics.t test hangs # but not always, so disabled the disabled
@@ -1043,7 +1042,6 @@ match:
     |.*/Bio-Medpost-\d # needs medpost, not in ports and neither part of debian
     |.*/Module-Install-RPM-0\.01\. # dangerous, as it overrides the standard WriteAll function, leading into interactive questions https://rt.cpan.org/Ticket/Display.html?id=67027
     |.*/Bundle-Everything- # no point in testing this one... but excluding it does not work?!
-    |MELO/Task-BeLike-MELO-\d # too big, too much deps
     |WOLDRICH/App-re.pl-0.122.tar.gz # empty dist
     |WOLDRICH/re.pl-0.120.tar.gz # empty dist
     |.*/IO-Moose-0\.1004\. # broken tarball, contains blib directories, https://rt.cpan.org/Ticket/Display.html?id=67360
