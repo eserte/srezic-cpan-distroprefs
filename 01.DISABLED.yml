@@ -1249,5 +1249,6 @@ match:
     |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
     |.*/ServiceNow-Simple-\d # needs a test system (?)
     |INA/japerl-0\.01\. # does not have a Makefile.PL, but a pMakefile.PL (?)
+    |.*/Net-Azure-StorageClient-\d+ # asks for account name of Windows Azure Blob Storage
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
