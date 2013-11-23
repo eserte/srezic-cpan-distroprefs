@@ -30,6 +30,11 @@ match:
 #goto: "SREZIC/Tk-804.027_501.tar.gz"
 disabled: 1
 
+--- 
+match:
+  distribution: "SREZIC/Tk-804.031.tar.gz"
+goto: "SREZIC/Tk-804.031_501.tar.gz"
+
 #--- 
 #match:
 #  distribution: "SREZIC/Tk-804."
