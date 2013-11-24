@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Ado-\d'
+pl:
+  expect:
+    - '\QWe recommend some private prefix:'
+    - "\n"
