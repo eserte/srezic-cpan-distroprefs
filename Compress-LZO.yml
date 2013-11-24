@@ -3,8 +3,6 @@ match:
   distribution: '/Compress-LZO-1\.08\.'
   perlconfig:
     archname: '-freebsd'
-## XXX This distribution is in need of patching Makefile.PL
-#pl:
-#  env:
-#    INC: '-I/usr/local/include/lzo'
-#    LIBS: '-L/usr/local/lib'
+patches:
+  - SREZIC/patches/Compress-LZO-1.08-RT86115.patch
+  - SREZIC/patches/Compress-LZO-1.08-RT46544.patch
