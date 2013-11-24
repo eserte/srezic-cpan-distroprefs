@@ -2,6 +2,5 @@
 match:
   distribution: "/POE-Component-CPAN-SQLite-Info-\d"
 pl:
-  expect:
-    - "\QWould you like to run network tests? [Y/n]: [y]"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
