@@ -484,7 +484,6 @@ match:
      |\QEXODIST/Mock-Quick-1.106.tar.gz\E
      |\QEXODIST/MooseX-LeakCheck-0.002.tar.gz\E
      |\QFALCONE/RTx-Calendar-0.09.tar.gz\E
-     |\QFANGLY/Bio-Community-0.001000.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.3.3.tar.gz\E
      |\QFAYLAND/Padre-Plugin-CSS-0.08.tar.gz\E
@@ -1202,6 +1201,7 @@ match:
      |\QOVID/Test-Harness-3.26.tar.gz\E
      |\QOVID/Test-Harness-3.28.tar.gz\E
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
+     |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPARDUS/zoidberg/Zoidberg-0.95.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
      |\QPBWOLF/Win32-ActAcc-1.0.zip\E
@@ -1247,6 +1247,7 @@ match:
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
+     |\QPJFL/catalystx-usul/CatalystX-Usul-0.13.1.tar.gz\E
      |\QPKUBANEK/XML-Clean-1.010101.tar.gz\E
      |\QPLAVEN/Padre-0.90.tar.gz\E
      |\QPLAVEN/Padre-0.92.tar.gz\E
@@ -1510,6 +1511,7 @@ match:
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
      |\QSYP/Net-Curl-0.31.tar.gz\E
+     |\QTAINT/Perl-Police-v0.0.1.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
      |\QTANIGUCHI/HTML-Entities-Numbered-0.03.tar.gz\E
@@ -1645,7 +1647,6 @@ match:
      |\QWEBORAMA/Riak-Light-0.052.tar.gz\E
      |\QWIGGLY/Autocache-0.002.tar.gz\E
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
-     |\QWREIS/DBIx-Class-Relationship-Predicate-0.04.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
      |\QWSNYDER/SystemC-Vregs-1.464.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
