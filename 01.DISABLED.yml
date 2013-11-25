@@ -1245,6 +1245,7 @@ match:
     |NIELSD/Speech-Google-0.5.tar.gz # no Makefile.PL, no Build.PL
     |.*/Plack-App-BeanstalkConsole-\d # not tested, see <20130531223444.GJ2094 <AT> tequila.etheridge.ca>
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
+    |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
     |KSOLOMKO/Apache2-AuthCookieLDAP-1.10.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=86316
     |.*/XAS-\d # needs STOMP MQ Server
     |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
