@@ -764,7 +764,6 @@ match:
     |.*/RTFM-Extension-ArticleTemplates-\d
     |.*/NBU-\d # needs NetBackup
     |.*/Lingua-CollinsParser-\d # needs some grammar files
-    |.*/Crypt-OpenPGP-\d # komische Dependency-Aufloesung, moechte immer gleich alles installieren
     |.*/AI-FANN-\d # needs -ldoublefann
     |KANE/CPANPLUS-0\.82\.tar.gz # wants my root password using sudo
     |.*/STAFService-\d # needs STAF 3
