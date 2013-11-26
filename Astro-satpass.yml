@@ -1,14 +1,8 @@
 --- 
 match:
   distribution: "/Astro-satpass-\d"
+# It seems that settings pl.args is onlypossible for EUMM?
+cpanconfig:
+  prefer_installer: EUMM
 pl:
-  args:
-    - -n
-comment: "Disable the test to force a report being sent, but in automatic tests we don't want the question"
-test:
-  eexpect:
-    timeout: 10
-    mode: anyorder
-    talk:
-      - "\QTest file t/sgp4-ver.tle needed. Shall I download? [y/n d:n]:"
-      - "\n"
+  args: ["-n"]

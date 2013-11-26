@@ -399,7 +399,6 @@ match:
     |TURNERJW/Tk-JBrowseEntry-4.74.tar.gz
     |JNK/Tk-QuickTk-0.92.tar.gz
     |.*/ApacheBench-\d # wants some URLs
-    |.*/Astro-satpass-\d # questions in test phase
     |.*/Aut-\d # asks for a password
     |.*/Authen-CyrusSASL-\d
     |.*/B-Debugger-\d # needs to answer "c" or so (invisible)
