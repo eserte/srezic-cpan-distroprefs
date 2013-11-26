@@ -3,6 +3,19 @@ match:
   distribution: "/Module-Signature-\d"
   env:
     PERL_BATCH: yes
+  perlconfig:
+    version: "^5\.(18|19)\."
+pl:
+  expect:
+    - "\QImport PAUSE and author keys to GnuPG"
+    - "n\n"
+# Currently, with Crypt-OpenPGP-1.06, tests fail on newer perls.
+# In this case just do a fallback to hopefully installed gpg/gnupg
+---
+match:
+  distribution: "/Module-Signature-\d"
+  env:
+    PERL_BATCH: yes
 depends:
   configure_requires:
     Crypt::OpenPGP: 0
