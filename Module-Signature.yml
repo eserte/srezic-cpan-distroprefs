@@ -3,6 +3,9 @@ match:
   distribution: "/Module-Signature-\d"
   env:
     PERL_BATCH: yes
+depends:
+  configure_requires:
+    Crypt::OpenPGP: 0
 pl:
   expect:
     - "\QImport PAUSE and author keys to GnuPG"
