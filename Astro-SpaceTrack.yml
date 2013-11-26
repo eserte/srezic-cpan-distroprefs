@@ -1,10 +1,10 @@
 --- 
 match:
   distribution: "/Astro-SpaceTrack-\d"
-disabled: 1
-comment: "XXX Currently disabled because -y does not work, though advertised"
-pl:
-  args: ["-y"]
+#disabled: 1
+#comment: "XXX Currently disabled because -y does not work, though advertised"
+#pl:
+#  args: ["-y"]
 test:
   env:
     AUTOMATED_TESTING: 1
