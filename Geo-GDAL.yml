@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Geo-GDAL-1\.90\.'
+  perlconfig:
+    archname: '-freebsd'
+pl:
+  args: ["--no-version-check"]
+# Geo-GDAL 1.90 works with gdal 1.9.2 which comes with freebsd 9.2

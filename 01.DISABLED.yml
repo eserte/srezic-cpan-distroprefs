@@ -1082,8 +1082,6 @@ match:
     |.*/Event-Lib-UDPPump-\d # not installed (lazyness?)
     |.*/Encode-BOCU1-XS-\d # not installed (lazyness)
     |.*/GCJ-Cni-\d # part of mingw32-gcc??? not installed
-    |.*/Geo-GDAL-\d # module requires *exact* libgdal version to be installed
-    |XXX.*/Geo-Proj4-\d # proj4 maybe not installed? --- mittlerweile scheint es zu gehen
     |.*/XXXXTcl-Tk-\d # missing tk8.5 (X11?) --- not used, because Tcl-Tk.yml seem to have higher precedence (?)
     |.*/Language-Prolog-Yaswi-\d # swi-prolog not installed
     |.*/Log-Fine-\d # .ph files not available everywhere --- have to decide how to deal with this...
