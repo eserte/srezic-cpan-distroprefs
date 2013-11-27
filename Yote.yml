@@ -2,16 +2,18 @@
 match:
   distribution: "/Yote(-WebAppServer)?-\d"
 pl:
-  expect:
-    - "\QWhat is the location of your cgi-bin directory?"
-    - "/tmp\n"
-    - "\QWhat is the relative url of the cgi-bin on your webserver?"
-    - "/\n"
-    - "\QWhat is the location of your web root Directory?"
-    - "/tmp\n"
-    - "\QWhat is the location of your javascript Directory?"
-    - "/tmp\n"
-    - "\QWhat is the relative url of the javascript on your webserver?"
-    - "/\n"
-    - "\QWhat port will yote run on?"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#  expect:
+#    - "\QWhat is the location of your cgi-bin directory?"
+#    - "/tmp\n"
+#    - "\QWhat is the relative url of the cgi-bin on your webserver?"
+#    - "/\n"
+#    - "\QWhat is the location of your web root Directory?"
+#    - "/tmp\n"
+#    - "\QWhat is the location of your javascript Directory?"
+#    - "/tmp\n"
+#    - "\QWhat is the relative url of the javascript on your webserver?"
+#    - "/\n"
+#    - "\QWhat port will yote run on?"
+#    - "\n"
