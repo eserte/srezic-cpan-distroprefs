@@ -117,9 +117,12 @@ validate: { map { ".validated/$_" } glob("*.yml") }
 		system 'touch', $target;
 		$? == 0 or die "Could not touch $target";
 	    } else {
-		open my $ofh, ">", $target or die "Could not touch $target: $!";
-		print $ofh "--- {}\n";
-		close $ofh or die "Error while writing to $target: $!";
+		if (open my $ofh, ">", $target) {
+		    print $ofh "--- {}\n";
+		    close $ofh or die "Error while writing to $target: $!";
+		} else {
+		    warn "WARN: Could not touch $target: $! (validation will be repeated every time)\n";
+		}
 	    }
 	    "";
 	}
