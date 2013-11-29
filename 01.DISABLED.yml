@@ -1215,6 +1215,7 @@ match:
     |MTHURN/WWW-Search-Ebay-3.024.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
     |MTHURN/WWW-Search-Ebay-3.025.tar.gz # probably also permission problem (without checking...)
     |MTHURN/WWW-Search-Ebay-3.029.tar.gz # again permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
+    |MTHURN/WWW-Search-Ebay-3.032.tar.gz # again permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
     |MTHURN/WWW-Search-Ebay-Europe-2.011.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=83741)
     |MTHURN/WWW-Search-Ebay-Europe-2.012.tar.gz # also permission problem (without checking...)
     |MTHURN/WWW-Search-Ebay-Europe-2.013.tar.gz # also permission problem (without further checking...)
