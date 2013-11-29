@@ -1,10 +1,10 @@
-#---
-#match:
-#  distribution: "/Net-FullAuto-"
-#  env:
-#    PERL_BATCH: yes
-#disabled: 1
-## Aggresively searches whole disk for BerkeleyDB.
+---
+match:
+  distribution: "/Net-FullAuto-"
+  env:
+    PERL_BATCH: yes
+disabled: 1
+## Frequent releases, but no chances for successful testing...
 ---
 match:
   distribution: "/Net-FullAuto-0\.92\."
