@@ -2,6 +2,5 @@
 match:
   distribution: '/Ado-\d'
 pl:
-  expect:
-    - '\QWe recommend some private prefix:'
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
