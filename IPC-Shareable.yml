@@ -5,3 +5,10 @@ match:
     version: "^5\.10\."
 disabled: 1
 comment: "Seems to fail badly on all 5.10.x. Badly = hanging etc."
+---
+match:
+  distribution: "/IPC-Shareable-0\.61\.tar\.gz"
+test:
+  env:
+    LANG: C
+# otherwise t/35clean.t fails for newer Linux with localized $!
