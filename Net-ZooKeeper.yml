@@ -1,0 +1,16 @@
+---
+match:
+  distribution: '/Net-ZooKeeper-\d'
+  perlconfig:
+    archname: linux
+pl:
+  args:
+    - '--zookeeper-include=/usr/include/zookeeper'
+---
+match:
+  distribution: '/Net-ZooKeeper-\d'
+  perlconfig:
+    archname: freebsd
+pl:
+  args:
+    - '--zookeeper-include=/usr/local/include/c-client-src'
