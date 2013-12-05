@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Net--RabbitMQ-0\.2\.6\'
+  distribution: '/Net--RabbitMQ-0\.2\.6\.'
 test:
   env:
     MQHOST: localhost
