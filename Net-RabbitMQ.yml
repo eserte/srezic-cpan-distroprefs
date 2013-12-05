@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Net--RabbitMQ-0\.2\.6\'
+test:
+  env:
+    MQHOST: localhost
+# see https://rt.cpan.org/Ticket/Display.html?id=70773
+# AMQP 0.9.1 on dev.rabbitmq.com vs. 0.8 in this module
