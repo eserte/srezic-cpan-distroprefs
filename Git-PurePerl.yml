@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Git-PurePerl-0\.48\.'
+  perlconfig:
+    version: '^5\.(18|19)\.'
+patches:
+  - SREZIC/patches/Git-PurePerl-0.48-RT86018.patch
