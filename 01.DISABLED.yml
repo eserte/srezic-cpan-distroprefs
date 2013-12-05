@@ -1152,7 +1152,6 @@ match:
     |JESSE/Net-Trac-0.0[43].tar.gz # kills whole smoker if trac-admin does not exist
     |.*/LedgerSMB-API-\d # needs /usr/local/lesgersmb
     |.*/Kools-Okapi-\d # needs: KPLUSHOME3 must be set to Kondor+ installation directory
-    |.*/Net-ZooKeeper-\d # needs zookeeper, no port?
     |.*/MPEG-MP3Play-\d # needs xaudiosdk (and asks for it), not yet installed
     |.*/Jabber-mod_perl-\d # needs jabberd source code
     |.*/Business-Shipping-UPS_XML-\d # wants UPS user id etc.
