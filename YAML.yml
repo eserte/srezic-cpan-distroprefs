@@ -16,8 +16,9 @@ patches:
 comment: https://rt.cpan.org/Ticket/Display.html?id=73673
 --- 
 match:
-  distribution: "/YAML-\d"
+  distribution: "/YAML-0\.[0-6]\d"
 pl: 
   expect:
     - "\QContinue installing YAML.pm? [y]\E"
     - "\n"
+# Question not asked anymore since 0.67, it seems
