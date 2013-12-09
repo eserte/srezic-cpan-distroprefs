@@ -12,4 +12,7 @@ patches:
 match:
   distribution: "/Data-Dump-Streamer-\d"
 pl:
-  expect: ["\QWould you like me to install the shortcut? (yes/no)\E", "no\n"]
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect: ["\QWould you like me to install the shortcut? (yes/no)\E", "no\n"]
