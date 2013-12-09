@@ -33,7 +33,7 @@ disabled: 1
 --- 
 match:
   distribution: "SREZIC/Tk-804.031.tar.gz"
-goto: "SREZIC/Tk-804.031_501.tar.gz"
+goto: "SREZIC/Tk-804.031_503.tar.gz"
 
 #--- 
 #match:
