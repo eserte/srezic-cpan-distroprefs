@@ -1249,5 +1249,6 @@ match:
     |.*/Net-Azure-StorageClient-\d+ # asks for account name of Windows Azure Blob Storage
     |NIELSD/Speech-Google-0.7.tar.gz # no Makefile.PL
     |JWB/Bio-Grid-Run-SGE-0.034.tar.gz # waits for non-running (and already failed) job for half an hour (problem exists because system perl is used instead of $^X)
+    |GNG/ARS-Simple-0.01.tar.gz # too many questions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
