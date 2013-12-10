@@ -43,22 +43,22 @@ pl:
     - --testuser=test
     - --testpassword=test
     - --testsocket=/tmp/mysql.sock
---- 
-######################################################################
-## Set test database config --- the linux version
-##
-match:
-  distribution: "/DBD-mysql-\d"
-  perlconfig:
-    archname: -linux
-comment: "Fits for debian, needs grant all on test.* to test@'localhost' identified by 'test';"
-pl: 
-  args: 
-    - --testdb=test
-    - --testhost=localhost
-    - --testport=3306
-    - --testuser=test
-    - --testpassword=test
+#--- 
+#######################################################################
+### Set test database config --- the linux version
+###
+#match:
+#  distribution: "/DBD-mysql-\d"
+#  perlconfig:
+#    archname: -linux
+#comment: "Fits for debian, needs grant all on test.* to test@'localhost' identified by 'test';"
+#pl: 
+#  args: 
+#    - --testdb=test
+#    - --testhost=localhost
+#    - --testport=3306
+#    - --testuser=test
+#    - --testpassword=test
 #--- 
 #######################################################################
 ### Set test database config --- the non-linux version
