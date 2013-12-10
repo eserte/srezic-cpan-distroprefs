@@ -1,5 +1,7 @@
 --- 
 match:
   distribution: "/DBD-Oracle-\d"
+  env:
+    DOMAINNAME: herceg.de
 disabled: 1
-comment: "I don't have Oracle installed nowhere"
+comment: "I don't have Oracle installed"
