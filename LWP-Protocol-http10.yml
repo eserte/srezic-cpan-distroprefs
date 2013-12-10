@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/LWP-Protocol-http10-6\.03\.'
+patches:
+  - SREZIC/patches/LWP-Protocol-http10-issue1.patch
