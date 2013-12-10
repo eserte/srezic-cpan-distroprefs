@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/IO-Digest-\d'
+  perlconfig:
+    version: '^5\.(\d|1[012])\.'
+patches:
+  - SREZIC/patches/IO-Digest-0.11-issue1.patch
+# fixed in perl 5.14.0, see
+# http://perldoc.perl.org/perl5140delta.html#Exception-Handling
