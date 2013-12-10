@@ -11,3 +11,4 @@ match:
 patches:
   - SREZIC/patches/PDF-Create-1.06-SREZIC-01.patch
 comment: https://rt.cpan.org/Ticket/Display.html?id=73638
+# Issue fixed in PDF-Create-1.07
