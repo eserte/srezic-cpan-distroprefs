@@ -225,7 +225,6 @@ match:
     |.*/Text-Scws-\d # what is libscws? does not seem to exist in the freebsd ports
     |.*/HTML-CTPP2-\d # needs ctpp2 library, I have only ctpp
     |.*/CIAO-Lib-Param-\d # needs cxcparam lib
-    |.*/Sys-Virt-\d # needs libvirt, which does not exist in FreeBSD's ports
     |.*/Data-LetterTree-\d # needs lettertree lib, not a freebsd port
     |.*/Convert-Ethiopic-\d # needs libeth, not in freebsd
     |.*/Gtk2-ImageView-\d # missing library in freebsd
