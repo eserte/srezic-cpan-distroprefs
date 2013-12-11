@@ -1093,7 +1093,6 @@ match:
      |\QMOGAAL/Dansguardian-0.4.tar.gz\E
      |\QMONS/AnyEvent-Worker-0.05.tar.gz\E
      |\QMONS/XML-RPC-Fast-0.6.tar.gz\E
-     |\QMOOLLAZA/App-DuckPAN-0.132.tar.gz\E
      |\QMORITZ/WebService-Libris-0.02.tar.gz\E
      |\QMORNI/HTML-FormEngine-0.7.4.tar.gz\E
      |\QMORNI/HTML-FormEngine-DBSQL-0.2.1.tar.gz\E
@@ -1402,7 +1401,6 @@ match:
      |\QSARTAK/Pod-Cpandoc-0.01.tar.gz\E
      |\QSARTAK/Template-Declare-0.41.tar.gz\E
      |\QSAXJAZMAN/iodef/Iodef-Pb-Simple-0.01.tar.gz\E
-     |\QSBECK/Locale-Codes-3.27.tar.gz\E
      |\QSBECK/Locale-VersionedMessages-0.91.tar.gz\E
      |\QSCAIN/Bio-GMOD-GenericGenePage-0.11.tar.gz\E
      |\QSCESANO/Lego-Ldraw-0.5.7.1.tar.gz\E
@@ -1700,7 +1698,6 @@ match:
      |\QYAPPO/HTTP-Engine-0.0.6.tar.gz\E
      |\QYAPPO/HTTP-Engine-Middleware-0.01.tar.gz\E
      |\QYAPPO/Module-Setup-0.06.tar.gz\E
-     |\QYEGG/App-DuckPAN-0.123.tar.gz\E
      |\QYSAS/SWF-Builder-0.04.tar.gz\E
      |\QYSAS/SWF-Builder-0.08.tar.gz\E
      |\QYSAS/SWF-File-0.10.tar.gz\E
