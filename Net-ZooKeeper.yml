@@ -6,6 +6,10 @@ match:
 pl:
   args:
     - '--zookeeper-include=/usr/include/zookeeper'
+test:
+  env:
+    ZK_TEST_HOSTS: localhost:2181
+# Tests would pass if the "zookeeperd" debian package was installed and started.
 ---
 match:
   distribution: '/Net-ZooKeeper-\d'
