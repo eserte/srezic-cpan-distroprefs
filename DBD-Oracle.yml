@@ -1,7 +1,23 @@
---- 
+---
 match:
   distribution: "/DBD-Oracle-\d"
   env:
     DOMAINNAME: herceg.de
 disabled: 1
 comment: "I don't have Oracle installed"
+---
+match:
+  distribution: "/DBD-Oracle-\d"
+  perlconfig:
+    archname: 'x86_64-linux'
+pl:
+  env:
+    LD_LIBRARY_PATH: /usr/lib/oracle/11.2/client64/lib/
+make:
+  env:
+    LD_LIBRARY_PATH: /usr/lib/oracle/11.2/client64/lib/
+---
+match:
+  distribution: "/DBD-Oracle-\d"
+disabled: 1
+comment: "No build instructions for this architecture"
