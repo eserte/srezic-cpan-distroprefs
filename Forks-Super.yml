@@ -7,23 +7,30 @@ match:
     PERL_BATCH: yes
 disabled: 1
 # tests hang or take forever
+#---
+#match:
+#  distribution: "/Forks-Super-0."
+#  perlconfig:
+#    archname: "-freebsd"
+#pl:
+#  eexpect:
+#    mode: anyorder
+#    talk:
+#      - '\QDo you want to attempt to install Sys::CpuLoadX'
+#      - "\n"
+#      - '\QDo you want to attempt to install Sys::CpuAffinity'
+#      - "n\n"
+#    timeout: 60
+## Sys::CpuAffinity does not build under freebsd, it seems
 ---
 match:
   distribution: "/Forks-Super-0."
-  perlconfig:
-    archname: "-freebsd"
-  env:
-    PERL_BATCH: yes
-disabled: 1
-# disable tests for all forthcoming version on freebsd
----
-match:
-  distribution: "/Forks-Super-0.53"
 pl:
-  expect:
-    - "\QDo you want to attempt to install Sys::CpuLoadX v0.03?"
-    - "\n"
-  env:
-    PERL_BATCH: yes
-disabled: 1
-# tests still hang or take forever
+  eexpect:
+    mode: anyorder
+    talk:
+      - '\QDo you want to attempt to install Sys::CpuLoadX'
+      - "\n"
+      - '\QDo you want to attempt to install Sys::CpuAffinity'
+      - "\n"
+    timeout: 120
