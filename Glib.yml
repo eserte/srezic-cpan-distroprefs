@@ -20,3 +20,11 @@ match:
     archname: '^amd64-freebsd$'
 patches:
   - SREZIC/patches/Glib-1.262-nothreads.patch
+---
+# RT ticket: https://rt.cpan.org/Ticket/Display.html?id=91313
+# probably only older Linux distributions (Ubuntu ~12, Mint 13) are affected
+match:
+  distribution: "/Glib-1\.303\."
+  perlconfig:
+    archname: 'linux'
+goto: XAOC/Glib-1.302.tar.gz
