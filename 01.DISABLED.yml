@@ -1217,6 +1217,7 @@ match:
     |MTHURN/WWW-Search-Ebay-Europe-2.011.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=83741)
     |MTHURN/WWW-Search-Ebay-Europe-2.012.tar.gz # also permission problem (without checking...)
     |MTHURN/WWW-Search-Ebay-Europe-2.013.tar.gz # also permission problem (without further checking...)
+    |MTHURN/WWW-Amazon-Wishlist-2.009.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=91441)
     |COSIMO/Net-Statsd-Server-0.09.tar.gz # hangs on freebsd8
     |COSIMO/Net-Statsd-Server-0.10.tar.gz # hangs on freebsd8 and freebsd9 (Couldn't set SO_RCVBUF: No buffer space available)
     |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
