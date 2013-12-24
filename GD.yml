@@ -19,6 +19,18 @@ patches:
   - "SREZIC/patches/GD-2.45-SREZIC-01.patch"
 comment: "freebsd 8.0 and 9.0 ships with new libjpeg, which produces slightly different bits"
 # https://rt.cpan.org/Ticket/Display.html?id=49053
+---
+match:
+  distribution: "/GD-2\.(50)\."
+  perlconfig:
+# try to match debian/wheezy
+    myuname: "linux.*3\.2\.0-4-.* debian 3\.2\."
+patches:
+  - "SREZIC/patches/GD-2.45-SREZIC-01.patch"
+# no interactivity in case libs/include files are missing
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
 --- 
 match:
   module: "^GD$"
