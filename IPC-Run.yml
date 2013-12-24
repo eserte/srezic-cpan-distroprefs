@@ -4,3 +4,10 @@ match:
 test:
   env:
     LANG: C
+## Unfortunately, 0.92_01 is only on backpan...
+#---
+#match:
+#  distribution: "/IPC-Run-0\.92\.tar\.gz"
+#  perlconfig:
+#    archname: "-linux"
+#goto: TODDR/IPC-Run-0.92_01.tar.gz
