@@ -6,3 +6,11 @@ match:
 pl:
   args: ["--no-version-check"]
 # Geo-GDAL 1.90 works with gdal 1.9.2 which comes with freebsd 9.2
+---
+match:
+  distribution: '/Geo-GDAL-1\.90\.'
+  perlconfig:
+    archname: '-linux'
+patches:
+  - SREZIC/patches/Geo-GDAL-1.90-RT91636.patch
+# patch needed at least for debian/wheezy
