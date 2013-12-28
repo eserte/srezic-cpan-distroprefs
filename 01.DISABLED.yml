@@ -1223,7 +1223,8 @@ match:
     |COSIMO/Net-Statsd-Server-0.10.tar.gz # hangs on freebsd8 and freebsd9 (Couldn't set SO_RCVBUF: No buffer space available)
     |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
     |SILLYMOOS/ProxyManager-0.01.tar.gz # BUILD.PL instead of Build.PL
-    |RGARTON/Statistics-Zed-0.071.tar.gz # wrong permissions in tarball
+    |RGARTON/Statistics-Zed-0.071.tar.gz # wrong permissions in tarball (fixed in 0.072)
+    |RGARTON/Statistics-Autocorrelation-0.05.tar.gz # wrong permissions in tarball - https://rt.cpan.org/Ticket/Display.html?id=91704
     |JFRIED/Rex-Endpoint-HTTP-0.35.0.tar.gz # invisible interactive question when doing a "mv"
     |BABKIN/triceps-1.0.91-20121129.tgz # no Makefile.PL
     |RKIES/deskpad-0.75.tar.gz # no Makefile.PL
