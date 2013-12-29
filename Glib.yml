@@ -23,6 +23,8 @@ patches:
 ---
 # RT ticket: https://rt.cpan.org/Ticket/Display.html?id=91313
 # probably only older Linux distributions (Ubuntu ~12, Mint 13) are affected
+# Fixed in https://git.gnome.org/browse/perl-Glib/commit/?id=4e85501a3b03c4636dc1d9529bcacdffcbfadf2c
+# waiting for a new release
 match:
   distribution: "/Glib-1\.303\."
   perlconfig:
