@@ -8,6 +8,19 @@ pl:
 patches:
   - SREZIC/patches/Data-Dump-Streamer-2.34-RT82958.patch
   - SREZIC/patches/Data-Dump-Streamer-2.34-RT79127.patch
+#--- 
+#match:
+#  distribution: "/Data-Dump-Streamer-2\.36\."
+#  perlconfig:
+#    version: "5\.(17|18|19|20)\."
+#pl:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
+#patches:
+#  - SREZIC/patches/Data-Dump-Streamer-2.34-RT79127.patch
+## Unfortunately the patch above is not enough --- there's a JSON::XS-related problem,
+## see https://rt.cpan.org/Ticket/Display.html?id=90128
+## No fix for this one...
 --- 
 match:
   distribution: "/Data-Dump-Streamer-\d"
