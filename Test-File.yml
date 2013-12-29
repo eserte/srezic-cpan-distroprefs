@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Test-File-1\.35\.'
+  perlconfig:
+    version: '^5\.19\.'
+goto: 'BAREFOOT/Test-File-1.35_01.tar.gz'
