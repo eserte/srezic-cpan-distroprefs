@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Net-LibIDN-0\.12\.'
+  perlconfig:
+    archname: freebsd
+pl:
+  args: ["--with-libidn=/usr/local/lib", "--with-libidn-inc=/usr/local/include"]
