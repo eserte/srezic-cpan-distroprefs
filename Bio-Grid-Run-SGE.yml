@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Bio-Grid-Run-SGE-0\.038\.'
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# Tests use many scripts with default (system) perl --- this cannot work
+# Unfortunately in case of errors the tests run very very long.
