@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Prima-1\.37\.'
+  perlconfig:
+    osname: freebsd
+pl:
+  args: ['X11BASE=/usr/local']
