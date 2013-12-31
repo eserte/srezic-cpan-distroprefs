@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/BSD-Sysctl-0\.10\.'
+  perlconfig:
+    osname: freebsd
+    osvers: 10.0
+patches:
+  - SREZIC/patches/BSD-Sysctl-0.10-RT91678.patch
+# patch by FULLERMD
