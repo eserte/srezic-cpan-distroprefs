@@ -2,6 +2,9 @@
 match:
   distribution: "/AnyEvent-DBI-MySQL-\d"
 pl:
-  expect:
-    - "\QEnter database name (empty/space to skip test):"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect:
+#    - "\QEnter database name (empty/space to skip test):"
+#    - "\n"
