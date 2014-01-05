@@ -3,7 +3,7 @@ match:
   distribution: "/GD-2\.(50)\."
   perlconfig:
     archname: "-freebsd"
-    osvers: "9.2-release"
+    osvers: '^(9\.2-release|10\.)'
 patches:
   - "SREZIC/patches/GD-2.45-SREZIC-01.patch"
   - "SREZIC/patches/GD-2.50-SREZIC-02.patch"
