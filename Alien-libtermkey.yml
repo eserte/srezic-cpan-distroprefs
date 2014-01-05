@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Alien-libtermkey-0\.16\.'
+  perlconfig:
+    osname: freebsd
+    osvers: '^10\.'
+patches:
+  - SREZIC/patches/Alien-libtermkey-0.16-RT91873.patch
