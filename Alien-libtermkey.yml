@@ -4,5 +4,7 @@ match:
   perlconfig:
     osname: freebsd
     osvers: '^10\.'
-patches:
-  - SREZIC/patches/Alien-libtermkey-0.16-RT91873.patch
+#patches:
+#  - SREZIC/patches/Alien-libtermkey-0.16-RT91873.patch
+## Does not work: src/Makefile only exists later, so it's not
+## possible to patch using distroprefs.
