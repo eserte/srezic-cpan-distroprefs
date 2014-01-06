@@ -2,6 +2,16 @@
 match:
   distribution: "/BerkeleyDB-\d"
   perlconfig:
+    osname: freebsd
+    osvers: '^10\.'
+pl:
+  env:
+    BERKELEYDB_INCLUDE: /usr/local/include/db48
+    BERKELEYDB_LIB: /usr/local/lib/db48
+---
+match:
+  distribution: "/BerkeleyDB-\d"
+  perlconfig:
     archname: i386-freebsd
 pl:
   env:
