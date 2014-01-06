@@ -5,3 +5,4 @@ match:
     osname: freebsd
 pl:
   args: ['X11BASE=/usr/local']
+# https://rt.cpan.org/Ticket/Display.html?id=91759
