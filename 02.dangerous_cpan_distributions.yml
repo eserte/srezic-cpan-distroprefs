@@ -467,6 +467,8 @@ match:
      |\QESUMMERS/HTML-DublinCore-0.3.tar.gz\E
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
+     |\QETHER/Moose-2.1005.tar.gz\E
+     |\QETJ/Mail-POP3-3.03.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -774,6 +776,7 @@ match:
      |\QJMASON/Mail-SpamAssassin-3.2.5.tar.gz\E
      |\QJMASTROS/Pod-Inherit-0.07.tar.gz\E
      |\QJMCNAMARA/Excel-Writer-XLSX-0.51.tar.gz\E
+     |\QJMERELO/Algorithm-Evolutionary-0.78.tar.gz\E
      |\QJMGDOC/ODF-lpOD-1.109.tar.gz\E
      |\QJMVILOMET/Term-WinConsole-0.01.tar.gz\E
      |\QJOENIO/Graph-Writer-DSM-0.002.tar.gz\E
@@ -844,6 +847,7 @@ match:
      |\QKAMENSKY/Text-Bidi-0.03.tar.gz\E
      |\QKAMENSKY/Text-Bidi-2.01.tar.gz\E
      |\QKAMENSKY/Text-Bidi-2.02.tar.gz\E
+     |\QKAN/pantheon-0.50.tar.gz\E
      |\QKANE/Archive-Tar-0.23.tgz\E
      |\QKANE/CPANPLUS-0.84.tar.gz\E
      |\QKANE/File-Fetch-0.08.tar.gz\E
@@ -1008,6 +1012,7 @@ match:
      |\QMARKOV/POSIX-1003-0.11.tar.gz\E
      |\QMARKOV/POSIX-1003-0.13.tar.gz\E
      |\QMARKOV/XML-Compile-SOAP-0.78.tar.gz\E
+     |\QMARKOV/XML-Compile-SOAP-2.38.tar.gz\E
      |\QMARKSTOS/CGI-Application-3.31.tar.gz\E
      |\QMARKSTOS/CGI-Application-4.21.tar.gz\E
      |\QMARKSTOS/CGI-Session-4.43.tar.gz\E
@@ -1053,7 +1058,6 @@ match:
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
      |\QMIKIHOSHI/Acme-PrettyCure-0.02.tar.gz\E
      |\QMIKIHOSHI/Acme-PrettyCure-0.1.3.tar.gz\E
-     |\QMIKIHOSHI/Acme-PrettyCure-v0.1.2.tar.gz\E
      |\QMIKIHOSHI/Smart-Options-0.051.tar.gz\E
      |\QMIRK/Net-Z3950-0.35.tar.gz\E
      |\QMITTI/Device-SerialPort-Xmodem-1.01.tar.gz\E
@@ -1103,8 +1107,6 @@ match:
      |\QMOGAAL/Dansguardian-0.4.tar.gz\E
      |\QMONS/AnyEvent-Worker-0.05.tar.gz\E
      |\QMONS/XML-RPC-Fast-0.6.tar.gz\E
-     |\QMORITZ/WebService-Libris-0.02.tar.gz\E
-     |\QMORITZ/WebService-Libris-0.07.tar.gz\E
      |\QMORNI/HTML-FormEngine-0.7.4.tar.gz\E
      |\QMORNI/HTML-FormEngine-DBSQL-0.2.1.tar.gz\E
      |\QMORTY/DateConvert-0.14.tgz\E
@@ -1459,7 +1461,6 @@ match:
      |\QSHIBUYA/Amon2-Setup-Flavor-Teng-0.02.tar.gz\E
      |\QSHLOMIF/App-Sky-0.0.1.tar.gz\E
      |\QSHLOMIF/Cache-2.05.tar.gz\E
-     |\QSHLOMIF/Dist-Zilla-Plugin-Mercurial-0.02.tar.gz\E
      |\QSHLOMIF/File-Find-Object-v0.2.7.tar.gz\E
      |\QSHLOMIF/Games-ABC_Path-Generator-v0.1.0.tar.gz\E
      |\QSHLOMIF/XML-CompareML-v0.2.7.tar.gz\E
@@ -1491,6 +1492,7 @@ match:
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
+     |\QSMONF/Dependencies-Searcher-0.06.1.tar.gz\E
      |\QSMUELLER/Math-Symbolic-0.608.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
