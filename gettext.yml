@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/gettext-1\.05\.'
+  perlconfig:
+    osname: freebsd
+pl:
+  env:
+    CC: 'cc -L/usr/local/lib -I/usr/local/include'
+# see https://rt.cpan.org/Ticket/Display.html?id=16098
