@@ -1,13 +1,18 @@
 --- 
 match:
-  distribution: "/DBIx-Class-0\.0[1234567]"
+  distribution: '/DBIx-Class-0\.0[1234567]'
 disabled: 1
 --- 
 match:
-  distribution: "/DBIx-Class-\d"
+  distribution: '/DBIx-Class-0.08250\.tar\.gz'
+goto: 'RIBASUSHI/DBIx-Class-0.08250_03.tar.gz'
+# see https://rt.cpan.org/Public/Bug/Display.html?id=91947
+---
+match:
+  distribution: '/DBIx-Class-\d'
   perlconfig:
 # essentially Unix-like systems:
-    archname: "(freebsd|linux)"
+    archname: '(freebsd|linux)'
 #pl:
 #  eexpect:
 #    timeout: 5
@@ -17,4 +22,4 @@ match:
 #      - "\Q==> Auto-install the \E\d+\Q \E(mandatory|optional)\Q module(s) from CPAN? [y]"
 #      - "\n"
 test:
-  commandline: "make test DBIC_NO_WARN_BAD_PERL=1"
+  commandline: 'make test DBIC_NO_WARN_BAD_PERL=1'
