@@ -1249,6 +1249,7 @@ match:
     |.*/ServiceNow-Simple-\d # needs a test system (?)
     |INA/japerl/japerl-0\.01\. # does not have a Makefile.PL, but a pMakefile.PL (?)
     |INA/japerl/japerl-0\.02\. # does not have a Makefile.PL, but a pMakefile.PL (?)
+    |INA/Strict/Perl/Strict-Perl-2014.01.tar.gz # does not have a Makefile.PL, but a pMakefile.PL (?)
     |.*/Net-Azure-StorageClient-\d+ # asks for account name of Windows Azure Blob Storage
     |NIELSD/Speech-Google-0.7.tar.gz # no Makefile.PL
     |JWB/Bio-Grid-Run-SGE-0.(034|037).tar.gz # waits for non-running (and already failed) job for half an hour (problem exists because system perl is used instead of $^X)
