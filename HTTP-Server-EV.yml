@@ -3,11 +3,13 @@ match:
   distribution: "/HTTP-Server-EV-\d"
 pl:
   expect:
+## no -> because IO::AIO is not available on some platforms (e.g. freebsd)
     - "\Q- Install IO::AIO for asynchronous disk IO"
     - "n\n"
-## no -> because IO::AIO is not available on some platforms (e.g. freebsd)
+    - "\QConfig buffer sizes"
+    - "\n"
 
-## This die not work:
+## This did not work:
 #depends:
 #  configure_requires:
 #    IO::AIO: y
