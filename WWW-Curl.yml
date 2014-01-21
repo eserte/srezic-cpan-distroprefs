@@ -1,5 +1,15 @@
 ---
 match:
+  distribution: '/WWW-Curl-4\.15\.'
+  perlconfig:
+    archname: 'freebsd$'
+    osvers: '^(9|10)\.'
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# Hangs with unthreaded perl, maybe -pthread is needed?
+---
+match:
   distribution: "/WWW-Curl-\d"
 ## Not needed anymore, also cause CPAN::Reporter to send reports automatically
 #test:
