@@ -63,7 +63,7 @@
 
 all:	do-stuff
 
-do-stuff: validate dd-prefs permissions remove-outdated-dd
+do-stuff: validate dd-prefs permissions remove-outdated-dd remove-outdated-valid
 
 update:	git-pull
 	{ system $0, "do-stuff" }
@@ -145,6 +145,23 @@ remove-outdated-dd:
 		$yml .= ".yml";
 		if (!-e $yml) {
 		    push @candidates, $dd;
+		}
+	    }
+	    if (@candidates) {
+		print STDERR "About to remove @candidates...\n";
+		unlink @candidates;
+	    }
+	    "";
+	}
+
+remove-outdated-valid:
+	{
+	    my @candidates;
+	    for my $valid (glob(".validated/*.yml")) {
+		my($yml) = $valid =~ m{^\.validated/(.*)\.yml$};
+		$yml .= ".yml";
+		if (!-e $yml) {
+		    push @candidates, $valid;
 		}
 	    }
 	    if (@candidates) {
