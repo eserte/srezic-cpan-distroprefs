@@ -230,7 +230,6 @@ match:
     |.*/Gtk2-ImageView-\d # missing library in freebsd
     |.*/String-Thai-Segmentation-\d # needs libwordcut
     |.*/Text-Migemo-\d # needs libmigemo
-    |.*/Tie-Judy-\d # needs libJudy
     |.*/Gtk2-WebKit-\d # needs webkit-1.0
     |.*/IBM-LoadLeveler- # only linux and aix
     |.*/text_hunspell_\d # is this hunspell? but probably not worth...
@@ -1147,7 +1146,6 @@ match:
     |.*/DB_File-SV18x-kit-\d # questions about bdb version
     |OESI/GSAPI-0.5.tar.gz # need to install ghostscript first
     |.*/CGI-Application-Plugin-Apache-1.01.tar.gz # test hangs (maybe only if prereqs (Apache?) are missing)
-    |.*/Alien-Judy-\d # not needed to build, I have libjudy installed
     |.*/Data-UUID-LibUUID-\d # there are some ports providing libuuid.a, but which one is the correct one?
     |JESSE/Net-Trac-0.0[43].tar.gz # kills whole smoker if trac-admin does not exist
     |.*/LedgerSMB-API-\d # needs /usr/local/lesgersmb
