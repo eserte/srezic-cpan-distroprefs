@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/IO-Socket-Socks-0\.63\.'
+  env:
+    PERL_BATCH: yes
+disabled: 1
+# Temporarily disabled, maybe problems with IO::Socket::IP replacing IO::Socket::INET?
