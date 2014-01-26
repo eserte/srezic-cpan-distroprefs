@@ -1,7 +1,8 @@
 ---
 match:
-  distribution: '/IO-Socket-Socks-0\.63\.'
+  distribution: '/IO-Socket-Socks-0\.63(_1)?\.'
   env:
     PERL_BATCH: yes
 disabled: 1
 # Temporarily disabled, maybe problems with IO::Socket::IP replacing IO::Socket::INET?
+# Disabled because of an endless loop, overflowing typescript files
