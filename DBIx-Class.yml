@@ -5,7 +5,7 @@ disabled: 1
 --- 
 match:
   distribution: '/DBIx-Class-0.08250\.tar\.gz'
-goto: 'RIBASUSHI/DBIx-Class-0.08250_03.tar.gz'
+goto: 'RIBASUSHI/DBIx-Class-0.08250_06.tar.gz'
 # see https://rt.cpan.org/Public/Bug/Display.html?id=91947
 ---
 match:
