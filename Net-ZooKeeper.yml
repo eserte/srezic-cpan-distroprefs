@@ -1,5 +1,19 @@
 ---
 match:
+  distribution: '/Net-ZooKeeper-0\.35\.'
+  perlconfig:
+    archname: linux
+pl:
+  args:
+    - '--zookeeper-include=/usr/include/zookeeper'
+test:
+  env:
+    ZK_TEST_HOSTS: localhost:2181
+# Tests would pass if the "zookeeperd" debian package was installed and started.
+patches:
+  - SREZIC/patches/Net-ZooKeeper-0.35-RT91216.patch 
+---
+match:
   distribution: '/Net-ZooKeeper-\d'
   perlconfig:
     archname: linux
