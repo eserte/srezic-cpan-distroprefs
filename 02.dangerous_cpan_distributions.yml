@@ -49,6 +49,7 @@ match:
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.11.tar.gz\E
+     |\QAKHUETTEL/Lab-Measurement-3.30.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
@@ -135,6 +136,7 @@ match:
      |\QAWIN/PerlQt-1.06.tar.gz\E
      |\QAWIN/PerlQt-2.105.tar.gz\E
      |\QAWIN/Qt-0.03.tar.gz\E
+     |\QAWNCORP/Bubblegum-0.06.tar.gz\E
      |\QAWNCORP/DBIx-Simple-Batch-1.68.tar.gz\E
      |\QAWNCORP/Dancer-Plugin-ORMesque-1.103180.tar.gz\E
      |\QAWNCORP/Email-Sender-Server-0.50.tar.gz\E
@@ -224,6 +226,7 @@ match:
      |\QBULB/Config-Maker-0.001.tar.gz\E
      |\QBYRNE/SOAP-Lite-0.69.tar.gz\E
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
+     |\QBYUTRG/TBX-Min-0.03.tar.gz\E
      |\QCANID/Yote-0.1005.tar.gz\E
      |\QCANID/Yote-0.1008.tar.gz\E
      |\QCAPOEIRAB/WWW-Salesforce-0.11.tar.gz\E
@@ -1015,6 +1018,7 @@ match:
      |\QMARKSTOS/Data-FormValidator-4.66.tar.gz\E
      |\QMARKSTOS/SQL-Interp-1.02.tar.gz\E
      |\QMAROS/App-iTan-1.03.tar.gz\E
+     |\QMAROS/App-iTan-1.04.tar.gz\E
      |\QMAROS/Business-UPS-Tracking-1.07.tar.gz\E
      |\QMAROS/MooseX-App-1.10.tar.gz\E
      |\QMAROS/MooseX-App-1.17.tar.gz\E
@@ -1080,6 +1084,7 @@ match:
      |\QMIZZY/Text-Trac-0.04.tar.gz\E
      |\QMIZZY/Text-Trac-0.05.tar.gz\E
      |\QMJD/Text-Template-0.1b.tar.gz\E
+     |\QMJEMMESON/Geo-UK-Postcode-Regex-0.009.tar.gz\E
      |\QMJFLICK/Drogo-0.07.tar.gz\E
      |\QMJFLICK/Drogo-0.09.tar.gz\E
      |\QMKENNEDY/FLTK-0.52.tar.gz\E
@@ -1269,7 +1274,6 @@ match:
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
-     |\QPJFL/class-usul/Class-Usul-0.35.1.tar.gz\E
      |\QPKUBANEK/XML-Clean-1.010101.tar.gz\E
      |\QPLAVEN/Padre-0.90.tar.gz\E
      |\QPLAVEN/Padre-0.92.tar.gz\E
@@ -1344,6 +1348,7 @@ match:
      |\QRJBS/Try-Tiny-0.07.tar.gz\E
      |\QRJBS/perl-5.18.0.tar.bz2\E
      |\QRJBS/perl-5.18.1.tar.gz\E
+     |\QRJESCHMI/Archive-BagIt-0.033.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
      |\QRKOBES/Apache-GeoIP-1.63.tar.gz\E
@@ -1461,6 +1466,7 @@ match:
      |\QSHLOMIF/App-XML-DocBook-Builder-0.0402.tar.gz\E
      |\QSHLOMIF/Cache-2.05.tar.gz\E
      |\QSHLOMIF/Class-Generate-1.13.tar.gz\E
+     |\QSHLOMIF/Error-0.17021.tar.gz\E
      |\QSHLOMIF/File-Find-Object-v0.2.7.tar.gz\E
      |\QSHLOMIF/Games-ABC_Path-Generator-v0.1.0.tar.gz\E
      |\QSHLOMIF/XML-CompareML-v0.2.7.tar.gz\E
@@ -1552,6 +1558,7 @@ match:
      |\QTFOUCART/WWW-Sucksub-Divxstation-0.01.tar.gz\E
      |\QTHALJEF/Pinto-0.090.tar.gz\E
      |\QTHALJEF/Pinto-0.092.tar.gz\E
+     |\QTHALJEF/Pinto-0.097.tar.gz\E
      |\QTHHAMON/Lingua-YaTeA-0.5.tar.gz\E
      |\QTHOMAS/Apache-DnsZone-0.1.tar.gz\E
      |\QTHOSPEL/Heap-Simple-0.06.tar.gz\E
