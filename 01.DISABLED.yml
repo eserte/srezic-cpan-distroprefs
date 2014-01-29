@@ -1242,6 +1242,7 @@ match:
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
     |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
     |.*/ZMQ-FFI-0\.08\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
+    |.*/ZMQ-FFI-0\.09\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
     |KSOLOMKO/Apache2-AuthCookieLDAP-1.10.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=86316
     |.*/XAS-\d # needs STOMP MQ Server
     |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
