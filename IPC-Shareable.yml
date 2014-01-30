@@ -12,3 +12,4 @@ test:
   env:
     LANG: C
 # otherwise t/35clean.t fails for newer Linux with localized $!
+# https://rt.cpan.org/Public/Bug/Display.html?id=91197
