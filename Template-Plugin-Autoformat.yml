@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Template-Plugin-Autoformat-2\.71\.'
+test:
+  env:
+    LANG: C
+# This was suggested in https://rt.cpan.org/Public/Bug/Display.html?id=41796
+# But still does not work, 20 test cases fail.
