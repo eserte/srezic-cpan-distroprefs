@@ -711,6 +711,7 @@ match:
     |.*/RTx-From-\d
     |.*/RTx-GoogleAnalytics-\d
     |.*/RTx-MD5Auth-\d
+    |.*/RTx-QuickUpdateUserComments-\d
     |.*/RTx-RT34-Bulk-CF-Edit-\d
     |.*/RTx-RemoteLinks-\d
     |.*/RTx-RightsMatrix-\d # needs RT
