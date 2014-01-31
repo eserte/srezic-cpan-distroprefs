@@ -716,6 +716,7 @@ match:
     |.*/RTx-RemoteLinks-\d
     |.*/RTx-RightsMatrix-\d # needs RT
     |.*/RTx-S3Invoker-\d
+    |.*/RTx-Search-FullTextByDefault-\d
     |.*/RTx-Shredder-\d # needs RT
     |.*/RTx-Tags-\d
     |.*/RTx-TicketlistTransactions-\d
