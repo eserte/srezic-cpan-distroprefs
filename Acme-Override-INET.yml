@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Acme-Override-INET-\d'
+disabled: 1
+# Don't install by default
