@@ -2,6 +2,9 @@
 match:
   distribution: "/Dist-Zilla-Plugin-Pinto-Add-\d"
 pl:
-  expect:
-    - "\QShall I also install Pinto?"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect:
+#    - "\QShall I also install Pinto?"
+#    - "\n"
