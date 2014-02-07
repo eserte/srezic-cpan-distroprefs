@@ -743,6 +743,7 @@ match:
     |.*/RT-Condition-Complex-\d
     |.*/RT-Condition-NotStartedInBusinessHours-\d
     |.*/RT-Condition-OwnershipChanges-\d
+    |.*/RT-Condition-UntouchedInBusinessHours-\d
     |.*/RT-Crypt-SMIME-\d
     |.*/RT-Extension- # all RT extensions probably need path to RT
     |.*/rt-extension- # lowercase
