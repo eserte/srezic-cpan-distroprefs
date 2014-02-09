@@ -1242,6 +1242,7 @@ match:
     |COOLMEN/Test-Mojo-More-0.02.tar.gz # requires perl 5.100 by accident, see https://rt.cpan.org/Public/Bug/Display.html?id=84679
     |NIELSD/Speech-Google-0.5.tar.gz # no Makefile.PL, no Build.PL
     |.*/Plack-App-BeanstalkConsole-\d # not tested, see <20130531223444.GJ2094 <AT> tequila.etheridge.ca>
+    |.*/ZMQ-LibZMQ2-1\.07\. # tests hang on freebsd 9.2
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
     |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
     |.*/ZMQ-FFI-0\.08\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
