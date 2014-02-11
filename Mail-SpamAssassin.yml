@@ -8,6 +8,19 @@ match:
   distribution: "/Mail-SpamAssassin-3\.1.\d"
 disabled: 1
 comment: "ignore old distribution"
+---
+match:
+  distribution: "/Mail-SpamAssassin-3\.4\.0\."
+  perlconfig:
+    osname: freebsd
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+test:
+  env:
+    SCRIPT: ""
+# Make sure script's setting of the SCRIPT environment variable
+# is undone.
 --- 
 match:
   distribution: "/Mail-SpamAssassin-\d"
