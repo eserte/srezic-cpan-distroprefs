@@ -33,22 +33,8 @@ pl:
     PERL_MM_USE_DEFAULT: 1
 --- 
 match:
-  module: "^GD$"
-  perlconfig:
-    myuname: "gnulinux"
+  module: "/GD-2\."
+# no interactivity in case libs/include files are missing
 pl:
-  expect:
-    - "\QWhere is libgd installed? [/usr/lib]\E"
-    - "\n"
-    - "\QBuild JPEG support? [y]\E"
-    - "\n"
-    - "\QBuild PNG support? [y]\E"
-    - "\n"
-    - "\QBuild FreeType support? [y]\E"
-    - "\n"
-    - "\QBuild GIF support? [y]\E"
-    - "\n"
-    - "\QBuild support for animated GIFs? [y]\E"
-    - "\n"
-    - "\QBuild XPM support? [y]\E"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
