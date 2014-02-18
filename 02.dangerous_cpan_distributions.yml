@@ -136,9 +136,12 @@ match:
      |\QAWIN/PerlQt-2.105.tar.gz\E
      |\QAWIN/Qt-0.03.tar.gz\E
      |\QAWNCORP/Bubblegum-0.06.tar.gz\E
+     |\QAWNCORP/Bubblegum-0.09.tar.gz\E
+     |\QAWNCORP/Bubblegum-0.10.tar.gz\E
      |\QAWNCORP/DBIx-Simple-Batch-1.68.tar.gz\E
      |\QAWNCORP/Dancer-Plugin-ORMesque-1.103180.tar.gz\E
      |\QAWNCORP/Email-Sender-Server-0.50.tar.gz\E
+     |\QAWNCORP/Faker-0.04.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
      |\QAWNCORP/SweetPea-2.25.tar.gz\E
      |\QAWNCORP/SweetPea-Application-0.022.tar.gz\E
@@ -226,6 +229,7 @@ match:
      |\QBULB/Config-Maker-0.001.tar.gz\E
      |\QBYRNE/SOAP-Lite-0.69.tar.gz\E
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
+     |\QCALID/ZMQ-FFI-0.10.tar.gz\E
      |\QCANID/Yote-0.1005.tar.gz\E
      |\QCANID/Yote-0.1008.tar.gz\E
      |\QCAPOEIRAB/WWW-Salesforce-0.11.tar.gz\E
@@ -536,6 +540,7 @@ match:
      |\QGARU/Padre-Plugin-Catalyst-0.09.tar.gz\E
      |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
+     |\QGENE/Chess-Rep-Coverage-0.1003.tar.gz\E
      |\QGETTY/App-DuckPAN-0.115.tar.gz\E
      |\QGETTY/GID-0.003.tar.gz\E
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
@@ -861,6 +866,7 @@ match:
      |\QKAWASAKI/XML-FeedPP-0.42.tar.gz\E
      |\QKAZEBURO/DBIx-Sunny-0.20.tar.gz\E
      |\QKAZEBURO/Kossy-0.07.tar.gz\E
+     |\QKAZEBURO/Kossy-0.28.tar.gz\E
      |\QKAZUHO/Starlet-0.14.tar.gz\E
      |\QKAZUNORI/Furl-Cookies-0.01.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.13.tar.gz\E
@@ -1017,6 +1023,7 @@ match:
      |\QMAROS/Business-UPS-Tracking-1.07.tar.gz\E
      |\QMAROS/MooseX-App-1.10.tar.gz\E
      |\QMAROS/MooseX-App-1.17.tar.gz\E
+     |\QMAROS/MooseX-App-1.23.tar.gz\E
      |\QMAROS/Text-Phonetic-1.07.tar.gz\E
      |\QMASAHJI/DB-Introspector-0.01a.tgz\E
      |\QMASAKI/HTTP-Router-0.01.tar.gz\E
@@ -1054,6 +1061,7 @@ match:
      |\QMIKIHOSHI/Acme-PrettyCure-0.02.tar.gz\E
      |\QMIKIHOSHI/Acme-PrettyCure-0.1.3.tar.gz\E
      |\QMIKIHOSHI/Smart-Options-0.051.tar.gz\E
+     |\QMIKRA/Tk-MK-0.21.tar.gz\E
      |\QMILSO/SchemaView-Plus-0.16.tar.gz\E
      |\QMIRK/Net-Z3950-0.35.tar.gz\E
      |\QMITTI/Device-SerialPort-Xmodem-1.01.tar.gz\E
@@ -1086,6 +1094,7 @@ match:
      |\QMKRULL/Ruby-VersionManager-0.003020.tar.gz\E
      |\QMKUL/Net-RRP-0.03.tar.gz\E
      |\QMKUTTER/SOAP-Lite-0.715.tar.gz\E
+     |\QMLAWREN/OptArgs-0.1.4.tar.gz\E
      |\QMLAWREN/Sys-Cmd-0.81.0.tar.gz\E
      |\QMLEHMANN/Gimp-1.211.tar.gz\E
      |\QMLEHMANN/Gnome2-Print-0.52.tar.gz\E
@@ -1208,11 +1217,11 @@ match:
      |\QNWETTERS/WWW-AdServer-0.02.tar.gz\E
      |\QNWIGER/CGI-FormBuilder-3.06.tgz\E
      |\QNWIGER/Config-Fast-1.06.tar.gz\E
-     |\QOETIKER/Mojolicious-Plugin-Qooxdoo-0.1.tar.gz\E
      |\QOLAF/Net-DNS-0.68.tar.gz\E
      |\QOLIVER/App-Netdisco-2.004002.tar.gz\E
      |\QOLIVER/App-Netdisco-2.006000.tar.gz\E
      |\QOLIVER/App-Netdisco-2.021000.tar.gz\E
+     |\QOLIVER/App-Netdisco-2.023000.tar.gz\E
      |\QOLIVER/Catalyst-Plugin-AutoCRUD-1.112770.tar.gz\E
      |\QOLIVER/Net-Appliance-Session-2.111080.tar.gz\E
      |\QOLIVER/Net-Appliance-Session-3.122530.tar.gz\E
@@ -1504,7 +1513,6 @@ match:
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
-     |\QSMONF/Dependencies-Searcher-0.06.1.tar.gz\E
      |\QSMUELLER/Math-Symbolic-0.608.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSONGMU/Ukigumo-Client-0.18.tar.gz\E
@@ -1581,6 +1589,7 @@ match:
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTJOHNSON/Farly-0.12.tar.gz\E
+     |\QTJPARNELL/Bio-ToolBox-v1.14.1.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
      |\QTKR/Treex-Parser-MSTperl-0.08055.tar.gz\E
