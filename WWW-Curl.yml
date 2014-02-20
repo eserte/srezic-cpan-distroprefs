@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/WWW-Curl-4\.15\.'
+  distribution: '/WWW-Curl-4\.(15|16)\.'
   perlconfig:
     archname: 'freebsd$'
     osvers: '^(9|10)\.'
