@@ -1266,5 +1266,6 @@ match:
     |ILYAZ/os2/5.004_55\+/plinstl0\.zip # not really testable
     |LMOLNAR/perl542b.zip # some perl dist
     |.*/Mojo-IRC-0\.05\. # tests often hang on freebsd 9.2 and 10.0 (but not always)
+    |.*/Mojo-IRC-0\.0501\. # tests often hang on freebsd 9.2 and 10.0 (but not always)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
