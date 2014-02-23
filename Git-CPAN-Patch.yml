@@ -2,6 +2,8 @@
 match:
   distribution: "/Git-CPAN-Patch-\d"
 pl:
-  expect:
-    - "\Qinstall Git::CPAN::Patch's scripts in Git's commands directory?"
-    - "n\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#  expect:
+#    - "\Qinstall Git::CPAN::Patch's scripts in Git's commands directory?"
+#    - "n\n"
