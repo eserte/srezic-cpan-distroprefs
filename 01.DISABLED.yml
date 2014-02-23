@@ -1269,5 +1269,6 @@ match:
     |.*/Mojo-IRC-0\.0501\. # tests often hang on freebsd 9.2 and 10.0 (but not always)
     |.*/Mojo-IRC-0\.06\. # tests often hang on freebsd 9.2 and 10.0 (but not always)
     |.*/Mojo-IRC-0\.0601\. # tests often hang on freebsd 9.2 and 10.0 (but not always)
+    |KERISMAN/App-Smbxfer-0.01.tar.gz # interactive tests
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
