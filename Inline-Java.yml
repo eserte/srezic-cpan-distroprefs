@@ -1,22 +1,26 @@
 --- 
-comment: "Does not work on freebsd, because libjvm.so cannot be linked to the module"
+# Must run with cpan_smoke_modules -nolimits
+# openjdk6 has to be installed
 match:
   distribution: "/Inline-Java-\d"
   perlconfig:
     archname: amd64-freebsd
 pl:
   args:
-    - J2SDK=/usr/local/linux-sun-jdk1.5.0
+#    - J2SDK=/usr/local/linux-sun-jdk1.5.0
+    - J2SDK=/usr/local/openjdk6
+#    - J2SDK=/usr/local/openjdk7
   expect:
     - "\QDo you wish to build the JNI extension? [y]"
     - "\n"
-    - "\QPlease select from the above list which 'libjvm.so' to use: [1]"
-    - "\n"
-    - "\QDo you wish to build the PerlNatives extension? [n]"
-    - "\n"
+#    - "\QPlease select from the above list which 'libjvm.so' to use: [1]"
+#    - "\n"
+#    - "\QDo you wish to build the PerlNatives extension? [n]"
+#    - "\n"
     - "\QDo you wish to build the PerlInterpreter extension? [n]"
     - "\n"
 --- 
+# XXX probably does not work
 match:
   distribution: "/Inline-Java-\d"
   perlconfig:
