@@ -724,6 +724,7 @@ match:
     |.*/RTx-WebCronTool-\d
     |.*/RTx-WorkflowBuilder-\d
     |.*/RT-Action-AssignUnownedToActor-\d
+    |.*/RT-Action-AutoAddWatchers-\d
     |.*/RT-Action-LinearEscalate-\d # needs RT
     |.*/RT-Action-MoveQueueBySubject-\d
     |.*/RT-Action-NotifyGroup-\d
