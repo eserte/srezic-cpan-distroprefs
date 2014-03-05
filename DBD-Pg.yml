@@ -1,10 +1,10 @@
-## in the past, this was skipped completely:
 ---
 match:
-# postgres is installed, but needs test database   -> creates automatically test db
-  distribution: XXXXXXXXXXXXXXXXX.*/DBD-Pg-\d
-##
-# But currently it is good enough for testing, it seems
-# But note: this one needs the libpq-dev package (on debian) installed!
+  distribution: '/DBD-Pg-3\.0\.0\.'
+test:
+  env:
+    LC_ALL: C
+    LANG: C
+# Note: this one needs the libpq-dev package (on debian) installed!
 # otherwise pg_config is not available
 # On FreeBSD the package postgresql92-server has to be installed.
