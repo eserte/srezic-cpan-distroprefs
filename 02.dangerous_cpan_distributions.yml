@@ -173,7 +173,7 @@ match:
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBEATNIK/Filter-CBC-0.08.tar.gz\E
      |\QBENBOOTH/IntervalTree-0.01.tar.gz\E
-     |\QBENNIE/Text-Delimited-v2.06.tar.gz\E
+     |\QBENNIE/Text-Delimited-2.07.tar.gz\E
      |\QBENNIE/VMware-vCloud-v2.32.tar.gz\E
      |\QBEPPU/Embedix-ECD-0.07.tar.gz\E
      |\QBEPPU/Squatting-0.31.tar.gz\E
@@ -250,6 +250,7 @@ match:
      |\QCHILTS/SRS-EPP-Proxy-0.21.tar.gz\E
      |\QCHISEL/Plack-App-FakeApache1-0.0.1.tar.gz\E
      |\QCHISEL/Zucchini-0.0.17.tar.gz\E
+     |\QCHORNY/Test-Warn-0.24.tar.gz\E
      |\QCHRISA/Catalyst-Engine-Stomp-0.02.tar.gz\E
      |\QCHRISA/Devel-DTrace-Provider-0.02.tar.gz\E
      |\QCHRMUE/PAB3-3.0.3.tar.gz\E
@@ -500,6 +501,7 @@ match:
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
      |\QEXODIST/MooseX-LeakCheck-0.002.tar.gz\E
      |\QFALCONE/RTx-Calendar-0.09.tar.gz\E
+     |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.3.3.tar.gz\E
      |\QFAYLAND/Padre-Plugin-CSS-0.08.tar.gz\E
@@ -545,6 +547,7 @@ match:
      |\QGENE/Chess-Rep-Coverage-0.1003.tar.gz\E
      |\QGETTY/App-DuckPAN-0.115.tar.gz\E
      |\QGETTY/GID-0.003.tar.gz\E
+     |\QGFILATOV/Salvation-MacroProcessor-0.92.tar.gz\E
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
@@ -723,7 +726,6 @@ match:
      |\QJAMADAM/Mojolicious-Plugin-PlackMiddleware-0.19.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
-     |\QJASONK/Geo-ShapeFile-2.52.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
      |\QJASONS/Bio-MAGE-20020902.1.tar.gz\E
      |\QJASONS/Bio-MAGE-20020902.6.tar.gz\E
@@ -810,6 +812,7 @@ match:
      |\QJQUELIN/Language-Befunge-Debugger-0.3.5.tar.gz\E
      |\QJQUELIN/Module-Packaged-Generator-1.111040.tar.gz\E
      |\QJQUELIN/WWW-DaysOfWonder-Memoir44-1.100140.tar.gz\E
+     |\QJRADCLIFF/GOOGLE-ADWORDS-PERL-CLIENT-2.13.0.tar.gz\E
      |\QJRED/CIPP-2.50.tar.gz\E
      |\QJRED/new.spirit-2.0.26.tar.gz\E
      |\QJROBINSON/DBIx-Class-0.06003.tar.gz\E
@@ -860,6 +863,7 @@ match:
      |\QKARASIK/Prima-1.32.tar.gz\E
      |\QKARASIK/Prima-1.36.tar.gz\E
      |\QKARASIK/Win32-GuiTest-1.57.tar.gz\E
+     |\QKARJALA/XML-MyXML-0.1003.tar.gz\E
      |\QKARMAN/LucyX-Search-WildcardQuery-0.03.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.0.2.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.07.tar.gz\E
@@ -1190,6 +1194,7 @@ match:
      |\QNICS/Catmandu-0.07.tar.gz\E
      |\QNICS/Catmandu-0.0902.tar.gz\E
      |\QNICS/Catmandu-0.8002.tar.gz\E
+     |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
      |\QNICS/Catmandu-Store-ElasticSearch-0.0203.tar.gz\E
@@ -1614,6 +1619,7 @@ match:
      |\QTOBYINK/RDF-RDFa-Parser-1.096.tar.gz\E
      |\QTOBYINK/RT-ClientX-GrabBugs-0.001.tar.gz\E
      |\QTOBYINK/Set-Equivalence-0.002.tar.gz\E
+     |\QTOBYINK/Sub-Infix-0.002.tar.gz\E
      |\QTOBYINK/Web-Magic-0.008.tar.gz\E
      |\QTOBYINK/XML-LibXML-QuerySelector-0.002.tar.gz\E
      |\QTOBYINK/XT-Manager-0.004.tar.gz\E
