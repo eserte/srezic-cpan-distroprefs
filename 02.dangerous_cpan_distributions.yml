@@ -218,6 +218,7 @@ match:
      |\QBROQ/Gitalist-0.003006.tar.gz\E
      |\QBRUCEK/IO-Multiplex-1.00.tar.gz\E
      |\QBRUMMETT/Devel-hdb-0.08.tar.gz\E
+     |\QBRUMMETT/Devel-hdb-0.11.tar.gz\E
      |\QBRYCE/Test-Parser-1.4.tar.gz\E
      |\QBSHENRY/VBTK-0.14.tar.gz\E
      |\QBTMCINNES/UMLS-Interface-0.57.tar.gz\E
@@ -500,7 +501,6 @@ match:
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
      |\QEXODIST/MooseX-LeakCheck-0.002.tar.gz\E
      |\QFALCONE/RTx-Calendar-0.09.tar.gz\E
-     |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.3.3.tar.gz\E
      |\QFAYLAND/Padre-Plugin-CSS-0.08.tar.gz\E
@@ -546,7 +546,6 @@ match:
      |\QGENE/Chess-Rep-Coverage-0.1003.tar.gz\E
      |\QGETTY/App-DuckPAN-0.115.tar.gz\E
      |\QGETTY/GID-0.003.tar.gz\E
-     |\QGFILATOV/Salvation-MacroProcessor-0.92.tar.gz\E
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
@@ -769,6 +768,7 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
+     |\QJINZANG/App-Followme-1.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
      |\QJJOAO/Lingua-PT-PLN-0.15.tar.gz\E
@@ -1196,6 +1196,7 @@ match:
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
+     |\QNICS/Catmandu-Store-DBI-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-ElasticSearch-0.0203.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
@@ -1346,6 +1347,8 @@ match:
      |\QRHANDOM/CGI-Ex-2.12.tar.gz\E
      |\QRHANDOM/CGI-Ex-2.13.tar.gz\E
      |\QRHOELZ/Dist-Zilla-Plugin-Git-ExcludeUntracked-0.02.tar.gz\E
+     |\QRHOELZ/Dist-Zilla-Plugin-Test-LocalBrew-0.06.tar.gz\E
+     |\QRHOELZ/Inline-Lua-0.05.tar.gz\E
      |\QRHUNDT/CGI-Lite-Request-0.04.tar.gz\E
      |\QRHUNDT/XML-DOM-Lite-0.08.tar.gz\E
      |\QRITOU/OIDC-Lite-0.01.tar.gz\E
