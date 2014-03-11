@@ -6,14 +6,20 @@ match:
 patches:
   - SREZIC/patches/JSON-2.53-RT84154.patch
 # hash (very) randomization problem
-depends:
-# so no interactive questions anymore:
-  configure_requires:
-    JSON::XS: 0
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#depends:
+## so no interactive questions anymore:
+#  configure_requires:
+#    JSON::XS: 0
 ---
 match:
   distribution: "/JSON-[23456789]\."
-depends:
-# so no interactive questions anymore:
-  configure_requires:
-    JSON::XS: 0
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#depends:
+## so no interactive questions anymore:
+#  configure_requires:
+#    JSON::XS: 0
