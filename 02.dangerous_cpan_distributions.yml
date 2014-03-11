@@ -314,6 +314,7 @@ match:
      |\QDANIELTWC/DBIx-Class-0.07002.tar.gz\E
      |\QDAPM/perl-5.10.1.tar.gz\E
      |\QDARKSMO/CSS-SpriteMaker-0.04.tar.gz\E
+     |\QDATA/Nagios-Passive-v0.3.5.tar.gz\E
      |\QDAVEBAIRD/MasonX-Maypole-0.222.tar.gz\E
      |\QDAVEBAIRD/MasonX-Maypole-0.32.tar.gz\E
      |\QDAVEBAIRD/Maypole-FormBuilder-0.1.tar.gz\E
@@ -564,7 +565,6 @@ match:
      |\QGOMOR/Net-Packet-2.22.tar.gz\E
      |\QGONERI/FusionInventory-Agent-2.3.2.tar.gz\E
      |\QGONERI/FusionInventory-Agent-2.3.3.tar.gz\E
-     |\QGONERI/FusionInventory-Agent-2.3.5.tar.gz\E
      |\QGOZER/Apache-Language-0.07.tar.gz\E
      |\QGOZER/mod_perl-1.31.tar.gz\E
      |\QGOZER/mod_perl-2.0.4.tar.gz\E
@@ -1599,7 +1599,6 @@ match:
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTJOHNSON/Farly-0.12.tar.gz\E
-     |\QTJPARNELL/Bio-ToolBox-v1.14.1.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
      |\QTKR/Treex-Parser-MSTperl-0.08055.tar.gz\E
@@ -1678,6 +1677,8 @@ match:
      |\QVADZ/WebService-SlimTimer-0.001.tar.gz\E
      |\QVANAMBURG/CGI-Application-Structured-0.004.tar.gz\E
      |\QVANAMBURG/VANAMBURG-Magic-0.03.tar.gz\E
+     |\QVANSTYN/RapidApp-0.99031.tar.gz\E
+     |\QVANSTYN/RapidApp-0.99100.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
@@ -1771,7 +1772,6 @@ match:
      |\QYUTA/Cv-0.12.tar.gz\E
      |\QYUTA/Cv-0.24.tar.gz\E
      |\QYUTA/Cv-0.25.tar.gz\E
-     |\QYVES/ExtUtils-Install-1.52.tar.gz\E
      |\QZABA/Treex-Core-0.08399.tar.gz\E
      |\QZAG/Collection-0.38.tar.gz\E
      |\QZAG/HTTP-Server-Simple-WebDAO-0.01.tar.gz\E
