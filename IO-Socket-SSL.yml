@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/IO-Socket-SSL-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
