@@ -1056,6 +1056,7 @@ match:
     |MARKSTOS/CGI-Session-4.44.tar.gz # broken tarball, only META.yml
     |YAITSKOV/turbo-ftp-sync-0.5.tar.gz # distribution without Makefile etc.
     |.*/galion-resched-\d # not a testable distribution, no Makefile etc.
+    |PLOCKABY/v1.0.0.tar.gz # obviously a packaging accident, no name in distname
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
