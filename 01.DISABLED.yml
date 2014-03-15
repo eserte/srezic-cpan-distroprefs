@@ -1055,6 +1055,7 @@ match:
     |RDIETRICH/xmlrpc-pureperl-0.03.tar.gz # hidden macosx files
     |MARKSTOS/CGI-Session-4.44.tar.gz # broken tarball, only META.yml
     |YAITSKOV/turbo-ftp-sync-0.5.tar.gz # distribution without Makefile etc.
+    |.*/galion-resched-\d # not a testable distribution, no Makefile etc.
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
