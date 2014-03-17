@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Dist-Zilla-PluginBundle-Author-KENTNL-\d'
+  perlconfig:
+    version: '^5\.8\.'
+disabled: 1
+# Does not build anyway, and takes long time for all the deps.
