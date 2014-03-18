@@ -1057,6 +1057,8 @@ match:
     |YAITSKOV/turbo-ftp-sync-0.5.tar.gz # distribution without Makefile etc.
     |.*/galion-resched-\d # not a testable distribution, no Makefile etc.
     |PLOCKABY/v1.0.0.tar.gz # obviously a packaging accident, no name in distname
+    |FROGGS/Test-Ignore-Me-0.001.tar.gz # perl6 test distribution
+    |FROGGS/test/test2/ACME-Ignore-Me-0.003.tar.gz # perl6 test distribution
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
