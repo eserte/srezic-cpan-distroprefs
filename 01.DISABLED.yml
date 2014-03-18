@@ -1066,9 +1066,9 @@ match:
     ^(?x:
      .*/Image-Imlib2-\d # imlib not installed (X11!)
     |.*/File-Extractor-\d # libextractor needs X11
-    |.*/SVN-Notify-\d # general svn problem (krb)
-    |.*/SVN-Deploy-\d # general svn problem 
-    |.*/Alien-SVN-\d  # general svn problem 
+    |.*/XXXSVN-Notify-\d # general svn problem (krb) --- seems to be fine now
+    |.*/XXXSVN-Deploy-\d # general svn problem 
+    |.*/XXXAlien-SVN-\d  # general svn problem 
     |.*/Catalyst-Model-SVN-\d # general svn problem 
     |.*/SVN-Mirror-\d # SVN::Core not installed
     |.*/P5NCI-\d # to be analyzed
