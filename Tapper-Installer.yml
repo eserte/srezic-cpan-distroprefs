@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Tapper-Installer-\d'
+patches:
+  - SREZIC/patches/Tapper-Installer-4.1.1-RT93984.patch 
