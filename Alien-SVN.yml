@@ -2,14 +2,16 @@
 match:
   distribution: "/Alien-SVN-v?\d"
 pl:
-  eexpect:
-    timeout: 2
-    mode: anyorder
-    reuse: 1
-    talk:
-      - "\QWhich make should I use to build Subversion? [make"
-      - "\n"
-      - "\QRun Subversion's configure now? [y"
-      - "\n"
-      - "\QWould you like to pass any arguments to configure?"
-      - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#  eexpect:
+#    timeout: 2
+#    mode: anyorder
+#    reuse: 1
+#    talk:
+#      - "\QWhich make should I use to build Subversion? [make"
+#      - "\n"
+#      - "\QRun Subversion's configure now? [y"
+#      - "\n"
+#      - "\QWould you like to pass any arguments to configure?"
+#      - "\n"
