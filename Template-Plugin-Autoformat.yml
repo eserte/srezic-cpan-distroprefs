@@ -6,3 +6,6 @@ test:
     LANG: C
 # This was suggested in https://rt.cpan.org/Public/Bug/Display.html?id=41796
 # But still does not work, 20 test cases fail.
+#
+# Using LC_ALL=C also does not help. See
+# https://rt.cpan.org/Ticket/Display.html?id=93979
