@@ -8,6 +8,8 @@ match:
      |\QAANOAA/Hubot-Scripts-Bundle-0.1.1.tar.gz\E
      |\QAARONJJ/WWW-TheEchoNest-0.1.tar.gz\E
      |\QAASSAD/Net-Whois-RIPE-2.005.tar.gz\E
+     |\QABBYPAN/Novel-Robot-Packer-0.13.tar.gz\E
+     |\QABBYPAN/Novel-Robot-Parser-0.13.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABIGAIL/Acme-MetaSyntactic-Themes-Abigail-2013072902.tar.gz\E
      |\QABRAXXA/Catalyst-Controller-DBIC-API-2.002003.tar.gz\E
@@ -80,6 +82,7 @@ match:
      |\QANDK/Devel-SawAmpersand-0.32.tar.gz\E
      |\QANDRE/Business-CPI-0.908.tar.gz\E
      |\QANDREMAR/Number-Phone-NO-0.09.tar.gz\E
+     |\QANDREWF/LaTeX-Encode-0.08.tar.gz\E
      |\QANDREWF/Pod-POM-0.25.tar.gz\E
      |\QANDY/WWW-Page-1.0.tar.gz\E
      |\QANDYA/Data-BISON-v0.0.1.tar.gz\E
@@ -141,6 +144,7 @@ match:
      |\QAWNCORP/Bubblegum-0.06.tar.gz\E
      |\QAWNCORP/Bubblegum-0.09.tar.gz\E
      |\QAWNCORP/Bubblegum-0.10.tar.gz\E
+     |\QAWNCORP/Bubblegum-0.19.tar.gz\E
      |\QAWNCORP/DBIx-Simple-Batch-1.68.tar.gz\E
      |\QAWNCORP/Dancer-Plugin-ORMesque-1.103180.tar.gz\E
      |\QAWNCORP/Email-Sender-Server-0.50.tar.gz\E
@@ -416,6 +420,7 @@ match:
      |\QDROLSKY/Pg-CLI-0.03.tar.gz\E
      |\QDROLSKY/Silki-0.23.tar.gz\E
      |\QDROLSKY/Silki-0.26.tar.gz\E
+     |\QDROLSKY/Stepford-0.000002.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
@@ -478,6 +483,7 @@ match:
      |\QESUMMERS/HTML-DublinCore-0.3.tar.gz\E
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
+     |\QETHER/Hash-Util-FieldHash-Compat-0.05.tar.gz\E
      |\QETHER/Moose-2.1005.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
@@ -501,6 +507,7 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
+     |\QEXODIST/Fennec-2.014.tar.gz\E
      |\QEXODIST/MooseX-LeakCheck-0.002.tar.gz\E
      |\QFALCONE/RTx-Calendar-0.09.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -510,6 +517,7 @@ match:
      |\QFAYLAND/Padre-Plugin-HTML-0.09.tar.gz\E
      |\QFAYLAND/Padre-Plugin-JavaScript-0.25.tar.gz\E
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
+     |\QFBELTON/Template-Plugin-React-0.004.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFFFINKEL/Dist-Zilla-Plugin-RunByBranch-0.21.tar.gz\E
      |\QFGLOCK/v6-0.039.tar.gz\E
@@ -542,7 +550,6 @@ match:
      |\QGAAS/perlbench-0.93.tar.gz\E
      |\QGABOR/Text-Format0.52+NWrap0.11.tar.gz\E
      |\QGAISSMAI/Config-Scoped-0.13.tar.gz\E
-     |\QGANGLION/Audio-Nama-1.108.tar.gz\E
      |\QGARU/Padre-Plugin-Catalyst-0.09.tar.gz\E
      |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
@@ -601,9 +608,6 @@ match:
      |\QGUGU/Algorithm-FloodControl-2.000000.tar.gz\E
      |\QGUGU/Catalyst-Controller-RateLimit-0.17.tar.gz\E
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
-     |\QGUIMARD/Lemonldap-NG-Manager-0.91.tar.gz\E
-     |\QGUIMARD/Lemonldap-NG-Portal-0.88.tar.gz\E
-     |\QGUIMARD/Lemonldap-NG-Portal-0.90.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
      |\QGWYN/POE-Component-Daemon-0.1301.tar.gz\E
      |\QHAARG/App-BCSSH-0.001000.tar.gz\E
@@ -1149,6 +1153,7 @@ match:
      |\QMSIMERSON/Mail-Toaster-5.13.tar.gz\E
      |\QMSIMERSON/Mail-Toaster-5.40.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.19.tar.gz\E
+     |\QMSISK/Net-Nmsg-0.09.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1697,6 +1702,7 @@ match:
      |\QVOJ/Catmandu-Wikidata-0.01.tar.gz\E
      |\QVOJ/DAIA-0.35.tar.gz\E
      |\QVOJ/Data-Beacon-0.2.5.tar.gz\E
+     |\QVOJ/Data-Beacon-0.2.7.tar.gz\E
      |\QVOJ/PICA-Record-0.36.tar.gz\E
      |\QVOJ/PICA-Record-0.38.tar.gz\E
      |\QVOJ/PICA-Record-0.47.tar.gz\E
