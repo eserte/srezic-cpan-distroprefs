@@ -1,6 +1,9 @@
 ---
 match:
   distribution: 'PETDANCE/HTML-Tidy-\d'
+  perlconfig:
+    archname: "-linux"
+# Debian has no -ltidyp
 depends:
   configure_requires:
     Alien::Tidyp: 0
