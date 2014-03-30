@@ -380,6 +380,14 @@ match:
     |.*/Mojolicious-Plugin-TtRenderer-1\.32\. # deep-recursion.t test hangs because of flock/File::Temp problems, see https://github.com/abh/mojox-renderer-tt/issues/33
     |MUIR/modules/File-Flock-2013.06.tar.gz # hanging tests, see https://rt.cpan.org/Ticket/Display.html?id=84447
     |JVANNUCCI/Parallel-Fork-BossWorkerAsync-0\.07\. # test suite hangs on freebsd 8+9
+    |.*/ZMQ-LibZMQ2-1\.07\. # tests hang on freebsd 9.2
+    |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
+    |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
+    |.*/ZMQ-FFI-0\.08\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
+    |.*/ZMQ-FFI-0\.09\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
+    |.*/ZMQ-FFI-0\.10\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
+    |.*/ZMQ-FFI-0\.11\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
+    |.*/ZMQ-FFI-0\.12\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
@@ -1249,14 +1257,6 @@ match:
     |COOLMEN/Test-Mojo-More-0.02.tar.gz # requires perl 5.100 by accident, see https://rt.cpan.org/Public/Bug/Display.html?id=84679
     |NIELSD/Speech-Google-0.5.tar.gz # no Makefile.PL, no Build.PL
     |.*/Plack-App-BeanstalkConsole-\d # not tested, see <20130531223444.GJ2094 <AT> tequila.etheridge.ca>
-    |.*/ZMQ-LibZMQ2-1\.07\. # tests hang on freebsd 9.2
-    |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
-    |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.08\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.09\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.10\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.11\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.12\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
     |KSOLOMKO/Apache2-AuthCookieLDAP-1.10.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=86316
     |.*/XAS-\d # needs STOMP MQ Server
     |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
