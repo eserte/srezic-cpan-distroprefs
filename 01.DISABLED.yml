@@ -1279,5 +1279,6 @@ match:
     |.*/Mojo-IRC-0\.0601\. # tests often hang on freebsd 9.2 and 10.0 (but not always)
     |KERISMAN/App-Smbxfer-0.01.tar.gz # interactive tests
     |.*/Text-Md2Inao-0\.10\.tar\.gz # freebsd tar cannot handle this dist: https://rt.cpan.org/Public/Bug/Display.html?id=93674
+    |SHAY/dmake-4.12.2-20140329-SHAY.zip # not a perl distribution
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
