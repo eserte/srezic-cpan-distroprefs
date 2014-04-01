@@ -510,6 +510,7 @@ match:
      |\QEXODIST/Fennec-2.014.tar.gz\E
      |\QEXODIST/MooseX-LeakCheck-0.002.tar.gz\E
      |\QFALCONE/RTx-Calendar-0.09.tar.gz\E
+     |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.3.3.tar.gz\E
@@ -741,6 +742,7 @@ match:
      |\QJAUDOUX/CracTools-core-1.00.tar.gz\E
      |\QJBAKER/Apache-Session-0.17.1.tar.gz\E
      |\QJBAKER/Apache-Session-1.03.tar.gz\E
+     |\QJBD/Pistachio-0.08.tar.gz\E
      |\QJBERGER/Galileo-0.022.tar.gz\E
      |\QJBERGER/Galileo-0.029.tar.gz\E
      |\QJBERGER/Galileo-0.030.tar.gz\E
@@ -776,6 +778,7 @@ match:
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
+     |\QJINZANG/App-Followme-1.03.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
      |\QJJOAO/Lingua-PT-PLN-0.15.tar.gz\E
@@ -934,6 +937,7 @@ match:
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKROW/Gearman-XS-0.15.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
+     |\QKRYDE/distlinks-10.tar.gz\E
      |\QKRYDE/math-image-109.tar.gz\E
      |\QKSCHWAB/Device-MiniLED-1.02.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
@@ -1131,6 +1135,7 @@ match:
      |\QMORTY/DateConvert-0.14.tgz\E
      |\QMOTIF/Bio-LITE-Taxonomy-0.04.tar.gz\E
      |\QMOZNION/Acme-AjiFry-0.08.tar.gz\E
+     |\QMOZNION/Ukigumo-Client-0.25.tar.gz\E
      |\QMRAMBERG/Catalyst-Model-Search-0.01.tar.gz\E
      |\QMRAMBERG/Class-DBI-Sweet-0.08.tar.gz\E
      |\QMRAMBERG/DBIx-Class-0.03002.tar.gz\E
@@ -1209,6 +1214,7 @@ match:
      |\QNICS/Catmandu-Store-DBI-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-ElasticSearch-0.0203.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
+     |\QNICS/Catmandu-Store-Solr-0.0203.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
      |\QNIGE/Goo-0.08.tar.gz\E
      |\QNIKC/SVN-Web-0.53.tar.gz\E
@@ -1280,7 +1286,7 @@ match:
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
-     |\QPEVANS/IO-Async-0.59.tar.gz\E
+     |\QPEVANS/Tangence-0.18.tar.gz\E
      |\QPEVANS/Tickit-Console-0.03.tar.gz\E
      |\QPEVANS/Tickit-Widget-Menu-0.05.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
@@ -1399,6 +1405,7 @@ match:
      |\QRURBAN/Cpanel-JSON-XS-2.3403.tar.gz\E
      |\QRUSAKOV/ePortal-4.2.tar.gz\E
      |\QRVOSA/Bio-Phylo-0.54.tar.gz\E
+     |\QRVOSA/Bio-Phylo-0.56.tar.gz\E
      |\QRWMJ/Net-FTPServer-1.122.tar.gz\E
      |\QRYBSKEJ/forks-BerkeleyDB-0.01.tar.gz\E
      |\QSABREN/AI-Fuzzy-0.01.tar.gz\E
@@ -1486,7 +1493,6 @@ match:
      |\QSHLOMIF/Cache-2.05.tar.gz\E
      |\QSHLOMIF/Class-Generate-1.13.tar.gz\E
      |\QSHLOMIF/Error-0.17021.tar.gz\E
-     |\QSHLOMIF/File-Find-Object-v0.2.7.tar.gz\E
      |\QSHLOMIF/Games-ABC_Path-Generator-v0.1.0.tar.gz\E
      |\QSHLOMIF/Games-LMSolve-v0.8.5.tar.gz\E
      |\QSHLOMIF/HTML-Latemp-GenMakeHelpers-v0.3.0.tar.gz\E
@@ -1518,6 +1524,7 @@ match:
      |\QSIMONW/XML-Feed-0.23.tar.gz\E
      |\QSIMPLIFY/Net-Simplify-1.0.0.tar.gz\E
      |\QSIMPLIFY/Net-Simplify-1.0.1.tar.gz\E
+     |\QSISYPHUS/Inline-0.53.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
