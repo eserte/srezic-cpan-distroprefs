@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "(INGY|SISYPHUS)/Inline-\d"
+  distribution: "/Inline-\d"
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
