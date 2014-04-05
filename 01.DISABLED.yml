@@ -1067,6 +1067,7 @@ match:
     |PLOCKABY/v1.0.0.tar.gz # obviously a packaging accident, no name in distname
     |FROGGS/Test-Ignore-Me-0.001.tar.gz # perl6 test distribution
     |FROGGS/test/test2/ACME-Ignore-Me-\d # perl6 test distributions
+    |FROGGS/Perl6/test1/test2/ACME-Ignore-Me-\d # perl6 test distributions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
