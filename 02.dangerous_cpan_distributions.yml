@@ -8,8 +8,6 @@ match:
      |\QAANOAA/Hubot-Scripts-Bundle-0.1.1.tar.gz\E
      |\QAARONJJ/WWW-TheEchoNest-0.1.tar.gz\E
      |\QAASSAD/Net-Whois-RIPE-2.005.tar.gz\E
-     |\QABBYPAN/Novel-Robot-Packer-0.13.tar.gz\E
-     |\QABBYPAN/Novel-Robot-Parser-0.13.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABIGAIL/Acme-MetaSyntactic-Themes-Abigail-2013072902.tar.gz\E
      |\QABRAXXA/Catalyst-Controller-DBIC-API-2.002003.tar.gz\E
@@ -293,7 +291,6 @@ match:
      |\QCOUDOT/Lemonldap-NG-Portal-1.2.5.tar.gz\E
      |\QCREIN/Net-DNS-0.45.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
-     |\QCSJEWELL/Perl-Dist-WiX-1.250.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
      |\QCTBROWN/ODG-Record-0.28.tar.gz\E
      |\QCTRLSOFT/Parse-Pidl-0.01.tar.gz\E
@@ -307,6 +304,7 @@ match:
      |\QDAGOLDEN/Path-Tiny-0.047.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDAHILLMA/Geo-GoogleEarth-Document-modules2.tar.gz\E
+     |\QDAMI/Data-Domain-1.05.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.14.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.17.tar.gz\E
      |\QDAMS/PerlIO-via-Timeout-0.21.tar.gz\E
@@ -531,6 +529,7 @@ match:
      |\QFLORA/Data-Riak-1.2.tar.gz\E
      |\QFLORA/Gtk2-Phat-0.04.tar.gz\E
      |\QFLORA/MooseX-AttributeHelpers-0.17.tar.gz\E
+     |\QFLORA/bignum-0.32.tar.gz\E
      |\QFMARIER/Gravatar-URL-1.05.tar.gz\E
      |\QFOTANGO/Froody-42.005.tar.gz\E
      |\QFRANCKC/MooseX-Net-API-0.06.tar.gz\E
@@ -555,6 +554,7 @@ match:
      |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
      |\QGENE/Chess-Rep-Coverage-0.1003.tar.gz\E
+     |\QGENEHACK/App-GitGitr-0.3.tar.gz\E
      |\QGETTY/App-DuckPAN-0.115.tar.gz\E
      |\QGETTY/GID-0.003.tar.gz\E
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
@@ -937,8 +937,6 @@ match:
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKROW/Gearman-XS-0.15.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
-     |\QKRYDE/distlinks-10.tar.gz\E
-     |\QKRYDE/math-image-109.tar.gz\E
      |\QKSCHWAB/Device-MiniLED-1.02.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
@@ -1135,7 +1133,6 @@ match:
      |\QMORTY/DateConvert-0.14.tgz\E
      |\QMOTIF/Bio-LITE-Taxonomy-0.04.tar.gz\E
      |\QMOZNION/Acme-AjiFry-0.08.tar.gz\E
-     |\QMOZNION/Ukigumo-Client-0.25.tar.gz\E
      |\QMRAMBERG/Catalyst-Model-Search-0.01.tar.gz\E
      |\QMRAMBERG/Class-DBI-Sweet-0.08.tar.gz\E
      |\QMRAMBERG/DBIx-Class-0.03002.tar.gz\E
@@ -1288,7 +1285,6 @@ match:
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
      |\QPEVANS/Tangence-0.18.tar.gz\E
      |\QPEVANS/Tickit-Console-0.03.tar.gz\E
-     |\QPEVANS/Tickit-Widget-Menu-0.05.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
      |\QPEVANS/circle-fe-term-0.132180.tar.gz\E
      |\QPFEIFFER/makepp-1.50-101117.tgz\E
@@ -1376,6 +1372,7 @@ match:
      |\QRJESCHMI/Archive-BagIt-0.033.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
+     |\QRKIES/Tk-Workspace-1.75.tar.gz\E
      |\QRKOBES/Apache-GeoIP-1.63.tar.gz\E
      |\QRKRIMEN/Doc-Simply-0.03.tar.gz\E
      |\QRKRIMEN/Getopt-Chain-0.013.tar.gz\E
@@ -1537,7 +1534,6 @@ match:
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSMUELLER/Math-Symbolic-0.608.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
-     |\QSONGMU/Ukigumo-Client-0.18.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.962.tar.gz\E
@@ -1606,6 +1602,7 @@ match:
      |\QTIMA/XML-RSS-Parser-2.11.tar.gz\E
      |\QTIMB/DBI-1.622.tar.gz\E
      |\QTIMB/perl5.004_04.tar.gz\E
+     |\QTIMBRODY/HTTP-OAI-3.28.tar.gz\E
      |\QTINITA/HTML-Template-Compiled-0.97.tar.gz\E
      |\QTJENNESS/Starlink-AST-0.99.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
