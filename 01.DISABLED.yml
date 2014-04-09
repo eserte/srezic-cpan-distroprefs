@@ -388,6 +388,7 @@ match:
     |.*/ZMQ-FFI-0\.10\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
     |.*/ZMQ-FFI-0\.11\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
     |.*/ZMQ-FFI-0\.12\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
+    |MIYAGAWA/AnyEvent-Twitter-Stream-0.26.tar.gz # endless test run - http://www.cpantesters.org/cpan/report/4faf6f20-aec9-11e3-84e3-31d2e0bfc7aa
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
