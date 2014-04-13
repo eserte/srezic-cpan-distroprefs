@@ -60,9 +60,19 @@ match:
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
+comment: "Distributions which are known to not work with 5.8.x"
+match:
+  perlconfig:
+    version: '^5\.8\.\d'
+  distribution: |
+    ^(?x:
+      .*/Dist-Zilla-PluginBundle-RSRCHBOY-\d # correctly discarded, but takes a lot of time to fail...
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+--- 
 comment: "Never install perl from CPAN.pm"
 match:
-  distribution: '/perl-5\.(6|7|8|9|1\d|2\d)\.\d+'
+  distribution: '/perl-5\.(6|7|8|9|\d\d)\.\d+'
 #  env:
 #    PERL_BATCH: yes
 disabled: 1
