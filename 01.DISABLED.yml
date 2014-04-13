@@ -67,6 +67,7 @@ match:
   distribution: |
     ^(?x:
       .*/Dist-Zilla-PluginBundle-RSRCHBOY-\d # correctly discarded, but takes a lot of time to fail...
+     |.*/Dist-Zilla-PluginBundle-Author-MAXHQ-\d # correctly discarded, but takes a lot of time to fail...
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
