@@ -1082,6 +1082,7 @@ match:
     |FROGGS/Test-Ignore-Me-0.001.tar.gz # perl6 test distribution
     |FROGGS/test/test2/ACME-Ignore-Me-\d # perl6 test distributions
     |FROGGS/Perl6/test1/test2/ACME-Ignore-Me-\d # perl6 test distributions
+    |DRSTEVE/stylehouse-0.03.tar.gz # not a testable distribution (no EUMM/MB, t/*.t ...)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
