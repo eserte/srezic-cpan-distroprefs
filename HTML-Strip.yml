@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/HTML-Strip-1\.06\.'
+patches:
+  - SREZIC/patches/HTML-Strip-1.06-offbyone.patch
