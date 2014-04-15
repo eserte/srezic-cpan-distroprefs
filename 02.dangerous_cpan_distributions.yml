@@ -8,6 +8,7 @@ match:
      |\QAANOAA/Hubot-Scripts-Bundle-0.1.1.tar.gz\E
      |\QAARONJJ/WWW-TheEchoNest-0.1.tar.gz\E
      |\QAASSAD/Net-Whois-RIPE-2.005.tar.gz\E
+     |\QABALAMA/CTKlib-1.15.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABIGAIL/Acme-MetaSyntactic-Themes-Abigail-2013072902.tar.gz\E
      |\QABRAXXA/Catalyst-Controller-DBIC-API-2.002003.tar.gz\E
@@ -67,6 +68,7 @@ match:
      |\QAMAR/Wizard-0.1003.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1004.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1006.tar.gz\E
+     |\QAMARSCHKE/Nagios-NRPE-0.001.tar.gz\E
      |\QAMBS/Lingua/Lingua-NATools-v0.7.4.tar.gz\E
      |\QAMBS/Quiki/Quiki-0.11.tar.gz\E
      |\QAMBS/Text/Text-BibTeX-0.66.tar.gz\E
@@ -80,6 +82,7 @@ match:
      |\QANDK/Devel-SawAmpersand-0.32.tar.gz\E
      |\QANDRE/Business-CPI-0.908.tar.gz\E
      |\QANDREMAR/Number-Phone-NO-0.09.tar.gz\E
+     |\QANDREWF/LaTeX-Driver-0.12.tar.gz\E
      |\QANDREWF/LaTeX-Encode-0.08.tar.gz\E
      |\QANDREWF/Pod-POM-0.25.tar.gz\E
      |\QANDY/WWW-Page-1.0.tar.gz\E
@@ -250,6 +253,7 @@ match:
      |\QCERNEY/Graphics-VTK-3.2.001.tar.gz\E
      |\QCFAERBER/Unicode-Stringprep-1.02.tar.gz\E
      |\QCHANSEN/Authen-Simple-0.4.tar.gz\E
+     |\QCHGOVUK/MojoX-Plugin-AnyCache-0.01.tar.gz\E
      |\QCHILTS/SRS-EPP-Proxy-0.21.tar.gz\E
      |\QCHISEL/Plack-App-FakeApache1-0.0.1.tar.gz\E
      |\QCHISEL/Zucchini-0.0.17.tar.gz\E
@@ -391,6 +395,7 @@ match:
      |\QDOY/MooseX-Aliases-0.10.tar.gz\E
      |\QDOY/Reply-0.04.tar.gz\E
      |\QDOY/Reply-0.28.tar.gz\E
+     |\QDOZZIE/App-Getconf-0.20.02.tar.gz\E
      |\QDPATES/IPTables-IPv4-0.97b.tar.gz\E
      |\QDPAVLIN/Fuse-0.14.tar.gz\E
      |\QDPIROTTE/Mail-Chimp-0.12.tar.gz\E
@@ -739,13 +744,9 @@ match:
      |\QJASONS/XML-Xerces-2.3.0-4.tar.gz\E
      |\QJASONS/XML-Xerces-2.5.0-0.tar.gz\E
      |\QJASPAX/Lingua-Phonology-0.3503.tar.gz\E
-     |\QJAUDOUX/CracTools-core-1.00.tar.gz\E
      |\QJBAKER/Apache-Session-0.17.1.tar.gz\E
      |\QJBAKER/Apache-Session-1.03.tar.gz\E
      |\QJBD/Pistachio-0.08.tar.gz\E
-     |\QJBERGER/Galileo-0.022.tar.gz\E
-     |\QJBERGER/Galileo-0.029.tar.gz\E
-     |\QJBERGER/Galileo-0.030.tar.gz\E
      |\QJBLAKEY/Crypt-Enigma-1.1.tar.gz\E
      |\QJBRYAN/AI-NeuralNet-BackProp-0.77.zip\E
      |\QJDB/Win32-Daemon-20100921.tar.gz\E
@@ -1063,7 +1064,6 @@ match:
      |\QMBLYTHE/HTML-Chunks-1.55.1.tar.gz\E
      |\QMBP/MojoX-Dispatcher-Qooxdoo-Jsonrpc-0.89.tar.gz\E
      |\QMCAUDILL/Net-Bot-IRC-NumericCodes-0.04.tar.gz\E
-     |\QMCB/Catalyst-View-CSV-1.0.tar.gz\E
      |\QMCHANG/CGIGraph-0.9.tar.gz\E
      |\QMDIETRICH/CloudApp-REST-0.01.tar.gz\E
      |\QMDIMEO/MPEG-ID3v2Tag-0.36.tar.gz\E
@@ -1110,8 +1110,6 @@ match:
      |\QMKRULL/Ruby-VersionManager-0.003020.tar.gz\E
      |\QMKUL/Net-RRP-0.03.tar.gz\E
      |\QMKUTTER/SOAP-Lite-0.715.tar.gz\E
-     |\QMLAWREN/OptArgs-0.1.4.tar.gz\E
-     |\QMLAWREN/Sys-Cmd-0.81.0.tar.gz\E
      |\QMLEHMANN/Gimp-1.211.tar.gz\E
      |\QMLEHMANN/Gnome2-Print-0.52.tar.gz\E
      |\QMLEHMANN/JSON-XS-2.34.tar.gz\E
@@ -1245,6 +1243,7 @@ match:
      |\QOLIVER/App-Netdisco-2.021000.tar.gz\E
      |\QOLIVER/App-Netdisco-2.023000.tar.gz\E
      |\QOLIVER/App-Netdisco-2.023002.tar.gz\E
+     |\QOLIVER/App-Netdisco-2.025001.tar.gz\E
      |\QOLIVER/Catalyst-Plugin-AutoCRUD-1.112770.tar.gz\E
      |\QOLIVER/Net-Appliance-Session-2.111080.tar.gz\E
      |\QOLIVER/Net-Appliance-Session-3.122530.tar.gz\E
@@ -1286,7 +1285,6 @@ match:
      |\QPEVANS/Tangence-0.18.tar.gz\E
      |\QPEVANS/Tickit-Console-0.03.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
-     |\QPEVANS/circle-fe-term-0.132180.tar.gz\E
      |\QPFEIFFER/makepp-1.50-101117.tgz\E
      |\QPFEIFFER/makepp-1.50-110915.tgz\E
      |\QPFEIFFER/makepp-1.50-cvs-070506.tgz\E
@@ -1463,7 +1461,6 @@ match:
      |\QSHANTANU/Device-LPS331AP-0.003.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
-     |\QSHARYANTO/App-nauniq-0.01.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
@@ -1492,10 +1489,12 @@ match:
      |\QSHLOMIF/Error-0.17021.tar.gz\E
      |\QSHLOMIF/Games-ABC_Path-Generator-v0.1.0.tar.gz\E
      |\QSHLOMIF/Games-LMSolve-v0.8.5.tar.gz\E
+     |\QSHLOMIF/Graph-Easy-0.74.tar.gz\E
      |\QSHLOMIF/HTML-Latemp-GenMakeHelpers-v0.3.0.tar.gz\E
      |\QSHLOMIF/HTML-Latemp-NavLinks-GenHtml-v0.2.1.tar.gz\E
      |\QSHLOMIF/HTML-Strip-Whitespace-v0.1.7.tar.gz\E
      |\QSHLOMIF/Mail-LMLM-0.6802.tar.gz\E
+     |\QSHLOMIF/SDLx-Betweener-0.0102.tar.gz\E
      |\QSHLOMIF/SVN-RaWeb-Light-0.60002.tar.gz\E
      |\QSHLOMIF/Template-Stash-AutoEscaping-0.0302.tar.gz\E
      |\QSHLOMIF/Test-Run-0.0126.tar.gz\E
@@ -1693,6 +1692,7 @@ match:
      |\QVANSTYN/RapidApp-0.99101.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
+     |\QVIKAS/VIC-0.04.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
      |\QVKON/Tcl-Tk-0.76.tar.gz\E
      |\QVKON/Tcl-Tk-0.90.tar.gz\E
