@@ -870,7 +870,6 @@ match:
     |.*/Text-Templar-2\.43 # wants to install ExtUtils::AutoInstall
     |.*/Tie-Google-\d # ask for the google api key, which is possibly visible in test results
     |.*/tkjuke-\d 
-    |.*/Embperl-\d # complicated to build, many question, not using prompt()
     |.*/Authen-TacacsPlus-\d # needs connection to some host
     |.*/Net-SLP-\d # needs a running slpd
     |.*/AFS-Monitor-\d # needs afs
