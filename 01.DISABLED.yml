@@ -1085,6 +1085,7 @@ match:
     |FROGGS/test/test2/ACME-Ignore-Me-\d # perl6 test distributions
     |FROGGS/Perl6/test1/test2/ACME-Ignore-Me-\d # perl6 test distributions
     |DRSTEVE/stylehouse-0.03.tar.gz # not a testable distribution (no EUMM/MB, t/*.t ...)
+    |SKI/Task-Git-LongList1-0.03.tar.gz # test tries to install modules through CPAN.pm - https://rt.cpan.org/Ticket/Display.html?id=94932
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
