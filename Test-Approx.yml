@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Test-Approx-0\.03\.'
+test:
+  env:
+    LC_ALL: C
+# https://rt.cpan.org/Ticket/Display.html?id=84499
+# https://rt.cpan.org/Ticket/Display.html?id=94922
