@@ -1,5 +1,10 @@
 --- 
 match:
+  distribution: "ILYAZ/modules/Math-Pari-2.01080606.tar.gz"
+disabled: 1
+# bad permissions: https://rt.cpan.org/Ticket/Display.html?id=95005
+--- 
+match:
   distribution: "/Math-Pari-\d"
   env:
     HOST: "(biokovo-amd64.(herceg.de|rezic.de)|mosor)"
