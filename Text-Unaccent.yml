@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Text-Unaccent-1\.10\.'
+  env:
+    PERL_TEST_UNPATCHED: '^$'
+  perlconfig:
+    archname: '(amd64-freebsd|x86_64-linux)'
+patches:
+  - SREZIC/patches/Text-Unaccent-1.10-RT21177.patch
