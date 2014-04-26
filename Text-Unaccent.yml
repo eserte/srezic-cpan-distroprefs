@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Text-Unaccent-1\.10\.'
+  distribution: '/Text-Unaccent-1\.08\.'
   env:
     PERL_TEST_UNPATCHED: '^$'
   perlconfig:
