@@ -3,6 +3,8 @@ match:
   distribution: "/MooseX-AttributeHelpers-0\.23\."
   perlconfig:
     version: '^5\.(1[789]|2\d)\.'
+  env:
+    PERL_TEST_UNPATCHED: '^$'
 test:
   env:
     PERL_HASH_SEED: 22
