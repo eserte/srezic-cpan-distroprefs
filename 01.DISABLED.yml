@@ -394,6 +394,7 @@ match:
     |JVANNUCCI/Parallel-Fork-BossWorkerAsync-0\.07\. # test suite hangs on freebsd 8+9
     |.*/ZMQ-LibZMQ2-1\.07\. # tests hang on freebsd 9.2
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
+    |DMAKI/ZMQ-LibZMQ3-1.15.tar.gz # hanging tests on fbsd9
     |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
     |.*/ZMQ-FFI-0\.08\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
     |.*/ZMQ-FFI-0\.09\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
