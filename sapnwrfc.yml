@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/sapnwrfc-\d'
+pl:
+  expect:
+    - '\QWhich libsapnwrfc build path do you want to link against?'
+    - "\n"
