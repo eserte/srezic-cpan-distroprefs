@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/uplug-treetagger-\d'
+pl:
+  expect:
+    - '\QDo you agree with the license above?'
+    - "\n"
