@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/IPC-Pipeline-0\.8\.'
+  perlconfig:
+    version: '^5\.(19|2\d)\.'
+patches:
+  - SREZIC/patches/IPC-Pipeline-0.8-RT88229.patch
