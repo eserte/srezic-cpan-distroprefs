@@ -1304,5 +1304,6 @@ match:
     |SHAY/dmake-4.12.2-20140329-SHAY.zip # not a perl distribution
     |SHAY/dmake-4.12.2.2.zip # not a perl distribution
     |RVOSA/Bio-BioVeL-0.1.tar.gz # Makefile.PL missing, see https://rt.cpan.org/Ticket/Display.html?id=94317
+    |DMITRI/RT-Client-REST-0.46.tar.gz # hanging tests on fbsd 9.2
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
