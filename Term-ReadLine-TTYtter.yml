@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Term-ReadLine-TTYtter-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1
