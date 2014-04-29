@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Net-WMIClient-\d'
+pl:
+  expect:
+    - '\QEnter the path to the WMI source code:'
+    - "\n"
