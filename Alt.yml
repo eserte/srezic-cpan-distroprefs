@@ -1,0 +1,13 @@
+---
+match:
+  distribution: '/Alt-\d'
+# allow INGY's Alt
+---
+match:
+  distribution: '/Alt-Base-\d'
+# allow Alt::Base
+---
+match:
+  distribution: '/Alt-'
+disabled: 1
+# disallow all the other Alt- distributions
