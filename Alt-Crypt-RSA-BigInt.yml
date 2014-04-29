@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Alt-Crypt-RSA-BigInt-\d'
+disabled: 1
+# Installs over the original Crypt::RSA
