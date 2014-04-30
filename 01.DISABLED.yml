@@ -554,6 +554,7 @@ match:
     |.*/Curses-Toolkit-0\.206\. # flapping - not often
     |.*/Lexical-Util-0.8 # "not supported past Perl version 5.8.x"
     |.*/Task-BeLike- # I like to have better control of what is smoked
+    |.*/Task-Setup- # dito
     |.*/File-Info-1.02.tar.gz # does not build most of the time, probably broken dependency spec
     |.*/Dist-Zilla-Plugin-MetaProvides-FromFile-1.11060208. # dz2-provides.t may fail, perl version independent
     |.*/TheSchwartz-1\.10\. # t/parallel-workers.t often hangs on freebsd
