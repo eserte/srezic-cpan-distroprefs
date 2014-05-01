@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Lingua-PT-Speaker-\d'
+pl:
+  expect:
+    - '\QDid not found PT1 phonemes. Please enter full path'
+    - "\n"
