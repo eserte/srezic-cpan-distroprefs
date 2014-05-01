@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Bio-BigFile-\d'
+pl:
+  expect:
+    - '\QPlease enter the location of Kent source tree:'
+    - "\n"
