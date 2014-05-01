@@ -273,7 +273,6 @@ match:
     |.*/Statistics-Cluto-\d # no cluto for freebsd
     |.*/ARSperl-\d
     |XXXX.*/Archive-ZZip-\d # not valid anymore: port exists, but currently does not build
-    |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
     |.*/PHP-\d # no PHP installed
     |.*/Teradata-SQL-\d # many dependencies
     |.*/Text-CSV-LibCSV-\d # no available as a freebsd port
@@ -1090,6 +1089,7 @@ match:
     |FROGGS/Perl6/test1/test2/ACME-Ignore-Me-\d # perl6 test distributions
     |DRSTEVE/stylehouse-0.03.tar.gz # not a testable distribution (no EUMM/MB, t/*.t ...)
     |SKI/Task-Git-LongList1-0.03.tar.gz # test tries to install modules through CPAN.pm - https://rt.cpan.org/Ticket/Display.html?id=94932
+    |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
