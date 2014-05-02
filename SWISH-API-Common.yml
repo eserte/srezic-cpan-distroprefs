@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/SWISH-API-Common-\d'
+pl:
+  expect:
+    - '\QDo you want me to download/build it for you ([y]/n)? [y]'
+    - "\n"
