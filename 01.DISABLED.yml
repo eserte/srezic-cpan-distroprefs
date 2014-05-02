@@ -365,7 +365,6 @@ match:
     |.*/Term-TermKey-\d # no port for termkey --- the module may use Alien::libtermkey, but it assumes that this is _installed_, so just testing without installing does not work
     |.*/Authen-ACE4-\d # no port for acexport.h or libaceclnt.a
     |.*/Lux-IO-\d # no port for luxio/btree.h
-    |.*/Device-Velleman-K8055-libk8055-\d # no port for libk8055.a
     |.*/Net-Libproxy-\d # no port for libproxy-1.0.pc
     |.*/Bio-SamTools-\d # no port for samtools (or libbam.a)
     |.*/DBD-drizzle-\d # no port for libdrizzle
