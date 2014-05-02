@@ -295,7 +295,6 @@ match:
     |.*/PDF-OCR-\d # needs tesseract
     |.*/LibTracker-Client-\d # freebsd package exists, but hard too install on my old 6.1 system
     |.*/DCOP-Amarok-Player-\d # not anymore on my i386 system
-    |.*/Astro-FITS-CFITSIO-\d # cfitsio not buildable on my i386 system
     |.*/Net-Lorcon-\d # no fbsd port
     |.*/Astro-SkyCat-\d # no fbsd port
     |.*/CIsam-\d # no fbsd port for isam
