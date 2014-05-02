@@ -3,7 +3,7 @@ match:
   distribution: '/CPAN-Search-Lite-\d'
 pl:
   expect:
-    - '\QAdd mod_perl2 to prerequsites? [yes]"
+    - '\QAdd mod_perl2 to prerequsites? [yes]'
     - "no\n"
-    - '\QAdd Apache2::Request to prerequisites? [yes]"
+    - '\QAdd Apache2::Request to prerequisites? [yes]'
     - "no\n"
