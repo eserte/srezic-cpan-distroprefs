@@ -256,7 +256,6 @@ match:
     |.*/Qt-\d # qt libs seem to be missing here...
     |.*/Gtk2-Phat-\d # port exists, but no package...
     |.*/WSO2-WSF-Perl-v?\d # needs a lot of axis2-related libs
-    |.*/File-Scan-ClamAV-\d # needs clamd/clamav
     |.*/OpenOffice-UNO-\d # needs openoffice sdk
     |.*/Clutter-\d # no freebsd port?
     |.*/Text-MeCab-\d # mecab port exists, but no package
@@ -792,7 +791,6 @@ match:
     |.*/AI-FANN-\d # needs -ldoublefann
     |KANE/CPANPLUS-0\.82\.tar.gz # wants my root password using sudo
     |.*/STAFService-\d # needs STAF 3
-    |.*/Mail-ClamAV-\d # needs clamav
     |.*/Lab-VISA-\d # needs libvisa
     |.*/Search-Xapian-\d # needs xapian      
     |.*/BS2000-LMS-\d # only for BS2000
