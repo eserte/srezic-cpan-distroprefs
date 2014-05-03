@@ -12,6 +12,15 @@ comment: "ignore old distribution"
 match:
   distribution: "/Mail-SpamAssassin-3\.4\.0\."
   perlconfig:
+    version: '^5\.19\.11$'
+  env:
+    PERL_PARALLEL_SMOKER: yes
+disabled: 1
+comment: "tests fail, and need a long time to fail..."
+---
+match:
+  distribution: "/Mail-SpamAssassin-3\.4\.0\."
+  perlconfig:
     osname: freebsd
 pl:
   env:
