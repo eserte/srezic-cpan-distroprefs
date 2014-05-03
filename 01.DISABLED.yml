@@ -259,7 +259,6 @@ match:
     |.*/File-Scan-ClamAV-\d # needs clamd/clamav
     |.*/OpenOffice-UNO-\d # needs openoffice sdk
     |.*/Clutter-\d # no freebsd port?
-    |.*/Text-Kakasi-\d # needs libkakasi, no port
     |.*/Text-MeCab-\d # mecab port exists, but no package
     |.*/sapnwrfc-\d # no port?
     |.*/Gtk2-Ex-Geo-\d # needs libral, no port
@@ -340,10 +339,8 @@ match:
     |.*/LSF_Base_\d # needs /etc/lsf.conf, not in ports?
     |.*/LSF_Batch_\d # needs /etc/lsf.conf, not in ports?
     |.*/Config-Augeas-\d # needs augeas, not in ports
-    |.*/Math-RngStream-\d # needs librngstream(s), not in ports
     |.*/Lucene-Search-Highlight-\d # needs clucene, not in ports
     |.*/Device-Serdisp-\d # needs -lserdisp, not in ports
-    |.*/Compress-LZMA-Simple-\d # needs -llzma, not in ports
     |.*/MonetDB- # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
     |.*/DBD-monetdb-\d # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
     |.*/Bio-SCF-\d # no port for this (-lread, io_lib/scf.h...)
