@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Device-Velleman-K8055-Fuse-\d'
+pl:
+  expect:
+    - '\QUse a test hadness during testing?  [y/n] [y]'
+    - "\n"
+    - '\QIf the path does not exist it will be created [/tmp/8055]'
+    - "\n"
