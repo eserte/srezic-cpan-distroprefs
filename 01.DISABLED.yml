@@ -1306,5 +1306,6 @@ match:
     |DMITRI/RT-Client-REST-0.46.tar.gz # hanging tests on fbsd 9.2
     |DMITRI/RT-Client-REST-0.47.tar.gz # dito
     |DMITRI/RT-Client-REST-0.48.tar.gz # dito
+    |LSFISV/LSF_PERL_API/LSF_Batch_0.06.tar.gz # requires a /etc/lsf.conf
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
