@@ -8,6 +8,16 @@ pl:
     XERCES_LIB: "/usr/local/lib"
     XERCES_INCLUDE: "/usr/local/include"
     MAKE: gmake
+## XXX does not work
+#---
+#match:
+#  distribution: "/XML-Xerces-\d"
+#  perlconfig:
+#    archname: linux
+#pl:
+#  env:
+#    XERCES_LIB: /usr/lib
+#    XERCES_INCLUDE: /usr/include/xercesc/util
 ---
 match:
   distribution: "/XML-Xerces-\d"
