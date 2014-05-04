@@ -21,3 +21,14 @@ match:
 pl: 
   args:
     - MP_APXS=/usr/bin/apxs2
+--- 
+comment: "Another debian machine."
+match:
+  distribution: "/mod_perl-2\.0\.8\."
+  perlconfig:
+    archname: -linux
+  env:
+    HOSTNAME: eserte
+pl: 
+  args:
+    - MP_APXS=/usr/bin/apxs2
