@@ -28,7 +28,7 @@ match:
   perlconfig:
     archname: -linux
   env:
-    HOSTNAME: eserte
+    HOST: eserte
 pl: 
   args:
     - MP_APXS=/usr/bin/apxs2
