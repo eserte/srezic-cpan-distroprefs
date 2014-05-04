@@ -1,6 +1,8 @@
 --- 
 match:
   distribution: "/LaTeX-Driver-\d+"
+  perlconfig:
+    archname: "-freebsd"
 pl:
   expect:
     - "\Qlatex path [/usr/local/bin/latex]"
