@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Perlbal-1\.80\.'
+  perlconfig:
+    archname: freebsd
+  env:
+    PERL_PARALLEL_SMOKER: yes
+disabled: 1
+# Since perlbal 1.78 there was no success report on any freebsd system, and test suite is likely to hang
