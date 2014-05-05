@@ -560,6 +560,7 @@ match:
     |.*/IPC-MorseSignals-0\.15\.
     |.*/Lingua-EN-SimilarNames-Levenshtein-0\.06\. # Wall vs. Wayne
     |.*/WebService-FuncNet-0\.2\. # test suite may hang (t/live_test.t is likely to sleep forever), or is flapping (website related?)
+    |.*/Net-SSH-Any-0\.04\. # tries to access "ssh localhost", may result in a host key question
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_PARALLEL_SMOKER: yes
