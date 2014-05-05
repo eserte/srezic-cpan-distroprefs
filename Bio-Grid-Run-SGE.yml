@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Bio-Grid-Run-SGE-0\.038[01234]?\.'
+  distribution: '/Bio-Grid-Run-SGE-0\.038[012345]?\.'
   env:
     PERL_BATCH: yes
 disabled: 1
