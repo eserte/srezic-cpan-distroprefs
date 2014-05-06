@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Code-CutNPaste-\d'
+pl:
+  expect:
+    - '\QDo you wish to install the \E.\Qfind_duplicate_perl\E.\Q utility? [y ]'
+    - "\n"
