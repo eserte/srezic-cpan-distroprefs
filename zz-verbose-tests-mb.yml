@@ -1,0 +1,10 @@
+---
+match:
+  env:
+    PERL_MB_TEST_VERBOSE: 1
+cpanconfig:
+  prefer_installer: "MB"
+test:
+  commandline: "./Build test verbose=1"
+# Use it like this:
+#   env PERL_MB_TEST_VERBOSE=1 cpan_smoke_modules -pv 5.19.11 Boost-Geometry-Utils-0.15 

@@ -1,0 +1,10 @@
+---
+match:
+  env:
+    PERL_EUMM_TEST_VERBOSE: 1
+cpanconfig:
+  prefer_installer: "EUMM"
+test:
+  commandline: "make test TEST_VERBOSE=1"
+# Use it like this:
+#   env PERL_EUMM_TEST_VERBOSE=1 cpan_smoke_modules -pv 5.19.11 Boost-Geometry-Utils-0.15 
