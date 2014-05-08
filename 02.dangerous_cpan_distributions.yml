@@ -1085,6 +1085,7 @@ match:
      |\QMKRULL/Ruby-VersionManager-0.003020.tar.gz\E
      |\QMKUL/Net-RRP-0.03.tar.gz\E
      |\QMKUTTER/SOAP-Lite-0.715.tar.gz\E
+     |\QMLAWREN/OptArgs-0.1.8.tar.gz\E
      |\QMLEHMANN/Gimp-1.211.tar.gz\E
      |\QMLEHMANN/Gnome2-Print-0.52.tar.gz\E
      |\QMLEHMANN/JSON-XS-2.34.tar.gz\E
@@ -1111,6 +1112,7 @@ match:
      |\QMRAMBERG/DBIx-Class-0.03002.tar.gz\E
      |\QMRSLX/Video-M3U8-0.0.1.tar.gz\E
      |\QMSCHILLI/Net-Evernote-Simple-0.01.tar.gz\E
+     |\QMSCHOUT/Apache-AuthCookie-3.21.tar.gz\E
      |\QMSCHUETT/Text-AI-CRM114-0.04.tar.gz\E
      |\QMSCHWERN/Test-Legacy-1.2501.tar.gz\E
      |\QMSCHWERN/Test-Simple-0.98.tar.gz\E
@@ -1334,6 +1336,7 @@ match:
      |\QRHUNDT/XML-DOM-Lite-0.08.tar.gz\E
      |\QRITOU/OIDC-Lite-0.01.tar.gz\E
      |\QRITOU/OIDC-Lite-0.02.tar.gz\E
+     |\QRJBS/Test-Class-0.41.tar.gz\E
      |\QRJBS/perl-5.18.0.tar.bz2\E
      |\QRJBS/perl-5.18.1.tar.gz\E
      |\QRJESCHMI/Archive-BagIt-0.041.tar.gz\E
@@ -1664,6 +1667,7 @@ match:
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWOLLMERS/AproJo-0.003.tar.gz\E
      |\QWOLLMERS/AproJo-0.004.tar.gz\E
+     |\QWOLLMERS/AproJo-0.005.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
      |\QWYANT/Astro-SpaceTrack-0.077.tar.gz\E
