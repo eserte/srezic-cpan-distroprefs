@@ -21,7 +21,7 @@ comment: "freebsd 8.0 and 9.0 ships with new libjpeg, which produces slightly di
 # https://rt.cpan.org/Ticket/Display.html?id=49053
 ---
 match:
-  distribution: "/GD-2\.(50)\."
+  distribution: "/GD-2\.(50|51|52|53)\."
   perlconfig:
 # try to match debian/wheezy
     myuname: "linux.*3\.2\.0-4-.* debian 3\.2\."
