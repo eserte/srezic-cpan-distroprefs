@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Bio-BioStudio-\d'
+  env:
+    PERL_PARALLEL_SMOKER: yes
+pl:
+  expect:
+    - '\QWhere should configuration files be installed? [/etc/BioStudio ]'
+    - "/tmp/BioStudio"
