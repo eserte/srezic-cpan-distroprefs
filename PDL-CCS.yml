@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/PDL-CCS-\d'
+pl:
+  expect:
+    - '\Q<Config.PL> use 64-bit indices via PDL_Indx if available (PDL >= v2.007) [y] ?'
+    - "\n"
