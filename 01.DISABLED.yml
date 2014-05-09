@@ -680,7 +680,7 @@ match:
     |KABLAMO/Vim-Debug-0.7.tar.gz # same
     |KABLAMO/Vim-Debug-0.8.tar.gz # maybe the same, not checked
     |KABLAMO/Vim-Debug-0.9.tar.gz # same
-    |KABLAMO/Vim-Debug-0.\d+.tar.gz # same with 0.10, disable for all future versions...
+    |KABLAMO/Vim-Debug-0.10.tar.gz # same with 0.10, but 0.904 works at least
     |.*/Apache-Sling-0.12.tar.gz # the Apache-Sling-Print.t hangs
     |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
     |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
