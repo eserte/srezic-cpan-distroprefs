@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/MIDI-Music-\d'
+pl:
+  expect:
+    - '\QTest event play? [y]/n :'
+    - "\n"
