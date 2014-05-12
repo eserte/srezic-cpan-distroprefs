@@ -1306,5 +1306,7 @@ match:
     |DMITRI/RT-Client-REST-0.48.tar.gz # dito
     |LSFISV/LSF_PERL_API/LSF_Batch_0.06.tar.gz # requires a /etc/lsf.conf
     |.*/Chart-XMGR-0.95 # tests hang (at least on a debian/wheezy system)
+    |WORENKD/Log-ErrLogger-1.5.tar.gz # tests hang (at least on a debian/wheezy system)
+    |MAXM/MMM-OracleDump-0.01.tar.gz # needs user/password, probably for an Oracle system
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
