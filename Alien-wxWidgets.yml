@@ -1,3 +1,11 @@
+match:
+  distribution: '/Alien-wxWidgets-0\.65\.'
+  perlconfig:
+    osname: freebsd
+disabled: 1
+# Actually it fails at least if sys/inotify.h is available, which is
+# some BSD variant lacking some functions needed by wx.
+# Probably provided by devel/libinotify package.
 --- 
 comment: "I have wxWidgets on my system, but config program is named wxgtk2-2.6-config"
 match:
