@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/LSF-Batch-\d'
+pl:
+  expect:
+    - '\QDirectory containing lsf.conf file for this machine:'
+    - "\n"
