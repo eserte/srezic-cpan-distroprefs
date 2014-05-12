@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/File-BSDGlob-\d'
+  perlconfig:
+    version: '^5\.(17|18|19|20)'
+disabled: 1
+# see https://rt.cpan.org/Ticket/Display.html?id=95586
