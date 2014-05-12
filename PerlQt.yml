@@ -1,0 +1,6 @@
+---
+match:
+  distribution: 'GGARAND/PerlQt-3.008.tar.gz'
+disabled: 1
+# needs qt3, but Debian/wheezy and FreeBSD 9.x (and probably other "modern" distros) have only qt4 available
+# this is "disabled" because Makefile.PL would scan the whole disk for suitable libraries
