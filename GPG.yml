@@ -1,0 +1,20 @@
+---
+match:
+  distribution: '/GPG-\d'
+  perlconfig:
+    archname: "-linux"
+pl:
+  expect:
+    - '\QPATH to your gnupg (\E.gpg.\Q) executable ? [/usr/bin]'
+    - "\n"
+---
+match:
+  distribution: '/GPG-\d'
+  perlconfig:
+    archname: "-freebsd"
+pl:
+  expect:
+    - '\QPATH to your gnupg (\E.gpg.\Q) executable ? [/usr/bin]'
+    - "/usr/local/bin\n"
+
+# checked with MILES/GPG-0.06
