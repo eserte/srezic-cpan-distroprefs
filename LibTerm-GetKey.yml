@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/LibTerm-GetKey-\d'
+test:
+  expect:
+    - '\QType a character, terminate with the enter key:'
+    - "a\n"
+    - '\QYou may enter some text here:'
+    - "some text\n"
+    - '\QYou may enter some invisible text here:'
+    - "some invisible text\n"
