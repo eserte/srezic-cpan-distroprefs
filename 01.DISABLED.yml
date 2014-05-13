@@ -1086,6 +1086,7 @@ match:
     |SKI/Task-Git-LongList1-0.03.tar.gz # test tries to install modules through CPAN.pm - https://rt.cpan.org/Ticket/Display.html?id=94932
     |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
     |CCAVNOR/autoclass_v1_01.tgz # unauthorized? Class::AutoClass is used here, but also in NATG/Class-AutoClass-1.56.tar.gz
+    |SVISTUNOV/qbit-0.9.tar.gz # recursive dependency
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
