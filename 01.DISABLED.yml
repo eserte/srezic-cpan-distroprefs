@@ -1087,6 +1087,7 @@ match:
     |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
     |CCAVNOR/autoclass_v1_01.tgz # unauthorized? Class::AutoClass is used here, but also in NATG/Class-AutoClass-1.56.tar.gz
     |SVISTUNOV/qbit-0.9.tar.gz # recursive dependency
+    |ORTALO/MOP-1.00.tar.gz # test asks for password for ssh/rsh operation
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
