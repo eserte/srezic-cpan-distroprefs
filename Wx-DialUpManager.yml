@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Wx-DialUpManager-\d'
+pl:
+  expect:
+    - '\QWhere is WXWIN? (aka WXDIR)'
+    - "\n"
