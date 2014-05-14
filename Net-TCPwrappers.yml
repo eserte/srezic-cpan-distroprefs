@@ -1,9 +1,20 @@
 ---
 match:
   distribution: "/Net-TCPwrappers-\d"
+  perlconfig:
+    archname: "linux"
 pl:
   expect:
-    - "\Qdo you want to link against"
+    - '\Qdo you want to use /usr/include/tcpd.h as your header?'
     - "\n"
-    - "\Qdo you want to use"
+    - '\Qenter library directory to use:'
+    - "\n"
+---
+match:
+  distribution: "/Net-TCPwrappers-\d"
+pl:
+  expect:
+    - '\Qdo you want to link against'
+    - "\n"
+    - '\Qdo you want to use'
     - "\n"
