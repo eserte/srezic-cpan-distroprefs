@@ -4,5 +4,5 @@ match:
 pl:
   expect:
     - "\QWhere will the RxPerl source directory be constructed"
-    - "/tmp/RxPerl"
+    - "/tmp/RxPerl\n"
 # what does this mean?
