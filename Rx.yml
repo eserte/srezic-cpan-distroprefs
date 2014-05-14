@@ -3,6 +3,6 @@ match:
   distribution: "/Rx-\d"
 pl:
   expect:
-    - "\QWhere will the RxPerl source directory be constructed"
+    - '\QWhere will the RxPerl source directory be constructed'
     - "/tmp/RxPerl\n"
 # what does this mean?
