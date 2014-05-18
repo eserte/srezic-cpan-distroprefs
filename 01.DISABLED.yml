@@ -655,8 +655,7 @@ match:
     |BLX/XSDSQL_(20101209|\d+). # interactive questions about database parameters
     |GWYN/POEx-HTTP-Server-0.0600. # 26... test hangs
     |GWYN/POEx-HTTP-Server-0.0700. # 26... test hangs
-    |GWYN/POEx-HTTP-Server-0.0800. # test hangs
-    |GWYN/POEx-HTTP-Server-0.0\d+. # guessing...
+    |GWYN/POEx-HTTP-Server-0.0800. # test hangs ... but 0.0902 looks fine, it seems
     |FRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz # endless loop, filling up /tmp
     |.*/LWP-UserAgent-POE-0.03. # lwp_use... test hangs
     |.*/WebService-Async-0.03.tar.gz # another hanging one
