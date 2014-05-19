@@ -427,7 +427,7 @@ match:
     |.*/DBIx-SQLEngine-\d # wants a list of DSNs to test against (or n)
     |.*/EZDBI-\d
     |.*/File-SmartTail-\d # wants rsh password
-    |.*/FusionInventory-Agent-\d # postinstall questions (answer "n"!)
+    |XXX.*/FusionInventory-Agent-\d # postinstall questions (answer "n"!) --- not anymore
     |.*/Games-Sudoku-SudokuTk-\d
     |.*/Graphics-Libplot-\d # needs to click on windows
     |.*/Gtk-Perl-0\.7009\. # interactive test
