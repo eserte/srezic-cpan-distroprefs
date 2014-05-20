@@ -445,7 +445,7 @@ match:
     |.*/PDL-Graphics-Simple-1.005.tar.gz # asks questions in test
     |.*/POE-Component-WebService-HtmlKitCom-FavIconFromImage-0.002.tar.gz # 00-load test always hangs on freebsd and needs manual killing
     |.*/POE-Component-WWW-Google-PageRank-0\.04\.tar\.gz # 00-load test always hangs on freebsd and needs manual killing
-    |.*/Perl-Tags-0.\d+.tar.gz # asks for RETURN in test, seen with 0.26 and 0.28
+    |.*/Perl-Tags-0.\d+.tar.gz # asks for RETURN in test, seen with 0.26 and 0.28 and 0.31
     |.*/PerlMagick-6\.40\. # composite+montage tests are interactive
     |.*/Proc-JobQueue-0\.3\. # asks for a password
     |.*/Proc-JobQueue-0\.4\. # still asks for a password, probably...
