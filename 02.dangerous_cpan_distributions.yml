@@ -156,6 +156,7 @@ match:
      |\QAWNCORP/Validation-Class-4.01003514.tar.gz\E
      |\QAWNCORP/Validation-Class-6.05.tar.gz\E
      |\QAWNCORP/Validation-Class-7.86.tar.gz\E
+     |\QAZAWAWI/Farabi-0.45.tar.gz\E
      |\QAZAWAWI/Padre-Plugin-SpellCheck-1.21.tar.gz\E
      |\QBAERGAJ/Shipment-0.13.tar.gz\E
      |\QBALDR/BioGraph/BioGraph-1.0.0.tar.gz\E
@@ -180,7 +181,6 @@ match:
      |\QBEPPU/Squatting-0.60.tar.gz\E
      |\QBEPPU/Squatting-0.81.tar.gz\E
      |\QBERNARD/App-RecordStream-3.7.3.tar.gz\E
-     |\QBEROV/Ado-0.40.tar.gz\E
      |\QBETTELLI/Image-MetaData-JPEG-0.15.tar.gz\E
      |\QBIGJ/File-Random-0.07.tar.gz\E
      |\QBIGJ/File-Random-0.10.tar.gz\E
@@ -326,6 +326,7 @@ match:
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
+     |\QDDUMONT/Config-Model-2.055.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDESPAIR/Net-Whois-Raw-2.46.tar.gz\E
@@ -459,6 +460,7 @@ match:
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
      |\QETHER/Moose-2.1005.tar.gz\E
+     |\QETHER/Moose-2.1205.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -973,7 +975,6 @@ match:
      |\QMADZ/DSlib-2.12.tar.gz\E
      |\QMAHEX/XML-XSLT-0.31.tar.gz\E
      |\QMAHIRO/EJS-Template-0.02.tar.gz\E
-     |\QMAJENSEN/REST-Neo4p-0.2242.tar.gz\E
      |\QMAKAMAKA/JSON-1.14.tar.gz\E
      |\QMAKAMAKA/JSON-1.15.tar.gz\E
      |\QMAKAMAKA/JSON-2.27.tar.gz\E
@@ -1001,7 +1002,6 @@ match:
      |\QMARKOV/POSIX-1003-0.13.tar.gz\E
      |\QMARKOV/XML-Compile-SOAP-0.78.tar.gz\E
      |\QMARKOV/XML-Compile-SOAP-2.38.tar.gz\E
-     |\QMARKSTOS/CGI-Application-3.31.tar.gz\E
      |\QMARKSTOS/CGI-Application-4.21.tar.gz\E
      |\QMARKSTOS/CGI-Session-4.43.tar.gz\E
      |\QMARKSTOS/Data-FormValidator-4.66.tar.gz\E
@@ -1048,7 +1048,6 @@ match:
      |\QMIKIHOSHI/Acme-PrettyCure-0.1.3.tar.gz\E
      |\QMIKIHOSHI/Smart-Options-0.051.tar.gz\E
      |\QMIKRA/Tk-MK-0.21.tar.gz\E
-     |\QMILSO/SchemaView-Plus-0.16.tar.gz\E
      |\QMIRK/Net-Z3950-0.35.tar.gz\E
      |\QMITTI/Device-SerialPort-Xmodem-1.01.tar.gz\E
      |\QMIYAGAWA/Apache-Singleton-0.03.tar.gz\E
@@ -1167,12 +1166,14 @@ match:
      |\QNEKOYA/DBIx-Skinny-InflateColumn-DateTime-0.04.tar.gz\E
      |\QNES/Nes-1.02.tar.gz\E
      |\QNEZUMI/MIME-Charset-1.006.2.tar.gz\E
+     |\QNGLENN/Algorithm-AM-2.45.tar.gz\E
      |\QNICS/Catmandu-0.0102.tar.gz\E
      |\QNICS/Catmandu-0.04.tar.gz\E
      |\QNICS/Catmandu-0.0402.tar.gz\E
      |\QNICS/Catmandu-0.07.tar.gz\E
      |\QNICS/Catmandu-0.0902.tar.gz\E
      |\QNICS/Catmandu-0.8002.tar.gz\E
+     |\QNICS/Catmandu-0.9.tar.gz\E
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
@@ -1186,7 +1187,6 @@ match:
      |\QNIKC/SVN-Web-0.53.tar.gz\E
      |\QNILSONSFJ/Catalyst-View-Component-SubInclude-0.07.tar.gz\E
      |\QNJFRANCK/Catmandu-AlephX-1.05.tar.gz\E
-     |\QNKUITSE/Biblio-COUNTER-0.09.tar.gz\E
      |\QNLNETLABS/Net-DNS-0.72.tar.gz\E
      |\QNLNETLABS/Net-DNS-0.74.tar.gz\E
      |\QNLNETLABS/Net-DNS-SEC-0.17.tar.gz\E
@@ -1229,6 +1229,7 @@ match:
      |\QOVID/Test-Class-Moose-0.43.tar.gz\E
      |\QOVID/Test-Harness-3.26.tar.gz\E
      |\QOVID/Test-Harness-3.28.tar.gz\E
+     |\QOVID/Test-Kit-0.101.tar.gz\E
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPARDUS/zoidberg/Zoidberg-0.95.tar.gz\E
@@ -1427,6 +1428,7 @@ match:
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
      |\QSHARYANTO/SHARYANTO-Utils-0.72.tar.gz\E
+     |\QSHAY/Win32-SharedFileOpen-3.44.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
@@ -1502,7 +1504,6 @@ match:
      |\QSTARKY/Net-Peep-0.4.1.1.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.4.tar.gz\E
      |\QSTEFANT/WWW-phpBB-0.02.tar.gz\E
-     |\QSTEFFENW/Locale-TextDomain-OO-1.009.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.06.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.08.tar.gz\E
      |\QSTEPHEN/Video-Xine-0.18.tar.gz\E
@@ -1668,6 +1669,7 @@ match:
      |\QXAICRON/WWW-Google-Cloud-Messaging-0.03.tar.gz\E
      |\QXAICRON/Win32-Unicode-0.18.tar.gz\E
      |\QXAICRON/Win32-Unicode-0.19.tar.gz\E
+     |\QXANT/RFID-Libnfc-0.09.tar.gz\E
      |\QXANTUS/POE-Component-EasyDBI-1.23.tar.gz\E
      |\QXAOINC/XAO-FS-1.03.tar.gz\E
      |\QXAOINC/XAO-FS-1.04.tar.gz\E
@@ -1720,4 +1722,5 @@ match:
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
      |\QZEROLIU/Bio-KEGGI-v0.1.2.tar.gz\E
      |\QZPMORGAN/Gtk2-Hexgrid-0.05.tar.gz\E
+     |\QZWON/Data-EventStream-0.02.tar.gz\E
     )$
