@@ -2,8 +2,10 @@
 match:
   distribution: "/Authen-Libwrap-\d"
 pl:
-  expect:
-    - "\Qdo you want to link against /usr/lib/libwrap.so"
-    - "\n"
-    - "\Qdo you want to use /usr/include/tcpd.h as your header"
-    - "\n"
+  eexpect:
+    mode: anyorder
+    talk:
+      - "\Qdo you want to link against /usr/lib/libwrap.so"
+      - "\n"
+      - "\Qdo you want to use /usr/include/tcpd.h as your header"
+      - "\n"
