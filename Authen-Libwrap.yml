@@ -5,7 +5,9 @@ pl:
   eexpect:
     mode: anyorder
     talk:
-      - "\Qdo you want to link against /usr/lib/libwrap.so"
+      - '\Qdo you want to link against /usr/lib/libwrap.so'
       - "\n"
-      - "\Qdo you want to use /usr/include/tcpd.h as your header"
+      - '\Qdo you want to use /usr/include/tcpd.h as your header'
+      - "\n"
+      - '\Qenter library directory to use:'
       - "\n"
