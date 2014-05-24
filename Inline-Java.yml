@@ -38,3 +38,15 @@ pl:
     - "\n"
     - "\QDo you wish to build the PerlInterpreter extension? [n]"
     - "\n"
+--- 
+# Valid only for Debian/wheezy with openjdk6 installed
+# Also required: -nolimits!
+match:
+  distribution: "/Inline-Java-\d"
+  perlconfig:
+    archname: x86_64-linux
+pl:
+  args:
+    - J2SDK=/usr/lib/jvm/java-6-openjdk-amd64
+  env:
+    PERL_MM_USE_DEFAULT: 1
