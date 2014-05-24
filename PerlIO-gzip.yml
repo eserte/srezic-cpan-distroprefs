@@ -8,4 +8,12 @@ match:
 patches:
 # https://rt.cpan.org/Ticket/Display.html?id=76335
   - "SREZIC/patches/PerlIO-gzip-0.18-SREZIC-Windows.diff"
-comment: "Generally this patch is applicable to all OS, but effectively needed only on non-Unix systems"
+  - "SREZIC/patches/PerlIO-gzip-0.18-RT92412.patch"
+comment: "Generally the first patch is applicable to all OS, but effectively needed only on non-Unix systems"
+---
+match:
+  distribution: "/PerlIO-gzip-0\.18\."
+  perlconfig:
+    version: '^(5\.19\.(8|9|1.)|5\.2.\.)'
+patches:
+  - "SREZIC/patches/PerlIO-gzip-0.18-RT92412.patch"
