@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Mojolicious-Plugin-RenderFile-\d'
+cpanconfig:
+  prefer_external_tar: 0
+# FreeBSD's tar/pax cannot handle the non-ascii chars in the 0.08 tarball
