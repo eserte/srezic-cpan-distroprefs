@@ -397,6 +397,7 @@ match:
     |MIYAGAWA/AnyEvent-Twitter-Stream-0.26.tar.gz # endless test run - http://www.cpantesters.org/cpan/report/4faf6f20-aec9-11e3-84e3-31d2e0bfc7aa
     |MJEMMESON/Mojo-Log-JSON-0.01.tar.gz # tests hang (9.2, 10.0)
     |TEX/Data-Persist-0.12.tar.gz # locking issue (?) - https://rt.cpan.org/Ticket/Display.html?id=95349
+    |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]" (only freebsd, not debian/wheezy)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
@@ -1090,7 +1091,7 @@ match:
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
-comment: "temporary disabled on my freebsd system, all to be analyzed and re-checked"
+comment: "temporary disabled, all to be analyzed and re-checked"
 match:
   distribution: |
     ^(?x:
@@ -1220,7 +1221,6 @@ match:
     |SDPRICE/Linux-DVB-DVBT-Apps-QuartzPVR- # asks for database password etc.
     |PRAMAKERS/JSON-Simple-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
     |ABCABC/CFTP_01.tar.gz # no Makefile.PL, no proper directory structure
-    |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]"
     |DBMOLESTA/sp.tar.gz # (SharePoint-SOAPHandler) needs credentials for real tests
     |.*/RDF-TrineX-RuleEngine-Jena- # requires ~/Downloads/Jena-2.6.4 (might be downloaded, but I did not configure this yet)
     |.*/jacode-2.13.4.10.tar.gz # no Makefile.PL
