@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Enbugger-2\.016\.'
+  perlconfig:
+    version: '^(5\.19\.([6789]|1.)|5\.2\d\.)'
+patches:
+  - SREZIC/patches/Enbugger-2.016-RT95079.patch 
