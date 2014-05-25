@@ -385,7 +385,7 @@ match:
     |.*/Mojolicious-Plugin-TtRenderer-1\.32\. # deep-recursion.t test hangs because of flock/File::Temp problems, see https://github.com/abh/mojox-renderer-tt/issues/33
     |MUIR/modules/File-Flock-2013.06.tar.gz # hanging tests, see https://rt.cpan.org/Ticket/Display.html?id=84447
     |JVANNUCCI/Parallel-Fork-BossWorkerAsync-0\.07\. # test suite hangs on freebsd 8+9
-    |.*/ZMQ-LibZMQ2-1\.07\. # tests hang on freebsd 9.2
+    |.*/ZMQ-LibZMQ2-1\.07\. # tests hang on freebsd 9.2 and 10.0
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
     |DMAKI/ZMQ-LibZMQ3-1.15.tar.gz # hanging tests on fbsd9
     |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
