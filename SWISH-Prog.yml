@@ -2,11 +2,15 @@
 match:
   distribution: "/SWISH-Prog-\d"
 pl:
-  eexpect:
-    mode: anyorder
-    reuse: 1
-    talk:
-      - "\QSWISH::API::Object is recommended. Add it to CPAN install list? [yes]"
-      - "\n"
-      - "\QMail::Box is optional. Add it to CPAN install list"
-      - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+## not interactive anymore, but in any case, set PERL_MM_USE_DEFAULT
+#pl:
+#  eexpect:
+#    mode: anyorder
+#    reuse: 1
+#    talk:
+#      - "\QSWISH::API::Object is recommended. Add it to CPAN install list? [yes]"
+#      - "\n"
+#      - "\QMail::Box is optional. Add it to CPAN install list"
+#      - "\n"
