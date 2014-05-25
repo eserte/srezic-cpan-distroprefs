@@ -88,6 +88,11 @@ comment: "Do not need to test the guerilla"
 match:
   distribution: '/kurila-\d+'
 disabled: 1
+---
+comment: "Perl6 distributions"
+match:
+  distribution: '/Perl6/'
+disabled: 1
 --- 
 comment: "Archaic OSes, probably will never work with them"
 match:
@@ -1081,7 +1086,6 @@ match:
     |PLOCKABY/v1.0.0.tar.gz # obviously a packaging accident, no name in distname
     |FROGGS/Test-Ignore-Me-0.001.tar.gz # perl6 test distribution
     |FROGGS/test/test2/ACME-Ignore-Me-\d # perl6 test distributions
-    |FROGGS/Perl6/test1/test2/ACME-Ignore-Me-\d # perl6 test distributions
     |DRSTEVE/stylehouse-0.03.tar.gz # not a testable distribution (no EUMM/MB, t/*.t ...)
     |SKI/Task-Git-LongList1-0.03.tar.gz # test tries to install modules through CPAN.pm - https://rt.cpan.org/Ticket/Display.html?id=94932
     |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
