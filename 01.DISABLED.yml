@@ -1315,5 +1315,6 @@ match:
     |WORENKD/Log-ErrLogger-1.5.tar.gz # tests hang (at least on a debian/wheezy system)
     |MAXM/MMM-OracleDump-0.01.tar.gz # needs user/password, probably for an Oracle system
     |HDIAS/Mail-PopPwd-0.03.tar.gz # test asks for PwdPopServer, User, Password...
+    |TBUSCH/Business-PayPal-EWP-1.03.tar.gz # configuration asks for c-c to abort
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
