@@ -68,6 +68,7 @@ match:
      |\QAMAR/Wizard-LDAP-0.1004.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1006.tar.gz\E
      |\QAMBS/Lingua/Lingua-NATools-v0.7.4.tar.gz\E
+     |\QAMBS/Lingua/Lingua-NATools-v0.7.5.tar.gz\E
      |\QAMBS/Quiki/Quiki-0.11.tar.gz\E
      |\QAMIRITE/Nour-0.01.tar.gz\E
      |\QANAZAWA/Blosxom-Plugin-0.00010.tar.gz\E
@@ -92,6 +93,7 @@ match:
      |\QANNELI/Erlang-Parser-0.2.tar.gz\E
      |\QANNELI/Erlang-Parser-0.5.2.tar.gz\E
      |\QANTRO/PDF-110.tgz\E
+     |\QANURADHA/Usergrid/Usergrid-Client-0.11.tar.gz\E
      |\QAPOCAL/Test-Apocalypse-0.10.tar.gz\E
      |\QARANDAL/Pod-PseudoPod-0.15.tar.gz\E
      |\QAREGGIORI/RDFStore-0.31.tar.gz\E
@@ -160,6 +162,7 @@ match:
      |\QAZAWAWI/Padre-Plugin-SpellCheck-1.21.tar.gz\E
      |\QBAERGAJ/Shipment-0.13.tar.gz\E
      |\QBALDR/BioGraph/BioGraph-1.0.0.tar.gz\E
+     |\QBARBIE/CPAN-Testers-WWW-Statistics-1.11.tar.gz\E
      |\QBARGLE/Devel-TypeCheck-0.03.tar.gz\E
      |\QBARGLE/Devel-TypeCheck-1.01.tar.gz\E
      |\QBARGLE/Devel-TypeCheck-1.2.2.tar.gz\E
@@ -173,6 +176,7 @@ match:
      |\QBDFOY/Module-Release-2.06.tar.gz\E
      |\QBDFOY/Unicode-Tussle-1.04.tar.gz\E
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
+     |\QBDUGGAN/Module-Build-Database-0.50.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBEATNIK/Filter-CBC-0.08.tar.gz\E
      |\QBENBOOTH/IntervalTree-0.01.tar.gz\E
@@ -234,6 +238,7 @@ match:
      |\QBYRNE/SOAP-Lite-0.69.tar.gz\E
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
+     |\QCANID/Yote-0.213.tar.gz\E
      |\QCAPOEIRAB/WWW-Salesforce-0.11.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARLOS/Dist-Zilla-Plugin-test2t-0.001031.tar.gz\E
@@ -348,6 +353,7 @@ match:
      |\QDLAMBLEY/MogileFS-Client-Async-0.025.tar.gz\E
      |\QDMAKI/Data-Decode-0.00001.tar.gz\E
      |\QDMAKI/DateTime-Format-Japanese-0.01.tar.gz\E
+     |\QDMAKI/JSON-RPC-1.03.tar.gz\E
      |\QDMAKI/Twitter-Shell-0.02.tar.gz\E
      |\QDMANURA/SQL-Interpolate-0.30.tar.gz\E
      |\QDMANURA/SQL-Interpolate-0.31.tar.gz\E
@@ -525,6 +531,7 @@ match:
      |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
      |\QGENE/Chess-Rep-Coverage-0.1003.tar.gz\E
+     |\QGENE/MIDI-Simple-Drummer-0.0601.tar.gz\E
      |\QGENEHACK/App-GitGitr-0.3.tar.gz\E
      |\QGENEHACK/App-GitGot-1.12.tar.gz\E
      |\QGETTY/App-DuckPAN-0.115.tar.gz\E
@@ -614,7 +621,6 @@ match:
      |\QHERNAN/HTML-Robot-Scrapper-0.10.tar.gz\E
      |\QHERVEUS/Weaving-Tablet-0.009.005.tar.gz\E
      |\QHESCO/LedgerSMB-API-0.01.tar.gz\E
-     |\QHEYTRAV/Hessian-Translator-1.03.tar.gz\E
      |\QHGDEV/Business-CyberSource-0.007010.tar.gz\E
      |\QHIDEAKIO/MouseX-SingletonMethod-0.03.tar.gz\E
      |\QHIDEAKIO/autolocale-0.02.tar.gz\E
@@ -676,6 +682,7 @@ match:
      |\QINGY/TestML-0.11.tar.gz\E
      |\QINGY/TestML-0.22.tar.gz\E
      |\QINGY/TestML-0.28.tar.gz\E
+     |\QINGY/Tiny-YAML-0.0.2.tar.gz\E
      |\QINGY/Vroom-0.25.tar.gz\E
      |\QINGY/Vroom-0.27.tar.gz\E
      |\QINGY/YAML-0.73.tar.gz\E
@@ -815,7 +822,6 @@ match:
      |\QJTPALMER/Box2D-0.05.tar.gz\E
      |\QJTPALMER/SDL-2.512.tar.gz\E
      |\QJTPALMER/SDL-2.540.tar.gz\E
-     |\QJTT/File-FcntlLock-0.16.tar.gz\E
      |\QJUERD/DBIx-Simple-1.26.tar.gz\E
      |\QJVANASCO/Authen-PluggableCaptcha-0.02.tar.gz\E
      |\QJWB/Bio-Gonzales-0.0546.tar.gz\E
@@ -855,10 +861,12 @@ match:
      |\QKAWASAKI/WebService-Recruit-Jalan-0.07.tar.gz\E
      |\QKAWASAKI/XML-FeedPP-0.42.tar.gz\E
      |\QKAZEBURO/DBIx-Sunny-0.20.tar.gz\E
+     |\QKAZEBURO/DBIx-Sunny-0.21.tar.gz\E
      |\QKAZEBURO/Kossy-0.07.tar.gz\E
      |\QKAZEBURO/Kossy-0.28.tar.gz\E
      |\QKAZUHO/Starlet-0.14.tar.gz\E
      |\QKAZUNORI/Furl-Cookies-0.01.tar.gz\E
+     |\QKCODY/IPC-Shm-0.1.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.13.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.15.tar.gz\E
      |\QKESTEB/XAS-0.04.tar.gz\E
@@ -954,12 +962,14 @@ match:
      |\QLEONT/POSIX-RT-Signal-0.009.tar.gz\E
      |\QLESPEA/Project-Euler-v0.1.3.tar.gz\E
      |\QLESPEA/Project-Euler-v0.1.5.tar.gz\E
+     |\QLETO/Math-GSL-0.28.tar.gz\E
      |\QLGEHLEN/SVG-Rasterize-0.003006.tar.gz\E
      |\QLINNIN/Business-PayPal-SDK-0.11.tar.gz\E
      |\QLKUNDRAK/RPM2-0.70.tar.gz\E
      |\QLMC/Net-Whois-RIPE-1.31.tar.gz\E
      |\QLSAUNDERS/DBIx-Class-Fixtures-1.000002.tar.gz\E
      |\QLSAUNDERS/DBIx-Class-Fixtures-1.001001.tar.gz\E
+     |\QLTHEISEN/IPC-Open3-Callback-1.09.tar.gz\E
      |\QLUCS/Test-Usage-0.07.tar.gz\E
      |\QLUKEC/Socialtext-WikiTest-0.04.tar.gz\E
      |\QLUKEC/Test-WWW-Selenium-1.24.tar.gz\E
@@ -1040,7 +1050,6 @@ match:
      |\QMDOOTSON/Wx-0.9921.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
-     |\QMGRIMES/Perl-Tidy-Sweetened-0.20.tar.gz\E
      |\QMHOOLEHAN/Net-Gnats-0.03.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1259,11 +1268,6 @@ match:
      |\QPEVANS/Tangence-0.18.tar.gz\E
      |\QPEVANS/Tickit-Console-0.03.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
-     |\QPFEIFFER/makepp-1.50-101117.tgz\E
-     |\QPFEIFFER/makepp-1.50-110915.tgz\E
-     |\QPFEIFFER/makepp-1.50-cvs-070506.tgz\E
-     |\QPFEIFFER/makepp-1.50.081214.tgz\E
-     |\QPFEIFFER/makepp-1.50.100422.tgz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
      |\QPHILCROW/Gantry-3.42.tar.gz\E
@@ -1318,6 +1322,7 @@ match:
      |\QRCLAMP/Net-DAAP-Client-Auth-0.13.tar.gz\E
      |\QRDICE/CGI-Application-Framework-0.23.tar.gz\E
      |\QRDO/Bio-KBase-0.02.tar.gz\E
+     |\QRDRAKE/Net-ISC-DHCPd-0.15.tar.gz\E
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
@@ -1430,7 +1435,6 @@ match:
      |\QSHANTANU/Device-LPS331AP-0.003.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
-     |\QSHARYANTO/SHARYANTO-Utils-0.72.tar.gz\E
      |\QSHAY/Win32-SharedFileOpen-3.44.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
@@ -1568,7 +1572,7 @@ match:
      |\QTMTM/Spreadsheet-Engine-0.11.tar.gz\E
      |\QTMTM/Spreadsheet-Engine-0.12.tar.gz\E
      |\QTMULEVICH/Archive-SimpleExtractor-0.01.tar.gz\E
-     |\QTMURRAY/UAV-Pilot-0.10.tar.gz\E
+     |\QTMURRAY/UAV-Pilot-0.11.tar.gz\E
      |\QTMURRAY/UAV-Pilot-WumpusRover-Server-0.1.tar.gz\E
      |\QTNT/Syntax-Feature-Try-0.002.tar.gz\E
      |\QTOBYINK/Data-Dumper-GUI-0.005.tar.gz\E
@@ -1688,6 +1692,7 @@ match:
      |\QXSAWYERX/Dancer2-0.13.tar.gz\E
      |\QYAMATO/QDBM_File-0.05.tar.gz\E
      |\QYANICK/Template-Caribou-0.1.0.tar.gz\E
+     |\QYANICK/Template-Caribou-0.2.3.tar.gz\E
      |\QYAPPO/HTTP-Engine-0.0.11.tar.gz\E
      |\QYAPPO/HTTP-Engine-0.0.12.tar.gz\E
      |\QYAPPO/HTTP-Engine-0.0.13.tar.gz\E
