@@ -16,4 +16,10 @@ pl:
   expect:
     - "\QDo you wish to install the 'csniff' utility?"
     - "\n"
-
+---
+match:
+  distribution: '/Class-Sniff-\d'
+pl:
+  expect:
+    - "\QDo you wish to install the 'csniff' utility?"
+    - "\n"
