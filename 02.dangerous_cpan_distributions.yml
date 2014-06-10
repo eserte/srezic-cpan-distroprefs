@@ -7,7 +7,6 @@ match:
       \QAALLAN/Astro-Catalog-2.1.3.tar.gz\E
      |\QAANOAA/Hubot-Scripts-Bundle-0.1.1.tar.gz\E
      |\QAARONJJ/WWW-TheEchoNest-0.1.tar.gz\E
-     |\QAASSAD/Net-Whois-RIPE-2.005.tar.gz\E
      |\QABALAMA/CTKlib-1.15.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABIGAIL/Acme-MetaSyntactic-Themes-Abigail-2013072902.tar.gz\E
@@ -67,7 +66,6 @@ match:
      |\QAMAR/Wizard-0.1003.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1004.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1006.tar.gz\E
-     |\QAMBS/Lingua/Lingua-NATools-v0.7.4.tar.gz\E
      |\QAMBS/Lingua/Lingua-NATools-v0.7.5.tar.gz\E
      |\QAMBS/Quiki/Quiki-0.11.tar.gz\E
      |\QAMIRITE/Nour-0.01.tar.gz\E
@@ -530,7 +528,6 @@ match:
      |\QGARU/Padre-Plugin-Catalyst-0.09.tar.gz\E
      |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
-     |\QGENE/Chess-Rep-Coverage-0.1003.tar.gz\E
      |\QGENE/MIDI-Simple-Drummer-0.0601.tar.gz\E
      |\QGENEHACK/App-GitGitr-0.3.tar.gz\E
      |\QGENEHACK/App-GitGot-1.12.tar.gz\E
@@ -866,7 +863,6 @@ match:
      |\QKAZEBURO/Kossy-0.28.tar.gz\E
      |\QKAZUHO/Starlet-0.14.tar.gz\E
      |\QKAZUNORI/Furl-Cookies-0.01.tar.gz\E
-     |\QKCODY/IPC-Shm-0.1.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.13.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.15.tar.gz\E
      |\QKESTEB/XAS-0.04.tar.gz\E
@@ -918,6 +914,7 @@ match:
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKROW/Gearman-XS-0.15.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
+     |\QKRYDE/Glib-Ex-ObjectBits-15.tar.gz\E
      |\QKSCHWAB/Device-MiniLED-1.02.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
@@ -962,7 +959,6 @@ match:
      |\QLEONT/POSIX-RT-Signal-0.009.tar.gz\E
      |\QLESPEA/Project-Euler-v0.1.3.tar.gz\E
      |\QLESPEA/Project-Euler-v0.1.5.tar.gz\E
-     |\QLETO/Math-GSL-0.28.tar.gz\E
      |\QLGEHLEN/SVG-Rasterize-0.003006.tar.gz\E
      |\QLINNIN/Business-PayPal-SDK-0.11.tar.gz\E
      |\QLKUNDRAK/RPM2-0.70.tar.gz\E
@@ -1284,6 +1280,7 @@ match:
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
      |\QPLICEASE/Dist-Zilla-PluginBundle-Author-Plicease-1.48.tar.gz\E
+     |\QPLICEASE/PkgConfig-0.07620.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
      |\QPMQS/Compress-Raw-Bzip2-2.005.tar.gz\E
@@ -1316,6 +1313,7 @@ match:
      |\QRAM/Carp-Datum-0.1.2.tar.gz\E
      |\QRAM/Getargs-Long-0.1.3.tar.gz\E
      |\QRANDERSON/HTTP-WebTest-1.02.tar.gz\E
+     |\QRAPPAZF/Gtk2-Ex-DbLinker-0.02.tar.gz\E
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.06001.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.07300.tar.gz\E
@@ -1362,6 +1360,7 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
+     |\QRRWO/Media-Type-Simple-0.02.tar.gz\E
      |\QRSCHUPP/Module-ScanDeps-1.11.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
@@ -1572,7 +1571,7 @@ match:
      |\QTMTM/Spreadsheet-Engine-0.11.tar.gz\E
      |\QTMTM/Spreadsheet-Engine-0.12.tar.gz\E
      |\QTMULEVICH/Archive-SimpleExtractor-0.01.tar.gz\E
-     |\QTMURRAY/UAV-Pilot-0.11.tar.gz\E
+     |\QTMURRAY/UAV-Pilot-0.9.tar.gz\E
      |\QTMURRAY/UAV-Pilot-WumpusRover-Server-0.1.tar.gz\E
      |\QTNT/Syntax-Feature-Try-0.002.tar.gz\E
      |\QTOBYINK/Data-Dumper-GUI-0.005.tar.gz\E
@@ -1583,7 +1582,6 @@ match:
      |\QTOBYINK/RT-ClientX-GrabBugs-0.001.tar.gz\E
      |\QTOBYINK/Set-Equivalence-0.002.tar.gz\E
      |\QTOBYINK/Sub-Infix-0.002.tar.gz\E
-     |\QTOBYINK/Web-Magic-0.008.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
      |\QTOKUHIROM/Spellunker-v0.0.8.tar.gz\E
@@ -1627,6 +1625,7 @@ match:
      |\QVANSTYN/RapidApp-0.99100.tar.gz\E
      |\QVANSTYN/RapidApp-0.99101.tar.gz\E
      |\QVANSTYN/RapidApp-0.99203.tar.gz\E
+     |\QVANSTYN/RapidApp-0.99302.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
