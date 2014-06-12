@@ -405,6 +405,7 @@ match:
     |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]" (only freebsd, not debian/wheezy)
     |.*/Authen-NZRealMe-1\.11\. # requires WWW::Curl::Easy, which does not build here, and hangs if it's not available
     |.*/Authen-NZRealMe-1\.12\. # dito
+    |.*/Authen-NZRealMe-1\.13\. # dito
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
