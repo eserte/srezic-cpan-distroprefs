@@ -406,6 +406,7 @@ match:
     |.*/Authen-NZRealMe-1\.11\. # requires WWW::Curl::Easy, which does not build here, and hangs if it's not available
     |.*/Authen-NZRealMe-1\.12\. # dito
     |.*/Authen-NZRealMe-1\.13\. # dito
+    |.*/Authen-NZRealMe-1\.1\d\. # disable all 1.1x
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
