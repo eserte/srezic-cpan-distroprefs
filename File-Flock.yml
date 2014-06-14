@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/File-Flock-2013\.11\.'
+  perlconfig:
+    archname: '(freebsd|darwin)'
+pl:
+  args:
+    - NO_MYMETA=1
+cpanconfig:
+  prefer_installer: EUMM
+# https://rt.cpan.org/Ticket/Display.html?id=93176
