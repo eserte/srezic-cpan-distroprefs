@@ -2,5 +2,10 @@
 match:
   distribution: '/App-Icli-\d'
 pl:
-  env:
-    PERL_MM_USE_DEFAULT: 1
+  expect:
+    - 'Enter location of Icinga objects.cache'
+    - "\n"
+    - 'Enter location of Icinga status.dat'
+    - "\n"
+    - 'Enter location of Icinga command pipe'
+    - "\n"
