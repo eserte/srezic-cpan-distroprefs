@@ -91,10 +91,13 @@ dd-prefs: { map { s{\.yml$}{.dd}; $_ } glob("*.yml") }
 		my $file = $base . ".yml";
 	       	print STDERR "Creating .dd for $base...\n";
 		my @y = LoadFile($file);
-		open my $ofh, ">", "$target~" or die $!;
-		print $ofh Data::Dumper->new(\@y)->Indent(1)->Useqq(1)->Purity(1)->Sortkeys(1)->Dump or die $!;
-		close $ofh or die $!;
-		rename "$target~", $target or die $!;
+		if (open my $ofh, ">", "$target~") {
+		    print $ofh Data::Dumper->new(\@y)->Indent(1)->Useqq(1)->Purity(1)->Sortkeys(1)->Dump or die $!;
+		    close $ofh or die $!;
+		    rename "$target~", $target or die $!;
+		} else {
+		    warn "WARN: Could not create $target~: $! (this is OK if YAML is available)\n";
+		}
 		"";
 	}
 
