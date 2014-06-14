@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/Sys-Filesystem-MountPoint-1\.02\.'
+# This is a poor man check for ZFS.
+# Actually checking for freebsd-10 is not correct, as
+# also older freebsd versions may have zfs installed,
+# or freebsd-10 may also have traditional ufs installed
+  perlconfig:
+    osname: freebsd
+    osvers: '^10\.'
+patches:
+  - SREZIC/patches/Sys-Filesystem-MountPoint-1.02-RT95192.patch
