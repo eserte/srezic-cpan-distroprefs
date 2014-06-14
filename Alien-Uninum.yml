@@ -1,0 +1,13 @@
+---
+match:
+  distribution: '/Alien-Uninum-0\.002\.'
+  perlconfig:
+    archname: bsd
+pl:
+  env:
+    INCLUDES: -I/usr/local/include
+    LDFLAGS: -L/usr/local/lib
+make:
+  env:
+    INCLUDES: -I/usr/local/include
+    LDFLAGS: -L/usr/local/lib
