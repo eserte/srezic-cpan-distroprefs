@@ -67,7 +67,6 @@ match:
      |\QAMAR/Wizard-0.1003.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1004.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1006.tar.gz\E
-     |\QAMBS/Lingua/Lingua-NATools-v0.7.5.tar.gz\E
      |\QAMBS/Quiki/Quiki-0.11.tar.gz\E
      |\QAMIRITE/Nour-0.01.tar.gz\E
      |\QANAZAWA/Blosxom-Plugin-0.00010.tar.gz\E
@@ -237,7 +236,6 @@ match:
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
      |\QCANID/Yote-0.213.tar.gz\E
-     |\QCAPOEIRAB/WWW-Salesforce-0.11.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARLOS/Dist-Zilla-Plugin-test2t-0.001031.tar.gz\E
      |\QCARPENTER/Storm-Tracker_0.01.tar.gz\E
@@ -414,6 +412,7 @@ match:
      |\QDTORRES/GOOGLE-ADWORDS-PERL-CLIENT-2.7.4.tar.gz\E
      |\QDTORRES/GOOGLE-ADWORDS-PERL-CLIENT-2.8.1.tar.gz\E
      |\QDTOWN/Net-SNMP-5.2.0.tar.gz\E
+     |\QDUFFEE/Astro-ADS-1.25.1.tar.gz\E
      |\QDUMB/HTML-Form-XSS/HTML-Form-XSS-0.31.tar.gz\E
      |\QDUMB/Mungo/CGI-Mungo-1.701.tar.gz\E
      |\QDUNCAND/Muldis-DB-0.3.2.tar.gz\E
@@ -664,6 +663,7 @@ match:
      |\QINGY/Devel-Local-0.15.tar.gz\E
      |\QINGY/Dist-Zilla-PluginBundle-INGY-0.0.2.tar.gz\E
      |\QINGY/Gloom-0.11.tar.gz\E
+     |\QINGY/JSONY-0.1.1.tar.gz\E
      |\QINGY/Package-0.10.tar.gz\E
      |\QINGY/Package-0.11.tar.gz\E
      |\QINGY/Parse-Pegex-0.01.tar.gz\E
@@ -672,6 +672,8 @@ match:
      |\QINGY/Pegex-0.16.tar.gz\E
      |\QINGY/Pegex-0.17.tar.gz\E
      |\QINGY/Pegex-0.21.tar.gz\E
+     |\QINGY/Pegex-0.32.tar.gz\E
+     |\QINGY/Pegex-JSON-0.18.tar.gz\E
      |\QINGY/Stackato-Stackrad-0.01.tar.gz\E
      |\QINGY/TestML-0.03.tar.gz\E
      |\QINGY/TestML-0.04.tar.gz\E
@@ -682,6 +684,7 @@ match:
      |\QINGY/Tiny-YAML-0.0.2.tar.gz\E
      |\QINGY/Vroom-0.25.tar.gz\E
      |\QINGY/Vroom-0.27.tar.gz\E
+     |\QINGY/Vroom-0.30.tar.gz\E
      |\QINGY/YAML-0.73.tar.gz\E
      |\QINGY/YAML-Old-0.81.tar.gz\E
      |\QINGY/YamlTime-0.02.tar.gz\E
@@ -1183,6 +1186,7 @@ match:
      |\QNICS/Catmandu-0.8002.tar.gz\E
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
+     |\QNICS/Catmandu-OAI-0.02.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
      |\QNICS/Catmandu-Store-DBI-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-ElasticSearch-0.0203.tar.gz\E
@@ -1368,6 +1372,7 @@ match:
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
+     |\QRTKH/Raisin-0.30.tar.gz\E
      |\QRUBYKAT/WWW-FetchStory-0.15.tar.gz\E
      |\QRUBYKAT/WWW-FetchStory-0.1815.tar.gz\E
      |\QRURBAN/B-C-1.36.tar.gz\E
