@@ -1,7 +1,8 @@
 ---
 match:
-  distribution: '/Pod-Checker-(1\.[789]|[2-9])'
+  distribution: '/Pod-Checker-1\.70\.'
   perlconfig:
     version: '^5\.(\d|1[012])\.'
 goto: 'MAREKR/Pod-Checker-1.60.tar.gz'
 # Latest Pod::Checker version for perls without s///r
+# ... since 1.71 it's again compatible with 5.8
