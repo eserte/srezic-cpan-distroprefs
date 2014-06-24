@@ -58,6 +58,7 @@ match:
      |\QALEXMV/Jifty-0.90409.tar.gz\E
      |\QALEXMV/Jifty-0.91117.tar.gz\E
      |\QALEXMV/Net-IMAP-Server-0.95.tar.gz\E
+     |\QALEXMV/RT-Extension-MergeUsers-0.12.tar.gz\E
      |\QALGERNON/Babble-0.02.tar.gz\E
      |\QALGERNON/Babble-0.05.tar.gz\E
      |\QALIAN/Test-Smoke-Database-1.14.tar.gz\E
@@ -234,6 +235,7 @@ match:
      |\QBULB/Config-Maker-0.001.tar.gz\E
      |\QBYRNE/SOAP-Lite-0.69.tar.gz\E
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
+     |\QBYTEROCK/MooseX-AuthorizedMethodRoles-0.00.04.tar.gz\E
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
      |\QCANID/Yote-0.213.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
@@ -266,6 +268,7 @@ match:
      |\QCLEISHMAN/Cache-2.00.tar.gz\E
      |\QCLEMBURG/Test-Unit-0.13.tar.gz\E
      |\QCLEMBURG/Test-Unit-0.14.tar.gz\E
+     |\QCLIPLAND/Wrangler-2.13.tar.gz\E
      |\QCLKAO/SVK-1.08.tar.gz\E
      |\QCLKAO/SVK-v2.0.2.tar.gz\E
      |\QCMERTZ/svg-svg2zinc-0.05.tar.gz\E
@@ -511,6 +514,7 @@ match:
      |\QFREDERICD/Koha-Contrib-Tamil-0.013.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.014.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.015.tar.gz\E
+     |\QFREDERICD/Koha-Contrib-Tamil-0.032.tar.gz\E
      |\QFREDERICD/marc-moose-0.006.tar.gz\E
      |\QFREDERICD/marc-moose-0.020.tar.gz\E
      |\QFREW/DBIx-Class-0.08114.tar.gz\E
@@ -617,7 +621,6 @@ match:
      |\QHERNAN/HTML-Robot-Scrapper-0.10.tar.gz\E
      |\QHERVEUS/Weaving-Tablet-0.009.005.tar.gz\E
      |\QHESCO/LedgerSMB-API-0.01.tar.gz\E
-     |\QHGDEV/Business-CyberSource-0.007010.tar.gz\E
      |\QHIDEAKIO/MouseX-SingletonMethod-0.03.tar.gz\E
      |\QHIDEAKIO/autolocale-0.02.tar.gz\E
      |\QHIO/Tripletail-0.31.tar.gz\E
@@ -628,6 +631,7 @@ match:
      |\QHOBBESTIG/Dancer-Plugin-Browser-1.130570.tar.gz\E
      |\QHOBBESTIG/MediaWikiUtils-0.141011.tar.gz\E
      |\QHOBBESTIG/Net-Gandi-0.12.tar.gz\E
+     |\QHOCHSTEN/Catmandu-OAI-0.05.tar.gz\E
      |\QHOLLY/App-CLI-Extension-0.7.tar.gz\E
      |\QHOLT/makepp-1.19.tar.gz\E
      |\QHORNBURG/Interchange6-0.004.tar.gz\E
@@ -656,6 +660,7 @@ match:
      |\QIMACAT/Locale-Maketext-Gettext-1.18.tar.gz\E
      |\QIMALPASS/WebService-Etsy-0.4.tar.gz\E
      |\QIMPIOUS/DBR-1.0.7rc7.tar.gz\E
+     |\QINGY/Alt-0.06.tar.gz\E
      |\QINGY/Alt-IO-All-new-0.01.tar.gz\E
      |\QINGY/App-AYCABTU-0.03.tar.gz\E
      |\QINGY/Cog-0.01.tar.gz\E
@@ -673,6 +678,7 @@ match:
      |\QINGY/Pegex-0.17.tar.gz\E
      |\QINGY/Pegex-0.21.tar.gz\E
      |\QINGY/Pegex-0.32.tar.gz\E
+     |\QINGY/Pegex-0.33.tar.gz\E
      |\QINGY/Pegex-JSON-0.18.tar.gz\E
      |\QINGY/Stackato-Stackrad-0.01.tar.gz\E
      |\QINGY/TestML-0.03.tar.gz\E
@@ -681,11 +687,13 @@ match:
      |\QINGY/TestML-0.11.tar.gz\E
      |\QINGY/TestML-0.22.tar.gz\E
      |\QINGY/TestML-0.28.tar.gz\E
+     |\QINGY/TestML-0.35.tar.gz\E
      |\QINGY/Tiny-YAML-0.0.2.tar.gz\E
      |\QINGY/Vroom-0.25.tar.gz\E
      |\QINGY/Vroom-0.27.tar.gz\E
      |\QINGY/Vroom-0.30.tar.gz\E
      |\QINGY/YAML-0.73.tar.gz\E
+     |\QINGY/YAML-0.94.tar.gz\E
      |\QINGY/YAML-Old-0.81.tar.gz\E
      |\QINGY/YamlTime-0.02.tar.gz\E
      |\QINGY/YamlTime-0.03.tar.gz\E
@@ -716,7 +724,6 @@ match:
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
      |\QIX/libservlet-0.9.1.tar.gz\E
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
-     |\QJAMADAM/Mojolicious-Plugin-PlackMiddleware-0.19.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
@@ -867,6 +874,7 @@ match:
      |\QKAZEBURO/Kossy-0.28.tar.gz\E
      |\QKAZUHO/Starlet-0.14.tar.gz\E
      |\QKAZUNORI/Furl-Cookies-0.01.tar.gz\E
+     |\QKEDAR/Device-Neurio-0.02.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.13.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.15.tar.gz\E
      |\QKESTEB/XAS-0.04.tar.gz\E
@@ -919,7 +927,6 @@ match:
      |\QKROW/Gearman-XS-0.15.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
      |\QKRYDE/Glib-Ex-ObjectBits-15.tar.gz\E
-     |\QKRYDE/Math-PlanePath-Toothpick-13.tar.gz\E
      |\QKSCHWAB/Device-MiniLED-1.02.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
@@ -1109,6 +1116,7 @@ match:
      |\QMORTY/DateConvert-0.14.tgz\E
      |\QMOTIF/Bio-LITE-Taxonomy-0.04.tar.gz\E
      |\QMOZNION/Acme-AjiFry-0.08.tar.gz\E
+     |\QMOZNION/Ukigumo-Agent-v0.1.6.tar.gz\E
      |\QMRAMBERG/Catalyst-Model-Search-0.01.tar.gz\E
      |\QMRAMBERG/Class-DBI-Sweet-0.08.tar.gz\E
      |\QMRAMBERG/DBIx-Class-0.03002.tar.gz\E
@@ -1223,6 +1231,7 @@ match:
      |\QNWIGER/CGI-FormBuilder-3.06.tgz\E
      |\QNWIGER/Config-Fast-1.06.tar.gz\E
      |\QOAXLIN/MemcacheDBI-0.02.tar.gz\E
+     |\QOETIKER/Business-Payment-SwissESR-0.5.1.tar.gz\E
      |\QOLAF/Net-DNS-0.68.tar.gz\E
      |\QOLIVER/App-Netdisco-2.004002.tar.gz\E
      |\QOLIVER/App-Netdisco-2.006000.tar.gz\E
@@ -1234,6 +1243,7 @@ match:
      |\QOLIVER/Net-Appliance-Session-3.122530.tar.gz\E
      |\QOLIVER/Net-CLI-Interact-2.122630.tar.gz\E
      |\QOLIVER/SNMP-Info-2.11.tar.gz\E
+     |\QOLIVER/SNMP-Info-3.15.tar.gz\E
      |\QOLIVIERT/LogValidator/W3C-LogValidator-0.1.tar.gz\E
      |\QOPERA/Arepa-0.76.tar.gz\E
      |\QOPI/Stacktrace-Configurable-0.01.tar.gz\E
@@ -1269,6 +1279,7 @@ match:
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
+     |\QPEVANS/Protocol-Gearman-0.01.tar.gz\E
      |\QPEVANS/Tangence-0.18.tar.gz\E
      |\QPEVANS/Tickit-Console-0.03.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
@@ -1367,7 +1378,6 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
-     |\QRRWO/Media-Type-Simple-0.02.tar.gz\E
      |\QRSCHUPP/Module-ScanDeps-1.11.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
@@ -1592,6 +1602,7 @@ match:
      |\QTOBYINK/Sub-Infix-0.002.tar.gz\E
      |\QTOKAREV/Plack-Middleware-ExtDirect-2.01.tar.gz\E
      |\QTOKAREV/RPC-ExtDirect-2.15.tar.gz\E
+     |\QTOKAREV/RPC-ExtDirect-3.00.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
      |\QTOKUHIROM/Spellunker-v0.0.8.tar.gz\E
@@ -1693,6 +1704,7 @@ match:
      |\QXAOINC/XAO-MySQL-1.0.tar.gz\E
      |\QXENO/Business-CyberSource-0.006014.tar.gz\E
      |\QXENO/Business-CyberSource-0.007011.tar.gz\E
+     |\QXENO/Business-CyberSource-0.009002.tar.gz\E
      |\QXENO/Business-OnlinePayment-CyberSource-2.01.tar.gz\E
      |\QXENO/Business-PaperlessTrans-0.001004.tar.gz\E
      |\QXEONTIME/Sakai-Nakamura-0.11.tar.gz\E
@@ -1736,6 +1748,7 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
+     |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
      |\QZEROLIU/Bio-KEGGI-v0.1.2.tar.gz\E
