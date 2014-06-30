@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/DBD-CSV-\d'
+pl:
+  expect:
+    - '\QEnable the use of \E\S+\Q for tests?'
+    - "\n"
