@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Mail-GPG-(1\.0\.6|1\.0\.7)\.'
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+# test suite hangs (04.big.t)
