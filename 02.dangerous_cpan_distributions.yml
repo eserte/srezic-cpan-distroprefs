@@ -98,6 +98,7 @@ match:
      |\QAREGGIORI/RDFStore-0.31.tar.gz\E
      |\QAREGGIORI/RDFStore-0.42.tar.gz\E
      |\QAREIBENS/PDF-API2-0.73.tar.gz\E
+     |\QARFREITAS/Siebel-Srvrmgr-0.12.tar.gz\E
      |\QARJONES/WebService-TVDB-1.130350.tar.gz\E
      |\QARODLAND/DBIx-Class-0.08196.tar.gz\E
      |\QARODLAND/Test-Exit-0.03.tar.gz\E
@@ -258,7 +259,7 @@ match:
      |\QCHRMUE/Socket-Class-1.23.tar.gz\E
      |\QCJCOLLIER/Lingua-HPSG/Lingua-HPSG-0.02.tar.gz\E
      |\QCJFIELDS/BioPerl-1.6.901.tar.gz\E
-     |\QCJFIELDS/BioPerl-1.6.922.tar.gz\E
+     |\QCJFIELDS/BioPerl-1.6.923.tar.gz\E
      |\QCJM/Dist-Zilla-PluginBundle-Author-CJM-4.11.tar.gz\E
      |\QCJM/Media-LibMTP-API-0.02.tar.gz\E
      |\QCJM/Pod-Loom-0.05.tar.gz\E
@@ -287,6 +288,7 @@ match:
      |\QCOUDOT/Lemonldap-NG-Handler-1.3.3.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Portal-1.2.5.tar.gz\E
      |\QCREIN/Net-DNS-0.45.tar.gz\E
+     |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
      |\QCTBROWN/ODG-Record-0.28.tar.gz\E
@@ -543,6 +545,7 @@ match:
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
+     |\QGLBRUNE/Sim-OPTS-0.36.12.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -696,11 +699,9 @@ match:
      |\QINGY/YAML-0.73.tar.gz\E
      |\QINGY/YAML-0.94.tar.gz\E
      |\QINGY/YAML-Old-0.81.tar.gz\E
-     |\QINGY/YAML-Pegex-0.0.4.tar.gz\E
      |\QINGY/YamlTime-0.02.tar.gz\E
      |\QINGY/YamlTime-0.03.tar.gz\E
      |\QINGY/YamlTime-0.04.tar.gz\E
-     |\QINGY/pQuery-0.09.tar.gz\E
      |\QINGY/perl5-0.03.tar.gz\E
      |\QINTERMINE/Webservice-InterMine-0.9604.tar.gz\E
      |\QINTERMINE/Webservice-InterMine-0.9913.tar.gz\E
@@ -737,6 +738,7 @@ match:
      |\QJASPAX/Lingua-Phonology-0.3503.tar.gz\E
      |\QJBAKER/Apache-Session-0.17.1.tar.gz\E
      |\QJBAKER/Apache-Session-1.03.tar.gz\E
+     |\QJBD/JBD-0.02.tar.gz\E
      |\QJBD/Pistachio-0.08.tar.gz\E
      |\QJBLAKEY/Crypt-Enigma-1.1.tar.gz\E
      |\QJBRYAN/AI-NeuralNet-BackProp-0.77.zip\E
@@ -772,7 +774,6 @@ match:
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
      |\QJJOAO/Lingua-PT-PLN-0.15.tar.gz\E
-     |\QJJOAO/XML-DT-0.29.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.06.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.11.tar.gz\E
      |\QJKONDO/Text-Hatena-0.16.tar.gz\E
@@ -805,6 +806,7 @@ match:
      |\QJOSHR/Sman-0.98.tar.gz\E
      |\QJOSTEN/XML-XSLT-0.20.tar.gz\E
      |\QJPEACOCK/Math-Currency-0.46.tar.gz\E
+     |\QJPR/Scalar-Validation-0.602.tar.gz\E
      |\QJPRIT/ObjStore-1.53.tar.gz\E
      |\QJQUELIN/Module-Packaged-Generator-1.111040.tar.gz\E
      |\QJQUELIN/WWW-DaysOfWonder-Memoir44-1.100140.tar.gz\E
@@ -898,8 +900,6 @@ match:
      |\QKIMOTO/Object-Simple-3.0101.tar.gz\E
      |\QKIMOTO/Object-Simple-3.0501.tar.gz\E
      |\QKIMOTO/Object-Simple-3.0615.tar.gz\E
-     |\QKIMOTO/Validator-Custom-0.1419.tar.gz\E
-     |\QKIMOTO/Validator-Custom-0.21.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
      |\QKITANO/CHI-Driver-MemcachedFast-0.01.tar.gz\E
@@ -1059,6 +1059,7 @@ match:
      |\QMDOOTSON/Wx-0.9921.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
+     |\QMEWSOFT/mewsoft/Nile-0.11.tar.gz\E
      |\QMHOOLEHAN/Net-Gnats-0.03.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
