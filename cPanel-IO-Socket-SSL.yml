@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/cPanel-IO-Socket-SSL-\d'
+pl:
+  expect:
+    - '\Qnetwork traffic to external sites.'
+    - "\n"
