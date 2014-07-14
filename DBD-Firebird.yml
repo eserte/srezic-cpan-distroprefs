@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/DBD-Firebird-1\.18\.'
+  perlconfig:
+    archname: -freebsd
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=95898 (may cause App-Sqitch hangs)
