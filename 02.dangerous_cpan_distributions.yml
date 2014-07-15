@@ -238,6 +238,7 @@ match:
      |\QBYTEROCK/MooseX-AuthorizedMethodRoles-0.00.05.tar.gz\E
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
      |\QCANID/Yote-0.213.tar.gz\E
+     |\QCANID/Yote-0.214.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARLOS/Dist-Zilla-Plugin-test2t-0.001031.tar.gz\E
      |\QCARPENTER/Storm-Tracker_0.01.tar.gz\E
@@ -408,6 +409,7 @@ match:
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
+     |\QDRUOSO/Search-GIN-0.08.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.6.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.8.tar.gz\E
@@ -498,6 +500,7 @@ match:
      |\QFAYLAND/Padre-Plugin-JavaScript-0.25.tar.gz\E
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
      |\QFBELTON/Template-Plugin-React-0.004.tar.gz\E
+     |\QFELLIOTT/WebService-Toggl-0.04.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFFFINKEL/Dist-Zilla-Plugin-RunByBranch-0.21.tar.gz\E
      |\QFLORA/Audio-File-0.02.tar.gz\E
@@ -545,7 +548,6 @@ match:
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
-     |\QGLBRUNE/Sim-OPTS-0.36.12.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -828,7 +830,6 @@ match:
      |\QJSWARTZ/HTML-Mason-1.05.tar.gz\E
      |\QJSWARTZ/Log-Any-0.11.tar.gz\E
      |\QJTANG/Module-Pluggable-Singleton-0.02.3.tar.gz\E
-     |\QJTANG/Net-Stomp-0.45.tar.gz\E
      |\QJTAVERNI/HTML-Content-Extractor-0.01.tar.gz\E
      |\QJTBRAUN/Parse-RecDescent-1.967003.tar.gz\E
      |\QJTPALMER/Box2D-0.05.tar.gz\E
@@ -1060,6 +1061,8 @@ match:
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMEWSOFT/mewsoft/Nile-0.11.tar.gz\E
+     |\QMEWSOFT/mewsoft/Nile-0.13.tar.gz\E
+     |\QMEWSOFT/mewsoft/Nile-0.14.tar.gz\E
      |\QMHOOLEHAN/Net-Gnats-0.03.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1337,7 +1340,6 @@ match:
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.06001.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.07300.tar.gz\E
-     |\QRCAPUTO/POE-Test-Loops-1.354.tar.gz\E
      |\QRCLAMP/Net-DAAP-Client-Auth-0.13.tar.gz\E
      |\QRDICE/CGI-Application-Framework-0.23.tar.gz\E
      |\QRDO/Bio-KBase-0.02.tar.gz\E
@@ -1372,7 +1374,6 @@ match:
      |\QRMCFARLA/Gtk2-Perl/Gnome2-Print-0.94.tar.gz\E
      |\QRMCFARLA/Gtk2-Perl/Gtk2-1.023.tar.gz\E
      |\QROBINS/XML-Rabbit-0.1.1.tar.gz\E
-     |\QROBM/Cache-FastMmap-1.37.tar.gz\E
      |\QROCKY/Devel-Trepan-0.46.tar.gz\E
      |\QROCKY/Devel-Trepan-0.48.tar.gz\E
      |\QROCKY/Devel-Trepan-0.53.tar.gz\E
@@ -1391,7 +1392,6 @@ match:
      |\QRUBYKAT/WWW-FetchStory-0.1815.tar.gz\E
      |\QRURBAN/B-C-1.36.tar.gz\E
      |\QRURBAN/C-DynaLib-0.60.tar.gz\E
-     |\QRURBAN/Cpanel-JSON-XS-2.3403.tar.gz\E
      |\QRUSAKOV/ePortal-4.2.tar.gz\E
      |\QRUZ/RTx-Shredder-0.07.tar.gz\E
      |\QRVOSA/Bio-Phylo-0.54.tar.gz\E
@@ -1456,7 +1456,6 @@ match:
      |\QSHANTANU/Device-LPS331AP-0.003.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
-     |\QSHARYANTO/Perinci-CmdLine-1.15.tar.gz\E
      |\QSHAY/Win32-SharedFileOpen-3.44.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
@@ -1510,7 +1509,6 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
-     |\QSMITHFARM/App-CELL-0.183.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
