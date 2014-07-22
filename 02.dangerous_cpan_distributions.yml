@@ -300,6 +300,7 @@ match:
      |\QDAGOLDEN/Metabase-0.016.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDAHILLMA/Geo-GoogleEarth-Document-modules2.tar.gz\E
+     |\QDAKKAR/Plack-Handler-Stomp-1.09.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.14.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.17.tar.gz\E
      |\QDAMS/PerlIO-via-Timeout-0.21.tar.gz\E
@@ -409,7 +410,6 @@ match:
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
-     |\QDRUOSO/Search-GIN-0.08.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.6.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.8.tar.gz\E
@@ -604,6 +604,7 @@ match:
      |\QHAARG/App-BCSSH-0.001000.tar.gz\E
      |\QHAARG/App-BCSSH-0.002001.tar.gz\E
      |\QHAARG/Devel-Confess-0.003001.tar.gz\E
+     |\QHAARG/Devel-Confess-0.007001.tar.gz\E
      |\QHACKER/Agent-TCLI-0.02.tar.gz\E
      |\QHAGANK/Apache-RewritingProxy-0.4.tar.gz\E
      |\QHAGGAI/Net-StackExchange-0.102601.tar.gz\E
@@ -641,9 +642,6 @@ match:
      |\QHOLT/makepp-1.19.tar.gz\E
      |\QHORNBURG/Dancer-Plugin-Interchange6-0.031.tar.gz\E
      |\QHORNBURG/Interchange6-0.004.tar.gz\E
-     |\QHORNBURG/Interchange6-Schema-0.006.tar.gz\E
-     |\QHORNBURG/Interchange6-Schema-0.010.tar.gz\E
-     |\QHORNBURG/Interchange6-Schema-0.012.tar.gz\E
      |\QHORNBURG/Nitesi-0.0080.tar.gz\E
      |\QHORNBURG/Template-Flute-0.0040.tar.gz\E
      |\QHORROCKS/CGI-SpeedyCGI-2.02.tar.gz\E
@@ -673,7 +671,7 @@ match:
      |\QINGY/Devel-Local-0.15.tar.gz\E
      |\QINGY/Dist-Zilla-PluginBundle-INGY-0.0.2.tar.gz\E
      |\QINGY/Gloom-0.11.tar.gz\E
-     |\QINGY/JSONY-0.1.1.tar.gz\E
+     |\QINGY/IO-All-0.65.tar.gz\E
      |\QINGY/Kwim-0.0.13.tar.gz\E
      |\QINGY/Package-0.10.tar.gz\E
      |\QINGY/Package-0.11.tar.gz\E
@@ -683,7 +681,6 @@ match:
      |\QINGY/Pegex-0.16.tar.gz\E
      |\QINGY/Pegex-0.17.tar.gz\E
      |\QINGY/Pegex-0.21.tar.gz\E
-     |\QINGY/Pegex-0.32.tar.gz\E
      |\QINGY/Pegex-0.33.tar.gz\E
      |\QINGY/Pegex-JSON-0.18.tar.gz\E
      |\QINGY/Stackato-Stackrad-0.01.tar.gz\E
@@ -701,6 +698,7 @@ match:
      |\QINGY/YAML-0.73.tar.gz\E
      |\QINGY/YAML-0.94.tar.gz\E
      |\QINGY/YAML-Old-0.81.tar.gz\E
+     |\QINGY/YAML-Old-0.94.tar.gz\E
      |\QINGY/YamlTime-0.02.tar.gz\E
      |\QINGY/YamlTime-0.03.tar.gz\E
      |\QINGY/YamlTime-0.04.tar.gz\E
@@ -882,6 +880,7 @@ match:
      |\QKENTARO/Acme-MorningMusume-0.13.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.15.tar.gz\E
      |\QKESTEB/XAS-0.04.tar.gz\E
+     |\QKESTEB/XAS-0.05.tar.gz\E
      |\QKGB/PDL-2.3.2.tar.gz\E
      |\QKGRENNAN/Net-OAuth-0.21.tar.gz\E
      |\QKGRENNAN/Net-OAuth2-0.07.tar.gz\E
@@ -1063,6 +1062,7 @@ match:
      |\QMEWSOFT/mewsoft/Nile-0.11.tar.gz\E
      |\QMEWSOFT/mewsoft/Nile-0.13.tar.gz\E
      |\QMEWSOFT/mewsoft/Nile-0.14.tar.gz\E
+     |\QMEWSOFT/mewsoft/Nile-0.21.tar.gz\E
      |\QMHOOLEHAN/Net-Gnats-0.03.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1509,6 +1509,7 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-REST-0.074.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
@@ -1759,5 +1760,4 @@ match:
      |\QZEROLIU/Bio-KEGGI-v0.1.2.tar.gz\E
      |\QZMUGHAL/Data-TestImage-0.001.tar.gz\E
      |\QZPMORGAN/Gtk2-Hexgrid-0.05.tar.gz\E
-     |\QZWON/Data-EventStream-0.08.tar.gz\E
     )$
