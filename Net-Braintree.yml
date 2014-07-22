@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Net-Braintree-0.21.0.tar.gz'
+  perlconfig:
+    archname: freebsd
+    osvers: '^10\.'
+disabled: 1
+# perl Makefile.PL hangs on fbsd 10.0
