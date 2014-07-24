@@ -1322,5 +1322,6 @@ match:
     |TBUSCH/Business-PayPal-EWP-1.03.tar.gz # configuration asks for c-c to abort
     |JJONES/f5019eed24b24c4cb8de55c5db3384aa9d251f09.zip # not recoginzed as a distribution
     |BTMCINNES/UMLS-Similarity-1.39.tar.gz # broken tarball
+    |HURRICUP/034.ClassAccessorLazy.zip # broken zip
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
