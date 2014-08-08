@@ -3,7 +3,7 @@ match:
   distribution: "/Inline-CPP-\d"
 pl:
   expect:
-    - "\QWhat (default )?C++ compiler would you like to use?"
+    - 'What (default )?C\+\+ compiler would you like to use\?'
     - "\n"
     - "\QWhat default libraries would you like to include?"
     - "\n"
