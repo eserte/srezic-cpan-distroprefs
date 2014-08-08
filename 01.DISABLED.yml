@@ -5,6 +5,7 @@ match:
     ^(?x:
       .*/CPAN-Index-\d # https://rt.cpan.org/Ticket/Display.html?id=43349
      |WWOLF/Test-\d # shadows the official Test.pm
+     |INA/Modern/Open/Modern-Open-\d # shadows warnings.pm
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
