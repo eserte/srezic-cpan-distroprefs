@@ -1097,6 +1097,7 @@ match:
     |SVISTUNOV/qbit-0.9.tar.gz # recursive dependency
     |ORTALO/MOP-1.00.tar.gz # test asks for password for ssh/rsh operation
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.01.tar.gz # lists everything, despite most is not working anymore: https://rt.cpan.org/Ticket/Display.html?id=96121
+    |.*/HTTP-GHTTP-\d # libghttp is part of gnome1 and EOL's (e.g. was removed from fbsd ports in September 2013, see http://www.freshports.org/www/libghttp/)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
