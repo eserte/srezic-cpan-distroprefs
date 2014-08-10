@@ -1,0 +1,17 @@
+# Prevent from interactive question about gap binary
+---
+match:
+  distribution: '/Math-GAP-\d'
+  perlconfig:
+    archname: freebsd
+pl:
+  env:
+    GAP: /usr/local/bin/gap
+---
+match:
+  distribution: '/Math-GAP-\d'
+  perlconfig:
+    archname: linux
+pl:
+  env:
+    GAP: /usr/bin/gap
