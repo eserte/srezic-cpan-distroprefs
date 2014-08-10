@@ -540,6 +540,7 @@ match:
     |JRUBIN/FT817OS-0.9.3.tar.gz # no Makefile.PL
     |JRUBIN/ft817os-0.9.tar.gz # no Makefile.PL
     |JPRIYAL/NET-NETCONF.zip # no Makefile.PL
+    |FELIXL/vptk/vptk_w_2_42b.tgz # no Makefile.PL
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
