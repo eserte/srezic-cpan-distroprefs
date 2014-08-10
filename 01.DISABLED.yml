@@ -348,7 +348,6 @@ match:
     |.*/Device-Serdisp-\d # needs -lserdisp, not in ports
     |.*/MonetDB- # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
     |.*/DBD-monetdb-\d # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
-    |.*/Bio-SCF-\d # no port for this (-lread, io_lib/scf.h...)
     |.*/iodbc_ext_\d # no fbsd port for iodbc.h
     |.*/Net-Dnet-\d # no fbsd port for netdnet
     |.*/DBD-SearchServer-\d # needs sqlc.h, not found in ports
