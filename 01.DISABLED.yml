@@ -518,6 +518,7 @@ match:
     |EIKEG/doc/perl-tutorial-DE_\d.*
     |KSTAR/20120109-NoSQL_and_MongoDB.tgz
     |FLAVIOAM/guaja.tgz
+    |VTI/POD2-RU-PSGI-\d
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
