@@ -321,7 +321,7 @@ match:
     |.*/SDL-sdlpl-\d # needs opengl, not yet installed
     |.*/SDL_Perl-\d # needs opengl, not yet installed
     |.*/Sys-Ptrace-\d # not for freebsd?
-    |.*/Math-GammaFunction-\d # NA as port
+    |.*/Math-GammaFunction-\d # there's a libRmath port, but this seems to require quadmath.h, which is only available in a special gcc47 directory (maybe one has to use explicitely gcc47?)
     |.*/Language-XSB-\d # could not install xsb port
     |.*/Language-Prolog-SWI- # could not install swig port
     |.*/IO-Tty-Util-\d # needs pty.h, NA on freebsd
