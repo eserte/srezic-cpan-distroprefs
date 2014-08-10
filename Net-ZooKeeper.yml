@@ -31,4 +31,6 @@ match:
     archname: freebsd
 pl:
   args:
-    - '--zookeeper-include=/usr/local/include/c-client-src'
+    - '--zookeeper-include=/usr/local/include/zookeeper'
+# requires libzookeeper package to be installed
+# but tests seem to fail without running zookeeperd
