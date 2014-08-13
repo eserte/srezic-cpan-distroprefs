@@ -987,6 +987,7 @@ match:
     |.*/Lingua-BrillTagger-\d # needs some files like CONTEXTUALRULEFILE for tests
     |.*/IO-Compress-Zlib-2\.014\.tar\.gz # circular dependency
     |MUDLER/Deeme-Backend-SQLite-0.03.tar.gz # circular dependency
+    |MUDLER/Deeme-Backend-DBI-0.02.tar.gz # circular dependency
     |.*/IMAP-Admin-\d # wants passwords
     |.*/Net-Netflix-\d # moved to WWW-Netflix
     |.*/Search-Circa-\d # wants a mysql database, many questions
