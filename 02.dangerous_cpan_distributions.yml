@@ -414,7 +414,6 @@ match:
      |\QEBRUNI/RadioMobile-0.06.tar.gz\E
      |\QEBUSBOOM/Net-ICal-0.08.tar.gz\E
      |\QEBUSBOOM/Net-ICal-0.11.tar.gz\E
-     |\QECOCODE/Finance-Quote-1.29.tar.gz\E
      |\QEDAM/WWW-Bing-Search-0.010.tar.gz\E
      |\QEDAVIS/xmltv-0.5.31.tar.gz\E
      |\QEDF/Geo-Coder-Many-0.25.tar.gz\E
@@ -525,6 +524,7 @@ match:
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
+     |\QGLEACH/Getopt-Auto-1.9.7.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -620,6 +620,7 @@ match:
      |\QHOLT/makepp-1.19.tar.gz\E
      |\QHORNBURG/Dancer-Plugin-Interchange6-0.031.tar.gz\E
      |\QHORNBURG/Interchange6-0.004.tar.gz\E
+     |\QHORNBURG/Interchange6-Schema-0.040.tar.gz\E
      |\QHORNBURG/Nitesi-0.0080.tar.gz\E
      |\QHORNBURG/Template-Flute-0.0040.tar.gz\E
      |\QHORROCKS/CGI-SpeedyCGI-2.02.tar.gz\E
@@ -646,10 +647,10 @@ match:
      |\QINGY/App-AYCABTU-0.03.tar.gz\E
      |\QINGY/Cog-0.01.tar.gz\E
      |\QINGY/Cog-0.05.tar.gz\E
-     |\QINGY/Devel-Local-0.15.tar.gz\E
      |\QINGY/Dist-Zilla-PluginBundle-INGY-0.0.2.tar.gz\E
      |\QINGY/Gloom-0.11.tar.gz\E
      |\QINGY/Kwim-0.0.13.tar.gz\E
+     |\QINGY/Module-Compile-0.23.tar.gz\E
      |\QINGY/Package-0.10.tar.gz\E
      |\QINGY/Package-0.11.tar.gz\E
      |\QINGY/Parse-Pegex-0.01.tar.gz\E
@@ -848,7 +849,6 @@ match:
      |\QKAZEBURO/Kossy-0.28.tar.gz\E
      |\QKAZUHO/Starlet-0.14.tar.gz\E
      |\QKAZUNORI/Furl-Cookies-0.01.tar.gz\E
-     |\QKEICHNER/XML-Reader-0.49.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.13.tar.gz\E
      |\QKENTARO/Acme-MorningMusume-0.15.tar.gz\E
      |\QKESTEB/XAS-0.04.tar.gz\E
@@ -1265,7 +1265,6 @@ match:
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
-     |\QPEVANS/Tangence-0.18.tar.gz\E
      |\QPEVANS/Tickit-Console-0.03.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
@@ -1358,6 +1357,7 @@ match:
      |\QROCKY/Devel-Trepan-0.48.tar.gz\E
      |\QROCKY/Devel-Trepan-0.53.tar.gz\E
      |\QROCKY/Term-ReadLine-Perl5-1.08.tar.gz\E
+     |\QROCKY/Term-ReadLine-Perl5-1.38.tar.gz\E
      |\QRODRIGO/Mongoose-0.07.tar.gz\E
      |\QROOTLEVEL/Net-SMS-1.00.tar.gz\E
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
@@ -1504,6 +1504,7 @@ match:
      |\QSPRAGST/Sybase-Xfer-0.1.tar.gz\E
      |\QSPROUT/DBM-Deep-1.0016.tar.gz\E
      |\QSREAGLE/DBD-Ingres-0.5209.tar.gz\E
+     |\QSRI/Mojolicious-5.27.tar.gz\E
      |\QSRL/Net-ICal-0.14.tar.gz\E
      |\QSRSHAH/Probe-MachineInfo-0.06.tar.gz\E
      |\QSRSHAH/Test-Distribution-1.21.tar.gz\E
