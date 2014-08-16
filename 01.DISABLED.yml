@@ -826,7 +826,7 @@ match:
     |.*/Math-Permute-List-1.004.tar.gz # still ...
     |.*/Math-Cartesian-Product-1.001.tar.gz # wrong directory permissions, same author as above
     |.*/Math-Cartesian-Product-1.003.tar.gz # still ...
-    |PRBRENAN/ # I am giving up ... everything by PRBRENAN is broken. Wait until he is reacting on the RT tickets
+    |XXXPRBRENAN/ # I am giving up ... everything by PRBRENAN is broken. Wait until he is reacting on the RT tickets --- allow again: author does not seem to be active since 2012
     |.*/GNTP-Growl-0.\d+.tar.gz # wrong directory permissions (seen with 0.01, 0.03, 0.04)
     |.*/XML-Reader-0.01.tar.gz # wrong directory permissions. same author like Term-Sprog (KEICHNER), see below. no RT queue!
     |.*/DateTime-TimeZone-HPUX-0.01.tar.gz # wrong directory permissions
