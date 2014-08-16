@@ -445,7 +445,7 @@ match:
     |.*/Imager-Album-0\.06\. # gtk based interactive test
     |.*/Log-Dispatch-Tk-\d
     |.*/Mail-SendEasy-\d # wants smtp server etc. for tests
-    |.*/Math-Units-1\.3\. # in fact, not really interactive, but hangs because of "gunits -v"
+    |XXX.*/Math-Units-1\.3\. # in fact, not really interactive, but hangs because of "gunits -v" --- cannot reproduce problem anymore (fbsd9.2, fbsd10.0, debian/wheezy)
     |.*/MMM-Text-Search-\d # asks for a search term while testing
     |.*/Net-FTPSSL-0.04 # asks for a "deeper" test
     |.*/Net-Ifconfig-Wrapper/Net-Ifconfig-Wrapper-\d # test asks question
