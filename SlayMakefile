@@ -82,6 +82,9 @@ push:	do-stuff git-push
 git-push:
 	git push
 
+push-and-smoker-pull:	push
+	fbsd-dsh -g moresmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull'
+
 dd-prefs: { map { s{\.yml$}{.dd}; $_ } glob("*.yml") }
 
 %.dd: %.yml
