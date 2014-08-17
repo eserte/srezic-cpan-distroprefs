@@ -1329,5 +1329,6 @@ match:
     |BTMCINNES/UMLS-Similarity-1.39.tar.gz # broken tarball
     |HURRICUP/034.ClassAccessorLazy.zip # broken zip
     |WINTRU/Carrot-1.1.307.tgz # tarball problems with some system (old Archive::Zip?), otherwise: not recognized as a perl package
+    |SDEN/URI-ParseSearchString-3.51.tar.gz # META.yml may hang --- https://rt.cpan.org/Ticket/Display.html?id=98073
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
