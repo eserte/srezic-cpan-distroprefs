@@ -3,8 +3,8 @@ match:
   distribution: "/Lingua-JA-Romanize-Japanese-\d"
 make: &bla
   eexpect:
-    timeout: 5
+    timeout: 20
     talk:
       - "\QDo you wish to download these files? [y]"
-      - "\n"
+      - "n\n"
 test: *bla
