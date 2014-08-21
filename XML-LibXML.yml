@@ -4,3 +4,12 @@ match:
 patches:
   - SREZIC/patches/XML-LibXML-2.0014-RT83322.patch
   - SREZIC/patches/XML-LibXML-2.0014-RT83322-2.patch 
+---
+match:
+  distribution: "/XML-LibXML-2\.0116\."
+  perlconfig:
+    version: "^5\.21\.3$"
+test:
+  env:
+    LC_ALL: C
+# https://rt.cpan.org/Ticket/Display.html?id=97805
