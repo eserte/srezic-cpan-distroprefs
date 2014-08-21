@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/DB_File-Lock-\d'
+  distribution: '/DB_File-Lock-0\.05\.'
   perlconfig:
     version: '^5\.21\.'
 patches:
