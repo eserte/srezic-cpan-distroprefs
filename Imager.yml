@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Imager-1\.000\.'
+  perlconfig:
+    version: '^5\.21\.'
+patches:
+  - SREZIC/patches/Imager-1.000-RT98234.patch
