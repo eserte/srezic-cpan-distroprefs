@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/DB_File-Lock-\d'
+  perlconfig:
+    version: '^5\.21\.'
+patches:
+  - SREZIC/patches/DB_File-Lock-0.05-RT98224.patch
