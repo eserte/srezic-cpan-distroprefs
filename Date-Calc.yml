@@ -4,8 +4,9 @@ match:
 comment: no questions
 ---
 match:
-  distribution: "/Date-Calc-\d"
+  distribution: "/Date-Calc-6\.[012]\."
 pl:
   expect:
     - "\QInstall C/XS version (answer 'c') or pure-Perl version (answer 'p')? [c]"
     - "\n"
+# At least Date-Calc 6.3 is not interactive anymore
