@@ -1331,5 +1331,6 @@ match:
     |WINTRU/Carrot-1.1.307.tgz # tarball problems with some system (old Archive::Zip?), otherwise: not recognized as a perl package
     |SDEN/URI-ParseSearchString-3.51.tar.gz # META.yml may hang --- https://rt.cpan.org/Ticket/Display.html?id=98073
     |.*/Unicode-Tussle-\d # installs to much to .../bin --- https://rt.cpan.org/Ticket/Display.html?id=98126
+    |RNEWSHAM/WebService-DPD-API-v0.0001.tar.gz # broken versions in PREREQ_PM https://rt.cpan.org/Ticket/Display.html?id=98313
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
