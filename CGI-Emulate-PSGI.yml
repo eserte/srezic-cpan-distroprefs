@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/CGI-Emulate-PSGI-0\.18\.'
+goto: 'MIYAGAWA/CGI-Emulate-PSGI-0.15.tar.gz'
+# see https://github.com/tokuhirom/p5-cgi-emulate-psgi/issues/8
