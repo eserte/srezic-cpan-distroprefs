@@ -1331,6 +1331,7 @@ match:
     |WINTRU/Carrot-1.1.307.tgz # tarball problems with some system (old Archive::Zip?), otherwise: not recognized as a perl package
     |SDEN/URI-ParseSearchString-3.51.tar.gz # META.yml may hang --- https://rt.cpan.org/Ticket/Display.html?id=98073
     |MCONNER/Devel-Decouple-v0.0.3.tar.gz # also META.yml hang --- may be fixed by specifying --cpanconf yaml_model=YAML::Syck
+    |.*/Sorauta-Cache-HTTP-Request-Image-0\.01\. # another hanging META.yml
     |.*/Unicode-Tussle-\d # installs too much to .../bin, e.g. scrips like "rename" or "leo"
     |RNEWSHAM/WebService-DPD-API-v0.0001.tar.gz # broken versions in PREREQ_PM https://rt.cpan.org/Ticket/Display.html?id=98313
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
