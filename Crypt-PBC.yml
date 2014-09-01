@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Crypt-PBC-\d'
+pl:
+  expect:
+    - '\QWould you like to download and build libpbc from tarball automatically?'
+    - "\n"
