@@ -1334,5 +1334,6 @@ match:
     |.*/Sorauta-Cache-HTTP-Request-Image-0\.01\. # another hanging META.yml
     |.*/Unicode-Tussle-\d # installs too much to .../bin, e.g. scrips like "rename" or "leo"
     |RNEWSHAM/WebService-DPD-API-v0.0001.tar.gz # broken versions in PREREQ_PM https://rt.cpan.org/Ticket/Display.html?id=98313
+    |NIKOLAS/DateLocale-1.20.tar.gz # empty tarball
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
