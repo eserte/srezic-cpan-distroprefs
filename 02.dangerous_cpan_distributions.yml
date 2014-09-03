@@ -334,6 +334,7 @@ match:
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
      |\QDDUMONT/Config-Model-2.055.tar.gz\E
      |\QDEDMEDVED/SSIS-Package-0.01.tar.gz\E
+     |\QDEDMEDVED/VSGDR-UnitTest-TestSet-1.29.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDERF/Travel-Routing-DE-VRR-2.04.tar.gz\E
@@ -938,6 +939,7 @@ match:
      |\QLDS/HTTPD-User-Manage-1.63.tar.gz\E
      |\QLDS/Text-Shellwords-1.03.tar.gz\E
      |\QLDS/VM-EC2-1.23.tar.gz\E
+     |\QLDS/VM-EC2-1.25.tar.gz\E
      |\QLEEJO/CGI-Alternatives-0.10.tar.gz\E
      |\QLEIF/tidyview-1.12.tar.gz\E
      |\QLEIRA/HTTP-Recorder-0.02.tar.gz\E
@@ -1111,7 +1113,6 @@ match:
      |\QMSCHILLI/Net-Evernote-Simple-0.01.tar.gz\E
      |\QMSCHUETT/Text-AI-CRM114-0.04.tar.gz\E
      |\QMSCHWERN/Test-Legacy-1.2501.tar.gz\E
-     |\QMSCHWERN/Test-Simple-0.98.tar.gz\E
      |\QMSCHWERN/perl5i-v2.10.0.tar.gz\E
      |\QMSCHWERN/perl5i-v2.12.0.tar.gz\E
      |\QMSERGEANT/AxKit-1.5.2.tar.gz\E
@@ -1242,6 +1243,7 @@ match:
      |\QOTAYLOR/CORBA-MICO-0.6.0.tar.gz\E
      |\QOVID/Test-Class-Moose-0.06.tar.gz\E
      |\QOVID/Test-Class-Moose-0.43.tar.gz\E
+     |\QOVID/Test-Class-Moose-0.54.tar.gz\E
      |\QOVID/Test-Harness-3.26.tar.gz\E
      |\QOVID/Test-Harness-3.28.tar.gz\E
      |\QOVID/Test-Kit-0.101.tar.gz\E
