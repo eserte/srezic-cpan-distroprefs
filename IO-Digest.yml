@@ -7,3 +7,4 @@ patches:
   - SREZIC/patches/IO-Digest-0.11-issue1.patch
 # fixed in perl 5.14.0, see
 # http://perldoc.perl.org/perl5140delta.html#Exception-Handling
+# https://rt.cpan.org/Ticket/Display.html?id=85473
