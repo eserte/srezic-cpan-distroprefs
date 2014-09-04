@@ -11,3 +11,6 @@ match:
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 cpanconfig:
   yaml_module: 'YAML::Syck'
+depends:
+  configure_requires:
+    'YAML::Syck': 0
