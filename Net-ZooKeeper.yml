@@ -10,6 +10,8 @@ test:
   env:
     ZK_TEST_HOSTS: localhost:2181
 # Tests would pass if the "zookeeperd" debian package was installed and started.
+# XXX -> this may not be true, there are systems where the test suite
+#        passed without the daemon running
 patches:
   - SREZIC/patches/Net-ZooKeeper-0.35-RT91216.patch 
 ---
