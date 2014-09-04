@@ -15,3 +15,6 @@ cpanconfig:
 depends:
   configure_requires:
     'YAML::Syck': 0
+## XXX Unfortunately this hack does not seem to work always
+## --- so I had to change the yaml_module configuration in
+##     ~/.cpan/CPAN/MyConfig.pm, making this a no-op
