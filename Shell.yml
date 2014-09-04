@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Shell-0\.72\.tar\.gz'
+patches:
+  - SREZIC/patches/Shell-0.72-RT50729.patch
