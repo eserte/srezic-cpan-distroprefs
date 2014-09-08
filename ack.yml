@@ -5,3 +5,10 @@ goto: 'PETDANCE/ack-2.13_06.tar.gz'
 # 2.12 does not test on no FreeBSD variant, it seems
 # ... or maybe it does not test successfully if
 # system ack is not installed.
+---
+match:
+  distribution: '/ack-2\.14\.tar.gz'
+test:
+  env:
+    LC_ALL: C
+# https://github.com/petdance/ack2/issues/485
