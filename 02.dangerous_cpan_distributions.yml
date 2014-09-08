@@ -16,6 +16,7 @@ match:
      |\QABW/Badger-0.03.tar.gz\E
      |\QABW/Template-Toolkit-1.07.tar.gz\E
      |\QACALPINI/Win32-GUI-0.0.558.tar.gz\E
+     |\QACCARDO/HTML-Element-Replacer-0.03.tar.gz\E
      |\QACDALTON/AI-Pathfinding-AStar-0.07.tar.gz\E
      |\QACH/Tk-Contrib-0.05.tar.gz\E
      |\QADAMDH/Padre-Plugin-Shopify-0.03.tar.gz\E
@@ -288,6 +289,7 @@ match:
      |\QCOUDOT/Lemonldap-NG-Common-1.1.2.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Handler-1.3.3.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Portal-1.2.5.tar.gz\E
+     |\QCREAMYG/Lucy-0.3.3.tar.gz\E
      |\QCREIN/Net-DNS-0.45.tar.gz\E
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
@@ -687,6 +689,7 @@ match:
      |\QIOANR/WebService-Simplenote-0.1.2.tar.gz\E
      |\QIPENBURG/Date-Extract-P800Picture-0.04.tar.gz\E
      |\QIRONCAMEL/Net-OpenStack-Compute-1.0900.tar.gz\E
+     |\QISHIGAKI/Module-New-0.10.tar.gz\E
      |\QITUB/Chemistry-Mok-0.16.tar.gz\E
      |\QITUB/IO-All-LWP-0.12.tar.gz\E
      |\QIVAN/DBIx-DBSchema-0.40.tar.gz\E
@@ -941,6 +944,7 @@ match:
      |\QLDS/VM-EC2-1.23.tar.gz\E
      |\QLDS/VM-EC2-1.25.tar.gz\E
      |\QLEEJO/CGI-Alternatives-0.10.tar.gz\E
+     |\QLEEJO/CGI.pm-4.03.tar.gz\E
      |\QLEIF/tidyview-1.12.tar.gz\E
      |\QLEIRA/HTTP-Recorder-0.02.tar.gz\E
      |\QLEONT/Linux-Epoll-0.004.tar.gz\E
@@ -1152,6 +1156,7 @@ match:
      |\QMURRAY/PPM-2.1.1.tar.gz\E
      |\QMURRAY/PPM-2.1.3.tar.gz\E
      |\QMVERB/GIFgraph-1.10.tar.gz\E
+     |\QMVZ/Email-Outlook-Message-0.915.tar.gz\E
      |\QMWARDELL/Wx-TreeListCtrl-0.05.tar.gz\E
      |\QNATG/Class-AutoDB-1.28.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsMulti-1.13.tar.gz\E
@@ -1274,6 +1279,7 @@ match:
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
+     |\QPEVANS/Tickit-0.46.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
@@ -1493,7 +1499,7 @@ match:
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
-     |\QSKX/Blog-Spam-1.0.tar.gz\E
+     |\QSKX/WebService-Amazon-Route53-Caching-0.4.1.tar.gz\E
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
@@ -1590,6 +1596,7 @@ match:
      |\QTNT/Syntax-Feature-Try-0.002.tar.gz\E
      |\QTOBYINK/Data-Dumper-GUI-0.005.tar.gz\E
      |\QTOBYINK/HTTP-Link-Parser-0.103.tar.gz\E
+     |\QTOBYINK/MooseX-InlineTypes-0.002.tar.gz\E
      |\QTOBYINK/MooseX-Prototype-0.001.tar.gz\E
      |\QTOBYINK/RDF-RDB2RDF-0.007.tar.gz\E
      |\QTOBYINK/RDF-RDFa-Parser-1.096.tar.gz\E
@@ -1615,6 +1622,7 @@ match:
      |\QTPEDERSE/WordNet-Similarity-2.03.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
+     |\QTSIBLEY/DBIx-SearchBuilder-1.65.tar.gz\E
      |\QTSIBLEY/Jifty-1.10228.tar.gz\E
      |\QTSIBLEY/Net-iTMS-0.04.tar.gz\E
      |\QTSIBLEY/RT-Extension-CommandByMail-0.13.tar.gz\E
@@ -1623,7 +1631,7 @@ match:
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
      |\QTURNERJW/Tk-TextHighlight-1.0.4.tar.gz\E
      |\QTVIGNAUD/URPM-4.30.tgz\E
-     |\QTVIGNAUD/urpmi-7.31.tgz\E
+     |\QTVIGNAUD/urpmi-7.32.tgz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
      |\QTWENRICH/DBD-Solid-0.11a.tar.gz\E
      |\QTWH/Bio-GMOD-0.02.tar.gz\E
@@ -1640,7 +1648,6 @@ match:
      |\QVANAMBURG/VANAMBURG-Magic-0.03.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
-     |\QVIKAS/App-financeta-0.07.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
      |\QVKON/Tcl-Tk-0.76.tar.gz\E
      |\QVKON/Tcl-Tk-0.90.tar.gz\E
