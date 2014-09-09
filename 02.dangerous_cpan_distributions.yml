@@ -246,8 +246,6 @@ match:
      |\QCCOLBOURN/ai-nnflex/AI-NNFlex-0.16.tar.gz\E
      |\QCCOLBOURN/ai-nnflex/AI-NNFlex-0.20.tar.gz\E
      |\QCDRAUG/Dist-Zilla-PluginBundle-BioPerl-0.20.tar.gz\E
-     |\QCELOGEEK/Dancer-Plugin-Redis-0.2.tar.gz\E
-     |\QCELOGEEK/Jedi-0.14.tar.gz\E
      |\QCERNEY/Graphics-VTK-3.2.001.tar.gz\E
      |\QCHANSEN/Authen-Simple-0.4.tar.gz\E
      |\QCHGOVUK/MojoX-Plugin-AnyCache-0.01.tar.gz\E
@@ -985,6 +983,7 @@ match:
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
      |\QMANWAR/WWW-Google-APIDiscovery-0.05.tar.gz\E
      |\QMANWAR/WWW-Google-UserAgent-0.01.tar.gz\E
+     |\QMANWAR/WWW-StatsMix-0.01.tar.gz\E
      |\QMARCC/xml-tag-0.1.tar.gz\E
      |\QMARCEL/Brickyard-1.110020.tar.gz\E
      |\QMARCEL/Brickyard-1.111750.tar.gz\E
@@ -1255,6 +1254,7 @@ match:
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPARDUS/zoidberg/Zoidberg-0.95.tar.gz\E
+     |\QPATL/Inline-Java-0.53.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
      |\QPBWOLF/Win32-ActAcc-1.0.zip\E
      |\QPCOLLINS/HTTP-DAV-0.05.tar.gz\E
