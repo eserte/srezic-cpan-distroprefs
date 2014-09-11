@@ -51,6 +51,7 @@ match:
      |\QAKHUETTEL/Lab-Measurement-3.11.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.30.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
+     |\QAKXLIX/Sisimai-4.0.1.tar.gz\E
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
@@ -270,6 +271,7 @@ match:
      |\QCLIPLAND/Wrangler-2.13.tar.gz\E
      |\QCLKAO/SVK-1.08.tar.gz\E
      |\QCLKAO/SVK-v2.0.2.tar.gz\E
+     |\QCLOOS/RT-Extension-ReminderImproved-0.04.tar.gz\E
      |\QCMERTZ/svg-svg2zinc-0.05.tar.gz\E
      |\QCMERTZ/svg-svg2zinc-0.06.tar.gz\E
      |\QCMUNGALL/GOBO-0.01.tar.gz\E
@@ -602,7 +604,6 @@ match:
      |\QHERNAN/HTML-Robot-Scrapper-0.10.tar.gz\E
      |\QHERVEUS/Weaving-Tablet-0.009.005.tar.gz\E
      |\QHESCO/LedgerSMB-API-0.01.tar.gz\E
-     |\QHIDEAKIO/MouseX-SingletonMethod-0.03.tar.gz\E
      |\QHIDEAKIO/autolocale-0.02.tar.gz\E
      |\QHIO/Tripletail-0.31.tar.gz\E
      |\QHIO/Tripletail-0.34.tar.gz\E
@@ -1128,6 +1129,7 @@ match:
      |\QMSERGEANT/XML-Parser-2.36.tar.gz\E
      |\QMSERGEANT/XML-XPathScript-0.03.tar.gz\E
      |\QMSIMERSON/Mail-Toaster-5.13.tar.gz\E
+     |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.19.tar.gz\E
      |\QMSISK/Net-Nmsg-0.09.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
@@ -1382,6 +1384,7 @@ match:
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
      |\QRTKH/Raisin-0.30.tar.gz\E
+     |\QRTKH/Raisin-0.4003.tar.gz\E
      |\QRUBYKAT/WWW-FetchStory-0.15.tar.gz\E
      |\QRUBYKAT/WWW-FetchStory-0.1815.tar.gz\E
      |\QRURBAN/B-C-1.36.tar.gz\E
@@ -1499,7 +1502,6 @@ match:
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
-     |\QSKX/WebService-Amazon-Route53-Caching-0.4.1.tar.gz\E
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
@@ -1595,13 +1597,20 @@ match:
      |\QTMURRAY/UAV-Pilot-WumpusRover-Server-0.1.tar.gz\E
      |\QTNT/Syntax-Feature-Try-0.002.tar.gz\E
      |\QTOBYINK/Data-Dumper-GUI-0.005.tar.gz\E
+     |\QTOBYINK/Fixed-0.001.tar.gz\E
+     |\QTOBYINK/FreeMind-Document-0.001.tar.gz\E
      |\QTOBYINK/HTTP-Link-Parser-0.103.tar.gz\E
+     |\QTOBYINK/JSON-MultiValueOrdered-0.004.tar.gz\E
      |\QTOBYINK/MooseX-InlineTypes-0.002.tar.gz\E
      |\QTOBYINK/MooseX-Prototype-0.001.tar.gz\E
+     |\QTOBYINK/PerlX-Perform-0.005.tar.gz\E
      |\QTOBYINK/RDF-RDB2RDF-0.007.tar.gz\E
      |\QTOBYINK/RDF-RDFa-Parser-1.096.tar.gz\E
      |\QTOBYINK/RT-ClientX-GrabBugs-0.001.tar.gz\E
      |\QTOBYINK/Set-Equivalence-0.002.tar.gz\E
+     |\QTOBYINK/Sub-NonRole-0.003.tar.gz\E
+     |\QTOBYINK/Throwable-Factory-0.006.tar.gz\E
+     |\QTOBYINK/URI-duri-0.002.tar.gz\E
      |\QTOKAREV/Plack-Middleware-ExtDirect-2.01.tar.gz\E
      |\QTOKAREV/RPC-ExtDirect-2.15.tar.gz\E
      |\QTOKAREV/RPC-ExtDirect-3.00.tar.gz\E
@@ -1703,11 +1712,9 @@ match:
      |\QXAOINC/XAO-FS-1.03.tar.gz\E
      |\QXAOINC/XAO-FS-1.04.tar.gz\E
      |\QXAOINC/XAO-MySQL-1.0.tar.gz\E
-     |\QXENO/Business-CyberSource-0.006014.tar.gz\E
      |\QXENO/Business-CyberSource-0.007011.tar.gz\E
      |\QXENO/Business-CyberSource-0.009002.tar.gz\E
      |\QXENO/Business-OnlinePayment-CyberSource-2.01.tar.gz\E
-     |\QXENO/Business-PaperlessTrans-0.001004.tar.gz\E
      |\QXEONTIME/Sakai-Nakamura-0.11.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-6.02.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-7.08.tar.gz\E
