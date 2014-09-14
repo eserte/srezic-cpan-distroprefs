@@ -8,6 +8,7 @@ match:
     PERL_BATCH: yes
 disabled: 1
 # Hangs with unthreaded perl, maybe -pthread is needed?
+# Note: even with wait-and-kill active, the tests need more than 30 minutes, so disabling it is still a good idea
 ---
 match:
   distribution: "/WWW-Curl-\d"
