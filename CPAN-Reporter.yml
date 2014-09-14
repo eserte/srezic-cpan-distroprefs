@@ -10,3 +10,8 @@ match:
   distribution: "/CPAN-Reporter-1.1701.tar.gz"
 disabled: 1
 comment: "ALERT: Stop CPAN-Reporter 1.1701 from running, sends bogus fail reports; http://rt.cpan.org/Ticket/Display.html?id=39240"
+--- 
+match:
+  distribution: "/CPAN-Reporter-1.2011.tar.gz"
+patches:
+  - SREZIC/patches/CPAN-Reporter-1.2011-issue20.patch
