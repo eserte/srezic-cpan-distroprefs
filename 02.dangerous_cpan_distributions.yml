@@ -172,7 +172,6 @@ match:
      |\QBBIRTH/MARC-XML-0.4.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
-     |\QBDFOY/Module-Release-2.06.tar.gz\E
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Module-Build-Database-0.50.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
@@ -526,7 +525,6 @@ match:
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
-     |\QGLEACH/Getopt-Auto-1.9.7.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -700,6 +698,7 @@ match:
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
      |\QIX/libservlet-0.9.1.tar.gz\E
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
+     |\QJAMADAM/WWW-Crawler-Mojo-0.03.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
@@ -743,6 +742,7 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/App-git-ship-0.10.tar.gz\E
      |\QJHTHORSEN/Convos-0.81.tar.gz\E
+     |\QJHTHORSEN/Convos-0.83.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -942,7 +942,6 @@ match:
      |\QLDS/Text-Shellwords-1.03.tar.gz\E
      |\QLDS/VM-EC2-1.23.tar.gz\E
      |\QLDS/VM-EC2-1.25.tar.gz\E
-     |\QLEEJO/CGI-Alternatives-0.10.tar.gz\E
      |\QLEEJO/CGI.pm-4.03.tar.gz\E
      |\QLEIF/tidyview-1.12.tar.gz\E
      |\QLEIRA/HTTP-Recorder-0.02.tar.gz\E
@@ -1018,6 +1017,7 @@ match:
      |\QMAROS/Text-Phonetic-1.07.tar.gz\E
      |\QMASAHJI/DB-Introspector-0.01a.tgz\E
      |\QMASAKI/HTTP-Router-0.01.tar.gz\E
+     |\QMASH/App-Prove-Plugin-MySQLPool-0.04.tar.gz\E
      |\QMATEU/Algorithm-Simplex-0.41.tar.gz\E
      |\QMATEU/Weather-WWO-0.04.tar.gz\E
      |\QMATHEW/Locale-MakePhrase-0.4.tar.gz\E
@@ -1032,6 +1032,7 @@ match:
      |\QMAVERICK/Apache-Voodoo-3.0002.tar.gz\E
      |\QMAXDB/DBD-MaxDB-7.6.00.16.tar.gz\E
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-0.0100021.tar.gz\E
+     |\QMAXS/Palm-MaTirelire-1.12.tar.gz\E
      |\QMAXSCHUBE/Nmap-Scanner-0.9.tar.gz\E
      |\QMBARBON/Module-Info-0.33.tar.gz\E
      |\QMBARBON/Wx-0.27.tar.gz\E
@@ -1256,7 +1257,6 @@ match:
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPARDUS/zoidberg/Zoidberg-0.95.tar.gz\E
-     |\QPATL/Inline-Java-0.53.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
      |\QPBWOLF/Win32-ActAcc-1.0.zip\E
      |\QPCOLLINS/HTTP-DAV-0.05.tar.gz\E
@@ -1639,9 +1639,9 @@ match:
      |\QTSIBLEY/RT-Extension-SLA-0.06.tar.gz\E
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
      |\QTURNERJW/Tk-TextHighlight-1.0.4.tar.gz\E
-     |\QTVIGNAUD/URPM-4.30.tgz\E
-     |\QTVIGNAUD/urpmi-7.32.tgz\E
+     |\QTVIGNAUD/URPM-4.9.tar.gz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
+     |\QTVIGNAUD/urpmi-7.9.tgz\E
      |\QTWENRICH/DBD-Solid-0.11a.tar.gz\E
      |\QTWH/Bio-GMOD-0.02.tar.gz\E
      |\QTWH/Bio-GMOD-0.022.tar.gz\E
