@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Crypt-GPG-1\.63\.'
+patches:
+  - SREZIC/patches/Crypt-GPG-1.63-RT68339.patch 
