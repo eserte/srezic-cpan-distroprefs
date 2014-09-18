@@ -1,8 +1,0 @@
----
-match:
-  distribution: "/RDF-Generator-Void-\d"
-## ??? Not needed anymore?
-#depends:
-#  configure_requires:
-## To avoid interactive questions
-#    MooseMouseX::NativeTraits: 0
