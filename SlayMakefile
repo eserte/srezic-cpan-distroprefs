@@ -82,7 +82,9 @@ push:	do-stuff git-push
 git-push:
 	git push
 
-push-and-smoker-pull:	push
+push-and-smoker-pull:	push smoker-pull
+
+smoker-pull:
 	fbsd-dsh -g moresmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull'
 
 dd-prefs: { map { s{\.yml$}{.dd}; $_ } glob("*.yml") }
@@ -189,3 +191,29 @@ dangerous-cpan-distributions:
 	find_dangerous_cpan_distributions.pl -distropref > 02.dangerous_cpan_distributions.yml~
 	chmod ugo+r 02.dangerous_cpan_distributions.yml~
 	mv 02.dangerous_cpan_distributions.yml~ 02.dangerous_cpan_distributions.yml
+
+dangerous-cpan-distributions-and-push-and-smoker-pull: dangerous-cpan-distributions _dangerous-cpan-distributions-commit push smoker-pull
+
+_dangerous-cpan-distributions-commit:
+	{
+	    system("git", "diff", "--exit-code", "02.dangerous_cpan_distributions.yml");
+	    if ($? != 0) {
+		print STDERR "Commit and push changes? (y/n) ";
+		while() {
+		    chomp(my $yn = <STDIN>);
+		    if ($yn eq 'y') {
+			last;
+		    } elsif ($yn ne 'n') {
+			print STDERR "Please answer y or n.\n";
+		    } else {
+			exit 1;
+		    }
+		}
+		system("git", "commit", "-m", "dangerous dists update", "02.dangerous_cpan_distributions.yml");
+		if ($? != 0) {
+		    die "git commit failed";
+		}
+	    } else {
+		die "No diffs, nothing to commit.\n";
+	    }
+	}
