@@ -320,7 +320,6 @@ match:
      |\QDAVEBAIRD/Maypole-FormBuilder-0.1.tar.gz\E
      |\QDAVEBAIRD/Maypole-FormBuilder-0.23.tar.gz\E
      |\QDAVECROSS/WWW-Shorten-3.03.tar.gz\E
-     |\QDAVID/Net-DNS-Create-v0.9.0.tar.gz\E
      |\QDAVIDRW/GBPVR-CDBI-0.01.tar.gz\E
      |\QDBALMER/HTML-Chunks-1.5.tar.gz\E
      |\QDBR/App-pandoc-preprocess-0.3.1.tar.gz\E
@@ -446,6 +445,7 @@ match:
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
      |\QETHER/Moose-2.1205.tar.gz\E
+     |\QETJ/Inline-C-0.62.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -691,9 +691,6 @@ match:
      |\QITUB/IO-All-LWP-0.12.tar.gz\E
      |\QIVAN/DBIx-DBSchema-0.40.tar.gz\E
      |\QIVAN/Net-XRC-0.01.tar.gz\E
-     |\QIVANWILLS/App-TemplateCMD-v0.1.1.tar.gz\E
-     |\QIVANWILLS/Getopt-Alt-v0.1.0.tar.gz\E
-     |\QIVANWILLS/W3C-SOAP-WADL-v0.0.1.tar.gz\E
      |\QIVORW/Bot-BasicBot-Pluggable-Module-RD-0.01.tar.gz\E
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
      |\QIX/libservlet-0.9.1.tar.gz\E
@@ -778,6 +775,7 @@ match:
      |\QJOHND/Class-DBI-Lite-1.020.tar.gz\E
      |\QJOHND/Class-DBI-Lite-1.023.tar.gz\E
      |\QJON/Reddit-0.30.03.tar.gz\E
+     |\QJONASBN/Date-Holidays-0.22.tar.gz\E
      |\QJONATAYAH/Captcha-AreYouAHuman-0.00003.tar.gz\E
      |\QJOSHR/Sman-0.98.tar.gz\E
      |\QJOSTEN/XML-XSLT-0.20.tar.gz\E
@@ -1034,8 +1032,6 @@ match:
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-0.0100021.tar.gz\E
      |\QMAXS/Palm-MaTirelire-1.12.tar.gz\E
      |\QMAXSCHUBE/Nmap-Scanner-0.9.tar.gz\E
-     |\QMBARBON/Module-Info-0.33.tar.gz\E
-     |\QMBARBON/Wx-0.27.tar.gz\E
      |\QMBLYTHE/HTML-Chunks-1.55.1.tar.gz\E
      |\QMBP/MojoX-Dispatcher-Qooxdoo-Jsonrpc-0.89.tar.gz\E
      |\QMCAUDILL/Net-Bot-IRC-NumericCodes-0.04.tar.gz\E
@@ -1206,7 +1202,6 @@ match:
      |\QNLL/Archive-AndroidBackup-1.13.tar.gz\E
      |\QNLNETLABS/Net-DNS-0.72.tar.gz\E
      |\QNLNETLABS/Net-DNS-0.74.tar.gz\E
-     |\QNLNETLABS/Net-DNS-SEC-0.17.tar.gz\E
      |\QNMARDEN/VR-API-1.05.tar.gz\E
      |\QNMCFARL/Finance-QIF-1.03.tar.gz\E
      |\QNNUTTER/Sub-Deprecated-0.003002.tar.gz\E
@@ -1339,6 +1334,7 @@ match:
      |\QRDO/Bio-KBase-0.02.tar.gz\E
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
+     |\QREEDFISH/Net-FullAuto-0.999999999910.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREID/Games-Go-Sgf2Dg-4.221.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
@@ -1551,6 +1547,7 @@ match:
      |\QSUMUS/DWH_File-0.21.tar.gz\E
      |\QSUMUS/DWH_File.0.03.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
+     |\QSWALTERS/SOAP-WSDL-v3.001.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
@@ -1613,7 +1610,6 @@ match:
      |\QTOBYINK/URI-duri-0.002.tar.gz\E
      |\QTOKAREV/Plack-Middleware-ExtDirect-2.01.tar.gz\E
      |\QTOKAREV/RPC-ExtDirect-2.15.tar.gz\E
-     |\QTOKAREV/RPC-ExtDirect-3.00.tar.gz\E
      |\QTOKUHIROM/HTTP-Session-0.48.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
@@ -1673,6 +1669,7 @@ match:
      |\QVOJ/DAIA-0.35.tar.gz\E
      |\QVOJ/Data-Beacon-0.2.5.tar.gz\E
      |\QVOJ/Data-Beacon-0.2.7.tar.gz\E
+     |\QVOJ/PICA-Data-0.22.tar.gz\E
      |\QVOJ/PICA-Record-0.36.tar.gz\E
      |\QVOJ/PICA-Record-0.38.tar.gz\E
      |\QVOJ/PICA-Record-0.47.tar.gz\E
@@ -1699,6 +1696,7 @@ match:
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
+     |\QWYANT/Astro-App-Satpass2-0.020.tar.gz\E
      |\QWYANT/Astro-SpaceTrack-0.077.tar.gz\E
      |\QXAICRON/DBIx-QueryLog-0.06.tar.gz\E
      |\QXAICRON/JSON-WebToken-0.05.tar.gz\E
