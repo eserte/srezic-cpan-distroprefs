@@ -1,13 +1,17 @@
 --- 
-# This pref for Windows (no true available)
 match:
   distribution: "/Net-Google-\d"
-  perlconfig:
-    archname: "MSWin32"
 disabled: 1
---- 
-comment: "Needs the Google API key for tests, so skip tests"
-match:
-  distribution: "/Net-Google-\d"
-test:
-  commandline: "true"
+#--- 
+## This pref for Windows (no true available)
+#match:
+#  distribution: "/Net-Google-\d"
+#  perlconfig:
+#    archname: "MSWin32"
+#disabled: 1
+#--- 
+#comment: "Needs the Google API key for tests, so skip tests"
+#match:
+#  distribution: "/Net-Google-\d"
+#test:
+#  commandline: "true"
