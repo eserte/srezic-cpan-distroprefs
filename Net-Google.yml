@@ -2,6 +2,7 @@
 match:
   distribution: "/Net-Google-\d"
 disabled: 1
+## disabled, because test is interactive
 #--- 
 ## This pref for Windows (no true available)
 #match:
