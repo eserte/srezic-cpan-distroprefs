@@ -146,6 +146,8 @@ match:
      |\QAWNCORP/Bubblegum-0.10.tar.gz\E
      |\QAWNCORP/Bubblegum-0.19.tar.gz\E
      |\QAWNCORP/Bubblegum-0.27.tar.gz\E
+     |\QAWNCORP/Bubblegum-0.36.tar.gz\E
+     |\QAWNCORP/Bubblegum-0.38.tar.gz\E
      |\QAWNCORP/DBIx-Simple-Batch-1.68.tar.gz\E
      |\QAWNCORP/Dancer-Plugin-ORMesque-1.103180.tar.gz\E
      |\QAWNCORP/Email-Sender-Server-0.50.tar.gz\E
@@ -685,6 +687,7 @@ match:
      |\QIOANR/Net-LCDproc-0.1.1.tar.gz\E
      |\QIOANR/WebService-Simplenote-0.1.2.tar.gz\E
      |\QIPENBURG/Date-Extract-P800Picture-0.04.tar.gz\E
+     |\QIRONCAMEL/Business-BalancedPayments-0.1501.tar.gz\E
      |\QIRONCAMEL/Net-OpenStack-Compute-1.0900.tar.gz\E
      |\QISHIGAKI/Module-New-0.10.tar.gz\E
      |\QITUB/Chemistry-Mok-0.16.tar.gz\E
@@ -1585,6 +1588,7 @@ match:
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
      |\QTKR/Treex-Parser-MSTperl-0.08055.tar.gz\E
+     |\QTKR/Treex-Unilang-0.08170.tar.gz\E
      |\QTMTM/Class-DBI-v3.0.6.tar.gz\E
      |\QTMTM/Ima-DBI-0.32.tar.gz\E
      |\QTMTM/Spreadsheet-Engine-0.11.tar.gz\E
