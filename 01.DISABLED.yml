@@ -1128,8 +1128,8 @@ match:
     |.*/XXXCatalyst-Plugin-Upload-Image-Magick-\d # imagemagick problem, see above
     |.*/XXXImage-Magick-PixelMosaic-\d # imagemagick problem
     |XXXKARASIK/Prima-Image-Magick-0.05.tar.gz # endless loop, because ImageMagick failed?
-    |.*/Event-Lib-\d # not installed (lazyness?)
-    |.*/Event-Lib-UDPPump-\d # not installed (lazyness?)
+    |XXX.*/Event-Lib-\d # not installed (lazyness?)
+    |XXX.*/Event-Lib-UDPPump-\d # not installed (lazyness?)
     |.*/Encode-BOCU1-XS-\d # not installed (lazyness)
     |.*/GCJ-Cni-\d # part of mingw32-gcc??? not installed
     |.*/XXXXTcl-Tk-\d # missing tk8.5 (X11?) --- not used, because Tcl-Tk.yml seem to have higher precedence (?)
