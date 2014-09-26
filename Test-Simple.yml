@@ -3,3 +3,8 @@ match:
   distribution: "/Test-Simple-2\.00_\d"
 disabled: 1
 comment: "Suspicious! Breaks other dists, it seems!"
+---
+match:
+  distribution: "EXODIST/Test-Simple-1.301001_047.tar.gz"
+disabled: 1
+# breaks many test suites: https://github.com/Test-More/test-more/issues/453
