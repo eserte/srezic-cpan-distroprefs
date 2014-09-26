@@ -42,6 +42,7 @@ match:
      |\QAGRUNDMA/Catalyst-Engine-HTTP-POE-0.07.tar.gz\E
      |\QAGRUNDMA/Catalyst-Plugin-UploadProgress-0.03.tar.gz\E
      |\QAJOLMA/Geo-GDAL-1.81.tar.gz\E
+     |\QAJOLMA/Geo-GDAL-1.992c.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.64.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
@@ -308,6 +309,7 @@ match:
      |\QDAMS/IO-Socket-Timeout-0.17.tar.gz\E
      |\QDAMS/PerlIO-via-Timeout-0.21.tar.gz\E
      |\QDAMS/Riak-Client-0.11.tar.gz\E
+     |\QDANAJ/Math-Prime-Util-0.43.tar.gz\E
      |\QDANBERR/Net-DBus-0.33.1.tar.gz\E
      |\QDANBERR/Test-AutoBuild-1.0.3.tar.gz\E
      |\QDANBERR/Test-AutoBuild-1.2.3.tar.gz\E
@@ -559,6 +561,7 @@ match:
      |\QGRICHTER/Embperl-2.4.0.tar.gz\E
      |\QGRICHTER/HTML-Embperl-1.2.1.tar.gz\E
      |\QGROMMIER/Text-Editor-Easy-0.01.tar.gz\E
+     |\QGROUSSE/FusionInventory-Agent-2.3.10.1.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.6.tar.gz\E
      |\QGSAR/perl-5.6.1.tar.gz\E
      |\QGSB/App-SourcePlot-1.18.tar.gz\E
@@ -779,6 +782,7 @@ match:
      |\QJOHND/Class-DBI-Lite-1.023.tar.gz\E
      |\QJON/Reddit-0.30.03.tar.gz\E
      |\QJONASBN/Date-Holidays-0.22.tar.gz\E
+     |\QJONASBN/Tie-Tools-1.08.tar.gz\E
      |\QJONATAYAH/Captcha-AreYouAHuman-0.00003.tar.gz\E
      |\QJOSHR/Sman-0.98.tar.gz\E
      |\QJOSTEN/XML-XSLT-0.20.tar.gz\E
@@ -1049,6 +1053,7 @@ match:
      |\QMEWSOFT/Nile-0.36.tar.gz\E
      |\QMEWSOFT/Nile-0.37.tar.gz\E
      |\QMEWSOFT/Nile-0.39.tar.gz\E
+     |\QMEWSOFT/Nile-0.50.tar.gz\E
      |\QMEWSOFT/mewsoft/Nile-0.21.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1090,6 +1095,7 @@ match:
      |\QMLEHMANN/Gimp-1.211.tar.gz\E
      |\QMLEHMANN/Gnome2-Print-0.52.tar.gz\E
      |\QMLEHMANN/JSON-XS-2.34.tar.gz\E
+     |\QMLS/XML-Structured-1.0.tar.gz\E
      |\QMMCLERIC/Flux-1.02.tar.gz\E
      |\QMMIMS/Net-Twitter-3.13000.tar.gz\E
      |\QMMORGAN/MooseX-SlurpyConstructor-1.1.tar.gz\E
@@ -1227,7 +1233,6 @@ match:
      |\QNWIGER/Config-Fast-1.06.tar.gz\E
      |\QOAXLIN/MemcacheDBI-0.02.tar.gz\E
      |\QOETIKER/Business-Payment-SwissESR-0.5.1.tar.gz\E
-     |\QOLAF/Net-DNS-0.68.tar.gz\E
      |\QOLIVER/App-Netdisco-2.004002.tar.gz\E
      |\QOLIVER/App-Netdisco-2.006000.tar.gz\E
      |\QOLIVER/App-Netdisco-2.021000.tar.gz\E
@@ -1337,7 +1342,6 @@ match:
      |\QRDO/Bio-KBase-0.02.tar.gz\E
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
-     |\QREEDFISH/Net-FullAuto-0.999999999910.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREID/Games-Go-Sgf2Dg-4.221.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
@@ -1681,6 +1685,7 @@ match:
      |\QVOJ/Plack-App-unAPI-0.51.tar.gz\E
      |\QVOJ/RDF-Lazy-0.063.tar.gz\E
      |\QVOJ/SeeAlso-Server-0.57.tar.gz\E
+     |\QVPEIL/Catmandu-EuropePMC-0.14.tar.gz\E
      |\QVPEIL/Catmandu-Inspire-0.263.tar.gz\E
      |\QVSESPB/App-MtAws-0.981.tar.gz\E
      |\QVSESPB/App-MtAws-1.059.tar.gz\E
@@ -1695,6 +1700,8 @@ match:
      |\QWARRINGD/Elive-1.31.tar.gz\E
      |\QWEAV/DBIx-Perform-0.05.tar.gz\E
      |\QWEBORAMA/Riak-Light-0.052.tar.gz\E
+     |\QWEBORAMA/WebService-Zaqar-0.004.tar.gz\E
+     |\QWEBORAMA/WebService-Zaqar-0.005.tar.gz\E
      |\QWIGGLY/Autocache-0.002.tar.gz\E
      |\QWJIAN/MColPro-1.12.tar.gz\E
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
