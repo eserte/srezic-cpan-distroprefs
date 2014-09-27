@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/metabase-relayd-\d"
-pl:
-  expect:
-    - "\QDo you want to install 'Event' and 'POE::XS::Queue::Array'"
-    - "\n"
