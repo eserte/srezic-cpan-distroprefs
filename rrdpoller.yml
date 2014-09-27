@@ -4,3 +4,4 @@ match:
 pl:
   args:
     - DEFAULTS
+# last_checked: 2014-09-27 (R/RS/RSOLIV/rrdpoller-1.5.0.tar.gz is still interactive)

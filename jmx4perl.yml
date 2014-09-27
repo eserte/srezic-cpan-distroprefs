@@ -15,3 +15,4 @@ pl:
     - "n\n"
     - "\QInstall 'jolokia'"
     - "n\n"
+# last_checked: 2014-09-27 (R/RO/ROLAND/jmx4perl-1.10.tar.gz is still interactive)

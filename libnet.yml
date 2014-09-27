@@ -6,3 +6,4 @@ pl:
     - "\QDo you want to modify/update your configuration (y|n) ? [no]"
     - "\n"
 
+# last_checked: 2014-09-27 (SHAY/libnet-1.27.tar.gz is still interactive)

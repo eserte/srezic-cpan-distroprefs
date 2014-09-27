@@ -6,3 +6,4 @@ match:
 patches:
   - "SREZIC/patches/tk-zinc-3.303-SREZIC-02.patch"
 comment: "FreeBSD has no malloc.h: http://rt.cpan.org/Ticket/Display.html?id=21409"
+# last_checked: 2014-09-27 (no newer release)

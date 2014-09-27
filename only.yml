@@ -8,3 +8,4 @@ pl:
     talk:
       - '\QDo you want to use the "suggested" directory (y/n)? [y]'
       - "\n"
+# last_checked: 2014-09-27 (I/IN/INGY/only-0.28.tar.gz is still interactive)
