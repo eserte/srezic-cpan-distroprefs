@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/minismokebox-\d"
-pl:
-  expect:
-    - "\QDo you want to install 'Event' and 'POE::XS::Queue::Array' [Y/n]? [Y]"
-    - "\n"
