@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Guard-1\.022\.'
+  perlconfig:
+    version: '^5\.21\.[1234]$'
+patches:
+  - SREZIC/patches/Guard-1.022-RT96919.patch
