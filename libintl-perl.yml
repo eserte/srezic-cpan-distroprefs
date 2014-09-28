@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/libintl-perl-1\.23\.'
+  perlconfig:
+    archname: linux
+test:
+  env:
+    LOCPATH: /tmp
+# workaround for https://rt.cpan.org/Ticket/Display.html?id=47968
