@@ -345,7 +345,6 @@ match:
     |.*/Image-DecodeQR-\d # needs libdecodeqr, not in ports
     |.*/LSF_Base_\d # needs /etc/lsf.conf, not in ports?
     |.*/LSF_Batch_\d # needs /etc/lsf.conf, not in ports?
-    |.*/Config-Augeas-\d # needs augeas, not in ports
     |.*/Lucene-Search-Highlight-\d # needs clucene, not in ports
     |.*/Device-Serdisp-\d # needs -lserdisp, not in ports
     |.*/MonetDB- # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
