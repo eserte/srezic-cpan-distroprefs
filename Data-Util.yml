@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Data-Util-0\.63\.'
+  perlconfig:
+    version: '^5\.21\.4$'
+patches:
+  - SREZIC/patches/Data-Util-0.63-RT99097.patch
