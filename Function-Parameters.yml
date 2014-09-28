@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Function-Parameters-1\.0402\.'
+  perlconfig:
+    version: '^5\.21\.4$'
+patches:
+  - SREZIC/patches/Function-Parameters-1.0402-RT99100.patch
