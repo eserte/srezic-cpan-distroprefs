@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Hook-LexWrap-0\.24\.'
+  perlconfig:
+    version: '5\.21\.4$'
+patches:
+  - SREZIC/patches/Hook-LexWrap-0.24-RT99021.patch 
