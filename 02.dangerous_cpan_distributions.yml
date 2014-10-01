@@ -389,6 +389,7 @@ match:
      |\QDPIROTTE/Mail-Chimp-0.12.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.72.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.73.tar.gz\E
+     |\QDROLSKY/DateTime-TimeZone-1.74.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
@@ -572,6 +573,7 @@ match:
      |\QGSLIN/Thrift-0.8.0.tar.gz\E
      |\QGSLONDON/Parse-Gnaw-0.52.tar.gz\E
      |\QGSLONDON/Parse-Nibbler-0.23.tar.gz\E
+     |\QGTERMARS/TAP-Formatter-JUnit-0.09.tar.gz\E
      |\QGUGOD/JavaScript-Writer-0.1.0.tar.gz\E
      |\QGUGOD/Kwiki-PageInclude-0.01.tar.gz\E
      |\QGUGOD/Kwiki-PageTemplate-0.01.tar.gz\E
@@ -986,6 +988,7 @@ match:
      |\QMAKAMAKA/JSON-RPC-0.94.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.95.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
+     |\QMANWAR/IP-Info-0.06.tar.gz\E
      |\QMANWAR/WWW-Google-APIDiscovery-0.05.tar.gz\E
      |\QMANWAR/WWW-Google-UserAgent-0.01.tar.gz\E
      |\QMANWAR/WWW-StatsMix-0.01.tar.gz\E
@@ -1070,6 +1073,7 @@ match:
      |\QMIYAGAWA/PHP-Session-0.18.tar.gz\E
      |\QMIYAGAWA/Plack-1.0000.tar.gz\E
      |\QMIYAGAWA/Plack-1.0004.tar.gz\E
+     |\QMIYAGAWA/Plack-Middleware-Session-0.24.tar.gz\E
      |\QMIYAGAWA/Plagger-0.5.2.tar.gz\E
      |\QMIYAGAWA/Plagger-0.5.4.tar.gz\E
      |\QMIYAGAWA/Plagger-0.5.7.tar.gz\E
@@ -1197,7 +1201,6 @@ match:
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
      |\QNICS/Catmandu-OAI-0.02.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
-     |\QNICS/Catmandu-Store-DBI-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-ElasticSearch-0.0203.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.0301.tar.gz\E
@@ -1659,6 +1662,7 @@ match:
      |\QVADZ/WebService-SlimTimer-0.001.tar.gz\E
      |\QVANAMBURG/CGI-Application-Structured-0.004.tar.gz\E
      |\QVANAMBURG/VANAMBURG-Magic-0.03.tar.gz\E
+     |\QVANSTYN/RapidApp-0.99333.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
