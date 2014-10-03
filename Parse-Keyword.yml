@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QParse-Keyword-0.08.tar.gz\E'
+patches:
+  - SREZIC/patches/Parse-Keyword-0.08-issue9.patch
