@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/X11-Xlib-0\.02\.'
+  perlconfig:
+    version: '^5\.18\.1$'
+depends:
+  configure_requires:
+    Devel::CheckLib: 0
+pl:
+  commandline: 'rm -rf inc/; perl5.18.1 Makefile.PL'
+# prove of concept for https://rt.cpan.org/Ticket/Display.html?id=89237
+# and http://stackoverflow.com/questions/20587171/develchecklib-syntax-errors-when-trying-to-install-treesuffix/20587624?noredirect=1#comment40986916_20587624
