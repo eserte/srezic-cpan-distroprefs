@@ -23,6 +23,7 @@ match:
      |\QADAMDH/WWW-Shopify-0.98.tar.gz\E
      |\QADAMDH/WWW-Shopify-0.996.tar.gz\E
      |\QADAMDH/WWW-Shopify-Tools-Themer-0.10.tar.gz\E
+     |\QADAMJS/App-CharmKit-0.017.tar.gz\E
      |\QADAMK/Aspect-0.96.tar.gz\E
      |\QADAMK/Aspect-0.981.tar.gz\E
      |\QADAMK/Aspect-Library-Profiler-0.32.tar.gz\E
@@ -53,6 +54,7 @@ match:
      |\QAKHUETTEL/Lab-Measurement-3.30.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
      |\QAKXLIX/Sisimai-4.0.1.tar.gz\E
+     |\QAKXLIX/Sisimai-4.0.2.tar.gz\E
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
@@ -521,6 +523,7 @@ match:
      |\QGENEHACK/App-GitGitr-0.3.tar.gz\E
      |\QGENEHACK/App-GitGot-1.12.tar.gz\E
      |\QGETTY/App-DuckPAN-0.115.tar.gz\E
+     |\QGETTY/AquariumHive-0.002.tar.gz\E
      |\QGETTY/GID-0.003.tar.gz\E
      |\QGETTY/SyForm-0.001.tar.gz\E
      |\QGETTY/SyForm-0.003.tar.gz\E
@@ -563,6 +566,7 @@ match:
      |\QGRICHTER/HTML-Embperl-1.2.1.tar.gz\E
      |\QGROMMIER/Text-Editor-Easy-0.01.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.10.1.tar.gz\E
+     |\QGROUSSE/FusionInventory-Agent-2.3.11.1.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.6.tar.gz\E
      |\QGSAR/perl-5.6.1.tar.gz\E
      |\QGSB/App-SourcePlot-1.18.tar.gz\E
@@ -574,6 +578,7 @@ match:
      |\QGSLONDON/Parse-Gnaw-0.52.tar.gz\E
      |\QGSLONDON/Parse-Nibbler-0.23.tar.gz\E
      |\QGTERMARS/TAP-Formatter-JUnit-0.09.tar.gz\E
+     |\QGUGOD/Data-HanConvert-1.3.tar.gz\E
      |\QGUGOD/JavaScript-Writer-0.1.0.tar.gz\E
      |\QGUGOD/Kwiki-PageInclude-0.01.tar.gz\E
      |\QGUGOD/Kwiki-PageTemplate-0.01.tar.gz\E
@@ -700,6 +705,7 @@ match:
      |\QIVAN/DBIx-DBSchema-0.40.tar.gz\E
      |\QIVAN/Net-XRC-0.01.tar.gz\E
      |\QIVORW/Bot-BasicBot-Pluggable-Module-RD-0.01.tar.gz\E
+     |\QIWATA/Test-Docker-Image-0.04.tar.gz\E
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
      |\QIX/libservlet-0.9.1.tar.gz\E
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
@@ -949,6 +955,7 @@ match:
      |\QLDS/Text-Shellwords-1.03.tar.gz\E
      |\QLDS/VM-EC2-1.23.tar.gz\E
      |\QLDS/VM-EC2-1.25.tar.gz\E
+     |\QLEEJO/CGI-4.04.tar.gz\E
      |\QLEEJO/CGI.pm-4.03.tar.gz\E
      |\QLEIF/tidyview-1.12.tar.gz\E
      |\QLEIRA/HTTP-Recorder-0.02.tar.gz\E
@@ -1051,12 +1058,6 @@ match:
      |\QMDOOTSON/Wx-0.9921.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
-     |\QMEWSOFT/Nile-0.27.tar.gz\E
-     |\QMEWSOFT/Nile-0.32.tar.gz\E
-     |\QMEWSOFT/Nile-0.36.tar.gz\E
-     |\QMEWSOFT/Nile-0.37.tar.gz\E
-     |\QMEWSOFT/Nile-0.39.tar.gz\E
-     |\QMEWSOFT/Nile-0.50.tar.gz\E
      |\QMEWSOFT/mewsoft/Nile-0.21.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1100,6 +1101,7 @@ match:
      |\QMLEHMANN/Gnome2-Print-0.52.tar.gz\E
      |\QMLEHMANN/JSON-XS-2.34.tar.gz\E
      |\QMLS/XML-Structured-1.0.tar.gz\E
+     |\QMMCCLENN/Web-DataService-0.13.tar.gz\E
      |\QMMCLERIC/Flux-1.02.tar.gz\E
      |\QMMIMS/Net-Twitter-3.13000.tar.gz\E
      |\QMMORGAN/MooseX-SlurpyConstructor-1.1.tar.gz\E
@@ -1114,6 +1116,7 @@ match:
      |\QMOGAAL/Dansguardian-0.4.tar.gz\E
      |\QMONS/AnyEvent-Worker-0.05.tar.gz\E
      |\QMONS/XML-RPC-Fast-0.6.tar.gz\E
+     |\QMOOLLAZA/App-DuckPAN-0.154.tar.gz\E
      |\QMORNI/HTML-FormEngine-0.7.4.tar.gz\E
      |\QMORNI/HTML-FormEngine-DBSQL-0.2.1.tar.gz\E
      |\QMORTY/DateConvert-0.14.tgz\E
@@ -1195,6 +1198,7 @@ match:
      |\QNICS/Catmandu-0.07.tar.gz\E
      |\QNICS/Catmandu-0.0902.tar.gz\E
      |\QNICS/Catmandu-0.8002.tar.gz\E
+     |\QNICS/Catmandu-0.9204.tar.gz\E
      |\QNICS/Catmandu-ArXiv-0.01.tar.gz\E
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
      |\QNICS/Catmandu-DOI-0.01.tar.gz\E
@@ -1361,7 +1365,7 @@ match:
      |\QRITOU/OIDC-Lite-0.02.tar.gz\E
      |\QRJBS/Perl-Critic-Tics-0.008.tar.gz\E
      |\QRJBS/Test-Routine-0.019.tar.gz\E
-     |\QRJBS/perl-5.18.2.tar.bz2\E
+     |\QRJBS/perl-5.18.4.tar.gz\E
      |\QRJESCHMI/Archive-BagIt-0.041.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
@@ -1389,7 +1393,6 @@ match:
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
-     |\QRTKH/Raisin-0.30.tar.gz\E
      |\QRTKH/Raisin-0.4003.tar.gz\E
      |\QRUBYKAT/WWW-FetchStory-0.15.tar.gz\E
      |\QRUBYKAT/WWW-FetchStory-0.1815.tar.gz\E
@@ -1444,6 +1447,7 @@ match:
      |\QSCHROEER/Lab/Lab-Instrument-1.2.tar.gz\E
      |\QSCHUBIGER/DateTime-Format-Natural-0.94.tar.gz\E
      |\QSCHWIGON/App-DPath-0.04.tar.gz\E
+     |\QSCHWIGON/Net-SSH-Perl-1.37.tar.gz\E
      |\QSDAGUE/ppt-0.12.tar.gz\E
      |\QSDERLE/Geo-Coder-US-0.21.tar.gz\E
      |\QSDERLE/Geo-GDAL-0.11.tar.gz\E
@@ -1460,6 +1464,7 @@ match:
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
      |\QSHAY/Win32-SharedFileOpen-3.44.tar.gz\E
+     |\QSHAY/libnet-1.29.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
@@ -1559,6 +1564,8 @@ match:
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/SOAP-WSDL-v3.001.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
+     |\QSYBER/Panda-Install-0.1.2.tar.gz\E
+     |\QSYBER/Panda-Install-0.1.3.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
      |\QTANIGUCHI/HTML-Entities-Numbered-0.03.tar.gz\E
@@ -1605,12 +1612,10 @@ match:
      |\QTMURRAY/UAV-Pilot-WumpusRover-Server-0.1.tar.gz\E
      |\QTNT/Syntax-Feature-Try-0.002.tar.gz\E
      |\QTOBYINK/Data-Dumper-GUI-0.005.tar.gz\E
-     |\QTOBYINK/Fixed-0.001.tar.gz\E
      |\QTOBYINK/FreeMind-Document-0.001.tar.gz\E
      |\QTOBYINK/HTTP-Link-Parser-0.103.tar.gz\E
      |\QTOBYINK/JSON-MultiValueOrdered-0.004.tar.gz\E
      |\QTOBYINK/MooseX-InlineTypes-0.002.tar.gz\E
-     |\QTOBYINK/MooseX-Prototype-0.001.tar.gz\E
      |\QTOBYINK/PerlX-Perform-0.005.tar.gz\E
      |\QTOBYINK/RDF-RDB2RDF-0.007.tar.gz\E
      |\QTOBYINK/RDF-RDFa-Parser-1.096.tar.gz\E
