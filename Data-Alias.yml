@@ -1,16 +1,16 @@
 ---
 match:
-  distribution: "/Data-Alias-1\.16\."
+  distribution: '/Data-Alias-1\.16\.'
   perlconfig:
-    version: "^5\.(17|18)\."
+    version: '^5\.(17|18)\.'
 patches:
   - ANDK/patches/Data-Alias-1.16-SPROUT-01.diff.gz
 # https://rt.cpan.org/Ticket/Display.html?id=78148
 # But still not work, see https://rt.cpan.org/Ticket/Display.html?id=85690
 ---
 match:
-  distribution: "/Data-Alias-1\.18\."
+  distribution: '/Data-Alias-1\.18\.'
   perlconfig:
-    version: "^5\.21\.4"
+    version: '^5\.21\.(4|5)'
 patches:
   - SREZIC/patches/Data-Alias-1.18-RT98758.patch
