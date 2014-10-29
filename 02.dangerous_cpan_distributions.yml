@@ -395,6 +395,7 @@ match:
      |\QDROLSKY/DateTime-TimeZone-1.72.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.73.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.74.tar.gz\E
+     |\QDROLSKY/DateTime-TimeZone-1.75.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
@@ -704,6 +705,7 @@ match:
      |\QIOANR/WebService-Simplenote-0.1.2.tar.gz\E
      |\QIPENBURG/Date-Extract-P800Picture-0.04.tar.gz\E
      |\QIRONCAMEL/Business-BalancedPayments-0.1501.tar.gz\E
+     |\QIRONCAMEL/Business-BalancedPayments-1.0402.tar.gz\E
      |\QIRONCAMEL/Net-OpenStack-Compute-1.0900.tar.gz\E
      |\QISHIGAKI/Module-New-0.10.tar.gz\E
      |\QITUB/Chemistry-Mok-0.16.tar.gz\E
@@ -757,8 +759,6 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.621.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
-     |\QJHTHORSEN/Convos-0.83.tar.gz\E
-     |\QJHTHORSEN/Convos-0.84.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -769,6 +769,7 @@ match:
      |\QJKIM/Net-Amazon-EC2-0.06.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.11.tar.gz\E
      |\QJKONDO/Text-Hatena-0.16.tar.gz\E
+     |\QJKUTEJ/meon-Web-0.01.tar.gz\E
      |\QJLAVALLEE/Test-Mock-Redis-0.08.tar.gz\E
      |\QJLAVALLEE/Test-Mock-Redis-0.11.tar.gz\E
      |\QJLAWRENC/PDF-Labels-0.01.tar.gz\E
@@ -1644,6 +1645,7 @@ match:
      |\QTOBYINK/URI-duri-0.002.tar.gz\E
      |\QTOKAREV/Plack-Middleware-ExtDirect-2.01.tar.gz\E
      |\QTOKAREV/RPC-ExtDirect-2.15.tar.gz\E
+     |\QTOKAREV/RPC-ExtDirect-3.01.tar.gz\E
      |\QTOKUHIROM/HTTP-Session-0.48.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
@@ -1709,6 +1711,7 @@ match:
      |\QVOJ/PICA-Record-0.38.tar.gz\E
      |\QVOJ/PICA-Record-0.47.tar.gz\E
      |\QVOJ/PICA-Record-0.49.tar.gz\E
+     |\QVOJ/Pandoc-Elements-0.03.tar.gz\E
      |\QVOJ/Plack-App-unAPI-0.51.tar.gz\E
      |\QVOJ/RDF-Lazy-0.063.tar.gz\E
      |\QVOJ/SeeAlso-Server-0.57.tar.gz\E
