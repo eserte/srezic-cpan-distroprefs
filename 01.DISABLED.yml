@@ -470,7 +470,6 @@ match:
     |.*/Term-Screen-\d
     |.*/Term-Screen-ReadLine-\d
     |.*/Term-ShellKit-\d
-    |.*/Term-Title-\d # checked with 0.07, it's still interactive
     |.*/TextLinkAds-\d # wants a valid XML
     |.*/Tk-CanvasLogo-\d
     |.*/Tk-CursorControl-0\.[0123]\. # at least 0.4 has an automatic test

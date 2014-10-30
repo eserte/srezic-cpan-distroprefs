@@ -1,9 +1,6 @@
 ---
 match:
   distribution: "/Term-Title-\d"
-  perlconfig:
-    archname: "(freebsd|linux)"
-## No. I really should check for env: TERM: xterm.
-#test:
-#  env:
-#    AUTOMATED_TESTING: 1
+test:
+  env:
+    NONINTERACTIVE_TESTING: 1
