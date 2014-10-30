@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/\QDaemon-Control-0.001005.tar.gz\E'
+  env:
+    # proxy checks for "@work"
+    USER: '^(slaven.rezic|angebote)$'
+patches:
+  - SREZIC/patches/Daemon-Control-0.001005-pull65.patch
+  - SREZIC/patches/Daemon-Control-0.001005-pull68.patch
