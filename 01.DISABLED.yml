@@ -1330,6 +1330,7 @@ match:
     |.*/Unicode-Tussle-\d # installs too much to .../bin, e.g. scrips like "rename" or "leo"
     |RNEWSHAM/WebService-DPD-API-v0.0001.tar.gz # broken versions in PREREQ_PM https://rt.cpan.org/Ticket/Display.html?id=98313
     |NIKOLAS/DateLocale-1.20.tar.gz # empty tarball
+    |NIKOLAS/DateLocale-1.29.tar.gz # empty tarball
     |SUENAGA/WWW-Kosoku-API-0.09.tar.gz # recursive self-dependency --- https://github.com/sue7ga/WWW-Kosoku-API/issues/1
     |SRCHULO/DigitalOcean-0.10.tar.gz # empty tarball
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
