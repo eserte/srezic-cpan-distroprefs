@@ -1334,5 +1334,6 @@ match:
     |SUENAGA/WWW-Kosoku-API-0.09.tar.gz # recursive self-dependency --- https://github.com/sue7ga/WWW-Kosoku-API/issues/1
     |SRCHULO/DigitalOcean-0.10.tar.gz # empty tarball
     |INGY/Acme-Math-XS-XS-0.0.1.tar.gz # no Makefile.PL, maybe empty
+    |EWARNCKE/ArangoDB-0.01.tar.gz # not recognized as a perl package
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
