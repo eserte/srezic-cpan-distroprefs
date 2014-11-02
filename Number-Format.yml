@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Number-Format-1\.73\.'
+  perlconfig:
+    version: '^5\.21\.(3|4|5)$'
+patches:
+  - SREZIC/patches/Number-Format-1.73-RT97607.patch
