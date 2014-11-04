@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Math-Int64-\d'
+# for more diagnostics
+pl:
+  env:
+    AUTOMATED_TESTING: 1
