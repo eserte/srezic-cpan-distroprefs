@@ -7,7 +7,7 @@ pl:
   expect:
     - '\QWhere should configuration files be installed? [/etc/BioStudio ]'
     - "/tmp/BioStudio\n"
-    - 'Where should scripts be installed? [/usr/local/bin/ ]'
+    - '\QWhere should scripts be installed? [/usr/local/bin/ ]'
     - "/tmp\n"
-    - 'Where should BioStudio write tmp files? [/tmp ]'
+    - '\QWhere should BioStudio write tmp files? [/tmp ]'
     - "\n"
