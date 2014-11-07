@@ -31,6 +31,12 @@ patches:
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
+---
+match:
+  distribution: "/GD-2\.56\."
+cpanconfig:
+  prefer_installer: MB
+# https://rt.cpan.org/Ticket/Display.html?id=99901
 --- 
 match:
   module: "/GD-2\."
