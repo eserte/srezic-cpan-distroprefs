@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Time-Format-1\.12\.'
+patches:
+  - SREZIC/patches/Time-Format-1.12-RT99572.patch
