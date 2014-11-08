@@ -150,13 +150,8 @@ match:
      |\QAWNCORP/Bubblegum-0.27.tar.gz\E
      |\QAWNCORP/Bubblegum-0.36.tar.gz\E
      |\QAWNCORP/Bubblegum-0.38.tar.gz\E
-     |\QAWNCORP/DBIx-Simple-Batch-1.68.tar.gz\E
-     |\QAWNCORP/Dancer-Plugin-ORMesque-1.103180.tar.gz\E
-     |\QAWNCORP/Email-Sender-Server-0.50.tar.gz\E
      |\QAWNCORP/Faker-0.04.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
-     |\QAWNCORP/SweetPea-2.25.tar.gz\E
-     |\QAWNCORP/SweetPea-Application-0.022.tar.gz\E
      |\QAWNCORP/Validation-Class-2.3.4.tar.gz\E
      |\QAWNCORP/Validation-Class-3.0.0.tar.gz\E
      |\QAWNCORP/Validation-Class-4.01003514.tar.gz\E
@@ -190,7 +185,6 @@ match:
      |\QBIGJ/File-Random-0.10.tar.gz\E
      |\QBIGJ/Test-Warn-0.08.tar.gz\E
      |\QBIGPRESH/Dancer-Plugin-Database-2.04.tar.gz\E
-     |\QBINARY/MooseX-Role-Validatable-0.06.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
@@ -398,6 +392,7 @@ match:
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
+     |\QDSCHOEN/Gearman-XS-0.7.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.6.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.8.tar.gz\E
      |\QDSNOPEK/Xmldoom-0.0.13.tar.gz\E
@@ -571,6 +566,7 @@ match:
      |\QGROMMIER/Text-Editor-Easy-0.01.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.10.1.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.11.1.tar.gz\E
+     |\QGROUSSE/FusionInventory-Agent-2.3.12.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.6.tar.gz\E
      |\QGSAR/perl-5.6.1.tar.gz\E
      |\QGSB/App-SourcePlot-1.18.tar.gz\E
@@ -665,6 +661,7 @@ match:
      |\QINGY/Dist-Zilla-PluginBundle-INGY-0.0.2.tar.gz\E
      |\QINGY/Gloom-0.11.tar.gz\E
      |\QINGY/Inline-C-0.64.tar.gz\E
+     |\QINGY/Inline-Module-0.04.tar.gz\E
      |\QINGY/Lingy-0.0.2.tar.gz\E
      |\QINGY/Package-0.10.tar.gz\E
      |\QINGY/Package-0.11.tar.gz\E
@@ -821,6 +818,7 @@ match:
      |\QJSWARTZ/CHI-Driver-DBI-1.24.tar.gz\E
      |\QJSWARTZ/CHI-Driver-Memcached-0.10.tar.gz\E
      |\QJSWARTZ/CHI-Driver-Memcached-0.12.tar.gz\E
+     |\QJSWARTZ/Code-TidyAll-0.20.tar.gz\E
      |\QJSWARTZ/HTML-Mason-1.05.tar.gz\E
      |\QJSWARTZ/Log-Any-0.11.tar.gz\E
      |\QJTANG/Module-Pluggable-Singleton-0.02.3.tar.gz\E
@@ -916,6 +914,7 @@ match:
      |\QKLORTHO/Physics-Unit-0.04.tar.gz\E
      |\QKMACLEOD/XML-Grove-0.05.tar.gz\E
      |\QKMX/IUP-0.004.tar.gz\E
+     |\QKMX/Win32-GUI-1.08.tar.gz\E
      |\QKNASSAR/Activator-0.10.tar.gz\E
      |\QKNOWZERO/Net-SMTP-Bulk-0.16.tar.gz\E
      |\QKOHTS/snaked-0.02.tar.gz\E
@@ -925,7 +924,6 @@ match:
      |\QKOORCHIK/Validator-LIVR-0.01.tar.gz\E
      |\QKRBURTON/Tree-MultiNode-1.0.10.tar.gz\E
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
-     |\QKROW/Gearman-XS-0.15.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
      |\QKSCHWAB/Device-MiniLED-1.02.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
@@ -1130,6 +1128,7 @@ match:
      |\QMOGAAL/Dansguardian-0.4.tar.gz\E
      |\QMONS/AnyEvent-Worker-0.05.tar.gz\E
      |\QMONS/XML-RPC-Fast-0.6.tar.gz\E
+     |\QMOOCOW/PDL-VectorValued-0.07002.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.154.tar.gz\E
      |\QMORNI/HTML-FormEngine-0.7.4.tar.gz\E
      |\QMORNI/HTML-FormEngine-DBSQL-0.2.1.tar.gz\E
@@ -1385,7 +1384,6 @@ match:
      |\QRJBS/Perl-Critic-Tics-0.008.tar.gz\E
      |\QRJBS/Test-Routine-0.019.tar.gz\E
      |\QRJBS/perl-5.18.4.tar.gz\E
-     |\QRJESCHMI/Archive-BagIt-0.041.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
      |\QRKIES/Tk-Workspace-1.75.tar.gz\E
@@ -1534,6 +1532,9 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-0.157.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-0.181.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-REST-0.207.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
@@ -1608,6 +1609,7 @@ match:
      |\QTIMA/XML-RSS-Parser-2.11.tar.gz\E
      |\QTIMB/DBI-1.622.tar.gz\E
      |\QTIMB/WebAPI-DBIC-0.001004.tar.gz\E
+     |\QTIMB/WebAPI-DBIC-0.001008.tar.gz\E
      |\QTIMB/perl5.004_04.tar.gz\E
      |\QTIMBRODY/HTTP-OAI-3.28.tar.gz\E
      |\QTINITA/HTML-Template-Compiled-0.97.tar.gz\E
