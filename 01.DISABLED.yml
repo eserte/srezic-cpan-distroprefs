@@ -740,6 +740,7 @@ match:
     |.*/RTx-CFC-\d
     |.*/RTx-Calendar-\d # needs RT
     |.*/RTx-EmailCompletion- # all RT extensions probably need path to RT
+    |.*/RTx-FillTicketData-\d
     |.*/RTx-Foundry-\d
     |.*/RTx-From-\d
     |.*/RTx-GoogleAnalytics-\d
