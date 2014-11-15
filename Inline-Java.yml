@@ -8,8 +8,8 @@ match:
 pl:
   args:
 #    - J2SDK=/usr/local/linux-sun-jdk1.5.0
-    - J2SDK=/usr/local/openjdk6
-#    - J2SDK=/usr/local/openjdk7
+#    - J2SDK=/usr/local/openjdk6
+    - J2SDK=/usr/local/openjdk7
   expect:
     - "\QDo you wish to build the JNI extension? [y]"
     - "\n"
