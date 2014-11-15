@@ -1,0 +1,14 @@
+---
+match:
+  distribution: '/Database-Cassandra-Client-\d'
+  perlconfig:
+    archname: "-linux"
+disabled: 1
+# no cassandra package at least for debian/wheezy
+---
+match:
+  distribution: '/Database-Cassandra-Client-\d'
+  perlconfig:
+    archname: "-freebsd"
+disabled: 1
+# there are cassandra packages for freebsd, but don't seem to help here...
