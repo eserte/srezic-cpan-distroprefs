@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/MooseX-App-Cmd-0\.27\.'
+goto: MJGARDNER/MooseX-App-Cmd-0.28-TRIAL.tar.gz
+# https://github.com/mjgardner/moosex-app-cmd/issues/12
