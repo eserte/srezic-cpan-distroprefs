@@ -25,6 +25,12 @@ pl:
     - --testport=3306
     - --testuser=test
     - --testpassword=test
+match:
+  distribution: "/DBD-mysql-4\.028\."
+  perlconfig:
+    archname: -linux
+patches:
+  - SREZIC/patches//DBD-mysql-4.028-RT31823.patch
 --- 
 ######################################################################
 ## perl 5.13.x removed some PL_ variables --- the non-linux version
