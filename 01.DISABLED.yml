@@ -1338,5 +1338,6 @@ match:
     |INGY/Acme-Math-XS-XS-0.0.2.tar.gz # no Makefile.PL
     |EWARNCKE/ArangoDB-0.01.tar.gz # not recognized as a perl package
     |BPMEDLEY/Mojo-IOLoop-ProcBackground-0.05.tar.gz # empty tarball
+    |PMB/Heise-Shariff-1.01.tar.gz # empty tarball
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
