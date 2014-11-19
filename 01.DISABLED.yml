@@ -1339,5 +1339,6 @@ match:
     |EWARNCKE/ArangoDB-0.01.tar.gz # not recognized as a perl package
     |BPMEDLEY/Mojo-IOLoop-ProcBackground-0.05.tar.gz # empty tarball
     |PMB/Heise-Shariff-1.01.tar.gz # empty tarball
+    |PMB/Shariff-1.01.tar.gz # also empty
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
