@@ -1340,5 +1340,6 @@ match:
     |BPMEDLEY/Mojo-IOLoop-ProcBackground-0.05.tar.gz # empty tarball
     |PMB/Heise-Shariff-1.01.tar.gz # empty tarball
     |PMB/Shariff-1.01.tar.gz # also empty
+    |EKAWAS/lsid-perl-1.1.7.tar.gz # probably using module::autoinstall?
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
