@@ -23,6 +23,7 @@ match:
      |\QADAMDH/WWW-Shopify-0.98.tar.gz\E
      |\QADAMDH/WWW-Shopify-0.996.tar.gz\E
      |\QADAMDH/WWW-Shopify-Tools-Themer-0.10.tar.gz\E
+     |\QADAMJS/App-CharmKit-1.0.2.tar.gz\E
      |\QADAMK/Aspect-0.96.tar.gz\E
      |\QADAMK/Aspect-0.981.tar.gz\E
      |\QADAMK/Aspect-Library-Profiler-0.32.tar.gz\E
@@ -383,6 +384,7 @@ match:
      |\QDPATES/IPTables-IPv4-0.97b.tar.gz\E
      |\QDPAVLIN/Fuse-0.14.tar.gz\E
      |\QDPIROTTE/Mail-Chimp-0.12.tar.gz\E
+     |\QDROLSKY/Crixa-0.08.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.72.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.73.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.74.tar.gz\E
@@ -556,7 +558,6 @@ match:
      |\QGPHAT/Data-SearchEngine-0.32.tar.gz\E
      |\QGPHAT/IO-Storm-0.01.tar.gz\E
      |\QGRAF/WebService-XING-0.001.tar.gz\E
-     |\QGRAVATTJ/MySQL-Util-0.10.tar.gz\E
      |\QGRAYKOT/POE-Component-Client-Whois-Smart-0.08.tar.gz\E
      |\QGREEN/constant-our-0.01.tar.gz\E
      |\QGREGOR/psh-1.8.1.tar.gz\E
@@ -655,6 +656,7 @@ match:
      |\QIMACAT/Locale-Maketext-Gettext-1.18.tar.gz\E
      |\QIMALPASS/WebService-Etsy-0.4.tar.gz\E
      |\QIMPIOUS/DBR-1.0.7rc7.tar.gz\E
+     |\QINGY/Acme-Math-XS-0.0.6.tar.gz\E
      |\QINGY/Alt-IO-All-new-0.01.tar.gz\E
      |\QINGY/Alt-IO-All-new-0.04.tar.gz\E
      |\QINGY/App-AYCABTU-0.03.tar.gz\E
@@ -663,6 +665,7 @@ match:
      |\QINGY/Dist-Zilla-PluginBundle-INGY-0.0.2.tar.gz\E
      |\QINGY/Gloom-0.11.tar.gz\E
      |\QINGY/Inline-C-0.64.tar.gz\E
+     |\QINGY/Inline-Module-0.13.tar.gz\E
      |\QINGY/Lingy-0.0.2.tar.gz\E
      |\QINGY/Package-0.10.tar.gz\E
      |\QINGY/Package-0.11.tar.gz\E
@@ -709,6 +712,7 @@ match:
      |\QITUB/IO-All-LWP-0.12.tar.gz\E
      |\QIVAN/DBIx-DBSchema-0.40.tar.gz\E
      |\QIVAN/Net-XRC-0.01.tar.gz\E
+     |\QIVANWILLS/File-CodeSearch-v0.6.0.tar.gz\E
      |\QIVORW/Bot-BasicBot-Pluggable-Module-RD-0.01.tar.gz\E
      |\QIWATA/Test-Docker-Image-0.04.tar.gz\E
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
@@ -1129,6 +1133,7 @@ match:
      |\QMONS/AnyEvent-Worker-0.05.tar.gz\E
      |\QMONS/XML-RPC-Fast-0.6.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.154.tar.gz\E
+     |\QMOOLLAZA/App-DuckPAN-0.162.tar.gz\E
      |\QMORNI/HTML-FormEngine-0.7.4.tar.gz\E
      |\QMORNI/HTML-FormEngine-DBSQL-0.2.1.tar.gz\E
      |\QMORTY/DateConvert-0.14.tgz\E
@@ -1223,7 +1228,6 @@ match:
      |\QNICS/Catmandu-Store-ElasticSearch-0.0203.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.0301.tar.gz\E
-     |\QNICS/Catmandu-Store-Solr-0.0203.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
      |\QNIGE/Goo-0.08.tar.gz\E
      |\QNIKC/SVN-Web-0.53.tar.gz\E
@@ -1246,7 +1250,6 @@ match:
      |\QNUFFIN/Catalyst-Plugin-Authentication-0.09.tar.gz\E
      |\QNUFFIN/Class-Workflow-0.08.tar.gz\E
      |\QNUFFIN/KiokuDB-0.19.tar.gz\E
-     |\QNUFFIN/POE-Component-Supervisor-0.07.tar.gz\E
      |\QNWCLARK/perl-5.8.6.tar.gz\E
      |\QNWCLARK/perl-5.8.9.tar.gz\E
      |\QNWETTERS/Apache-Emulator-0.04.tar.gz\E
@@ -1282,6 +1285,7 @@ match:
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPARDUS/zoidberg/Zoidberg-0.95.tar.gz\E
+     |\QPATL/Inline-Java-0.53.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
      |\QPBWOLF/Win32-ActAcc-1.0.zip\E
      |\QPCOLLINS/HTTP-DAV-0.05.tar.gz\E
@@ -1558,7 +1562,6 @@ match:
      |\QSTARKY/Net-Peep-0.4.1.1.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.4.tar.gz\E
      |\QSTEFANT/WWW-phpBB-0.02.tar.gz\E
-     |\QSTEFFENW/Locale-TextDomain-OO-Extract-2.001.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.06.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.08.tar.gz\E
      |\QSTEPHEN/Video-Xine-0.18.tar.gz\E
@@ -1671,6 +1674,7 @@ match:
      |\QTSIBLEY/RT-Extension-MandatoryOnTransition-0.04.tar.gz\E
      |\QTSIBLEY/RT-Extension-SLA-0.06.tar.gz\E
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
+     |\QTSUCCHI/Test-Module-Used-0.2.4.tar.gz\E
      |\QTURNERJW/Tk-TextHighlight-1.0.4.tar.gz\E
      |\QTVIGNAUD/URPM-4.9.tar.gz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
