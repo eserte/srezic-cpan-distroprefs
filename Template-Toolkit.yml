@@ -44,6 +44,16 @@ pl:
   args: ["TT_ACCEPT=y"]
 --- 
 match:
+  distribution: '/\QTemplate-Toolkit-2.26.tar.gz\E'
+  perlconfig:
+    version: '^5\.21\.6$'
+pl:
+  args: ["TT_ACCEPT=y"]
+patches:
+  - SREZIC/patches/Template-Toolkit-2.26-TestLeakTrace5216.patch
+# Test::LeakTrace is broken with 5.21.6
+--- 
+match:
   distribution: "/Template-Toolkit-\d"
 pl:
   args: ["TT_ACCEPT=y"]
