@@ -31,7 +31,7 @@ pl:
   args: ["TT_ACCEPT=y"]
 ---
 match:
-  distribution: "/Template-Toolkit-2\.(1[789]|[2-9])"
+  distribution: "/Template-Toolkit-2\.(1[789]|2[0-4])"
   env:
     # proxy checks for "@iconmobile"
     USER: "^(slavenr|live|livesrezic|prelive|prelivesrezic)$"
