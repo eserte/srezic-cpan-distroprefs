@@ -172,6 +172,7 @@ match:
      |\QBBIRTH/MARC-XML-0.4.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
+     |\QBDFOY/Business-ISMN-1.11.tar.gz\E
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBEATNIK/Filter-CBC-0.08.tar.gz\E
@@ -189,6 +190,7 @@ match:
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
+     |\QBLHOTSKY/Git-Code-Review-1.1.tar.gz\E
      |\QBLX/XSDSQL_20130120.tar.gz\E
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
@@ -409,6 +411,7 @@ match:
      |\QDUMB/Mungo/CGI-Mungo-1.701.tar.gz\E
      |\QDUNCAND/Muldis-DB-0.3.2.tar.gz\E
      |\QDUNCAND/Rosetta-v0.71.0.tar.gz\E
+     |\QDVINCI/PagSeguro-API-0.006.tar.gz\E
      |\QDYACOB/Convert-Ethiopic-0.12.tar.gz\E
      |\QDYACOB/Zobel-0.14.tar.gz\E
      |\QEASR/ONTO-PERL/ONTO-PERL-1.35.tar.gz\E
@@ -1134,6 +1137,7 @@ match:
      |\QMONS/XML-RPC-Fast-0.6.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.154.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.162.tar.gz\E
+     |\QMOOLLAZA/App-DuckPAN-0.164.tar.gz\E
      |\QMORNI/HTML-FormEngine-0.7.4.tar.gz\E
      |\QMORNI/HTML-FormEngine-DBSQL-0.2.1.tar.gz\E
      |\QMORTY/DateConvert-0.14.tgz\E
@@ -1789,7 +1793,7 @@ match:
      |\QYTURTLE/Nephia-0.84.tar.gz\E
      |\QYTURTLE/Nephia-Setup-Plugin-Assets-Bootstrap-0.02.tar.gz\E
      |\QYTURTLE/Nephia-Setup-Plugin-Assets-JQuery-0.02.tar.gz\E
-     |\QYUSUKEBE/App-revealup-0.09.tar.gz\E
+     |\QYUSUKEBE/App-revealup-0.14.tar.gz\E
      |\QYUSUKEBE/Shodo-0.07.tar.gz\E
      |\QYUTA/Cv-0.04.tar.gz\E
      |\QYUTA/Cv-0.12.tar.gz\E
