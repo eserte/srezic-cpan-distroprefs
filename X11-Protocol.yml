@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/X11-Protocol-\d'
+  perlconfig:
+    archname: -freebsd
+test:
+  commandline: '(xdotool sleep 5 search -name "Basic Window Program" mousemove 100 50 click 1 mousemove restore) & make test'
+---
+match:
+  distribution: '/X11-Protocol-\d'
+disabled: 1
+# interactive test
