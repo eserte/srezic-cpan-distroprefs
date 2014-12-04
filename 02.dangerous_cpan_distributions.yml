@@ -280,6 +280,7 @@ match:
      |\QCODECHILD/XML-Bare-0.07.tar.gz\E
      |\QCOLLINS/LEGO-NXT-1.40.tar.gz\E
      |\QCOLLINS/LEGO-NXT-1.42.tar.gz\E
+     |\QCONTYK/Tangerine-0.10.tar.gz\E
      |\QCONVERTER/Mail-ClamAV-0.24.tar.gz\E
      |\QCOOFERCAT/Gcode-Interpreter-1.0.tar.gz\E
      |\QCOOPERCL/XML-Parser-2.31.tar.gz\E
@@ -515,6 +516,7 @@ match:
      |\QFREW/DBIx-Class-0.08123.tar.gz\E
      |\QFREW/DBIx-Class-0.08124.tar.gz\E
      |\QFREW/Web-Simple-0.004.tar.gz\E
+     |\QFRIED/Data-Object-0.006.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
      |\QGAAS/libwww-perl-5.837.tar.gz\E
@@ -569,6 +571,7 @@ match:
      |\QGRICHTER/Embperl-2.0.1.tar.gz\E
      |\QGRICHTER/Embperl-2.4.0.tar.gz\E
      |\QGRICHTER/HTML-Embperl-1.2.1.tar.gz\E
+     |\QGRIF/Locale-Babelfish-0.06.tar.gz\E
      |\QGROMMIER/Text-Editor-Easy-0.01.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.10.1.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.11.1.tar.gz\E
@@ -635,7 +638,9 @@ match:
      |\QHOLT/makepp-1.19.tar.gz\E
      |\QHORNBURG/Dancer-Plugin-Interchange6-0.031.tar.gz\E
      |\QHORNBURG/Interchange6-0.004.tar.gz\E
+     |\QHORNBURG/Interchange6-0.040.tar.gz\E
      |\QHORNBURG/Interchange6-Schema-0.040.tar.gz\E
+     |\QHORNBURG/Interchange6-Schema-0.053.tar.gz\E
      |\QHORNBURG/Nitesi-0.0080.tar.gz\E
      |\QHORNBURG/Template-Flute-0.0040.tar.gz\E
      |\QHORROCKS/CGI-SpeedyCGI-2.02.tar.gz\E
@@ -722,6 +727,7 @@ match:
      |\QIX/libservlet-0.9.1.tar.gz\E
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
      |\QJAMADAM/WWW-Crawler-Mojo-0.03.tar.gz\E
+     |\QJANDREW/Spreadsheet-XLSX-Reader-LibXML-v0.18.2.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
@@ -750,6 +756,7 @@ match:
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
      |\QJFRIED/Rex-0.51.2.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
+     |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
      |\QJHALLOCK/Gapp-0.26-withoutworldwriteables.tar.gz\E
      |\QJHALLOCK/Gapp-App-0.007.tar.gz\E
@@ -812,6 +819,7 @@ match:
      |\QJQUELIN/Module-Packaged-Generator-1.111040.tar.gz\E
      |\QJQUELIN/WWW-DaysOfWonder-Memoir44-1.100140.tar.gz\E
      |\QJRADCLIFF/GOOGLE-ADWORDS-PERL-CLIENT-2.13.0.tar.gz\E
+     |\QJRADCLIFF/Google-Ads-AdWords-Client-3.1.1.tar.gz\E
      |\QJRED/CIPP-2.50.tar.gz\E
      |\QJRED/new.spirit-2.0.26.tar.gz\E
      |\QJROBINSON/DBIx-Class-0.06003.tar.gz\E
@@ -905,6 +913,7 @@ match:
      |\QKIMOTO/Object-Simple-3.0615.tar.gz\E
      |\QKIMOTO/Rstats-0.0105.tar.gz\E
      |\QKIMOTO/Rstats-0.0108.tar.gz\E
+     |\QKIMOTO/Rstats-0.0126.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
      |\QKITANO/CHI-Driver-MemcachedFast-0.01.tar.gz\E
@@ -1532,6 +1541,7 @@ match:
      |\QSIMONW/XML-Feed-0.23.tar.gz\E
      |\QSIMPLIFY/Net-Simplify-1.0.0.tar.gz\E
      |\QSIMPLIFY/Net-Simplify-1.0.1.tar.gz\E
+     |\QSISYPHUS/Math-Complex_C-0.09.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
@@ -1540,9 +1550,6 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-0.157.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-0.181.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-REST-0.207.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
@@ -1761,8 +1768,6 @@ match:
      |\QXAOINC/XAO-FS-1.03.tar.gz\E
      |\QXAOINC/XAO-FS-1.04.tar.gz\E
      |\QXAOINC/XAO-MySQL-1.0.tar.gz\E
-     |\QXENO/Business-CyberSource-0.007011.tar.gz\E
-     |\QXENO/Business-CyberSource-0.009002.tar.gz\E
      |\QXENO/Business-OnlinePayment-CyberSource-2.01.tar.gz\E
      |\QXEONTIME/Sakai-Nakamura-0.11.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-6.02.tar.gz\E
