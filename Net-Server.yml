@@ -4,3 +4,8 @@ match:
 patches:
   - SREZIC/patches/Net-Server-2.007-RT86707.patch
 # Taken from https://github.com/dsteinbrunner/perl-net-server/commit/1d5f0d582c6e82af834adbf60ba75032631b9a32
+---
+match:
+  distribution: '/\QNet-Server-2.008.tar.gz\E'
+patches:
+  - SREZIC/patches/Net-Server-2.008-RT85586.patch
