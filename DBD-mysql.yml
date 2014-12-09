@@ -32,6 +32,7 @@ match:
     archname: -linux
 patches:
   - SREZIC/patches//DBD-mysql-4.028-RT31823.patch
+# XXX DBD-mysql-4.029 also needs this patch, and an additional patch for 05dbcreate.t
 --- 
 ######################################################################
 ## perl 5.13.x removed some PL_ variables --- the non-linux version
