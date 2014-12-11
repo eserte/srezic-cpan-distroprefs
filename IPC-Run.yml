@@ -6,12 +6,12 @@ test:
     LANG: C
 ---
 match:
-  distribution: "/IPC-Run-0\.92\.tar\.gz"
+  distribution: "/IPC-Run-0\.(92|93)\.tar\.gz"
   perlconfig:
     archname: "-linux"
 patches:
   - SREZIC/patches/IPC-Run-0.92-RT20105.patch
 # This patch is not needed for all linux systems.
 # Siuation is a little bit unclear --- there
-# are Debian/wheezy systems where the patch is
+# are Debian/wheezy and Debian/jessie systems where the patch is
 # needed and some where it is not.
