@@ -150,6 +150,8 @@ match:
      |\QAWNCORP/Bubblegum-0.27.tar.gz\E
      |\QAWNCORP/Bubblegum-0.36.tar.gz\E
      |\QAWNCORP/Bubblegum-0.38.tar.gz\E
+     |\QAWNCORP/Data-Object-0.05.tar.gz\E
+     |\QAWNCORP/Data-Object-0.07.tar.gz\E
      |\QAWNCORP/Faker-0.04.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
      |\QAWNCORP/Validation-Class-2.3.4.tar.gz\E
@@ -247,7 +249,6 @@ match:
      |\QCCOLBOURN/ai-nnflex/AI-NNFlex-0.16.tar.gz\E
      |\QCCOLBOURN/ai-nnflex/AI-NNFlex-0.20.tar.gz\E
      |\QCDRAUG/Dist-Zilla-PluginBundle-BioPerl-0.20.tar.gz\E
-     |\QCDYBED/Zonemaster-CLI-v0.1.2.tar.gz\E
      |\QCERNEY/Graphics-VTK-3.2.001.tar.gz\E
      |\QCHANSEN/Authen-Simple-0.4.tar.gz\E
      |\QCHGOVUK/MojoX-Plugin-AnyCache-0.01.tar.gz\E
@@ -325,6 +326,7 @@ match:
      |\QDAVEBAIRD/Maypole-FormBuilder-0.23.tar.gz\E
      |\QDAVECROSS/WWW-Shorten-3.03.tar.gz\E
      |\QDAVID/CSS-Sass-v0.8.0.tar.gz\E
+     |\QDAVIDO/Inline-CPP-0.68.tar.gz\E
      |\QDAVIDRW/GBPVR-CDBI-0.01.tar.gz\E
      |\QDBALMER/HTML-Chunks-1.5.tar.gz\E
      |\QDBR/App-pandoc-preprocess-0.3.1.tar.gz\E
@@ -482,6 +484,7 @@ match:
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
+     |\QFALCONE/RT-Extension-RepliesToResolved-0.02.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
@@ -524,6 +527,8 @@ match:
      |\QGAAS/perlbench-0.93.tar.gz\E
      |\QGABOR/Text-Format0.52+NWrap0.11.tar.gz\E
      |\QGAISSMAI/Config-Scoped-0.13.tar.gz\E
+     |\QGANGLION/Audio-Nama-1.100.tar.gz\E
+     |\QGANGLION/Audio-Nama-1.114.tar.gz\E
      |\QGARU/Padre-Plugin-Catalyst-0.09.tar.gz\E
      |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
@@ -598,10 +603,6 @@ match:
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
      |\QGWYN/POE-Component-Daemon-0.1301.tar.gz\E
-     |\QHAARG/App-BCSSH-0.001000.tar.gz\E
-     |\QHAARG/App-BCSSH-0.002001.tar.gz\E
-     |\QHAARG/Devel-Confess-0.003001.tar.gz\E
-     |\QHAARG/Eval-WithLexicals-1.003000.tar.gz\E
      |\QHACKER/Agent-TCLI-0.02.tar.gz\E
      |\QHAGANK/Apache-RewritingProxy-0.4.tar.gz\E
      |\QHAGGAI/Net-StackExchange-0.102601.tar.gz\E
@@ -665,7 +666,6 @@ match:
      |\QIMACAT/Locale-Maketext-Gettext-1.18.tar.gz\E
      |\QIMALPASS/WebService-Etsy-0.4.tar.gz\E
      |\QIMPIOUS/DBR-1.0.7rc7.tar.gz\E
-     |\QINGY/Acme-Math-XS-0.0.6.tar.gz\E
      |\QINGY/Alt-IO-All-new-0.01.tar.gz\E
      |\QINGY/Alt-IO-All-new-0.04.tar.gz\E
      |\QINGY/App-AYCABTU-0.03.tar.gz\E
@@ -1095,6 +1095,7 @@ match:
      |\QMIKIHOSHI/Acme-PrettyCure-0.1.3.tar.gz\E
      |\QMIKIHOSHI/Smart-Options-0.051.tar.gz\E
      |\QMIKRA/Tk-MK-0.21.tar.gz\E
+     |\QMINIMAL/Kelp-0.9015.tar.gz\E
      |\QMIRK/Net-Z3950-0.35.tar.gz\E
      |\QMITTI/Device-SerialPort-Xmodem-1.01.tar.gz\E
      |\QMIYAGAWA/Apache-Singleton-0.03.tar.gz\E
@@ -1312,6 +1313,7 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/Pod-Weaver-Plugin-Rinci-0.23.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1342,6 +1344,7 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
+     |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
@@ -1355,6 +1358,7 @@ match:
      |\QPREACTION/Git-ReleaseRepo-0.001.tar.gz\E
      |\QPREACTION/Git-ReleaseRepo-0.003.tar.gz\E
      |\QPREACTION/Statocles-0.025.tar.gz\E
+     |\QPREACTION/Statocles-0.027.tar.gz\E
      |\QPRO/Net-DirectConnect-0.07.tar.gz\E
      |\QPRO/Net-DirectConnect-0.10.tar.gz\E
      |\QPSCUST/Asm-Preproc-0.08.tar.gz\E
@@ -1427,7 +1431,6 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
-     |\QRSAVAGE/GraphViz2-Marpa-1.13.tgz\E
      |\QRSCHUPP/Module-ScanDeps-1.11.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
@@ -1499,7 +1502,6 @@ match:
      |\QSHANTANU/Device-LPS331AP-0.003.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
-     |\QSHARYANTO/Perinci-Object-0.13.tar.gz\E
      |\QSHAY/Win32-SharedFileOpen-3.44.tar.gz\E
      |\QSHAY/libnet-1.29.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
@@ -1555,6 +1557,7 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-REST-0.322.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
@@ -1650,6 +1653,7 @@ match:
      |\QTMULEVICH/Archive-SimpleExtractor-0.01.tar.gz\E
      |\QTMURRAY/Device-WebIO-0.003.tar.gz\E
      |\QTMURRAY/UAV-Pilot-0.9.tar.gz\E
+     |\QTMURRAY/UAV-Pilot-WumpusRover-0.2.tar.gz\E
      |\QTMURRAY/UAV-Pilot-WumpusRover-Server-0.1.tar.gz\E
      |\QTNT/Syntax-Feature-Try-0.002.tar.gz\E
      |\QTOBYINK/Data-Dumper-GUI-0.005.tar.gz\E
@@ -1743,11 +1747,7 @@ match:
      |\QVSESPB/App-MtAws-0.981.tar.gz\E
      |\QVSESPB/App-MtAws-1.059.tar.gz\E
      |\QVSESPB/App-MtAws-1.102.tar.gz\E
-     |\QVTI/Attribute-Contract-0.02.tar.gz\E
-     |\QVTI/Error-Tiny-0.01.tar.gz\E
      |\QVTI/Mojo-JSON-Any-0.990103.tar.gz\E
-     |\QVTI/MojoX-Validator-0.0012.tar.gz\E
-     |\QVTI/ObjectDB-0.990103.tar.gz\E
      |\QVVELOX/ZConf-Mail-1.4.1.tar.gz\E
      |\QWAIDER/Finance-Bank-IE-0.29.tar.gz\E
      |\QWARRINGD/Elive-1.31.tar.gz\E
@@ -1771,6 +1771,7 @@ match:
      |\QXAICRON/Win32-Unicode-0.18.tar.gz\E
      |\QXAICRON/Win32-Unicode-0.19.tar.gz\E
      |\QXANT/RFID-Libnfc-0.09.tar.gz\E
+     |\QXANT/Shardcache-Client-Fast-0.19.tar.gz\E
      |\QXANTUS/POE-Component-EasyDBI-1.23.tar.gz\E
      |\QXAOINC/XAO-FS-1.03.tar.gz\E
      |\QXAOINC/XAO-FS-1.04.tar.gz\E
