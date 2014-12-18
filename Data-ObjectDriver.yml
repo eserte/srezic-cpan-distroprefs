@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Data-ObjectDriver-0\.09\.'
+depends:
+  configure_requires:
+    Test::Builder: 0.94
+    Test::Exception: 0.29
+pl:
+  commandline: 'rm -rf inc/Test; $PERL Makefile.PL'
+# https://rt.cpan.org/Ticket/Display.html?id=87294
