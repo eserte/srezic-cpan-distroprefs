@@ -8,3 +8,6 @@ depends:
 pl:
   commandline: 'rm -rf inc/Test; $PERL Makefile.PL'
 # https://rt.cpan.org/Ticket/Display.html?id=87294
+patches:
+# patch by zefram, see RT #92870
+  - SREZIC/patches/Data-ObjectDriver-0.09-RT92870.patch
