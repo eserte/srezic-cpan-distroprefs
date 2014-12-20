@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/HTTP-HeaderParser-XS-0\.20\.'
+  perlconfig:
+    archname: freebsd
+pl:
+  args:
+    - CC=c++
+    - LD=c++
+# https://rt.cpan.org/Ticket/Display.html?id=101028
