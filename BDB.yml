@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/BDB-\d'
+  perlconfig:
+    archname: freebsd
+pl:
+  args:
+    - INC=-I/usr/local/include/db48
+    - LIBS="-L/usr/local/lib -ldb-4.8"
+# requires installation of "db48" package
