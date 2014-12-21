@@ -52,6 +52,7 @@ pl:
 patches:
   - SREZIC/patches/Template-Toolkit-2.26-TestLeakTrace5216.patch
 # Test::LeakTrace is broken with 5.21.6
+# but works with 5.21.7
 --- 
 match:
   distribution: "/Template-Toolkit-\d"
