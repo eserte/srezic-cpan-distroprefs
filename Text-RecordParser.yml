@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/Text-RecordParser-v1\.6\.3\.'
+  perlconfig:
+    # basically any Unix
+    archname: '(linux|freebsd)'
+cpanconfig:
+  prefer_installer: MB
+pl:
+# workaround for https://rt.cpan.org/Ticket/Display.html?id=87855
+  commandline: 'chmod ugo+w README.md; $PERL Build.PL'
+# But still may fail because of https://rt.cpan.org/Ticket/Display.html?id=54816
