@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Lexical-Var-0\.009\.'
+  perlconfig:
+    version: '^5\.21\.7$'
+patches:
+  - SREZIC/patches/Lexical-Var-0.009-RT101058.patch
