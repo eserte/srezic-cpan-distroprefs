@@ -1,0 +1,16 @@
+---
+match:
+  distribution: '/Eval-Closure-0\.11\.'
+  perlconfig:
+    version: '^5\.21\.7$'
+depends:
+  configure_requires:
+    Devel::Hide: 0
+test:
+  env:
+    DEVEL_HIDE_VERBOSE: 0
+    PERL5OPT: -MDevel::Hide
+    DEVEL_HIDE_PM: PadWalker
+# Instead of the patch proposed in https://github.com/doy/eval-closure/issues/4
+# it's also enough to just hide PadWalker.pm
+
