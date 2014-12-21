@@ -19,3 +19,4 @@ match:
     version: '^5\.21\.6$'
 patches:
   - SREZIC/patches/PDF-Create-1.10-TestLeakTrace5216.patch
+# Issue fixed in 5.21.7
