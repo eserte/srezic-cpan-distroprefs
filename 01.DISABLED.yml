@@ -288,7 +288,7 @@ match:
     |WSNYDER/Verilog-Perl-3.313.tar.gz # hanging flex call without input files (gmake needed?)
     |WSNYDER/SystemPerl-1.340.tar.gz # hanging flex call without input files (gmake needed?)
     |WSNYDER/SystemPerl-1.341.tar.gz # hanging flex call without input files (gmake needed?)
-    |XXXX.*/Math-MPC-\d # needs mpc library, not available as port --- hmmm, mpfr is enough?!
+    |XXXX.*/Math-MPC-\d # needs mpc library, not available as port --- now, mpc is available
     |.*/X11-Aosd-\d # no port
     |.*/TCC-\d # freebsd: tcc only for i386 available
     |.*/C-TCC-\d # freebsd: tcc only for i386 available
