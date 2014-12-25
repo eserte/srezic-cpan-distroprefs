@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/EV-ADNS-2\.2\.'
+depends:
+  configure_requires:
+    EV::MakeMaker: 0
+# https://rt.cpan.org/Ticket/Display.html?id=101122
