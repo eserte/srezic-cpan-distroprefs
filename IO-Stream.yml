@@ -2,6 +2,9 @@
 match:
   distribution: "/IO-Stream-\d"
 pl:
-  expect:
-    - "\QRun tests which require internet connection [n]"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect:
+#    - "\QRun tests which require internet connection [n]"
+#    - "\n"

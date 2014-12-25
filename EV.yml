@@ -8,6 +8,9 @@ comment: "No questions"
 match:
   distribution: "/EV-\d"
 pl:
-  expect:
-    - "\QSkip further questions and use defaults (y/n)? [y]"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect:
+#    - "\QSkip further questions and use defaults (y/n)? [y]"
+#    - "\n"
