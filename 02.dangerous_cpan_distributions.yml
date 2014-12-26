@@ -188,6 +188,7 @@ match:
      |\QBIGJ/File-Random-0.10.tar.gz\E
      |\QBIGJ/Test-Warn-0.08.tar.gz\E
      |\QBIGPRESH/Dancer-Plugin-Database-2.04.tar.gz\E
+     |\QBINARY/Finance-Bitcoin-Feed-0.01.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
@@ -317,6 +318,7 @@ match:
      |\QDANDV/MojoMojo-0.999033.tar.gz\E
      |\QDANIEL/XML-XSPF-0.7.1.tar.gz\E
      |\QDANIELTWC/DBIx-Class-0.07002.tar.gz\E
+     |\QDAPATRICK/XML-Stream-1.23.tar.gz\E
      |\QDAPM/perl-5.10.1.tar.gz\E
      |\QDARKSMO/CSS-SpriteMaker-0.04.tar.gz\E
      |\QDATA/Nagios-Passive-v0.3.5.tar.gz\E
@@ -676,6 +678,7 @@ match:
      |\QINGY/Inline-C-0.64.tar.gz\E
      |\QINGY/Inline-Module-0.13.tar.gz\E
      |\QINGY/Lingy-0.0.2.tar.gz\E
+     |\QINGY/Module-Compile-0.34.tar.gz\E
      |\QINGY/Package-0.10.tar.gz\E
      |\QINGY/Package-0.11.tar.gz\E
      |\QINGY/Parse-Pegex-0.01.tar.gz\E
@@ -938,7 +941,6 @@ match:
      |\QKOKOGIKO/Geo-Direction-Name-0.0.3.tar.gz\E
      |\QKOKOGIKO/HTTP-MobileAgent-Plugin-RoamingZone-0.0.2.tar.gz\E
      |\QKOKOGIKO/WWW-PlaceEngine-0.01.tar.gz\E
-     |\QKOORCHIK/Validator-LIVR-0.01.tar.gz\E
      |\QKRBURTON/Tree-MultiNode-1.0.10.tar.gz\E
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
@@ -970,6 +972,7 @@ match:
      |\QLDS/Bio-Graphics-2.07.tar.gz\E
      |\QLDS/Bio-Graphics-2.25.tar.gz\E
      |\QLDS/Bio-Graphics-2.38.tar.gz\E
+     |\QLDS/Bio-SamTools-1.39.tar.gz\E
      |\QLDS/Boulder-1.14.tar.gz\E
      |\QLDS/Boulder-1.15.tar.gz\E
      |\QLDS/CGI.pm-2.77.tar.gz\E
@@ -1078,7 +1081,6 @@ match:
      |\QMAVERICK/Apache-Voodoo-3.0002.tar.gz\E
      |\QMAXDB/DBD-MaxDB-7.6.00.16.tar.gz\E
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-0.0100021.tar.gz\E
-     |\QMAXS/Palm-MaTirelire-1.12.tar.gz\E
      |\QMAXSCHUBE/Nmap-Scanner-0.9.tar.gz\E
      |\QMBLYTHE/HTML-Chunks-1.55.1.tar.gz\E
      |\QMBP/MojoX-Dispatcher-Qooxdoo-Jsonrpc-0.89.tar.gz\E
@@ -1313,7 +1315,6 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/Pod-Weaver-Plugin-Rinci-0.23.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1326,7 +1327,6 @@ match:
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
-     |\QPEVANS/Tickit-0.46.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
@@ -1432,6 +1432,7 @@ match:
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
      |\QRSCHUPP/Module-ScanDeps-1.11.tar.gz\E
+     |\QRSCHUPP/VCS-CMSynergy-1.35.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
@@ -1468,6 +1469,7 @@ match:
      |\QSANTEX/AI-MicroStructure-0.002.tar.gz\E
      |\QSANTEX/AI-MicroStructure-0.009.tar.gz\E
      |\QSANTEX/Finance-Quant-0.08.tar.gz\E
+     |\QSARGIE/Test-More-Prefix-0.003.tar.gz\E
      |\QSARTAK/App-Nopaste-0.18.tar.gz\E
      |\QSARTAK/App-Nopaste-0.22.tar.gz\E
      |\QSARTAK/IM-Engine-0.04.tar.gz\E
