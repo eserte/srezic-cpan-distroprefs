@@ -32,3 +32,8 @@ match:
 pl: 
   args:
     - MP_APXS=/usr/bin/apxs2
+--- 
+match:
+  distribution: "/mod_perl-2\.0\.8\."
+patches:
+  - SREZIC/patches/mod_perl-2.0.8-RT101142.patch
