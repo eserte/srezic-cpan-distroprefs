@@ -132,6 +132,7 @@ match:
      |\QAUTRIJUS/Perl6-Pugs-6.2.8.tar.gz\E
      |\QAUTRIJUS/i18n-0.07.tar.gz\E
      |\QAVAR/App-QuoteCC-0.01.tar.gz\E
+     |\QAVAR/Constant-Export-Lazy-0.12.tar.gz\E
      |\QAVAR/git-deploy-6.00.tar.gz\E
      |\QAVENJ/Bot-Cobalt-Plugin-Silly-0.001.tar.gz\E
      |\QAVENJ/List-Objects-WithUtils-1.012001.tar.gz\E
@@ -731,6 +732,7 @@ match:
      |\QIX/libservlet-0.9.1.tar.gz\E
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
      |\QJAMADAM/WWW-Crawler-Mojo-0.03.tar.gz\E
+     |\QJANDREW/Spreadsheet-XLSX-Reader-LibXML-v0.28.2.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
@@ -1194,6 +1196,7 @@ match:
      |\QMSTROUT/Web-Simple-0.020.tar.gz\E
      |\QMTHURN/WWW-Ebay-0.094.tar.gz\E
      |\QMUDLER/GitInsight-0.05.tar.gz\E
+     |\QMUDLER/Mojolicious-Plugin-Angular-MaterialDesign-0.601.tar.gz\E
      |\QMUENALAN/Class-Maker-0.05.18.tar.gz\E
      |\QMUENALAN/Class-Maker-0.5.14.tar.gz\E
      |\QMUENALAN/Class-Proxy-0.01.02.tar.gz\E
