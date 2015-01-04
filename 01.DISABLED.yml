@@ -1341,5 +1341,6 @@ match:
     |EKAWAS/lsid-perl-1.1.7.tar.gz # probably using module::autoinstall?
     |CHENGANG/Redis-AOF-Tail-File-0.04.tar.gz # endless verbose loop in tests, at least on freebsd 10.1
     |DUNCAN/Alien-Microsoft-Outlook-0.06b.zip # extra directory level in tarball
+    |ARISTOTLE/XML-Builder-0.903.tar.gz # recursive self-dependency --- https://github.com/ap/XML-Builder/issues/1
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
