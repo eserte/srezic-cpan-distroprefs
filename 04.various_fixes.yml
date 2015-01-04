@@ -9,6 +9,7 @@ match:
     |.*/Sorauta-Cache-HTTP-Request-Image-0\.01\.
     |JOHND/Data-Properties-YAML-0.04.tar.gz
     |JOHND/ASP4-1.087.tar.gz # META.yml here not problematic, but reverse deps has also to be handled...
+    |SDOWIDEIT/AnyData-0.11.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=95908
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 cpanconfig:
   yaml_module: 'YAML::Syck'
