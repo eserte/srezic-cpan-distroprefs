@@ -10,6 +10,7 @@ match:
     |JOHND/Data-Properties-YAML-0.04.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=101286
     |JOHND/ASP4-1.087.tar.gz # META.yml here not problematic, but reverse deps has also to be handled...
     |SDOWIDEIT/AnyData-0.11.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=95908
+    |APERROTT/Device-ELM327-0.13.tar.gz
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 cpanconfig:
   yaml_module: 'YAML::Syck'
