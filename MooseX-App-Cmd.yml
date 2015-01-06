@@ -3,3 +3,14 @@ match:
   distribution: '/MooseX-App-Cmd-0\.27\.'
 goto: MJGARDNER/MooseX-App-Cmd-0.28-TRIAL.tar.gz
 # https://github.com/mjgardner/moosex-app-cmd/issues/12
+---
+match:
+  distribution: '/MooseX-App-Cmd-0\.29\.'
+pl:
+  expect:
+    - '\Qinstall Command line options can be set from a configuration file?'
+    - "\n"
+    - '\Qinstall Support for the Moose postmodern object system?'
+    - "\n"
+    - '\Qinstall Support for the Mouse lightweight object system?'
+    - "\n"
