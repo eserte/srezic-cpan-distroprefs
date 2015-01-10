@@ -15,3 +15,4 @@ pl:
     - "\n"
 # checked with M/MN/MNUNBERG/Couchbase-Client-0.18.tar.gz
 # needs -lcouchbase, which does not exist for freebsd9, it seems
+# note: the package couchdb does not provide this library
