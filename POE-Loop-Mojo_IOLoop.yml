@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/POE-Loop-Mojo_IOLoop-\d'
+pl:
+  args:
+    - --default
