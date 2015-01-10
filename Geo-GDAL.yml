@@ -19,7 +19,22 @@ patches:
 match:
   distribution: '/Geo-GDAL-1\.992c\.'
   perlconfig:
+    archname: '-freebsd'
+goto: AJOLMA/Geo-GDAL-1.992d1.tar.gz
+# 1.992c is "disabled" and has various other problems
+# XXX Unfortunately 02.dangerous_cpan_distributions.yml is evaluated before, so this rule never matches :-(
+---
+match:
+  distribution: '/Geo-GDAL-1\.992c\.'
+  perlconfig:
     version: '^5\.([01]\d|20)\.'
 goto: AJOLMA/Geo-GDAL-1.90.tar.gz
 # 1.992c has various problems, but not everywhere
 # 1.90 does not work with perl 5.21.x because of a UNIVERSAL thingy
+---
+match:
+  distribution: '/Geo-GDAL-1\.992d1\.'
+  perlconfig:
+    archname: '-freebsd'
+pl:
+  args: ["--no-version-check"]
