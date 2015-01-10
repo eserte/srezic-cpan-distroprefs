@@ -38,3 +38,5 @@ match:
     archname: '-freebsd'
 pl:
   args: ["--no-version-check"]
+# freebsd currently (2015-01) comes with gdal-1.11.1, this version accepts only 1.11.0
+# -> https://rt.cpan.org/Ticket/Display.html?id=101441
