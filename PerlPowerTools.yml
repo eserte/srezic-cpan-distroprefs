@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/PerlPowerTools-\d'
+disabled: 1
+comment: 'installs scripts to .../bin, may be unexpected for other applications'
