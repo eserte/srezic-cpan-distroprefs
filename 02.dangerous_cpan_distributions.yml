@@ -103,7 +103,6 @@ match:
      |\QAREGGIORI/RDFStore-0.42.tar.gz\E
      |\QAREIBENS/PDF-API2-0.73.tar.gz\E
      |\QARFREITAS/Siebel-Srvrmgr-0.12.tar.gz\E
-     |\QARISTOTLE/Class-Closure-0.30.tar.gz\E
      |\QARJONES/WebService-TVDB-1.130350.tar.gz\E
      |\QARODLAND/DBIx-Class-0.08196.tar.gz\E
      |\QARODLAND/Test-Exit-0.03.tar.gz\E
@@ -216,6 +215,7 @@ match:
      |\QBRADFITZ/DJabberd-0.81.tar.gz\E
      |\QBRADFITZ/MogileFS-Client-1.03.tar.gz\E
      |\QBRADFITZ/mogilefs-server-2.07.tar.gz\E
+     |\QBRADH/KelpX-Sweet-0.002.tar.gz\E
      |\QBRAMBLE/Padre-Plugin-Swarm-0.11.tar.gz\E
      |\QBRIANSKI/Number-Range-Regex-0.20.tgz\E
      |\QBRIANSKI/Number-Range-Regex-0.31.tar.gz\E
@@ -297,6 +297,7 @@ match:
      |\QCREAMYG/Lucy-0.3.3.tar.gz\E
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
+     |\QCSSON/Map-Metro-0.2201.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
      |\QCTBROWN/ODG-Record-0.28.tar.gz\E
      |\QCTRLSOFT/Parse-Pidl-0.01.tar.gz\E
@@ -328,7 +329,6 @@ match:
      |\QDAVEBAIRD/Maypole-FormBuilder-0.1.tar.gz\E
      |\QDAVEBAIRD/Maypole-FormBuilder-0.23.tar.gz\E
      |\QDAVECROSS/WWW-Shorten-3.03.tar.gz\E
-     |\QDAVID/CSS-Sass-v0.8.0.tar.gz\E
      |\QDAVIDO/Inline-CPP-0.68.tar.gz\E
      |\QDAVIDRW/GBPVR-CDBI-0.01.tar.gz\E
      |\QDBALMER/HTML-Chunks-1.5.tar.gz\E
@@ -342,6 +342,7 @@ match:
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
+     |\QDCONWAY/Text-Autoformat-1.669006.tar.gz\E
      |\QDDUMONT/Config-Model-2.055.tar.gz\E
      |\QDEDMEDVED/SSIS-Package-0.01.tar.gz\E
      |\QDEDMEDVED/VSGDR-UnitTest-TestSet-1.29.tar.gz\E
@@ -463,7 +464,6 @@ match:
      |\QETHER/Moose-2.1213.tar.gz\E
      |\QETHER/MooseX-Declare-0.39.tar.gz\E
      |\QETJ/Bugle-0.03.tar.gz\E
-     |\QETJ/Inline-C-0.62.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -511,6 +511,7 @@ match:
      |\QFLORA/MooseX-AttributeHelpers-0.17.tar.gz\E
      |\QFMARIER/Gravatar-URL-1.05.tar.gz\E
      |\QFOTANGO/Froody-42.005.tar.gz\E
+     |\QFRACTAL/Unicode-Truncate-0.200.tar.gz\E
      |\QFRANCKC/MooseX-Net-API-0.06.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.013.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.014.tar.gz\E
@@ -1131,7 +1132,6 @@ match:
      |\QMJD/Text-Template-0.1b.tar.gz\E
      |\QMJFLICK/Drogo-0.07.tar.gz\E
      |\QMJFLICK/Drogo-0.09.tar.gz\E
-     |\QMJGARDNER/MooseX-App-Cmd-0.27.tar.gz\E
      |\QMKENNEDY/FLTK-0.52.tar.gz\E
      |\QMKRULL/Ruby-VersionManager-0.003020.tar.gz\E
      |\QMKUL/Net-RRP-0.03.tar.gz\E
@@ -1184,6 +1184,7 @@ match:
      |\QMSIMERSON/Mail-Toaster-5.13.tar.gz\E
      |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.19.tar.gz\E
+     |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
      |\QMSISK/Net-Nmsg-0.09.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
@@ -1310,7 +1311,6 @@ match:
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPARDUS/zoidberg/Zoidberg-0.95.tar.gz\E
-     |\QPATL/Inline-Java-0.53.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
      |\QPBWOLF/Win32-ActAcc-1.0.zip\E
      |\QPCOLLINS/HTTP-DAV-0.05.tar.gz\E
@@ -1432,6 +1432,7 @@ match:
      |\QROCKY/Devel-Trepan-0.46.tar.gz\E
      |\QROCKY/Devel-Trepan-0.48.tar.gz\E
      |\QROCKY/Devel-Trepan-0.53.tar.gz\E
+     |\QROCKY/Devel-Trepan-0.58.tar.gz\E
      |\QROCKY/Term-ReadLine-Perl5-1.08.tar.gz\E
      |\QROCKY/Term-ReadLine-Perl5-1.38.tar.gz\E
      |\QRODRIGO/Mongoose-0.07.tar.gz\E
@@ -1571,6 +1572,7 @@ match:
      |\QSMITHFARM/App-Dochazka-REST-0.322.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
+     |\QSONGMU/Plack-App-Directory-Markdown-0.07.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.962.tar.gz\E
@@ -1772,7 +1774,7 @@ match:
      |\QWSDOOKADR/Tsk-0.03.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
      |\QWYANT/Astro-App-Satpass2-0.020.tar.gz\E
-     |\QWYANT/Astro-SpaceTrack-0.077.tar.gz\E
+     |\QWYANT/Astro-App-Satpass2-0.023.tar.gz\E
      |\QXAICRON/DBIx-QueryLog-0.06.tar.gz\E
      |\QXAICRON/JSON-WebToken-0.05.tar.gz\E
      |\QXAICRON/Module-Install-TestTarget-0.15.tar.gz\E
