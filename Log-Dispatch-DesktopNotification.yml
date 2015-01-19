@@ -2,6 +2,5 @@
 match:
   distribution: "/Log-Dispatch-DesktopNotification-\d"
 pl:
-  expect:
-    - "\Qsupport GTK+ notifications? [yes]"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
