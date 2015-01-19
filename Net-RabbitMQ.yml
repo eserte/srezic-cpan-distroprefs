@@ -1,8 +1,10 @@
 ---
 match:
-  distribution: '/Net--RabbitMQ-0\.2\.[67]\.'
+  distribution: '/Net--RabbitMQ-0\.2\.7\.'
 test:
   env:
     MQHOST: localhost
 # see https://rt.cpan.org/Ticket/Display.html?id=70773
 # AMQP 0.9.1 on dev.rabbitmq.com vs. 0.8 in this module
+patches:
+  - SREZIC/patches/Net-RabbitMQ-0.2.7-RT101574.patch
