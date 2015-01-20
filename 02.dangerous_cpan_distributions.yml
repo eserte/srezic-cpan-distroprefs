@@ -188,7 +188,6 @@ match:
      |\QBIGJ/File-Random-0.10.tar.gz\E
      |\QBIGJ/Test-Warn-0.08.tar.gz\E
      |\QBIGPRESH/Dancer-Plugin-Database-2.04.tar.gz\E
-     |\QBINARY/Finance-Bitcoin-Feed-0.01.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
@@ -259,6 +258,7 @@ match:
      |\QCHISEL/Zucchini-0.0.17.tar.gz\E
      |\QCHRISA/Catalyst-Engine-Stomp-0.02.tar.gz\E
      |\QCHRISA/Devel-DTrace-Provider-0.02.tar.gz\E
+     |\QCHRISJH/App-OverWatch-0.003.tar.gz\E
      |\QCHRMUE/PAB3-3.0.3.tar.gz\E
      |\QCHRMUE/Socket-Class-1.23.tar.gz\E
      |\QCJCOLLIER/Lingua-HPSG/Lingua-HPSG-0.02.tar.gz\E
@@ -298,6 +298,9 @@ match:
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
      |\QCSSON/Map-Metro-0.2201.tar.gz\E
+     |\QCSSON/Map-Metro-0.2203.tar.gz\E
+     |\QCSSON/OpenGbg-0.1300.tar.gz\E
+     |\QCSSON/Stenciller-0.1005.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
      |\QCTBROWN/ODG-Record-0.28.tar.gz\E
      |\QCTRLSOFT/Parse-Pidl-0.01.tar.gz\E
@@ -487,7 +490,6 @@ match:
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
-     |\QFALCONE/RT-Extension-RepliesToResolved-0.02.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
@@ -511,7 +513,6 @@ match:
      |\QFLORA/MooseX-AttributeHelpers-0.17.tar.gz\E
      |\QFMARIER/Gravatar-URL-1.05.tar.gz\E
      |\QFOTANGO/Froody-42.005.tar.gz\E
-     |\QFRACTAL/Unicode-Truncate-0.200.tar.gz\E
      |\QFRANCKC/MooseX-Net-API-0.06.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.013.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.014.tar.gz\E
@@ -654,6 +655,8 @@ match:
      |\QHORROCKS/CGI-SpeedyCGI-2.02.tar.gz\E
      |\QHOVENKO/Weather-YR-0.25.tar.gz\E
      |\QHPYHACKER/CGI-Listman-0.02.tar.gz\E
+     |\QHURRICUP/DTL-Fast-1.04.tar.gz\E
+     |\QHURRICUP/DTL-Fast-1.05.2.tar.gz\E
      |\QHVC/Video-Manip-0.02.tar.gz\E
      |\QIAMCAL/CSS-0.08.tar.gz\E
      |\QIAN/Color-Scheme-1.02.tar.gz\E
@@ -721,7 +724,6 @@ match:
      |\QIOANR/WebService-Simplenote-0.1.2.tar.gz\E
      |\QIPENBURG/Date-Extract-P800Picture-0.04.tar.gz\E
      |\QIRONCAMEL/Business-BalancedPayments-0.1501.tar.gz\E
-     |\QIRONCAMEL/Business-BalancedPayments-1.0402.tar.gz\E
      |\QIRONCAMEL/Net-OpenStack-Compute-1.0900.tar.gz\E
      |\QISHIGAKI/Module-New-0.10.tar.gz\E
      |\QITUB/Chemistry-Mok-0.16.tar.gz\E
@@ -1170,7 +1172,6 @@ match:
      |\QMSCHILLI/Net-Evernote-Simple-0.01.tar.gz\E
      |\QMSCHUETT/Text-AI-CRM114-0.04.tar.gz\E
      |\QMSCHWERN/Test-Legacy-1.2501.tar.gz\E
-     |\QMSCHWERN/perl5i-v2.10.0.tar.gz\E
      |\QMSCHWERN/perl5i-v2.12.0.tar.gz\E
      |\QMSERGEANT/AxKit-1.5.2.tar.gz\E
      |\QMSERGEANT/AxKit-1.6.1.tar.gz\E
@@ -1391,6 +1392,7 @@ match:
      |\QRAM/Getargs-Long-0.1.3.tar.gz\E
      |\QRANDERSON/HTTP-WebTest-1.02.tar.gz\E
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
+     |\QRBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.06001.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.07300.tar.gz\E
      |\QRCLAMP/Net-DAAP-Client-Auth-0.13.tar.gz\E
@@ -1514,8 +1516,6 @@ match:
      |\QSHANTANU/Device-LPS331AP-0.003.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
-     |\QSHAY/Win32-SharedFileOpen-3.44.tar.gz\E
-     |\QSHAY/libnet-1.29.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
@@ -1703,6 +1703,7 @@ match:
      |\QTPEDERSE/WordNet-Similarity-2.03.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
+     |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/DBIx-SearchBuilder-1.65.tar.gz\E
      |\QTSIBLEY/Jifty-1.10228.tar.gz\E
      |\QTSIBLEY/Net-iTMS-0.04.tar.gz\E
@@ -1772,6 +1773,8 @@ match:
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
      |\QWSDOOKADR/Tsk-0.03.tar.gz\E
+     |\QWSDOOKADR/Tsk-0.041.tar.gz\E
+     |\QWSNYDER/SVN-S4-1.055.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
      |\QWYANT/Astro-App-Satpass2-0.020.tar.gz\E
      |\QWYANT/Astro-App-Satpass2-0.023.tar.gz\E
