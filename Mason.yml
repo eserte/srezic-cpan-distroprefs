@@ -2,6 +2,6 @@
 match:
   distribution: '/Mason-2\.22\.'
   perlconfig:
-    version: '^5\.21\.7$'
+    version: '^5\.21\.(7|8)$'
 patches:
   - SREZIC/patches/Mason-2.22-RT100507.patch
