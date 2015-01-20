@@ -10,3 +10,8 @@ pl:
     - "\QInstall C/XS version (answer 'c') or pure-Perl version (answer 'p')? [c]"
     - "\n"
 # At least Date-Calc 6.3 is not interactive anymore
+---
+match:
+  distribution: "/Date-Calc-6\.3\."
+patches:
+  - SREZIC/patches/Date-Calc-6.3-RT101232.patch
