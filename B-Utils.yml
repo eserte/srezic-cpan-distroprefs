@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/B-Utils-0\.25\.'
+  perlconfig:
+    version: '^5\.21\.(7|8)$'
+patches:
+  - SREZIC/patches/B-Utils-0.25-RT100508.patch   
