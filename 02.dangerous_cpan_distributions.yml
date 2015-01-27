@@ -41,9 +41,7 @@ match:
      |\QAGRUNDMA/Catalyst-Engine-HTTP-POE-0.07.tar.gz\E
      |\QAGRUNDMA/Catalyst-Plugin-UploadProgress-0.03.tar.gz\E
      |\QAJOLMA/Geo-GDAL-1.81.tar.gz\E
-     |\QAJOLMA/Geo-GDAL-1.992c.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
-     |\QAJOLMA/Geo-Raster-0.64.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
@@ -299,6 +297,8 @@ match:
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
      |\QCSSON/Map-Metro-0.2201.tar.gz\E
      |\QCSSON/Map-Metro-0.2203.tar.gz\E
+     |\QCSSON/Map-Metro-Plugin-Map-Amsterdam-0.1100.tar.gz\E
+     |\QCSSON/Map-Metro-Plugin-Map-Athens-0.1100.tar.gz\E
      |\QCSSON/OpenGbg-0.1300.tar.gz\E
      |\QCSSON/Stenciller-0.1005.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
@@ -352,6 +352,7 @@ match:
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDERF/Travel-Routing-DE-VRR-2.04.tar.gz\E
+     |\QDESPAIR/Net-Whois-Raw-2.46.tar.gz\E
      |\QDGL/App-redisp-0.11.tar.gz\E
      |\QDGOEHRIG/SDL_Perl-2.1.2.tar.gz\E
      |\QDHOSS/Grimlock-0.10.tar.gz\E
@@ -655,8 +656,6 @@ match:
      |\QHORROCKS/CGI-SpeedyCGI-2.02.tar.gz\E
      |\QHOVENKO/Weather-YR-0.25.tar.gz\E
      |\QHPYHACKER/CGI-Listman-0.02.tar.gz\E
-     |\QHURRICUP/DTL-Fast-1.04.tar.gz\E
-     |\QHURRICUP/DTL-Fast-1.05.2.tar.gz\E
      |\QHVC/Video-Manip-0.02.tar.gz\E
      |\QIAMCAL/CSS-0.08.tar.gz\E
      |\QIAN/Color-Scheme-1.02.tar.gz\E
@@ -783,6 +782,7 @@ match:
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
      |\QJINZANG/App-Followme-1.03.tar.gz\E
+     |\QJJNAPIORK/DBIx-Class-Migration-0.044.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
      |\QJJOAO/Lingua-PT-PLN-0.15.tar.gz\E
@@ -1097,8 +1097,11 @@ match:
      |\QMDIMEO/MPEG-ID3v2Tag-0.36.tar.gz\E
      |\QMDOOTSON/Wx-0.9921.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
+     |\QMEKK/OAuthomatic-0.02.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
+     |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
+     |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
      |\QMIKIHOSHI/Acme-PrettyCure-0.02.tar.gz\E
@@ -1159,11 +1162,13 @@ match:
      |\QMOOLLAZA/App-DuckPAN-0.154.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.162.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.164.tar.gz\E
+     |\QMOOLLAZA/App-DuckPAN-0.165.tar.gz\E
      |\QMORNI/HTML-FormEngine-0.7.4.tar.gz\E
      |\QMORNI/HTML-FormEngine-DBSQL-0.2.1.tar.gz\E
      |\QMORTY/DateConvert-0.14.tgz\E
      |\QMOTIF/Bio-LITE-Taxonomy-0.04.tar.gz\E
      |\QMOZNION/Acme-AjiFry-0.08.tar.gz\E
+     |\QMOZNION/Perl-Lint-0.10.tar.gz\E
      |\QMOZNION/Ukigumo-Agent-v0.1.6.tar.gz\E
      |\QMRAMBERG/Catalyst-Model-Search-0.01.tar.gz\E
      |\QMRAMBERG/Class-DBI-Sweet-0.08.tar.gz\E
@@ -1216,7 +1221,6 @@ match:
      |\QMVERB/GIFgraph-1.10.tar.gz\E
      |\QMVZ/Email-Outlook-Message-0.915.tar.gz\E
      |\QMWARDELL/Wx-TreeListCtrl-0.05.tar.gz\E
-     |\QNALOBIN/Net-Whois-Raw-2.80.1.tar.gz\E
      |\QNATG/Class-AutoDB-1.28.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsMulti-1.13.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsSingle-1.13.tar.gz\E
@@ -1368,6 +1372,7 @@ match:
      |\QPREACTION/Git-ReleaseRepo-0.003.tar.gz\E
      |\QPREACTION/Statocles-0.025.tar.gz\E
      |\QPREACTION/Statocles-0.027.tar.gz\E
+     |\QPREACTION/Statocles-0.033.tar.gz\E
      |\QPRO/Net-DirectConnect-0.07.tar.gz\E
      |\QPRO/Net-DirectConnect-0.10.tar.gz\E
      |\QPSCUST/Asm-Preproc-0.08.tar.gz\E
@@ -1448,7 +1453,6 @@ match:
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
      |\QRTKH/Raisin-0.4003.tar.gz\E
-     |\QRUBYKAT/WWW-FetchStory-0.15.tar.gz\E
      |\QRUBYKAT/WWW-FetchStory-0.1815.tar.gz\E
      |\QRURBAN/B-C-1.36.tar.gz\E
      |\QRURBAN/C-DynaLib-0.60.tar.gz\E
@@ -1573,6 +1577,7 @@ match:
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSONGMU/Plack-App-Directory-Markdown-0.07.tar.gz\E
+     |\QSONGMU/Riji-v0.9.1.tar.gz\E
      |\QSOREAR/IO-Pty-HalfDuplex-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.01.tar.gz\E
      |\QSPADKINS/App-Context-0.962.tar.gz\E
@@ -1629,6 +1634,7 @@ match:
      |\QTCHINCHOW/pcsc-perl-1.0.8.tar.gz\E
      |\QTEAM/Net-Async-AMQP-0.007.tar.gz\E
      |\QTEAM/Tickit-Widget-Table-0.101.tar.gz\E
+     |\QTEAM/WebService-Amazon-DynamoDB-0.001.tar.gz\E
      |\QTEEJAY/Autodia-2.07.tar.gz\E
      |\QTEVERETT/Win32-CtrlGUI-0.30.tar.gz\E
      |\QTFOUCART/WWW-Sucksub-Divxstation-0.01.tar.gz\E
@@ -1655,6 +1661,7 @@ match:
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTJOHNSON/Farly-0.12.tar.gz\E
+     |\QTJPARNELL/Bio-ToolBox-1.23.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
      |\QTKR/Treex-Parser-MSTperl-0.08055.tar.gz\E
@@ -1695,6 +1702,7 @@ match:
      |\QTORBJORN/App-CatalystStarter-Bloated-v0.9.1.tar.gz\E
      |\QTOREAU/URL-List-0.02.tar.gz\E
      |\QTOSHIOITO/Gnuplot-Builder-0.02.tar.gz\E
+     |\QTOT/Geneos-API-0.12.tar.gz\E
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.01.tar.gz\E
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.04.tar.gz\E
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.09.tar.gz\E
@@ -1730,6 +1738,7 @@ match:
      |\QVANAMBURG/CGI-Application-Structured-0.004.tar.gz\E
      |\QVANAMBURG/VANAMBURG-Magic-0.03.tar.gz\E
      |\QVANSTYN/RapidApp-0.99333.tar.gz\E
+     |\QVANSTYN/RapidApp-0.99664.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
@@ -1772,9 +1781,7 @@ match:
      |\QWJIAN/MColPro-1.12.tar.gz\E
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
-     |\QWSDOOKADR/Tsk-0.03.tar.gz\E
      |\QWSDOOKADR/Tsk-0.041.tar.gz\E
-     |\QWSNYDER/SVN-S4-1.055.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
      |\QWYANT/Astro-App-Satpass2-0.020.tar.gz\E
      |\QWYANT/Astro-App-Satpass2-0.023.tar.gz\E
