@@ -1344,5 +1344,6 @@ match:
     |CHENGANG/Redis-AOF-Tail-File-0.04.tar.gz # endless verbose loop in tests, at least on freebsd 10.1
     |DUNCAN/Alien-Microsoft-Outlook-0.06b.zip # extra directory level in tarball
     |ARISTOTLE/XML-Builder-0.903.tar.gz # recursive self-dependency --- https://github.com/ap/XML-Builder/issues/1
+    |SHOORICK/Dancer-Plugin-Formatter-0.02.tar.gz # recursive self-dependency --- https://rt.cpan.org/Ticket/Display.html?id=101810
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
