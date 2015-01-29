@@ -425,6 +425,7 @@ match:
     ^(?x:
       TURNERJW/Tk-JBrowseEntry-4.70.tar.gz
     |TURNERJW/Tk-JBrowseEntry-4.74.tar.gz
+    |TURNERJW/Tk-JDialog-1.00.tar.gz
     |JNK/Tk-QuickTk-0.92.tar.gz
     |.*/ApacheBench-\d # wants some URLs
     |.*/Aut-\d # asks for a password
