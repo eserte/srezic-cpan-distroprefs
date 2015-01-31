@@ -1346,5 +1346,6 @@ match:
     |DUNCAN/Alien-Microsoft-Outlook-0.06b.zip # extra directory level in tarball
     |ARISTOTLE/XML-Builder-0.903.tar.gz # recursive self-dependency --- https://github.com/ap/XML-Builder/issues/1
     |SHOORICK/Dancer-Plugin-Formatter-0.02.tar.gz # recursive self-dependency --- https://rt.cpan.org/Ticket/Display.html?id=101810
+    |PLICEASE/Yars-1.05.tar.gz # out of memory + huge test log
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
