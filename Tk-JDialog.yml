@@ -1,0 +1,12 @@
+---
+match:
+  distribution: 'TURNERJW/Tk-JDialog-1\.01\.tar.gz'
+test:
+  env:
+    AUTOMATED_TESTING: 1
+---
+match:
+  distribution: 'TURNERJW/Tk-JDialog-1.00.tar.gz'
+disabled: 1
+# interactive test
+
