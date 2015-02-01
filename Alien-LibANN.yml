@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Alien-LibANN-\d"
+  distribution: '/Alien-LibANN-\d'
 pl:
   expect:
-    - "\QWhere would you like to install libANN?"
+    - '\QWhere would you like to install libANN?'
     - "\n"
-    - "\QAre there any other arguments you would like to pass to configure?"
+    - '\QAre there any other arguments you would like to pass to configure?'
     - "\n"

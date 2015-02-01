@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Alien-Gearman-\d"
+  distribution: '/Alien-Gearman-\d'
 pl:
   expect:
-    - "\QReally install? [n]"
+    - '\QReally install? [n]'
     - "\n"

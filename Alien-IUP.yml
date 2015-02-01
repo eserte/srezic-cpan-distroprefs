@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Alien-IUP-\d"
+  distribution: '/Alien-IUP-\d'
   env:
     PERL_BATCH: yes
 pl:

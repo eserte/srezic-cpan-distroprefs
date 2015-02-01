@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Alien-Judy-\d"
+  distribution: '/Alien-Judy-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

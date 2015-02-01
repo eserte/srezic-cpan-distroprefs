@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Alien-CMake-\d"
+  distribution: '/Alien-CMake-\d'
 pl:
   expect:
-    - "\QWhat way do you wanna go"
+    - '\QWhat way do you wanna go'
     - "\n"
