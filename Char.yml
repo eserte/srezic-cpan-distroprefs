@@ -1,0 +1,5 @@
+---
+match:
+  distribution: 'INA/Char/Char-1\.03\.'
+disabled: 1
+# very long test suite, blocking smokers
