@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QPOSIX-1003-0.99_01.tar.gz\E'
+patches:
+  - SREZIC/patches/POSIX-1003-0.99_01-RT101866.patch
