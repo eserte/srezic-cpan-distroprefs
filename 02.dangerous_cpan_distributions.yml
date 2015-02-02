@@ -299,6 +299,8 @@ match:
      |\QCSSON/Map-Metro-0.2203.tar.gz\E
      |\QCSSON/Map-Metro-Plugin-Map-Amsterdam-0.1100.tar.gz\E
      |\QCSSON/Map-Metro-Plugin-Map-Athens-0.1100.tar.gz\E
+     |\QCSSON/Map-Metro-Plugin-Map-Bilbao-0.1000.tar.gz\E
+     |\QCSSON/Map-Metro-Plugin-Map-Brescia-0.1000.tar.gz\E
      |\QCSSON/OpenGbg-0.1300.tar.gz\E
      |\QCSSON/Stenciller-0.1005.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
@@ -403,6 +405,7 @@ match:
      |\QDROLSKY/DateTime-TimeZone-1.74.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.75.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.78.tar.gz\E
+     |\QDROLSKY/DateTime-TimeZone-1.84.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
@@ -527,6 +530,7 @@ match:
      |\QFREW/DBIx-Class-0.08124.tar.gz\E
      |\QFREW/Web-Simple-0.004.tar.gz\E
      |\QFRIED/Data-Object-0.006.tar.gz\E
+     |\QFRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
      |\QGAAS/libwww-perl-5.837.tar.gz\E
@@ -599,7 +603,6 @@ match:
      |\QGSLIN/Thrift-0.8.0.tar.gz\E
      |\QGSLONDON/Parse-Gnaw-0.52.tar.gz\E
      |\QGSLONDON/Parse-Nibbler-0.23.tar.gz\E
-     |\QGTERMARS/TAP-Formatter-JUnit-0.09.tar.gz\E
      |\QGUGOD/Data-HanConvert-1.3.tar.gz\E
      |\QGUGOD/JavaScript-Writer-0.1.0.tar.gz\E
      |\QGUGOD/Kwiki-PageInclude-0.01.tar.gz\E
@@ -751,7 +754,6 @@ match:
      |\QJBD/Pistachio-0.08.tar.gz\E
      |\QJBLAKEY/Crypt-Enigma-1.1.tar.gz\E
      |\QJBRYAN/AI-NeuralNet-BackProp-0.77.zip\E
-     |\QJDDPAUSE/MarpaX-Languages-ECMAScript-AST-0.005.tar.gz\E
      |\QJDHEDDEN/Object-InsideOut-1.33.tar.gz\E
      |\QJDS/DBIx-Table-TestDataGenerator-0.003.tar.gz\E
      |\QJDS/DBIx-Table-TestDataGenerator-0.004.tar.gz\E
@@ -942,7 +944,6 @@ match:
      |\QKMX/IUP-0.004.tar.gz\E
      |\QKMX/Win32-GUI-1.08.tar.gz\E
      |\QKNASSAR/Activator-0.10.tar.gz\E
-     |\QKNOWZERO/Net-SMTP-Bulk-0.16.tar.gz\E
      |\QKOHTS/snaked-0.02.tar.gz\E
      |\QKOKOGIKO/Geo-Direction-Name-0.0.3.tar.gz\E
      |\QKOKOGIKO/HTTP-MobileAgent-Plugin-RoamingZone-0.0.2.tar.gz\E
@@ -1255,7 +1256,6 @@ match:
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
      |\QNICS/Catmandu-OAI-0.02.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
-     |\QNICS/Catmandu-Store-ElasticSearch-0.0203.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.0301.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
@@ -1702,7 +1702,6 @@ match:
      |\QTORBJORN/App-CatalystStarter-Bloated-v0.9.1.tar.gz\E
      |\QTOREAU/URL-List-0.02.tar.gz\E
      |\QTOSHIOITO/Gnuplot-Builder-0.02.tar.gz\E
-     |\QTOT/Geneos-API-0.12.tar.gz\E
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.01.tar.gz\E
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.04.tar.gz\E
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.09.tar.gz\E
@@ -1746,6 +1745,7 @@ match:
      |\QVKON/Tcl-Tk-0.90.tar.gz\E
      |\QVKON/Tcl-Tk-0.91.tar.gz\E
      |\QVLADB/DBIx-DataLookup-0.02.tar.gz\E
+     |\QVOEGELAS/CPANPLUS-Dist-Slackware-1.020.tar.gz\E
      |\QVOISCHEV/AI-NeuralNet-SOM-0.02.tar.gz\E
      |\QVOJ/App-PAIA-0.01.tar.gz\E
      |\QVOJ/App-PAIA-0.20.tar.gz\E
