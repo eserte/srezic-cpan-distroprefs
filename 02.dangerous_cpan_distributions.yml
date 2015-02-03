@@ -220,8 +220,6 @@ match:
      |\QBROQ/Gitalist-0.003006.tar.gz\E
      |\QBROQ/Gitalist-0.004004.tar.gz\E
      |\QBRUCEK/IO-Multiplex-1.00.tar.gz\E
-     |\QBRUMMETT/Devel-hdb-0.12.tar.gz\E
-     |\QBRUMMETT/Devel-hdb-0.13.tar.gz\E
      |\QBRUMMETT/UR-0.41.tar.gz\E
      |\QBRYCE/Test-Parser-1.4.tar.gz\E
      |\QBSHENRY/VBTK-0.14.tar.gz\E
@@ -299,6 +297,7 @@ match:
      |\QCSSON/Map-Metro-0.2203.tar.gz\E
      |\QCSSON/Map-Metro-Plugin-Map-Amsterdam-0.1100.tar.gz\E
      |\QCSSON/Map-Metro-Plugin-Map-Athens-0.1100.tar.gz\E
+     |\QCSSON/Map-Metro-Plugin-Map-Barcelona-0.1006.tar.gz\E
      |\QCSSON/Map-Metro-Plugin-Map-Bilbao-0.1000.tar.gz\E
      |\QCSSON/Map-Metro-Plugin-Map-Brescia-0.1000.tar.gz\E
      |\QCSSON/OpenGbg-0.1300.tar.gz\E
@@ -1745,7 +1744,6 @@ match:
      |\QVKON/Tcl-Tk-0.90.tar.gz\E
      |\QVKON/Tcl-Tk-0.91.tar.gz\E
      |\QVLADB/DBIx-DataLookup-0.02.tar.gz\E
-     |\QVOEGELAS/CPANPLUS-Dist-Slackware-1.020.tar.gz\E
      |\QVOISCHEV/AI-NeuralNet-SOM-0.02.tar.gz\E
      |\QVOJ/App-PAIA-0.01.tar.gz\E
      |\QVOJ/App-PAIA-0.20.tar.gz\E
