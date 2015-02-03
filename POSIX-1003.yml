@@ -3,3 +3,13 @@ match:
   distribution: '/\QPOSIX-1003-0.99_01.tar.gz\E'
 patches:
   - SREZIC/patches/POSIX-1003-0.99_01-RT101866.patch
+---
+match:
+  distribution: '/POSIX-1003-\d'
+# for more diagnostics, see discussion in https://rt.cpan.org/Ticket/Update.html?id=101866
+pl:
+  env:
+    AUTOMATED_TESTING: 1
+test:
+  env:
+    AUTOMATED_TESTING: 1
