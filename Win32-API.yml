@@ -1,9 +1,14 @@
 ---
 match:
-  distribution: "/Win32-API-0\.67\."
+  distribution: '/Win32-API-0\.67\.'
 patches:
   - "SREZIC/patches/Win32-API-0.67-SREZIC-01.patch"
 comment: "https://rt.cpan.org/Ticket/Display.html?id=75336"
 # According to this mail from bulk88
 # Message-ID: <BLU0-SMTP410B0F4EC5245C175A482ACDF7F0@phx.gbl>
 # this patch is not necessary for later Win32::API versions
+---
+match:
+  distribution: '/Win32-API-0\.79\.'
+goto: 'BULKDD/Win32/Win32-API-0.78.tar.gz'
+# 0.79 does not work, segfaults
