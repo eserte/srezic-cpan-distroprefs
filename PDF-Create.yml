@@ -20,3 +20,13 @@ match:
 patches:
   - SREZIC/patches/PDF-Create-1.10-TestLeakTrace5216.patch
 # Issue fixed in 5.21.7
+---
+match:
+  distribution: '/\QPDF-Create-1.10.tar.gz\E'
+  perlconfig:
+    version: '^5\.14\.2$'
+depends:
+  requires:
+    Test::LeakTrace: 0
+# This is just for the rather old StrawberryPerl which apparently
+# does not understand test_requires
