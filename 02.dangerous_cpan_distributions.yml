@@ -347,7 +347,7 @@ match:
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
-     |\QDCONWAY/Text-Autoformat-1.669006.tar.gz\E
+     |\QDCONWAY/Text-Autoformat-1.669007.tar.gz\E
      |\QDDUMONT/Config-Model-2.055.tar.gz\E
      |\QDEDMEDVED/SSIS-Package-0.01.tar.gz\E
      |\QDEDMEDVED/VSGDR-UnitTest-TestSet-1.29.tar.gz\E
@@ -738,6 +738,7 @@ match:
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
      |\QIX/libservlet-0.9.1.tar.gz\E
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
+     |\QJACQUESG/Git-Raw-0.50.tar.gz\E
      |\QJAMADAM/WWW-Crawler-Mojo-0.03.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
@@ -1091,6 +1092,7 @@ match:
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-0.0100021.tar.gz\E
      |\QMAXSCHUBE/Nmap-Scanner-0.9.tar.gz\E
      |\QMBLYTHE/HTML-Chunks-1.55.1.tar.gz\E
+     |\QMBOGDANOV/Web-Sitemap-0.04.tar.gz\E
      |\QMBP/MojoX-Dispatcher-Qooxdoo-Jsonrpc-0.89.tar.gz\E
      |\QMCAUDILL/Net-Bot-IRC-NumericCodes-0.04.tar.gz\E
      |\QMCHANG/CGIGraph-0.9.tar.gz\E
@@ -1171,6 +1173,7 @@ match:
      |\QMOZNION/Acme-AjiFry-0.08.tar.gz\E
      |\QMOZNION/Perl-Lint-0.10.tar.gz\E
      |\QMOZNION/Ukigumo-Agent-v0.1.6.tar.gz\E
+     |\QMPASTERN/Apache2-Authen-OdinAuth-0.6.tar.gz\E
      |\QMRAMBERG/Catalyst-Model-Search-0.01.tar.gz\E
      |\QMRAMBERG/Class-DBI-Sweet-0.08.tar.gz\E
      |\QMRAMBERG/DBIx-Class-0.03002.tar.gz\E
@@ -1738,6 +1741,7 @@ match:
      |\QVANAMBURG/VANAMBURG-Magic-0.03.tar.gz\E
      |\QVANSTYN/RapidApp-0.99333.tar.gz\E
      |\QVANSTYN/RapidApp-0.99664.tar.gz\E
+     |\QVANSTYN/RapidApp-0.99700.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
