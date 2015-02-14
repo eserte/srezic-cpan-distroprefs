@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Crypt-OpenPGP-1\.08\.'
+goto: SROMANOV/Crypt-OpenPGP-1.07.tar.gz
+# Don't use 1.08 because it depends on an Alt- distribution
+# see https://rt.cpan.org/Ticket/Display.html?id=102121
+# and https://rt.cpan.org/Ticket/Display.html?id=102122
