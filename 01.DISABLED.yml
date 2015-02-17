@@ -1346,5 +1346,7 @@ match:
     |ARISTOTLE/XML-Builder-0.903.tar.gz # recursive self-dependency --- https://github.com/ap/XML-Builder/issues/1
     |SHOORICK/Dancer-Plugin-Formatter-0.02.tar.gz # recursive self-dependency --- https://rt.cpan.org/Ticket/Display.html?id=101810
     |PLICEASE/Yars-1.05.tar.gz # out of memory + huge test log
+    |GWS/Map-Tube-Plugin-FuzzyFind-0.01.tar.gz # wrong permissions in tarball (sent mail)
+    |DWHEELER/Pod-Simple-3.29_4.tar.gz # empty tarball (except META) (https://rt.cpan.org/Ticket/Display.html?id=102186)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
