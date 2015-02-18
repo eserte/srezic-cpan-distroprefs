@@ -394,12 +394,6 @@ match:
     |.*/ZMQ-LibZMQ2-1\.07\. # tests hang on freebsd 9.2 and 10.0
     |DMAKI/ZMQ-LibZMQ3-1.13.tar.gz # hanging tests on fbsd8
     |DMAKI/ZMQ-LibZMQ3-1.15.tar.gz # hanging tests on fbsd9
-    |.*/ZMQ-FFI-0\.07\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.08\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.09\. # tests hang on freebsd 9.2 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.10\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.11\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
-    |.*/ZMQ-FFI-0\.12\. # tests hang on freebsd 9.2 and 10.0 (related to the other zmq problems?)
     |TEX/Data-Persist-0.12.tar.gz # locking issue (?) - https://rt.cpan.org/Ticket/Display.html?id=95349
     |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]" (only freebsd, not debian/wheezy) -> https://github.com/jozef/CPAN-Patches/issues/1
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
