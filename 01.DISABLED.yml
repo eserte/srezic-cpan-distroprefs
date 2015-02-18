@@ -872,7 +872,6 @@ match:
     |.*/Patch-SREZIC-Tk- # not necessary anymore
     |.*/Algorithm-OpenFST-\d # needs some additional stuff
     |.*/Audio-Ecasound-\d # I have only an old ecasound available, also expected problems with unthreaded perls
-    |XXXPRBRENAN/ # I am giving up ... everything by PRBRENAN is broken. Wait until he is reacting on the RT tickets --- allow again: author does not seem to be active since 2012
     |.*/Filesys-SamFS-\d # seems to be sun-only
     |.*/DBD-DB2-\d # needs DB2 database
     |.*/DBD-Sybase-\d # needs Sybase database
