@@ -447,7 +447,7 @@ match:
     |.*/Schema-RDBMS-AUS-0.04.tar.gz # asks questions; check and fix! XXX
     |.*/Script-0\.53\. # test is rather interactive
     |.*/TAP-Convert-TET-0.2.1.tar.gz # asks questions; check and fix! XXX
-    |.*/Term-Screen-\d
+    |.*/Term-Screen-\d # https://rt.cpan.org/Ticket/Display.html?id=25890
     |.*/Term-Screen-ReadLine-\d
     |.*/Term-ShellKit-\d
     |.*/TextLinkAds-\d # wants a valid XML
@@ -1327,5 +1327,6 @@ match:
     |ARISTOTLE/XML-Builder-0.903.tar.gz # recursive self-dependency --- https://github.com/ap/XML-Builder/issues/1
     |SHOORICK/Dancer-Plugin-Formatter-0.02.tar.gz # recursive self-dependency --- https://rt.cpan.org/Ticket/Display.html?id=101810
     |PLICEASE/Yars-1.05.tar.gz # out of memory + huge test log
+    |VTI/Devel-Mutator-0.01.tar.gz # out of memory + huge test log
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
