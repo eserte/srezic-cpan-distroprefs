@@ -403,7 +403,7 @@ match:
     |MIYAGAWA/AnyEvent-Twitter-Stream-0.26.tar.gz # endless test run - http://www.cpantesters.org/cpan/report/4faf6f20-aec9-11e3-84e3-31d2e0bfc7aa
     |MJEMMESON/Mojo-Log-JSON-0.01.tar.gz # tests hang (9.2, 10.0)
     |TEX/Data-Persist-0.12.tar.gz # locking issue (?) - https://rt.cpan.org/Ticket/Display.html?id=95349
-    |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]" (only freebsd, not debian/wheezy)
+    |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]" (only freebsd, not debian/wheezy) -> https://github.com/jozef/CPAN-Patches/issues/1
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
