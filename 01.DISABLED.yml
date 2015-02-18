@@ -411,14 +411,6 @@ match:
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
-comment: "Problems with freebsd and 5.8.8 (endless loop with CPAN.pm)"
-match:
-  perlconfig:
-    version: '^5\.8\.8'
-    archname: '(-freebsd)'
-  distribution: '/XXXClass-DBI-Plugin-FilterOnClick-1\.1\.tar\.gz'
-disabled: 1
---- 
 comment: "Interactive configuration or tests"
 match:
   distribution: |
