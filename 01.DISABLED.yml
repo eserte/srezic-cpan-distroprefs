@@ -521,11 +521,60 @@ match:
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
-comment: "Broken distribution (empty, without Makefile.PL/Build.PL ...)"
+comment: "Broken distribution (empty, without Makefile.PL/Build.PL, wrong permissions in tarball ...)"
 match:
   distribution: |
     ^(?x:
      NINE/WWW-WebKit-0.02.tar.gz
+    |.*/RAR-Unrar-1.01 # wrong directory permissions
+    |OEMBRY/HTML2XHTML-0.04[ab]\.tar\.gz # wrong directory permissions http://rt.cpan.org/Ticket/Display.html?id=32099
+    |.*/Ante-Deluvian-Dialog-0.01.tar.gz # wrong directory permissions, fixed in 0.02
+    |.*/Math-Transform-List-1.001.tar.gz # wrong directory permissions? reported!
+    |.*/Math-Transform-List-1.002.tar.gz # wrong directory permissions? reported! https://rt.cpan.org/Ticket/Display.html?id=44450
+    |.*/Math-Disarrange-List-1.002.tar.gz # wrong directory permissions? reported!
+    |.*/Math-Subsets-List-1.002.tar.gz # wrong directory permissions? reported!
+    |.*/Statistics-ANOVA-0.062.tar.gz # wrong directory permissions? reported by Frank Wiegand
+    |.*/Statistics-FisherPitman-0.032.tar.gz # wrong directory permissions , reported
+    |.*/Statistics-Zed-0.022.tar.gz # wrong directory permissions?, same author
+    |.*/Statistics-Sequences-0.031.tar.gz # wrong directory permissions?, same author
+    |.*/Statistics-SDT-0.031.tar.gz # still ...
+    |.*/Math-Permute-List-1.002.tar.gz #  wrong directory permissions?, reported!
+    |.*/Math-Permute-List-1.004.tar.gz # still ...
+    |.*/Math-Cartesian-Product-1.001.tar.gz # wrong directory permissions, same author as above
+    |.*/Math-Cartesian-Product-1.003.tar.gz # still ...
+    |.*/GNTP-Growl-0.\d+.tar.gz # wrong directory permissions (seen with 0.01, 0.03, 0.04)
+    |.*/XML-Reader-0.01.tar.gz # wrong directory permissions. same author like Term-Sprog (KEICHNER), see below. no RT queue!
+    |.*/DateTime-TimeZone-HPUX-0.01.tar.gz # wrong directory permissions
+    |.*/DateTime-TimeZone-HPUX-0.03.tar.gz # wrong directory permissions
+    |.*/DateTime-TimeZone-HPUX-0.04.tar.gz # wrong directory permissions
+    |.*/Time-Simple-0.055b.tar.gz # wrong directory permissions
+    |.*/Tk-GridColumns-0\.07\.tar\.gz # broken tarball
+    |SANKO/Net-BitTorrent-0\.027_001\.tar\.gz # maybe broken tarball; permission problems
+    |.*/Language-Lisp-ECLs-0\.21\.tar\.gz # broken tarball (permissions!) (fixed in later distros, at least in 0.27)
+    |.*/PDF-API2-0\.71\.tar\.gz # broken tarball (directory permissions!) (http://rt.cpan.org/Public/Bug/Display.html?id=38376, fixed in later distros, at least in 0.72.003)
+    |.*/Pod-Trial-LinkImg-0.005.tgz # broken tarball? (directory permissions?)
+    |ARFREITAS/DTS-0\.07\.tar\.gz # distribution has bad permissions (anyway a windows-only package, it seems)
+    |LDOMKE/Tk-XPMs-1.10.tar.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=41176>, fixed in 1.11
+    |RENEEB/Wx-Perl-DirTree-0.01.tar.gz # distribution has bad directory permissions, fixed in 0.06, it seems
+    |RENEEB/Tk-Airports-0.04.tar.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=41433>, fixed in 0.061
+    |.*/Term-Sprog-0.01.tar.gz # distribution has bad directory permissions
+    |.*/Term-Sprog-0.03.tar.gz # distribution has still bad directory permissions. Reported by email, because there's no RT queue for this package
+    |.*/Term-Sprog-0.04.tar.gz # distribution has still bad directory permissions
+    |.*/Tk-Wizard-2\.14[34]\.tar\.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=42080>
+    |.*/Catalyst-View-Component-SubInclude-0.0[23]\.tar.gz # distribution has bad directory permissions
+    |BJOERN/List-OrderBy-0.1.tar.gz # permission problem (reported by mail)
+    |MTHURN/I18N-Charset-1.403.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=82739) (all of the following: a Module-Install problem? https://rt.cpan.org/Ticket/Display.html?id=83743)
+    |MTHURN/I18N-Charset-1.404.tar.gz # probably also permission problem (without checking...)
+    |MTHURN/I18N-Charset-1.407.tar.gz # probably also permission problem (without checking...)
+    |MTHURN/WWW-Ebay-0.095.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=88205)
+    |MTHURN/WWW-Search-Ebay-3.024.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
+    |MTHURN/WWW-Search-Ebay-3.025.tar.gz # probably also permission problem (without checking...)
+    |MTHURN/WWW-Search-Ebay-3.029.tar.gz # again permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
+    |MTHURN/WWW-Search-Ebay-3.032.tar.gz # again permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
+    |MTHURN/WWW-Search-Ebay-Europe-2.011.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=83741)
+    |MTHURN/WWW-Search-Ebay-Europe-2.012.tar.gz # also permission problem (without checking...)
+    |MTHURN/WWW-Search-Ebay-Europe-2.013.tar.gz # also permission problem (without further checking...)
+    |MTHURN/WWW-Amazon-Wishlist-2.009.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=91441)
     |.*/Getopt-ExPar-1\.01\.tar\.gz # no Makefile.PL, would be tested every time
     |.*/Biblio-Citation-Compare-0.05.tar.gz # no Makefile.PL, would be tested every time
     |.*/WWW-Finances-Bovespa2-0.(01|02|03).tar.gz # no Makefile.PL, would be tested every time; wrong directory hierarchie
@@ -540,6 +589,20 @@ match:
     |JRUBIN/ft817os-0.9.tar.gz # no Makefile.PL
     |JPRIYAL/NET-NETCONF.zip # no Makefile.PL
     |FELIXL/vptk/vptk_w_2_42b.tgz # no Makefile.PL
+    |WOLDRICH/App-re.pl-0.122.tar.gz # empty dist
+    |WOLDRICH/re.pl-0.120.tar.gz # empty dist
+    |.*/Data-Dumper-Store-1.00.tar.gz # almost empty dist, just meta file
+    |WOLDRICH/Bundle-Woldrich-Term-0.02.tar.gz # nearly empty tarball, just a META.yml
+    |NIKOLAS/DateLocale-1.20.tar.gz # empty tarball
+    |NIKOLAS/DateLocale-1.29.tar.gz # empty tarball
+    |SRCHULO/DigitalOcean-0.10.tar.gz # empty tarball
+    |BPMEDLEY/Mojo-IOLoop-ProcBackground-0.05.tar.gz # empty tarball
+    |PMB/Heise-Shariff-1.01.tar.gz # empty tarball
+    |PMB/Shariff-1.01.tar.gz # also empty
+    |DWHEELER/Pod-Simple-3.29_4.tar.gz # empty tarball (except META) (https://rt.cpan.org/Ticket/Display.html?id=102186)
+    |GWS/Map-Tube-Plugin-FuzzyFind-0.01.tar.gz # wrong permissions in tarball (sent mail)
+    |RGARTON/Statistics-Zed-0.071.tar.gz # wrong permissions in tarball (fixed in 0.072)
+    |RGARTON/Statistics-Autocorrelation-0.05.tar.gz # wrong permissions in tarball - https://rt.cpan.org/Ticket/Display.html?id=91704
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
@@ -809,29 +872,7 @@ match:
     |.*/Patch-SREZIC-Tk- # not necessary anymore
     |.*/Algorithm-OpenFST-\d # needs some additional stuff
     |.*/Audio-Ecasound-\d # I have only an old ecasound available, also expected problems with unthreaded perls
-    |.*/RAR-Unrar-1.01 # wrong directory permissions
-    |OEMBRY/HTML2XHTML-0.04[ab]\.tar\.gz # wrong directory permissions http://rt.cpan.org/Ticket/Display.html?id=32099
-    |.*/Ante-Deluvian-Dialog-0.01.tar.gz # wrong directory permissions, fixed in 0.02
-    |.*/Math-Transform-List-1.001.tar.gz # wrong directory permissions? reported!
-    |.*/Math-Transform-List-1.002.tar.gz # wrong directory permissions? reported! https://rt.cpan.org/Ticket/Display.html?id=44450
-    |.*/Math-Disarrange-List-1.002.tar.gz # wrong directory permissions? reported!
-    |.*/Math-Subsets-List-1.002.tar.gz # wrong directory permissions? reported!
-    |.*/Statistics-ANOVA-0.062.tar.gz # wrong directory permissions? reported by Frank Wiegand
-    |.*/Statistics-FisherPitman-0.032.tar.gz # wrong directory permissions , reported
-    |.*/Statistics-Zed-0.022.tar.gz # wrong directory permissions?, same author
-    |.*/Statistics-Sequences-0.031.tar.gz # wrong directory permissions?, same author
-    |.*/Statistics-SDT-0.031.tar.gz # still ...
-    |.*/Math-Permute-List-1.002.tar.gz #  wrong directory permissions?, reported!
-    |.*/Math-Permute-List-1.004.tar.gz # still ...
-    |.*/Math-Cartesian-Product-1.001.tar.gz # wrong directory permissions, same author as above
-    |.*/Math-Cartesian-Product-1.003.tar.gz # still ...
     |XXXPRBRENAN/ # I am giving up ... everything by PRBRENAN is broken. Wait until he is reacting on the RT tickets --- allow again: author does not seem to be active since 2012
-    |.*/GNTP-Growl-0.\d+.tar.gz # wrong directory permissions (seen with 0.01, 0.03, 0.04)
-    |.*/XML-Reader-0.01.tar.gz # wrong directory permissions. same author like Term-Sprog (KEICHNER), see below. no RT queue!
-    |.*/DateTime-TimeZone-HPUX-0.01.tar.gz # wrong directory permissions
-    |.*/DateTime-TimeZone-HPUX-0.03.tar.gz # wrong directory permissions
-    |.*/DateTime-TimeZone-HPUX-0.04.tar.gz # wrong directory permissions
-    |.*/Time-Simple-0.055b.tar.gz # wrong directory permissions
     |.*/Filesys-SamFS-\d # seems to be sun-only
     |.*/DBD-DB2-\d # needs DB2 database
     |.*/DBD-Sybase-\d # needs Sybase database
@@ -870,11 +911,6 @@ match:
     |.*/Tivoli-AccessManager-Admin-\d # unlikely I have this installed anywhere
     |.*/Net-Amazon-AWIS-\d # needs credentials
     |.*/VCS-CMSynergy-\d
-    |.*/Tk-GridColumns-0\.07\.tar\.gz # broken tarball
-    |SANKO/Net-BitTorrent-0\.027_001\.tar\.gz # maybe broken tarball; permission problems
-    |.*/Language-Lisp-ECLs-0\.21\.tar\.gz # broken tarball (permissions!) (fixed in later distros, at least in 0.27)
-    |.*/PDF-API2-0\.71\.tar\.gz # broken tarball (directory permissions!) (http://rt.cpan.org/Public/Bug/Display.html?id=38376, fixed in later distros, at least in 0.72.003)
-    |.*/Pod-Trial-LinkImg-0.005.tgz # broken tarball? (directory permissions?)
     |.*/Mail-Cclient-\d # probably needs Cclient?
     |.*/Net-LDAPapi-\d # needs probably libraries I don't have, also does not use prompt(), so determining the questions is difficult
     |.*/Text-Templar-2\.43 # wants to install ExtUtils::AutoInstall
@@ -1000,15 +1036,6 @@ match:
     |TURNERJW/ptkftp.1.00.tgz # distro contains both files and directories, bad
     |.*/FreeHAL-\d # dangerous! some versions of this distro contain old version of version.pm
     |.*/Net-Peep-\d # needs a peep server
-    |ARFREITAS/DTS-0\.07\.tar\.gz # distribution has bad permissions (anyway a windows-only package, it seems)
-    |LDOMKE/Tk-XPMs-1.10.tar.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=41176>, fixed in 1.11
-    |RENEEB/Wx-Perl-DirTree-0.01.tar.gz # distribution has bad directory permissions, fixed in 0.06, it seems
-    |RENEEB/Tk-Airports-0.04.tar.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=41433>, fixed in 0.061
-    |.*/Term-Sprog-0.01.tar.gz # distribution has bad directory permissions
-    |.*/Term-Sprog-0.03.tar.gz # distribution has still bad directory permissions. Reported by email, because there's no RT queue for this package
-    |.*/Term-Sprog-0.04.tar.gz # distribution has still bad directory permissions
-    |.*/Tk-Wizard-2\.14[34]\.tar\.gz # distribution has bad directory permissions <http://rt.cpan.org/Public/Bug/Display.html?id=42080>
-    |.*/Catalyst-View-Component-SubInclude-0.0[23]\.tar.gz # distribution has bad directory permissions
     |.*/Text-NLP-Stanford-EntityExtract-\d # needs the Stanford Named Entity recogniser from http://nlp.stanford.edu/ner/index.shtml
     |ANONWB/WWW-Patent-Page-0.106.0.tar.gz # dangerous if there are test failures, may destroy terminal or print via xterm!
     |BOKUTIN/WWW-Hashdb-0.01.tar.gz # endless loop
@@ -1074,9 +1101,6 @@ match:
     |.*/Bio-Medpost-\d # needs medpost, not in ports and neither part of debian
     |.*/Module-Install-RPM-0\.01\. # dangerous, as it overrides the standard WriteAll function, leading into interactive questions https://rt.cpan.org/Ticket/Display.html?id=67027
     |.*/Bundle-Everything- # no point in testing this one... but excluding it does not work?!
-    |WOLDRICH/App-re.pl-0.122.tar.gz # empty dist
-    |WOLDRICH/re.pl-0.120.tar.gz # empty dist
-    |.*/Data-Dumper-Store-1.00.tar.gz # almost empty dist, just meta file
     |.*/IO-Moose-0\.1004\. # broken tarball, contains blib directories, https://rt.cpan.org/Ticket/Display.html?id=67360
     |.*/Weather-WWO-0\.03\. # installs inc/Module/Install.pm: https://rt.cpan.org/Ticket/Display.html?id=67519
     |DROLSKY/Params-Validate-0.96.tar.gz # breakage, avoid, use 0.97
@@ -1225,7 +1249,6 @@ match:
     |XENU/CGI-Env-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
     |CHETANG/API-ReviewBoard-0.1.tar.gz # no Makefile.PL, no proper directory structure
     |ROKR/Acme-Indigest-Crypt-0.0011.tar.gz # runtime 45 min
-    |WOLDRICH/Bundle-Woldrich-Term-0.02.tar.gz # nearly empty tarball, just a META.yml
     |KRAIH/nothing.tar.gz # not a tarball?
     |.*/PDL-SVDLIBC- # no svdlibc available
     |WSDOOKADR/Constructible-0.02.tar.gz # kills CPAN shell
@@ -1252,26 +1275,11 @@ match:
     |BGPMON/BGPmon-core-1-00.tar.gz # tests hang on freebsd8
     |UVOELKER/AnyEvent-TWS-0\.000_01\. # hangs on freebsd
     |K/KK/KKANE/template-provider-http.tar.gz # "does not appear to be packaged according to CPAN tester guidelines" (and test hangs on freebsd)
-    |BJOERN/List-OrderBy-0.1.tar.gz # permission problem (reported by mail)
     |HOFSTETTM/Geo-Heatmap-0.05.tar.gz # no Makefile.PL, cannot be build, tested, installed (https://rt.cpan.org/Ticket/Display.html?id=82791)
-    |MTHURN/I18N-Charset-1.403.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=82739) (all of the following: a Module-Install problem? https://rt.cpan.org/Ticket/Display.html?id=83743)
-    |MTHURN/I18N-Charset-1.404.tar.gz # probably also permission problem (without checking...)
-    |MTHURN/I18N-Charset-1.407.tar.gz # probably also permission problem (without checking...)
-    |MTHURN/WWW-Ebay-0.095.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=88205)
-    |MTHURN/WWW-Search-Ebay-3.024.tar.gz # permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
-    |MTHURN/WWW-Search-Ebay-3.025.tar.gz # probably also permission problem (without checking...)
-    |MTHURN/WWW-Search-Ebay-3.029.tar.gz # again permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
-    |MTHURN/WWW-Search-Ebay-3.032.tar.gz # again permission problem (https://rt.cpan.org/Ticket/Display.html?id=83740)
-    |MTHURN/WWW-Search-Ebay-Europe-2.011.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=83741)
-    |MTHURN/WWW-Search-Ebay-Europe-2.012.tar.gz # also permission problem (without checking...)
-    |MTHURN/WWW-Search-Ebay-Europe-2.013.tar.gz # also permission problem (without further checking...)
-    |MTHURN/WWW-Amazon-Wishlist-2.009.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=91441)
     |COSIMO/Net-Statsd-Server-0.09.tar.gz # hangs on freebsd8
     |COSIMO/Net-Statsd-Server-0.10.tar.gz # hangs on freebsd8 and freebsd9 (Couldn't set SO_RCVBUF: No buffer space available)
     |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
     |SILLYMOOS/ProxyManager-0.01.tar.gz # BUILD.PL instead of Build.PL
-    |RGARTON/Statistics-Zed-0.071.tar.gz # wrong permissions in tarball (fixed in 0.072)
-    |RGARTON/Statistics-Autocorrelation-0.05.tar.gz # wrong permissions in tarball - https://rt.cpan.org/Ticket/Display.html?id=91704
     |JFRIED/Rex-Endpoint-HTTP-0.35.0.tar.gz # invisible interactive question when doing a "mv"
     |BABKIN/triceps-1.0.91-20121129.tgz # no Makefile.PL
     |RKIES/deskpad-0.75.tar.gz # no Makefile.PL
@@ -1330,23 +1338,15 @@ match:
     |WINTRU/Carrot-1.1.307.tgz # tarball problems with some system (old Archive::Zip?), otherwise: not recognized as a perl package
     |.*/Unicode-Tussle-\d # installs too much to .../bin, e.g. scrips like "rename" or "leo"
     |RNEWSHAM/WebService-DPD-API-v0.0001.tar.gz # broken versions in PREREQ_PM https://rt.cpan.org/Ticket/Display.html?id=98313
-    |NIKOLAS/DateLocale-1.20.tar.gz # empty tarball
-    |NIKOLAS/DateLocale-1.29.tar.gz # empty tarball
     |SUENAGA/WWW-Kosoku-API-0.09.tar.gz # recursive self-dependency --- https://github.com/sue7ga/WWW-Kosoku-API/issues/1
-    |SRCHULO/DigitalOcean-0.10.tar.gz # empty tarball
     |INGY/Acme-Math-XS-XS-0.0.1.tar.gz # no Makefile.PL, maybe empty
     |INGY/Acme-Math-XS-XS-0.0.2.tar.gz # no Makefile.PL
     |EWARNCKE/ArangoDB-0.01.tar.gz # not recognized as a perl package
-    |BPMEDLEY/Mojo-IOLoop-ProcBackground-0.05.tar.gz # empty tarball
-    |PMB/Heise-Shariff-1.01.tar.gz # empty tarball
-    |PMB/Shariff-1.01.tar.gz # also empty
     |EKAWAS/lsid-perl-1.1.7.tar.gz # probably using module::autoinstall?
     |CHENGANG/Redis-AOF-Tail-File-0.04.tar.gz # endless verbose loop in tests, at least on freebsd 10.1
     |DUNCAN/Alien-Microsoft-Outlook-0.06b.zip # extra directory level in tarball
     |ARISTOTLE/XML-Builder-0.903.tar.gz # recursive self-dependency --- https://github.com/ap/XML-Builder/issues/1
     |SHOORICK/Dancer-Plugin-Formatter-0.02.tar.gz # recursive self-dependency --- https://rt.cpan.org/Ticket/Display.html?id=101810
     |PLICEASE/Yars-1.05.tar.gz # out of memory + huge test log
-    |GWS/Map-Tube-Plugin-FuzzyFind-0.01.tar.gz # wrong permissions in tarball (sent mail)
-    |DWHEELER/Pod-Simple-3.29_4.tar.gz # empty tarball (except META) (https://rt.cpan.org/Ticket/Display.html?id=102186)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
