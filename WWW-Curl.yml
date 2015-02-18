@@ -4,10 +4,18 @@ match:
   perlconfig:
     archname: 'freebsd$'
     osvers: '^(9|10)\.'
+    ldflags: '-pthread'
+# Perls with -pthread run the test without problems, so no disabled:1 here
+---
+match:
+  distribution: '/WWW-Curl-4\.(15|16|17)\.'
+  perlconfig:
+    archname: 'freebsd$'
+    osvers: '^(9|10)\.'
   env:
     PERL_BATCH: yes
 disabled: 1
-# Hangs with unthreaded perl, maybe -pthread is needed?
+# Hangs with unthreaded perl if -pthread is not enabled.
 # Note: even with wait-and-kill active, the tests need more than 30 minutes, so disabling it is still a good idea
 ---
 match:
