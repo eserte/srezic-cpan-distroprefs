@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Unicode-String-2\.09\.'
+  perlconfig:
+    version: '^5\.21\.'
+patches:
+  - SREZIC/patches/Unicode-String-2.09-RT74354.patch
