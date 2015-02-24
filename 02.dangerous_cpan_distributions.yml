@@ -182,7 +182,6 @@ match:
      |\QBEPPU/Squatting-0.60.tar.gz\E
      |\QBEPPU/Squatting-0.81.tar.gz\E
      |\QBERNARD/App-RecordStream-3.7.3.tar.gz\E
-     |\QBEROV/Ado-0.78.tar.gz\E
      |\QBETTELLI/Image-MetaData-JPEG-0.15.tar.gz\E
      |\QBIGJ/File-Random-0.07.tar.gz\E
      |\QBIGJ/File-Random-0.10.tar.gz\E
@@ -269,7 +268,6 @@ match:
      |\QCLEISHMAN/Cache-2.00.tar.gz\E
      |\QCLEMBURG/Test-Unit-0.13.tar.gz\E
      |\QCLEMBURG/Test-Unit-0.14.tar.gz\E
-     |\QCLIPLAND/Wrangler-2.13.tar.gz\E
      |\QCLKAO/SVK-1.08.tar.gz\E
      |\QCLKAO/SVK-v2.0.2.tar.gz\E
      |\QCLOOS/RT-Extension-ReminderImproved-0.04.tar.gz\E
@@ -307,6 +305,7 @@ match:
      |\QDAGOLDEN/Metabase-0.016.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDAKKAR/Plack-Handler-Stomp-1.09.tar.gz\E
+     |\QDALEEVANS/Text-Spintax-0.04.tar.gz\E
      |\QDAMI/SQL-Abstract-FromQuery-0.02.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.14.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.17.tar.gz\E
@@ -362,6 +361,7 @@ match:
      |\QDJBURKE/Inline-SLang-0.06.tar.gz\E
      |\QDJH/Maypole-Plugin-Authorization-0.05.tar.gz\E
      |\QDJUNKIM/Statistics-RserveClient-0.04.tgz\E
+     |\QDJZORT/Catalyst-View-TT-Alloy-0.00005.tar.gz\E
      |\QDKAMHOLZ/Catalyst-Plugin-Authentication-Store-DBIC-0.07.tar.gz\E
      |\QDKAMHOLZ/DBIx-Class-0.04001.tar.gz\E
      |\QDKAMHOLZ/DBIx-Class-0.05006.tar.gz\E
@@ -607,6 +607,7 @@ match:
      |\QGUGU/Catalyst-Controller-RateLimit-0.17.tar.gz\E
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
+     |\QGWILLIAMS/Attean-0.002.tar.gz\E
      |\QGWYN/POE-Component-Daemon-0.1301.tar.gz\E
      |\QHACKER/Agent-TCLI-0.02.tar.gz\E
      |\QHAGANK/Apache-RewritingProxy-0.4.tar.gz\E
@@ -735,7 +736,6 @@ match:
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
      |\QJACQUESG/Git-Raw-0.50.tar.gz\E
      |\QJAMADAM/Mojolicious-Plugin-PlackMiddleware-0.19.tar.gz\E
-     |\QJAMADAM/WWW-Crawler-Mojo-0.03.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
@@ -1191,7 +1191,6 @@ match:
      |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.19.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
-     |\QMSISK/Net-Nmsg-0.09.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1328,7 +1327,6 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLER/Catalyst-View-TT-Alloy-0.00003.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1337,6 +1335,8 @@ match:
      |\QPERRAD/CORBA-XS-0.60.tar.gz\E
      |\QPERRAD/CORBA-XS-0.62.tar.gz\E
      |\QPERRAD/WAP-wbxml-1.10.tar.gz\E
+     |\QPERRETTDL/Dancer-Plugin-Articulate-0.001.tar.gz\E
+     |\QPERRETTDL/Dancer2-Plugin-Articulate-0.001.tar.gz\E
      |\QPERRETTDL/Test-Proto-0.011.tar.gz\E
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
@@ -1455,7 +1455,6 @@ match:
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
      |\QRTKH/Raisin-0.4003.tar.gz\E
-     |\QRUBYKAT/WWW-FetchStory-0.1815.tar.gz\E
      |\QRURBAN/B-C-1.36.tar.gz\E
      |\QRURBAN/C-DynaLib-0.60.tar.gz\E
      |\QRUSAKOV/ePortal-4.2.tar.gz\E
@@ -1784,7 +1783,6 @@ match:
      |\QWJIAN/MColPro-1.12.tar.gz\E
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
-     |\QWSDOOKADR/Tsk-0.041.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
      |\QWYANT/Astro-App-Satpass2-0.020.tar.gz\E
      |\QWYANT/Astro-App-Satpass2-0.023.tar.gz\E
@@ -1801,6 +1799,7 @@ match:
      |\QXAOINC/XAO-FS-1.03.tar.gz\E
      |\QXAOINC/XAO-FS-1.04.tar.gz\E
      |\QXAOINC/XAO-MySQL-1.0.tar.gz\E
+     |\QXENO/Business-CyberSource-0.010005.tar.gz\E
      |\QXENO/Business-OnlinePayment-CyberSource-2.01.tar.gz\E
      |\QXEONTIME/Sakai-Nakamura-0.11.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-6.02.tar.gz\E
