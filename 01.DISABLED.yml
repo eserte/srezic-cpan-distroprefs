@@ -1328,5 +1328,6 @@ match:
     |SHOORICK/Dancer-Plugin-Formatter-0.02.tar.gz # recursive self-dependency --- https://rt.cpan.org/Ticket/Display.html?id=101810
     |PLICEASE/Yars-1.05.tar.gz # out of memory + huge test log
     |VTI/Devel-Mutator-0.01.tar.gz # out of memory + huge test log
+    |GWS/Map-Tube-Glasgow-0.05.tar.gz # problematic tarball
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
