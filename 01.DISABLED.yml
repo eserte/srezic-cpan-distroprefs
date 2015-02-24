@@ -1329,5 +1329,6 @@ match:
     |PLICEASE/Yars-1.05.tar.gz # out of memory + huge test log
     |VTI/Devel-Mutator-0.01.tar.gz # out of memory + huge test log
     |GWS/Map-Tube-Glasgow-0.05.tar.gz # problematic tarball
+    |GWS/Map-Tube-KoelnBonn-0.04.tar.gz # dito
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
