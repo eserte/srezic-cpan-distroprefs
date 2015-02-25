@@ -1331,5 +1331,6 @@ match:
     |GWS/Map-Tube-Glasgow-0.05.tar.gz # problematic tarball
     |GWS/Map-Tube-KoelnBonn-0.04.tar.gz # dito
     |GWS/Map-Tube-.* # XXX it seems all tarballs by GWS are broken
+    |POWERMAN/App-migrate-v0.1.0.tar.gz # XXX needs to be checked, seems to breaks somehow the freebsd smokers
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
