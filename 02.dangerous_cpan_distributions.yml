@@ -79,7 +79,6 @@ match:
      |\QANAZAWA/CGI-Header-0.41.tar.gz\E
      |\QANAZAWA/CGI-Header-0.56.tar.gz\E
      |\QANAZAWA/CGI-Header-0.59.tar.gz\E
-     |\QANDK/CPAN-1.9402.tar.gz\E
      |\QANDK/Devel-SawAmpersand-0.32.tar.gz\E
      |\QANDRE/Business-CPI-0.908.tar.gz\E
      |\QANDREMAR/Number-Phone-NO-0.09.tar.gz\E
@@ -1220,6 +1219,7 @@ match:
      |\QMVERB/GIFgraph-1.10.tar.gz\E
      |\QMVZ/Email-Outlook-Message-0.915.tar.gz\E
      |\QMWARDELL/Wx-TreeListCtrl-0.05.tar.gz\E
+     |\QMZIESCHA/DBIx-Schema-Changelog-v0.1.0.tar.gz\E
      |\QNATG/Class-AutoDB-1.28.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsMulti-1.13.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsSingle-1.13.tar.gz\E
@@ -1247,6 +1247,7 @@ match:
      |\QNICS/Catmandu-0.0902.tar.gz\E
      |\QNICS/Catmandu-0.8002.tar.gz\E
      |\QNICS/Catmandu-0.9204.tar.gz\E
+     |\QNICS/Catmandu-0.9210.tar.gz\E
      |\QNICS/Catmandu-ArXiv-0.01.tar.gz\E
      |\QNICS/Catmandu-Atom-0.02.tar.gz\E
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
@@ -1449,7 +1450,6 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
-     |\QRSCHUPP/Module-ScanDeps-1.11.tar.gz\E
      |\QRSCHUPP/VCS-CMSynergy-1.35.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
@@ -1621,6 +1621,7 @@ match:
      |\QSULLR/Net-IMP-0.620.tar.gz\E
      |\QSULLR/Net-IMP-HTTP-0.521.tar.gz\E
      |\QSULLR/Net-Inspect-0.22.tar.gz\E
+     |\QSULLR/Net-Inspect-0.316.tar.gz\E
      |\QSULLR/Net-SSLGlue-1.0.tar.gz\E
      |\QSUMUS/DWH_File-0.21.tar.gz\E
      |\QSUMUS/DWH_File.0.03.tar.gz\E
@@ -1839,7 +1840,6 @@ match:
      |\QYUTA/Cv-0.25.tar.gz\E
      |\QZABA/Treex-Core-0.08399.tar.gz\E
      |\QZAG/Collection-0.38.tar.gz\E
-     |\QZAG/HTTP-Server-Simple-WebDAO-0.01.tar.gz\E
      |\QZAG/Plosurin-v0.1.1.tar.gz\E
      |\QZAKAME/Google-Plus-0.002.tar.gz\E
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
