@@ -1,0 +1,6 @@
+---
+match:
+  distribution: 'CHROMATIC/SUPER-1.20120705.tar.gz'
+goto: 'CHROMATIC/SUPER-1.20141117.tar.gz'
+# goto to overcome wrong indexing:
+# https://rt.cpan.org/Ticket/Display.html?id=100913
