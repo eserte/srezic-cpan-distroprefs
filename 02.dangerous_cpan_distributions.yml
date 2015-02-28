@@ -304,7 +304,6 @@ match:
      |\QDAGOLDEN/Metabase-0.016.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDAKKAR/Plack-Handler-Stomp-1.09.tar.gz\E
-     |\QDALEEVANS/Text-Spintax-0.04.tar.gz\E
      |\QDAMI/SQL-Abstract-FromQuery-0.02.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.14.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.17.tar.gz\E
@@ -999,6 +998,7 @@ match:
      |\QLESPEA/Project-Euler-v0.1.5.tar.gz\E
      |\QLGEHLEN/SVG-Rasterize-0.003006.tar.gz\E
      |\QLHELION/Helios-2.81.tar.gz\E
+     |\QLIKEHIKE/CGI-OptimalQuery-0.13.tar.gz\E
      |\QLINNIN/Business-PayPal-SDK-0.11.tar.gz\E
      |\QLKUNDRAK/RPM2-0.70.tar.gz\E
      |\QLMC/Net-Whois-RIPE-1.31.tar.gz\E
@@ -1099,6 +1099,7 @@ match:
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
+     |\QMGRIMES/AnyEvent-Filesys-Notify-1.15.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
