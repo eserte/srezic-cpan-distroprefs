@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Mozilla-CA-20141217.tar.gz'
+  perlconfig:
+    myuname: 'freebsd cvrsnica.herceg.de'
+goto: ABH/Mozilla-CA-20130114.tar.gz
+# See https://rt.cpan.org/Ticket/Display.html?id=101908 and
+# https://github.com/gisle/mozilla-ca/pull/5 for discussion.
+# Critical on cvrsnica, because Flickr::API does not work
+# otherwise.
