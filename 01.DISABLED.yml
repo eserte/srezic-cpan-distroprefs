@@ -1333,6 +1333,6 @@ match:
     |GWS/Map-Tube-Lyon-0.04.tar.gz # dito, fixed with 0.05
     |GWS/Map-Tube-KoelnBonn-0.05.tar.gz # dito
     |POWERMAN/App-migrate-v0.1.0.tar.gz # XXX needs to be checked, seems to breaks somehow the freebsd smokers
-    |POWERMAN/App-migrate-v0.1.1.tar.gz # XXX dito
+    |POWERMAN/App-migrate-v0.1.1.tar.gz # XXX dito -> https://github.com/powerman/migrate/issues/1
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
