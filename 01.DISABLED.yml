@@ -583,6 +583,7 @@ match:
     |GWS/Map-Tube-Plugin-FuzzyFind-0.01.tar.gz # wrong permissions in tarball (sent mail)
     |RGARTON/Statistics-Zed-0.071.tar.gz # wrong permissions in tarball (fixed in 0.072)
     |RGARTON/Statistics-Autocorrelation-0.05.tar.gz # wrong permissions in tarball - https://rt.cpan.org/Ticket/Display.html?id=91704
+    |NJLG/Rethinkdb-0.08.tar.gz # probably empty tarball
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
