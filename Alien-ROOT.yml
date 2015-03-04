@@ -1,14 +1,14 @@
+#---
+#match:
+#  distribution: '/Alien-ROOT-v?\d'
+#  env:
+#    PERL_BATCH: yes
+#disabled: 1
+## Searches too long for ROOT, expect times out
 ---
 match:
-  distribution: "/Alien-ROOT-v?\d"
-  env:
-    PERL_BATCH: yes
-disabled: 1
-# Searches too long for ROOT, expect times out
----
-match:
-  distribution: "/Alien-ROOT-v?\d"
+  distribution: '/Alien-ROOT-v?\d'
 pl:
   expect:
-    - "\QROOT was not found on your system. Install it now?"
+    - '\QROOT was not found on your system or you forced a recompile. Build and install it now?'
     - "y\n"
