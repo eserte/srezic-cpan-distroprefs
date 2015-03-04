@@ -1,7 +1,9 @@
 ---
 match:
-  distribution: "/Alien-Libevent-\d"
+  distribution: '/Alien-Libevent-\d'
 pl:
   expect:
-    - "\QReally install? [n]"
+    - '\QReally install? [n]'
     - "\n"
+# But does not work for newer perls without for qw(...) support.
+# See: https://rt.cpan.org/Ticket/Update.html?id=98058
