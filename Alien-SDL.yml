@@ -1,28 +1,28 @@
 match:
-  distribution: "/Alien-SDL-1\.427\."
+  distribution: '/Alien-SDL-1\.427\.'
 disabled: 1
 # XXX investigation needed...
 ---
 match:
-  distribution: "/Alien-SDL-1\.428_"
+  distribution: '/Alien-SDL-1\.428_'
 disabled: 1
 # XXX investigation needed...
 ---
 match:
-  distribution: "/Alien-SDL-1\.428\."
+  distribution: '/Alien-SDL-1\.428\.'
 disabled: 1
 # XXX investigation needed...
 ---
 match:
-  distribution: "/Alien-SDL-1\.430\."
+  distribution: '/Alien-SDL-1\.430\.'
 disabled: 1
 # XXX investigation needed...
 ---
 match:
-  distribution: "/Alien-SDL-v?\d"
+  distribution: '/Alien-SDL-v?\d'
 pl:
   eexpect:
     timeout: 360
     talk:
-      - "\QWhat way do you wanna go?"
+      - '\QWhat way do you wanna go?'
       - "\n"
