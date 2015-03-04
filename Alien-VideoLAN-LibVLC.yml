@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Alien-VideoLAN-LibVLC-\d"
+  distribution: '/Alien-VideoLAN-LibVLC-\d'
 #pl:
 #  expect:
 #    - "\QWhat way do you wanna go?"
