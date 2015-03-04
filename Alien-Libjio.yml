@@ -1,25 +1,25 @@
 ---
 match:
-  distribution: "/Alien-Libjio-\d"
+  distribution: '/Alien-Libjio-\d'
   perlconfig:
     archname: "-freebsd"
 pl:
   expect:
-    - "\Qlibjio was not found on your system. Install it now? [y ]"
+    - '\Qlibjio was not found on your system. Install it now? [y ]'
     - "y\n"
-    - "\QWhat is your system \"make\" command?"
+    - '\QWhat is your system "make" command?'
     - "gmake\n"
-    - "\Qlibjio includes other files including Python\E( and Ruby)?\Q bindings. Install them too? [n ]"
+    - '\Qlibjio includes other files including Python\E( and Ruby)?\Q bindings. Install them too? [n ]'
     - "\n"
 comment: "Seems that the makefile is gnu make specific"
 ---
 match:
-  distribution: "/Alien-Libjio-\d"
+  distribution: '/Alien-Libjio-\d'
 pl:
   expect:
-    - "\Qlibjio was not found on your system. Install it now? [y ]"
+    - '\Qlibjio was not found on your system. Install it now? [y ]'
     - "y\n"
-    - "\QWhat is your system \"make\" command?"
+    - '\QWhat is your system "make" command?'
     - "make\n"
-    - "\Qlibjio includes other files including Python\E( and Ruby)?\Q bindings. Install them too? [n ]"
+    - '\Qlibjio includes other files including Python\E( and Ruby)?\Q bindings. Install them too? [n ]'
     - "\n"
