@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Alien-SVN-v?\d"
+  distribution: '/Alien-SVN-v?\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
