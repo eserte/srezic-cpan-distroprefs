@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Alien-SDL2-0\.002\."
+  distribution: '/Alien-SDL2-0\.002\.'
   perlconfig:
     osname: freebsd
     osvers: 8.0-release
@@ -8,16 +8,16 @@ disabled: 1
 # Build phase seems to fail
 ---
 match:
-  distribution: "/Alien-SDL2-\d"
+  distribution: '/Alien-SDL2-\d'
 pl:
   eexpect:
     timeout: 360
     talk:
-      - "\QWhat way do you wanna go?"
+      - '\QWhat way do you wanna go?'
       - "\n"
 make:
   eexpect:
     timeout: 360
     talk:
-      - "\QDo you want to see all messages during configure/make"
+      - '\QDo you want to see all messages during configure/make'
       - "\n"
