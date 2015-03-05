@@ -1,10 +1,10 @@
 ---
 match:
-  distribution: "/AnyMQ-\d"
+  distribution: '/AnyMQ-\d'
 pl:
   expect:
-    - "\QAdd MooseX::Traits to the prerequisites? [n]"
+    - '\QAdd MooseX::Traits to the prerequisites? [n]'
     - "\n"
-    - "\QAdd MooseX::Types::DateTime to the prerequisites? [n]"
+    - '\QAdd MooseX::Types::DateTime to the prerequisites? [n]'
     - "\n"
 # See also: https://rt.cpan.org/Ticket/Display.html?id=65342
