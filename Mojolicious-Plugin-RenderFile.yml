@@ -3,5 +3,7 @@ match:
   distribution: '/Mojolicious-Plugin-RenderFile-\d'
 cpanconfig:
   prefer_external_tar: 0
+# -> but this does not work, still tar is used, even if Archive::Tar exists
+#
 # FreeBSD's tar/pax cannot handle the non-ascii chars in the 0.08 tarball
 # 0.09 is also affected -> https://rt.cpan.org/Ticket/Display.html?id=102537
