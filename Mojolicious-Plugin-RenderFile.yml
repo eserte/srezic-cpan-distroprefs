@@ -4,3 +4,4 @@ match:
 cpanconfig:
   prefer_external_tar: 0
 # FreeBSD's tar/pax cannot handle the non-ascii chars in the 0.08 tarball
+# 0.09 is also affected -> https://rt.cpan.org/Ticket/Display.html?id=102537
