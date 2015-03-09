@@ -697,7 +697,7 @@ match:
     |BARBIE/CPAN-YACSmoke-Plugin-NNTPWeb-0.07.tar.gz # may hang
     |XXXNUFFIN/Directory-Transactional-0.09.tar.gz # may hang on freebsd - but wait-and-kill takes care of it, so it's enabled again
     |MLEHMANN/AnyEvent-FastPing-1.13.tar.gz # load test hangs
-    |SAMV/Lingua-Translate-0.09. # systran test hangs
+    |SAMV/Lingua-Translate-0.09. # systran test hangs --- currently (2015-03-09) it does not hang, but tests fail, and reports cannot be sent because Pod-Constants version could not be determined
     |SPROUT/JE-0.051. # test hangs with 5.13.5
     |.*/Device-RFXCOM-1.103240 # endless loop in several tests
     |PFARR/Net-SMS-Clickatell-SOAP-v0.01. # invisible question
