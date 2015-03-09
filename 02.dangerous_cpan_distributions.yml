@@ -131,8 +131,10 @@ match:
      |\QAVAR/App-QuoteCC-0.01.tar.gz\E
      |\QAVAR/Constant-Export-Lazy-0.12.tar.gz\E
      |\QAVAR/git-deploy-6.00.tar.gz\E
+     |\QAVENJ/Bot-Cobalt-0.016002.tar.gz\E
      |\QAVENJ/Bot-Cobalt-Plugin-Silly-0.001.tar.gz\E
      |\QAVENJ/List-Objects-WithUtils-1.012001.tar.gz\E
+     |\QAVENJ/MooX-Role-POE-Emitter-1.001001.tar.gz\E
      |\QAVIF/Image-Compare-0.3.tar.gz\E
      |\QAVIF/String-REPartition-1.5.tar.gz\E
      |\QAVIKAK/Algorithm-DecisionTree-2.1.tar.gz\E
@@ -194,6 +196,7 @@ match:
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
      |\QBMORROW/IO-Unread-1.03.tar.gz\E
+     |\QBOB/OpenGuides-0.77.tar.gz\E
      |\QBOBTFISH/Catalyst-Devel-1.37.tar.gz\E
      |\QBOBTFISH/Catalyst-Plugin-Session-0.20.tar.gz\E
      |\QBOBTFISH/Catalyst-Runtime-5.80033.tar.gz\E
@@ -392,6 +395,7 @@ match:
      |\QDPATES/IPTables-IPv4-0.97b.tar.gz\E
      |\QDPAVLIN/Fuse-0.14.tar.gz\E
      |\QDPIROTTE/Mail-Chimp-0.12.tar.gz\E
+     |\QDQNEO/Amazon-S3-Thin-0.08.tar.gz\E
      |\QDROLSKY/Crixa-0.08.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.72.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.73.tar.gz\E
@@ -510,6 +514,7 @@ match:
      |\QFLORA/MooseX-AttributeHelpers-0.17.tar.gz\E
      |\QFMARIER/Gravatar-URL-1.05.tar.gz\E
      |\QFOTANGO/Froody-42.005.tar.gz\E
+     |\QFRANCKC/AnyEvent-Riak-0.02.tar.gz\E
      |\QFRANCKC/MooseX-Net-API-0.06.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.013.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.014.tar.gz\E
@@ -641,6 +646,7 @@ match:
      |\QHOBBESTIG/MediaWikiUtils-0.141011.tar.gz\E
      |\QHOBBESTIG/Net-Gandi-0.12.tar.gz\E
      |\QHOCHSTEN/Catmandu-OAI-0.05.tar.gz\E
+     |\QHOCHSTEN/MODS-Record-0.07.tar.gz\E
      |\QHOLLY/App-CLI-Extension-0.7.tar.gz\E
      |\QHOLT/makepp-1.19.tar.gz\E
      |\QHORNBURG/Dancer-Plugin-Interchange6-0.031.tar.gz\E
@@ -759,7 +765,7 @@ match:
      |\QJESSE/RTx-TicketlistTransactions-0.01.tar.gz\E
      |\QJESTER/Catalyst-Model-CDBI-Plain-0.02.tar.gz\E
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
-     |\QJFRIED/Rex-0.51.2.tar.gz\E
+     |\QJFRIED/Rex-0.57.0.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
@@ -1117,7 +1123,6 @@ match:
      |\QMIYAGAWA/PHP-Session-0.18.tar.gz\E
      |\QMIYAGAWA/Plack-1.0000.tar.gz\E
      |\QMIYAGAWA/Plack-1.0004.tar.gz\E
-     |\QMIYAGAWA/Plack-Middleware-Session-0.24.tar.gz\E
      |\QMIYAGAWA/Plagger-0.5.2.tar.gz\E
      |\QMIYAGAWA/Plagger-0.5.4.tar.gz\E
      |\QMIYAGAWA/Plagger-0.5.7.tar.gz\E
@@ -1220,6 +1225,7 @@ match:
      |\QMVERB/GIFgraph-1.10.tar.gz\E
      |\QMVZ/Email-Outlook-Message-0.915.tar.gz\E
      |\QMWARDELL/Wx-TreeListCtrl-0.05.tar.gz\E
+     |\QMZIESCHA/DBIx-Schema-Changelog-0.2.1.tar.gz\E
      |\QMZIESCHA/DBIx-Schema-Changelog-v0.1.0.tar.gz\E
      |\QNATG/Class-AutoDB-1.28.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsMulti-1.13.tar.gz\E
@@ -1337,7 +1343,6 @@ match:
      |\QPERRAD/CORBA-XS-0.60.tar.gz\E
      |\QPERRAD/CORBA-XS-0.62.tar.gz\E
      |\QPERRAD/WAP-wbxml-1.10.tar.gz\E
-     |\QPERRETTDL/Dancer-Plugin-Articulate-0.001.tar.gz\E
      |\QPERRETTDL/Dancer2-Plugin-Articulate-0.001.tar.gz\E
      |\QPERRETTDL/Test-Proto-0.011.tar.gz\E
      |\QPETDANCE/ack-1.96.tar.gz\E
