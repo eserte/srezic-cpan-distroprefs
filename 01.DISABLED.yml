@@ -1004,6 +1004,7 @@ match:
     |.*/Net-Trac-0\.01_01\.tar\.gz # kills the smoker
     |.*/Lingua-BrillTagger-\d # needs some files like CONTEXTUALRULEFILE for tests
     |.*/IO-Compress-Zlib-2\.014\.tar\.gz # circular dependency
+    |PERLANCAR/Unix-Passwd-File-0.17.tar.gz # circular dependency
     |.*/IMAP-Admin-\d # wants passwords
     |.*/Net-Netflix-\d # moved to WWW-Netflix
     |.*/Search-Circa-\d # wants a mysql database, many questions
