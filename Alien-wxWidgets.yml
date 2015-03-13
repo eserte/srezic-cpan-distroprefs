@@ -6,14 +6,15 @@ disabled: 1
 # Actually it fails at least if sys/inotify.h is available, which is
 # some BSD variant lacking some functions needed by wx.
 # Probably provided by devel/libinotify package.
---- 
-match:
-  distribution: '/Alien-wxWidgets-0\.67\.'
-  perlconfig:
-    osname: freebsd
-    osvers: '^9\.'
-disabled: 1
-# Compilation fails with FreeBSD 9 (and takes long time!), but FreeBSD 10 is fine
+#--- 
+#match:
+#  distribution: '/Alien-wxWidgets-0\.67\.'
+#  perlconfig:
+#    osname: freebsd
+#    osvers: '^9\.'
+#disabled: 1
+## Compilation fails with FreeBSD 9 (and takes long time!), but FreeBSD 10 is fine
+## -> not true: works on cvrsnica, but not on cvrsnica-freebsd-92
 ---
 comment: "I have wxWidgets on my system, but config program is named wxgtk2-2.6-config"
 match:
