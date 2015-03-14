@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/re-engine-TRE-0\.09\.'
+  perlconfig:
+    osname: freebsd
+    osvers: '^9\.'
+# for some reason, freebsd 10 is fine...
+cpanconfig:
+  make: "/usr/local/bin/gmake"
