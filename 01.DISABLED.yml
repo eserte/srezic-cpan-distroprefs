@@ -164,16 +164,10 @@ match:
     archname: "(solaris|MSWin32|cygwin|darwin|linux)"
 disabled: 1
 --- 
-comment: "Mac:: modules which work everywhere"
-match:
-  distribution: '/Mac-PropertyList-'
-  perlconfig:
-    archname: "(-freebsd|-linux|MSWin32|cygwin)"
-# no disabled: 1
---- 
+# note: Mac-* is allowed, e.g. Mac-PropertyList works everywhere
 comment: "Mac specific"
 match:
-  distribution: '/((Mac|MacOSX)-\D+|DBD-DtfSQLmac-\d|Net-Rendezvous-Publish-Backend-Apple-|AudioCD-Mac-)'
+  distribution: '/(MacOSX-\D+|DBD-DtfSQLmac-\d|Net-Rendezvous-Publish-Backend-Apple-|AudioCD-Mac-)'
   perlconfig:
     archname: "(-freebsd|-linux|MSWin32|cygwin)"
 disabled: 1
