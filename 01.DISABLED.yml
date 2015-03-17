@@ -164,6 +164,13 @@ match:
     archname: "(solaris|MSWin32|cygwin|darwin|linux)"
 disabled: 1
 --- 
+comment: "Mac:: modules which work everywhere"
+match:
+  distribution: '/Mac-PropertyList-'
+  perlconfig:
+    archname: "(-freebsd|-linux|MSWin32|cygwin)"
+# no disabled: 1
+--- 
 comment: "Mac specific"
 match:
   distribution: '/((Mac|MacOSX)-\D+|DBD-DtfSQLmac-\d|Net-Rendezvous-Publish-Backend-Apple-|AudioCD-Mac-)'
