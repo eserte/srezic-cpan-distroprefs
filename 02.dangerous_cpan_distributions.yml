@@ -239,6 +239,8 @@ match:
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
      |\QBYTEROCK/MooseX-AuthorizedMethodRoles-0.00.05.tar.gz\E
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
+     |\QCALID/ZMQ-FFI-0.19.tar.gz\E
+     |\QCALID/ZMQ-FFI-1.02.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARLOS/Dist-Zilla-Plugin-test2t-0.001031.tar.gz\E
      |\QCARPENTER/Storm-Tracker_0.01.tar.gz\E
@@ -343,8 +345,6 @@ match:
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
      |\QDDUMONT/Config-Model-2.055.tar.gz\E
-     |\QDEDMEDVED/SSIS-Package-0.01.tar.gz\E
-     |\QDEDMEDVED/VSGDR-UnitTest-TestSet-1.29.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDERF/Travel-Routing-DE-VRR-2.04.tar.gz\E
@@ -516,6 +516,7 @@ match:
      |\QFOTANGO/Froody-42.005.tar.gz\E
      |\QFRANCKC/AnyEvent-Riak-0.02.tar.gz\E
      |\QFRANCKC/MooseX-Net-API-0.06.tar.gz\E
+     |\QFREDERICD/Koha-Contrib-Sudoc-2.04.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.013.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.014.tar.gz\E
      |\QFREDERICD/Koha-Contrib-Tamil-0.015.tar.gz\E
@@ -542,6 +543,7 @@ match:
      |\QGBARR/IO-Tty-0.04.tar.gz\E
      |\QGENEHACK/App-GitGitr-0.3.tar.gz\E
      |\QGENEHACK/App-GitGot-1.12.tar.gz\E
+     |\QGENEHACK/App-GitGot-1.22.tar.gz\E
      |\QGETTY/App-DuckPAN-0.115.tar.gz\E
      |\QGETTY/AquariumHive-0.002.tar.gz\E
      |\QGETTY/GID-0.003.tar.gz\E
@@ -760,6 +762,7 @@ match:
      |\QJDS/DBIx-Table-TestDataGenerator-0.004.tar.gz\E
      |\QJDV/Test-Able-0.03.tar.gz\E
      |\QJEFFOBER/Argon-0.05.tar.gz\E
+     |\QJEFFOBER/Coro-ProcessPool-0.18.tar.gz\E
      |\QJENDA/Interpolation-0.71.tar.gz\E
      |\QJESSE/Jifty-0.70117.tar.gz\E
      |\QJESSE/RTx-TicketlistTransactions-0.01.tar.gz\E
@@ -1036,6 +1039,7 @@ match:
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
      |\QMANWAR/Data-Password-Filter-0.06.tar.gz\E
      |\QMANWAR/IP-Info-0.06.tar.gz\E
+     |\QMANWAR/Map-Tube-Plugin-Graph-0.16.tar.gz\E
      |\QMANWAR/WWW-Google-APIDiscovery-0.05.tar.gz\E
      |\QMANWAR/WWW-Google-UserAgent-0.01.tar.gz\E
      |\QMANWAR/WWW-StatsMix-0.01.tar.gz\E
@@ -1099,7 +1103,6 @@ match:
      |\QMCHANG/CGIGraph-0.9.tar.gz\E
      |\QMDIETRICH/CloudApp-REST-0.01.tar.gz\E
      |\QMDIMEO/MPEG-ID3v2Tag-0.36.tar.gz\E
-     |\QMDOOTSON/Wx-0.9921.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMEKK/OAuthomatic-0.02.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
@@ -1194,7 +1197,6 @@ match:
      |\QMSERGEANT/XML-XPathScript-0.03.tar.gz\E
      |\QMSIMERSON/Mail-Toaster-5.13.tar.gz\E
      |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
-     |\QMSISK/Finance-QuoteHist-1.19.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
@@ -1226,7 +1228,6 @@ match:
      |\QMVZ/Email-Outlook-Message-0.915.tar.gz\E
      |\QMWARDELL/Wx-TreeListCtrl-0.05.tar.gz\E
      |\QMZIESCHA/DBIx-Schema-Changelog-0.2.1.tar.gz\E
-     |\QMZIESCHA/DBIx-Schema-Changelog-v0.1.0.tar.gz\E
      |\QNATG/Class-AutoDB-1.28.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsMulti-1.13.tar.gz\E
      |\QNATG/Hash-AutoHash-AVPairsSingle-1.13.tar.gz\E
@@ -1360,6 +1361,7 @@ match:
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
+     |\QPJFL/class-usul/Class-Usul-0.56.1.tar.gz\E
      |\QPKUBANEK/XML-Clean-1.010101.tar.gz\E
      |\QPLAVEN/Padre-0.90.tar.gz\E
      |\QPLAVEN/Padre-0.92.tar.gz\E
@@ -1573,7 +1575,6 @@ match:
      |\QSISYPHUS/Math-Complex_C-0.09.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
-     |\QSJDY/Webqq-Client-4.8.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
@@ -1670,7 +1671,6 @@ match:
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTJOHNSON/Farly-0.12.tar.gz\E
-     |\QTJPARNELL/Bio-ToolBox-1.23.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
      |\QTKR/Treex-Parser-MSTperl-0.08055.tar.gz\E
