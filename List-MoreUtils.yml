@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/List-MoreUtils-0.407.tar.gz'
+goto: 'REHSACK/List-MoreUtils-0.406.tar.gz'
+# https://rt.cpan.org/Ticket/Display.html?id=102840
