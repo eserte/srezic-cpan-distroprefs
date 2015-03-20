@@ -13,4 +13,5 @@ test:
     DEVEL_HIDE_PM: PadWalker
 # Instead of the patch proposed in https://github.com/doy/eval-closure/issues/4
 # it's also enough to just hide PadWalker.pm
-
+#
+# Issue seems to be fixed with newer Eval-Closure-0.12/PadWalker/bleadperl/...
