@@ -1325,7 +1325,7 @@ match:
     |INGY/Acme-Math-XS-XS-0.0.1.tar.gz # no Makefile.PL, maybe empty
     |INGY/Acme-Math-XS-XS-0.0.2.tar.gz # no Makefile.PL
     |EWARNCKE/ArangoDB-0.01.tar.gz # not recognized as a perl package
-    |EKAWAS/lsid-perl-1.1.7.tar.gz # probably using module::autoinstall?
+    |EKAWAS/lsid-perl-1.1.7.tar.gz # probably using module::autoinstall? --- https://rt.cpan.org/Ticket/Display.html?id=102914
     |CHENGANG/Redis-AOF-Tail-File-0.04.tar.gz # endless verbose loop in tests, at least on freebsd 10.1
     |DUNCAN/Alien-Microsoft-Outlook-0.06b.zip # extra directory level in tarball
     |ARISTOTLE/XML-Builder-0.903.tar.gz # recursive self-dependency --- https://github.com/ap/XML-Builder/issues/1
