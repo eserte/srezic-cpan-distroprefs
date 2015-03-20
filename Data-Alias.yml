@@ -18,7 +18,7 @@ patches:
 match:
   distribution: '/Data-Alias-1\.18\.'
   perlconfig:
-    version: '^5\.21\.(8|9)$'
+    version: '^5\.21\.(8|9|10)$'
 patches:
   - SREZIC/patches/Data-Alias-1.18-RT98758-2.patch
   - SREZIC/patches/Data-Alias-1.18-RT100944.patch 
