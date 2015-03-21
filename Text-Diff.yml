@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Text-Diff-1\.41\.'
+  perlconfig:
+    version: '^5\.21\.'
+patches:
+  - SREZIC/patches/Text-Diff-1.41-pull5.patch
+# just a warnings fix
+# https://rt.cpan.org/Ticket/Display.html?id=100505
+# github pull request #5
