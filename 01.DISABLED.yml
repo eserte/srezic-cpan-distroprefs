@@ -1340,5 +1340,6 @@ match:
     |POWERMAN/App-migrate-v0.1.1.tar.gz # XXX dito -> https://github.com/powerman/migrate/issues/1
     |AJPAGE/Bio-Roary-2.0.0.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
     |AJPAGE/Bio-Roary-2.0.3.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
+    |AJPAGE/Bio-Roary-2.0.4.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
