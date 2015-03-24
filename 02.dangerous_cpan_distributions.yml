@@ -43,6 +43,7 @@ match:
      |\QAJOLMA/Geo-GDAL-1.81.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
+     |\QAJPAGE/Bio-Roary-2.0.1.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
@@ -132,6 +133,7 @@ match:
      |\QAVAR/Constant-Export-Lazy-0.12.tar.gz\E
      |\QAVAR/git-deploy-6.00.tar.gz\E
      |\QAVENJ/Bot-Cobalt-0.016002.tar.gz\E
+     |\QAVENJ/Bot-Cobalt-Plugin-Calc-0.002.tar.gz\E
      |\QAVENJ/Bot-Cobalt-Plugin-Silly-0.001.tar.gz\E
      |\QAVENJ/List-Objects-WithUtils-1.012001.tar.gz\E
      |\QAVENJ/MooX-Role-POE-Emitter-1.001001.tar.gz\E
@@ -299,6 +301,7 @@ match:
      |\QCSSON/Map-Metro-0.2201.tar.gz\E
      |\QCSSON/Map-Metro-0.2203.tar.gz\E
      |\QCSSON/OpenGbg-0.1300.tar.gz\E
+     |\QCSSON/Pod-Weaver-Section-Badges-0.0201.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
      |\QCTBROWN/ODG-Record-0.28.tar.gz\E
      |\QCTRLSOFT/Parse-Pidl-0.01.tar.gz\E
@@ -403,6 +406,7 @@ match:
      |\QDROLSKY/DateTime-TimeZone-1.75.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.78.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.84.tar.gz\E
+     |\QDROLSKY/DateTime-TimeZone-1.85.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
@@ -490,6 +494,7 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
+     |\QEXODIST/ACME-FunkyDocs-0.001.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -566,6 +571,7 @@ match:
      |\QGMPASSOS/XML-Smart-1.3.1.tar.gz\E
      |\QGNUSTAVO/Gerrit-REST-0.009.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.00.tar.gz\E
+     |\QGOMOR/Metabrik-Repository-1.07.tar.gz\E
      |\QGOMOR/Net-Frame-1.00.tar.gz\E
      |\QGOMOR/Net-Packet-1.27.tar.gz\E
      |\QGOMOR/Net-Packet-1.28.tar.gz\E
@@ -872,6 +878,7 @@ match:
      |\QJZUCKER/DBD-AnyData-0.09.tar.gz\E
      |\QJZUCKER/DBD-CSV-0.22.tar.gz\E
      |\QJZUCKER/SQL-Statement-1.11.tar.gz\E
+     |\QKAARE/Job-Machine-0.19.tar.gz\E
      |\QKABLAMO/Test-WWW-Selenium-More-0.10.tar.gz\E
      |\QKABLAMO/Test-WWW-Selenium-More-0.11.tar.gz\E
      |\QKAMENSKY/Text-Bidi-0.03.tar.gz\E
@@ -999,6 +1006,7 @@ match:
      |\QLEEJO/CGI.pm-4.03.tar.gz\E
      |\QLEIF/tidyview-1.12.tar.gz\E
      |\QLEIRA/HTTP-Recorder-0.02.tar.gz\E
+     |\QLEONT/Dist-Zilla-PluginBundle-LEONT-0.012.tar.gz\E
      |\QLEONT/Linux-Epoll-0.004.tar.gz\E
      |\QLEONT/Module-Build-0.4005.tar.gz\E
      |\QLEONT/Net-FSP-0.15.tar.gz\E
@@ -1021,6 +1029,8 @@ match:
      |\QLUPUS/Gtk-Perl-0.7008.tar.gz\E
      |\QLXP/Finance-Bank-Bankwest-1.2.1.tar.gz\E
      |\QLYOKATO/HTML-TagCloud-Extended-0.04.tar.gz\E
+     |\QLZE/MySQL-Admin-0.62.tar.gz\E
+     |\QLZE/MySQL-Admin-0.65.tar.gz\E
      |\QMACGYVER/SMTP-Server-1.0.tar.gz\E
      |\QMADCAT/Mojolicious-Plugin-Authentication-1.21.tar.gz\E
      |\QMADWOLF/OpenCA-Crypto-0.9.1.1.1.tar.gz\E
@@ -1336,6 +1346,7 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/Data-Dmp-0.08.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1361,7 +1372,6 @@ match:
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
-     |\QPJFL/class-usul/Class-Usul-0.56.1.tar.gz\E
      |\QPKUBANEK/XML-Clean-1.010101.tar.gz\E
      |\QPLAVEN/Padre-0.90.tar.gz\E
      |\QPLAVEN/Padre-0.92.tar.gz\E
@@ -1404,7 +1414,6 @@ match:
      |\QPYTHIAN/DBD-Oracle-1.50.tar.gz\E
      |\QRADCLIFF/WebService-Eventful-1.0.tar.gz\E
      |\QRAM/Carp-Datum-0.1.2.tar.gz\E
-     |\QRAM/Getargs-Long-0.1.3.tar.gz\E
      |\QRANDERSON/HTTP-WebTest-1.02.tar.gz\E
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
      |\QRBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz\E
@@ -1431,6 +1440,7 @@ match:
      |\QRHUNDT/XML-DOM-Lite-0.08.tar.gz\E
      |\QRITOU/OIDC-Lite-0.01.tar.gz\E
      |\QRITOU/OIDC-Lite-0.02.tar.gz\E
+     |\QRIZEN/Facebook-Graph-1.0900.tar.gz\E
      |\QRJBS/Perl-Critic-Tics-0.008.tar.gz\E
      |\QRJBS/Test-Routine-0.019.tar.gz\E
      |\QRJBS/perl-5.18.4.tar.gz\E
