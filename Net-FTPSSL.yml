@@ -1,14 +1,9 @@
 ---
 match:
   distribution: "/Net-FTPSSL-\d"
+pl:
   env:
-    PERL_BATCH: yes
-disabled: 1
-# Cannot be installed anyway because of the interactive test...
----
-match:
-  distribution: "/Net-FTPSSL-\d"
+    PERL_MM_USE_DEFAULT: 1
 test:
-  expect:
-    - "\QDo you want to make a deeper test ? [y/N]"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
