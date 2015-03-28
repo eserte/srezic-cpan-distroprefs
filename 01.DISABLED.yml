@@ -1341,6 +1341,6 @@ match:
     |AJPAGE/Bio-Roary-2.0.0.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
     |AJPAGE/Bio-Roary-2.0.3.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
     |AJPAGE/Bio-Roary-2.0.4.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
-    |AJPAGE/Bio-Roary-2.\d+ # disable all
+    |AJPAGE/Bio-Roary-2.\d+ # tarballs frequently missing at cpantesters.org, see https://rt.cpan.org/Ticket/Display.html?id=103153
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
