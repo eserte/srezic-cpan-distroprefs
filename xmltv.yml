@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/xmltv-\d'
+pl:
+  args:
+    - --yes
