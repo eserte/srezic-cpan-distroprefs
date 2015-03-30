@@ -1342,5 +1342,6 @@ match:
     |AJPAGE/Bio-Roary-2.0.4.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
     |AJPAGE/Bio-Roary-2.\d+ # tarballs frequently missing at cpantesters.org, see https://rt.cpan.org/Ticket/Display.html?id=103153
     |.*/Alien-Web-ExtJS-V3-3.4.11 # no successful builds for some reason, huge build dir
+    |ARFREITAS/Siebel-AssertOS-0.06.tar.gz # no Makefile.PL
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
