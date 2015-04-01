@@ -101,7 +101,6 @@ match:
      |\QAREGGIORI/RDFStore-0.31.tar.gz\E
      |\QAREGGIORI/RDFStore-0.42.tar.gz\E
      |\QAREIBENS/PDF-API2-0.73.tar.gz\E
-     |\QARFREITAS/Siebel-Srvrmgr-0.12.tar.gz\E
      |\QARJONES/WebService-TVDB-1.130350.tar.gz\E
      |\QARODLAND/DBIx-Class-0.08196.tar.gz\E
      |\QARODLAND/Test-Exit-0.03.tar.gz\E
@@ -154,8 +153,10 @@ match:
      |\QAWNCORP/Bubblegum-0.38.tar.gz\E
      |\QAWNCORP/Data-Object-0.05.tar.gz\E
      |\QAWNCORP/Data-Object-0.07.tar.gz\E
+     |\QAWNCORP/Data-Object-0.13.tar.gz\E
      |\QAWNCORP/Data-Object-Autobox-0.05.tar.gz\E
      |\QAWNCORP/Faker-0.04.tar.gz\E
+     |\QAWNCORP/Faker-0.09.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
      |\QAWNCORP/Validation-Class-2.3.4.tar.gz\E
      |\QAWNCORP/Validation-Class-3.0.0.tar.gz\E
@@ -172,7 +173,6 @@ match:
      |\QBARTLEY/Apache-AuthCookie-1.4.tar.gz\E
      |\QBAYSIDE/Catalyst-Plugin-CRUD-0.14.tar.gz\E
      |\QBAYSIDE/Catalyst-Plugin-CRUD-0.15.tar.gz\E
-     |\QBBB/IO-Multiplex-1.10.tar.gz\E
      |\QBBIRTH/MARC-XML-0.4.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
@@ -243,6 +243,7 @@ match:
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
      |\QCALID/ZMQ-FFI-0.19.tar.gz\E
      |\QCALID/ZMQ-FFI-1.02.tar.gz\E
+     |\QCANID/Yote-0.231.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARLOS/Dist-Zilla-Plugin-test2t-0.001031.tar.gz\E
      |\QCARPENTER/Storm-Tracker_0.01.tar.gz\E
@@ -347,7 +348,6 @@ match:
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
-     |\QDDUMONT/Config-Model-2.055.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDERF/Travel-Routing-DE-VRR-2.04.tar.gz\E
@@ -632,6 +632,7 @@ match:
      |\QHANENKAMP/Java-JCR-0.03.tar.gz\E
      |\QHANENKAMP/Tree-BPTree/Tree-BPTree-1.07.tar.gz\E
      |\QHAOSAN/WebService-Class-0.01.tar.gz\E
+     |\QHARRYL/Mojo-MySQL5-0.02.tar.gz\E
      |\QHAUKEX/IPC-Run3-Shell-0.51.tar.gz\E
      |\QHAYASHI/Win32API-MIDI-0.04.tar.gz\E
      |\QHBIERSMA/MQSeries-1.29.tar.gz\E
@@ -667,6 +668,7 @@ match:
      |\QHORROCKS/CGI-SpeedyCGI-2.02.tar.gz\E
      |\QHOVENKO/Weather-YR-0.25.tar.gz\E
      |\QHPYHACKER/CGI-Listman-0.02.tar.gz\E
+     |\QHURRICUP/DTL-Fast-1.616.tar.gz\E
      |\QHVC/Video-Manip-0.02.tar.gz\E
      |\QIAMCAL/CSS-0.08.tar.gz\E
      |\QIAN/Color-Scheme-1.02.tar.gz\E
@@ -1090,6 +1092,7 @@ match:
      |\QMAROS/Text-Phonetic-1.07.tar.gz\E
      |\QMASAHJI/DB-Introspector-0.01a.tgz\E
      |\QMASAKI/HTTP-Router-0.01.tar.gz\E
+     |\QMASAKYST/Net-OpenStack-Swift-0.02.tar.gz\E
      |\QMASH/App-Prove-Plugin-MySQLPool-0.04.tar.gz\E
      |\QMATEU/Algorithm-Simplex-0.41.tar.gz\E
      |\QMATEU/Weather-WWO-0.04.tar.gz\E
@@ -1256,6 +1259,7 @@ match:
      |\QNEKOKAK/Teng-0.06.tar.gz\E
      |\QNEKOYA/DBIx-Skinny-InflateColumn-DateTime-0.04.tar.gz\E
      |\QNES/Nes-1.02.tar.gz\E
+     |\QNEZUMI/MIME-Charset-1.011.3.tar.gz\E
      |\QNGLENN/Algorithm-AM-2.45.tar.gz\E
      |\QNGLENN/Algorithm-AM-3.02.tar.gz\E
      |\QNICS/Catmandu-0.0102.tar.gz\E
@@ -1346,7 +1350,6 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/Data-Dmp-0.08.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1367,7 +1370,6 @@ match:
      |\QPHRED/Apache-SizeLimit-0.96.tar.gz\E
      |\QPHRED/Apache-Test-1.36.tar.gz\E
      |\QPHRED/SOAP-Lite-1.01.tar.gz\E
-     |\QPHRED/SOAP-Lite-1.07.tar.gz\E
      |\QPHRED/WebService-Strava-0.02.tar.gz\E
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
