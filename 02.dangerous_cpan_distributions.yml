@@ -558,6 +558,7 @@ match:
      |\QGETTY/SyForm-0.007.tar.gz\E
      |\QGETTY/SyForm-0.010.tar.gz\E
      |\QGFUJI/FurlX-Coro-1.01.tar.gz\E
+     |\QGFUJI/MouseX-Getopt-0.34.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
@@ -777,6 +778,7 @@ match:
      |\QJESTER/Catalyst-Model-CDBI-Plain-0.02.tar.gz\E
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
      |\QJFRIED/Rex-0.57.0.tar.gz\E
+     |\QJFRIED/Rex-Repositorio-0.6.0.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
@@ -976,6 +978,7 @@ match:
      |\QKTHAKORE/SDL-2.526.tar.gz\E
      |\QKTHAKORE/SDLx-Widget-0.03.tar.gz\E
      |\QKTORP/Interval.0.01.tar.gz\E
+     |\QLAGRASTA/App-Automaton-0.143580.tar.gz\E
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.40.tar.gz\E
      |\QLAJANDY/Helios-2.41.tar.gz\E
