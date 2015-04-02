@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Catalyst-Plugin-SubRequest-0\.20\.'
+patches:
+  - SREZIC/patches/Catalyst-Plugin-SubRequest-0.20-RT94392.patch
