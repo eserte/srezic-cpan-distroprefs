@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QDateTime-Util-Calc-0.13002.tar.gz\E'
+patches:
+  - SREZIC/patches/DateTime-Util-Calc-0.13002-RT96232.patch
