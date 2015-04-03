@@ -1035,7 +1035,6 @@ match:
      |\QLXP/Finance-Bank-Bankwest-1.2.1.tar.gz\E
      |\QLYOKATO/HTML-TagCloud-Extended-0.04.tar.gz\E
      |\QLZE/MySQL-Admin-0.62.tar.gz\E
-     |\QLZE/MySQL-Admin-0.65.tar.gz\E
      |\QMACGYVER/SMTP-Server-1.0.tar.gz\E
      |\QMADCAT/Mojolicious-Plugin-Authentication-1.21.tar.gz\E
      |\QMADWOLF/OpenCA-Crypto-0.9.1.1.1.tar.gz\E
@@ -1648,7 +1647,6 @@ match:
      |\QSUMUS/DWH_File-0.21.tar.gz\E
      |\QSUMUS/DWH_File.0.03.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
-     |\QSWALTERS/SOAP-WSDL-v3.001.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
@@ -1744,6 +1742,7 @@ match:
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
      |\QTSUCCHI/Test-Module-Used-0.2.4.tar.gz\E
      |\QTURNERJW/Tk-TextHighlight-1.0.4.tar.gz\E
+     |\QTVDW/DBD-Cassandra-0.03.tar.gz\E
      |\QTVIGNAUD/URPM-4.9.tar.gz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
      |\QTVIGNAUD/urpmi-7.9.tgz\E
