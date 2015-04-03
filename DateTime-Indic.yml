@@ -3,3 +3,6 @@ match:
   distribution: "/DateTime-Indic-0\.1\.tar\.gz"
 disabled: 1
 comment: "takes forever, with a lot of warnings, see https://rt.cpan.org/Ticket/Display.html?id=48421"
+# With
+#   ctgetreports DateTime-Indic --q 'qr:([\d\.]+ wallclock)'
+# wallclock times between 1171 and 11084 seconds are listed.
