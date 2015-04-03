@@ -18,4 +18,6 @@ depends:
     Test::Requires: 0
 pl:
   commandline: 'rm -rf inc/Test/; $PERL Makefile.PL'
+  env:
+    PERL_MM_USE_DEFAULT: 1
 # fix for old bundled files, see https://rt.cpan.org/Ticket/Display.html?id=95255
