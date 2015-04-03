@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Web-Hippie-0\.40\.'
+depends:
+# XXX really test_requires, but this is not accepted by the schema
+  build_requires:
+    Test::Requires: 0
+pl:
+  commandline: 'rm -rf inc/Test/; $PERL Makefile.PL'
+# fix for old bundled files, see https://rt.cpan.org/Ticket/Display.html?id=103293
