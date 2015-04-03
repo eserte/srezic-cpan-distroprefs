@@ -1,5 +1,7 @@
 ---
 match:
   distribution: '/\QDateTime-Util-Calc-0.13002.tar.gz\E'
+  perlconfig:
+    version: '5\.(17|18|19|2\d)\.'
 patches:
   - SREZIC/patches/DateTime-Util-Calc-0.13002-RT96232.patch
