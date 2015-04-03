@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Net-IDN-Encode-2\.201\.'
+  perlconfig:
+    version: '^5\.21\.([23456789]|1\d)'
+goto: CFAERBER/Net-IDN-Encode-2.201_20150330.tar.gz
+# https://rt.cpan.org/Ticket/Display.html?id=96749
