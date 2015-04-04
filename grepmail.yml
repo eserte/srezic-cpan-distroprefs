@@ -1,10 +1,14 @@
 ---
 match:
-  distribution: "/grepmail-\d"
+  distribution: '/grepmail-\d'
 pl:
-  expect:
-    - "\Q5% slower.\E\n\Q=> [n]"
-    - "\n"
-    - "\Q[2] custom locations\E\n\Q=> [1]"
-    - "\n"
+  eexpect:
+    talk:
+      - '\Q5% slower.\E\n\Q=> [n]'
+      - "\n"
+      - '\Q[2] custom locations\E\n\Q=> [1]'
+      - "\n"
+      - '\Qdefault Perl location (i.e. change the PREFIX)? [n]'
+      - "\n"
+    mode: anyorder
 # last_checked: 2014-09-27 (D/DC/DCOPPIT/grepmail-5.3034.tar.gz is still interactive)
