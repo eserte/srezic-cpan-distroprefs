@@ -194,6 +194,7 @@ match:
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
      |\QBLHOTSKY/Git-Code-Review-1.1.tar.gz\E
+     |\QBLM/Win32API-Registry-0.32.tar.gz\E
      |\QBLX/XSDSQL_20130120.tar.gz\E
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
@@ -442,6 +443,7 @@ match:
      |\QEBUSBOOM/Net-ICal-0.11.tar.gz\E
      |\QEDAM/WWW-Bing-Search-0.010.tar.gz\E
      |\QEDAVIS/xmltv-0.5.31.tar.gz\E
+     |\QEDENC/Catalyst-Plugin-SubRequest-0.20.tar.gz\E
      |\QEDF/Geo-Coder-Many-0.25.tar.gz\E
      |\QEDF/Geo-Coder-Many-0.27.tar.gz\E
      |\QEDMONSON/Games-Rezrov-0.15.tar.gz\E
@@ -978,7 +980,6 @@ match:
      |\QKTHAKORE/SDL-2.526.tar.gz\E
      |\QKTHAKORE/SDLx-Widget-0.03.tar.gz\E
      |\QKTORP/Interval.0.01.tar.gz\E
-     |\QLAGRASTA/App-Automaton-0.143580.tar.gz\E
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.40.tar.gz\E
      |\QLAJANDY/Helios-2.41.tar.gz\E
