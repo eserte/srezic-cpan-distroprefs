@@ -33,7 +33,7 @@ goto: AJOLMA/Geo-GDAL-1.90.tar.gz
 # 1.90 does not work with perl 5.21.x because of a UNIVERSAL thingy
 ---
 match:
-  distribution: '/Geo-GDAL-1\.992d1\.'
+  distribution: '/Geo-GDAL-1\.(992d1|9921a)\.'
   perlconfig:
     archname: '-freebsd'
 pl:
