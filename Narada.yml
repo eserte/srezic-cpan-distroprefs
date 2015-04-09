@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Narada-v2\.0\.1\."
+  distribution: "/Narada-v2\.0\.[12]\."
 disabled: 1
 # very slow, hangs, and fails
 ---
