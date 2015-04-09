@@ -1,5 +1,10 @@
 ---
 match:
+  distribution: "/Narada-v2\.0\.1\."
+disabled: 1
+# very slow, hangs, and fails
+---
+match:
   distribution: "/Narada-v?\d"
 pl:
   env:
