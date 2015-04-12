@@ -49,6 +49,7 @@ match:
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.11.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.30.tar.gz\E
+     |\QAKHUETTEL/Lab-Measurement-3.40.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
      |\QAKRON/Mojolicious-Plugin-TagHelpers-MailToChiffre-0.04.tar.gz\E
      |\QAKXLIX/Sisimai-4.0.1.tar.gz\E
@@ -190,6 +191,7 @@ match:
      |\QBIGJ/File-Random-0.10.tar.gz\E
      |\QBIGJ/Test-Warn-0.08.tar.gz\E
      |\QBIGPRESH/Dancer-Plugin-Database-2.04.tar.gz\E
+     |\QBINARY/Finance-Bitcoin-Feed-0.03.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
@@ -537,6 +539,7 @@ match:
      |\QFREW/Web-Simple-0.004.tar.gz\E
      |\QFRIED/Data-Object-0.006.tar.gz\E
      |\QFRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz\E
+     |\QFUKAI/Qiniu-0.01.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
      |\QGAAS/libwww-perl-5.837.tar.gz\E
@@ -671,7 +674,6 @@ match:
      |\QHORROCKS/CGI-SpeedyCGI-2.02.tar.gz\E
      |\QHOVENKO/Weather-YR-0.25.tar.gz\E
      |\QHPYHACKER/CGI-Listman-0.02.tar.gz\E
-     |\QHURRICUP/DTL-Fast-1.616.tar.gz\E
      |\QHVC/Video-Manip-0.02.tar.gz\E
      |\QIAMCAL/CSS-0.08.tar.gz\E
      |\QIAN/Color-Scheme-1.02.tar.gz\E
@@ -780,8 +782,8 @@ match:
      |\QJESTER/Catalyst-Model-CDBI-Plain-0.02.tar.gz\E
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
      |\QJFRIED/Rex-0.57.0.tar.gz\E
-     |\QJFRIED/Rex-Repositorio-0.6.0.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
+     |\QJGNI/Locale-CLDR-Locales-Fr.pm-v0.26.9.tar.gz\E
      |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
      |\QJHALLOCK/Gapp-0.26-withoutworldwriteables.tar.gz\E
@@ -884,7 +886,6 @@ match:
      |\QJZUCKER/DBD-AnyData-0.09.tar.gz\E
      |\QJZUCKER/DBD-CSV-0.22.tar.gz\E
      |\QJZUCKER/SQL-Statement-1.11.tar.gz\E
-     |\QKAARE/Job-Machine-0.19.tar.gz\E
      |\QKABLAMO/Test-WWW-Selenium-More-0.10.tar.gz\E
      |\QKABLAMO/Test-WWW-Selenium-More-0.11.tar.gz\E
      |\QKAMENSKY/Text-Bidi-0.03.tar.gz\E
@@ -897,6 +898,7 @@ match:
      |\QKANEY/XML-ASCX12-0.03.tar.gz\E
      |\QKARASIK/Prima-1.38.tar.gz\E
      |\QKARASIK/Prima-1.39.tar.gz\E
+     |\QKARASIK/Prima-1.42.tar.gz\E
      |\QKARASIK/Win32-GuiTest-1.57.tar.gz\E
      |\QKARJALA/XML-MyXML-0.1003.tar.gz\E
      |\QKARMAN/Dezi-App-0.012.tar.gz\E
@@ -1173,6 +1175,7 @@ match:
      |\QMNSMAR/GenOO-1.4.4.tar.gz\E
      |\QMNUNBERG/Constant-Generate-0.12.tar.gz\E
      |\QMNUNBERG/Couchbase-2.0.1.tar.gz\E
+     |\QMNUNBERG/Couchbase-2.0.2.tar.gz\E
      |\QMNUNBERG/Proc-Terminator-0.03.tar.gz\E
      |\QMOB/Forks-Super-0.29.tar.gz\E
      |\QMOB/Forks-Super-0.46.tar.gz\E
@@ -1367,6 +1370,7 @@ match:
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
+     |\QPFIG/Net-Amazon-S3-0.60.tar.gz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
      |\QPHILCROW/Gantry-3.42.tar.gz\E
@@ -1430,6 +1434,7 @@ match:
      |\QRDO/Bio-KBase-0.02.tar.gz\E
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
+     |\QREEDFISH/Net-FullAuto-0.99999999999901.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREID/Games-Go-Sgf2Dg-4.221.tar.gz\E
      |\QRENEEB/OTRS-OPM-Maker-0.07.tar.gz\E
@@ -1596,6 +1601,7 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-CLI-0.096.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.322.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.352.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
