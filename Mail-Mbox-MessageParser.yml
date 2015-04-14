@@ -1,26 +1,21 @@
 ---
 match:
-  distribution: '/Mail-MboxParser-0\.55\.'
-disabled: 1
-comment: "http://rt.cpan.org/Ticket/Display.html?id=40435"
----
-match:
-  distribution: '/Mail-Mbox-MessageParser-1.5100'
-# not interactive?
----
-match:
   distribution: '/Mail-Mbox-MessageParser-\d'
-pl: &braindead
-  expect:
-    - '\QWhere can I find your "bzip" executable'
-    - "\n"
-    - '\QWhere can I find your "bzip2" executable'
-    - "\n"
-    - '\QWhere can I find your "diff" executable'
-    - "\n"
-    - '\QWhere can I find your "grep" executable'
-    - "\n"
-    - '\QWhere can I find your "gzip" executable'
-    - "\n"
-make: *braindead
-test: *braindead
+pl:
+  eexpect:
+    mode: anyorder
+    talk:
+      - '\QWhere can I find your "bzip" executable'
+      - "\n"
+      - '\QWhere can I find your "bzip2" executable'
+      - "\n"
+      - '\QWhere can I find your "diff" executable'
+      - "\n"
+      - '\QWhere can I find your "grep" executable'
+      - "\n"
+      - '\QWhere can I find your "gzip" executable'
+      - "\n"
+      - '\QWhere can I find your "lzip" executable?'
+      - "\n"
+      - '\QWhere can I find your "xz" executable?'
+      - "\n"
