@@ -244,7 +244,6 @@ match:
     |.*/Speech-Recognizer-SPX-\d # missing prereqs on my freebsd system
     |.*/UnixODBC-\d # unixODBC exists on FreeBSD, but conflicts with iodbc, so skip this one
     |.*/Text-Scws-\d # what is libscws? does not seem to exist in the freebsd ports
-    |.*/HTML-CTPP2-\d # needs ctpp2 library, I have only ctpp
     |.*/CIAO-Lib-Param-\d # needs cxcparam lib
     |.*/Data-LetterTree-\d # needs lettertree lib, not a freebsd port
     |.*/Convert-Ethiopic-\d # needs libeth, not in freebsd
