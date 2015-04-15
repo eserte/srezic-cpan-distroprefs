@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/HTML-CTPP2-2.6.7.tar.gz'
+  perlconfig:
+    archname: 'x86_64-linux'
+pl:
+  env:
+    CTPP2_LIB: /usr/lib/x86_64-linux-gnu
+# Cannot detect library automatically (debian/jessie)
+# https://rt.cpan.org/Ticket/Display.html?id=103548
