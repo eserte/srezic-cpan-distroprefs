@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/MySQL-Admin-\d"
+  distribution: '/MySQL-Admin-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Net-FTPSSL-\d"
+  distribution: '/Net-FTPSSL-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

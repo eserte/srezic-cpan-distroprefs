@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/HTTP-Server-EV-\d"
+  distribution: '/HTTP-Server-EV-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

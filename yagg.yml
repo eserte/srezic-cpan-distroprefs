@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/yagg-\d"
+  distribution: '/yagg-\d'
   perlconfig:
     archname: '-freebsd'
 pl:
@@ -8,22 +8,22 @@ pl:
     reuse: 1
     mode: anyorder
     talk:
-      - "\QWould you like to install this package into a location other than the"
+      - '\QWould you like to install this package into a location other than the'
       - "\n"
-      - "\QWhere can I find your \"make\" executable?"
+      - '\QWhere can I find your \"make\" executable?'
       - "/usr/local/bin/gmake\n"
-      - "Where can I find your .* executable"
+      - 'Where can I find your .* executable'
       - "\n"
 ---
 match:
-  distribution: "/yagg-\d"
+  distribution: '/yagg-\d'
 pl:
   eexpect:
     reuse: 1
     mode: anyorder
     talk:
-      - "\QWould you like to install this package into a location other than the"
+      - '\QWould you like to install this package into a location other than the'
       - "\n"
-      - "Where can I find your .* executable"
+      - 'Where can I find your .* executable'
       - "\n"
 # last_checked: 2014-09-27 (D/DC/DCOPPIT/yagg-1.4003.tar.gz is still interactive)

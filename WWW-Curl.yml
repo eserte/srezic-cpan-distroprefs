@@ -19,7 +19,7 @@ disabled: 1
 # Note: even with wait-and-kill active, the tests need more than 30 minutes, so disabling it is still a good idea
 ---
 match:
-  distribution: "/WWW-Curl-\d"
+  distribution: '/WWW-Curl-\d'
 ## Not needed anymore, also cause CPAN::Reporter to send reports automatically
 #test:
 #  env:
