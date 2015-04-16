@@ -17,6 +17,7 @@
 
     our $DISTROPREFS_SCHEMA;
     our $TEST_ALSO_YAML_XS;
+    our $YAML_XS_CERTIFIED_UNTIL_COMMIT_ID = '6a3b2e64f49f963e73adccc3a223096669033b40';
 
     sub load_distroprefs_schema {
         return $DISTROPREFS_SCHEMA if $DISTROPREFS_SCHEMA;
@@ -61,6 +62,45 @@
 	    }
 	}
 	@errors;
+    }
+
+    sub file_to_latest_commitid {
+	my($stop_at_commitid) = @_;
+
+	my $state = 'exp_commit';
+	my %file_to_latest_commitid;
+	my $current_commit_id;
+	my $found_stop_id;
+	open my $fh, '-|', 'git', 'log', '--format=format:commit %H', '--name-only'
+	    or die $!;
+	while(<$fh>) {
+	    chomp;
+	    if ($state eq 'exp_commit') {
+		if (/^commit (.*)/) {
+		    $current_commit_id = $1;
+		    $state = 'exp_filenames';
+		}
+	    } elsif ($state eq 'exp_filenames') {
+		if (/^$/) {
+		    $state = 'exp_commit';
+		    if ($stop_at_commitid && $current_commit_id eq $stop_at_commitid) {
+			$found_stop_id = 1;
+			last;
+		    }
+		} else {
+		    my $file = $_;
+		    if (!exists $file_to_latest_commitid{$file}) {
+			$file_to_latest_commitid{$file} = $current_commit_id;
+		    }
+		}
+	    }
+	}
+
+	if ($stop_at_commitid && !$found_stop_id) {
+	    die "Did not find stop commit id '$stop_at_commitid'";
+	}
+
+	\%file_to_latest_commitid;
     }
 }
 
@@ -155,6 +195,23 @@ validate-all-yaml-xs:
 	{
 		my @error_files;
 		for my $yml (glob("*.yml")) {
+		    our $TEST_ALSO_YAML_XS = 1;
+		    local $TEST_ALSO_YAML_XS = 1;
+		    if (validate_distroprefs($yml)) {
+			push @error_files, $yml;
+		    }
+		}
+		if (@error_files) { die "Found errors on following files:\n" . join("\n", @error_files) . "\n" }
+		else { "Validation OK.\n" }
+	}
+
+validate-certified-yaml-xs:
+	{
+		our $YAML_XS_CERTIFIED_UNTIL_COMMIT_ID;
+		my $certified_files = file_to_latest_commitid($YAML_XS_CERTIFIED_UNTIL_COMMIT_ID);
+		my @error_files;
+		for my $yml (glob("*.yml")) {
+		    next if !exists $certified_files->{$yml};
 		    our $TEST_ALSO_YAML_XS = 1;
 		    local $TEST_ALSO_YAML_XS = 1;
 		    if (validate_distroprefs($yml)) {
