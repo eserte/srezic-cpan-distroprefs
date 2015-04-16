@@ -16,6 +16,7 @@
     use Safe;
 
     our $DISTROPREFS_SCHEMA;
+    our $TEST_ALSO_YAML_XS;
 
     sub load_distroprefs_schema {
         return $DISTROPREFS_SCHEMA if $DISTROPREFS_SCHEMA;
@@ -50,12 +51,14 @@
 		    push @errors, "Errors while loading $yml (doc#$doc_i) with YAML.pm: $@";
 		}
 	    }
-	    ## XXX not yet enabled, most .yml files are not ready yet...
-	    #if (eval { require YAML::XS; 1 }) {
-	    #	if (!eval { YAML::XS::LoadFile($yml) }) {
-	    #	    push @errors, "Errors while loading $yml (doc#$doc_i) with YAML::XS: $@";
-	    #	}
-	    #}
+	    if ($TEST_ALSO_YAML_XS) {
+		# XXX most .yml files are not ready yet, so this is not run by default...
+	    	if (eval { require YAML::XS; 1 }) {
+		    if (!eval { YAML::XS::LoadFile($yml) }) {
+			push @errors, "Errors while loading $yml (doc#$doc_i) with YAML::XS: $@";
+		    }
+		}
+	    }
 	}
 	@errors;
     }
@@ -145,6 +148,20 @@ validate-all:
 		    push @errors, validate_distroprefs($yml);
 		}
 		if (@errors) { die "Found errors:\n" . join("\n", @errors) }
+		else { "Validation OK.\n" }
+	}
+
+validate-all-yaml-xs:
+	{
+		my @error_files;
+		for my $yml (glob("*.yml")) {
+		    our $TEST_ALSO_YAML_XS = 1;
+		    local $TEST_ALSO_YAML_XS = 1;
+		    if (validate_distroprefs($yml)) {
+			push @error_files, $yml;
+		    }
+		}
+		if (@error_files) { die "Found errors on following files:\n" . join("\n", @error_files) . "\n" }
 		else { "Validation OK.\n" }
 	}
 
