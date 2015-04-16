@@ -106,7 +106,7 @@
 
 all:	do-stuff
 
-do-stuff: validate dd-prefs permissions remove-outdated-dd remove-outdated-valid
+do-stuff: validate validate-certified-yaml-xs dd-prefs permissions remove-outdated-dd remove-outdated-valid
 
 update:	git-pull
 	{
