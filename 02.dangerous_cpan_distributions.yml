@@ -133,8 +133,6 @@ match:
      |\QAVAR/Constant-Export-Lazy-0.12.tar.gz\E
      |\QAVAR/git-deploy-6.00.tar.gz\E
      |\QAVENJ/Bot-Cobalt-0.016002.tar.gz\E
-     |\QAVENJ/Bot-Cobalt-Plugin-Calc-0.002.tar.gz\E
-     |\QAVENJ/Bot-Cobalt-Plugin-Silly-0.001.tar.gz\E
      |\QAVENJ/List-Objects-WithUtils-1.012001.tar.gz\E
      |\QAVENJ/MooX-Role-POE-Emitter-1.001001.tar.gz\E
      |\QAVIF/Image-Compare-0.3.tar.gz\E
@@ -778,6 +776,7 @@ match:
      |\QJEFFOBER/Argon-0.05.tar.gz\E
      |\QJEFFOBER/Coro-ProcessPool-0.18.tar.gz\E
      |\QJENDA/Interpolation-0.71.tar.gz\E
+     |\QJERRYV/IMDB-Local-1.2.tgz\E
      |\QJESSE/Jifty-0.70117.tar.gz\E
      |\QJESSE/RTx-TicketlistTransactions-0.01.tar.gz\E
      |\QJESTER/Catalyst-Model-CDBI-Plain-0.02.tar.gz\E
@@ -1024,7 +1023,7 @@ match:
      |\QLESPEA/Project-Euler-v0.1.5.tar.gz\E
      |\QLGEHLEN/SVG-Rasterize-0.003006.tar.gz\E
      |\QLHELION/Helios-2.81.tar.gz\E
-     |\QLIKEHIKE/CGI-OptimalQuery-0.13.tar.gz\E
+     |\QLIKEHIKE/CGI-OptimalQuery-0.15.tar.gz\E
      |\QLINNIN/Business-PayPal-SDK-0.11.tar.gz\E
      |\QLKUNDRAK/RPM2-0.70.tar.gz\E
      |\QLMC/Net-Whois-RIPE-1.31.tar.gz\E
@@ -1140,6 +1139,7 @@ match:
      |\QMITTI/Device-SerialPort-Xmodem-1.01.tar.gz\E
      |\QMIYAGAWA/Apache-Singleton-0.03.tar.gz\E
      |\QMIYAGAWA/CGI-Emulate-PSGI-0.18.tar.gz\E
+     |\QMIYAGAWA/CPAN-Test-Dummy-Perl5-VersionBump-0.01.tar.gz\E
      |\QMIYAGAWA/Corona-0.1002.tar.gz\E
      |\QMIYAGAWA/Module-CPANfile-1.0002.tar.gz\E
      |\QMIYAGAWA/PHP-Session-0.18.tar.gz\E
@@ -1357,6 +1357,7 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/App-lcpan-0.20.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1435,7 +1436,6 @@ match:
      |\QRDO/Bio-KBase-0.02.tar.gz\E
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
-     |\QREEDFISH/Net-FullAuto-0.99999999999901.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREID/Games-Go-Sgf2Dg-4.221.tar.gz\E
      |\QRENEEB/OTRS-OPM-Maker-0.07.tar.gz\E
@@ -1449,12 +1449,14 @@ match:
      |\QRHANDOM/CGI-Ex-2.38.tar.gz\E
      |\QRHUNDT/CGI-Lite-Request-0.04.tar.gz\E
      |\QRHUNDT/XML-DOM-Lite-0.08.tar.gz\E
+     |\QRIBASUSHI/Acme-WeirdPod-0.001.tar.gz\E
      |\QRITOU/OIDC-Lite-0.01.tar.gz\E
      |\QRITOU/OIDC-Lite-0.02.tar.gz\E
      |\QRIZEN/Facebook-Graph-1.0900.tar.gz\E
      |\QRJBS/Perl-Critic-Tics-0.008.tar.gz\E
      |\QRJBS/Test-Routine-0.019.tar.gz\E
      |\QRJBS/perl-5.18.4.tar.gz\E
+     |\QRJBS/perl-5.20.0.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
      |\QRKIES/Tk-Workspace-1.75.tar.gz\E
