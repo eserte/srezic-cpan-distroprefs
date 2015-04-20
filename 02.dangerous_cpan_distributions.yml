@@ -61,6 +61,7 @@ match:
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
      |\QALEXBYK/Evo-0.0152.tar.gz\E
+     |\QALEXBYK/Evo-0.0161.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -362,6 +363,7 @@ match:
      |\QDHARD/FAST-1.0.tar.gz\E
      |\QDHOSS/Grimlock-0.10.tar.gz\E
      |\QDIABLO/Rsync-Config-0.3.1.tar.gz\E
+     |\QDIEGOK/Mongoose-0.29.tar.gz\E
      |\QDIONYS/MojoX-Transaction-WebSocket76-0.02.tar.gz\E
      |\QDISSENT/VCSLibCVS/VCS-LibCVS-1.tar.gz\E
      |\QDJBERG/Tk-JListbox-0.01.tar.gz\E
@@ -744,7 +746,7 @@ match:
      |\QIPENBURG/Date-Extract-P800Picture-0.04.tar.gz\E
      |\QIRONCAMEL/Business-BalancedPayments-0.1501.tar.gz\E
      |\QIRONCAMEL/Net-OpenStack-Compute-1.0900.tar.gz\E
-     |\QISHIGAKI/Module-New-0.10.tar.gz\E
+     |\QISHIGAKI/Module-New-0.13.tar.gz\E
      |\QITUB/Chemistry-Mok-0.16.tar.gz\E
      |\QITUB/IO-All-LWP-0.12.tar.gz\E
      |\QIVAN/DBIx-DBSchema-0.40.tar.gz\E
@@ -1360,7 +1362,6 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/App-lcpan-0.20.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1453,13 +1454,12 @@ match:
      |\QRHUNDT/CGI-Lite-Request-0.04.tar.gz\E
      |\QRHUNDT/XML-DOM-Lite-0.08.tar.gz\E
      |\QRIBASUSHI/Acme-WeirdPod-0.001.tar.gz\E
+     |\QRICHE/Net-Gnats-0.14.tar.gz\E
      |\QRITOU/OIDC-Lite-0.01.tar.gz\E
      |\QRITOU/OIDC-Lite-0.02.tar.gz\E
      |\QRIZEN/Facebook-Graph-1.0900.tar.gz\E
      |\QRJBS/Perl-Critic-Tics-0.008.tar.gz\E
      |\QRJBS/Test-Routine-0.019.tar.gz\E
-     |\QRJBS/perl-5.18.4.tar.gz\E
-     |\QRJBS/perl-5.20.0.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
      |\QRKIES/Tk-Workspace-1.75.tar.gz\E
