@@ -11,4 +11,5 @@ pl:
       - '\Qdefault Perl location (i.e. change the PREFIX)? [n]'
       - "\n"
     mode: anyorder
+    reuse: 1
 # last_checked: 2014-09-27 (D/DC/DCOPPIT/grepmail-5.3034.tar.gz is still interactive)
