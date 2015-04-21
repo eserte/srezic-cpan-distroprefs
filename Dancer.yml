@@ -5,3 +5,8 @@ match:
     version: '^5\.21\.4'
 patches:
   - SREZIC/patches/Dancer-1.3130-RT99067.patch
+---
+match:
+  distribution: '/Dancer-1\.3134\.'
+patches:
+  - SREZIC/patches/Dancer-1.3134-issue1107.patch
