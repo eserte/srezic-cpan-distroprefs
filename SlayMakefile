@@ -201,7 +201,7 @@ validate-all-yaml-xs:
 			push @error_files, $yml;
 		    }
 		}
-		if (@error_files) { die "Found errors on following files:\n" . join("\n", @error_files) . "\n" }
+		if (@error_files) { die "Found YAML::XS errors on following files:\n" . join("\n", @error_files) . "\n" }
 		else { "Validation OK.\n" }
 	}
 
@@ -218,7 +218,7 @@ validate-certified-yaml-xs:
 			push @error_files, $yml;
 		    }
 		}
-		if (@error_files) { die "Found errors on following files:\n" . join("\n", @error_files) . "\n" }
+		if (@error_files) { die "Found YAML::XS errors on following files:\n" . join("\n", @error_files) . "\n" }
 		else { "Validation OK.\n" }
 	}
 
