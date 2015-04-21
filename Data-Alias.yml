@@ -22,4 +22,12 @@ match:
 patches:
   - SREZIC/patches/Data-Alias-1.18-RT98758-2.patch
   - SREZIC/patches/Data-Alias-1.18-RT100944.patch 
-# this is _not_ enough for 5.21.11
+---
+match:
+  distribution: '/Data-Alias-1\.18\.'
+  perlconfig:
+    version: '^5\.21\.11$'
+patches:
+  - SREZIC/patches/Data-Alias-1.18-RT98758-2.patch
+  - SREZIC/patches/Data-Alias-1.18-RT100944.patch 
+  - SREZIC/patches/Data-Alias-1.18-RT98758-3.patch
