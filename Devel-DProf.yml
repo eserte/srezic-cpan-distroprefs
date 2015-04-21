@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Devel-DProf-20110802.00'
+patches:
+  - SREZIC/patches/Devel-DProf-20110802.00-RT70629.patch
