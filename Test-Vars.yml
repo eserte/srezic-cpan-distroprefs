@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Test-Vars-0\.005\.'
+patches:
+  - SREZIC/patches/Test-Vars-0.005-issue11.patch
+# https://github.com/gfx/p5-Test-Vars/issues/11
+# Unfortunately this does not solve the problem completely.
