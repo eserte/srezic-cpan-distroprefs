@@ -30,6 +30,15 @@ depends:
   requires:
     Tk: 804.028_500
 --- 
+comment: "YAML 1.15 is more liberal, causing failures in the test suite, see https://rt.cpan.org/Ticket/Display.html?id=103842"
+match:
+  distribution: "^RCAPUTO/POE-1\.366\.tar\.gz"
+pl:
+  args:
+    - --default
+patches:
+  - SREZIC/patches/POE-1.366-RT103842.patch
+--- 
 comment: "Or if you prefer to follow the defaults..."
 match:
   distribution: "^RCAPUTO/POE-\d"
