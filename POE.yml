@@ -1,15 +1,15 @@
 --- 
 comment: "Test hangs and eventually fails"
 match:
-  distribution: "^RCAPUTO/POE-0\.9999\.tar\.gz"
+  distribution: '^RCAPUTO/POE-0\.9999\.tar\.gz'
   perlconfig:
     archname: "-freebsd"
-    version: "^(5\.00505|5\.6\.2)$"
+    version: '^(5\.00505|5\.6\.2)$'
 disabled: 1
 --- 
 comment: "Workaround a problem in Tk <= 804.028 on 64bit machines"
 match:
-  distribution: "^RCAPUTO/POE-0\.9999\.tar\.gz"
+  distribution: '^RCAPUTO/POE-0\.9999\.tar\.gz'
   perlconfig:
     archname: "^amd64-freebsd"
 pl: 
@@ -20,7 +20,7 @@ patches:
 --- 
 comment: "Workaround a problem in Tk <= 804.028 on 64bit machines"
 match:
-  distribution: "^RCAPUTO/POE-1\.007\.tar\.gz"
+  distribution: '^RCAPUTO/POE-1\.007\.tar\.gz'
   perlconfig:
     archname: "^amd64-freebsd"
 pl:
@@ -32,7 +32,7 @@ depends:
 --- 
 comment: "YAML 1.15 is more liberal, causing failures in the test suite, see https://rt.cpan.org/Ticket/Display.html?id=103842"
 match:
-  distribution: "^RCAPUTO/POE-1\.366\.tar\.gz"
+  distribution: '^RCAPUTO/POE-1\.366\.tar\.gz'
 pl:
   args:
     - --default
@@ -41,7 +41,7 @@ patches:
 --- 
 comment: "Or if you prefer to follow the defaults..."
 match:
-  distribution: "^RCAPUTO/POE-\d"
+  distribution: '^RCAPUTO/POE-\d'
 pl: 
   args:
     - --default
