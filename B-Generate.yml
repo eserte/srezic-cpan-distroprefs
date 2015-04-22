@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/B-Generate-1\.50\.'
+  perlconfig:
+    version: '^5\.21\.(9|10|11)$'
+patches:
+  - SREZIC/patches/B-Generate-1.50-RT103122.patch
