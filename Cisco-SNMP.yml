@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Cisco-SNMP-\d'
+test:
+  env:
+    PERL_MM_USE_DEFAULT: 1
