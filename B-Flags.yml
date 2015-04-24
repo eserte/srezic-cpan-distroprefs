@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/B-Flags-0\.11\.'
+  perlconfig:
+    version: '^5\.21\.11$'
+patches:
+  - SREZIC/patches/B-Flags-0.11-RT103874.patch
