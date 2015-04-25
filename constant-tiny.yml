@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/constant-tiny-1\.01\.'
+  perlconfig:
+    version: '^5\.21\.(4|5|6|7|8|9|10|11)$'
+patches:
+  - SREZIC/patches/constant-tiny-1.01-RT99169.patch
+  - SREZIC/patches/constant-tiny-1.01-RT103958.patch
