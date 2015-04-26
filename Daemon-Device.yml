@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Daemon-Device-1\.03\.'
+  perlconfig:
+    archname: 'freebsd'
+disabled: 1
+# Tests hang
