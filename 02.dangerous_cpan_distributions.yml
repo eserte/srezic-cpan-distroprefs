@@ -47,6 +47,7 @@ match:
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAJPAGE/Bio-Roary-2.0.1.tar.gz\E
+     |\QAJPAGE/Bio-Roary-2.0.9.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
@@ -60,8 +61,6 @@ match:
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
-     |\QALEXBYK/Evo-0.0152.tar.gz\E
-     |\QALEXBYK/Evo-0.0161.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -347,8 +346,6 @@ match:
      |\QDBROWNING/Business-Shipping-1.06.tar.gz\E
      |\QDBROWNING/Business-Shipping-2.03.tar.gz\E
      |\QDBUCHMAN/MegaDistro-0.01.tar.gz\E
-     |\QDCANTRELL/Number-Phone-2.0.tar.gz\E
-     |\QDCANTRELL/Number-Phone-2.1.tar.gz\E
      |\QDCLINTON/Cache-Cache-0.09.tar.gz\E
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
@@ -414,6 +411,7 @@ match:
      |\QDROLSKY/DateTime-TimeZone-1.78.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.84.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-1.85.tar.gz\E
+     |\QDROLSKY/DateTime-TimeZone-1.86.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
@@ -476,8 +474,6 @@ match:
      |\QESUMMERS/HTML-DublinCore-0.3.tar.gz\E
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
-     |\QETHER/Moose-2.1205.tar.gz\E
-     |\QETHER/Moose-2.1213.tar.gz\E
      |\QETHER/MooseX-Declare-0.39.tar.gz\E
      |\QETJ/Bugle-0.03.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
@@ -508,6 +504,7 @@ match:
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.3.3.tar.gz\E
+     |\QFAXMODEM/Test-Collectd-Plugins-0.1006.tar.gz\E
      |\QFAYLAND/Padre-Plugin-CSS-0.08.tar.gz\E
      |\QFAYLAND/Padre-Plugin-HTML-0.09.tar.gz\E
      |\QFAYLAND/Padre-Plugin-JavaScript-0.25.tar.gz\E
@@ -558,8 +555,8 @@ match:
      |\QGENEHACK/App-GitGitr-0.3.tar.gz\E
      |\QGENEHACK/App-GitGot-1.12.tar.gz\E
      |\QGENEHACK/App-GitGot-1.22.tar.gz\E
-     |\QGETTY/App-DuckPAN-0.115.tar.gz\E
      |\QGETTY/AquariumHive-0.002.tar.gz\E
+     |\QGETTY/CPAN-Repository-0.008.tar.gz\E
      |\QGETTY/GID-0.003.tar.gz\E
      |\QGETTY/SyForm-0.001.tar.gz\E
      |\QGETTY/SyForm-0.003.tar.gz\E
@@ -751,7 +748,6 @@ match:
      |\QITUB/IO-All-LWP-0.12.tar.gz\E
      |\QIVAN/DBIx-DBSchema-0.40.tar.gz\E
      |\QIVAN/Net-XRC-0.01.tar.gz\E
-     |\QIVANWILLS/File-CodeSearch-v0.6.0.tar.gz\E
      |\QIVORW/Bot-BasicBot-Pluggable-Module-RD-0.01.tar.gz\E
      |\QIWATA/Test-Docker-Image-0.04.tar.gz\E
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
@@ -804,6 +800,8 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/Convos-0.8603.tar.gz\E
+     |\QJHTHORSEN/Toadfarm-0.47.tar.gz\E
+     |\QJHTHORSEN/Toadfarm-0.49.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -853,6 +851,7 @@ match:
      |\QJQUELIN/WWW-DaysOfWonder-Memoir44-1.100140.tar.gz\E
      |\QJRADCLIFF/GOOGLE-ADWORDS-PERL-CLIENT-2.13.0.tar.gz\E
      |\QJRADCLIFF/Google-Ads-AdWords-Client-3.1.1.tar.gz\E
+     |\QJRADCLIFF/Google-Ads-AdWords-Client-3.3.0.tar.gz\E
      |\QJRED/CIPP-2.50.tar.gz\E
      |\QJRED/new.spirit-2.0.26.tar.gz\E
      |\QJROBINSON/DBIx-Class-0.06003.tar.gz\E
@@ -1223,6 +1222,7 @@ match:
      |\QMSIMERSON/Mail-Toaster-5.13.tar.gz\E
      |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
+     |\QMSISK/Net-BGPdump-1.00.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1291,6 +1291,7 @@ match:
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.0301.tar.gz\E
+     |\QNICS/WWW-ORCID-0.0101.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
      |\QNIGE/Goo-0.08.tar.gz\E
      |\QNIKC/SVN-Web-0.53.tar.gz\E
@@ -1382,6 +1383,7 @@ match:
      |\QPHILCROW/Gantry-3.42.tar.gz\E
      |\QPHRED/Apache-SizeLimit-0.96.tar.gz\E
      |\QPHRED/Apache-Test-1.36.tar.gz\E
+     |\QPHRED/Apache-Test-1.38.tar.gz\E
      |\QPHRED/SOAP-Lite-1.01.tar.gz\E
      |\QPHRED/WebService-Strava-0.02.tar.gz\E
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
@@ -1454,12 +1456,9 @@ match:
      |\QRHUNDT/CGI-Lite-Request-0.04.tar.gz\E
      |\QRHUNDT/XML-DOM-Lite-0.08.tar.gz\E
      |\QRIBASUSHI/Acme-WeirdPod-0.001.tar.gz\E
-     |\QRICHE/Net-Gnats-0.14.tar.gz\E
      |\QRITOU/OIDC-Lite-0.01.tar.gz\E
      |\QRITOU/OIDC-Lite-0.02.tar.gz\E
      |\QRIZEN/Facebook-Graph-1.0900.tar.gz\E
-     |\QRJBS/Perl-Critic-Tics-0.008.tar.gz\E
-     |\QRJBS/Test-Routine-0.019.tar.gz\E
      |\QRJRAY/Devel-Modlist-0.8.tar.gz\E
      |\QRJRAY/RPC-XML-0.74.tar.gz\E
      |\QRKIES/Tk-Workspace-1.75.tar.gz\E
@@ -1538,7 +1537,6 @@ match:
      |\QSCHOP/Data-ACL-0.01.tar.gz\E
      |\QSCHROEER/Lab/Lab-Instrument-1.2.tar.gz\E
      |\QSCHUBIGER/DateTime-Format-Natural-0.94.tar.gz\E
-     |\QSCHWIGON/App-DPath-0.04.tar.gz\E
      |\QSCHWIGON/Net-SSH-Perl-1.37.tar.gz\E
      |\QSDAGUE/ppt-0.12.tar.gz\E
      |\QSDERLE/Geo-Coder-US-0.21.tar.gz\E
@@ -1601,6 +1599,9 @@ match:
      |\QSISYPHUS/Math-Complex_C-0.09.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
+     |\QSJDY/Webqq-Client-8.4.5.tar.gz\E
+     |\QSJDY/Webqq-Qun-1.3.tar.gz\E
+     |\QSJDY/Weixin-Client-1.7.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
@@ -1886,4 +1887,5 @@ match:
      |\QZMUGHAL/Devel-IPerl-0.001.tar.gz\E
      |\QZPMORGAN/Gtk2-Hexgrid-0.05.tar.gz\E
      |\QZURBORG/AnyEvent-Proc-0.102.tar.gz\E
+     |\QZURBORG/Method-Signatures-WithDocumentation-0.001.tar.gz\E
     )$
