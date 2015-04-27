@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Sub-Recursive-0\.03\.'
+  perlconfig:
+    version: '^5\.21\.'
+patches:
+  - SREZIC/patches/Sub-Recursive-0.03-RT103191.patch
+# defined %hash
