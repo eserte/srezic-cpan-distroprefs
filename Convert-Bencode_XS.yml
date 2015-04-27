@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Convert-Bencode_XS-0\.06\.'
+  perlconfig:
+    version: '^5\.(17|18|19|20|21)\.'
+patches:
+  - SREZIC/patches/Convert-Bencode_XS-0.06-RT87012.patch
+# hash randomization
