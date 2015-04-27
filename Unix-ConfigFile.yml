@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Unix-ConfigFile-0\.06\.'
+  perlconfig:
+    version: '^5\.21\.'
+patches:
+  - SREZIC/patches/Unix-ConfigFile-0.06-RT103189.patch
+# defined %hash
