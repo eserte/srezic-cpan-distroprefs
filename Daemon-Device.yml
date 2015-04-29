@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Daemon-Device-1\.03\.'
+  distribution: '/Daemon-Device-1\.(03|04)\.'
   perlconfig:
     archname: 'freebsd'
 disabled: 1
