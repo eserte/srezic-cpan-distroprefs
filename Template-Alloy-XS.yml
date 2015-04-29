@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QTemplate-Alloy-XS-1.004.tar.gz\E'
+patches:
+  - SREZIC/patches/Template-Alloy-XS-1.004-RT95102.patch
