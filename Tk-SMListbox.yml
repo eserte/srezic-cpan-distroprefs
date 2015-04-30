@@ -1,0 +1,11 @@
+match:
+  distribution: '/Tk-SMListbox-1.11.tar.gz'
+  env:
+    PERL_BATCH: yes
+disabled: 1
+---
+match:
+  distribution: '/Tk-SMListbox-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1

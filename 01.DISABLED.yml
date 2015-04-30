@@ -462,8 +462,6 @@ match:
     |.*/Tk-MenuHash-\d
     |.*/Tk-Multi-1.006.tar.gz
     |.*/Tk-PopEntry-0.06.tar.gz
-    |.*/Tk-SMListbox-1.11.tar.gz
-    |.*/Tk-SMListbox-2.1.tar.gz
     |.*/Tk-TM-\d
     |.*/Tk-TextHighlight-\d
     |.*/Tk-Text-SuperText-\d
