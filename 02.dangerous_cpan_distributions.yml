@@ -192,6 +192,7 @@ match:
      |\QBIGJ/File-Random-0.10.tar.gz\E
      |\QBIGJ/Test-Warn-0.08.tar.gz\E
      |\QBIGPRESH/Dancer-Plugin-Database-2.04.tar.gz\E
+     |\QBINARY/Data-CouchDB-0.03.tar.gz\E
      |\QBINARY/Finance-Bitcoin-Feed-0.03.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
@@ -540,6 +541,7 @@ match:
      |\QFREW/Web-Simple-0.004.tar.gz\E
      |\QFRIED/Data-Object-0.006.tar.gz\E
      |\QFRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz\E
+     |\QFROGGS/SDL-2.544.tar.gz\E
      |\QFUKAI/Qiniu-0.01.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
@@ -576,7 +578,6 @@ match:
      |\QGMPASSOS/Thread-Isolate-0.01.tar.gz\E
      |\QGMPASSOS/Wx-ActiveX-0.05.tar.gz\E
      |\QGMPASSOS/XML-Smart-1.3.1.tar.gz\E
-     |\QGNUSTAVO/Gerrit-REST-0.009.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.00.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.07.tar.gz\E
      |\QGOMOR/Net-Frame-1.00.tar.gz\E
@@ -1049,7 +1050,6 @@ match:
      |\QMAHEX/XML-XSLT-0.31.tar.gz\E
      |\QMAHIRO/Data-Freq-0.04.tar.gz\E
      |\QMAHIRO/EJS-Template-0.02.tar.gz\E
-     |\QMAJENSEN/DBD-Neo4p-0.0005.tar.gz\E
      |\QMAKAMAKA/JSON-1.14.tar.gz\E
      |\QMAKAMAKA/JSON-1.15.tar.gz\E
      |\QMAKAMAKA/JSON-2.27.tar.gz\E
@@ -1183,7 +1183,6 @@ match:
      |\QMNUNBERG/Couchbase-2.0.2.tar.gz\E
      |\QMNUNBERG/Proc-Terminator-0.03.tar.gz\E
      |\QMOB/Forks-Super-0.29.tar.gz\E
-     |\QMOB/Forks-Super-0.46.tar.gz\E
      |\QMOB/Forks-Super-0.51.tar.gz\E
      |\QMOB/Forks-Super-0.68.tar.gz\E
      |\QMOCK/Apache-TieBucketBrigade-0.03.tar.gz\E
@@ -1222,7 +1221,6 @@ match:
      |\QMSIMERSON/Mail-Toaster-5.13.tar.gz\E
      |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
-     |\QMSISK/Net-BGPdump-1.00.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1260,6 +1258,7 @@ match:
      |\QNATG/Hash-AutoHash-Record-1.13.tar.gz\E
      |\QNATHANL/Spreadsheet-WriteExcel-WebPivot2.tar.gz\E
      |\QNEDKONZ/Algorithm-Diff-1.15.tar.gz\E
+     |\QNEILB/Text-Autoformat-1.69.tar.gz\E
      |\QNEKOKAK/Clutch-0.03.tar.gz\E
      |\QNEKOKAK/Clutch-0.04.tar.gz\E
      |\QNEKOKAK/DBIx-Class-ProxyTable-0.01.tar.gz\E
@@ -1455,7 +1454,6 @@ match:
      |\QRHANDOM/CGI-Ex-2.38.tar.gz\E
      |\QRHUNDT/CGI-Lite-Request-0.04.tar.gz\E
      |\QRHUNDT/XML-DOM-Lite-0.08.tar.gz\E
-     |\QRIBASUSHI/Acme-WeirdPod-0.001.tar.gz\E
      |\QRITOU/OIDC-Lite-0.01.tar.gz\E
      |\QRITOU/OIDC-Lite-0.02.tar.gz\E
      |\QRIZEN/Facebook-Graph-1.0900.tar.gz\E
@@ -1523,6 +1521,7 @@ match:
      |\QSARTAK/App-Nopaste-0.22.tar.gz\E
      |\QSARTAK/IM-Engine-0.04.tar.gz\E
      |\QSARTAK/IM-Engine-Plugin-Dispatcher-0.01.tar.gz\E
+     |\QSARTAK/Jifty-1.10518.tar.gz\E
      |\QSARTAK/MooseX-InstanceTracking-0.05.tar.gz\E
      |\QSARTAK/MooseX-Role-Parameterized-0.26.tar.gz\E
      |\QSARTAK/MooseX-Singleton-0.19.tar.gz\E
@@ -1599,9 +1598,6 @@ match:
      |\QSISYPHUS/Math-Complex_C-0.09.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
-     |\QSJDY/Webqq-Client-8.4.5.tar.gz\E
-     |\QSJDY/Webqq-Qun-1.3.tar.gz\E
-     |\QSJDY/Weixin-Client-1.7.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
      |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
@@ -1658,6 +1654,7 @@ match:
      |\QSULLR/Net-Inspect-0.22.tar.gz\E
      |\QSULLR/Net-Inspect-0.316.tar.gz\E
      |\QSULLR/Net-SSLGlue-1.0.tar.gz\E
+     |\QSULLR/Net-SSLGlue-1.053.tar.gz\E
      |\QSUMUS/DWH_File-0.21.tar.gz\E
      |\QSUMUS/DWH_File.0.03.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
