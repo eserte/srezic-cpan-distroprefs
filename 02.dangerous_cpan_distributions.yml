@@ -351,6 +351,8 @@ match:
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
+     |\QDCOPPIT/Mail-Mbox-MessageParser-1.5104.tar.gz\E
+     |\QDCOPPIT/Module-Install-Bugtracker-0.0300.tar.gz\E
      |\QDCOPPIT/yagg-1.4004.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
@@ -476,6 +478,7 @@ match:
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
      |\QETHER/MooseX-Declare-0.39.tar.gz\E
+     |\QETHER/MooseX-Storage-0.49.tar.gz\E
      |\QETJ/Bugle-0.03.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
@@ -785,7 +788,6 @@ match:
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
      |\QJFRIED/Rex-0.57.0.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fr.pm-v0.26.9.tar.gz\E
      |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
      |\QJHALLOCK/Gapp-0.26-withoutworldwriteables.tar.gz\E
@@ -801,8 +803,6 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/Convos-0.8603.tar.gz\E
-     |\QJHTHORSEN/Toadfarm-0.47.tar.gz\E
-     |\QJHTHORSEN/Toadfarm-0.49.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -818,6 +818,7 @@ match:
      |\QJLAWRENC/PDF-Labels-0.01.tar.gz\E
      |\QJLAWRENC/Paper-Specs-0.03.tar.gz\E
      |\QJLLEROY/Tangram-2.04.tar.gz\E
+     |\QJLMARTIN/Paws-0.04.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.25.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.51.tar.gz\E
      |\QJMASON/Mail-SpamAssassin-2.64.tar.gz\E
@@ -1258,7 +1259,6 @@ match:
      |\QNATG/Hash-AutoHash-Record-1.13.tar.gz\E
      |\QNATHANL/Spreadsheet-WriteExcel-WebPivot2.tar.gz\E
      |\QNEDKONZ/Algorithm-Diff-1.15.tar.gz\E
-     |\QNEILB/Text-Autoformat-1.69.tar.gz\E
      |\QNEKOKAK/Clutch-0.03.tar.gz\E
      |\QNEKOKAK/Clutch-0.04.tar.gz\E
      |\QNEKOKAK/DBIx-Class-ProxyTable-0.01.tar.gz\E
@@ -1302,7 +1302,6 @@ match:
      |\QNLNETLABS/Net-DNS-SEC-0.21.tar.gz\E
      |\QNMARDEN/VR-API-1.05.tar.gz\E
      |\QNMCFARL/Finance-QIF-1.03.tar.gz\E
-     |\QNNUTTER/Sub-Deprecated-0.003002.tar.gz\E
      |\QNORBU/Giovanni-1.10.tar.gz\E
      |\QNOTDOCTOR/Bio-BioStudio-1.05.tar.gz\E
      |\QNOTDOCTOR/Bio-GeneDesign-3.05.tar.gz\E
@@ -1376,7 +1375,6 @@ match:
      |\QPETERGAL/PGForth1.0.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
-     |\QPFIG/Net-Amazon-S3-0.60.tar.gz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
      |\QPHILCROW/Gantry-3.42.tar.gz\E
@@ -1393,6 +1391,7 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
+     |\QPLICEASE/Test-Version-1.05.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
@@ -1431,6 +1430,7 @@ match:
      |\QRADCLIFF/WebService-Eventful-1.0.tar.gz\E
      |\QRAM/Carp-Datum-0.1.2.tar.gz\E
      |\QRANDERSON/HTTP-WebTest-1.02.tar.gz\E
+     |\QRANDIR/Devel-Assert-0.02.tar.gz\E
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
      |\QRBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.06001.tar.gz\E
@@ -1640,7 +1640,6 @@ match:
      |\QSTEVAN/Bread-Board-0.25.tar.gz\E
      |\QSTEVAN/Forest-0.01.tar.gz\E
      |\QSTEVAN/HTTP-Throwable-0.004.tar.gz\E
-     |\QSTEVAN/MooseX-Getopt-0.06.tar.gz\E
      |\QSTEVAN/Promises-0.07.tar.gz\E
      |\QSTRYTOAST/Plucene-1.20.tar.gz\E
      |\QSTUIFZAND/Sleep-0.0.3.tar.gz\E
