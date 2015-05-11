@@ -1386,6 +1386,7 @@ match:
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
+     |\QPJFL/file-dataclass/File-DataClass-0.60.1.tar.gz\E
      |\QPKUBANEK/XML-Clean-1.010101.tar.gz\E
      |\QPLAVEN/Padre-0.90.tar.gz\E
      |\QPLAVEN/Padre-0.92.tar.gz\E
@@ -1430,7 +1431,6 @@ match:
      |\QRADCLIFF/WebService-Eventful-1.0.tar.gz\E
      |\QRAM/Carp-Datum-0.1.2.tar.gz\E
      |\QRANDERSON/HTTP-WebTest-1.02.tar.gz\E
-     |\QRANDIR/Devel-Assert-0.02.tar.gz\E
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
      |\QRBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.06001.tar.gz\E
@@ -1694,6 +1694,7 @@ match:
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTJOHNSON/Farly-0.12.tar.gz\E
+     |\QTJPARNELL/Bio-ToolBox-1.25.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
      |\QTKR/Treex-Parser-MSTperl-0.08055.tar.gz\E
