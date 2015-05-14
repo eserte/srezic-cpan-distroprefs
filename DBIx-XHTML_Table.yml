@@ -1,5 +1,6 @@
 --- 
 match:
-  module: "^DBIx::XHTML_Table$"
+  distribution: "/DBIx-XHTML_Table-1.36"
 test:
   expect: ["\QTest database? [n]\E", "\n"]
+# 1.38 is not interactive anymore
