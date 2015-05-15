@@ -1342,5 +1342,6 @@ match:
     |.*/Alien-Web-ExtJS-V3-3.4.11 # no successful builds for some reason, huge build dir
     |ARFREITAS/Siebel-AssertOS-0.06.tar.gz # no Makefile.PL
     |RKIES/Tk-Browser-0.82.tar.gz # empty tarball https://rt.cpan.org/Ticket/Display.html?id=103813
+    |TOKAREV/RPC-ExtDirect-Client-Async-1.20.tar.gz # tests hang (seen on linux and freebsd) or fail anyway
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
