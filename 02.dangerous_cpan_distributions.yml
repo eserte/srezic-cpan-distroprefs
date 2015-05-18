@@ -11,7 +11,6 @@ match:
      |\QAANOAA/Hubot-Scripts-Bundle-0.1.1.tar.gz\E
      |\QAARONJJ/WWW-TheEchoNest-0.1.tar.gz\E
      |\QAASSAD/Net-Whois-RIPE-2.005002.tar.gz\E
-     |\QABALAMA/CTKlib-1.15.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABRAXXA/DBIx-Class-0.08195.tar.gz\E
      |\QABW/Badger-0.03.tar.gz\E
@@ -192,8 +191,6 @@ match:
      |\QBIGJ/File-Random-0.10.tar.gz\E
      |\QBIGJ/Test-Warn-0.08.tar.gz\E
      |\QBIGPRESH/Dancer-Plugin-Database-2.04.tar.gz\E
-     |\QBINARY/Data-CouchDB-0.03.tar.gz\E
-     |\QBINARY/Finance-Bitcoin-Feed-0.03.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
@@ -356,6 +353,7 @@ match:
      |\QDCOPPIT/yagg-1.4004.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
+     |\QDEMIAN/HackaMol-0.017.tar.gz\E
      |\QDERF/Travel-Routing-DE-VRR-2.04.tar.gz\E
      |\QDESPAIR/Net-Whois-Raw-2.46.tar.gz\E
      |\QDGL/App-redisp-0.11.tar.gz\E
@@ -418,6 +416,7 @@ match:
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRSTEVE/stylehouse-0.03.tar.gz\E
+     |\QDRTECH/Search-Elasticsearch-1.19.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
      |\QDSCHOEN/Gearman-XS-0.7.tar.gz\E
@@ -803,6 +802,7 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/Convos-0.8603.tar.gz\E
+     |\QJHTHORSEN/Swagger2-0.30.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -1321,6 +1321,7 @@ match:
      |\QNWIGER/Config-Fast-1.06.tar.gz\E
      |\QOAXLIN/MemcacheDBI-0.02.tar.gz\E
      |\QOBRADOVIC/SNA-Network-0.19.tar.gz\E
+     |\QOCBNET/CSS-Sass-v3.2.1.tar.gz\E
      |\QOETIKER/Business-Payment-SwissESR-0.5.1.tar.gz\E
      |\QOLIVER/App-Netdisco-2.004002.tar.gz\E
      |\QOLIVER/App-Netdisco-2.006000.tar.gz\E
@@ -1386,13 +1387,11 @@ match:
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
-     |\QPJFL/file-dataclass/File-DataClass-0.60.1.tar.gz\E
      |\QPKUBANEK/XML-Clean-1.010101.tar.gz\E
      |\QPLAVEN/Padre-0.90.tar.gz\E
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
-     |\QPLICEASE/Test-Version-1.05.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
