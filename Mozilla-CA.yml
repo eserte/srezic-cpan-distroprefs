@@ -8,3 +8,12 @@ goto: ABH/Mozilla-CA-20130114.tar.gz
 # https://github.com/gisle/mozilla-ca/pull/5 for discussion.
 # Critical on cvrsnica, because Flickr::API does not work
 # otherwise.
+---
+match:
+  distribution: '/Mozilla-CA-20141217.tar.gz'
+  perlconfig:
+    myuname: 'linux sx641'
+goto: ABH/Mozilla-CA-20130114.tar.gz
+# Additionally, the new Mozilla::CA may break the
+# installation of LWP::Protocol::https (one of the
+# possible reasons). See https://rt.cpan.org/Public/Bug/Display.html?id=104150
