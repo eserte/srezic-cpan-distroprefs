@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/DBD-Firebird-1\.18\.'
+  distribution: '/DBD-Firebird-1\.(18|20)\.'
   perlconfig:
     archname: -freebsd
 disabled: 1
