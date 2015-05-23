@@ -47,6 +47,7 @@ match:
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAJPAGE/Bio-Roary-2.0.1.tar.gz\E
      |\QAJPAGE/Bio-Roary-2.0.9.tar.gz\E
+     |\QAJPAGE/Bio-Roary-2.2.1.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
@@ -297,6 +298,7 @@ match:
      |\QCOUDOT/Lemonldap-NG-Common-1.1.1.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Common-1.1.2.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Handler-1.3.3.tar.gz\E
+     |\QCOUDOT/Lemonldap-NG-Manager-1.4.4.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Portal-1.2.5.tar.gz\E
      |\QCREAMYG/Lucy-0.3.3.tar.gz\E
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
@@ -777,6 +779,7 @@ match:
      |\QJDS/DBIx-Table-TestDataGenerator-0.003.tar.gz\E
      |\QJDS/DBIx-Table-TestDataGenerator-0.004.tar.gz\E
      |\QJDV/Test-Able-0.03.tar.gz\E
+     |\QJEFFA/DBIx-HTML-0.02.tar.gz\E
      |\QJEFFOBER/Argon-0.05.tar.gz\E
      |\QJEFFOBER/Coro-ProcessPool-0.18.tar.gz\E
      |\QJENDA/Interpolation-0.71.tar.gz\E
@@ -1035,6 +1038,7 @@ match:
      |\QLSAUNDERS/DBIx-Class-Fixtures-1.000002.tar.gz\E
      |\QLSAUNDERS/DBIx-Class-Fixtures-1.001001.tar.gz\E
      |\QLTHEISEN/IPC-Open3-Callback-1.09.tar.gz\E
+     |\QLTP/Net-Tomcat-0.01.tar.gz\E
      |\QLUCS/Test-Usage-0.07.tar.gz\E
      |\QLUKEC/Socialtext-WikiTest-0.04.tar.gz\E
      |\QLUKEC/Test-WWW-Selenium-1.24.tar.gz\E
@@ -1131,7 +1135,6 @@ match:
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
-     |\QMGRIMES/AnyEvent-Filesys-Notify-1.15.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1769,6 +1772,7 @@ match:
      |\QVADZ/WebService-SlimTimer-0.001.tar.gz\E
      |\QVANAMBURG/CGI-Application-Structured-0.004.tar.gz\E
      |\QVANAMBURG/VANAMBURG-Magic-0.03.tar.gz\E
+     |\QVANSTYN/Catalyst-Controller-SimpleCAS-0.996.tar.gz\E
      |\QVANSTYN/RapidApp-0.99333.tar.gz\E
      |\QVANSTYN/RapidApp-0.99664.tar.gz\E
      |\QVANSTYN/RapidApp-0.99700.tar.gz\E
@@ -1835,6 +1839,7 @@ match:
      |\QXEONTIME/Sakai-Nakamura-0.11.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-6.02.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-7.08.tar.gz\E
+     |\QXLAT/Mojolicious-Plugin-DevexpressHelpers-0.151410.tar.gz\E
      |\QXSAWYERX/Dancer2-0.13.tar.gz\E
      |\QXSAWYERX/Dancer2-0.143000.tar.gz\E
      |\QXSAWYERX/Dancer2-0.150000.tar.gz\E
