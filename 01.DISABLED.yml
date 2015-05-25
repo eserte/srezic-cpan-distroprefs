@@ -474,7 +474,7 @@ match:
     |.*/pgk_xs-0.05.tar.gz
     |.*/net-smtp-retryable/Net-SMTP-Retryable-0.0.2.tar.gz # asks for smtp server and email address
     |.*/OpenGuides-\d # needs openguides (not available on freebsd, but on linux), but asks way too many questions...
-    |.*/Quota-\d # interactive test
+    |.*/Quota-\d # interactive test --- with 1.7.2 (and probably somewhat earlier) there is a check for interactive tty, and skipping tests if it's non-interactive
     |.*/Acme-Tests-\d # interactive test
     |.*/MARC-Errorchecks-\d # unnecessary interactive test
     |.*/Term-Twiddle-\d # interactive test
