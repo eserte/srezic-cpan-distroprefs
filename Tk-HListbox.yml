@@ -1,6 +1,6 @@
 ---
 match:
   distribution: '/Tk-HListbox-\d'
-pl:
+test:
   env:
     PERL_MM_USE_DEFAULT: 1
