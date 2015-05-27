@@ -746,7 +746,7 @@ match:
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.15.tar.gz # dito (and 05-search.t hangs)
-    |RUSSOZ/Net-LDAP-SimpleServer-0.0.17.tar.gz # dito (t/14-bind.t and 15 hang)
+    |XXXRUSSOZ/Net-LDAP-SimpleServer-0.0.17.tar.gz # dito (t/14-bind.t and 15 hang) - 20150527, checked again: does not hang anymore (freebsd, linux)
     |JJORE/App-Stacktrace-0.(03|04|05|06|07).tar.gz # test hangs (gdb)
     |.*/MozRepl-RemoteObject-0.2[23].tar.gz # hanging tests
     |.*/AnyEvent-Retry-0.03.tar.gz # hanging test (release-pod-syntax?)
