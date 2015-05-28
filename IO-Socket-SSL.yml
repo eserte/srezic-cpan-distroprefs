@@ -1,5 +1,15 @@
 ---
 match:
+  distribution: '/IO-Socket-SSL-2.015_003.'
+pl:
+  eexpect:
+    timeout: 360
+    talk:
+      - '\Qnetwork traffic to external sites.  [Y/n]'
+      - "y\n"
+# see also https://rt.cpan.org/Ticket/Update.html?id=104731
+---
+match:
   distribution: '/IO-Socket-SSL-\d'
 pl:
   env:
