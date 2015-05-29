@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/ExtUtils-F77-\d'
+  perlconfig:
+    osname: freebsd
+patches:
+  - SREZIC/patches/ExtUtils-F77-1.17-freebsd.patch
+# Patch derived from lang/p5-ExtUtils-F77 port
