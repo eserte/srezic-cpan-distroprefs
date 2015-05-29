@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/PGPLOT-\d'
+depends:
+  build_requires:
+    ExtUtils::F77: 0
+test:
+  env:
+    PGPLOT_DEV: '/PNG'
+#    PGPLOT_DEV: '/XSERVE'
+## Also requires pgplot5 library on Debian
