@@ -1,6 +1,19 @@
 ---
 match:
   distribution: '/PGPLOT-\d'
+  perlconfig:
+    osname: freebsd
+depends:
+  configure_requires:
+    ExtUtils::F77: 0
+test:
+  env:
+    PGPLOT_DEV: '/GIF'
+## /PNG does not seem to exist as a driver in FreeBSD's pgplot
+## Also requires libpgplot library on FreeBSD
+---
+match:
+  distribution: '/PGPLOT-\d'
 depends:
   configure_requires:
     ExtUtils::F77: 0
