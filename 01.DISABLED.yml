@@ -318,7 +318,7 @@ match:
     |.*/Perl-RPM-\d # needs rpm stuff (maybe available for fbsd, but not on my system)
     |.*/Software-Packager-Rpm-\d # needs rpm stuff (maybe available for fbsd, but not on my system)
     |.*/RPM2-\d # needs rpm stuff (maybe available for fbsd, but not on my system)
-    |.*/PGPLOT-\d # libpgplot exists, but currently not installed from port
+    |XXX.*/PGPLOT-\d # libpgplot exists, but currently not installed from port
     |XXX/OpenGL-\d # port exists, but currently not installed from port
     |.*/SDL-sdlpl-\d # needs opengl, not yet installed
     |.*/SDL_Perl-\d # needs opengl, not yet installed
