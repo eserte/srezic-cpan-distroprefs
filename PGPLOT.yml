@@ -2,7 +2,7 @@
 match:
   distribution: '/PGPLOT-\d'
 depends:
-  build_requires:
+  configure_requires:
     ExtUtils::F77: 0
 test:
   env:
