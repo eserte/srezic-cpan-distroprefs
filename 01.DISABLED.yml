@@ -1343,5 +1343,6 @@ match:
     |RKIES/Tk-Browser-0.82.tar.gz # empty tarball https://rt.cpan.org/Ticket/Display.html?id=103813
     |TOKAREV/RPC-ExtDirect-Client-Async-1.20.tar.gz # tests hang (seen on linux and freebsd) or fail anyway
     |NANDINIG/theshopbiz_perl.zip # no Makefile.PL
+    |JONBJ/Config-Easy-0.3.tar.gz # MacOSX directories, cannot be built, https://rt.cpan.org/Ticket/Display.html?id=104861
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
