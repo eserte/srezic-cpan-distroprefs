@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Math-BigInt-GMP-1\.38\.'
+  perlconfig:
+    version: '5\.(21|22)\.'
+patches:
+  - SREZIC/patches/Math-BigInt-GMP-1.38-RT96113.patch
