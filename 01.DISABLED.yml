@@ -1095,6 +1095,7 @@ match:
     |FROGGS/Test-Ignore-Me-0.001.tar.gz # perl6 test distribution
     |FROGGS/test/test2/ACME-Ignore-Me-\d # perl6 test distributions
     |DRSTEVE/stylehouse-0.03.tar.gz # not a testable distribution (no EUMM/MB, t/*.t ...)
+    |DRSTEVE/stylehouse-20140427.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=104963 (irregular dist)
     |SKI/Task-Git-LongList1-0.03.tar.gz # test tries to install modules through CPAN.pm - https://rt.cpan.org/Ticket/Display.html?id=94932
     |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
     |CCAVNOR/autoclass_v1_01.tgz # unauthorized? Class::AutoClass is used here, but also in NATG/Class-AutoClass-1.56.tar.gz
