@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Flickr-API-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# Required starting from 1.11 or so
