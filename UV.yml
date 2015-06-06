@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/UV-\d'
+  perlconfig:
+# probably all BSDs...
+    archname: "-freebsd"
+make:
+  commandline: gmake MAKE=gmake
+# https://rt.cpan.org/Ticket/Display.html?id=105015
