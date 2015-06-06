@@ -446,7 +446,7 @@ match:
     |.*/Schema-RDBMS-AUS-0.04.tar.gz # asks questions; check and fix! XXX
     |.*/Script-0\.53\. # test is rather interactive
     |.*/TAP-Convert-TET-0.2.1.tar.gz # asks questions; check and fix! XXX
-    |.*/Term-Screen-\d # https://rt.cpan.org/Ticket/Display.html?id=25890
+    |XXX.*/Term-Screen-\d # https://rt.cpan.org/Ticket/Display.html?id=25890 # not interactive anymore since 1.04
     |.*/Term-Screen-ReadLine-\d
     |.*/Term-ShellKit-\d
     |.*/TextLinkAds-\d # wants a valid XML
