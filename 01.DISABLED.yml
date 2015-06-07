@@ -961,7 +961,7 @@ match:
     |STRYTOAST/log.tar.gz # distname not ok    
     |.*/manish-db.tar.gz # distname not ok
     |.*/YAML-Parser-Syck-\d # needs libsyck --- i don't think this module is needed at all...
-    |.*/Sniffer-HTTP-\d # needs root privileges for test (Net::Pcap...)
+    |XXX.*/Sniffer-HTTP-\d # needs root privileges for test (Net::Pcap...) --- this does not seem to be true anymore, testing is fine on linux & freebsd
     |.*/SVN-Web-\d # needs non-CPAN (?) dependency SVN::Core
     |.*/SVK-v\d # needs non-CPAN (?) dependency SVN::Core
     |.*/SVN-Simple-\d # needs non-CPAN (?) dependency SVN::Core
