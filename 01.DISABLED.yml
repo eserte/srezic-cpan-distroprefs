@@ -1345,5 +1345,7 @@ match:
     |TOKAREV/RPC-ExtDirect-Client-Async-1.20.tar.gz # tests hang (seen on linux and freebsd) or fail anyway
     |NANDINIG/theshopbiz_perl.zip # no Makefile.PL
     |JONBJ/Config-Easy-0.3.tar.gz # MacOSX directories, cannot be built, https://rt.cpan.org/Ticket/Display.html?id=104861
+    |.*/ACME-MyFirstModule-[A-Z] # uninteresting
+    |.*/Acme-MyFirstModule-[A-Z] # uninteresting
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
