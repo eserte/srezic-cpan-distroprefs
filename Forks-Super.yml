@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Forks-Super-0.(4[6789]|5[12456])"
+  distribution: '/Forks-Super-0.(4[6789]|5[12456])'
   perlconfig:
     archname: "-freebsd"
   env:
@@ -24,14 +24,14 @@ disabled: 1
 ## Sys::CpuAffinity does not build under freebsd, it seems
 ---
 match:
-  distribution: "/Forks-Super-0\.64\."
+  distribution: '/Forks-Super-0\.64\.'
   perlconfig:
     myuname: 'linux cvrsnica-jessie'
 disabled: 1
 # https://rt.cpan.org/Ticket/Display.html?id=105130
 ---
 match:
-  distribution: "/Forks-Super-0."
+  distribution: '/Forks-Super-0.'
 pl:
   eexpect:
     mode: anyorder
