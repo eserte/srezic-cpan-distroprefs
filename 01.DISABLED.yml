@@ -1347,6 +1347,6 @@ match:
     |JONBJ/Config-Easy-0.3.tar.gz # MacOSX directories, cannot be built, https://rt.cpan.org/Ticket/Display.html?id=104861
     |.*/ACME-MyFirstModule-[A-Z] # uninteresting
     |.*/Acme-MyFirstModule-[A-Z] # uninteresting
-    |DEMIAN/HackaMol-X-Calculator-0.012.tar.gz # cannot be downloaded, disturbing CPAN.pm and cpan_smoke_modules
+    |XXXDEMIAN/HackaMol-X-Calculator-0.012.tar.gz # cannot be downloaded, disturbing CPAN.pm and cpan_smoke_modules
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
