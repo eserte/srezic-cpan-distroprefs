@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: 'INA/Char/Char-1\.(03|04)\.'
+  distribution: 'INA/Char/Char-1\.(03|04|05)\.'
 disabled: 1
 # very long test suite, blocking smokers
