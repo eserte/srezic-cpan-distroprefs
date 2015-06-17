@@ -45,8 +45,7 @@ match:
      |\QAJOLMA/Geo-GDAL-1.81.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
-     |\QAJPAGE/Bio-Roary-2.2.1.tar.gz\E
-     |\QAJPAGE/Bio-Roary-2.2.6.tar.gz\E
+     |\QAJPAGE/Bio-Roary-2.3.4.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
@@ -264,6 +263,7 @@ match:
      |\QCHIM/Dist-Zilla-PluginBundle-Author-CHIM-0.052002.tar.gz\E
      |\QCHISEL/Plack-App-FakeApache1-0.0.1.tar.gz\E
      |\QCHISEL/Zucchini-0.0.17.tar.gz\E
+     |\QCHM/PDL-2.011.tar.gz\E
      |\QCHRISA/Catalyst-Engine-Stomp-0.02.tar.gz\E
      |\QCHRISA/Devel-DTrace-Provider-0.02.tar.gz\E
      |\QCHRISJH/App-OverWatch-0.003.tar.gz\E
@@ -420,7 +420,6 @@ match:
      |\QDROLSKY/DateTime-TimeZone-1.86.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
-     |\QDRSTEVE/stylehouse-0.03.tar.gz\E
      |\QDRTECH/Search-Elasticsearch-1.19.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
@@ -506,7 +505,6 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
-     |\QEXODIST/ACME-FunkyDocs-0.001.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -601,6 +599,7 @@ match:
      |\QGPHAT/Data-SearchEngine-0.32.tar.gz\E
      |\QGPHAT/IO-Storm-0.01.tar.gz\E
      |\QGRAF/WebService-XING-0.001.tar.gz\E
+     |\QGRANDPA/Win32-PEFile/Win32-PEFile-0.7006.tar.gz\E
      |\QGRAYKOT/POE-Component-Client-Whois-Smart-0.08.tar.gz\E
      |\QGREEN/constant-our-0.01.tar.gz\E
      |\QGREGOR/psh-1.8.1.tar.gz\E
@@ -701,6 +700,40 @@ match:
      |\QIMACAT/Locale-Maketext-Gettext-1.18.tar.gz\E
      |\QIMALPASS/WebService-Etsy-0.4.tar.gz\E
      |\QIMPIOUS/DBR-1.0.7rc7.tar.gz\E
+     |\QINA/Char/Arabic/Char-Arabic-1.02.tar.gz\E
+     |\QINA/Char/Big5HKSCS/Char-Big5HKSCS-1.02.tar.gz\E
+     |\QINA/Char/Big5Plus/Char-Big5Plus-1.02.tar.gz\E
+     |\QINA/Char/Cyrillic/Char-Cyrillic-1.02.tar.gz\E
+     |\QINA/Char/EUCJP/Char-EUCJP-1.02.tar.gz\E
+     |\QINA/Char/EUCTW/Char-EUCTW-1.02.tar.gz\E
+     |\QINA/Char/GB18030/Char-GB18030-1.02.tar.gz\E
+     |\QINA/Char/GBK/Char-GBK-1.02.tar.gz\E
+     |\QINA/Char/Greek/Char-Greek-1.02.tar.gz\E
+     |\QINA/Char/HP15/Char-HP15-1.02.tar.gz\E
+     |\QINA/Char/Hebrew/Char-Hebrew-1.02.tar.gz\E
+     |\QINA/Char/INFORMIXV6ALS/Char-INFORMIXV6ALS-1.02.tar.gz\E
+     |\QINA/Char/JIS8/Char-JIS8-1.02.tar.gz\E
+     |\QINA/Char/KOI8R/Char-KOI8R-1.02.tar.gz\E
+     |\QINA/Char/KOI8U/Char-KOI8U-1.02.tar.gz\E
+     |\QINA/Char/KPS9566/Char-KPS9566-1.02.tar.gz\E
+     |\QINA/Char/Latin1/Char-Latin1-1.02.tar.gz\E
+     |\QINA/Char/Latin10/Char-Latin10-1.02.tar.gz\E
+     |\QINA/Char/Latin2/Char-Latin2-1.02.tar.gz\E
+     |\QINA/Char/Latin3/Char-Latin3-1.02.tar.gz\E
+     |\QINA/Char/Latin4/Char-Latin4-1.02.tar.gz\E
+     |\QINA/Char/Latin5/Char-Latin5-1.02.tar.gz\E
+     |\QINA/Char/Latin6/Char-Latin6-1.02.tar.gz\E
+     |\QINA/Char/Latin7/Char-Latin7-1.02.tar.gz\E
+     |\QINA/Char/Latin8/Char-Latin8-1.02.tar.gz\E
+     |\QINA/Char/Latin9/Char-Latin9-1.02.tar.gz\E
+     |\QINA/Char/OldUTF8/Char-OldUTF8-1.02.tar.gz\E
+     |\QINA/Char/Sjis/Char-Sjis-1.02.tar.gz\E
+     |\QINA/Char/TIS620/Char-TIS620-1.02.tar.gz\E
+     |\QINA/Char/UHC/Char-UHC-1.02.tar.gz\E
+     |\QINA/Char/USASCII/Char-USASCII-1.02.tar.gz\E
+     |\QINA/Char/UTF2/Char-UTF2-1.02.tar.gz\E
+     |\QINA/Char/Windows1252/Char-Windows1252-1.02.tar.gz\E
+     |\QINA/Char/Windows1258/Char-Windows1258-1.02.tar.gz\E
      |\QINGY/Alt-IO-All-new-0.01.tar.gz\E
      |\QINGY/Alt-IO-All-new-0.04.tar.gz\E
      |\QINGY/App-AYCABTU-0.03.tar.gz\E
@@ -753,6 +786,7 @@ match:
      |\QIPENBURG/Date-Extract-P800Picture-0.04.tar.gz\E
      |\QIRONCAMEL/Business-BalancedPayments-0.1501.tar.gz\E
      |\QIRONCAMEL/Net-OpenStack-Compute-1.0900.tar.gz\E
+     |\QISHIGAKI/DBD-SQLite-1.46.tar.gz\E
      |\QISHIGAKI/Module-New-0.13.tar.gz\E
      |\QITUB/Chemistry-Mok-0.16.tar.gz\E
      |\QITUB/IO-All-LWP-0.12.tar.gz\E
@@ -774,6 +808,7 @@ match:
      |\QJASONS/XML-Xerces-2.3.0-4.tar.gz\E
      |\QJASONS/XML-Xerces-2.5.0-0.tar.gz\E
      |\QJASPAX/Lingua-Phonology-0.3503.tar.gz\E
+     |\QJAYCE/Business-OnlinePayment-Litle-0.940.tar.gz\E
      |\QJBAKER/Apache-Session-0.17.1.tar.gz\E
      |\QJBAKER/Apache-Session-1.03.tar.gz\E
      |\QJBD/JBD-0.02.tar.gz\E
@@ -1314,6 +1349,7 @@ match:
      |\QNPEREZ/POE-Filter-XML-0.38.tar.gz\E
      |\QNPLATONOV/Dist-Zilla-Plugin-Web-0.0.3.tar.gz\E
      |\QNRG/API-Plesk-1.09.tar.gz\E
+     |\QNTHYKIER/autodie-2.26.tar.gz\E
      |\QNUDDLEGG/WebService-Cmis-0.08.tar.gz\E
      |\QNUFFIN/Catalyst-Plugin-Authentication-0.09.tar.gz\E
      |\QNUFFIN/Class-Workflow-0.08.tar.gz\E
@@ -1386,6 +1422,7 @@ match:
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
      |\QPHILCROW/Gantry-3.42.tar.gz\E
+     |\QPHISH/CGI-XMLApplication-1.1.3.tar.gz\E
      |\QPHRED/Apache-SizeLimit-0.96.tar.gz\E
      |\QPHRED/Apache-Test-1.36.tar.gz\E
      |\QPHRED/Apache-Test-1.38.tar.gz\E
@@ -1582,6 +1619,7 @@ match:
      |\QSHLOMIF/Games-ABC_Path-Generator-v0.1.0.tar.gz\E
      |\QSHLOMIF/Games-LMSolve-v0.8.5.tar.gz\E
      |\QSHLOMIF/HTML-Strip-Whitespace-v0.1.7.tar.gz\E
+     |\QSHLOMIF/HTML-Widgets-NavMenu-1.0702.tar.gz\E
      |\QSHLOMIF/Inline-Ruby-0.04.tar.gz\E
      |\QSHLOMIF/Test-Run-0.0302.tar.gz\E
      |\QSHLOMIF/XML-CompareML-v0.2.7.tar.gz\E
