@@ -1201,7 +1201,7 @@ match:
     |.*/DB_File-SV18x-kit-\d # questions about bdb version
     |OESI/GSAPI-0.5.tar.gz # need to install ghostscript first
     |.*/CGI-Application-Plugin-Apache-1.01.tar.gz # test hangs (maybe only if prereqs (Apache?) are missing)
-    |.*/Data-UUID-LibUUID-\d # there are some ports providing libuuid.a, but which one is the correct one?
+    |XXX.*/Data-UUID-LibUUID-\d # there are some ports providing libuuid.a, but which one is the correct one? - 2015-06-22: passes on linux systems, but not on freebsd
     |JESSE/Net-Trac-0.0[43].tar.gz # kills whole smoker if trac-admin does not exist
     |.*/LedgerSMB-API-\d # needs /usr/local/lesgersmb
     |.*/Kools-Okapi-\d # needs: KPLUSHOME3 must be set to Kondor+ installation directory
