@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/IO-Die-0\.050\.'
+  perlconfig:
+    archname: linux
+disabled: 1
+# test hangs
