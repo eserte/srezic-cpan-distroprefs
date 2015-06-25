@@ -5,3 +5,4 @@ match:
     archname: linux
 disabled: 1
 # test hangs
+# -> https://rt.cpan.org/Ticket/Display.html?id=105477
