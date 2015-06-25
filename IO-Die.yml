@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/IO-Die-0\.(050|051)\.'
+  distribution: '/IO-Die-0\.(050|051|052)\.'
   perlconfig:
     archname: linux
 disabled: 1
