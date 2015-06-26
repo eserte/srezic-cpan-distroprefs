@@ -286,6 +286,7 @@ match:
     |.*/Audio-PortAudio-\d # portaudio not installed here
     |.*/Verilog-Pli-\d # needs some env variable set to find some header file
     |WSNYDER/Verilog-Perl-3.313.tar.gz # hanging flex call without input files (gmake needed?)
+    |WSNYDER/Verilog-Perl-3.314.tar.gz # may hang, again flex call without input files?
     |WSNYDER/SystemPerl-1.340.tar.gz # hanging flex call without input files (gmake needed?)
     |WSNYDER/SystemPerl-1.341.tar.gz # hanging flex call without input files (gmake needed?)
     |XXXX.*/Math-MPC-\d # needs mpc library, not available as port --- now, mpc is available
