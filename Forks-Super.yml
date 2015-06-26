@@ -24,7 +24,7 @@ disabled: 1
 ## Sys::CpuAffinity does not build under freebsd, it seems
 ---
 match:
-  distribution: '/Forks-Super-0\.(74|75)\.'
+  distribution: '/Forks-Super-0\.(74|75|7\d)\.'
   perlconfig:
     myuname: 'linux cvrsnica-jessie'
 disabled: 1
