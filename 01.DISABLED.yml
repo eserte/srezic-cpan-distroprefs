@@ -73,6 +73,14 @@ match:
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
+comment: "Distributions which are known to not work"
+match:
+  distribution: |
+    ^(?x:
+      .*/Bio-Roary-\d # author uses travis-ci and does not need cpan testers, see https://rt.cpan.org/Ticket/Display.html?id=104843
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+--- 
 comment: "Never install perl from CPAN.pm"
 match:
   distribution: '/perl-5\.(6|7|8|9|\d\d)\.\d+'
@@ -1336,10 +1344,6 @@ match:
     |GWS/Map-Tube-KoelnBonn-0.05.tar.gz # dito
     |POWERMAN/App-migrate-v0.1.0.tar.gz # XXX needs to be checked, seems to breaks somehow the freebsd smokers
     |POWERMAN/App-migrate-v0.1.1.tar.gz # XXX dito -> https://github.com/powerman/migrate/issues/1
-    |AJPAGE/Bio-Roary-2.0.0.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
-    |AJPAGE/Bio-Roary-2.0.3.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
-    |AJPAGE/Bio-Roary-2.0.4.tar.gz # tarball missing, maybe disturbing cpan_smoke_modules?
-    |XXXAJPAGE/Bio-Roary-2.\d+ # tarballs frequently missing at cpantesters.org, see https://rt.cpan.org/Ticket/Display.html?id=103153 - 2015-05-20, seems that now tarballs are again there
     |.*/Alien-Web-ExtJS-V3-3.4.11 # no successful builds for some reason, huge build dir
     |ARFREITAS/Siebel-AssertOS-0.06.tar.gz # no Makefile.PL
     |RKIES/Tk-Browser-0.82.tar.gz # empty tarball https://rt.cpan.org/Ticket/Display.html?id=103813
