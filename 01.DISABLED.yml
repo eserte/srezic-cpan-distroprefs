@@ -1354,5 +1354,6 @@ match:
     |.*/Acme-MyFirstModule-[A-Z] # uninteresting
     |XXXDEMIAN/HackaMol-X-Calculator-0.012.tar.gz # cannot be downloaded, disturbing CPAN.pm and cpan_smoke_modules
     |AWOHLD/Date-FromToday-0.51.zip # broken dist (not recognized as perl package)
+    |ZDM/Pcore-v0\. # overwriting other modules --- see https://rt.cpan.org/Ticket/Display.html?id=105536
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
