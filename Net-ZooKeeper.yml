@@ -33,6 +33,6 @@ match:
     archname: freebsd
 pl:
   args:
-    - '--zookeeper-include=/usr/local/include/zookeeper'
+    - '--zookeeper-include=/usr/local/include'
 # requires libzookeeper package to be installed
 # but tests seem to fail without running zookeeperd
