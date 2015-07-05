@@ -64,6 +64,27 @@
 	@errors;
     }
 
+    sub validate_and_touch {
+	my($target) = @_;
+	(my $source = $target) =~ s{^\.validated/}{};
+	print STDERR "Validate $source...\n";
+	my @errors = validate_distroprefs($source);
+	if (@errors) {
+	    die "Found validation errors ($source):\n" . join("\n", @errors);
+	}
+	if (0) {
+	    system 'touch', $target;
+	    $? == 0 or die "Could not touch $target";
+	} else {
+	    if (open my $ofh, ">", $target) {
+		print $ofh "--- {}\n";
+		close $ofh or die "Error while writing to $target: $!";
+	    } else {
+		warn "WARN: Could not touch $target: $! (validation will be repeated every time)\n";
+	    }
+	}
+    }
+
     sub file_to_latest_commitid {
 	my($stop_at_commitid) = @_;
 
@@ -161,23 +182,7 @@ validate: { map { ".validated/$_" } glob("*.yml") }
 .validated/%.yml: %.yml
 	{
 	    my($self, $target) = @_;
-	    (my $source = $target) =~ s{^\.validated/}{};
-	    print STDERR "Validate $source...\n";
-	    my @errors = validate_distroprefs($source);
-	    if (@errors) {
-		die "Found validation errors ($source):\n" . join("\n", @errors);
-	    }
-	    if (0) {
-		system 'touch', $target;
-		$? == 0 or die "Could not touch $target";
-	    } else {
-		if (open my $ofh, ">", $target) {
-		    print $ofh "--- {}\n";
-		    close $ofh or die "Error while writing to $target: $!";
-		} else {
-		    warn "WARN: Could not touch $target: $! (validation will be repeated every time)\n";
-		}
-	    }
+	    validate_and_touch($target);
 	    "";
 	}
 
