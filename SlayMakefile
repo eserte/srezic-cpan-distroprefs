@@ -177,7 +177,16 @@ permissions:
 		"";
 	}
 
-validate: { map { ".validated/$_" } glob("*.yml") }
+validate:
+	{
+		for my $file (glob("*.yml")) {
+		    my $target = ".validated/$file";
+		    if (!-e $target || -M $target > -M $file) {
+			validate_and_touch($target);
+		    }
+		}
+		"";
+	}
 
 .validated/%.yml: %.yml
 	{
