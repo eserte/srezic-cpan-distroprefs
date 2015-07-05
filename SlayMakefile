@@ -64,14 +64,8 @@
 	@errors;
     }
 
-    sub validate_and_touch {
-	my($target) = @_;
-	(my $source = $target) =~ s{^\.validated/}{};
-	print STDERR "Validate $source...\n";
-	my @errors = validate_distroprefs($source);
-	if (@errors) {
-	    die "Found validation errors ($source):\n" . join("\n", @errors);
-	}
+    sub touch ($) {
+	my $target = shift;
 	if (0) {
 	    system 'touch', $target;
 	    $? == 0 or die "Could not touch $target";
@@ -83,6 +77,17 @@
 		warn "WARN: Could not touch $target: $! (validation will be repeated every time)\n";
 	    }
 	}
+    }
+
+    sub validate_and_touch {
+	my($target) = @_;
+	(my $source = $target) =~ s{^\.validated/}{};
+	print STDERR "Validate $source...\n";
+	my @errors = validate_distroprefs($source);
+	if (@errors) {
+	    die "Found validation errors ($source):\n" . join("\n", @errors);
+	}
+	touch $target;
     }
 
     sub file_to_latest_commitid {
@@ -241,10 +246,16 @@ validate-certified-yaml-xs:
 		my @error_files;
 		for my $yml (glob("*.yml")) {
 		    next if !exists $certified_files->{$yml};
-		    our $TEST_ALSO_YAML_XS = 1;
-		    local $TEST_ALSO_YAML_XS = 1;
-		    if (validate_distroprefs($yml)) {
-			push @error_files, $yml;
+		    my $target = ".validated_certified/$yml";
+		    if (!-e $target || -M $target > -M $yml) {
+			warn "validate certified yaml: $yml ...\n";
+			our $TEST_ALSO_YAML_XS = 1;
+			local $TEST_ALSO_YAML_XS = 1;
+			if (validate_distroprefs($yml)) {
+			    push @error_files, $yml;
+		        } else {
+			    touch $target;
+			}
 		    }
 		}
 		if (@error_files) { die "Found YAML::XS errors on following files:\n" . join("\n", @error_files) . "\n" }
