@@ -1357,5 +1357,6 @@ match:
     |ZDM/Pcore-v0\.10\. # overwriting other modules --- see https://rt.cpan.org/Ticket/Display.html?id=105536
     |WBRASWELL/RPerl-1.000001.tar.gz # does not pass tests, very long runtime
     |WBRASWELL/RPerl-1.000003.tar.gz # does not pass tests, very long runtime
+    |WBRASWELL/RPerl-1.000005.tar.gz # does not pass tests, very long runtime
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
