@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/LWP-UserAgent-Cached-\d'
+pl:
+  eexpect:
+    mode: anyorder
+    talk:
+      - '\QAppend this modules to installation queue?'
+# don't use default
+      - "n\n"
