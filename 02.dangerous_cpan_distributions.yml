@@ -238,6 +238,7 @@ match:
      |\QBROQ/Gitalist-0.004004.tar.gz\E
      |\QBRUCEK/IO-Multiplex-1.00.tar.gz\E
      |\QBRUMMETT/UR-0.41.tar.gz\E
+     |\QBRUMMETT/UR-0.43.tar.gz\E
      |\QBRYCE/Test-Parser-1.4.tar.gz\E
      |\QBSHENRY/VBTK-0.14.tar.gz\E
      |\QBTMCINNES/UMLS-Interface-0.57.tar.gz\E
@@ -548,6 +549,7 @@ match:
      |\QFUKAI/Qiniu-0.01.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
+     |\QGAAS/HTTP-Message-6.06.tar.gz\E
      |\QGAAS/libwww-perl-5.837.tar.gz\E
      |\QGAAS/perlbench-0.93.tar.gz\E
      |\QGABOR/Text-Format0.52+NWrap0.11.tar.gz\E
@@ -840,6 +842,7 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/Convos-0.8603.tar.gz\E
+     |\QJHTHORSEN/Swagger2-0.39.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -1405,7 +1408,6 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/HTTP-Thin-UserAgent-0.007.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/App-pause-0.38.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
@@ -1683,6 +1685,7 @@ match:
      |\QSTARKY/Net-Peep-0.4.1.1.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.4.tar.gz\E
      |\QSTEFANT/WWW-phpBB-0.02.tar.gz\E
+     |\QSTEFFENW/Object-Lazy-0.14.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.06.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.08.tar.gz\E
      |\QSTEPHEN/Video-Xine-0.18.tar.gz\E
@@ -1791,6 +1794,7 @@ match:
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.15.tar.gz\E
      |\QTPEDERSE/WordNet-Similarity-2.03.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
+     |\QTRIZEN/Sidef-0.06.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/DBIx-SearchBuilder-1.65.tar.gz\E
@@ -1886,6 +1890,7 @@ match:
      |\QXSAWYERX/Dancer2-0.143000.tar.gz\E
      |\QXSAWYERX/Dancer2-0.150000.tar.gz\E
      |\QYAMATO/QDBM_File-0.05.tar.gz\E
+     |\QYANICK/Dist-Zilla-PluginBundle-YANICK-0.23.0.tar.gz\E
      |\QYANICK/Template-Caribou-0.1.0.tar.gz\E
      |\QYANICK/Template-Caribou-0.2.3.tar.gz\E
      |\QYAPPO/HTTP-Engine-0.0.11.tar.gz\E
@@ -1922,6 +1927,7 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
+     |\QZDM/Pcore-Sphinx-v0.1.0.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
