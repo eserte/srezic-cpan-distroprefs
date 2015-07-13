@@ -13,6 +13,7 @@ match:
      |\QAASSAD/Net-Whois-RIPE-2.005002.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABRAXXA/DBIx-Class-0.08195.tar.gz\E
+     |\QABRETT/WWW-SFDC-0.25.tar.gz\E
      |\QABW/Badger-0.03.tar.gz\E
      |\QABW/Template-Toolkit-1.07.tar.gz\E
      |\QACALPINI/Win32-GUI-0.0.558.tar.gz\E
@@ -191,6 +192,7 @@ match:
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBEATNIK/Filter-CBC-0.08.tar.gz\E
+     |\QBELDEN/Hash-MostUtils-1.05.tar.gz\E
      |\QBENBOOTH/IntervalTree-0.01.tar.gz\E
      |\QBEPPU/Embedix-ECD-0.07.tar.gz\E
      |\QBEPPU/Squatting-0.31.tar.gz\E
@@ -538,10 +540,6 @@ match:
      |\QFREDERICD/Koha-Contrib-Tamil-0.032.tar.gz\E
      |\QFREDERICD/marc-moose-0.006.tar.gz\E
      |\QFREDERICD/marc-moose-0.020.tar.gz\E
-     |\QFREW/DBIx-Class-0.08114.tar.gz\E
-     |\QFREW/DBIx-Class-0.08115.tar.gz\E
-     |\QFREW/DBIx-Class-0.08123.tar.gz\E
-     |\QFREW/DBIx-Class-0.08124.tar.gz\E
      |\QFREW/Web-Simple-0.004.tar.gz\E
      |\QFRIED/Data-Object-0.006.tar.gz\E
      |\QFRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz\E
@@ -549,7 +547,6 @@ match:
      |\QFUKAI/Qiniu-0.01.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
-     |\QGAAS/HTTP-Message-6.06.tar.gz\E
      |\QGAAS/libwww-perl-5.837.tar.gz\E
      |\QGAAS/perlbench-0.93.tar.gz\E
      |\QGABOR/Text-Format0.52+NWrap0.11.tar.gz\E
@@ -842,7 +839,6 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/Convos-0.8603.tar.gz\E
-     |\QJHTHORSEN/Swagger2-0.39.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -885,6 +881,7 @@ match:
      |\QJOHND/Class-DBI-Lite-1.020.tar.gz\E
      |\QJOHND/Class-DBI-Lite-1.023.tar.gz\E
      |\QJON/Reddit-0.30.03.tar.gz\E
+     |\QJONALLEN/Catalyst-View-PDF-Reuse-0.04.tar.gz\E
      |\QJONASBN/Date-Holidays-0.22.tar.gz\E
      |\QJONASBN/Tie-Tools-1.08.tar.gz\E
      |\QJONATAYAH/Captcha-AreYouAHuman-0.00003.tar.gz\E
@@ -971,7 +968,6 @@ match:
      |\QKENTARO/Acme-MorningMusume-0.15.tar.gz\E
      |\QKESTEB/XAS-0.04.tar.gz\E
      |\QKESTEB/XAS-0.05.tar.gz\E
-     |\QKESTEB/XAS-0.07.tar.gz\E
      |\QKGRENNAN/Net-OAuth-0.21.tar.gz\E
      |\QKGRENNAN/Net-OAuth2-0.07.tar.gz\E
      |\QKHAMPTON/Magpie-1.131280.tar.gz\E
@@ -1685,7 +1681,6 @@ match:
      |\QSTARKY/Net-Peep-0.4.1.1.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.4.tar.gz\E
      |\QSTEFANT/WWW-phpBB-0.02.tar.gz\E
-     |\QSTEFFENW/Object-Lazy-0.14.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.06.tar.gz\E
      |\QSTEPHEN/Video-PlaybackMachine-0.08.tar.gz\E
      |\QSTEPHEN/Video-Xine-0.18.tar.gz\E
@@ -1794,7 +1789,6 @@ match:
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.15.tar.gz\E
      |\QTPEDERSE/WordNet-Similarity-2.03.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
-     |\QTRIZEN/Sidef-0.06.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/DBIx-SearchBuilder-1.65.tar.gz\E
@@ -1927,7 +1921,6 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
-     |\QZDM/Pcore-Sphinx-v0.1.0.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
