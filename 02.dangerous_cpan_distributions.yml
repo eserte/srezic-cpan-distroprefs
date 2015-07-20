@@ -210,6 +210,7 @@ match:
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
      |\QBLHOTSKY/Git-Code-Review-1.1.tar.gz\E
      |\QBLM/Win32API-Registry-0.32.tar.gz\E
+     |\QBLUEFEET/Starch-0.01.tar.gz\E
      |\QBLX/XSDSQL_20130120.tar.gz\E
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
@@ -847,7 +848,6 @@ match:
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
      |\QJJOAO/Lingua-PT-PLN-0.15.tar.gz\E
-     |\QJKEENAN/Parse-Taxonomy-0.08.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.06.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.11.tar.gz\E
      |\QJKONDO/Text-Hatena-0.16.tar.gz\E
@@ -859,6 +859,7 @@ match:
      |\QJLMARTIN/Paws-0.04.tar.gz\E
      |\QJLMARTIN/Paws-0.08.tar.gz\E
      |\QJLMARTIN/Paws-0.09.tar.gz\E
+     |\QJLMARTIN/Paws-0.12.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.25.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.51.tar.gz\E
      |\QJMASON/Mail-SpamAssassin-2.64.tar.gz\E
@@ -968,6 +969,7 @@ match:
      |\QKENTARO/Acme-MorningMusume-0.15.tar.gz\E
      |\QKESTEB/XAS-0.04.tar.gz\E
      |\QKESTEB/XAS-0.05.tar.gz\E
+     |\QKESTEB/XAS-0.07.tar.gz\E
      |\QKGRENNAN/Net-OAuth-0.21.tar.gz\E
      |\QKGRENNAN/Net-OAuth2-0.07.tar.gz\E
      |\QKHAMPTON/Magpie-1.131280.tar.gz\E
@@ -1099,6 +1101,7 @@ match:
      |\QMAKAMAKA/JSON-RPC-0.94.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.95.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
+     |\QMAMOD/JavaScript-Duktape-0.0.4.tar.gz\E
      |\QMANWAR/Calendar-Bahai-0.14.tar.gz\E
      |\QMANWAR/Data-Password-Filter-0.06.tar.gz\E
      |\QMANWAR/IP-Info-0.06.tar.gz\E
@@ -1311,6 +1314,7 @@ match:
      |\QNEKOYA/DBIx-Skinny-InflateColumn-DateTime-0.04.tar.gz\E
      |\QNES/Nes-1.02.tar.gz\E
      |\QNEZUMI/MIME-Charset-1.011.3.tar.gz\E
+     |\QNEZUMI/Unicode-LineBreak-2015.07.16.tar.gz\E
      |\QNGLENN/Algorithm-AM-2.45.tar.gz\E
      |\QNGLENN/Algorithm-AM-3.02.tar.gz\E
      |\QNICS/Catmandu-0.0102.tar.gz\E
@@ -1656,6 +1660,7 @@ match:
      |\QSMITHFARM/App-Dochazka-REST-0.322.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.352.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
+     |\QSMUELLER/Lingua-Identify-CLD2-0.01.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSONGMU/Plack-App-Directory-Markdown-0.07.tar.gz\E
      |\QSONGMU/Riji-v0.9.1.tar.gz\E
@@ -1743,6 +1748,7 @@ match:
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTJOHNSON/Farly-0.12.tar.gz\E
      |\QTJPARNELL/Bio-ToolBox-1.25.tar.gz\E
+     |\QTJPARNELL/Bio-ToolBox-1.26.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
      |\QTKR/Treex-Parser-MSTperl-0.08055.tar.gz\E
@@ -1845,6 +1851,7 @@ match:
      |\QVOJ/Plack-App-unAPI-0.51.tar.gz\E
      |\QVOJ/RDF-Lazy-0.063.tar.gz\E
      |\QVOJ/SeeAlso-Server-0.57.tar.gz\E
+     |\QVPEIL/Catmandu-Identifier-0.01.tar.gz\E
      |\QVSESPB/App-MtAws-0.981.tar.gz\E
      |\QVSESPB/App-MtAws-1.059.tar.gz\E
      |\QVSESPB/App-MtAws-1.102.tar.gz\E
