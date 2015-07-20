@@ -3,6 +3,6 @@ match:
   distribution: '/FFmpeg-Command-0\.19\.'
   perlconfig:
 # perls with working hash randomization
-    version: '^5\.(18|19|20|21|22)\.'
+    version: '^5\.(18|19|20|21|22|23)\.'
 patches:
   - SREZIC/patches/FFmpeg-Command-0.19-RT103156.patch
