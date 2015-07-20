@@ -5,3 +5,4 @@ match:
     version: '^5\.(18|20|21|22)\.'
 patches:
   - SREZIC/patches/Class-Std-0.011-RT78196.patch
+# Fixed in 0.012
