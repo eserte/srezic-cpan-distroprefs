@@ -441,7 +441,7 @@ match:
     |.*/Net-DBus-Skype-0.02.tar.gz # asks questions; check and fix! XXX
     |.*/PDL-Graphics-Simple-1.003.tar.gz # asks questions in test
     |.*/PDL-Graphics-Simple-1.004.tar.gz # asks questions in test
-    |.*/PDL-Graphics-Simple-1.005.tar.gz # asks questions in test
+    |.*/PDL-Graphics-Simple-1.005.tar.gz # asks questions in test, and this is fishy: https://rt.cpan.org/Ticket/Display.html?id=105925
     |.*/POE-Component-WebService-HtmlKitCom-FavIconFromImage-0.002.tar.gz # 00-load test always hangs on freebsd and needs manual killing
     |.*/POE-Component-WWW-Google-PageRank-0\.04\.tar\.gz # 00-load test always hangs on freebsd and needs manual killing
     |.*/Perl-Tags-0.\d+.tar.gz # asks for RETURN in test, seen with 0.26 and 0.28 and 0.31
