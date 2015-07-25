@@ -13,6 +13,7 @@ match:
      |\QAASSAD/Net-Whois-RIPE-2.005002.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABRAXXA/DBIx-Class-0.08195.tar.gz\E
+     |\QABRETT/App-SFDC-0.13.tar.gz\E
      |\QABRETT/WWW-SFDC-0.25.tar.gz\E
      |\QABW/Badger-0.03.tar.gz\E
      |\QABW/Template-Toolkit-1.07.tar.gz\E
@@ -47,6 +48,7 @@ match:
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAJPAGE/Bio-Roary-2.3.4.tar.gz\E
+     |\QAJPAGE/Bio-Roary-3.1.4.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
@@ -211,6 +213,7 @@ match:
      |\QBLHOTSKY/Git-Code-Review-1.1.tar.gz\E
      |\QBLM/Win32API-Registry-0.32.tar.gz\E
      |\QBLUEFEET/Starch-0.01.tar.gz\E
+     |\QBLUEFEET/Starch-0.03.tar.gz\E
      |\QBLX/XSDSQL_20130120.tar.gz\E
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
@@ -482,6 +485,7 @@ match:
      |\QESUMMERS/HTML-DublinCore-0.3.tar.gz\E
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
+     |\QETHER/B-Utils-0.26.tar.gz\E
      |\QETHER/MooseX-Declare-0.39.tar.gz\E
      |\QETHER/MooseX-Storage-0.49.tar.gz\E
      |\QETJ/Bugle-0.03.tar.gz\E
@@ -1159,6 +1163,7 @@ match:
      |\QMAVERICK/Apache-Voodoo-3.0002.tar.gz\E
      |\QMAXDB/DBD-MaxDB-7.6.00.16.tar.gz\E
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-0.0100021.tar.gz\E
+     |\QMAXMIND/Business-MaxMind-1.57.tar.gz\E
      |\QMAXMIND/GeoIP2-2.001003.tar.gz\E
      |\QMAXSCHUBE/Nmap-Scanner-0.9.tar.gz\E
      |\QMBLYTHE/HTML-Chunks-1.55.1.tar.gz\E
@@ -1364,10 +1369,10 @@ match:
      |\QNWETTERS/WWW-AdServer-0.02.tar.gz\E
      |\QNWIGER/CGI-FormBuilder-3.06.tgz\E
      |\QNWIGER/Config-Fast-1.06.tar.gz\E
+     |\QOALDERS/WebService-PayPal-PaymentsAdvanced-0.000002.tar.gz\E
      |\QOAXLIN/MemcacheDBI-0.02.tar.gz\E
      |\QOBRADOVIC/SNA-Network-0.19.tar.gz\E
      |\QOCBNET/CSS-Sass-v3.2.1.tar.gz\E
-     |\QOETIKER/Business-Payment-SwissESR-0.5.1.tar.gz\E
      |\QOLIVER/App-Netdisco-2.004002.tar.gz\E
      |\QOLIVER/App-Netdisco-2.006000.tar.gz\E
      |\QOLIVER/App-Netdisco-2.021000.tar.gz\E
@@ -1386,7 +1391,6 @@ match:
      |\QOPERA/Arepa-0.76.tar.gz\E
      |\QOPI/Stacktrace-Configurable-0.01.tar.gz\E
      |\QOTAYLOR/CORBA-MICO-0.6.0.tar.gz\E
-     |\QOVID/DBIx-Class-Objects-0.02.tar.gz\E
      |\QOVID/Test-Class-Moose-0.06.tar.gz\E
      |\QOVID/Test-Class-Moose-0.43.tar.gz\E
      |\QOVID/Test-Class-Moose-0.54.tar.gz\E
@@ -1459,6 +1463,7 @@ match:
      |\QPREACTION/Statocles-0.047.tar.gz\E
      |\QPRO/Net-DirectConnect-0.07.tar.gz\E
      |\QPRO/Net-DirectConnect-0.10.tar.gz\E
+     |\QPRUIKLW/Brocade-BSC-v1.0.0.tar.gz\E
      |\QPSCUST/Asm-Preproc-0.08.tar.gz\E
      |\QPSCUST/CPU-Z80-Assembler-2.09.tar.gz\E
      |\QPSCUST/CPU-Z80-Assembler-2.10.tar.gz\E
@@ -1656,10 +1661,8 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-CLI-0.096.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-REST-0.322.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-REST-0.352.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
+     |\QSMUELLER/Attribute-Handlers-0.96.tar.gz\E
      |\QSMUELLER/Lingua-Identify-CLD2-0.01.tar.gz\E
      |\QSONGMU/DBIx-FixtureLoader-0.03.tar.gz\E
      |\QSONGMU/Plack-App-Directory-Markdown-0.07.tar.gz\E
@@ -1747,7 +1750,6 @@ match:
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
      |\QTJOHNSON/Farly-0.12.tar.gz\E
-     |\QTJPARNELL/Bio-ToolBox-1.25.tar.gz\E
      |\QTJPARNELL/Bio-ToolBox-1.26.tar.gz\E
      |\QTKEEFER/eBay-API-0.24.tar.gz\E
      |\QTKR/Treex-Core-0.07191.tar.gz\E
@@ -1782,6 +1784,7 @@ match:
      |\QTOKUHIROM/HTTP-Session-0.48.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
+     |\QTOKUHIROM/Minilla-v2.4.3.tar.gz\E
      |\QTOKUHIROM/Spellunker-v0.0.8.tar.gz\E
      |\QTOMITA/Acme-Ikamusume-0.06.tar.gz\E
      |\QTOMYHERO/Catalyst-Plugin-Log-Colorful-0.12.tar.gz\E
@@ -1795,6 +1798,7 @@ match:
      |\QTPEDERSE/WebService-UMLSKS-Similarity-0.15.tar.gz\E
      |\QTPEDERSE/WordNet-Similarity-2.03.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
+     |\QTRIZEN/Sidef-0.08.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/DBIx-SearchBuilder-1.65.tar.gz\E
