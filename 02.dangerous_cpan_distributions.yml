@@ -336,6 +336,7 @@ match:
      |\QDAGOLDEN/Metabase-0.016.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDAKKAR/Plack-Handler-Stomp-1.09.tar.gz\E
+     |\QDALEEVANS/Text-Spintax-0.05.tar.gz\E
      |\QDAMI/SQL-Abstract-FromQuery-0.02.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.14.tar.gz\E
      |\QDAMS/IO-Socket-Timeout-0.17.tar.gz\E
@@ -1463,7 +1464,6 @@ match:
      |\QPREACTION/Statocles-0.047.tar.gz\E
      |\QPRO/Net-DirectConnect-0.07.tar.gz\E
      |\QPRO/Net-DirectConnect-0.10.tar.gz\E
-     |\QPRUIKLW/Brocade-BSC-v1.0.0.tar.gz\E
      |\QPSCUST/Asm-Preproc-0.08.tar.gz\E
      |\QPSCUST/CPU-Z80-Assembler-2.09.tar.gz\E
      |\QPSCUST/CPU-Z80-Assembler-2.10.tar.gz\E
