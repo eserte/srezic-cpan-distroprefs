@@ -477,7 +477,6 @@ match:
     |.*/Tk-Updown-\d
     |.*/TkUtil-Configure-\d
     |.*/UDPM-\d
-    |.*/WWW-Salesforce-\d # needs user/password
     |.*/WWW-Search-Googlism-\d # asking whether connected to internet
     |.*/pgk_xs-0.05.tar.gz
     |.*/net-smtp-retryable/Net-SMTP-Retryable-0.0.2.tar.gz # asks for smtp server and email address
