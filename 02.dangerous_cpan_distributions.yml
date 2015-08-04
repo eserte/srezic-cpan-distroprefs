@@ -169,6 +169,7 @@ match:
      |\QAWNCORP/Data-Object-0.07.tar.gz\E
      |\QAWNCORP/Data-Object-0.13.tar.gz\E
      |\QAWNCORP/Data-Object-Autobox-0.05.tar.gz\E
+     |\QAWNCORP/Data-Seek-0.06.tar.gz\E
      |\QAWNCORP/Faker-0.04.tar.gz\E
      |\QAWNCORP/Faker-0.09.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
@@ -338,10 +339,6 @@ match:
      |\QDAKKAR/Plack-Handler-Stomp-1.09.tar.gz\E
      |\QDALEEVANS/Text-Spintax-0.05.tar.gz\E
      |\QDAMI/SQL-Abstract-FromQuery-0.02.tar.gz\E
-     |\QDAMS/IO-Socket-Timeout-0.14.tar.gz\E
-     |\QDAMS/IO-Socket-Timeout-0.17.tar.gz\E
-     |\QDAMS/PerlIO-via-Timeout-0.21.tar.gz\E
-     |\QDAMS/Riak-Client-0.11.tar.gz\E
      |\QDANAJ/Math-Prime-Util-0.43.tar.gz\E
      |\QDANBERR/Net-DBus-0.33.1.tar.gz\E
      |\QDANBERR/Test-AutoBuild-1.0.3.tar.gz\E
@@ -888,6 +885,7 @@ match:
      |\QJOHND/Class-DBI-Lite-1.023.tar.gz\E
      |\QJON/Reddit-0.30.03.tar.gz\E
      |\QJONALLEN/Catalyst-View-PDF-Reuse-0.04.tar.gz\E
+     |\QJONASBN/Business-Tax-VAT-1.08.tar.gz\E
      |\QJONASBN/Date-Holidays-0.22.tar.gz\E
      |\QJONASBN/Tie-Tools-1.08.tar.gz\E
      |\QJONATAYAH/Captcha-AreYouAHuman-0.00003.tar.gz\E
@@ -1271,6 +1269,7 @@ match:
      |\QMSIMERSON/Mail-Toaster-5.13.tar.gz\E
      |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
+     |\QMSISK/Finance-QuoteHist-1.23.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1529,6 +1528,7 @@ match:
      |\QROCKY/Term-ReadLine-Perl5-1.08.tar.gz\E
      |\QROCKY/Term-ReadLine-Perl5-1.38.tar.gz\E
      |\QRODRIGO/Mongoose-0.07.tar.gz\E
+     |\QROLAND/jmx4perl-1.11.tar.gz\E
      |\QROOTLEVEL/Net-SMS-1.00.tar.gz\E
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
@@ -1661,6 +1661,8 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-REST-0.480.tar.gz\E
+     |\QSMITHFARM/Web-MREST-CLI-0.276.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSMUELLER/Attribute-Handlers-0.96.tar.gz\E
      |\QSMUELLER/Lingua-Identify-CLD2-0.01.tar.gz\E
@@ -1712,6 +1714,7 @@ match:
      |\QSULLR/Net-SSLGlue-1.053.tar.gz\E
      |\QSUMUS/DWH_File-0.21.tar.gz\E
      |\QSUMUS/DWH_File.0.03.tar.gz\E
+     |\QSUNDQUIST/Google-Ads-AdWords-Client-3.5.0.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
@@ -1725,6 +1728,7 @@ match:
      |\QTEAM/Tickit-Widget-Table-0.101.tar.gz\E
      |\QTEAM/WebService-Amazon-DynamoDB-0.001.tar.gz\E
      |\QTEEJAY/Autodia-2.07.tar.gz\E
+     |\QTEODESIAN/TestRail-API-0.028.tar.gz\E
      |\QTEVERETT/Win32-CtrlGUI-0.30.tar.gz\E
      |\QTFOUCART/WWW-Sucksub-Divxstation-0.01.tar.gz\E
      |\QTHALJEF/Pinto-0.090.tar.gz\E
