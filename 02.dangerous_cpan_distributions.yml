@@ -213,8 +213,6 @@ match:
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
      |\QBLHOTSKY/Git-Code-Review-1.1.tar.gz\E
      |\QBLM/Win32API-Registry-0.32.tar.gz\E
-     |\QBLUEFEET/Starch-0.01.tar.gz\E
-     |\QBLUEFEET/Starch-0.03.tar.gz\E
      |\QBLX/XSDSQL_20130120.tar.gz\E
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
@@ -574,6 +572,7 @@ match:
      |\QGFUJI/MouseX-Getopt-0.34.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
+     |\QGLBRUNE/Sim-OPT-0.40.13.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -828,6 +827,7 @@ match:
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
+     |\QJGOFF/Perl-ToPerl6-0.02.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
      |\QJHALLOCK/Gapp-0.26-withoutworldwriteables.tar.gz\E
      |\QJHALLOCK/Gapp-App-0.007.tar.gz\E
@@ -1437,6 +1437,7 @@ match:
      |\QPHRED/Apache-Test-1.38.tar.gz\E
      |\QPHRED/SOAP-Lite-1.01.tar.gz\E
      |\QPHRED/WebService-Strava-0.02.tar.gz\E
+     |\QPINE/Devel-Cover-Report-Codecov-0.02.tar.gz\E
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
@@ -1936,6 +1937,7 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
+     |\QZDM/Pcore-v0.11.4.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
