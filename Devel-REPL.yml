@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Devel-REPL-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# interactive questions
