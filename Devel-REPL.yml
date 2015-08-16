@@ -12,7 +12,19 @@ pl:
       - "n\n"
       - '\Qinstall DDC plugin - even better format results with Data::Dumper::Concise?'
       - "\n"
+      - '\Qinstall INC completion driver - tab complete module names in use and require?'
+      - "\n"
+      - '\Qinstall Interrupt plugin - traps SIGINT to kill long-running lines?'
+      - "\n"
+      - '\Qinstall Keywords completion driver - tab complete Perl keywords and operators?'
+      - "\n"
+      - '\Qinstall LexEnv plugin - variables declared with "my" persist between statements?'
+      - "\n"
+      - '\Qinstall MultiLine::PPI plugin - continue reading lines until all blocks are closed?'
+      - "\n"
       - '\Qinstall Nopaste plugin - upload a session\E.\Qs input and output to a Pastebin?'
+      - "\n"
+      - '\Qinstall PPI plugin - PPI dumping of Perl code?'
       - "\n"
       - '\Qinstall Refresh plugin - automatically reload libraries with Module::Refresh?'
       - "\n"
