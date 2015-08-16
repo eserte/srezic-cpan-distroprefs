@@ -4,13 +4,18 @@ match:
   perlconfig:
     version: '^5\.(21|22|23)\.'
 pl:
-  expect:
-    - '\Qinstall DDS plugin - better format results with Data::Dump::Streamer?'
-    - "n\n"
-    - '\Qinstall Nopaste plugin - upload a session\E.\Qs input and output to a Pastebin?'
-    - "\n"
-    - '\Qinstall Refresh plugin - automatically reload libraries with Module::Refresh?'
-    - "\n"
+  eexpect:
+    mode: anyorder
+    timeout: 10
+    talk:
+      - '\Qinstall DDS plugin - better format results with Data::Dump::Streamer?'
+      - "n\n"
+      - '\Qinstall DDC plugin - even better format results with Data::Dumper::Concise?'
+      - "\n"
+      - '\Qinstall Nopaste plugin - upload a session\E.\Qs input and output to a Pastebin?'
+      - "\n"
+      - '\Qinstall Refresh plugin - automatically reload libraries with Module::Refresh?'
+      - "\n"
 # DDS broken for newer perls
 ---
 match:
