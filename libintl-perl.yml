@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/libintl-perl-1\.23\.'
+  distribution: '/libintl-perl-1\.(23|24)\.'
   perlconfig:
     archname: linux
 test:
