@@ -5,3 +5,4 @@ match:
     version: '5\.(21|22)\.'
 patches:
   - SREZIC/patches/Math-BigInt-GMP-1.38-RT96113.patch
+# Fixed in Math-BigInt-GMP-1.40.
