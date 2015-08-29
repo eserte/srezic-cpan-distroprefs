@@ -287,7 +287,6 @@ match:
     |.*/Statistics-Cluto-\d # no cluto for freebsd
     |.*/ARSperl-\d
     |XXXX.*/Archive-ZZip-\d # not valid anymore: port exists, but currently does not build
-    |.*/PHP-\d # no PHP installed
     |.*/Teradata-SQL-\d # requires copytypes.h, -lcliv2 etc., not found in freebsd or debian
     |.*/Text-CSV-LibCSV-\d # no available as a freebsd port
     |XXXX.*/Ganglia-Gmetric-\d # not valid anymore: needs ganglia-monitor-core port, N/A as package
