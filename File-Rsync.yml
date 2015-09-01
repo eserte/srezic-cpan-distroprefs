@@ -1,7 +1,8 @@
 ---
 match:
-  distribution: "/File-Rsync-\d"
+  distribution: '/File-Rsync-0\.4[01234]'
 make: 
   expect:
     - "Path to rsync "
     - "\n"
+# Not interactive anymore in 0.45
