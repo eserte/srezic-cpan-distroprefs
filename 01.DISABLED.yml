@@ -1111,6 +1111,7 @@ match:
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.01.tar.gz # lists everything, despite most is not working anymore: https://rt.cpan.org/Ticket/Display.html?id=96121
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.02.tar.gz # too time-consuming to install everything
     |.*/HTTP-GHTTP-\d # libghttp is part of gnome1 and EOL's (e.g. was removed from fbsd ports in September 2013, see http://www.freshports.org/www/libghttp/)
+    |BULKDD/benchmark/Acme-Shining-\d # produces a lot of screen and report output (1MB per run)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
