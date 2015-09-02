@@ -1,3 +1,9 @@
+--- 
+match:
+  distribution: '/ExtUtils-MakeMaker-7\.06\.'
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=106808
+--- 
 comment: "broken for XS modules"
 match:
   distribution: "^MSCHWERN/ExtUtils-MakeMaker-6.37_01.tar.gz$"
