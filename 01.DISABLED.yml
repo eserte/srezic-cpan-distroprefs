@@ -110,6 +110,10 @@ match:
     archname: "(-freebsd|darwin|MSWin32|cygwin|-linux)"
 disabled: 1
 --- 
+match:
+  distribution: '.*/Win32-ShellQuote-\d'
+# allow this one everywhere; it build on non-win32 and is a prereq for Menlo
+--- 
 comment: "An obsolete OS..."
 match:
   distribution: |
