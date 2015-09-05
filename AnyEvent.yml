@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/AnyEvent-\d'
+  perlconfig:
+    version: '^5\.23\.2$'
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=106726
+# https://rt.perl.org/Ticket/Display.html?id=125952
