@@ -44,7 +44,6 @@ match:
      |\QAGRUNDMA/Business-Tax-Canada-0.03.tar.gz\E
      |\QAGRUNDMA/Catalyst-Engine-HTTP-POE-0.07.tar.gz\E
      |\QAGRUNDMA/Catalyst-Plugin-UploadProgress-0.03.tar.gz\E
-     |\QAJOLMA/Geo-GDAL-1.81.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAJPAGE/Bio-Roary-2.3.4.tar.gz\E
@@ -318,7 +317,6 @@ match:
      |\QCOUDOT/Lemonldap-NG-Handler-1.3.3.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Manager-1.4.4.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Portal-1.2.5.tar.gz\E
-     |\QCPANIC/DBIx-FlexibleBinding-1.152490.tar.gz\E
      |\QCREAMYG/Lucy-0.3.3.tar.gz\E
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
@@ -519,6 +517,7 @@ match:
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.2.7.tar.gz\E
      |\QFANGLY/Getopt-Euclid-0.3.3.tar.gz\E
+     |\QFASTLY/Net-Fastly-1.02.tar.gz\E
      |\QFAXMODEM/Test-Collectd-Plugins-0.1006.tar.gz\E
      |\QFAYLAND/Padre-Plugin-CSS-0.08.tar.gz\E
      |\QFAYLAND/Padre-Plugin-HTML-0.09.tar.gz\E
@@ -853,6 +852,7 @@ match:
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
      |\QJINZANG/App-Followme-1.03.tar.gz\E
+     |\QJJNAPIORK/Catalyst-Plugin-InjectionHelpers-0.007.tar.gz\E
      |\QJJNAPIORK/DBIx-Class-Migration-0.044.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
@@ -924,7 +924,6 @@ match:
      |\QJSWARTZ/Log-Any-0.11.tar.gz\E
      |\QJTANG/Module-Pluggable-Singleton-0.02.3.tar.gz\E
      |\QJTAVERNI/HTML-Content-Extractor-0.01.tar.gz\E
-     |\QJTBRAUN/Parse-RecDescent-1.967003.tar.gz\E
      |\QJTPALMER/Box2D-0.05.tar.gz\E
      |\QJTPALMER/SDL-2.512.tar.gz\E
      |\QJTPALMER/SDL-2.540.tar.gz\E
@@ -979,6 +978,7 @@ match:
      |\QKESTEB/XAS-0.04.tar.gz\E
      |\QKESTEB/XAS-0.05.tar.gz\E
      |\QKESTEB/XAS-0.07.tar.gz\E
+     |\QKESTEB/XAS-0.10.tar.gz\E
      |\QKGRENNAN/Net-OAuth-0.21.tar.gz\E
      |\QKGRENNAN/Net-OAuth2-0.07.tar.gz\E
      |\QKHAMPTON/Magpie-1.131280.tar.gz\E
@@ -1454,6 +1454,7 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
+     |\QPLICEASE/Term-EditLine-0.07.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
@@ -1496,6 +1497,7 @@ match:
      |\QRBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.06001.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.07300.tar.gz\E
+     |\QRCL/Daemon-Shutdown-0.11.tar.gz\E
      |\QRCLAMP/Net-DAAP-Client-Auth-0.13.tar.gz\E
      |\QRCONOVER/Amazon-DynamoDB-0.25.tar.gz\E
      |\QRDICE/CGI-Application-Framework-0.23.tar.gz\E
@@ -1618,7 +1620,7 @@ match:
      |\QSHANTANU/Device-LPS331AP-0.003.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
-     |\QSHAY/perl-5.20.2.tar.gz\E
+     |\QSHAY/perl-5.20.3.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
@@ -1749,6 +1751,7 @@ match:
      |\QTHALJEF/Pinto-0.090.tar.gz\E
      |\QTHALJEF/Pinto-0.092.tar.gz\E
      |\QTHALJEF/Pinto-0.097.tar.gz\E
+     |\QTHHAMON/Lingua-Ogmios-0.01.tar.gz\E
      |\QTHHAMON/Lingua-YaTeA-0.5.tar.gz\E
      |\QTHOMAS/Apache-DnsZone-0.1.tar.gz\E
      |\QTHOSPEL/Heap-Simple-0.06.tar.gz\E
@@ -1854,7 +1857,6 @@ match:
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
-     |\QVKHERA/Mail-OpenDKIM-4201.tar.gz\E
      |\QVKON/Tcl-Tk-0.76.tar.gz\E
      |\QVKON/Tcl-Tk-0.90.tar.gz\E
      |\QVKON/Tcl-Tk-0.91.tar.gz\E
