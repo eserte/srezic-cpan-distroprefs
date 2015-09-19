@@ -1116,6 +1116,7 @@ match:
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.02.tar.gz # too time-consuming to install everything
     |.*/HTTP-GHTTP-\d # libghttp is part of gnome1 and EOL's (e.g. was removed from fbsd ports in September 2013, see http://www.freshports.org/www/libghttp/)
     |BULKDD/benchmark/Acme-Shining-\d # produces a lot of screen and report output (1MB per run)
+    |SPLICE/Lingua-EN-Segmenter-0.1.tar.gz # is using ExtUtils::AutoInstall, see https://rt.cpan.org/Ticket/Display.html?id=87567
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
