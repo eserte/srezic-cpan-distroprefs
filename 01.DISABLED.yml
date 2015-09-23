@@ -1372,5 +1372,6 @@ match:
     |XXXDAMS/IO-Socket-Timeout-0.30.tar.gz # tests hang, all systems (freebsd 9+10 + jessie) -> it seems this was a PerlIO-via-Timeout issue, which is fixed with 0.32
     |MISHIN/FamilyTreeInfo-2.3.12.tar.gz # recursive dependency - https://github.com/mishin/Ftree-cpan/issues/1
     |KABLAMO/Shell-Carapace-0.13.tar.gz # asks for ssh (?) password
+    |.*/Archive-Zip-1.52.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=107268
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
