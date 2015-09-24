@@ -771,6 +771,7 @@ match:
     |TELS/sdl/SDL-App-FPS-0\.21\. # also hangs, tries to include SDL or what?
     |SULLR/IO-Socket-SSL-1.30.tar.gz # test hangs under FreeBSD, needs more research!
     |.*/Task-LiveDVD-FrankfurtPM-0\.03\. # testing all the dependencies takes forever
+    |CHSTROSS/NetServer-Generic-1.03.tar.gz # test.pl hangs
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
