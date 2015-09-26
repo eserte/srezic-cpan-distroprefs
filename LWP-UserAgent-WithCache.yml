@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QLWP-UserAgent-WithCache-0.12.tar.gz\E'
+patches:
+  - SREZIC/patches/LWP-UserAgent-WithCache-0.12-RT94510.patch
