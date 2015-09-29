@@ -150,11 +150,19 @@ match:
      |\QAWIN/PerlQt-2.105.tar.gz\E
      |\QAWIN/Qt-0.03.tar.gz\E
      |\QAWNCORP/API-Basecamp-0.02.tar.gz\E
+     |\QAWNCORP/API-Basecamp-0.03.tar.gz\E
+     |\QAWNCORP/API-Facebook-0.01.tar.gz\E
      |\QAWNCORP/API-Github-0.02.tar.gz\E
+     |\QAWNCORP/API-Github-0.03.tar.gz\E
      |\QAWNCORP/API-Name-0.02.tar.gz\E
+     |\QAWNCORP/API-Name-0.03.tar.gz\E
      |\QAWNCORP/API-Stripe-0.02.tar.gz\E
+     |\QAWNCORP/API-Stripe-0.03.tar.gz\E
      |\QAWNCORP/API-Trello-0.02.tar.gz\E
+     |\QAWNCORP/API-Trello-0.03.tar.gz\E
+     |\QAWNCORP/API-Twitter-0.02.tar.gz\E
      |\QAWNCORP/API-Wunderlist-0.02.tar.gz\E
+     |\QAWNCORP/API-Wunderlist-0.03.tar.gz\E
      |\QAWNCORP/Bubblegum-0.06.tar.gz\E
      |\QAWNCORP/Bubblegum-0.09.tar.gz\E
      |\QAWNCORP/Bubblegum-0.10.tar.gz\E
@@ -163,8 +171,8 @@ match:
      |\QAWNCORP/Bubblegum-0.36.tar.gz\E
      |\QAWNCORP/Bubblegum-0.38.tar.gz\E
      |\QAWNCORP/Data-Object-0.05.tar.gz\E
-     |\QAWNCORP/Data-Object-0.07.tar.gz\E
      |\QAWNCORP/Data-Object-0.13.tar.gz\E
+     |\QAWNCORP/Data-Object-0.42.tar.gz\E
      |\QAWNCORP/Data-Object-Autobox-0.05.tar.gz\E
      |\QAWNCORP/Data-Seek-0.06.tar.gz\E
      |\QAWNCORP/Faker-0.04.tar.gz\E
@@ -278,7 +286,6 @@ match:
      |\QCHISEL/Plack-App-FakeApache1-0.0.1.tar.gz\E
      |\QCHISEL/Zucchini-0.0.17.tar.gz\E
      |\QCHM/PDL-2.011.tar.gz\E
-     |\QCHOROBA/XML-XSH-1.8.3.tar.gz\E
      |\QCHRISA/Catalyst-Engine-Stomp-0.02.tar.gz\E
      |\QCHRISA/Devel-DTrace-Provider-0.02.tar.gz\E
      |\QCHRISJH/App-OverWatch-0.003.tar.gz\E
@@ -372,7 +379,7 @@ match:
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDEMIAN/HackaMol-0.017.tar.gz\E
-     |\QDESPAIR/Net-Whois-Raw-2.46.tar.gz\E
+     |\QDERF/Travel-Status-DE-DeutscheBahn-1.05.tar.gz\E
      |\QDFH/App-JobLog-1.032.tar.gz\E
      |\QDGL/App-redisp-0.11.tar.gz\E
      |\QDGOEHRIG/SDL_Perl-2.1.2.tar.gz\E
@@ -380,6 +387,7 @@ match:
      |\QDHOSS/Grimlock-0.10.tar.gz\E
      |\QDIABLO/Rsync-Config-0.3.1.tar.gz\E
      |\QDIEGOK/Mongoose-0.29.tar.gz\E
+     |\QDIEGOK/Mongoose-0.32.tar.gz\E
      |\QDIONYS/MojoX-Transaction-WebSocket76-0.02.tar.gz\E
      |\QDISSENT/VCSLibCVS/VCS-LibCVS-1.tar.gz\E
      |\QDJBERG/Tk-JListbox-0.01.tar.gz\E
@@ -421,6 +429,7 @@ match:
      |\QDPAVLIN/Fuse-0.14.tar.gz\E
      |\QDPIROTTE/Mail-Chimp-0.12.tar.gz\E
      |\QDQNEO/Amazon-S3-Thin-0.08.tar.gz\E
+     |\QDROLSKY/DateTime-Locale-0.91.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
@@ -509,7 +518,6 @@ match:
      |\QEVO/Text-MicroMason-1.06.tar.gz\E
      |\QEVO/Text-MicroMason-1.98.tar.gz\E
      |\QEVO/Text-MicroMason-1.99.tar.gz\E
-     |\QEWATERS/Net-AMQP-0.04.tar.gz\E
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
@@ -801,7 +809,6 @@ match:
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
      |\QJACQUESG/Git-Raw-0.50.tar.gz\E
      |\QJAMADAM/Mojolicious-Plugin-PlackMiddleware-0.19.tar.gz\E
-     |\QJANDREW/Spreadsheet-XLSX-Reader-LibXML-v0.38.14.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
@@ -842,6 +849,7 @@ match:
      |\QJHALLOCK/Gapp-App-0.007.tar.gz\E
      |\QJHALLOCK/Storm-0.03-withoutworldwriteables.tar.gz\E
      |\QJHELWIG/WWW-PivotalTracker-0.17.tar.gz\E
+     |\QJHI/Graph-0.96.tar.gz\E
      |\QJHI/perl-5.7.1.tar.gz\E
      |\QJHI/perl-5.7.2.tar.gz\E
      |\QJHORWITZ/Krb4-0.93.tar.gz\E
@@ -1198,6 +1206,7 @@ match:
      |\QMIKRA/Tk-MK-0.21.tar.gz\E
      |\QMINIMAL/Kelp-0.9015.tar.gz\E
      |\QMIRK/Net-Z3950-0.35.tar.gz\E
+     |\QMISHIN/FamilyTreeInfo-2.3.24.tar.gz\E
      |\QMITTI/Device-SerialPort-Xmodem-1.01.tar.gz\E
      |\QMIYAGAWA/Apache-Singleton-0.03.tar.gz\E
      |\QMIYAGAWA/CGI-Emulate-PSGI-0.18.tar.gz\E
@@ -1467,6 +1476,7 @@ match:
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
      |\QPMQS/Compress-Raw-Bzip2-2.005.tar.gz\E
      |\QPMURIAS/Mildew-0.01.tar.gz\E
+     |\QPOPEL/Treex-Core-0.08664.tar.gz\E
      |\QPOWERMAN/AnyEvent-DBI-MySQL-1.0.3.tar.gz\E
      |\QPOWERMAN/Async-Defer-0.0.3.tar.gz\E
      |\QPOWERMAN/Sub-Throttler-0.1.1.tar.gz\E
@@ -1550,7 +1560,6 @@ match:
      |\QROOTLEVEL/Net-SMS-1.00.tar.gz\E
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
-     |\QRPETTETT/Text-Sass-v0.98.0.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
      |\QRSCHUPP/VCS-CMSynergy-1.35.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
@@ -1702,6 +1711,7 @@ match:
      |\QSPRAGST/Sybase-Xfer-0.1.tar.gz\E
      |\QSPROUT/DBM-Deep-1.0016.tar.gz\E
      |\QSREAGLE/DBD-Ingres-0.5209.tar.gz\E
+     |\QSRI/Mojolicious-6.21.tar.gz\E
      |\QSRL/Net-ICal-0.14.tar.gz\E
      |\QSRSHAH/Probe-MachineInfo-0.06.tar.gz\E
      |\QSRSHAH/Test-Distribution-1.21.tar.gz\E
