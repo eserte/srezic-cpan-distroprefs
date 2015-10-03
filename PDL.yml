@@ -1,8 +1,20 @@
 ---
 match:
-  distribution: "CHM/PDL-2.4.3_\d+.tar.gz"
+  distribution: 'CHM/PDL-2.4.3_\d+.tar.gz'
 disabled: 1
 comment: "Do not need to test old devel versions"
+---
+match:
+  distribution: 'CHM/PDL-2.013_\d+.tar.gz'
+pl:
+  env:
+    AUTOMATED_TESTING: 1
+test:
+  env:
+    AUTOMATED_TESTING: 1
+# In the devel series some failing tests are skipped if AUTOMATED_TESTING is set.
+# chm asked me to do this; the failing tests will be worked on before release.
+# Also, try this on freebsd systems with "normal" make.
 --- 
 match:
   module: "^PDL$"
