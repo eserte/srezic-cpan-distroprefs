@@ -429,7 +429,6 @@ match:
      |\QDPAVLIN/Fuse-0.14.tar.gz\E
      |\QDPIROTTE/Mail-Chimp-0.12.tar.gz\E
      |\QDQNEO/Amazon-S3-Thin-0.08.tar.gz\E
-     |\QDROLSKY/DateTime-Locale-0.91.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
@@ -1011,6 +1010,7 @@ match:
      |\QKIMOTO/Rstats-0.0108.tar.gz\E
      |\QKIMOTO/Rstats-0.0126.tar.gz\E
      |\QKIMOTO/Rstats-0.0136.tar.gz\E
+     |\QKIMOTO/Rstats-0.0140.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
      |\QKITANO/CHI-Driver-MemcachedFast-0.01.tar.gz\E
@@ -1054,7 +1054,7 @@ match:
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.61.tar.gz\E
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
-     |\QLBMOORE/Flickr-Tools-0.03.tar.gz\E
+     |\QLBMOORE/Flickr-Tools-1.19.tar.gz\E
      |\QLBROCARD/App-Twimap-0.02.tar.gz\E
      |\QLBROCARD/Net-Cassandra-0.33.tar.gz\E
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
@@ -1148,7 +1148,6 @@ match:
      |\QMARCLANG/ParallelUserAgent-2.54.tar.gz\E
      |\QMARIAB/WWW-TMDB-API0.03.tar.gz\E
      |\QMARKBUSH/NTLM-1.01.tar.gz\E
-     |\QMARKELLIS/HTML-Video-Embed-0.015003.tar.gz\E
      |\QMARKF/Test-DatabaseRow-1.04.tar.gz\E
      |\QMARKF/Test-DoubleEncodedEntities-0.01.tar.gz\E
      |\QMARKOV/XML-Compile-SOAP-0.78.tar.gz\E
@@ -1249,7 +1248,6 @@ match:
      |\QMNUNBERG/Couchbase-2.0.1.tar.gz\E
      |\QMNUNBERG/Couchbase-2.0.2.tar.gz\E
      |\QMNUNBERG/Proc-Terminator-0.03.tar.gz\E
-     |\QMOB/Devel-DumpTrace-0.19.tar.gz\E
      |\QMOB/Devel-DumpTrace-0.22.tar.gz\E
      |\QMOB/Forks-Super-0.29.tar.gz\E
      |\QMOB/Forks-Super-0.51.tar.gz\E
@@ -1397,6 +1395,7 @@ match:
      |\QOBRADOVIC/SNA-Network-0.19.tar.gz\E
      |\QOCBNET/CSS-Sass-v3.2.1.tar.gz\E
      |\QOETIKER/CallBackery-0.2.0.tar.gz\E
+     |\QOETIKER/CallBackery-0.2.6.tar.gz\E
      |\QOLIVER/App-Netdisco-2.004002.tar.gz\E
      |\QOLIVER/App-Netdisco-2.006000.tar.gz\E
      |\QOLIVER/App-Netdisco-2.021000.tar.gz\E
@@ -1481,11 +1480,6 @@ match:
      |\QPOWERMAN/Async-Defer-0.0.3.tar.gz\E
      |\QPOWERMAN/Sub-Throttler-0.1.1.tar.gz\E
      |\QPRBRENAN/Math-Algebra-Symbols-1.18.tar.gz\E
-     |\QPREACTION/Git-ReleaseRepo-0.001.tar.gz\E
-     |\QPREACTION/Git-ReleaseRepo-0.003.tar.gz\E
-     |\QPREACTION/Statocles-0.025.tar.gz\E
-     |\QPREACTION/Statocles-0.027.tar.gz\E
-     |\QPREACTION/Statocles-0.033.tar.gz\E
      |\QPREACTION/Statocles-0.047.tar.gz\E
      |\QPRO/Net-DirectConnect-0.07.tar.gz\E
      |\QPRO/Net-DirectConnect-0.10.tar.gz\E
@@ -1711,7 +1705,6 @@ match:
      |\QSPRAGST/Sybase-Xfer-0.1.tar.gz\E
      |\QSPROUT/DBM-Deep-1.0016.tar.gz\E
      |\QSREAGLE/DBD-Ingres-0.5209.tar.gz\E
-     |\QSRI/Mojolicious-6.21.tar.gz\E
      |\QSRL/Net-ICal-0.14.tar.gz\E
      |\QSRSHAH/Probe-MachineInfo-0.06.tar.gz\E
      |\QSRSHAH/Test-Distribution-1.21.tar.gz\E
@@ -1728,6 +1721,7 @@ match:
      |\QSTEVAN/Forest-0.01.tar.gz\E
      |\QSTEVAN/HTTP-Throwable-0.004.tar.gz\E
      |\QSTEVAN/Promises-0.07.tar.gz\E
+     |\QSTEVEB/Devel-Examine-Subs-1.45.tar.gz\E
      |\QSTRYTOAST/Plucene-1.20.tar.gz\E
      |\QSTUIFZAND/Sleep-0.0.3.tar.gz\E
      |\QSUKRIA/Dancer-1.150.tar.gz\E
@@ -1816,6 +1810,7 @@ match:
      |\QTOKAREV/Plack-Middleware-ExtDirect-2.01.tar.gz\E
      |\QTOKAREV/RPC-ExtDirect-2.15.tar.gz\E
      |\QTOKAREV/RPC-ExtDirect-3.01.tar.gz\E
+     |\QTOKUHIROM/Amon2-DBI-0.32.tar.gz\E
      |\QTOKUHIROM/HTTP-Session-0.48.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
