@@ -37,7 +37,7 @@ pl:
     mode: anyorder
     talk:
       - '\QDo you want to attempt to install Sys::CpuLoadX'
-      - "\n"
+      - "n\n"
       - '\QDo you want to attempt to install Sys::CpuAffinity'
-      - "\n"
+      - "n\n"
     timeout: 120
