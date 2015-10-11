@@ -48,6 +48,7 @@ match:
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAJPAGE/Bio-Roary-2.3.4.tar.gz\E
      |\QAJPAGE/Bio-Roary-3.1.4.tar.gz\E
+     |\QAJPAGE/Bio-Roary-3.3.3.tar.gz\E
      |\QAKALINUX/Data-Range-Compare-Stream-2.020.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
@@ -80,6 +81,7 @@ match:
      |\QAMAR/Wizard-0.1003.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1004.tar.gz\E
      |\QAMAR/Wizard-LDAP-0.1006.tar.gz\E
+     |\QAMBS/Lingua/Lingua-NATools-v0.7.8.tar.gz\E
      |\QAMBS/Quiki/Quiki-0.11.tar.gz\E
      |\QAMIRITE/Nour-0.01.tar.gz\E
      |\QANAZAWA/Blosxom-Plugin-0.00010.tar.gz\E
@@ -175,6 +177,7 @@ match:
      |\QAWNCORP/Data-Object-0.42.tar.gz\E
      |\QAWNCORP/Data-Object-Autobox-0.05.tar.gz\E
      |\QAWNCORP/Data-Seek-0.06.tar.gz\E
+     |\QAWNCORP/Data-Seek-0.08.tar.gz\E
      |\QAWNCORP/Faker-0.04.tar.gz\E
      |\QAWNCORP/Faker-0.09.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
@@ -269,6 +272,7 @@ match:
      |\QCALID/ZMQ-FFI-0.19.tar.gz\E
      |\QCALID/ZMQ-FFI-1.02.tar.gz\E
      |\QCANID/Yote-0.231.tar.gz\E
+     |\QCANID/Yote-0.312.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARLOS/Dist-Zilla-Plugin-test2t-0.001031.tar.gz\E
      |\QCARPENTER/Storm-Tracker_0.01.tar.gz\E
@@ -323,7 +327,6 @@ match:
      |\QCOUDOT/Lemonldap-NG-Common-1.1.1.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Common-1.1.2.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Handler-1.3.3.tar.gz\E
-     |\QCOUDOT/Lemonldap-NG-Manager-1.4.4.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Portal-1.2.5.tar.gz\E
      |\QCREAMYG/Lucy-0.3.3.tar.gz\E
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
@@ -839,6 +842,7 @@ match:
      |\QJFRIED/Rex-0.57.0.tar.gz\E
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
+     |\QJGNI/Locale-CLDR-Locales-Fr-v0.27.3.tar.gz\E
      |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.02.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.03.tar.gz\E
@@ -878,6 +882,7 @@ match:
      |\QJLMARTIN/Paws-0.08.tar.gz\E
      |\QJLMARTIN/Paws-0.09.tar.gz\E
      |\QJLMARTIN/Paws-0.12.tar.gz\E
+     |\QJLMARTIN/Paws-0.15.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.25.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.51.tar.gz\E
      |\QJMASON/Mail-SpamAssassin-2.64.tar.gz\E
@@ -1011,6 +1016,7 @@ match:
      |\QKIMOTO/Rstats-0.0126.tar.gz\E
      |\QKIMOTO/Rstats-0.0136.tar.gz\E
      |\QKIMOTO/Rstats-0.0140.tar.gz\E
+     |\QKIMOTO/Rstats-0.0141.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
      |\QKITANO/CHI-Driver-MemcachedFast-0.01.tar.gz\E
@@ -1039,6 +1045,7 @@ match:
      |\QKRBURTON/Tree-MultiNode-1.0.10.tar.gz\E
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
+     |\QKRYDE/Graph-Graph6-4.tar.gz\E
      |\QKSCHWAB/Device-MiniLED-1.02.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
@@ -1054,7 +1061,6 @@ match:
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.61.tar.gz\E
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
-     |\QLBMOORE/Flickr-Tools-1.19.tar.gz\E
      |\QLBROCARD/App-Twimap-0.02.tar.gz\E
      |\QLBROCARD/Net-Cassandra-0.33.tar.gz\E
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
@@ -1371,7 +1377,7 @@ match:
      |\QNLNETLABS/Net-DNS-SEC-0.21.tar.gz\E
      |\QNMARDEN/VR-API-1.05.tar.gz\E
      |\QNMCFARL/Finance-QIF-1.03.tar.gz\E
-     |\QNORBU/Giovanni-1.10.tar.gz\E
+     |\QNORBU/Giovanni-1.11.tar.gz\E
      |\QNOTDOCTOR/Bio-BioStudio-1.05.tar.gz\E
      |\QNOTDOCTOR/Bio-GeneDesign-3.05.tar.gz\E
      |\QNPEREZ/Document-Transform-1.110400.tar.gz\E
@@ -1586,6 +1592,7 @@ match:
      |\QSAMUEL/IPDevice-0.03.tar.gz\E
      |\QSAMV/Parse-SVNDiff-0.03.tar.gz\E
      |\QSAMV/Tangram-2.09.tar.gz\E
+     |\QSAMV/Tangram-2.10.tar.gz\E
      |\QSANBEG/Test-Directory-0.01.tar.gz\E
      |\QSANKO/FLTK-0.532005001.tar.gz\E
      |\QSANTEX/AI-MicroStructure-0.002.tar.gz\E
@@ -1737,6 +1744,7 @@ match:
      |\QSUMUS/DWH_File-0.21.tar.gz\E
      |\QSUMUS/DWH_File.0.03.tar.gz\E
      |\QSUNDQUIST/Google-Ads-AdWords-Client-3.5.0.tar.gz\E
+     |\QSUNDQUIST/Google-Ads-AdWords-Client-4.0.1.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
      |\QSWALTERS/autobox-Core-1.28.tar.gz\E
@@ -1845,7 +1853,6 @@ match:
      |\QTVIGNAUD/URPM-4.9.tar.gz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
      |\QTVIGNAUD/urpmi-7.9.tgz\E
-     |\QTVIGNAUD/urpmi-8.06.tgz\E
      |\QTWENRICH/DBD-Solid-0.11a.tar.gz\E
      |\QTWH/Bio-GMOD-0.02.tar.gz\E
      |\QTWH/Bio-GMOD-0.022.tar.gz\E
@@ -1963,6 +1970,8 @@ match:
      |\QZAG/Collection-0.38.tar.gz\E
      |\QZAG/Plosurin-v0.1.1.tar.gz\E
      |\QZAKAME/Google-Plus-0.002.tar.gz\E
+     |\QZARABOZO/Submodules-1.0000.tar.gz\E
+     |\QZARABOZO/Submodules-1.0004.tar.gz\E
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
