@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Flickr-Tools-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# interactive since Flickr-Tools-1.21_01 or so
