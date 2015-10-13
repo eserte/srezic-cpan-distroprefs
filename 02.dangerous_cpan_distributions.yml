@@ -289,7 +289,6 @@ match:
      |\QCHIM/Dist-Zilla-PluginBundle-Author-CHIM-0.052002.tar.gz\E
      |\QCHISEL/Plack-App-FakeApache1-0.0.1.tar.gz\E
      |\QCHISEL/Zucchini-0.0.17.tar.gz\E
-     |\QCHM/PDL-2.011.tar.gz\E
      |\QCHRISA/Catalyst-Engine-Stomp-0.02.tar.gz\E
      |\QCHRISA/Devel-DTrace-Provider-0.02.tar.gz\E
      |\QCHRISJH/App-OverWatch-0.003.tar.gz\E
@@ -523,6 +522,7 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
+     |\QEXODIST/Test-Stream-1.302015.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -626,6 +626,7 @@ match:
      |\QGROUSSE/FusionInventory-Agent-2.3.10.1.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.11.1.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.12.tar.gz\E
+     |\QGROUSSE/FusionInventory-Agent-2.3.16.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.6.tar.gz\E
      |\QGSAR/perl-5.6.1.tar.gz\E
      |\QGSB/App-SourcePlot-1.18.tar.gz\E
@@ -1045,7 +1046,6 @@ match:
      |\QKRBURTON/Tree-MultiNode-1.0.10.tar.gz\E
      |\QKRISTI/Tk-DirSelect-1.03.tar.gz\E
      |\QKRS/GMail-IMAPD-0.93.tar.gz\E
-     |\QKRYDE/Graph-Graph6-4.tar.gz\E
      |\QKSCHWAB/Device-MiniLED-1.02.tar.gz\E
      |\QKSTEPHENS/UMMF-0.26.tar.gz\E
      |\QKSTEPME/FusqlFS-0.001.tar.gz\E
@@ -1122,6 +1122,7 @@ match:
      |\QMAHEX/XML-XSLT-0.31.tar.gz\E
      |\QMAHIRO/Data-Freq-0.04.tar.gz\E
      |\QMAHIRO/EJS-Template-0.02.tar.gz\E
+     |\QMAJENSEN/SQLite_File-0.04.tar.gz\E
      |\QMAKAMAKA/JSON-1.14.tar.gz\E
      |\QMAKAMAKA/JSON-1.15.tar.gz\E
      |\QMAKAMAKA/JSON-2.27.tar.gz\E
@@ -1970,8 +1971,6 @@ match:
      |\QZAG/Collection-0.38.tar.gz\E
      |\QZAG/Plosurin-v0.1.1.tar.gz\E
      |\QZAKAME/Google-Plus-0.002.tar.gz\E
-     |\QZARABOZO/Submodules-1.0000.tar.gz\E
-     |\QZARABOZO/Submodules-1.0004.tar.gz\E
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
