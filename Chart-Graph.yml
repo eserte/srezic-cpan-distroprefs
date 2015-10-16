@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Chart-Graph-\d'
+  distribution: '/Chart-Graph-3\.2\.'
 pl:
   eexpect:
     timeout: 60
