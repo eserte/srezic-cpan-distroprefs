@@ -1,0 +1,13 @@
+---
+match:
+  distribution: '/Chart-Graph-\d'
+pl:
+  eexpect:
+    timeout: 60
+    mode: anyorder
+    talk:
+      - '\QEnter \E.*.\Q graphing drivers to test'
+      - "gnuplot\n"
+#      - '\QEnter path to X virtual frame buffer'
+#      - "\n"
+
