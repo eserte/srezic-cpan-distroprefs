@@ -661,6 +661,7 @@ match:
     |.*/Alvis-Convert-0\.4\. # 1-read.t may hang
     |.*/REST-Application-0\.992\. # ttyin
     |.*/Net-Proxy-0\.12\. # 36ssl_tcp.t may hang
+    |.*/Net-Proxy-0\.13\. # 36ssl_tcp.t may hang --- https://rt.cpan.org/Ticket/Display.html?id=100007
     |.*/Lingua-JA-Romanize-Japanese-0\.23\. # probably asking an invisible question
     |.*/Rubric-0\.145\. # t/www/www_main.t may hang
     |.*/Alvis-Pipeline-0\.11\. # may hang on 1-read.t test
