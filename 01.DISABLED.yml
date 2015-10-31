@@ -1376,5 +1376,6 @@ match:
     |KABLAMO/Shell-Carapace-0.13.tar.gz # asks for ssh (?) password
     |.*/Archive-Zip-1.52.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=107268
     |BINARY/Date-Utility-1.02.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=107346
+    |JACOBY/Expect-1.32.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=108299
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
