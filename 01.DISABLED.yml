@@ -376,7 +376,6 @@ match:
     |.*/Db-GTM-\d # needs gtm/mumps, not in ports
     |.*/LWES-\d # not in ports
     |.*/Net-Arping-\d # libnet (libnet-config) not in ports
-    |.*/Term-TermKey-\d # no port for termkey --- the module may use Alien::libtermkey, but it assumes that this is _installed_, so just testing without installing does not work
     |.*/Authen-ACE4-\d # no port for acexport.h or libaceclnt.a
     |.*/Lux-IO-\d # no port for luxio/btree.h
     |.*/Net-Libproxy-\d # no port for libproxy-1.0.pc
