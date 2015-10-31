@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QLexical-SealRequireHints-0.009.tar.gz\E'
+patches:
+  - SREZIC/patches/Lexical-SealRequireHints-0.009-RT107927.patch
