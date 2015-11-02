@@ -527,7 +527,6 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
-     |\QEXODIST/Test-Stream-1.302015.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -1354,6 +1353,7 @@ match:
      |\QNEKOYA/DBIx-Skinny-InflateColumn-DateTime-0.04.tar.gz\E
      |\QNES/Nes-1.02.tar.gz\E
      |\QNEZUMI/MIME-Charset-1.011.3.tar.gz\E
+     |\QNEZUMI/Unicode-Precis-0.02.tar.gz\E
      |\QNGLENN/Algorithm-AM-2.45.tar.gz\E
      |\QNGLENN/Algorithm-AM-3.02.tar.gz\E
      |\QNICS/Catmandu-0.0102.tar.gz\E
@@ -1447,7 +1447,6 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/TableData-Object-0.03.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
@@ -1560,6 +1559,7 @@ match:
      |\QROCKY/Devel-Trepan-0.48.tar.gz\E
      |\QROCKY/Devel-Trepan-0.53.tar.gz\E
      |\QROCKY/Devel-Trepan-0.58.tar.gz\E
+     |\QROCKY/Devel-Trepan-Disassemble-1.99.tar.gz\E
      |\QROCKY/Term-ReadLine-Perl5-1.08.tar.gz\E
      |\QROCKY/Term-ReadLine-Perl5-1.38.tar.gz\E
      |\QRODRIGO/Mongoose-0.07.tar.gz\E
@@ -1718,8 +1718,8 @@ match:
      |\QSPOON/WWW-Yahoo-Groups-1.89.tar.gz\E
      |\QSPRAGST/Sybase-Xfer-0.1.tar.gz\E
      |\QSPROUT/DBM-Deep-1.0016.tar.gz\E
+     |\QSRCHULO/DigitalOcean-0.15.3.tar.gz\E
      |\QSREAGLE/DBD-Ingres-0.5209.tar.gz\E
-     |\QSRI/Minion-2.05.tar.gz\E
      |\QSRL/Net-ICal-0.14.tar.gz\E
      |\QSRSHAH/Probe-MachineInfo-0.06.tar.gz\E
      |\QSRSHAH/Test-Distribution-1.21.tar.gz\E
@@ -1904,6 +1904,7 @@ match:
      |\QVVELOX/ZConf-Mail-1.4.1.tar.gz\E
      |\QWAIDER/Finance-Bank-IE-0.29.tar.gz\E
      |\QWBRASWELL/RPerl-1.000007.tar.gz\E
+     |\QWBRASWELL/RPerl-1.100002.tar.gz\E
      |\QWEAV/DBIx-Perform-0.05.tar.gz\E
      |\QWEBORAMA/Riak-Light-0.052.tar.gz\E
      |\QWEBORAMA/WebService-Zaqar-0.004.tar.gz\E
