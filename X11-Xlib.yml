@@ -2,7 +2,7 @@
 match:
   distribution: '/X11-Xlib-0\.02\.'
   perlconfig:
-    version: '^5\.(18|19|20|21)\.\d+$'
+    version: '^5\.(18|19|20|21|22|23)\.\d+$'
 depends:
   configure_requires:
     Devel::CheckLib: 0
