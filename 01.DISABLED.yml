@@ -492,6 +492,7 @@ match:
     |.*/Forecast-IO-\d # test needs Forecast.io API key, interactively entered
     |.*/WebService-FogBugz-XML-\d # many questions
     |XSAWYERX/Test-SFTP-1.10.tar.gz # question in test -> https://github.com/xsawyerx/test-sftp/issues/1
+    |VINSWORLD/Net-SSH2-Cisco-0.01.tar.gz # question in test (router)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
