@@ -8,7 +8,8 @@ comment: "no port available for non-i386"
 ---
 match:
   distribution: "/PerlCryptLib-1\.(10|11)\."
-  perlconfig:
-    archname: "-freebsd"
+#  perlconfig:
+#    archname: "-freebsd"
 disabled: 1
-comment: "Hangs, see http://matrix.cpantesters.org/?dist=PerlCryptLib;maxver=;reports=1;os=freebsd"
+#comment: "Hangs, see http://matrix.cpantesters.org/?dist=PerlCryptLib;maxver=;reports=1;os=freebsd"
+## Disabled everywhere --- searches for cryptlib.h in $HOME, which may be very slow if remote fs are mounted there
