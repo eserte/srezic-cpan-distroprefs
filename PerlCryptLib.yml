@@ -1,13 +1,13 @@
 ---
 match:
-  distribution: "/PerlCryptLib-\d"
+  distribution: '/PerlCryptLib-\d'
   perlconfig:
     archname: "amd64-freebsd"
 disabled: 1
 comment: "no port available for non-i386"
 ---
 match:
-  distribution: "/PerlCryptLib-1\.(10|11)\."
+  distribution: '/PerlCryptLib-1\.(10|11)\.'
 #  perlconfig:
 #    archname: "-freebsd"
 disabled: 1
