@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Text-ClearSilver-0.10.5.4.'
+  env:
+    CPAN_SMOKE_MODULES_FORCE_FAIL: yes
+test:
+# Force segmentation faults _everywhere_ using Electric Fence
+# FreeBSD would be /usr/local/lib/libefence.so.0, but the module does not compile here anyway
+  commandline: 'make test LD_PRELOAD=/usr/lib/libefence.so.0'
