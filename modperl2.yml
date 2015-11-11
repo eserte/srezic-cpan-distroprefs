@@ -13,7 +13,7 @@
 --- 
 comment: "This prefs works only on a specific Debian machine."
 match:
-  distribution: "/mod_perl-2\.0\.7\."
+  distribution: '/mod_perl-2\.0\.7\.'
   perlconfig:
     archname: -linux
   env:
@@ -34,6 +34,6 @@ pl:
     - MP_APXS=/usr/bin/apxs2
 --- 
 match:
-  distribution: "/mod_perl-2\.0\.8\."
+  distribution: '/mod_perl-2\.0\.8\.'
 patches:
   - SREZIC/patches/mod_perl-2.0.8-RT101142.patch
