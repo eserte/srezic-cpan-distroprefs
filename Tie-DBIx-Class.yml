@@ -1,0 +1,15 @@
+---
+match:
+  distribution: '/\QTie-DBIx-Class-0.01.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+  env:
+    CPAN_SMOKE_MODULES_FORCE_FAIL: yes
+# No patch!
+---
+match:
+  distribution: '/\QTie-DBIx-Class-0.01.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+patches:
+  - SREZIC/patches/Tie-DBIx-Class-0.01-RT76415.patch
