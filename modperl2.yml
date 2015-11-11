@@ -24,7 +24,7 @@ pl:
 --- 
 comment: "Another debian machine."
 match:
-  distribution: "/mod_perl-2\.0\.8\."
+  distribution: '/mod_perl-2\.0\.(8|9)\.'
   perlconfig:
     archname: -linux
   env:
