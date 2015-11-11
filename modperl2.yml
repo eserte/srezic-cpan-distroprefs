@@ -27,8 +27,11 @@ match:
   distribution: '/mod_perl-2\.0\.(8|9)\.'
   perlconfig:
     archname: -linux
-  env:
-    HOST: eserte
+# workaround for specifying eserte.dev2... host
+    myuname: '^linux eserte 3.2.0-4-amd64'
+## XXX usually not defined as an environment variable, just a local variable
+#  env:
+#    HOST: eserte
 pl: 
   args:
     - MP_APXS=/usr/bin/apxs2
