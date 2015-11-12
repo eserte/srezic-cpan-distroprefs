@@ -1,8 +1,6 @@
 ---
 match:
   distribution: '/FormValidator-Nested-\d'
-disabled: 1
-## Interactive configuration, but somehow PERL_MM_USE_DEFAULT does not help
-#pl:
-#  env:
-#    PERL_MM_USE_DEFAULT: 1
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
