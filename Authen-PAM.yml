@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Authen-PAM-0\.16\.'
+disabled: 1
+# Interactive test (test.pl)
