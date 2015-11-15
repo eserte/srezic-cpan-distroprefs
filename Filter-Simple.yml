@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Filter-Simple-0\.91\.'
+  perlconfig:
+    version: '^5\.(2[3456789]|[3456789]\d)\.'
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=105146
+# perl 5.22 has 0.92 included which has the issue fixed
