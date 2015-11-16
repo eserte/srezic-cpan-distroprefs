@@ -31,3 +31,4 @@ patches:
   - SREZIC/patches/Data-Alias-1.18-RT98758-2.patch
   - SREZIC/patches/Data-Alias-1.18-RT100944.patch 
   - SREZIC/patches/Data-Alias-1.18-RT98758-3.patch
+# no issues anymore with Data-Alias-1.20
