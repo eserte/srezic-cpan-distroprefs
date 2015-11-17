@@ -332,6 +332,8 @@ match:
      |\QCOUDOT/Lemonldap-NG-Portal-1.2.5.tar.gz\E
      |\QCPANIC/WebService-Shippo-0.0.1.tar.gz\E
      |\QCPANIC/WebService-Shippo-0.0.11.tar.gz\E
+     |\QCPANIC/WebService-Shippo-0.0.17.tar.gz\E
+     |\QCPANIC/WebService-Shippo-0.0.20.tar.gz\E
      |\QCPANIC/WebService-Shippo-0.0.4.tar.gz\E
      |\QCPANIC/WebService-Shippo-0.0.7.tar.gz\E
      |\QCREAMYG/Lucy-0.3.3.tar.gz\E
@@ -594,8 +596,6 @@ match:
      |\QGFUJI/MouseX-Getopt-0.34.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
-     |\QGLBRUNE/Sim-OPT-0.40.14.tar.gz\E
-     |\QGLBRUNE/Sim-OPT-0.41.1.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -1459,8 +1459,8 @@ match:
      |\QPERRETTDL/Test-Proto-0.011.tar.gz\E
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
+     |\QPEVANS/Device-Chip-MAX7219-0.02.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
-     |\QPEVANS/IO-Async-0.66.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
@@ -1624,7 +1624,6 @@ match:
      |\QSCHOP/Data-ACL-0.01.tar.gz\E
      |\QSCHROEER/Lab/Lab-Instrument-1.2.tar.gz\E
      |\QSCHUBIGER/DateTime-Format-Natural-0.94.tar.gz\E
-     |\QSCLOUSE/Dist-Zilla-Plugin-RPM-0.007.tar.gz\E
      |\QSDAGUE/ppt-0.12.tar.gz\E
      |\QSDERLE/Geo-Coder-US-0.21.tar.gz\E
      |\QSDERLE/Geo-GDAL-0.11.tar.gz\E
@@ -1868,6 +1867,7 @@ match:
      |\QVANSTYN/RapidApp-0.99664.tar.gz\E
      |\QVANSTYN/RapidApp-0.99700.tar.gz\E
      |\QVDB/Dist-Zilla-PluginBundle-Author-VDB-v0.11.1.tar.gz\E
+     |\QVDB/Systemd-Daemon-0.06.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
