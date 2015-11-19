@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Getopt-Long-\d+"
+  distribution: '/Getopt-Long-\d+'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
