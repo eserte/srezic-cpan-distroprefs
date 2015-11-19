@@ -2,8 +2,5 @@
 match:
   distribution: "/Getopt-Long-\d+"
 pl:
-  eexpect:
-    mode: anyorder
-    talk:
-      - "\QShall I add the remove instructions?"
-      - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
