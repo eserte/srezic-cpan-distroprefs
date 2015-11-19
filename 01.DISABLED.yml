@@ -1240,7 +1240,7 @@ match:
     |.*/Mozilla-DOM-0\.23\.tar\.gz # does not build anyway on my system
     |.*/Lingua-EN-GeniaTagger-\d+ # wants path to geniatagger
     |MBRANDON/README$ # an upload accident?
-    |.*/Lingua-TreeTagger-.* # needs treetagger, not installed here
+    |.*/Lingua-TreeTagger-.* # needs treetagger, not available as Debian/wheezy/jessie or FreeBSD 10 package
     |.*/WebService-ScormCloud- # needs some scorm id and creds
     |XAICRON/WWW-YouTube-Download-0.25.tar.gz # PaxHeader stuff while extracting, maybe Archive::Tar problem?
     |XENU/CGI-Env-0.01-withoutworldwriteables.tar.gz # missing x bit in tarball
