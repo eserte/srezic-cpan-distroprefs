@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Template-Provider-CustomDBIC-0\.03\.'
+  perlconfig:
+    archname: '-freebsd'
+disabled: 1
+# on freebsd, test suite is completely killed in the perlcritic tests
+# no reports ever sent
+# Related: https://rt.cpan.org/Ticket/Display.html?id=109302
