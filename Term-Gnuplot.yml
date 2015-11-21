@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Term-Gnuplot-\d'
+  perlconfig:
+    archname: linux
+disabled: 1
+# interactive tests
+# tests are also interactive on freebsd, but something fails here, so
+# no "disabled: 1" needed
