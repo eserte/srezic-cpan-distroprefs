@@ -3,7 +3,7 @@ match:
   distribution: "/Unicode-LineBreak-\d"
   perlconfig:
     archname: "(-freebsd)"
-    osvers: "^[89]\."
+    osvers: "^[8]\."
 pl:
   args:
     - "--disable-libthai"
@@ -15,3 +15,5 @@ pl:
 #test:
 #  commandline: "limits -t 30 make test"
 #comment: Runs forever on freebsd systems if libthai 0.1.5 is installed, ok with libthai 0.1.12+libdatrie 0.2.2
+#
+# Later: now libthai 0.1.22 is available in the ports, so restrict this to freebsd 8 only.
