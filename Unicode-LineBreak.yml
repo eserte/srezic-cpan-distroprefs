@@ -1,12 +1,12 @@
 ---
 match:
-  distribution: "/Unicode-LineBreak-\d"
+  distribution: '/Unicode-LineBreak-\d'
   perlconfig:
-    archname: "(-freebsd)"
-    osvers: "^[8]\."
+    archname: '(-freebsd)'
+    osvers: '^[8]\.'
 pl:
   args:
-    - "--disable-libthai"
+    - '--disable-libthai'
 ## perl Makefile.PL says:
 ##   Version of your libthai is 0.1.5.  0.1.9 or later is required.  Update it or specify --disable-libthai option.
 ## It seems that libthai 0.1.19 is now in
