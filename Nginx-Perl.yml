@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Nginx-Perl-1\.2\.9\.7\.'
+  perlconfig:
+    gccversion: 'FreeBSD Clang'
+pl:
+  env:
+    CC: cc
+# https://rt.cpan.org/Ticket/Display.html?id=109623
