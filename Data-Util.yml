@@ -2,6 +2,6 @@
 match:
   distribution: '/Data-Util-0\.63\.'
   perlconfig:
-    version: '^5\.(21\.(4|5|6|7|8|9|10|11)|22\.(0|1)|23\.(1|2|3|4))$'
+    version: '^5\.(21\.(4|5|6|7|8|9|10|11)|22\.(0|1)|23\.(1|2|3|4|5))$'
 patches:
   - SREZIC/patches/Data-Util-0.63-RT99097.patch
