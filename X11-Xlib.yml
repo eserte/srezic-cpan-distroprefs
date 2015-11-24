@@ -10,3 +10,5 @@ pl:
   commandline: 'rm -rf inc/; $PERL Makefile.PL'
 # prove of concept for https://rt.cpan.org/Ticket/Display.html?id=89237
 # and http://stackoverflow.com/questions/20587171/develchecklib-syntax-errors-when-trying-to-install-treesuffix/20587624?noredirect=1#comment40986916_20587624
+#
+# The issue is fixed in X11-Xlib-0.03
