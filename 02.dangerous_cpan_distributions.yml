@@ -382,6 +382,7 @@ match:
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCOLLINS/DCOLLINS-ANN-Locals-0.001.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
+     |\QDCONWAY/Perl6-Export-0.009.tar.gz\E
      |\QDCOPPIT/Mail-Mbox-MessageParser-1.5104.tar.gz\E
      |\QDCOPPIT/Module-Install-Bugtracker-0.0300.tar.gz\E
      |\QDCOPPIT/yagg-1.4004.tar.gz\E
@@ -607,6 +608,7 @@ match:
      |\QGMPASSOS/XML-Smart-1.3.1.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.00.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.07.tar.gz\E
+     |\QGOMOR/Metabrik-Repository-1.10.tar.gz\E
      |\QGOMOR/Net-Frame-1.00.tar.gz\E
      |\QGOMOR/Net-Packet-1.27.tar.gz\E
      |\QGOMOR/Net-Packet-1.28.tar.gz\E
@@ -835,6 +837,7 @@ match:
      |\QJBAKER/Apache-Session-1.03.tar.gz\E
      |\QJBD/JBD-0.02.tar.gz\E
      |\QJBD/Pistachio-0.08.tar.gz\E
+     |\QJBERGER/Mojolicious-Plugin-MountPSGI-0.06.tar.gz\E
      |\QJBLAKEY/Crypt-Enigma-1.1.tar.gz\E
      |\QJBRYAN/AI-NeuralNet-BackProp-0.77.zip\E
      |\QJDS/DBIx-Table-TestDataGenerator-0.003.tar.gz\E
@@ -853,7 +856,6 @@ match:
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
-     |\QJGNI/Locale-CLDR-v0.28.0.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.02.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.03.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.031.tar.gz\E
@@ -871,6 +873,8 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.621.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
+     |\QJHTHORSEN/App-docsisious-0.06.tar.gz\E
+     |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -1140,6 +1144,7 @@ match:
      |\QMAKAMAKA/JSON-RPC-0.95.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
      |\QMAMOD/JavaScript-Duktape-0.0.4.tar.gz\E
+     |\QMANWAR/App-calendr-0.05.tar.gz\E
      |\QMANWAR/Calendar-Bahai-0.14.tar.gz\E
      |\QMANWAR/Data-Password-Filter-0.06.tar.gz\E
      |\QMANWAR/IP-Info-0.06.tar.gz\E
@@ -1151,16 +1156,6 @@ match:
      |\QMANWAR/WebService-Wikimapia-0.05.tar.gz\E
      |\QMANWAR/WebService-Wikimapia-0.06.tar.gz\E
      |\QMARCC/xml-tag-0.1.tar.gz\E
-     |\QMARCEL/App-Benchmark-Accessors-1.110100.tar.gz\E
-     |\QMARCEL/Brickyard-1.110020.tar.gz\E
-     |\QMARCEL/Brickyard-1.111750.tar.gz\E
-     |\QMARCEL/CatalystX-Crudite-0.16.tar.gz\E
-     |\QMARCEL/DB-Pluggable-1.101051.tar.gz\E
-     |\QMARCEL/DB-Pluggable-StackTraceAsHTML-1.100850.tar.gz\E
-     |\QMARCEL/Data-Conveyor-1.101690.tar.gz\E
-     |\QMARCEL/Data-Conveyor-1.102250.tar.gz\E
-     |\QMARCEL/Data-Storage-1.101700.tar.gz\E
-     |\QMARCEL/Web-Library-0.02.tar.gz\E
      |\QMARCLANG/ParallelUserAgent-2.54.tar.gz\E
      |\QMARIAB/WWW-TMDB-API0.03.tar.gz\E
      |\QMARKBUSH/NTLM-1.01.tar.gz\E
@@ -1303,6 +1298,7 @@ match:
      |\QMSIMERSON/Provision-Unix-1.06.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.23.tar.gz\E
+     |\QMSISK/HTML-CalendarMonth-1.26.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1480,6 +1476,7 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
+     |\QPLICEASE/Clustericious-1.04.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
@@ -1530,6 +1527,7 @@ match:
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QRENEEB/OTRS-OPM-Maker-0.07.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
+     |\QRGARCIA/base-2.18.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
      |\QRGEOFFREY/ExtUtils-ModuleMaker-0.204.tar.gz\E
      |\QRGEOFFREY/ExtUtils-ModuleMaker-0.32.tar.gz\E
@@ -1604,6 +1602,7 @@ match:
      |\QSANTEX/AI-MicroStructure-0.002.tar.gz\E
      |\QSANTEX/AI-MicroStructure-0.009.tar.gz\E
      |\QSANTEX/Finance-Quant-0.08.tar.gz\E
+     |\QSANTEX/Flower-0.02.tar.gz\E
      |\QSARGIE/Test-More-Prefix-0.003.tar.gz\E
      |\QSARTAK/App-Nopaste-0.18.tar.gz\E
      |\QSARTAK/App-Nopaste-0.22.tar.gz\E
@@ -1687,8 +1686,6 @@ match:
      |\QSISYPHUS/Math-Complex_C-0.09.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
-     |\QSJQUINNEY/LCFG-Build-Tools-0.0.40.tar.gz\E
-     |\QSJQUINNEY/LCFG-Build-Tools-0.2.2.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSLU/App-TimeClock-0.09.tar.gz\E
