@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/PLUTO-0\.30\.'
+  env:
+    CPAN_SMOKE_MODULES_FORCE_FAIL: yes
+  perlconfig:
+    archname: linux
+test:
+# Force segmentation faults _everywhere_ using Electric Fence
+# FreeBSD would be /usr/local/lib/libefence.so.0
+  commandline: 'make test LD_PRELOAD=/usr/lib/libefence.so.0'
