@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/IO-EventMux-2\.02\.'
+  perlconfig:
+    archname: linux
+disabled: 1
+# t/errors.t test hangs
