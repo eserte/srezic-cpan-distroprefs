@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QTie-Simple-1.03.tar.gz\E'
+  perlconfig:
+    version: '^5\.23\.(4|5)'
+patches:
+  - SREZIC/patches/Tie-Simple-1.03-RT126472.patch
