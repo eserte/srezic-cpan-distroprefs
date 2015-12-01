@@ -111,6 +111,7 @@ match:
      |\QAREGGIORI/RDFStore-0.42.tar.gz\E
      |\QAREIBENS/PDF-API2-0.73.tar.gz\E
      |\QARFREITAS/Siebel-Srvrmgr-0.19.tar.gz\E
+     |\QARJONES/App-MP4Meta-1.130420.tar.gz\E
      |\QARJONES/WebService-TVDB-1.130350.tar.gz\E
      |\QARODLAND/DBIx-Class-0.08196.tar.gz\E
      |\QARODLAND/Test-Exit-0.03.tar.gz\E
@@ -439,6 +440,7 @@ match:
      |\QDPIROTTE/Mail-Chimp-0.12.tar.gz\E
      |\QDQNEO/Amazon-S3-Thin-0.08.tar.gz\E
      |\QDROLSKY/DateTime-Locale-0.92.tar.gz\E
+     |\QDROLSKY/Test-Class-Moose-0.62.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRTECH/Search-Elasticsearch-1.99.tar.gz\E
@@ -597,6 +599,8 @@ match:
      |\QGFUJI/MouseX-Getopt-0.34.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
+     |\QGLBRUNE/Sim-OPT-0.47.3.tar.gz\E
+     |\QGLBRUNE/Sim-OPT-0.47.5.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -638,7 +642,6 @@ match:
      |\QGROUSSE/FusionInventory-Agent-2.3.16.tar.gz\E
      |\QGROUSSE/FusionInventory-Agent-2.3.6.tar.gz\E
      |\QGSAR/perl-5.6.1.tar.gz\E
-     |\QGSB/App-SourcePlot-1.18.tar.gz\E
      |\QGSG/App-Gitc-0.58.tar.gz\E
      |\QGSHANK/DBIx-Class-ResultSet-RecursiveUpdate-0.31.tar.gz\E
      |\QGSHANK/HTML-FormHandler-0.40022.tar.gz\E
@@ -687,7 +690,6 @@ match:
      |\QHITODE/App-PRT-0.16.tar.gz\E
      |\QHJHELGE/Tk-MListbox-1.09.tar.gz\E
      |\QHKCLARK/Catalyst-Plugin-StatusMessage-0.003000.tar.gz\E
-     |\QHKOBA/YATT-v0.0.8.tar.gz\E
      |\QHOBBESTIG/Dancer-Plugin-Browser-1.130570.tar.gz\E
      |\QHOBBESTIG/MediaWikiUtils-0.141011.tar.gz\E
      |\QHOBBESTIG/Net-Gandi-0.12.tar.gz\E
@@ -1074,6 +1076,7 @@ match:
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.61.tar.gz\E
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
+     |\QLBMOORE/Flickr-Tools-1.21.tar.gz\E
      |\QLBROCARD/App-Twimap-0.02.tar.gz\E
      |\QLBROCARD/Net-Cassandra-0.33.tar.gz\E
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
@@ -1424,7 +1427,6 @@ match:
      |\QOTAYLOR/CORBA-MICO-0.6.0.tar.gz\E
      |\QOVID/Test-Class-Moose-0.06.tar.gz\E
      |\QOVID/Test-Class-Moose-0.43.tar.gz\E
-     |\QOVID/Test-Class-Moose-0.54.tar.gz\E
      |\QOVID/Test-Harness-3.26.tar.gz\E
      |\QOVID/Test-Harness-3.28.tar.gz\E
      |\QOVID/Test-Kit-0.101.tar.gz\E
@@ -1442,6 +1444,7 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/Complete-0.16.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
@@ -1601,6 +1604,7 @@ match:
      |\QSANKO/FLTK-0.532005001.tar.gz\E
      |\QSANTEX/AI-MicroStructure-0.002.tar.gz\E
      |\QSANTEX/AI-MicroStructure-0.009.tar.gz\E
+     |\QSANTEX/AI-MicroStructure-0.17.tar.gz\E
      |\QSANTEX/Finance-Quant-0.08.tar.gz\E
      |\QSANTEX/Flower-0.02.tar.gz\E
      |\QSARGIE/Test-More-Prefix-0.003.tar.gz\E
@@ -1833,6 +1837,7 @@ match:
      |\QTOSHIOITO/Gnuplot-Builder-0.02.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
      |\QTRIZEN/Sidef-0.10.tar.gz\E
+     |\QTRIZEN/Sidef-2.10.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/DBIx-SearchBuilder-1.65.tar.gz\E
