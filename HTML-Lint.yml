@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/HTML-Lint-2\.22\.'
+  perlconfig:
+    version: '^5\.(18|19|20|21|22|23)\.'
+test:
+  env:
+    PERL_HASH_SEED: 3
+    PERL_PERTURB_KEYS: NO
+# https://github.com/petdance/html-lint/issues/39
+# hash randomization
