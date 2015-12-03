@@ -39,6 +39,18 @@ pl:
 patches:
   - SREZIC/patches/POE-1.366-RT103842.patch
 --- 
+comment: "https://rt.cpan.org/Ticket/Display.html?id=110045 (make install causes problems in build dir cleanup)"
+match:
+  distribution: '^RCAPUTO/POE-1\.367\.tar\.gz'
+  perlconfig:
+# workaround for specifying eserte.dev2... host
+    myuname: '^linux eserte 3.2.0-4-amd64'
+pl: 
+  args:
+    - --default
+test:
+  commandline: "touch -t 197001010000 mylib/gen-tests.perl; ls -al mylib/gen-tests.perl; make test"
+--- 
 comment: "Or if you prefer to follow the defaults..."
 match:
   distribution: '^RCAPUTO/POE-\d'
