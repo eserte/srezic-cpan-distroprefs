@@ -2,12 +2,19 @@
 match:
   distribution: '/Bio-BioStudio-\d'
   env:
-    PERL_PARALLEL_SMOKER: yes
+    PERL_BATCH: yes
 pl:
-  expect:
-    - '\QWhere should configuration files be installed? [/etc/BioStudio ]'
-    - "/tmp/BioStudio\n"
-    - '\QWhere should scripts be installed? [/usr/local/bin/ ]'
-    - "/tmp\n"
-    - '\QWhere should BioStudio write tmp files? [/tmp ]'
-    - "\n"
+  eexpect:
+    timeout: 30
+    mode: anyorder
+    talk:
+      - '\QWhere should configuration files be installed? [/etc/BioStudio ]'
+      - "/tmp/BioStudio\n"
+      - '\QWhere should scripts be installed? [/usr/local/bin/ ]'
+      - "/tmp\n"
+      - '\QWhere should BioStudio write tmp files? [/tmp ]'
+      - "\n"
+      - '\QEnable SGE job farming?'
+      - "\n"
+      - '\QEnable Cairo graphics support?'
+      - "\n"
