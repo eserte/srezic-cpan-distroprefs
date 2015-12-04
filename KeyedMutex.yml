@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QKeyedMutex-0.06.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+patches:
+  - SREZIC/patches/KeyedMutex-0.06-RT110058.patch
