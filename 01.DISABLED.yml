@@ -407,6 +407,7 @@ match:
     |DMAKI/ZMQ-LibZMQ3-1.15.tar.gz # hanging tests on fbsd9
     |TEX/Data-Persist-0.12.tar.gz # locking issue (?) - https://rt.cpan.org/Ticket/Display.html?id=95349
     |JKUTEJ/CPAN-Patches-0.04.tar.gz # test stops with "Reversed (or previously applied) patch detected!  Assume -R? [y] Reversed (or previously applied) patch detected!  Assume -R? [y]" (only freebsd, not debian/wheezy) -> https://github.com/jozef/CPAN-Patches/issues/1
+    |MICHALS/PMLTQ-1.0.0.tar.gz # tests hang (state lockf) (but would not succeed anyway because of dependency errors)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
