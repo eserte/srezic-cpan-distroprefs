@@ -1,5 +1,10 @@
 ---
 match:
+  distribution: 'NOTDOCTOR/Bio-BioStudio-2.10.tar.gz'
+disabled: 1
+# Requires BioPerl scripts to be installed, otherwise not even a "DISCARDED" is recorded
+---
+match:
   distribution: '/Bio-BioStudio-\d'
   env:
     PERL_BATCH: yes
