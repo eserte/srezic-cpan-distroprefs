@@ -1383,7 +1383,7 @@ match:
     |.*/Games-Baseball-Scorecard-0.03 # probably more TeX prereqs needed than I have on my smokers
     |DDUMONT/Config-Model-Itself-2.001.tar.gz # tests hang on many systems
     |DDUMONT/Config-Model-Itself-2.002.tar.gz # tests hang on many systems
-    |.*/Archive-Zip-1.54.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110064
+    |.*/Archive-Zip-1.54.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110064 - in the meanwhile fixed, author suspects a MacOSX tar issue
     |.*/MySQL-Util-0.28.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110065
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
