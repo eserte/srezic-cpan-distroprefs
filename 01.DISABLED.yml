@@ -1386,5 +1386,6 @@ match:
     |.*/Archive-Zip-1.54.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110064 - in the meanwhile fixed, author suspects a MacOSX tar issue
     |.*/MySQL-Util-0.28.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110065
     |MOOCOW/PDL-SVDSLEPc-0.001.tar.gz # interactive config questions
+    |MOOCOW/PDL-SVDSLEPc-0.002.tar.gz # interactive config questions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
