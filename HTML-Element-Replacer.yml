@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/HTML-Element-Replacer-0\.08\.'
+patches:
+  - SREZIC/patches/HTML-Element-Replacer-0.08-issue1.patch
