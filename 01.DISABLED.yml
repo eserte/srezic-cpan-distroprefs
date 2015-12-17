@@ -1385,7 +1385,6 @@ match:
     |DDUMONT/Config-Model-Itself-2.002.tar.gz # tests hang on many systems
     |.*/Archive-Zip-1.54.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110064 - in the meanwhile fixed, author suspects a MacOSX tar issue
     |.*/MySQL-Util-0.28.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110065
-    |MOOCOW/PDL-SVDSLEPc-0.001.tar.gz # interactive config questions
-    |MOOCOW/PDL-SVDSLEPc-0.002.tar.gz # interactive config questions
+    |MOOCOW/PDL-SVDSLEPc-0.00\d.tar.gz # interactive config questions (0.001-0.003 at least)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
