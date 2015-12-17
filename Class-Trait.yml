@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/Class-Trait-0\.31\.'
+  perlconfig:
+    version: '^5\.(18|19|20|21|22|23)\.'
+test:
+  env:
+    PERL_HASH_SEED: 2
+    PERL_PERTURB_KEYS: NO
+# https://rt.cpan.org/Ticket/Display.html?id=81598
+# hash randomization
+# Deprecated!
