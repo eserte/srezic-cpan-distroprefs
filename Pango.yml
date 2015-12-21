@@ -2,7 +2,9 @@
 match:
   distribution: '/Pango-1\.226\.'
   perlconfig:
-    myuname: 'linux cvrsnica-sid'
+# 1st alternative: self-compiled @ cvrsnica-sid
+# 2nd alternative: debian's system perl
+    myuname: '(linux cvrsnica-sid|linux localhost 3.16.0)'
 patches:
   - SREZIC/patches/Pango-1.226-RT109330.patch
 # resolved, but no release yet
