@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Pango-1\.226\.'
+  perlconfig:
+    myuname: 'linux cvrsnica-sid'
+patches:
+  - SREZIC/patches/Pango-1.226-RT109330.patch
+# resolved, but no release yet
