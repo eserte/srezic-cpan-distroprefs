@@ -239,16 +239,16 @@ match:
   perlconfig:
     version: '^5\.00505$'
 disabled: 1
----
-comment: "Not on my Linux system(s)"
-match:
-  perlconfig:
-    archname: "-linux"
-  distribution: |
-    ^(?x:
-     .*/Bio-HTSTools-\d # no htslib available on debian systems
-    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-disabled: 1
+#---
+#comment: "Not on my Linux system(s)"
+#match:
+#  perlconfig:
+#    archname: "-linux"
+#  distribution: |
+#    ^(?x:
+#     .*/Bio-HTSTools-\d # no htslib available on debian systems
+#    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#disabled: 1
 --- 
 comment: "Not on my FreeBSD system(s)"
 match:
@@ -1398,5 +1398,6 @@ match:
     |.*/MySQL-Util-0.28.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=110065
     |MOOCOW/PDL-SVDSLEPc-0.00\d.tar.gz # interactive config questions (0.001-0.003 at least)
     |PUGLET/Firewall-PaloAlto-0.04.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=110449
+    |.*/Bio-HTSTools-\d # no htslib available on debian systems; not compatible library on freebsd systems
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
