@@ -12,6 +12,7 @@ match:
      |\QAARONJJ/WWW-TheEchoNest-0.1.tar.gz\E
      |\QAASSAD/Net-Whois-RIPE-2.005002.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
+     |\QABIGAIL/Regexp-Common-2013031301.tar.gz\E
      |\QABRAXXA/DBIx-Class-0.08195.tar.gz\E
      |\QABRETT/App-SFDC-0.13.tar.gz\E
      |\QABRETT/WWW-SFDC-0.25.tar.gz\E
@@ -113,7 +114,7 @@ match:
      |\QAREGGIORI/RDFStore-0.31.tar.gz\E
      |\QAREGGIORI/RDFStore-0.42.tar.gz\E
      |\QAREIBENS/PDF-API2-0.73.tar.gz\E
-     |\QARFREITAS/Siebel-Srvrmgr-0.19.tar.gz\E
+     |\QARFREITAS/Siebel-Srvrmgr-0.22.tar.gz\E
      |\QARJONES/App-MP4Meta-1.130420.tar.gz\E
      |\QARJONES/WebService-TVDB-1.130350.tar.gz\E
      |\QARODLAND/DBIx-Class-0.08196.tar.gz\E
@@ -535,6 +536,7 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
+     |\QEXODIST/Test2-0.000005.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -600,7 +602,6 @@ match:
      |\QGFUJI/MouseX-Getopt-0.34.tar.gz\E
      |\QGGALLONE/Bio-Homology-InterologWalk-0.12.tar.gz\E
      |\QGGARAND/PerlQt-3.006.tar.gz\E
-     |\QGLBRUNE/Sim-OPT-0.49.5.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
      |\QGLENNWOOD/Scraper-2.27.tar.gz\E
@@ -1193,7 +1194,9 @@ match:
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-0.0100021.tar.gz\E
      |\QMAXMIND/Business-MaxMind-1.57.tar.gz\E
      |\QMAXMIND/GeoIP2-2.001003.tar.gz\E
+     |\QMAXMIND/MaxMind-DB-Reader-1.000007.tar.gz\E
      |\QMAXSCHUBE/Nmap-Scanner-0.9.tar.gz\E
+     |\QMBARBON/DBGp-Client-0.05.tar.gz\E
      |\QMBARBON/Module-Info-0.35.tar.gz\E
      |\QMBLYTHE/HTML-Chunks-1.55.1.tar.gz\E
      |\QMBOGDANOV/Web-Sitemap-0.04.tar.gz\E
@@ -1206,6 +1209,7 @@ match:
      |\QMEKK/OAuthomatic-0.02.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
+     |\QMELEZHIK/Sparrow-0.0.6.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
@@ -1483,7 +1487,6 @@ match:
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
      |\QPMQS/Compress-Raw-Bzip2-2.005.tar.gz\E
      |\QPMURIAS/Mildew-0.01.tar.gz\E
-     |\QPOPEL/Treex-Core-0.08664.tar.gz\E
      |\QPOWERMAN/AnyEvent-DBI-MySQL-1.0.3.tar.gz\E
      |\QPOWERMAN/Async-Defer-0.0.3.tar.gz\E
      |\QPOWERMAN/Sub-Throttler-0.1.1.tar.gz\E
@@ -1680,6 +1683,7 @@ match:
      |\QSIMONW/Bot-BasicBot-Pluggable-Module-Search-0.96.tar.gz\E
      |\QSIMONW/Email-FolderType-0.7.tar.gz\E
      |\QSIMONW/Email-Store-0.24.tar.gz\E
+     |\QSIMONW/File-Mork-0.3.tar.gz\E
      |\QSIMONW/LWPx-TimedHTTP-1.4.tar.gz\E
      |\QSIMONW/Net-Google-AuthSub-0.4.tar.gz\E
      |\QSIMONW/XML-Feed-0.23.tar.gz\E
@@ -1754,7 +1758,6 @@ match:
      |\QSUNDQUIST/Google-Ads-AdWords-Client-4.1.0.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
-     |\QTAGOMORIS/Woothee-1.0.1.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
      |\QTANIGUCHI/HTML-Entities-Numbered-0.03.tar.gz\E
