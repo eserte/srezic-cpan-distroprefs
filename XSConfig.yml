@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/XSConfig-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1
+# requested by bulk88: more verbosity in test reports
