@@ -239,6 +239,16 @@ match:
   perlconfig:
     version: '^5\.00505$'
 disabled: 1
+---
+comment: "Not on my Linux system(s)"
+match:
+  perlconfig:
+    archname: "-linux"
+  distribution: |
+    ^(?x:
+     .*/Bio-HTSTools-\d # no htslib available on debian systems
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
 --- 
 comment: "Not on my FreeBSD system(s)"
 match:
