@@ -1399,5 +1399,6 @@ match:
     |MOOCOW/PDL-SVDSLEPc-0.00\d.tar.gz # interactive config questions (0.001-0.003 at least)
     |PUGLET/Firewall-PaloAlto-0.04.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=110449
     |.*/Bio-HTSTools-\d # no htslib available on debian systems; not compatible library on freebsd systems
+    |RISHIDEV/Bio-DB-HTS-\d # no htslib available on debian systems; not compatible library on freebsd systems
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
