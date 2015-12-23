@@ -1,6 +1,12 @@
 ---
 match:
   distribution: '/XSConfig-\d'
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=110573
+# breaks at least forks.pm, maybe other CPAN modules, too
+---
+match:
+  distribution: '/XSConfig-\d'
 test:
   env:
     AUTOMATED_TESTING: 1
