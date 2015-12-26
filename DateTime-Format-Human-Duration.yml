@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QDateTime-Format-Human-Duration-0.62.tar.gz\E'
+patches:
+  - SREZIC/patches/DateTime-Format-Human-Duration-0.62-RT108601.patch
+# also see: https://github.com/mstratman/DateTime-Format-Human-Duration/pull/7
