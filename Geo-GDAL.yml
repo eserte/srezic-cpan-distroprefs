@@ -40,3 +40,11 @@ pl:
   args: ["--no-version-check"]
 # freebsd currently (2015-01) comes with gdal-1.11.1, this version accepts only 1.11.0
 # -> https://rt.cpan.org/Ticket/Display.html?id=101441
+---
+match:
+  distribution: '/\QGeo-GDAL-2.00019.tar.gz\E'
+  perlconfig:
+    myuname: 'freebsd cvrsnica.herceg.de 9.2'
+patches:
+  - SREZIC/patches/Geo-GDAL-2.00019-RT110653.patch
+# restrict to cvrsnica, as here only an old gdal library is available
