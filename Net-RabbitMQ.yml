@@ -1,3 +1,6 @@
+# The following distroprefs assume a running rabbitmq-server on the
+# test machine. Without distroprefs tests would work against
+# dev.rabbitmq.com and are very likely to fail.
 ---
 match:
   distribution: '/Net--RabbitMQ-0\.2\.7\.'
