@@ -1382,6 +1382,7 @@ match:
     |WBRASWELL/RPerl-1.1.tar.gz # does not pass tests, long runtime
     |WBRASWELL/RPerl-1.100001.tar.gz # does not pass tests, long runtime
     |WBRASWELL/RPerl-1.100002.tar.gz # does not pass tests, long runtime
+    |WBRASWELL/RPerl-1.500000.tar.gz # does not pass tests on most systems, long runtime
     |GRABZIT/GrabzItClient.2.2.1.zip # not recognized as a perl package
     |PHRED/SOAP-Lite-1.15.tar.gz # empty tarball https://rt.cpan.org/Ticket/Display.html?id=106040
     |SUTT/IPC-Semaphore-Set-1.tar.gz # no Makefile.PL https://rt.cpan.org/Ticket/Display.html?id=106041
