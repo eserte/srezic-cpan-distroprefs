@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Test-PostgreSQL-1\.20_01\.'
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=110972
