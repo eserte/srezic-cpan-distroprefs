@@ -1402,5 +1402,6 @@ match:
     |PUGLET/Firewall-PaloAlto-0.04.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=110449
     |.*/Bio-HTSTools-\d # no htslib available on debian systems; not compatible library on freebsd systems
     |RISHIDEV/Bio-DB-HTS-\d # no htslib available on debian systems; not compatible library on freebsd systems
+    |VVELOX/Toader-1.2.0.tar.gz # missing Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=111012
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
