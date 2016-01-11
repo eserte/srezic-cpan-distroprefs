@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/PITA-XML-0\.52\.'
+test:
+  env:
+    PERL_HASH_SEED: 14
+    PERL_PERTURB_KEYS: NO
+# https://rt.cpan.org/Ticket/Display.html?id=81592
+# hash randomization
