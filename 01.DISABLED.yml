@@ -1025,7 +1025,6 @@ match:
     |.*/tinyperl-1.0-580-win32\. # seems to be dangerous - defining another Config.pm in @INC!
     |.*/Java-\d # needs running Java server
     |.*/Business-OnlinePayment-Exact-\d # needs account
-    |.*/CGI-Wiki-\d # wants a database
     |.*/Net-Trac-0\.01_01\.tar\.gz # kills the smoker
     |.*/Lingua-BrillTagger-\d # needs some files like CONTEXTUALRULEFILE for tests
     |.*/IO-Compress-Zlib-2\.014\.tar\.gz # circular dependency
