@@ -1,12 +1,15 @@
 --- 
 match:
   distribution: "/DBD-ODBC-\d"
+  perlconfig:
+    archname: 'freebsd'
 pl:
-  eexpect:
-    talk:
-      - "\QPress return to continue..."
-      - "\n"
-    mode: anyorder
-    timeout: 2
-    reuse: 1
+  env:
+    PERL_MM_USE_DEFAULT: 1
   args: ["-o", "/usr/local"]
+--- 
+match:
+  distribution: "/DBD-ODBC-\d"
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
