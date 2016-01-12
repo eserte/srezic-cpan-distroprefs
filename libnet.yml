@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/libnet-3\.08\."
+  distribution: '/libnet-3\.08\.'
   perlconfig:
     myuname: 'linux ws40601'
 patches:
@@ -8,10 +8,10 @@ patches:
 
 --- 
 match:
-  distribution: "/libnet-\d"
+  distribution: '/libnet-\d'
 pl:
   expect:
-    - "\QDo you want to modify/update your configuration (y|n) ? [no]"
+    - '\QDo you want to modify/update your configuration (y|n) ? [no]'
     - "\n"
 
 # last_checked: 2014-09-27 (SHAY/libnet-1.27.tar.gz is still interactive)
