@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Alien-Thrust-0\.101\.'
+  perlconfig:
+    myuname: 'linux cvrsnica-jessie'
+disabled: 1
+# almost deprecated, see https://github.com/hoytech/Alien-Thrust/issues/3
+# and takes ~95MB -> so don't smoke on small systems
