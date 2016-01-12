@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/DBD-ODBC-\d"
+  distribution: '/DBD-ODBC-\d'
   perlconfig:
     archname: 'freebsd'
 pl:
@@ -9,7 +9,7 @@ pl:
   args: ["-o", "/usr/local"]
 --- 
 match:
-  distribution: "/DBD-ODBC-\d"
+  distribution: '/DBD-ODBC-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
