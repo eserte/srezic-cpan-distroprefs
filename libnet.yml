@@ -1,5 +1,13 @@
 --- 
 match:
+  distribution: "/libnet-3\.08\."
+  perlconfig:
+    myuname: 'linux ws40601'
+patches:
+  - SREZIC/patches/libnet-3.08-RT111127.patch
+
+--- 
+match:
   distribution: "/libnet-\d"
 pl:
   expect:
