@@ -71,6 +71,8 @@ match:
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
+     |\QALEXBYK/Evo-0.0171.tar.gz\E
+     |\QALEXBYK/Evo-0.0174.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -119,6 +121,7 @@ match:
      |\QARJONES/WebService-TVDB-1.130350.tar.gz\E
      |\QARODLAND/DBIx-Class-0.08196.tar.gz\E
      |\QARODLAND/Test-Exit-0.03.tar.gz\E
+     |\QARUNBEAR/Minions-0.000006.tar.gz\E
      |\QASCOPE/Image-Shoehorn-Gallery-0.21.tar.gz\E
      |\QASCOPE/Net-Google-0.62.tar.gz\E
      |\QASCOPE/XML-Filter-XML_Directory_2RSS-0.9.1.tar.gz\E
@@ -394,7 +397,6 @@ match:
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDEMIAN/HackaMol-0.017.tar.gz\E
      |\QDERF/Travel-Status-DE-DeutscheBahn-1.05.tar.gz\E
-     |\QDFH/App-JobLog-1.032.tar.gz\E
      |\QDGL/App-redisp-0.11.tar.gz\E
      |\QDGOEHRIG/SDL_Perl-2.1.2.tar.gz\E
      |\QDHARD/FAST-1.0.tar.gz\E
@@ -537,8 +539,6 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
-     |\QEXODIST/Test2-0.000011.tar.gz\E
-     |\QEXODIST/Test2-0.000012.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -585,8 +585,6 @@ match:
      |\QGAAS/perlbench-0.93.tar.gz\E
      |\QGABOR/Text-Format0.52+NWrap0.11.tar.gz\E
      |\QGAISSMAI/Config-Scoped-0.13.tar.gz\E
-     |\QGANGLION/Audio-Nama-1.100.tar.gz\E
-     |\QGANGLION/Audio-Nama-1.114.tar.gz\E
      |\QGARU/Padre-Plugin-Catalyst-0.09.tar.gz\E
      |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
@@ -1107,8 +1105,6 @@ match:
      |\QLDS/Text-Shellwords-1.03.tar.gz\E
      |\QLDS/VM-EC2-1.23.tar.gz\E
      |\QLDS/VM-EC2-1.25.tar.gz\E
-     |\QLEEJO/CGI-4.04.tar.gz\E
-     |\QLEEJO/CGI.pm-4.03.tar.gz\E
      |\QLEIF/tidyview-1.12.tar.gz\E
      |\QLEIRA/HTTP-Recorder-0.02.tar.gz\E
      |\QLEONT/Dist-Zilla-PluginBundle-LEONT-0.012.tar.gz\E
@@ -1379,7 +1375,6 @@ match:
      |\QNICS/Catmandu-OAI-0.02.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
-     |\QNICS/Catmandu-Store-MongoDB-0.0301.tar.gz\E
      |\QNICS/WWW-ORCID-0.0101.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
      |\QNIGE/Goo-0.08.tar.gz\E
@@ -1704,10 +1699,12 @@ match:
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSLU/App-TimeClock-0.09.tar.gz\E
      |\QSLUDIN/Protocol-ACME-0.03.tar.gz\E
+     |\QSLUDIN/Protocol-ACME-0.04.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.480.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.488.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-REST-0.515.tar.gz\E
      |\QSMITHFARM/Web-MREST-CLI-0.276.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSMUELLER/Attribute-Handlers-0.96.tar.gz\E
@@ -1930,8 +1927,6 @@ match:
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
-     |\QWYANT/Astro-App-Satpass2-0.020.tar.gz\E
-     |\QWYANT/Astro-App-Satpass2-0.023.tar.gz\E
      |\QXAICRON/DBIx-QueryLog-0.06.tar.gz\E
      |\QXAICRON/JSON-WebToken-0.05.tar.gz\E
      |\QXAICRON/Module-Install-TestTarget-0.15.tar.gz\E
@@ -1997,6 +1992,7 @@ match:
      |\QZDM/Pcore-v0.13.2.tar.gz\E
      |\QZDM/Pcore-v0.13.4.tar.gz\E
      |\QZDM/Pcore-v0.14.0.tar.gz\E
+     |\QZDM/Pcore-v0.14.2.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
