@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Data-TestImage-\d'
+pl:
+  env:
+    PERL_DATA_TESTIMAGE_INSTALL: ''
+# don't install the USC/SIPI test images (~17.3MB)
