@@ -71,8 +71,8 @@ match:
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
-     |\QALEXBYK/Evo-0.0171.tar.gz\E
-     |\QALEXBYK/Evo-0.0174.tar.gz\E
+     |\QALEXBYK/Evo-0.0200.tar.gz\E
+     |\QALEXBYK/Evo-0.0201.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -870,8 +870,6 @@ match:
      |\QJHALLOCK/Gapp-App-0.007.tar.gz\E
      |\QJHALLOCK/Storm-0.03-withoutworldwriteables.tar.gz\E
      |\QJHELWIG/WWW-PivotalTracker-0.17.tar.gz\E
-     |\QJHI/Graph-0.96.tar.gz\E
-     |\QJHI/perl-5.7.1.tar.gz\E
      |\QJHI/perl-5.7.2.tar.gz\E
      |\QJHORWITZ/Krb4-0.93.tar.gz\E
      |\QJHORWITZ/Krb5-0.9.tar.gz\E
@@ -1214,6 +1212,7 @@ match:
      |\QMELEZHIK/Sparrow-0.0.6.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
+     |\QMICVU/HTTP-API-Client-0.01.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
      |\QMIKIHOSHI/Acme-PrettyCure-0.02.tar.gz\E
@@ -1448,6 +1447,7 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/Pod-Weaver-PluginBundle-Author-PERLANCAR-0.25.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
@@ -1482,7 +1482,6 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
-     |\QPLICEASE/Clustericious-1.10.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
@@ -1530,7 +1529,6 @@ match:
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
-     |\QRENEEB/OTRS-OPM-Maker-0.07.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
      |\QRGEOFFREY/ExtUtils-ModuleMaker-0.204.tar.gz\E
@@ -1674,6 +1672,7 @@ match:
      |\QSHLOMIF/Inline-Ruby-0.04.tar.gz\E
      |\QSHLOMIF/Test-Run-0.0302.tar.gz\E
      |\QSHLOMIF/XML-CompareML-v0.2.7.tar.gz\E
+     |\QSHOOTNIX/ActiveRecord-Simple-0.65.tar.gz\E
      |\QSILENCER/WoW-Armory-API-1.02.tar.gz\E
      |\QSIMON/Finance-Bank-LloydsTSB-1.2.tar.gz\E
      |\QSIMON/Mail-Miner-1.01.tar.gz\E
@@ -1692,7 +1691,6 @@ match:
      |\QSIMONW/XML-Feed-0.23.tar.gz\E
      |\QSIMPLIFY/Net-Simplify-1.0.0.tar.gz\E
      |\QSIMPLIFY/Net-Simplify-1.0.1.tar.gz\E
-     |\QSISYPHUS/Math-Complex_C-0.09.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
@@ -1702,6 +1700,7 @@ match:
      |\QSLUDIN/Protocol-ACME-0.04.tar.gz\E
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-Common-0.202.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.480.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.488.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.515.tar.gz\E
@@ -1848,7 +1847,6 @@ match:
      |\QTRIZEN/Sidef-2.10.tar.gz\E
      |\QTRIZEN/Sidef-2.11.tar.gz\E
      |\QTRIZEN/Sidef-2.12.tar.gz\E
-     |\QTRIZEN/Sidef-2.13001.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/DBIx-SearchBuilder-1.65.tar.gz\E
@@ -1987,12 +1985,7 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
-     |\QZDM/Pcore-v0.11.5.tar.gz\E
-     |\QZDM/Pcore-v0.12.4.tar.gz\E
-     |\QZDM/Pcore-v0.13.2.tar.gz\E
-     |\QZDM/Pcore-v0.13.4.tar.gz\E
-     |\QZDM/Pcore-v0.14.0.tar.gz\E
-     |\QZDM/Pcore-v0.14.2.tar.gz\E
+     |\QZDM/Pcore-Whois-v0.2.3.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
