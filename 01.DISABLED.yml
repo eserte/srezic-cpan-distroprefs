@@ -488,7 +488,7 @@ match:
     |.*/Tk-Multi-1.006.tar.gz
     |.*/Tk-PopEntry-0.06.tar.gz
     |.*/Tk-TM-\d
-    |.*/Tk-TextHighlight-\d
+    |XXX.*/Tk-TextHighlight-\d # -> own distroprefs file
     |.*/Tk-Text-SuperText-\d
     |.*/Tk-Updown-\d
     |.*/TkUtil-Configure-\d
