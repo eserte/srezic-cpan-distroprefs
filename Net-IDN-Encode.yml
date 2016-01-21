@@ -5,3 +5,4 @@ match:
     version: '^5\.21\.([23456789]|1\d)'
 goto: CFAERBER/Net-IDN-Encode-2.201_20150330.tar.gz
 # https://rt.cpan.org/Ticket/Display.html?id=96749
+# fixed in later versions, e.g. CFAERBER/Net-IDN-Encode-2.300.tar.gz is OK
