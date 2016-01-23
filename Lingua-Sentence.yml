@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Lingua-Sentence-1\.05\.'
+depends:
+  configure_requires:
+    'inc::Module::Install': 0
+# https://rt.cpan.org/Ticket/Display.html?id=93063
