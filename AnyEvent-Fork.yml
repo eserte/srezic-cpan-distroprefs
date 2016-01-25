@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/AnyEvent-Fork-1\.2\.'
+  perlconfig:
+    version: '^5\.23\.'
+patches:
+  - SREZIC/patches/AnyEvent-Fork-1.2-RT106900.patch
