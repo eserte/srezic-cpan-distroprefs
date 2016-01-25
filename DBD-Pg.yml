@@ -1,5 +1,11 @@
 ---
 match:
+  distribution: '/DBD-Pg-'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+---
+match:
   distribution: '/DBD-Pg-3\.0\.0\.'
 test:
   env:
