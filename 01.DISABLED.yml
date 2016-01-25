@@ -1403,5 +1403,6 @@ match:
     |.*/Bio-HTSTools-\d # no htslib available on debian systems; not compatible library on freebsd systems
     |RISHIDEV/Bio-DB-HTS-\d # no htslib available on debian systems; not compatible library on freebsd systems
     |VVELOX/Toader-1.2.0.tar.gz # missing Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=111012
+    |FREW/App-Adenosine-2.001008.tar.gz # https://github.com/frioux/app-adenosine/issues/8 ("pp" script clashes with PAR-Packer's one)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
