@@ -41,6 +41,7 @@ match:
      |\QAEREAL/JSON-TypeInference-0.03.tar.gz\E
      |\QAFRYER/TUXEDO-2.05.tar.gz\E
      |\QAFRYER/Tuxedo-2.06.tar.gz\E
+     |\QAGENT/Lemplate-0.01.tar.gz\E
      |\QAGENT/Pugs-Compiler-Rule-0.28.tar.gz\E
      |\QAGJ/Csistck-0.0802.tar.gz\E
      |\QAGOE/Net-PSYC-0.15.tar.gz\E
@@ -242,6 +243,7 @@ match:
      |\QBOBTFISH/Gitalist-0.000005.tar.gz\E
      |\QBOBTFISH/Message-Passing-0.010.tar.gz\E
      |\QBOBTFISH/Message-Passing-Redis-0.004.tar.gz\E
+     |\QBOBTFISH/Message-Passing-ZeroMQ-0.008.tar.gz\E
      |\QBOLILA/Plack-Middleware-Auth-BrowserID-0.0.5.tar.gz\E
      |\QBORISZ/Business-MaxMind-1.50.tar.gz\E
      |\QBOUMENOT/Net-Amazon-0.60.tar.gz\E
@@ -274,7 +276,6 @@ match:
      |\QBUDNEY/Email-Fingerprint-0.47.tar.gz\E
      |\QBUGOV/Pony-Object-0.06.tar.gz\E
      |\QBULB/Config-Maker-0.001.tar.gz\E
-     |\QBULKDD/Win32/Win32-API-0.80.tar.gz\E
      |\QBYRNE/SOAP-Lite-0.69.tar.gz\E
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
      |\QBYTEROCK/MooseX-AuthorizedMethodRoles-0.00.05.tar.gz\E
@@ -393,6 +394,7 @@ match:
      |\QDCOPPIT/Mail-Mbox-MessageParser-1.5104.tar.gz\E
      |\QDCOPPIT/Module-Install-Bugtracker-0.0300.tar.gz\E
      |\QDCOPPIT/yagg-1.4004.tar.gz\E
+     |\QDDUMONT/Config-Model-2.077.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDEMIAN/HackaMol-0.017.tar.gz\E
@@ -452,6 +454,7 @@ match:
      |\QDRTECH/Search-Elasticsearch-1.99.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
+     |\QDRZIGMAN/WWW-LogicBoxes-0.1.0.tar.gz\E
      |\QDSCHOEN/Gearman-XS-0.7.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.6.tar.gz\E
      |\QDSNOPEK/POE-Component-MessageQueue-0.1.8.tar.gz\E
@@ -539,6 +542,7 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
+     |\QEXODIST/Importer-0.005.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -551,6 +555,7 @@ match:
      |\QFAYLAND/Padre-Plugin-JavaScript-0.25.tar.gz\E
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
      |\QFBELTON/Template-Plugin-React-0.004.tar.gz\E
+     |\QFELIPE/Crypt-RSA-Parse-0.02.tar.gz\E
      |\QFELLIOTT/WebService-Toggl-0.04.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFFFINKEL/Dist-Zilla-Plugin-RunByBranch-0.21.tar.gz\E
@@ -861,7 +866,7 @@ match:
      |\QJFRIED/Rex-0.57.0.tar.gz\E
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
-     |\QJGNI/Locale-CLDR-v0.25.4.tar.gz\E
+     |\QJGNI/Locale-CLDR-v0.25.5.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.02.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.03.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.031.tar.gz\E
@@ -1080,6 +1085,7 @@ match:
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.61.tar.gz\E
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
+     |\QLAUSSER/Monitoring-GLPlugin-1.4.2.2.tar.gz\E
      |\QLBROCARD/App-Twimap-0.02.tar.gz\E
      |\QLBROCARD/Net-Cassandra-0.33.tar.gz\E
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
@@ -1159,6 +1165,7 @@ match:
      |\QMANWAR/WWW-StatsMix-0.01.tar.gz\E
      |\QMANWAR/WebService-Wikimapia-0.05.tar.gz\E
      |\QMANWAR/WebService-Wikimapia-0.06.tar.gz\E
+     |\QMANWAR/XML-XPath-1.25.tar.gz\E
      |\QMARCC/xml-tag-0.1.tar.gz\E
      |\QMARCLANG/ParallelUserAgent-2.54.tar.gz\E
      |\QMARIAB/WWW-TMDB-API0.03.tar.gz\E
@@ -1209,8 +1216,8 @@ match:
      |\QMEKK/OAuthomatic-0.02.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
-     |\QMELEZHIK/Sparrow-0.0.6.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
+     |\QMENDEL/URI-redis-0.01.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMICVU/HTTP-API-Client-0.01.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
@@ -1447,7 +1454,6 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/Pod-Weaver-PluginBundle-Author-PERLANCAR-0.25.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
@@ -1492,6 +1498,7 @@ match:
      |\QPOWERMAN/Async-Defer-0.0.3.tar.gz\E
      |\QPOWERMAN/Sub-Throttler-0.1.1.tar.gz\E
      |\QPRBRENAN/Math-Algebra-Symbols-1.18.tar.gz\E
+     |\QPRBRENAN/Math-Algebra-Symbols-1.21.tar.gz\E
      |\QPREACTION/Statocles-0.047.tar.gz\E
      |\QPRO/Net-DirectConnect-0.07.tar.gz\E
      |\QPRO/Net-DirectConnect-0.10.tar.gz\E
@@ -1701,10 +1708,7 @@ match:
      |\QSMCKAY/Bio-PrimerDesigner-0.02.tar.gz\E
      |\QSMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz\E
      |\QSMITHFARM/App-Dochazka-Common-0.202.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-REST-0.480.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-REST-0.488.tar.gz\E
-     |\QSMITHFARM/App-Dochazka-REST-0.515.tar.gz\E
-     |\QSMITHFARM/Web-MREST-CLI-0.276.tar.gz\E
+     |\QSMITHFARM/App-Dochazka-REST-0.519.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
      |\QSMUELLER/Attribute-Handlers-0.96.tar.gz\E
      |\QSMUELLER/Lingua-Identify-CLD2-0.01.tar.gz\E
@@ -1743,7 +1747,6 @@ match:
      |\QSTEVAN/Forest-0.01.tar.gz\E
      |\QSTEVAN/HTTP-Throwable-0.004.tar.gz\E
      |\QSTEVAN/Promises-0.07.tar.gz\E
-     |\QSTEVEB/Devel-Examine-Subs-1.45.tar.gz\E
      |\QSTRYTOAST/Plucene-1.20.tar.gz\E
      |\QSTUIFZAND/Sleep-0.0.3.tar.gz\E
      |\QSUKRIA/Dancer-1.150.tar.gz\E
@@ -1815,6 +1818,7 @@ match:
      |\QTMURRAY/UAV-Pilot-WumpusRover-0.2.tar.gz\E
      |\QTMURRAY/UAV-Pilot-WumpusRover-Server-0.1.tar.gz\E
      |\QTNT/Syntax-Feature-Try-0.002.tar.gz\E
+     |\QTOBY/Geo-Coordinates-OSGB-2.09.tar.gz\E
      |\QTOBYINK/Data-Dumper-GUI-0.005.tar.gz\E
      |\QTOBYINK/FreeMind-Document-0.001.tar.gz\E
      |\QTOBYINK/HTTP-Link-Parser-0.103.tar.gz\E
@@ -1857,7 +1861,6 @@ match:
      |\QTSIBLEY/RT-Extension-SLA-0.06.tar.gz\E
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
      |\QTSUCCHI/Test-Module-Used-0.2.4.tar.gz\E
-     |\QTURNERJW/Tk-TextHighlight-1.0.4.tar.gz\E
      |\QTVIGNAUD/URPM-4.9.tar.gz\E
      |\QTVIGNAUD/urpmi-7.8.tgz\E
      |\QTVIGNAUD/urpmi-7.9.tgz\E
