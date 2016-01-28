@@ -6,3 +6,4 @@ depends:
   build_requires:
     CGI: 0
 # https://rt.cpan.org/Ticket/Display.html?id=99944
+# Fixed in 1.06
