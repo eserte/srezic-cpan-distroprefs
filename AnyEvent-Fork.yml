@@ -5,3 +5,4 @@ match:
     version: '^5\.23\.'
 patches:
   - SREZIC/patches/AnyEvent-Fork-1.2-RT106900.patch
+# patch was unfortunately rejected by Marc
