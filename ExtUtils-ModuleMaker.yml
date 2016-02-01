@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/ExtUtils-ModuleMaker-\d'
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=111637
+#
+# When run in parallel, and if someone is unlucky, then
+# it seems that the equivalent of rm -rf is done in the tests...

@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/File-Save-Home-\d'
+disabled:
+# https://rt.cpan.org/Ticket/Display.html?id=111637
+#
+# Not sure if ExtUtils-ModuleMaker or File-Save-Home is
+# to blame here.
