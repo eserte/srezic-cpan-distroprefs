@@ -72,8 +72,6 @@ match:
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
-     |\QALEXBYK/Evo-0.0200.tar.gz\E
-     |\QALEXBYK/Evo-0.0201.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -347,7 +345,9 @@ match:
      |\QCREAMYG/Lucy-0.3.3.tar.gz\E
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
+     |\QCSSON/Dist-Iller-0.1204.tar.gz\E
      |\QCSSON/OpenGbg-0.1300.tar.gz\E
+     |\QCSSON/OpenGbg-0.1302.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
      |\QCTBROWN/ODG-Record-0.28.tar.gz\E
      |\QCTRLSOFT/Parse-Pidl-0.01.tar.gz\E
@@ -359,7 +359,6 @@ match:
      |\QDAB/Dependency-Resolver-0.04.tar.gz\E
      |\QDAGOLDEN/Metabase-0.016.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
-     |\QDAKKAR/Plack-Handler-Stomp-1.09.tar.gz\E
      |\QDALEEVANS/Text-Spintax-0.05.tar.gz\E
      |\QDAMI/SQL-Abstract-FromQuery-0.02.tar.gz\E
      |\QDANAJ/Math-Prime-Util-0.43.tar.gz\E
@@ -448,6 +447,7 @@ match:
      |\QDQNEO/Amazon-S3-Thin-0.08.tar.gz\E
      |\QDROLSKY/Code-TidyAll-0.32.tar.gz\E
      |\QDROLSKY/DateTime-Locale-0.92.tar.gz\E
+     |\QDROLSKY/DateTime-TimeZone-1.94.tar.gz\E
      |\QDROLSKY/Test-Class-Moose-0.62.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
@@ -631,6 +631,7 @@ match:
      |\QGORTAN/XML-NewsML_G2-v0.2.0.tar.gz\E
      |\QGOZER/Apache-Language-0.07.tar.gz\E
      |\QGOZER/mod_perl-1.31.tar.gz\E
+     |\QGPHAT/Data-Money-0.07.tar.gz\E
      |\QGPHAT/Data-SearchEngine-0.32.tar.gz\E
      |\QGPHAT/IO-Storm-0.01.tar.gz\E
      |\QGRAF/WebService-XING-0.001.tar.gz\E
@@ -1062,7 +1063,6 @@ match:
      |\QKMX/Win32-GUI-1.08.tar.gz\E
      |\QKNASSAR/Activator-0.10.tar.gz\E
      |\QKNI/HTTP-Any-0.04.tar.gz\E
-     |\QKNI/HTTP-Any-0.05.1.tar.gz\E
      |\QKOHTS/snaked-0.02.tar.gz\E
      |\QKOKOGIKO/Geo-Direction-Name-0.0.3.tar.gz\E
      |\QKOKOGIKO/HTTP-MobileAgent-Plugin-RoamingZone-0.0.2.tar.gz\E
@@ -1156,6 +1156,7 @@ match:
      |\QMAMOD/JavaScript-Duktape-0.0.4.tar.gz\E
      |\QMANWAR/App-calendr-0.06.tar.gz\E
      |\QMANWAR/Calendar-Bahai-0.14.tar.gz\E
+     |\QMANWAR/Data-Money-0.08.tar.gz\E
      |\QMANWAR/Data-Password-Filter-0.06.tar.gz\E
      |\QMANWAR/IP-Info-0.06.tar.gz\E
      |\QMANWAR/Map-Tube-3.00.tar.gz\E
@@ -1219,6 +1220,8 @@ match:
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMENDEL/URI-redis-0.01.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
+     |\QMICKEY/PONAPI-Server-0.002008.tar.gz\E
+     |\QMICKEY/PONAPI-Server-0.002009.tar.gz\E
      |\QMICVU/HTTP-API-Client-0.01.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
      |\QMIKI/Lingua-JA-Categorize-0.01001.tar.gz\E
@@ -1314,6 +1317,7 @@ match:
      |\QMSISK/Finance-QuoteHist-1.20.tar.gz\E
      |\QMSISK/Finance-QuoteHist-1.23.tar.gz\E
      |\QMSISK/HTML-CalendarMonth-1.26.tar.gz\E
+     |\QMSISK/Net-Silk-1.07.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1943,6 +1947,7 @@ match:
      |\QXAOINC/XAO-MySQL-1.0.tar.gz\E
      |\QXENO/Business-CyberSource-0.010005.tar.gz\E
      |\QXENO/Business-OnlinePayment-CyberSource-2.01.tar.gz\E
+     |\QXENO/Pod-Spell-1.17.tar.gz\E
      |\QXEONTIME/Sakai-Nakamura-0.11.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-6.02.tar.gz\E
      |\QXERXES/Microsoft-AdCenter-7.08.tar.gz\E
@@ -1988,7 +1993,7 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
-     |\QZDM/Pcore-Whois-v0.2.3.tar.gz\E
+     |\QZDM/Pcore-v0.16.1.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
