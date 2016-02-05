@@ -489,7 +489,7 @@ match:
     |.*/Tk-PopEntry-0.06.tar.gz
     |.*/Tk-TM-\d
     |XXX.*/Tk-TextHighlight-\d # -> own distroprefs file
-    |.*/Tk-Text-SuperText-\d
+    |.*/Tk-Text-SuperText-\d # interactive window, has to be closed manually (checked with 0.9.5)
     |.*/Tk-Updown-\d
     |.*/TkUtil-Configure-\d
     |.*/UDPM-\d
