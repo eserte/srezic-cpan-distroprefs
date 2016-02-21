@@ -680,7 +680,7 @@ match:
     |.*/Rubric-0\.145\. # t/www/www_main.t may hang
     |.*/Alvis-Pipeline-0\.11\. # may hang on 1-read.t test
     |.*/HTML-Tempi-0\.01\. # test.pl may hang
-    |.*/File-FDpasser-0\.09\. # t12serv_cli.t may hang
+    |XXX.*/File-FDpasser-0\.09\. # t12serv_cli.t may hang -> still hangs, but handled by wait-and-kill-cpan-smoker
     |.*/POE-Component-Child-1\.39\. # test may hang
     |.*/OpenFrame-Segment-Apache-1\.20\. # apache.t may hang
     |.*/WWW-Google-Groups-0\.09\. # test.pl may hang
