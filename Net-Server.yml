@@ -7,6 +7,8 @@ patches:
 ---
 match:
   distribution: '/\QNet-Server-2.008.tar.gz\E'
+  env:
+    USER: '\.'
 patches:
   - SREZIC/patches/Net-Server-2.008-RT85586.patch
 # patch fixes the "dot in user/group name" problem
