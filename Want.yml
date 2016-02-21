@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QWant-0.26.tar.gz\E'
+  perlconfig:
+    version: '^5\.23\.8$'
+patches:
+  - SREZIC/patches/Want-0.26-RT112226.patch
