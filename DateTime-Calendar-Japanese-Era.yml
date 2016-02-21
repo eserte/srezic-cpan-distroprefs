@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/DateTime-Calendar-Japanese-Era-0\.08001\.'
+depends:
+  configure_requires:
+    Module::Install: 0
+pl:
+  commandline: 'rm -rf inc/; $PERL Makefile.PL'
+# Fix outdated Module::Install, see
+# https://rt.cpan.org/Ticket/Display.html?id=79788
+#
+# However, there are test failures, probably with newer Encode (2.49 is fine, fails with 2.55 and newer)
