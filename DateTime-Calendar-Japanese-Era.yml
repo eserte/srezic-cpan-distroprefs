@@ -6,7 +6,9 @@ depends:
     Module::Install: 0
 pl:
   commandline: 'rm -rf inc/; $PERL Makefile.PL'
+patches:
+  - SREZIC/patches/DateTime-Calendar-Japanese-Era-0.08001-RT103283.patch
 # Fix outdated Module::Install, see
 # https://rt.cpan.org/Ticket/Display.html?id=79788
 #
-# However, there are test failures, probably with newer Encode (2.49 is fine, fails with 2.55 and newer)
+# The patch fixes an issue with newer Encode (2.53 and newer)
