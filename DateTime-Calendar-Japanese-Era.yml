@@ -12,3 +12,10 @@ patches:
 # https://rt.cpan.org/Ticket/Display.html?id=79788
 #
 # The patch fixes an issue with newer Encode (2.53 and newer)
+#
+# It seems that the latest version 0.08001 is not indexed.
+---
+match:
+  distribution: '/DateTime-Calendar-Japanese-Era-0\.08002\.'
+patches:
+  - SREZIC/patches/DateTime-Calendar-Japanese-Era-0.08001-RT103283.patch
