@@ -51,9 +51,6 @@ match:
      |\QAJOLMA/Geo-OGC-Service-WMTS-0.01.tar.gz\E
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
-     |\QAJPAGE/Bio-Roary-2.3.4.tar.gz\E
-     |\QAJPAGE/Bio-Roary-3.1.4.tar.gz\E
-     |\QAJPAGE/Bio-Roary-3.3.3.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.11.tar.gz\E
@@ -239,7 +236,6 @@ match:
      |\QBOBTFISH/Gitalist-0.000005.tar.gz\E
      |\QBOBTFISH/Message-Passing-0.010.tar.gz\E
      |\QBOBTFISH/Message-Passing-Redis-0.004.tar.gz\E
-     |\QBOBTFISH/Message-Passing-ZeroMQ-0.008.tar.gz\E
      |\QBOLILA/Plack-Middleware-Auth-BrowserID-0.0.5.tar.gz\E
      |\QBORISZ/Business-MaxMind-1.50.tar.gz\E
      |\QBOUMENOT/Net-Amazon-0.60.tar.gz\E
@@ -287,7 +283,6 @@ match:
      |\QCATATSUY/Acme-2zicon-0.4.tar.gz\E
      |\QCATATSUY/Acme-2zicon-0.5.tar.gz\E
      |\QCBUREL/Qt4-0.99.0.tar.bz2\E
-     |\QCCAVNOR/Class-AutoDB-0.09.tar.gz\E
      |\QCCOLBOURN/ai-nnflex/AI-NNFlex-0.16.tar.gz\E
      |\QCCOLBOURN/ai-nnflex/AI-NNFlex-0.20.tar.gz\E
      |\QCDRAUG/Dist-Zilla-PluginBundle-BioPerl-0.20.tar.gz\E
@@ -862,7 +857,6 @@ match:
      |\QJFRIED/Rex-0.57.0.tar.gz\E
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
-     |\QJGNI/Locale-CLDR-v0.25.5.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.02.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.03.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.031.tar.gz\E
@@ -880,6 +874,7 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/App-docsisious-0.06.tar.gz\E
      |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
+     |\QJILLROWE/HPC-Runner-Slurm-2.52.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
      |\QJINZANG/App-Followme-1.02.tar.gz\E
@@ -933,6 +928,7 @@ match:
      |\QJOSHR/Sman-0.98.tar.gz\E
      |\QJOSTEN/XML-XSLT-0.20.tar.gz\E
      |\QJPEACOCK/Math-Currency-0.46.tar.gz\E
+     |\QJPEACOCK/version-0.9912.tar.gz\E
      |\QJPRIT/ObjStore-1.53.tar.gz\E
      |\QJQUELIN/Module-Packaged-Generator-1.111040.tar.gz\E
      |\QJQUELIN/WWW-DaysOfWonder-Memoir44-1.100140.tar.gz\E
@@ -1372,9 +1368,11 @@ match:
      |\QNICS/Catmandu-0.8002.tar.gz\E
      |\QNICS/Catmandu-0.9204.tar.gz\E
      |\QNICS/Catmandu-0.9210.tar.gz\E
+     |\QNICS/Catmandu-0.9505.tar.gz\E
      |\QNICS/Catmandu-ArXiv-0.01.tar.gz\E
      |\QNICS/Catmandu-Atom-0.02.tar.gz\E
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
+     |\QNICS/Catmandu-DBI-0.0503.tar.gz\E
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
      |\QNICS/Catmandu-OAI-0.02.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
@@ -1453,6 +1451,7 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
+     |\QPERLER/MooseX-Attribute-Chained-1.0.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1492,7 +1491,6 @@ match:
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
      |\QPMQS/Compress-Raw-Bzip2-2.005.tar.gz\E
      |\QPMURIAS/Mildew-0.01.tar.gz\E
-     |\QPOWERMAN/AnyEvent-DBI-MySQL-1.0.3.tar.gz\E
      |\QPOWERMAN/Async-Defer-0.0.3.tar.gz\E
      |\QPOWERMAN/Sub-Throttler-0.1.1.tar.gz\E
      |\QPRBRENAN/Math-Algebra-Symbols-1.18.tar.gz\E
@@ -1764,11 +1762,6 @@ match:
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
      |\QTANIGUCHI/HTML-Entities-Numbered-0.03.tar.gz\E
-     |\QTAPPER/Tapper-CLI-4.1.7.tar.gz\E
-     |\QTAPPER/Tapper-MCP-4.1.2.tar.gz\E
-     |\QTAPPER/Tapper-Producer-4.1.2.tar.gz\E
-     |\QTAPPER/Tapper-Reports-Web-4.1.2.tar.gz\E
-     |\QTAPPER/Tapper-Schema-4.1.3.tar.gz\E
      |\QTBONE/DBIx-Cookbook-0.04.tar.gz\E
      |\QTBONE/HTML-Seamstress-3.0.tar.gz\E
      |\QTCHINCHOW/pcsc-perl-1.0.8.tar.gz\E
@@ -1776,7 +1769,6 @@ match:
      |\QTEAM/Tickit-Widget-Table-0.101.tar.gz\E
      |\QTEAM/WebService-Amazon-DynamoDB-0.001.tar.gz\E
      |\QTEEJAY/Autodia-2.07.tar.gz\E
-     |\QTEODESIAN/TestRail-API-0.028.tar.gz\E
      |\QTEVERETT/Win32-CtrlGUI-0.30.tar.gz\E
      |\QTFOUCART/WWW-Sucksub-Divxstation-0.01.tar.gz\E
      |\QTHALJEF/Pinto-0.090.tar.gz\E
