@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/App-Chart-255\.'
+  perlconfig:
+    myuname: 'cvrsnica-freebsd-101'
+disabled: 1
+# all the gtk deps seem to hang here and have to be killed XXX need investigation!
