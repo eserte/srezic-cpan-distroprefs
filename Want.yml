@@ -1,8 +1,7 @@
 ---
 match:
-  distribution: '/\QWant-0.26.tar.gz\E'
+  distribution: '/Want-0\.(26|27)\.tar\.gz'
   perlconfig:
     version: '^5\.23\.8$'
 patches:
   - SREZIC/patches/Want-0.26-RT112226.patch
-# Want-0.27 exists, but this one does not really work...
