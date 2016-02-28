@@ -214,7 +214,7 @@ disabled: 1
 ---
 comment: "no gnome old old gnome here"
 match:
-  distribution: '/(OIS-|Device-Cdio-v|Gnome2-Wnck-)\d+'
+  distribution: '/(OIS-|Device-Cdio-v)\d+'
   perlconfig:
     archname: "-freebsd"
 disabled: 1
