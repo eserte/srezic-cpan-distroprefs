@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Test-Block-0\.13\.'
+  perlconfig:
+    version: '^5\.23\.8$'
+patches:
+  - SREZIC/patches/Test-Block-0.13-RT112462.patch
