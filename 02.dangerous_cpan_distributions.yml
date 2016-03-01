@@ -200,6 +200,7 @@ match:
      |\QBARTLEY/Apache-AuthCookie-1.4.tar.gz\E
      |\QBAYSIDE/Catalyst-Plugin-CRUD-0.14.tar.gz\E
      |\QBAYSIDE/Catalyst-Plugin-CRUD-0.15.tar.gz\E
+     |\QBBC/SQL-Shell-1.14.tar.gz\E
      |\QBBIRTH/MARC-XML-0.4.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
@@ -338,7 +339,9 @@ match:
      |\QCREAMYG/Lucy-0.3.3.tar.gz\E
      |\QCRUX/Protocol-HTTP2-0.08.tar.gz\E
      |\QCSJEWELL/Perl-Dist-Strawberry-2.5001.tar.gz\E
+     |\QCSSON/Map-Metro-0.2300.tar.gz\E
      |\QCSSON/OpenGbg-0.1302.tar.gz\E
+     |\QCSSON/Opendata-GTFS-Feed-0.0104.tar.gz\E
      |\QCSSON/Stenciller-0.1302.tar.gz\E
      |\QCTBROWN/MooseX-Meta-Attribute-Index-0.02.tar.gz\E
      |\QCTBROWN/ODG-Record-0.28.tar.gz\E
@@ -703,6 +706,7 @@ match:
      |\QHORNBURG/Interchange6-0.086.tar.gz\E
      |\QHORNBURG/Interchange6-Schema-0.040.tar.gz\E
      |\QHORNBURG/Interchange6-Schema-0.053.tar.gz\E
+     |\QHORNBURG/Interchange6-Schema-0.092.tar.gz\E
      |\QHORNBURG/Nitesi-0.0080.tar.gz\E
      |\QHORNBURG/Template-Flute-0.0040.tar.gz\E
      |\QHORNBURG/Template-Flute-0.0184.tar.gz\E
@@ -1073,6 +1077,7 @@ match:
      |\QKTHAKORE/SDL-2.526.tar.gz\E
      |\QKTHAKORE/SDLx-Widget-0.03.tar.gz\E
      |\QKTORP/Interval.0.01.tar.gz\E
+     |\QKUERBIS/Term-Choose-1.501.tar.gz\E
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.61.tar.gz\E
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
@@ -1308,6 +1313,7 @@ match:
      |\QMSISK/Finance-QuoteHist-1.23.tar.gz\E
      |\QMSISK/HTML-CalendarMonth-1.26.tar.gz\E
      |\QMSISK/Net-Silk-1.07.tar.gz\E
+     |\QMSISK/Net-Silk-2.03.tar.gz\E
      |\QMSOUTHERN/LSF-0.21.tar.gz\E
      |\QMSOUTHERN/LSF-0.4.tar.gz\E
      |\QMSROTH/Db-DFC-0.1.tar.gz\E
@@ -1372,7 +1378,6 @@ match:
      |\QNICS/Catmandu-ArXiv-0.01.tar.gz\E
      |\QNICS/Catmandu-Atom-0.02.tar.gz\E
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
-     |\QNICS/Catmandu-DBI-0.0503.tar.gz\E
      |\QNICS/Catmandu-MARC-0.09.tar.gz\E
      |\QNICS/Catmandu-OAI-0.02.tar.gz\E
      |\QNICS/Catmandu-SRU-0.0101.tar.gz\E
@@ -1450,6 +1455,7 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/PERLANCAR-Sort-Sub-0.02.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLER/MooseX-Attribute-Chained-1.0.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
@@ -1610,7 +1616,6 @@ match:
      |\QSANTEX/AI-MicroStructure-0.19.tar.gz\E
      |\QSANTEX/Finance-Quant-0.08.tar.gz\E
      |\QSANTEX/Flower-0.02.tar.gz\E
-     |\QSARGIE/Test-More-Prefix-0.003.tar.gz\E
      |\QSARTAK/App-Nopaste-0.18.tar.gz\E
      |\QSARTAK/App-Nopaste-0.22.tar.gz\E
      |\QSARTAK/IM-Engine-0.04.tar.gz\E
@@ -1976,6 +1981,7 @@ match:
      |\QZAG/Collection-0.38.tar.gz\E
      |\QZAG/Plosurin-v0.1.1.tar.gz\E
      |\QZAKAME/Google-Plus-0.002.tar.gz\E
+     |\QZARQUON/PPIx-Refactor-0.05.tar.gz\E
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
