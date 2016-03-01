@@ -10,3 +10,4 @@ test:
     PERL5OPT: -MDevel::Hide
     DEVEL_HIDE_PM: Test::Pod
 # https://rt.cpan.org/Ticket/Display.html?id=84119
+# fixed in 0.06
