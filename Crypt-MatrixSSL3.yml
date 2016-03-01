@@ -1,7 +1,24 @@
 ---
 match:
-  distribution: "/Crypt-MatrixSSL3-\d"
+  distribution: '/Crypt-MatrixSSL3-v3\.7\.4\.tar\.gz'
+  perlconfig:
+    archname: freebsd
+    osvers: '^9\.'
 pl:
-  expect:
-    - "\QRun tests which require internet connection"
-    - "\n"
+  eexpect:
+    mode: anyorder
+    talk:
+#      - '\QRun tests which require internet connection'
+#      - "\n"
+      - '\QDo you want to continue (the resulted build might be unstable)? [n]'
+      - "y\n"
+# https://github.com/powerman/perl-Crypt-MatrixSSL3/issues/26
+
+## not relevant anymore?
+#---
+#match:
+#  distribution: '/Crypt-MatrixSSL3-\d'
+#pl:
+#  expect:
+#    - '\QRun tests which require internet connection'
+#    - "\n"
