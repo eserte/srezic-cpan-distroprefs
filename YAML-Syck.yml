@@ -20,11 +20,11 @@
 #  commandline: 'make test LD_PRELOAD=libefence.so.0'
 ---
 match:
-  distribution: "/YAML-Syck-\d"
+  distribution: '/YAML-Syck-\d'
   perlconfig:
-    version: "^5\.6\.\d"
+    version: '^5\.6\.\d'
 # The 5.6.x has an old YAML::Syck installed on my system
 pl:
   expect:
-    - "\QContinue installing YAML::Syck? [y]"
+    - '\QContinue installing YAML::Syck? [y]'
     - "\n"
