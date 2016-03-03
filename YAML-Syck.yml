@@ -7,6 +7,17 @@
 # test:
 #   commandline: env PERL_HASH_SEED=2 make test
 # # Hash normalization problems, works with seed=2
+# 
+##XXX tried to reproduce https://rt.cpan.org/Ticket/Display.html?id=61562
+## with env MALLOC_OPTIONS=J -> did not work, there was just a fail
+## because efence allocated too much memory.
+#---
+#match:
+#  distribution: '/YAML-Syck-1\.29\.'
+#  env:
+#    CPAN_SMOKE_MODULES_FORCE_FAIL: yes
+#test:
+#  commandline: 'make test LD_PRELOAD=libefence.so.0'
 ---
 match:
   distribution: "/YAML-Syck-\d"
