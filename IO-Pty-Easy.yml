@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/IO-Pty-Easy-0\.09\.'
+  perlconfig:
+    archname: linux
+patches:
+  - SREZIC/patches/IO-Pty-Easy-0.09-RT95702-PPISAR.patch
