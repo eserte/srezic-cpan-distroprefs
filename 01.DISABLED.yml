@@ -521,6 +521,9 @@ match:
     |KSTAR/20120109-NoSQL_and_MongoDB.tgz
     |FLAVIOAM/guaja.tgz
     |VTI/POD2-RU-PSGI-\d
+    |AUTOLIFE/MojoTest.tar.gz
+    |AUTOLIFE/Moj.tar.gz
+    |AUTOLIFE/Mojo-UserAgent_t.tar.gz
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 ---
