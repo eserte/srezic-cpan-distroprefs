@@ -1300,7 +1300,7 @@ match:
     |DIEDERICH/IPC-Transit-0.61.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
     |DIEDERICH/IPC-Transit-0.7\d.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs) (failures seen for 0.71..0.74)
     |DIEDERICH/IPC-Transit-1.132260.tar.gz # may hang
-    |DIEDERICH/IPC-Transit-1.133280.tar.gz # may hang
+    |DIEDERICH/IPC-Transit-1.133280.tar.gz # may hang - https://github.com/dana/perl-IPC-Transit/issues/2
     |DIEDERICH/Message-Match-0.1.tar.gz # Build/Makefile.PL is one directory level too deep
     |MANIGREW/SEG7/SEG7-1.0.0.tar.gz # incomplete distribution, no Makefile.PL
     |MANIGREW/SEG7-1.0.1.tar.gz # incomplete distribution, no Makefile.PL
@@ -1412,5 +1412,8 @@ match:
     |GRAVATTJ/Backup-EZ-0.25.tar.gz # calls sudo which may ask for password
     |BDFOY/Bundle-BDFOY-20160101.tar.gz # recursive self-dependency
     |TOKUHIROM/mousex-getopt-0.35.tar.gz # MouseX-Getopt-0.36 exists, but the old one may be smoked in "devel" mode, probably because of different capitalization
+    |RGARTON/Statistics-Sequences-Turns-0.11.tar.gz # recursive dependencies
+    |RGARTON/Statistics-Sequences-Pot-0.12.tar.gz   # "
+    |RGARTON/Statistics-Sequences-Joins-0.11.tar.gz # "
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
