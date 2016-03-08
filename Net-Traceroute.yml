@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Net-Traceroute-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1
+# for more diagnostics
