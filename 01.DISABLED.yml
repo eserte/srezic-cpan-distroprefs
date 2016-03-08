@@ -440,7 +440,7 @@ match:
     |.*/CursesWidgets-\d
     |.*/CursesApplication-\d
     |.*/DBIx-SQLEngine-\d # wants a list of DSNs to test against (or n)
-    |.*/EZDBI-\d
+    |.*/EZDBI-\d # interactivity in test, still in EZDBI-0.16
     |.*/File-SmartTail-\d # wants rsh password
     |XXX.*/FusionInventory-Agent-\d # postinstall questions (answer "n"!) --- not anymore
     |.*/Games-Sudoku-SudokuTk-\d
@@ -1093,7 +1093,7 @@ match:
     |.*/OpenThought-1\.99\.16\.tar\.gz # http://rt.cpan.org/Ticket/Display.html?id=33279
     |.*/threads-emulate-0.0.5\.tar\.gz # perl dumps core
     |STEVAN/JSORB-0.01.tar.gz # it is killing CPAN.pm
-    |STEVAN/JSORB-0.04.tar.gz # it is killing CPAN.pm
+    |STEVAN/JSORB-0.04.tar.gz # it is killing CPAN.pm (sometimes) (anyway, currently there are only fails)
     |TOKUHIROM/Test-TCP-0.11.tar.gz # it is killing CPAN.pm
     |FDULAU/Tie-Queue-README$ # an obvious accident
     |MIKEOB/README$ # another accident
