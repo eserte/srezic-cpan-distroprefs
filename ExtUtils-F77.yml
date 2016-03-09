@@ -1,8 +1,16 @@
 ---
 match:
-  distribution: '/ExtUtils-F77-\d'
+  distribution: '/ExtUtils-F77-1.(17|18|19)\.'
   perlconfig:
     osname: freebsd
 patches:
   - SREZIC/patches/ExtUtils-F77-1.17-freebsd.patch
 # Patch derived from lang/p5-ExtUtils-F77 port
+---
+match:
+  distribution: '/ExtUtils-F77-1.19_1\.'
+  perlconfig:
+    osname: freebsd
+patches:
+  - SREZIC/patches/ExtUtils-F77-1.19_1-freebsd.patch
+#  - /home/e/eserte/devel/patches/ExtUtils-F77-1.19_1-freebsd.patch
