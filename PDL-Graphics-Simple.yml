@@ -1,0 +1,13 @@
+---
+match:
+  distribution: '/PDL-Graphics-Simple-1\.(003|004|005)\.'
+test:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# Using PERL_MM_USE_DEFAULT means that the interactive questions
+# are all answered with no, causing the test to fail. But
+# this is actually correct: nowhere I could see a (pgplot?) window
+# with graphs.
+#
+# Also problematic: https://rt.cpan.org/Ticket/Display.html?id=105925
+# (installation into wrong dirs)
