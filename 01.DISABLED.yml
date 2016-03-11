@@ -1169,7 +1169,7 @@ match:
     |.*/GCJ-Cni-\d # part of mingw32-gcc??? not installed
     |.*/XXXXTcl-Tk-\d # missing tk8.5 (X11?) --- not used, because Tcl-Tk.yml seem to have higher precedence (?)
     |.*/Language-Prolog-Yaswi-\d # swi-prolog not installed
-    |.*/Log-Fine-\d # .ph files not available everywhere --- have to decide how to deal with this...
+    |XXX.*/Log-Fine-\d # .ph files not available everywhere --- have to decide how to deal with this... --- 2016-03-11 no problem anymore (?)
     |.*/Db-Ctree-\d # not checked if available (ctstdr.h et al)
     |.*/FLTK-\d #  not checked if available (libfltk)
     |.*/Chemistry-OpenBabel-\d # probably a dependency missing, too much error output...
