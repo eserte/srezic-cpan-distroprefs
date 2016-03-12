@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Business-PayPal-EWP-1\.03\.'
+## does not work:
+#cpanconfig:
+#  makepl_arg: ''
+pl:
+  commandline: '$PERL Makefile.PL'
+# https://rt.cpan.org/Ticket/Display.html?id=112953
