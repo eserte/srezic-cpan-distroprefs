@@ -146,7 +146,13 @@
 
 }
 
-all:	do-stuff
+all:	do-stuff-minimal
+
+# This is done on regular cpan_smoke_modules runs:
+# * validate -> make sure distroprefs are valid at all
+# * dd-prefs -> for bootstrapping runs during setup-new-smoker-perl
+# * permissions -> so cpansand user also can read the files
+do-stuff-minimal: validate dd-prefs permissions
 
 do-stuff: validate validate-certified-yaml-xs dd-prefs permissions remove-outdated-dd remove-outdated-valid
 
@@ -239,6 +245,8 @@ validate-all-yaml-xs:
 		else { "Validation OK.\n" }
 	}
 
+# If this is slow (because of the git operation), then
+# try a "git gc".
 validate-certified-yaml-xs:
 	{
 		our $YAML_XS_CERTIFIED_UNTIL_COMMIT_ID;
