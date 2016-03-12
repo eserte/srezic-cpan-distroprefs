@@ -2,20 +2,20 @@
 ## because I don't want the default of "y" here
 ---
 match:
-  distribution: "/Module-Signature-\d"
+  distribution: '/Module-Signature-\d'
   env:
     PERL_BATCH: yes
   perlconfig:
-    version: "^5\.(18|19)\."
+    version: '^5\.(18|19)\.'
 pl:
   expect:
-    - "\QImport PAUSE and author keys to GnuPG"
+    - '\QImport PAUSE and author keys to GnuPG'
     - "n\n"
 # Currently, with Crypt-OpenPGP-1.06, tests fail on newer perls.
 # In this case just do a fallback to hopefully installed gpg/gnupg
 ---
 match:
-  distribution: "/Module-Signature-\d"
+  distribution: '/Module-Signature-\d'
   env:
     PERL_BATCH: yes
 depends:
@@ -23,5 +23,5 @@ depends:
     Crypt::OpenPGP: 0
 pl:
   expect:
-    - "\QImport PAUSE and author keys to GnuPG"
+    - '\QImport PAUSE and author keys to GnuPG'
     - "n\n"
