@@ -174,7 +174,7 @@ smoker-pull:
 
 dd-prefs:
 	{
-		for my $file (glob("*.yml")) {
+		for my $file (do { opendir my $dh, '.' or die $!; grep { /\.yml$/ } readdir $dh }) {
 		    (my $target = $file) =~ s{\.yml$}{.dd};
 		    if (!-e $target || -M $target > -M $file) {
 			create_dd($target);
@@ -193,15 +193,15 @@ dd-prefs:
 permissions:
 	{
 		$File::chmod::UMASK = 0;
-		symchmod "ugo+r", glob("*.yml"), glob("*.dd");
+		symchmod "ugo+r", do { opendir my $dh, '.' or die $!; grep { /\.(yml|dd)$/ } readdir $dh };
 		"";
 	}
 
 validate:
 	{
-		for my $file (glob("*.yml")) {
+		for my $file (do { opendir my $dh, '.' or die $!; grep { /\.yml$/ } readdir $dh }) {
 		    my $target = ".validated/$file";
-		    if (!-e $target || -M $target > -M $file) {
+		    if (!-e $target || -M _ > -M $file) {
 			validate_and_touch($target);
 		    }
 		}
@@ -218,7 +218,7 @@ validate:
 validate-all:
 	{
 		my @errors;
-		for my $yml (glob("*.yml")) {
+		for my $yml (do { opendir my $dh, '.' or die $!; grep { /\.yml$/ } readdir $dh }) {
 		    push @errors, validate_distroprefs($yml);
 		}
 		if (@errors) { die "Found errors:\n" . join("\n", @errors) }
@@ -228,7 +228,7 @@ validate-all:
 validate-all-yaml-xs:
 	{
 		my @error_files;
-		for my $yml (glob("*.yml")) {
+		for my $yml (do { opendir my $dh, '.' or die $!; grep { /\.yml$/ } readdir $dh }) {
 		    our $TEST_ALSO_YAML_XS = 1;
 		    local $TEST_ALSO_YAML_XS = 1;
 		    if (validate_distroprefs($yml)) {
@@ -244,10 +244,10 @@ validate-certified-yaml-xs:
 		our $YAML_XS_CERTIFIED_UNTIL_COMMIT_ID;
 		my $certified_files = file_to_latest_commitid($YAML_XS_CERTIFIED_UNTIL_COMMIT_ID);
 		my @error_files;
-		for my $yml (glob("*.yml")) {
+		for my $yml (do { opendir my $dh, '.' or die $!; grep { /\.yml$/ } readdir $dh }) {
 		    next if !exists $certified_files->{$yml};
 		    my $target = ".validated_certified/$yml";
-		    if (!-e $target || -M $target > -M $yml) {
+		    if (!-e $target || -M _ > -M $yml) {
 			warn "validate certified yaml: $yml ...\n";
 			our $TEST_ALSO_YAML_XS = 1;
 			local $TEST_ALSO_YAML_XS = 1;
@@ -265,7 +265,7 @@ validate-certified-yaml-xs:
 remove-outdated-dd:
 	{
 	    my @candidates;
-	    for my $dd (glob("*.dd")) {
+	    for my $dd (do { opendir my $dh, '.' or die $!; grep { /\.dd$/ } readdir $dh }) {
 		my($yml) = $dd =~ m{^(.*)\.dd$};
 		$yml .= ".yml";
 		if (!-e $yml) {
@@ -282,9 +282,8 @@ remove-outdated-dd:
 remove-outdated-valid:
 	{
 	    my @candidates;
-	    for my $valid (glob(".validated/*.yml")) {
-		my($yml) = $valid =~ m{^\.validated/(.*)\.yml$};
-		$yml .= ".yml";
+	    for my $yml (do { opendir my $dh, '.validated' or die $!; grep { /\.yml$/ } readdir $dh }) {
+		my $valid = '.validated/' . $yml;
 		if (!-e $yml) {
 		    push @candidates, $valid;
 		}
