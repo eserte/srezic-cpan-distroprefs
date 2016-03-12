@@ -1,3 +1,5 @@
+## NOTE: don't use pl.env.PERL_MM_USE_DEFAULT: 1
+## because I don't want the default of "y" here
 ---
 match:
   distribution: "/Module-Signature-\d"
