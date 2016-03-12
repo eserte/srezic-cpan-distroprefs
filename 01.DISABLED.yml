@@ -1290,7 +1290,7 @@ match:
     |COSIMO/Net-Statsd-Server-0.10.tar.gz # hangs on freebsd8 and freebsd9 (Couldn't set SO_RCVBUF: No buffer space available)
     |BULKDD/Win32/celibdumps-0.01.zip # not a valid distro
     |SILLYMOOS/ProxyManager-0.01.tar.gz # BUILD.PL instead of Build.PL
-    |JFRIED/Rex-Endpoint-HTTP-0.35.0.tar.gz # invisible interactive question when doing a "mv"
+    |XXXJFRIED/Rex-Endpoint-HTTP-0.35.0.tar.gz # invisible interactive question when doing a "mv" --- not reproducible anymore
     |BABKIN/triceps-1.0.91-20121129.tgz # no Makefile.PL
     |RKIES/deskpad-0.75.tar.gz # no Makefile.PL
     |DIEDERICH/IPC-Transit-0.5.tar.gz # may hang (one test case runs with a wrong perl which may or may not meet the prereqs)
