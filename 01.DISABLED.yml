@@ -1412,5 +1412,6 @@ match:
     |RGARTON/Statistics-Sequences-Turns-0.11.tar.gz # recursive dependencies
     |RGARTON/Statistics-Sequences-Pot-0.12.tar.gz   # "
     |RGARTON/Statistics-Sequences-Joins-0.11.tar.gz # "
+    |ZARQUON/PPIx-Refactor-0.06.tar.gz # missing Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=113034
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
