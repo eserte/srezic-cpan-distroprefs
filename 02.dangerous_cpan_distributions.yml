@@ -237,6 +237,7 @@ match:
      |\QBOBTFISH/Message-Passing-0.010.tar.gz\E
      |\QBOBTFISH/Message-Passing-Redis-0.004.tar.gz\E
      |\QBOLILA/Plack-Middleware-Auth-BrowserID-0.0.5.tar.gz\E
+     |\QBOOK/Git-Repository-1.317.tar.gz\E
      |\QBORISZ/Business-MaxMind-1.50.tar.gz\E
      |\QBOUMENOT/Net-Amazon-0.60.tar.gz\E
      |\QBOZO/Fry-Lib-CDBI-Basic-0.05.tar.gz\E
@@ -391,7 +392,6 @@ match:
      |\QDCOPPIT/Mail-Mbox-MessageParser-1.5104.tar.gz\E
      |\QDCOPPIT/Module-Install-Bugtracker-0.0300.tar.gz\E
      |\QDCOPPIT/yagg-1.4004.tar.gz\E
-     |\QDDUMONT/Config-Model-2.077.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDEMIAN/HackaMol-0.017.tar.gz\E
@@ -707,7 +707,6 @@ match:
      |\QHORNBURG/Dancer-Plugin-Interchange6-0.031.tar.gz\E
      |\QHORNBURG/Interchange6-0.004.tar.gz\E
      |\QHORNBURG/Interchange6-0.040.tar.gz\E
-     |\QHORNBURG/Interchange6-0.086.tar.gz\E
      |\QHORNBURG/Interchange6-Schema-0.040.tar.gz\E
      |\QHORNBURG/Interchange6-Schema-0.053.tar.gz\E
      |\QHORNBURG/Interchange6-Schema-0.092.tar.gz\E
@@ -834,6 +833,7 @@ match:
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
      |\QJACQUESG/Git-Raw-0.50.tar.gz\E
      |\QJAMADAM/Mojolicious-Plugin-PlackMiddleware-0.19.tar.gz\E
+     |\QJANPAZ/DBD-XBase-1.05.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
      |\QJASONS/Bio-Genex-2.4.0.tar.gz\E
@@ -891,6 +891,7 @@ match:
      |\QJJNAPIORK/DBIx-Class-Migration-0.044.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
+     |\QJJNAPIORK/Template-Pure-0.003.tar.gz\E
      |\QJJOAO/Lingua-PT-PLN-0.15.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.06.tar.gz\E
      |\QJKIM/Net-Amazon-EC2-0.11.tar.gz\E
@@ -1216,7 +1217,6 @@ match:
      |\QMCHANG/CGIGraph-0.9.tar.gz\E
      |\QMDIETRICH/CloudApp-REST-0.01.tar.gz\E
      |\QMDIMEO/MPEG-ID3v2Tag-0.36.tar.gz\E
-     |\QMDOOTSON/HiPi-0.33.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMEKK/OAuthomatic-0.02.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
@@ -1463,7 +1463,6 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/Text-ANSI-Util-0.21.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLER/MooseX-Attribute-Chained-1.0.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
@@ -1478,6 +1477,7 @@ match:
      |\QPERRETTDL/Test-Proto-0.011.tar.gz\E
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
+     |\QPEVANS/App-MatrixTool-0.02.tar.gz\E
      |\QPEVANS/Device-Chip-MAX7219-0.02.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
@@ -1995,8 +1995,6 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
-     |\QZDM/Pcore-Captcha-v0.2.0.tar.gz\E
-     |\QZDM/Pcore-v0.16.1.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
