@@ -1,7 +1,7 @@
 --- 
 match:
   distribution: "/Rose-DB-\d"
-#test:
-#  expect:
-#    - "\Q## Press return to continue (or wait 60 seconds)"
-#    - "\n"
+test:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# skip the alarm(60)
