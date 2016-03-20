@@ -5,3 +5,4 @@ match:
     version: '^5\.23\.8$'
 patches:
   - SREZIC/patches/Want-0.26-RT112226.patch
+# Want 0.28 and later is fixed
