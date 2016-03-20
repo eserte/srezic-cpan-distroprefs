@@ -1,3 +1,9 @@
+--- 
+match:
+  distribution: '/\QAlien-uPB-0.04.tar.gz\E'
+  perlconfig:
+    myuname: 'freebsd cvrsnica-freebsd-92'
+# No g++48 installed here
 ---
 match:
   distribution: '/\QAlien-uPB-0.04.tar.gz\E'
@@ -10,5 +16,16 @@ depends:
 make:
   env:
     CXX: g++48
+patches:
+  - SREZIC/patches/Alien-uPB-0.04-RT113197.patch
+---
+match:
+  distribution: '/\QAlien-uPB-0.04.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+    osvers: '^10\.\d+'
+depends:
+  configure_requires:
+    'Alien::gmake': 0
 patches:
   - SREZIC/patches/Alien-uPB-0.04-RT113197.patch
