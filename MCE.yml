@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/MCE-\d'
+pl:
+  env:
+    MCE_INSTALL_TOOLS: 1
+# install mce_grep
