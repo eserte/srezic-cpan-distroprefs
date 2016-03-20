@@ -1,5 +1,17 @@
 ---
 match:
+  distribution: '/\QGoogle-ProtocolBuffers-Dynamic-0.03.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+    osvers: '^10\.\d+'
+patches:
+  - SREZIC/patches/Google-ProtocolBuffers-Dynamic-0.03-RT113199.patch
+# fix compilation problems with clang
+depends:
+  configure_requires:
+    'Module::Build::WithXSpp': 0
+---
+match:
   distribution: '/Google-ProtocolBuffers-Dynamic-0\.03\.'
 depends:
   configure_requires:
