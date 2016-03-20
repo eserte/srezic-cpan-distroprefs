@@ -15,3 +15,5 @@ patches:
 # Siuation is a little bit unclear --- there
 # are Debian/wheezy and Debian/jessie systems where the patch is
 # needed and some where it is not.
+#
+# IPC::Run 0.94 does not need any patching.
