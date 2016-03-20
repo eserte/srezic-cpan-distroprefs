@@ -1,0 +1,14 @@
+---
+match:
+  distribution: '/\QAlien-uPB-0.04.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+    osvers: '^9\.\d+'
+depends:
+  configure_requires:
+    'Alien::gmake': 0
+make:
+  env:
+    CXX: g++48
+patches:
+  - SREZIC/patches/Alien-uPB-0.04-RT113197.patch
