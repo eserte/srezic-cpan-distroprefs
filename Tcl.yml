@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Tcl-\d"
+  distribution: '/Tcl-\d'
 pl:
   args: ["--tclsh", "tclsh8.4"]
 # FreeBSD has tclsh8.4, tclsh8.5, and tclsh8.6
