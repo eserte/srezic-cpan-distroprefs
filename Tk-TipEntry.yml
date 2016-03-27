@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QTk-TipEntry-0.05.tar.gz\E'
+  perlconfig:
+    myuname: 'cvrsnica-freebsd-101'
+# theoretically affects all systems, but only this one runs twm in the vnc session
+patches:
+  - SREZIC/patches/Tk-TipEntry-0.05-RT113361.patch
