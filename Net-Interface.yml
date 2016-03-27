@@ -3,5 +3,7 @@ match:
   distribution: '/Net-Interface-1\.012\.'
   perlconfig:
     archname: linux
+    version: '^5\.2.\.'
+# $Config{incpth}, which is required in the patch, is not available in perl 5.19.8 or less
 patches:
   - SREZIC/patches/Net-Interface-1.012-RT83994.patch
