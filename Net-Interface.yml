@@ -7,3 +7,11 @@ match:
 # $Config{incpth}, which is required in the patch, is not available in perl 5.19.8 or less
 patches:
   - SREZIC/patches/Net-Interface-1.012-RT83994.patch
+---
+match:
+  distribution: '/Net-Interface-1\.012\.'
+  perlconfig:
+    archname: linux
+# older perls may use the other patch proposed in the RT ticket
+patches:
+  - SREZIC/patches/Net-Interface-1.012-RT83994-2.patch
