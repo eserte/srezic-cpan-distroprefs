@@ -2,7 +2,7 @@
 match:
   distribution: '/Net-Interface-1\.012\.'
   perlconfig:
-    archname: 'linux \S+ 2\.'
+    myuname: 'linux \S+ 2\.'
 # older linux kernel don't need no patching
 ---
 match:
