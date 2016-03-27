@@ -581,6 +581,7 @@ match:
     |MTHURN/WWW-Amazon-Wishlist-2.009.tar.gz # also permission problem (https://rt.cpan.org/Ticket/Display.html?id=91441)
     |.*/Getopt-ExPar-1\.01\.tar\.gz # no Makefile.PL, would be tested every time
     |.*/Biblio-Citation-Compare-0.05.tar.gz # no Makefile.PL, would be tested every time
+    |.*/Biblio-Citation-Compare-0.51.tar.gz # almost empty tarball - https://rt.cpan.org/Ticket/Display.html?id=113362
     |.*/WWW-Finances-Bovespa2-0.(01|02|03).tar.gz # no Makefile.PL, would be tested every time; wrong directory hierarchie
     |.*/Template-Plugin-JSON-Escape-0.01 # broken dist containing only META.yml
     |JJORE/B-Utils-0.16. # broken dist containing only META.yml
