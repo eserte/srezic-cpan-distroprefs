@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Net-Interface-1\.012\.'
+  perlconfig:
+    archname: linux
+patches:
+  - SREZIC/patches/Net-Interface-1.012-RT83994.patch
