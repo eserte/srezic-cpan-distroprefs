@@ -1415,5 +1415,6 @@ match:
     |RGARTON/Statistics-Sequences-Joins-0.11.tar.gz # "
     |ZARQUON/PPIx-Refactor-0.06.tar.gz # missing Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=113034
     |NICKCIS/perl-Authen-Krb5-Easy-0.91.tar.gz # interactive questions in test
+    |VVELOX/FFmpeg-Stream-Helper-0.0.1.tar.gz # intermediate directory - https://rt.cpan.org/Ticket/Display.html?id=113550
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
