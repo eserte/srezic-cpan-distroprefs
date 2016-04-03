@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Archive-SevenZip-0\.01\.'
+  perlconfig:
+    version: '^5\.8\.'
+disabled: 1
+# hangs in Makefile.PL, while regenerating readme
