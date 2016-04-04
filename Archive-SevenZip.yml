@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Archive-SevenZip-0\.01\.'
+  distribution: '/Archive-SevenZip-0\.(01|02)\.'
   perlconfig:
     version: '^5\.8\.'
 disabled: 1
