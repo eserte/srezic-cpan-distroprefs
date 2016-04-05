@@ -66,6 +66,7 @@ match:
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
+     |\QALEXBYK/Evo-0.0205.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -660,6 +661,7 @@ match:
      |\QGUGU/Algorithm-FloodControl-2.000000.tar.gz\E
      |\QGUGU/Catalyst-Controller-RateLimit-0.17.tar.gz\E
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
+     |\QGUIMARD/Apache-Session-Browseable-1.2.1.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
      |\QGWILLIAMS/Attean-0.009.tar.gz\E
      |\QGWYN/POE-Component-Daemon-0.1301.tar.gz\E
@@ -903,6 +905,7 @@ match:
      |\QJLMARTIN/Paws-0.12.tar.gz\E
      |\QJLMARTIN/Paws-0.15.tar.gz\E
      |\QJLMARTIN/Paws-0.16.tar.gz\E
+     |\QJLMARTIN/Paws-0.22.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.25.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.51.tar.gz\E
      |\QJMASON/Mail-SpamAssassin-2.64.tar.gz\E
@@ -1083,7 +1086,6 @@ match:
      |\QLAJANDY/Helios-2.23.tar.gz\E
      |\QLAJANDY/Helios-2.61.tar.gz\E
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
-     |\QLAUSSER/Monitoring-GLPlugin-1.4.2.2.tar.gz\E
      |\QLBROCARD/App-Twimap-0.02.tar.gz\E
      |\QLBROCARD/Net-Cassandra-0.33.tar.gz\E
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
@@ -1153,6 +1155,7 @@ match:
      |\QMAKAMAKA/JSON-RPC-0.95.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
      |\QMAMOD/JavaScript-Duktape-0.0.4.tar.gz\E
+     |\QMAMOD/JavaScript-Duktape-0.3.0.tar.gz\E
      |\QMANWAR/App-calendr-0.06.tar.gz\E
      |\QMANWAR/Calendar-Bahai-0.14.tar.gz\E
      |\QMANWAR/Data-Money-0.08.tar.gz\E
@@ -1202,6 +1205,7 @@ match:
      |\QMAXMIND/Business-MaxMind-1.57.tar.gz\E
      |\QMAXMIND/GeoIP2-2.001003.tar.gz\E
      |\QMAXMIND/MaxMind-DB-Reader-1.000007.tar.gz\E
+     |\QMAXMIND/WebService-TeamCity-0.02.tar.gz\E
      |\QMAXSCHUBE/Nmap-Scanner-0.9.tar.gz\E
      |\QMBARBON/DBGp-Client-0.05.tar.gz\E
      |\QMBARBON/Module-Info-0.35.tar.gz\E
@@ -1414,6 +1418,7 @@ match:
      |\QNUFFIN/MooseX-Clone-0.05.tar.gz\E
      |\QNWCLARK/perl-5.8.6.tar.gz\E
      |\QNWCLARK/perl-5.8.9.tar.gz\E
+     |\QNWELLNHOF/Clownfish-0.4.4.tar.gz\E
      |\QNWETTERS/Apache-Emulator-0.04.tar.gz\E
      |\QNWETTERS/WWW-AdServer-0.02.tar.gz\E
      |\QNWIGER/CGI-FormBuilder-3.06.tgz\E
@@ -1458,7 +1463,6 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/Perl-Examples-Accessors-0.02.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLER/MooseX-Attribute-Chained-1.0.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
@@ -1539,6 +1543,7 @@ match:
      |\QRDO/Bio-KBase-0.02.tar.gz\E
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
+     |\QREEDFISH/Net-FullAuto-1.0000116.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
