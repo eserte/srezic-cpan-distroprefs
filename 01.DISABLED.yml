@@ -1419,5 +1419,6 @@ match:
     |STEVEB/Test-BrewBuild-1.04.tar.gz # recursive dependency - https://github.com/stevieb9/p5-test-brewbuild/issues/60
     |SYAGI/Artifactory-Client-v1.1.2.tar.gz # missing Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=113552
     |TRIZK/Mail-SpamAssassin-Contrib-Plugin-IPFilter-1.00.tar.gz # tests are asking too many questions
+    |TRIZK/Mail-SpamAssassin-Contrib-Plugin-IPFilter-1.0.tar.gz # dito
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
