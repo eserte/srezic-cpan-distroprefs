@@ -1,22 +1,22 @@
 ---
 match:
-  distribution: "/BioPerl-1\.6\.900\."
+  distribution: '/BioPerl-1\.6\.900\.'
 disabled: 1
 # Something's wrong here, investigate...
 # "Failing: could not answer a question during the dialog"
 --- 
 match:
-  distribution: "/bioperl-\d"
+  distribution: '/bioperl-\d'
 pl:
   expect:
 ## does not appear (anymore?) in 1.2.3:
 #    - "\QInstall [a]ll Bioperl scripts, [n]one, or choose groups [i]nteractively? [a]"
 #    - "n\n"
-    - "\QDo you want to run the BioDBGFF tests"
+    - '\QDo you want to run the BioDBGFF tests'
     - "n\n"
 --- 
 match:
-  distribution: "/BioPerl-1\.6\.924\."
+  distribution: '/BioPerl-1\.6\.924\.'
   perlconfig:
     version: '^5\.23\.9$'
 pl:
@@ -27,7 +27,7 @@ patches:
 # https://rt.cpan.org/Ticket/Display.html?id=106756 (my in my)
 --- 
 match:
-  distribution: "/BioPerl-\d"
+  distribution: '/BioPerl-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
