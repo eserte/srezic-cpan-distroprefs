@@ -16,6 +16,17 @@ pl:
     - "n\n"
 --- 
 match:
+  distribution: "/BioPerl-1\.6\.924\."
+  perlconfig:
+    version: '^5\.23\.9$'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+patches:
+  - SREZIC/patches/BioPerl-1.006924-RT106756.patch
+# https://rt.cpan.org/Ticket/Display.html?id=106756 (my in my)
+--- 
+match:
   distribution: "/BioPerl-\d"
 pl:
   env:
