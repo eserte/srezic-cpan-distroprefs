@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QArray-Heap-3.21.tar.gz\E'
+patches:
+  - SREZIC/patches/Array-Heap-3.21-remove-Canary-Stability.patch
