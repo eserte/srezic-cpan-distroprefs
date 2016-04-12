@@ -52,9 +52,7 @@ match:
      |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
-     |\QAKHUETTEL/Lab-Measurement-3.00.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.11.tar.gz\E
-     |\QAKHUETTEL/Lab-Measurement-3.30.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
      |\QAKRON/Mojolicious-Plugin-Notifications-0.10.tar.gz\E
      |\QAKRON/Mojolicious-Plugin-TagHelpers-MailToChiffre-0.04.tar.gz\E
@@ -327,7 +325,6 @@ match:
      |\QCORNELIUS/App-I18N-0.013.tar.gz\E
      |\QCORNELIUS/I18N-Handle-0.02.tar.gz\E
      |\QCORNELIUS/Plack-Middleware-OAuth-0.071.tar.gz\E
-     |\QCOUDOT/Lemonldap-NG-Common-1.1.1.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Common-1.1.2.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Common-1.4.7.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Handler-1.3.3.tar.gz\E
@@ -1463,6 +1460,7 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/Media-Info-0.09.tar.gz\E
      |\QPERLER/HTML-FormFu-0.09006.tar.gz\E
      |\QPERLER/MooseX-Attribute-Chained-1.0.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
@@ -1543,7 +1541,6 @@ match:
      |\QRDO/Bio-KBase-0.02.tar.gz\E
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
-     |\QREEDFISH/Net-FullAuto-1.0000116.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
@@ -1584,7 +1581,6 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
-     |\QRSCHUPP/VCS-CMSynergy-1.35.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSRCHBOY/MooseX-Util-0.002.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
@@ -1773,6 +1769,7 @@ match:
      |\QSUMUS/DWH_File.0.03.tar.gz\E
      |\QSUNDQUIST/Google-Ads-AdWords-Client-3.5.0.tar.gz\E
      |\QSUNDQUIST/Google-Ads-AdWords-Client-4.0.1.tar.gz\E
+     |\QSUNDQUIST/Google-Ads-AdWords-Client-4.4.0.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
