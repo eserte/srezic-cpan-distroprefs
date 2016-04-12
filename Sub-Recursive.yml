@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Sub-Recursive-0.03-RT103191.patch
 # defined %hash
+# fixed in later versions (e.g. 0.05)
