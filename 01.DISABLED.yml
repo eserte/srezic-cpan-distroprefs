@@ -1421,5 +1421,6 @@ match:
     |TRIZK/Mail-SpamAssassin-Contrib-Plugin-IPFilter-1.00.tar.gz # tests are asking too many questions
     |TRIZK/Mail-SpamAssassin-Contrib-Plugin-IPFilter-1.0.tar.gz # dito
     |TRIZK/Mail-SpamAssassin-Contrib-Plugin-IPFilter-1.000.tar.gz # dito
+    |TRIZK/Mail-SpamAssassin-Contrib-Plugin-IPFilter-1.09.tar.gz # dito
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
