@@ -2,7 +2,7 @@
 match:
   distribution: '/AnyEvent-Fork-1\.2\.'
   perlconfig:
-    version: '^5\.23\.'
+    version: '^5\.(23|24)\.'
 patches:
   - SREZIC/patches/AnyEvent-Fork-1.2-RT106900.patch
 # patch was unfortunately rejected by Marc
