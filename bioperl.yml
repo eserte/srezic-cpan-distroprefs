@@ -18,7 +18,7 @@ pl:
 match:
   distribution: '/BioPerl-1\.6\.924\.'
   perlconfig:
-    version: '^5\.23\.([2-9]|1\d)$'
+    version: '^5\.(23\.([2-9]|1\d)|24\.\d+)$'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
