@@ -2,7 +2,7 @@
 match:
   distribution: '/HTML-Lint-2\.22\.'
   perlconfig:
-    version: '^5\.(18|19|20|21|22|23)\.'
+    version: '^5\.(18|19|20|21|22|23|24)\.'
 test:
   env:
     PERL_HASH_SEED: 3
