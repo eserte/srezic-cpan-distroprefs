@@ -664,7 +664,7 @@ match:
     |.*/MojoX-Session-Store-File-0\.01\. # plugin.t may hang
     |.*/MojoX-Session-0\.(19|20|23)\. # plugin.t may hang
     |.*/MojoX-Renderer-XSLT-0\.01\. # basic.t and 02-params.t may hang
-    |BFG/MojoX-Run-0.15.tar.gz # the mojox-run-* tests hang
+    |XXXBFG/MojoX-Run-0.15.tar.gz # the mojox-run-* tests hang --- currently does not hang (but tests fail)
     |XANTUS/MojoX-AIO-0.02.tar.gz # the t/00_simple.t test may hang
     |.*/Mojolicious-Plugin-BasicAuth-0\.02\. # auth.t may hang
     |.*/Gearman-Driver-0\.02005\. # may hang
