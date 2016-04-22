@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/GSM-Gnokii-\d'
+pl:
+  env:
+    GNOKII_DIR: /usr
+# Should work on Debian systems if libgnokii-dev is installed.
