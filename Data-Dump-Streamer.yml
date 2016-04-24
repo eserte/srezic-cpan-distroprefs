@@ -1,16 +1,16 @@
 --- 
 match:
-  distribution: "/Data-Dump-Streamer-2\.34\."
+  distribution: '/Data-Dump-Streamer-2\.34\.'
   perlconfig:
-    version: "5\.(17|18)\."
+    version: '5\.(17|18)\.'
 pl:
-  expect: ["\QWould you like me to install the shortcut? (yes/no)\E", "no\n"]
+  expect: ['\QWould you like me to install the shortcut? (yes/no)\E', "no\n"]
 patches:
   - SREZIC/patches/Data-Dump-Streamer-2.34-RT82958.patch
   - SREZIC/patches/Data-Dump-Streamer-2.34-RT79127.patch
 --- 
 match:
-  distribution: "/Data-Dump-Streamer-2\.36\."
+  distribution: '/Data-Dump-Streamer-2\.36\.'
 # RT 90128 affects all perl versions with newer JSON::XS
 # RT 79127 affects only newer perl versions (approx. >= 5.17)
 pl:
@@ -21,7 +21,20 @@ patches:
   - SREZIC/patches/Data-Dump-Streamer-2.34-RT90128.patch
 --- 
 match:
-  distribution: "/Data-Dump-Streamer-\d"
+  distribution: '/Data-Dump-Streamer-2\.39\.'
+  perlconfig:
+# XXX what perl versions are affected?
+    version: '^5\.(22|23|24)\.\d+'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+depends:
+  requires:
+    PadWalker: 0
+# https://rt.cpan.org/Ticket/Display.html?id=100488
+--- 
+match:
+  distribution: '/Data-Dump-Streamer-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
