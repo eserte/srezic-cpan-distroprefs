@@ -1,13 +1,13 @@
 ---
 match:
-  distribution: "/DBD-Oracle-\d"
+  distribution: '/DBD-Oracle-\d'
   env:
     DOMAINNAME: herceg.de
 disabled: 1
 comment: "I don't have Oracle installed"
 ---
 match:
-  distribution: "/DBD-Oracle-\d"
+  distribution: '/DBD-Oracle-\d'
   perlconfig:
     myuname: 'linux w1wc'
 pl:
@@ -20,7 +20,7 @@ make:
 comment: "On this machine oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm, oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm and oracle-instantclient12.1-sqlplus-12.1.0.2.0-1.x86_64.rpm (converted to debs) are installed"
 ---
 match:
-  distribution: "/DBD-Oracle-\d"
+  distribution: '/DBD-Oracle-\d'
   perlconfig:
     archname: 'x86_64-linux'
 pl:
@@ -31,6 +31,6 @@ make:
     LD_LIBRARY_PATH: /usr/lib/oracle/11.2/client64/lib/
 ---
 match:
-  distribution: "/DBD-Oracle-\d"
+  distribution: '/DBD-Oracle-\d'
 disabled: 1
 comment: "No build instructions for this architecture"
