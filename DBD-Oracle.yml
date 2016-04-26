@@ -9,6 +9,19 @@ comment: "I don't have Oracle installed"
 match:
   distribution: "/DBD-Oracle-\d"
   perlconfig:
+    myuname: 'linux w1wc'
+pl:
+  env:
+    LD_LIBRARY_PATH: /usr/lib/oracle/12.1/client64/lib/
+  args: ["-l"]
+make:
+  env:
+    LD_LIBRARY_PATH: /usr/lib/oracle/12.1/client64/lib/
+comment: "On this machine oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm, oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm and oracle-instantclient12.1-sqlplus-12.1.0.2.0-1.x86_64.rpm (converted to debs) are installed"
+---
+match:
+  distribution: "/DBD-Oracle-\d"
+  perlconfig:
     archname: 'x86_64-linux'
 pl:
   env:
