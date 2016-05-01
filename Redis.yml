@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Redis-1\.982\.'
+  perlconfig:
+    version: '^5\.(23|24)\.'
+test:
+  env:
+    LC_ALL: C
+# https://github.com/PerlRedis/perl-redis/issues/111
+# (tests may even hang)
