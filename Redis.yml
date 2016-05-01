@@ -2,7 +2,7 @@
 match:
   distribution: '/Redis-1\.982\.'
   perlconfig:
-    version: '^5\.(23|24)\.'
+    version: '^5\.(22|23|24)\.'
 test:
   env:
     LC_ALL: C
