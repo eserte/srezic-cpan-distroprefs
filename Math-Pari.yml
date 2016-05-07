@@ -6,7 +6,7 @@ disabled: 1
 --- 
 match:
   distribution: 'ILYAZ/modules/Math-Pari-2.010809b.tar.gz'
-goto: https://cpan.metacpan.org/authors/id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip
+goto: ILYAZ/modules/Math-Pari-2.010808.zip
 # again bad permissions: https://rt.cpan.org/Ticket/Display.html?id=114230
 --- 
 match:
