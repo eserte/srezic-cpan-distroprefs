@@ -37,6 +37,10 @@ match:
 cpanconfig:
   prefer_installer: MB
 # https://rt.cpan.org/Ticket/Display.html?id=99901
+#
+# But another problem: using Module::Build fails because
+# CPAN.pm per default uses --installdirs, which is
+# not recognized by GD's Build.PL.
 --- 
 match:
   module: "/GD-2\."
