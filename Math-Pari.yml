@@ -6,7 +6,15 @@ disabled: 1
 --- 
 match:
   distribution: 'ILYAZ/modules/Math-Pari-2.010809b.tar.gz'
+  env:
+    PISTACHIO_PERL_MANAGER: 1
 goto: ILYAZ/modules/Math-Pari-2.010808.zip
+# again bad permissions: https://rt.cpan.org/Ticket/Display.html?id=114230
+# -> I'll need it, so use the latest working version
+--- 
+match:
+  distribution: 'ILYAZ/modules/Math-Pari-2.010809b.tar.gz'
+disabled: 1
 # again bad permissions: https://rt.cpan.org/Ticket/Display.html?id=114230
 --- 
 match:
