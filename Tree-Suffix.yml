@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Tree-Suffix-0\.22\.'
+  perlconfig:
+    version: '^5\.(18|19|20|21|22|23|24)\.\d+$'
+depends:
+  configure_requires:
+    Devel::CheckLib: 0
+pl:
+  commandline: 'rm -rf inc/; $PERL Makefile.PL'
