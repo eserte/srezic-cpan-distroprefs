@@ -5,6 +5,11 @@ disabled: 1
 # bad permissions: https://rt.cpan.org/Ticket/Display.html?id=95005
 --- 
 match:
+  distribution: "ILYAZ/modules/Math-Pari-2.010809b.tar.gz"
+disabled: 1
+# XXX not ticket yet, looks also like bad permissions
+--- 
+match:
   distribution: "/Math-Pari-\d"
   env:
     HOST: "(biokovo-amd64.(herceg.de|rezic.de)|mosor)"
