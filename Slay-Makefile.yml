@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Slay-Makefile-0\.12\."
+  distribution: '/Slay-Makefile-0\.12\.'
 ## theoretically Carp.pm may be upgraded everywhere, so don't restrict to certain perl versions
 #  perlconfig:
 #    version: "^5\.(1[456789]|[23456789].)\."
