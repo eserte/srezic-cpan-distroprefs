@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: '/Alien-CMake-\d'
-pl:
-  expect:
-    - '\QWhat way do you wanna go'
-    - "\n"
+  distribution: '/\QAlien-CMake-0.07.tar.gz\E'
+  perlconfig:
+    archname: '^x86_64-linux'
+patches:
+  - SREZIC/patches/Alien-CMake-0.07-RT114240.patch
