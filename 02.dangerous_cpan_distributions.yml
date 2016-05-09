@@ -49,8 +49,6 @@ match:
      |\QAGRUNDMA/Business-Tax-Canada-0.03.tar.gz\E
      |\QAGRUNDMA/Catalyst-Engine-HTTP-POE-0.07.tar.gz\E
      |\QAGRUNDMA/Catalyst-Plugin-UploadProgress-0.03.tar.gz\E
-     |\QAJOLMA/Geo-OGC-Service-WMTS-0.01.tar.gz\E
-     |\QAJOLMA/Geo-Raster-0.61.tar.gz\E
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.11.tar.gz\E
@@ -66,6 +64,7 @@ match:
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
      |\QALEXBYK/Evo-0.0205.tar.gz\E
+     |\QALEXBYK/Evo-0.0208.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -353,7 +352,6 @@ match:
      |\QCYNOVG/WG-API-v0.05.tar.gz\E
      |\QCZBSD/Myco-0.01.tar.gz\E
      |\QDAB/Dependency-Resolver-0.04.tar.gz\E
-     |\QDACAV/App-PFT-v0.05.2.tar.gz\E
      |\QDAGOLDEN/Metabase-0.016.tar.gz\E
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDALEEVANS/Text-Spintax-0.05.tar.gz\E
@@ -510,6 +508,7 @@ match:
      |\QETHER/B-Utils-0.26.tar.gz\E
      |\QETHER/MooseX-Storage-0.49.tar.gz\E
      |\QETJ/Bugle-0.03.tar.gz\E
+     |\QETJ/Inline-Struct-0.18.tar.gz\E
      |\QETJ/PDLA-2.013002.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
@@ -580,7 +579,6 @@ match:
      |\QGABOR/Text-Format0.52+NWrap0.11.tar.gz\E
      |\QGAISSMAI/Config-Scoped-0.13.tar.gz\E
      |\QGARU/Padre-Plugin-Catalyst-0.09.tar.gz\E
-     |\QGARY/Crypt-DES-1.0.tar.gz\E
      |\QGBARR/IO-Tty-0.04.tar.gz\E
      |\QGENEHACK/App-GitGitr-0.901.tar.gz\E
      |\QGENEHACK/App-GitGot-1.12.tar.gz\E
@@ -855,10 +853,6 @@ match:
      |\QJFRIED/Rex-0.57.0.tar.gz\E
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lrc-v0.28.3.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Luo-v0.28.3.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Se-v0.28.3.tar.gz\E
-     |\QJGNI/Locale-CLDR-Transformations-v0.28.3.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.02.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.03.tar.gz\E
      |\QJGOFF/Perl-ToPerl6-0.031.tar.gz\E
@@ -1218,6 +1212,7 @@ match:
      |\QMEKK/OAuthomatic-0.02.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
+     |\QMELEZHIK/Sparrow-0.0.25.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMENDEL/URI-redis-0.01.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
@@ -1620,6 +1615,7 @@ match:
      |\QSANTEX/AI-MicroStructure-0.19.tar.gz\E
      |\QSANTEX/Finance-Quant-0.08.tar.gz\E
      |\QSANTEX/Flower-0.02.tar.gz\E
+     |\QSAPER/RackMan-1.18.tar.gz\E
      |\QSARTAK/App-Nopaste-0.18.tar.gz\E
      |\QSARTAK/App-Nopaste-0.22.tar.gz\E
      |\QSARTAK/IM-Engine-0.04.tar.gz\E
@@ -1997,6 +1993,7 @@ match:
      |\QZEROLIU/Bio-KEGGI-v0.1.2.tar.gz\E
      |\QZMUGHAL/Data-TestImage-0.001.tar.gz\E
      |\QZMUGHAL/Devel-IPerl-0.001.tar.gz\E
+     |\QZOFFIX/POE-Component-Bundle-WebDevelopment-1.001004.tar.gz\E
      |\QZOFFIX/XTaTIK-0.002001.tar.gz\E
      |\QZPMORGAN/Gtk2-Hexgrid-0.05.tar.gz\E
      |\QZSHENGLI/WWW-Xunlei-0.03.tar.gz\E
