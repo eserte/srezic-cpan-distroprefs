@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/DateTime-Astro-1\.00\.'
+depends:
+  build_requires:
+    Test::Exception: 0
+# https://rt.cpan.org/Ticket/Display.html?id=112240
