@@ -1418,6 +1418,7 @@ match:
     |VVELOX/FFmpeg-Stream-Helper-0.0.1.tar.gz # intermediate directory - https://rt.cpan.org/Ticket/Display.html?id=113550
     |STEVEB/Test-BrewBuild-1.04.tar.gz # recursive dependency - https://github.com/stevieb9/p5-test-brewbuild/issues/60
     |SYAGI/Artifactory-Client-v1.1.2.tar.gz # missing Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=113552
+    |SYAGI/Artifactory-Client-v1.1.4.tar.gz # not recognized as a perl package, giving up
     |TRIZK/Mail-SpamAssassin-Contrib-Plugin-IPFilter-1\.\d+\.tar\.gz # tests are asking too many questions (1.00, 1.0, 1.000, 1.09, 1.099 ...)
     |MSTROUT/Parse-CPAN-Meta-1.4418-TRIAL.tar.gz # breaks json loading: https://github.com/Perl-Toolchain-Gang/Parse-CPAN-Meta/issues/12
     |CYMON/BalanceOfPower-0.300100.tar.gz # zero byte tarball
