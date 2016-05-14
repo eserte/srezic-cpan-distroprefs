@@ -6,3 +6,4 @@ match:
 patches:
   - "SREZIC/patches/PerlIO-gzip-0.18-RT92412.patch"
 # recycle patch for PerlIO-gzip
+# RT ticket is https://rt.cpan.org/Ticket/Display.html?id=95340
