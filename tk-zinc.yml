@@ -1,6 +1,8 @@
 ---
 match:
   distribution: "/tk-zinc-3\.303\.tar.gz"
+  perlconfig:
+    archname: "-freebsd"
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:
