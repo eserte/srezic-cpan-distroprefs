@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QApp-find2perl-1.003.tar.gz\E'
+patches:
+  - SREZIC/patches/App-find2perl-1.003-RT110580.patch
+# see also https://github.com/Leont/app-find2perl/pull/3
+# (which looks like it is missing the VERSION variable,
+# but probably it's added by dzil)
