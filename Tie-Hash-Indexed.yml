@@ -7,3 +7,5 @@ patches:
   - SREZIC/patches/Tie-Hash-Indexed-0.05-RT81449.patch 
 # fix hash randomization
 # 14 reverse dependencies, therefore -> patch!
+#
+# MHX/Tie-Hash-Indexed-0.05_03.tar.gz is fixed
