@@ -51,6 +51,14 @@ pl:
     - --testuser=test
     - --testpassword=test
     - --testsocket=/tmp/mysql.sock
+---
+######################################################################
+## don't install README.pod as DBD/README.pod
+match:
+  distribution: '/\QDBD-mysql-4.033.tar.gz\E'
+patches:
+  - SREZIC/patches/DBD-mysql-4.033-RT114177.patch
+# https://rt.cpan.org/Ticket/Display.html?id=114177
 #--- 
 #######################################################################
 ### Set test database config --- the linux version
