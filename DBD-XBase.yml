@@ -1,14 +1,14 @@
 ---
 match:
-  distribution: "/DBD-XBase-0\.241\."
+  distribution: '/DBD-XBase-0\.241\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:
   - SREZIC/patches/DBD-XBase-0.241-SREZIC-01.patch
 ---
 match:
-  distribution: "/DBD-XBase-1\.0[0123457]\."
+  distribution: '/DBD-XBase-1\.0[0123457]\.'
   perlconfig:
-    version: "5\.[6789]\."
+    version: '5\.[6789]\.'
 patches:
   - SREZIC/patches/DBD-XBase-1.05-RT88873.patch
