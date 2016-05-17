@@ -4,17 +4,17 @@
 ##
 comment: "the Bundle::DBD::mysql includes Mysql which isn't in 4.00 anymore"
 match:
-  distribution: "^CAPTTOFU/DBD-mysql-3\.\d+.tar.gz$"
+  distribution: '^CAPTTOFU/DBD-mysql-3\.\d+.tar.gz$'
 disabled: 1
 --- 
 ######################################################################
 ## perl 5.13.x removed some PL_ variables --- the linux version
 ##
 match:
-  distribution: "/DBD-mysql-4\.018\."
+  distribution: '/DBD-mysql-4\.018\.'
   perlconfig:
     archname: -linux
-    version: "^5\.1[34]\."
+    version: '^5\.1[34]\.'
 patches:
   - SREZIC/patches/DBD-mysql-4.018-ANDK-01.patch
 comment: "Fits for debian, needs grant all on test.* to test@'localhost' identified by 'test';"
@@ -27,7 +27,7 @@ pl:
     - --testpassword=test
 --- 
 match:
-  distribution: "/DBD-mysql-4\.028\."
+  distribution: '/DBD-mysql-4\.028\.'
   perlconfig:
     archname: -linux
 patches:
@@ -38,9 +38,9 @@ patches:
 ## perl 5.13.x removed some PL_ variables --- the non-linux version
 ##
 match:
-  distribution: "/DBD-mysql-4\.018\."
+  distribution: '/DBD-mysql-4\.018\.'
   perlconfig:
-    version: "^5\.1[34]\."
+    version: '^5\.1[34]\.'
 patches:
   - SREZIC/patches/DBD-mysql-4.018-ANDK-01.patch
 pl: 
@@ -64,7 +64,7 @@ patches:
 ### Set test database config --- the linux version
 ###
 #match:
-#  distribution: "/DBD-mysql-\d"
+#  distribution: '/DBD-mysql-\d'
 #  perlconfig:
 #    archname: -linux
 #comment: "Fits for debian, needs grant all on test.* to test@'localhost' identified by 'test';"
@@ -80,7 +80,7 @@ patches:
 ### Set test database config --- the non-linux version
 ###
 #match:
-#  distribution: "/DBD-mysql-\d"
+#  distribution: '/DBD-mysql-\d'
 #pl: 
 #  args: 
 #    - --testdb=test
