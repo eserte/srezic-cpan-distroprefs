@@ -276,7 +276,7 @@ match:
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
      |\QCALID/ZMQ-FFI-0.19.tar.gz\E
      |\QCALID/ZMQ-FFI-1.02.tar.gz\E
-     |\QCANID/Yote-0.312.tar.gz\E
+     |\QCANID/Yote-Server-1.03.tar.gz\E
      |\QCAPTTOFU/DBD-mysql-3.0008.tar.gz\E
      |\QCARLOS/Dist-Zilla-Plugin-test2t-0.001031.tar.gz\E
      |\QCARPENTER/Storm-Tracker_0.01.tar.gz\E
@@ -356,6 +356,7 @@ match:
      |\QDAGOLDEN/Pod-WikiDoc-0.18.tar.gz\E
      |\QDALEEVANS/Text-Spintax-0.05.tar.gz\E
      |\QDAMI/SQL-Abstract-FromQuery-0.02.tar.gz\E
+     |\QDAMI/Text-Transliterator-1.01.tar.gz\E
      |\QDANAJ/Math-Prime-Util-0.43.tar.gz\E
      |\QDANBERR/Net-DBus-0.33.1.tar.gz\E
      |\QDANBERR/Test-AutoBuild-1.0.3.tar.gz\E
@@ -869,6 +870,7 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/App-docsisious-0.06.tar.gz\E
+     |\QJHTHORSEN/SNMP-Effective-1.1101.tar.gz\E
      |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
      |\QJILLROWE/HPC-Runner-Slurm-2.52.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
@@ -1146,6 +1148,7 @@ match:
      |\QMAKAMAKA/JSON-RPC-0.94.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.95.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
+     |\QMAMAWE/App-VOJournal-v0.4.4.tar.gz\E
      |\QMAMOD/JavaScript-Duktape-0.0.4.tar.gz\E
      |\QMAMOD/JavaScript-Duktape-0.3.0.tar.gz\E
      |\QMANWAR/App-calendr-0.06.tar.gz\E
@@ -1205,7 +1208,6 @@ match:
      |\QMBP/MojoX-Dispatcher-Qooxdoo-Jsonrpc-0.89.tar.gz\E
      |\QMCAUDILL/Net-Bot-IRC-NumericCodes-0.04.tar.gz\E
      |\QMCHANG/CGIGraph-0.9.tar.gz\E
-     |\QMCHE/Mojolicious-Plugin-RoutesAuthDBI-0.204.tar.gz\E
      |\QMDIETRICH/CloudApp-REST-0.01.tar.gz\E
      |\QMDIMEO/MPEG-ID3v2Tag-0.36.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
@@ -1280,6 +1282,7 @@ match:
      |\QMONGODB/MongoDB-v0.708.4.0.tar.gz\E
      |\QMONS/AnyEvent-Worker-0.05.tar.gz\E
      |\QMONS/XML-RPC-Fast-0.6.tar.gz\E
+     |\QMOOCOW/DiaColloDB-0.09.003.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.154.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.162.tar.gz\E
      |\QMOOLLAZA/App-DuckPAN-0.164.tar.gz\E
@@ -1364,6 +1367,7 @@ match:
      |\QNEKOKAK/Teng-0.06.tar.gz\E
      |\QNEKOYA/DBIx-Skinny-InflateColumn-DateTime-0.04.tar.gz\E
      |\QNES/Nes-1.02.tar.gz\E
+     |\QNEWELLC/OpusVL-AppKit-2.22.tar.gz\E
      |\QNEZUMI/MIME-Charset-1.011.3.tar.gz\E
      |\QNGLENN/Algorithm-AM-2.45.tar.gz\E
      |\QNGLENN/Algorithm-AM-3.02.tar.gz\E
@@ -1413,6 +1417,7 @@ match:
      |\QNWCLARK/perl-5.8.6.tar.gz\E
      |\QNWCLARK/perl-5.8.9.tar.gz\E
      |\QNWELLNHOF/Clownfish-0.4.4.tar.gz\E
+     |\QNWELLNHOF/Email-MIME-RFC2047-0.93.tar.gz\E
      |\QNWETTERS/Apache-Emulator-0.04.tar.gz\E
      |\QNWETTERS/WWW-AdServer-0.02.tar.gz\E
      |\QNWIGER/CGI-FormBuilder-3.06.tgz\E
@@ -1444,6 +1449,7 @@ match:
      |\QOVID/Test-Harness-3.28.tar.gz\E
      |\QOVID/Test-Kit-0.101.tar.gz\E
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
+     |\QPALIK/Netflow-Collector-0.01.01.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPARDUS/zoidberg/Zoidberg-0.95.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
@@ -1492,6 +1498,7 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
+     |\QPLICEASE/Test-Clustericious-Cluster-0.31.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
@@ -1600,7 +1607,6 @@ match:
      |\QSAKOHT/UR-0.38.1.tar.gz\E
      |\QSALVA/Config-Find-0.30.tar.gz\E
      |\QSALVA/Net-SFTP-Foreign-0.61.tar.gz\E
-     |\QSALVA/Net-SFTP-Foreign-1.73.tar.gz\E
      |\QSAMPO/zxid-0.4.tgz\E
      |\QSAMTREGAR/HTML-Template-2.9.tar.gz\E
      |\QSAMTREGAR/XML-Validator-Schema-1.01.tar.gz\E
@@ -1653,6 +1659,7 @@ match:
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
      |\QSHAY/perl-5.20.3.tar.gz\E
+     |\QSHAY/perl-5.22.2.tar.bz2\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
