@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/QBit-TimeLog-XS-0\.006\.'
+  perlconfig:
+    archname: freebsd
+    osvers: '^10\.'
+pl:
+  args:
+    - CC=c++
+# use clang++ instead of g++
