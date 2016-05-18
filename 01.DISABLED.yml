@@ -150,6 +150,7 @@ match:
     |.*/Linux-Distribution-
     |.*/Linux-DVB-DVBT-
     |.*/Linux-Inotify-
+    |.*/Linux-RTC-Ioctl-
     |.*/Linux-stat-
     |.*/Linux-Svgalib-
     |.*/Linux-Input-Info-
