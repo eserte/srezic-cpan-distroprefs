@@ -34,6 +34,15 @@ pl:
 ---
 match:
   distribution: '/GD-2\.56\.'
+  perlconfig:
+    archname: '^darwin-'
+cpanconfig:
+  prefer_installer: MB
+patches:
+  - SREZIC/patches/GD-2.56-RT105407.patch
+---
+match:
+  distribution: '/GD-2\.56\.'
 cpanconfig:
   prefer_installer: MB
 # https://rt.cpan.org/Ticket/Display.html?id=99901
