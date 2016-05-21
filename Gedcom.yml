@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Gedcom-1\.19\.'
+test:
+  env:
+    DATE_MANIP: DM5
+# https://github.com/pjcj/Gedcom.pm/issues/5
