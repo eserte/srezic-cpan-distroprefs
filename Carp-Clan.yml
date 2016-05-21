@@ -1,7 +1,17 @@
 --- 
 match:
-  distribution: "/Carp-Clan-([01234]\.|5\.[0123456789]\.)"
+  distribution: '/Carp-Clan-([01234]\.|5\.[0123456789]\.)'
 pl: 
   expect:
-    - "\QAdd Object::Deadly 0.08+ to prerequisites for testing? [Ny] [no]"
+    - '\QAdd Object::Deadly 0.08+ to prerequisites for testing? [Ny] [no]'
     - "\n"
+---
+match:
+  distribution: '/Carp-Clan-6\.04\.'
+  perlconfig:
+    version: '^5\.25\.\d+$'
+patches:
+  - SREZIC/patches/Carp-Clan-6.04-RT114537.patch
+# https://rt.cpan.org/Ticket/Display.html?id=114537
+# Unescaped left brace in regex is illegal in regex
+# patch by KENTL
