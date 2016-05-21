@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/FormValidator-Simple-0\.29\.'
+depends:
+# XXX probably only test_requires, but this is not accepted by the schema
+  build_requires:
+    CGI: 0
+# https://rt.cpan.org/Ticket/Display.html?id=109295
