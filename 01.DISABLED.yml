@@ -1424,5 +1424,6 @@ match:
     |MSTROUT/Parse-CPAN-Meta-1.4418-TRIAL.tar.gz # breaks json loading: https://github.com/Perl-Toolchain-Gang/Parse-CPAN-Meta/issues/12
     |CYMON/BalanceOfPower-0.300100.tar.gz # zero byte tarball
     |PERFSONAR/perfSONAR_PS-DB-RRD-0.09.tar.gz # interactive questions in test
+    |YWANGPERL/Test-AutomationFramework-0.060.04.tar.gz # tests call sudo
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
