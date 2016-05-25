@@ -421,6 +421,7 @@ match:
     |MICHALS/PMLTQ-1.0.0.tar.gz # tests hang (state lockf) (but would not succeed anyway because of dependency errors)
     |MICHALS/PMLTQ-1.0.1.tar.gz # dito
     |MICHALS/PMLTQ-1.1.0.tar.gz # dito
+    |EXODIST/Test2-Harness-0.000001.tar.gz # very slow (hanging?) tests
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
