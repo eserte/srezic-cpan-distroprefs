@@ -421,7 +421,6 @@ match:
     |MICHALS/PMLTQ-1.0.0.tar.gz # tests hang (state lockf) (but would not succeed anyway because of dependency errors)
     |MICHALS/PMLTQ-1.0.1.tar.gz # dito
     |MICHALS/PMLTQ-1.1.0.tar.gz # dito
-    |EXODIST/Test2-Harness-0.000001.tar.gz # very slow (hanging?) tests
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
@@ -1426,5 +1425,6 @@ match:
     |CYMON/BalanceOfPower-0.300100.tar.gz # zero byte tarball
     |PERFSONAR/perfSONAR_PS-DB-RRD-0.09.tar.gz # interactive questions in test
     |YWANGPERL/Test-AutomationFramework-0.060.04.tar.gz # tests call sudo
+    |EXODIST/Test2-Harness-0.000001.tar.gz # very slow (hanging?) tests on freebsd, may hang on linux with older perls
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
