@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Mail-Sender-\d"
+  distribution: '/Mail-Sender-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
