@@ -2,14 +2,20 @@
 match:
   distribution: "/Mail-Sender-\d"
 pl:
-  eexpect:
-    mode: anyorder
-    talk:
-      - "Specify defaults for Mail::Sender"
-      - "n\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
 make:
-  eexpect:
-    mode: anyorder
-    talk:
-      - "Specify defaults for Mail::Sender"
-      - "n\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  eexpect:
+#    mode: anyorder
+#    talk:
+#      - "Specify defaults for Mail::Sender"
+#      - "n\n"
+#make:
+#  eexpect:
+#    mode: anyorder
+#    talk:
+#      - "Specify defaults for Mail::Sender"
+#      - "n\n"
