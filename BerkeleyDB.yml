@@ -2,6 +2,17 @@
 match:
   distribution: "/BerkeleyDB-\d"
   perlconfig:
+    osname: darwin
+pl:
+  env:
+    BERKELEYDB_LIB: /usr/local/lib
+    BERKELEYDB_INCLUDE: /usr/local/include
+    BERKELEYDB_NAME: -ldb-6
+# requires "brew install berkeley-db"
+---
+match:
+  distribution: "/BerkeleyDB-\d"
+  perlconfig:
     osname: freebsd
     osvers: '^10\.'
 pl:
