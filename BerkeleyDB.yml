@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/BerkeleyDB-\d"
+  distribution: '/BerkeleyDB-\d'
   perlconfig:
     osname: darwin
 pl:
@@ -11,7 +11,7 @@ pl:
 # requires "brew install berkeley-db"
 ---
 match:
-  distribution: "/BerkeleyDB-\d"
+  distribution: '/BerkeleyDB-\d'
   perlconfig:
     osname: freebsd
     osvers: '^10\.'
@@ -21,7 +21,7 @@ pl:
     BERKELEYDB_LIB: /usr/local/lib/db48
 ---
 match:
-  distribution: "/BerkeleyDB-\d"
+  distribution: '/BerkeleyDB-\d'
   perlconfig:
     archname: i386-freebsd
 pl:
@@ -30,7 +30,7 @@ pl:
     BERKELEYDB_LIB: /usr/local/lib/db42
 ---
 match:
-  distribution: "/BerkeleyDB-\d"
+  distribution: '/BerkeleyDB-\d'
   perlconfig:
     archname: amd64-freebsd
 pl:
