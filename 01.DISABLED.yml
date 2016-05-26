@@ -1429,5 +1429,6 @@ match:
     |EXODIST/Test2-Harness-0.000003.tar.gz # very slow (hanging?) tests on freebsd
     |HENRYYKT/MojoX-JSON-RPC-0.09.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=114746
     |RENEEB/Mojolicious-Plugin-TweetButton-0.0004.tar.gz # another empty tarball - https://rt.cpan.org/Ticket/Display.html?id=114747
+    |DOLMEN/Dist-Zilla-PluginBundle-MARCEL-1.161470.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=114748
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
