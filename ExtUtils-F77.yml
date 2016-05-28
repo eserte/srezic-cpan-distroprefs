@@ -8,7 +8,7 @@ patches:
 # Patch derived from lang/p5-ExtUtils-F77 port
 ---
 match:
-  distribution: '/ExtUtils-F77-1.19_1\.'
+  distribution: '/ExtUtils-F77-1.19_(1|2)\.'
   perlconfig:
     osname: freebsd
 patches:
