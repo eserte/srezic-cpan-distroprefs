@@ -2,7 +2,7 @@
 # Must run with cpan_smoke_modules -nolimits
 # openjdk6 has to be installed
 match:
-  distribution: "/Inline-Java-\d"
+  distribution: '/Inline-Java-\d'
   perlconfig:
     archname: amd64-freebsd
 pl:
@@ -12,18 +12,18 @@ pl:
 #    - J2SDK=/usr/local/openjdk7
     - J2SDK=/usr/local/openjdk8
   expect:
-    - "\QDo you wish to build the JNI extension? [y]"
+    - '\QDo you wish to build the JNI extension? [y]'
     - "\n"
-#    - "\QPlease select from the above list which 'libjvm.so' to use: [1]"
+#    - '\QPlease select from the above list which \'libjvm.so\' to use: [1]'
 #    - "\n"
-#    - "\QDo you wish to build the PerlNatives extension? [n]"
+#    - '\QDo you wish to build the PerlNatives extension? [n]'
 #    - "\n"
-    - "\QDo you wish to build the PerlInterpreter extension? [n]"
+    - '\QDo you wish to build the PerlInterpreter extension? [n]'
     - "\n"
 --- 
 # XXX probably does not work
 match:
-  distribution: "/Inline-Java-\d"
+  distribution: '/Inline-Java-\d'
   perlconfig:
     archname: i386-freebsd
 pl:
@@ -31,19 +31,19 @@ pl:
     - J2SDK=/usr/local/linux-sun-jre1.6.0
 #was:    - J2SDK=/usr/local/linux-sun-jdk1.4.2
   expect:
-    - "\QDo you wish to build the JNI extension? [y]"
+    - '\QDo you wish to build the JNI extension? [y]'
     - "\n"
-    - "\QPlease select from the above list which 'libjvm.so' to use: [1]"
+    - '\QPlease select from the above list which \E.libjvm.so.\Q to use: [1]'
     - "\n"
-    - "\QDo you wish to build the PerlNatives extension? [n]"
+    - '\QDo you wish to build the PerlNatives extension? [n]'
     - "\n"
-    - "\QDo you wish to build the PerlInterpreter extension? [n]"
+    - '\QDo you wish to build the PerlInterpreter extension? [n]'
     - "\n"
 --- 
 # Valid only for Debian/wheezy and Debian/jessie with openjdk7 installed
 # Also required: -nolimits!
 match:
-  distribution: "/Inline-Java-\d"
+  distribution: '/Inline-Java-\d'
   perlconfig:
     archname: x86_64-linux
 pl:
