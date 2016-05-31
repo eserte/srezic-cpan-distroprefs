@@ -2,7 +2,7 @@
 match:
   distribution: '/\QInline-C-0.76.tar.gz\E'
   perlconfig:
-    archname: '^darwin-'
+    archname: '(^darwin-|freebsd)'
 patches:
   - SREZIC/patches/Inline-C-0.76-issue54.patch
 # https://github.com/ingydotnet/inline-c-pm/issues/54
