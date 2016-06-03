@@ -162,6 +162,7 @@ match:
     |.*/Linux-Unshare-
     |.*/Net-Int-Stats- # explicitely checks for $^O eq linux
     |.*/Passwd-Linux-
+    |PEKINGSAM/BioX-Map-0.0.12.tar.gz # uses bundled binaries only running on linux
     )\d|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   perlconfig:
     archname: "(-freebsd|darwin|MSWin32|cygwin)"
