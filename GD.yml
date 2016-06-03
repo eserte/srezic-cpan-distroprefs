@@ -38,6 +38,8 @@ match:
     archname: '^darwin-'
 cpanconfig:
   prefer_installer: MB
+pl:
+  commandline: $PERL Build.PL
 patches:
   - SREZIC/patches/GD-2.56-RT105407.patch
 ---
@@ -45,11 +47,17 @@ match:
   distribution: '/GD-2\.56\.'
 cpanconfig:
   prefer_installer: MB
+pl:
+  commandline: $PERL Build.PL
 # https://rt.cpan.org/Ticket/Display.html?id=99901
+# https://rt.cpan.org/Ticket/Display.html?id=106274
 #
-# But another problem: using Module::Build fails because
+# The first ticket talks about Makefile.PL beeing broken.
+#
+# The second ticket is about Module::Build failing because
 # CPAN.pm per default uses --installdirs, which is
-# not recognized by GD's Build.PL.
+# not recognized by GD's Build.PL. This is fixed by
+# the explicit commandline.
 --- 
 match:
   module: '/GD-2\.'
