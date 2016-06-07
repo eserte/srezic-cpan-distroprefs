@@ -1431,5 +1431,7 @@ match:
     |HENRYYKT/MojoX-JSON-RPC-0.09.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=114746
     |RENEEB/Mojolicious-Plugin-TweetButton-0.0004.tar.gz # another empty tarball - https://rt.cpan.org/Ticket/Display.html?id=114747
     |DOLMEN/Dist-Zilla-PluginBundle-MARCEL-1.161470.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=114748
+    |MADSKILL/QBit-Application-Model-DB-0.009.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=115152
+    |JANDREW/Spreadsheet-Reader-ExcelXML-v0.10.4.tar.gz # (almost?) endless loop in test, but only some perls
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
