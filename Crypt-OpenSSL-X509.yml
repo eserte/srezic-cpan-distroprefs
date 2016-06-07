@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Crypt-OpenSSL-X509-\d'
+  perlconfig:
+    archname: '^darwin'
+pl:
+  args:
+    - CCFLAGS=-I/usr/local/opt/openssl/include
+    - OPTIMIZE=-O2
+    - LDDLFLAGS="-L/usr/local/opt/openssl/lib -bundle -undefined dynamic_lookup -fstack-protector"
+# Works with perl518 from homebrew and installed openssl, also from homebrew
