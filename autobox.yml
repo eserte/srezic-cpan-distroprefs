@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\Qautobox-2.83.tar.gz\E'
+patches:
+  - SREZIC/patches/autobox-2.83-pull5.patch
+# https://github.com/chocolateboy/autobox/pull/5
+# (OpSIBLING)
