@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/DateTime-HiRes-0\.01\.'
+patches:
+  - SREZIC/patches/DateTime-HiRes-0.01-RT109088-RIVY.patch
