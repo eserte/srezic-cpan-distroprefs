@@ -991,8 +991,6 @@ match:
      |\QKANE/IPC-Cmd-0.22.tar.gz\E
      |\QKANEY/XML-ASCX12-0.03.tar.gz\E
      |\QKARASIK/IO-Lambda-1.25.tar.gz\E
-     |\QKARASIK/Prima-1.38.tar.gz\E
-     |\QKARASIK/Prima-1.39.tar.gz\E
      |\QKARASIK/Prima-1.42.tar.gz\E
      |\QKARASIK/Win32-GuiTest-1.57.tar.gz\E
      |\QKARJALA/XML-MyXML-0.1003.tar.gz\E
@@ -1728,6 +1726,7 @@ match:
      |\QSMITHFARM/App-Dochazka-Common-0.202.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.519.tar.gz\E
      |\QSMONF/Dependencies-Searcher-0.02.tar.gz\E
+     |\QSMRZ/Encode-Arabic-14.1.tar.gz\E
      |\QSMUELLER/Attribute-Handlers-0.96.tar.gz\E
      |\QSMUELLER/Lingua-Identify-CLD2-0.01.tar.gz\E
      |\QSMUELLER/Perl-APIReference-0.20.tar.gz\E
@@ -1858,7 +1857,6 @@ match:
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
      |\QTOKUHIROM/Spellunker-v0.0.8.tar.gz\E
-     |\QTOMBO/Pgtools-0.004.tar.gz\E
      |\QTOMITA/Acme-Ikamusume-0.06.tar.gz\E
      |\QTOMMY/File-Util-4.132140.tar.gz\E
      |\QTOMYHERO/Catalyst-Plugin-Log-Colorful-0.12.tar.gz\E
