@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QHTML-Toc-1.12.tar.gz\E'
+  perlconfig:
+    version: '^5\.25\.\d+$'
+patches:
+  - SREZIC/patches/HTML-Toc-1.12-RT115109.patch
