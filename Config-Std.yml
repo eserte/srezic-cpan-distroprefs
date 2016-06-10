@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QConfig-Std-0.901.tar.gz\E'
+  perlconfig:
+    version: '^5\.25\.\d+$'
+patches:
+  - SREZIC/patches/Config-Std-0.901-RT114342.patch
