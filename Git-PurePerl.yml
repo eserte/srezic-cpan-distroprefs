@@ -1,5 +1,13 @@
 ---
 match:
+  distribution: '/Git-PurePerl-0\.51\.'
+  perlconfig:
+    version: '^5\.(23\.[23456789]|24\.\d+|25\.\d+)$'
+patches:
+  - SREZIC/patches/Git-PurePerl-0.51-RT106772-GREGOA.patch
+# my in my
+---
+match:
   distribution: '/Git-PurePerl-0\.48\.'
   perlconfig:
     version: '^5\.(18|19)\.'
