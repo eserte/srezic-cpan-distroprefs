@@ -1433,5 +1433,6 @@ match:
     |DOLMEN/Dist-Zilla-PluginBundle-MARCEL-1.161470.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=114748
     |MADSKILL/QBit-Application-Model-DB-0.009.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=115152
     |JANDREW/Spreadsheet-Reader-ExcelXML-v0.10.4.tar.gz # (almost?) endless loop in test, but only some perls
+    |DINESHD/WWW-Google-Drive-0.01.tar.gz # empty tarball - https://github.com/dinesh-it/www-google-drive/issues/1
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
