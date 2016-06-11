@@ -2,7 +2,7 @@
 match:
   distribution: '/Tie-Hash-Indexed-0\.05\.'
   perlconfig:
-    version: '^5\.(17|18|19|20|21)\.'
+    version: '^5\.(17|18|19|20|21|22|23|24|25)\.'
 patches:
   - SREZIC/patches/Tie-Hash-Indexed-0.05-RT81449.patch 
 # fix hash randomization
