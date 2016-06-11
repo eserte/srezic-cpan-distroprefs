@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Data-AMF-\d'
+depends:
+  build_requires:
+    Test::More: 0
+    YAML: 0
+pl:
+  commandline: 'rm -rf inc/Test inc/YAML.pm inc/Spiffy; $PERL Makefile.PL'
+# https://rt.cpan.org/Ticket/Display.html?id=76392
