@@ -6,6 +6,7 @@ match:
 patches:
   - SREZIC/patches/Git-PurePerl-0.51-RT106772-GREGOA.patch
 # my in my
+# fixed in 0.52
 ---
 match:
   distribution: '/Git-PurePerl-0\.48\.'
