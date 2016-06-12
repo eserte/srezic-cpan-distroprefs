@@ -4,6 +4,6 @@ match:
   perlconfig:
     version: '^5\.25\.\d+$'
 patches:
-  - SREZIC/patches/autobox-2.83-pull5.patch
+  - SREZIC/patches/autobox-2.83-pull5.patch.gz
 # https://github.com/chocolateboy/autobox/pull/5
 # (OpSIBLING)
