@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Net-Address-Ethernet-1\.123\.'
+patches:
+  - SREZIC/patches/Net-Address-Ethernet-1.123-RT114733-MAT.patch
+# Unescaped left brace in regex is illegal
