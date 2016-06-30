@@ -1,5 +1,10 @@
 --- 
 match:
+  distribution: "/MIME-tools-5.507.tar.gz"
+patches:
+  - SREZIC/patches/MIME-tools-5.507-RT113887-DSKOLL.patch
+--- 
+match:
   distribution: "DONEILL/MIME-tools-5.425.tar.gz"
   perlconfig:
     archname: "MSWin32"
