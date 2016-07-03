@@ -1,12 +1,12 @@
 --- 
 match:
-  distribution: '/\QAlien-uPB-0.04.tar.gz\E'
+  distribution: '/Alien-uPB-(0.04|0.06).tar.gz'
   perlconfig:
     myuname: 'freebsd cvrsnica-freebsd-92'
 # No g++48 installed here
 ---
 match:
-  distribution: '/\QAlien-uPB-0.04.tar.gz\E'
+  distribution: '/Alien-uPB-(0.04|0.06).tar.gz'
   perlconfig:
     archname: freebsd
     osvers: '^9\.\d+'
