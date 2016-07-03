@@ -20,7 +20,7 @@ patches:
   - SREZIC/patches/Alien-uPB-0.04-RT113197.patch
 ---
 match:
-  distribution: '/\QAlien-uPB-(0.04|0.06).tar.gz\E'
+  distribution: '/Alien-uPB-(0.04|0.06).tar.gz'
   perlconfig:
     archname: freebsd
     osvers: '^10\.\d+'
