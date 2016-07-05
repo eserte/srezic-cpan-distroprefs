@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Apache-ProxyScan-\d"
+  distribution: '/Apache-ProxyScan-\d'
 pl:
   expect:
-    - "\QPath of your (Apache) mime magic file: ["
+    - '\QPath of your (Apache) mime magic file: ['
     - "\n"
 comment: "does not work anyway, as it has Apache2 as prereq specified, which does not exist"
 # Possible questions:
