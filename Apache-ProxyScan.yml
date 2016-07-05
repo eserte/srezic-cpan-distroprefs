@@ -3,6 +3,9 @@ match:
   distribution: "/Apache-ProxyScan-\d"
 pl:
   expect:
-    - "\QPath of your (Apache) mime magic file: [/usr/share/misc/magic.mime]"
+    - "\QPath of your (Apache) mime magic file: ["
     - "\n"
 comment: "does not work anyway, as it has Apache2 as prereq specified, which does not exist"
+# Possible questions:
+#   Path of your (Apache) mime magic file: [/etc/magic]
+#   Path of your (Apache) mime magic file: [/usr/share/misc/magic.mime]
