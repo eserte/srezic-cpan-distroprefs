@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Search-Xapian-1\.2\.23\.0\.'
+  perlconfig:
+    archname: freebsd
+    osvers: '^10\.'
+pl:
+  args:
+    - CC=c++
+# use clang++ instead of g++
+# https://rt.cpan.org/Ticket/Display.html?id=116417
