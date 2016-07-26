@@ -263,8 +263,6 @@ match:
     |.*/Ogre-\d # no ogre installed here (freebsd), looks large, needs gnome
     |.*/Ogre-BetaGUI-\d # dito
     |.*/Physics-Udunits2-\d # no port for udunits
-    |.*/Net-Z3950-ZOOM- # need a new version of yaz (in freebsd package there is only an old one)
-    |.*/Net-Z3950-SimpleServer- # need a new version of yaz (in freebsd package there is only an old one)
     |.*/Speech-Recognizer-SPX-\d # missing prereqs on my freebsd system
     |.*/UnixODBC-\d # unixODBC exists on FreeBSD, but conflicts with iodbc, so skip this one
     |.*/Text-Scws-\d # what is libscws? does not seem to exist in the freebsd ports
@@ -316,7 +314,6 @@ match:
     |.*/X11-Aosd-\d # no port
     |.*/TCC-\d # freebsd: tcc only for i386 available
     |.*/C-TCC-\d # freebsd: tcc only for i386 available
-    |.*/Net-Z3950-Simple2ZOOM-\d # freebsd port version of yaz is too old
     |.*/IPTables-libiptc-\d # no freebsd package, probably linux-centric
     |.*/Crypt-Cracklib-\d # exists as freebsd port, but crack.h is not installed by default
     |.*/Lingua-PT-Speaker-\d # needs some mbrola library
