@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Modern-Perl-1\.20150127\.'
+  perlconfig:
+    version: '^5\.25\.(2|3)$'
+patches:
+  - SREZIC/patches/Modern-Perl-1.20150127-RT114690-SPROUT.patch
