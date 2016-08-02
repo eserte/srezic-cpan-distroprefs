@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/SQL-SplitStatement-1\.00020\.'
+patches:
+  - SREZIC/patches/SQL-SplitStatement-1.00020-RT108595-ESEYMAN.patch
+# another possible workaround: hide Test::Script::Run
