@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Astro-WCS-LibWCS-\d'
+  perlconfig:
+    archname: linux
+pl:
+  env:
+    WCSTOOLS_INC: -I/usr/include/wcstools
+    WCSTOOLS_LIB: -lwcstools
+# works for debian
