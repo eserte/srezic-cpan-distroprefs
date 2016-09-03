@@ -667,6 +667,7 @@ match:
     |XANTUS/MojoX-AIO-0.02.tar.gz # the t/00_simple.t test may hang
     |.*/Mojolicious-Plugin-BasicAuth-0\.02\. # auth.t may hang
     |.*/Gearman-Driver-0\.02005\. # may hang
+    |.*/Gearman-Driver-0\.02008\. # may hang
     |.*/Test-WWW-Mechanize-Mojo-v0\.0\.4\. # auth_test.t may hang
     |.*/Event-RPC-1\.01\. # 04.cnct-auth-ssl.t and many others may hang
     |.*/Maplat-0\.99\. # make test may hang
