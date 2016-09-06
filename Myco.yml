@@ -1,0 +1,17 @@
+---
+match:
+  distribution: '/Myco-\d'
+pl:
+  expect:
+    - '\Q(Myco only provides explicit support for PostreSQL) (Y/n)'
+    - "n\n"
+    - '\Q ./bin/myco-deploy? (Y/n)'
+    - "n\n"
+    - '\Q ./bin/myco-recycle? (Y/n)'
+    - "n\n"
+    - '\Q ./bin/myco-testrun? (Y/n)'
+    - "n\n"
+    - '\Q ./bin/myco-mkentity? (Y/n)'
+    - "n\n"
+    - '\Q ./bin/myco-probe (a script to probe Entity class metadata)? (Y/n)'
+    - "n\n"
