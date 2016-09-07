@@ -803,6 +803,7 @@ match:
     |.*/illguts-\d # has no test target
     |.*/WWW-Google-API-\d # asks for Google API key
     |.*/Acme-BadExample-\d # causes endless loops in all modules trying to parse the version
+    |.*/Acme-Letter-0\.02\. # https://rt.cpan.org/Ticket/Display.html?id=117497 (installs test.pl)
     |PERFORIN/WWW-Wuala-00.1.zip # generated Makefile.PL
     |BROWSERUK/ppm/ # contains only ppm packages, unsmokable
     |FALCONE/RT-OnlineDocs-\d # needs path to RT
@@ -1432,5 +1433,7 @@ match:
     |MADSKILL/QBit-Application-Model-DB-0.009.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=115152
     |JANDREW/Spreadsheet-Reader-ExcelXML-v0.10.4.tar.gz # (almost?) endless loop in test, but only some perls
     |DINESHD/WWW-Google-Drive-0.01.tar.gz # empty tarball - https://github.com/dinesh-it/www-google-drive/issues/1
+    |.*/Term-Menus-FromFile-1\.0\.0 # either fails, or (with <= 5.18) endless loop outputting things
+    |MARNANEL/Net-RGTP-0.10.tar.gz # endless loop
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
