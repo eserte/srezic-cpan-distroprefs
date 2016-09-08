@@ -1435,5 +1435,6 @@ match:
     |DINESHD/WWW-Google-Drive-0.01.tar.gz # empty tarball - https://github.com/dinesh-it/www-google-drive/issues/1
     |.*/Term-Menus-FromFile-1\.0\.0 # either fails, or (with <= 5.18) endless loop outputting things
     |MARNANEL/Net-RGTP-0.10.tar.gz # endless loop
+    |ALLENDAY/DBD-iPod-0.01.tar.gz # interactive question in config phase
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
