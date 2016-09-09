@@ -1438,5 +1438,6 @@ match:
     |ALLENDAY/DBD-iPod-0.01.tar.gz # interactive question in config phase
     |ISAACSON/Rstat-Client-2.2.tar.gz # test hangs
     |CANTALUPO/Acme-GILLIGAN-Utils- # https://rt.cpan.org/Ticket/Display.html?id=117680
+    |JOUKE/Wx-Metafile-0.02.tar.gz # interactive questions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
