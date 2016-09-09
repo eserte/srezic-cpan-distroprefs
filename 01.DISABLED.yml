@@ -1437,5 +1437,6 @@ match:
     |MARNANEL/Net-RGTP-0.10.tar.gz # endless loop
     |ALLENDAY/DBD-iPod-0.01.tar.gz # interactive question in config phase
     |ISAACSON/Rstat-Client-2.2.tar.gz # test hangs
+    |CANTALUPO/Acme-GILLIGAN-Utils- # https://rt.cpan.org/Ticket/Display.html?id=117680
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
