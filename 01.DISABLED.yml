@@ -1441,5 +1441,6 @@ match:
     |JOUKE/Wx-Metafile-0.02.tar.gz # interactive questions
     |INGY/VCS-SaVeS-0.12.tar.gz # interactive questions
     |BSUGARS/nsapi_perl-0.24.tar.gz # interactive questions
+    |THEDEVIL/Debarnacle-2002.05.15.tar.gz # hangs while connecting to 130.191.1.1
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
