@@ -1440,5 +1440,6 @@ match:
     |CANTALUPO/Acme-GILLIGAN-Utils- # https://rt.cpan.org/Ticket/Display.html?id=117680
     |JOUKE/Wx-Metafile-0.02.tar.gz # interactive questions
     |INGY/VCS-SaVeS-0.12.tar.gz # interactive questions
+    |BSUGARS/nsapi_perl-0.24.tar.gz # interactive questions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
