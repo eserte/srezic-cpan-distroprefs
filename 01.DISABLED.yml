@@ -1443,5 +1443,6 @@ match:
     |BSUGARS/nsapi_perl-0.24.tar.gz # interactive questions
     |THEDEVIL/Debarnacle-2002.05.15.tar.gz # hangs while connecting to 130.191.1.1
     |NREICHEN/eicndhcpd_v111_src.zip # reports (unknown) cannot be sent to metabase: "can't be parsed as a CPAN distfile"
+    |SETHJ/MIDI-Music-0.01.tar.gz # interactive test
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
