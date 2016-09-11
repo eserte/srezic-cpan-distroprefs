@@ -1477,5 +1477,8 @@ match:
     |ROBF/X10-0.03.tar.gz # installs Makefile.PL, which cause problems when building other distributions
     |URI/Stem-0.11.tar.gz # "can't create blib/bin/run_stem Permission denied at ./Build line 58."
     |SOMMERB/Myco-1.22.tar.gz # is using ExtUtils::AutoInstall, and old bundled modules
+    |DAOTOAD/Log-WithCallbacks-1.00.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=16818
+    |JONATHAN/Math-Calculus-TaylorSeries-0.1.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=34727
+    |DEDMEDVED/cheburashka.zip # not recognized as a perl package
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
