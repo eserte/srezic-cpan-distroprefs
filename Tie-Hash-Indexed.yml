@@ -3,9 +3,10 @@ match:
   distribution: '/Tie-Hash-Indexed-0\.05\.'
   perlconfig:
     version: '^5\.(17|18|19|20|21|22|23|24|25)\.'
-patches:
-  - SREZIC/patches/Tie-Hash-Indexed-0.05-RT81449.patch 
+goto: 'MHX/Tie-Hash-Indexed-0.05_03.tar.gz'
+#patches:
+#  - SREZIC/patches/Tie-Hash-Indexed-0.05-RT81449.patch 
 # fix hash randomization
-# 14 reverse dependencies, therefore -> patch!
+# 14 reverse dependencies, therefore -> patch! or goto!
 #
 # MHX/Tie-Hash-Indexed-0.05_03.tar.gz is fixed
