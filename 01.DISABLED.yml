@@ -1492,5 +1492,6 @@ match:
     |JONATHAN/Math-Calculus-TaylorSeries-0.1.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=34727
     |DEDMEDVED/cheburashka.zip # not recognized as a perl package
     |PHOENIXL/extensible_report_generator_1.13.zip # extraction fails - "error: Unsupported compression combination: read 6, write 0"
+    |PRBRENAN/Math-Modular-SquareRoot-1.001.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=117780
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
