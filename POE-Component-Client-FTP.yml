@@ -1,15 +1,15 @@
 --- 
 match:
-  distribution: "/POE-Component-Client-FTP-\d"
+  distribution: '/POE-Component-Client-FTP-\d'
 pl:
   eexpect:
     mode: anyorder
     reuse: 1
     timeout: 3
     talk:
-      - "\QDo you want to enable optional TLS support ( requires IO::Socket::SSL ) [y/N]?"
+      - '\QDo you want to enable optional TLS support ( requires IO::Socket::SSL ) [y/N]?'
       - "n\n"
-      - "\QDo you want to enable optional TLS support ( requires POE::Component::SSLify ) [y/N]?"
+      - '\QDo you want to enable optional TLS support ( requires POE::Component::SSLify ) [y/N]?'
       - "\n"
-
-
+      - '\QDo you want live network tests [N/y]? [N]'
+      - "\n"
