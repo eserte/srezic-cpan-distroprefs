@@ -1157,6 +1157,7 @@ match:
     |SVISTUNOV/qbit-0.9.tar.gz # recursive dependency
     |OFEYAIKON/Gtk2-Ex-ICal-Recur-0.06.tar.gz  # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=101052
     |DTRISCHUK/Coro-Amazon-SimpleDB-0.04.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=82281
+    |MADSKILL/QBit-WebInterface-0.025.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=117608
     |ORTALO/MOP-1.00.tar.gz # test asks for password for ssh/rsh operation
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.01.tar.gz # lists everything, despite most is not working anymore: https://rt.cpan.org/Ticket/Display.html?id=96121
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.02.tar.gz # too time-consuming to install everything
