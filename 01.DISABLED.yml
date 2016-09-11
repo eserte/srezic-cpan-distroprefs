@@ -805,6 +805,11 @@ match:
     |.*/Acme-BadExample-\d # causes endless loops in all modules trying to parse the version
     |.*/Acme-Letter-0\.02\. # https://rt.cpan.org/Ticket/Display.html?id=117497 (installs test.pl)
     |PERFORIN/WWW-Wuala-00.1.zip # generated Makefile.PL
+    |CML/Sendmail_M4.0.29a.tar.gz # generated Makefile.PL
+    |KENWU/Algorithm-Line-Bresenham-C-0.1.zip # generated Makefile.PL
+    |ANDOT/Crypt-XXTEA-1.00.zip # generated Makefile.PL
+    |INVENTOR/ScatterPlot-0_2.tgz # generated Makefile.PL
+    |DAMBAR/Catalyst-Plugin-Imager-0.01.tar.gz # generated Makefile.PL
     |BROWSERUK/ppm/ # contains only ppm packages, unsmokable
     |FALCONE/RT-OnlineDocs-\d # needs path to RT
     |.*/RTx-AttachmentZip-\d
@@ -1446,5 +1451,6 @@ match:
     |SETHJ/MIDI-Music-0.01.tar.gz # interactive test
     |MBARBON/Devel-Debug-DBGp-0.20.tar.gz # hanging tests (many of them)
     |DYACOB/Convert-Ethiopic-0.20-210102.tar.gz # interactive questions
+    |ROBF/X10-0.03.tar.gz # installs Makefile.PL, which cause problems when building other distributions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
