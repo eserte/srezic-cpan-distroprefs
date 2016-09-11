@@ -1,7 +1,11 @@
 ---
 match:
-  distribution: "/XUL-Node-\d"
+  distribution: '/XUL-Node-\d'
 pl:
-  expect:
-    - "\Q/usr/local/xul-node"
-    - "\n"
+  eexpect:
+    mode: anyorder
+    talk:
+      - '\Q/usr/local/xul-node'
+      - "\n"
+      - '\QEnter port for xul-node-server'
+      - "\n"
