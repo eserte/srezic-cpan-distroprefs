@@ -810,6 +810,13 @@ match:
     |ANDOT/Crypt-XXTEA-1.00.zip # generated Makefile.PL
     |INVENTOR/ScatterPlot-0_2.tgz # generated Makefile.PL
     |DAMBAR/Catalyst-Plugin-Imager-0.01.tar.gz # generated Makefile.PL
+    |VSPADER/Archive-ZZip-0.13.tar.gz # generated Makefile.PL
+    |GOYALI/SMS_API_4.01.1.tar.gz # generated Makefile.PL
+    |DONGYI/SQL-Translator-Producer-DBIx-Class-File-Simple-0.1.tar.gz # generated Makefile.PL
+    |JETTRA/Geo-Coder-Canada-0.01.tar.gz # generated Makefile.PL
+    |SARENNER/Net-IPAddress-1.10-PPM.zip # generated Makefile.PL
+    |MCGREGOR/Oracle-Sqlldr-0.13.tar.gz # generated Makefile.PL
+    |RLAUGHLIN/UDPmsg-0.11.tar.gz # generated Makefile.PL
     |BROWSERUK/ppm/ # contains only ppm packages, unsmokable
     |FALCONE/RT-OnlineDocs-\d # needs path to RT
     |.*/RTx-AttachmentZip-\d
@@ -1134,6 +1141,7 @@ match:
     |.*/SAP-Rfc-\d # needs librfc (in rfcsdk)
     |CCAVNOR/autoclass_v1_01.tgz # unauthorized? Class::AutoClass is used here, but also in NATG/Class-AutoClass-1.56.tar.gz
     |SVISTUNOV/qbit-0.9.tar.gz # recursive dependency
+    |OFEYAIKON/Gtk2-Ex-ICal-Recur-0.06.tar.gz  # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=101052
     |ORTALO/MOP-1.00.tar.gz # test asks for password for ssh/rsh operation
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.01.tar.gz # lists everything, despite most is not working anymore: https://rt.cpan.org/Ticket/Display.html?id=96121
     |RENEEB/Task-MojoliciousPlugins-PerlAcademy-0.02.tar.gz # too time-consuming to install everything
@@ -1452,5 +1460,7 @@ match:
     |MBARBON/Devel-Debug-DBGp-0.20.tar.gz # hanging tests (many of them)
     |DYACOB/Convert-Ethiopic-0.20-210102.tar.gz # interactive questions
     |ROBF/X10-0.03.tar.gz # installs Makefile.PL, which cause problems when building other distributions
+    |URI/Stem-0.11.tar.gz # "can't create blib/bin/run_stem Permission denied at ./Build line 58."
+    |SOMMERB/Myco-1.22.tar.gz # is using ExtUtils::AutoInstall, and old bundled modules
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
