@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Event-SlidingWindow-\d"
+  distribution: '/Event-SlidingWindow-\d'
 test:
   env:
     PERL_MM_USE_DEFAULT: 1
