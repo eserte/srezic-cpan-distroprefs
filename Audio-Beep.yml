@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Audio-Beep-\d"
+  distribution: '/Audio-Beep-\d'
 pl:
   eexpect:
     mode: anyorder
     talk:
-      - "\QPRESS [ENTER]\n"
+      - '\QPRESS [ENTER]'
       - "\n"
-      - "\QDefault is to not install Japanese docs. [N/y]"
+      - '\QDefault is to not install Japanese docs. [N/y]'
       - "\n"
