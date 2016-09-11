@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QHTTP-Daemon-SSL-1.04.tar.gz\E'
+patches:
+  - SREZIC/patches/HTTP-Daemon-SSL-1.04-RT88998.patch
