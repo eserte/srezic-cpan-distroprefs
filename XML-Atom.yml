@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QXML-Atom-0.41.'
+  perlconfig:
+    version: '5\.25\.(3|4)$'
+patches:
+  - SREZIC/patches/XML-Atom-0.41-RT115101-DAVECROSS.patch
