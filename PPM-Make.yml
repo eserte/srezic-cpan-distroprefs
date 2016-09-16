@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/PPM-Make-\d"
+  distribution: "/PPM-Make-0\.9902\."
 pl:
   eexpect:
     mode: anyorder
@@ -9,3 +9,4 @@ pl:
       - "\n"
       - "\QAdd PPM? [no]"
       - "\n"
+# newer versions don't prompt anymore
