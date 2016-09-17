@@ -1494,5 +1494,6 @@ match:
     |DEDMEDVED/cheburashka.zip # not recognized as a perl package
     |PHOENIXL/extensible_report_generator_1.13.zip # extraction fails - "error: Unsupported compression combination: read 6, write 0"
     |PRBRENAN/Math-Modular-SquareRoot-1.001.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=117780
+    |DCOLLINS/Perlwikipedia-1.5.2.tar.gz # tests fail since 2010 (see https://rt.cpan.org/Ticket/Display.html?id=117918) and occupy ~1h of wallclock times
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
