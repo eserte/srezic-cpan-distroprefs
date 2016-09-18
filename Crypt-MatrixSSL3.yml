@@ -22,3 +22,9 @@ pl:
 #  expect:
 #    - '\QRun tests which require internet connection'
 #    - "\n"
+---
+match:
+  distribution: '\QPOWERMAN/Crypt-MatrixSSL3-v3.7.7.tar.gz'
+disabled: 1
+# tests fail (because of an expired cert?), see https://github.com/powerman/perl-Crypt-MatrixSSL3/issues/36
+# and now need >1h to run
