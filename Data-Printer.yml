@@ -1,0 +1,14 @@
+---
+match:
+  distribution: '/Data-Printer-0\.38\.'
+  perlconfig:
+    version: '^5\.25\.(3|4)$'
+depends:
+  configure_requires:
+    Devel::Hide: 0
+test:
+  env:
+    DEVEL_HIDE_VERBOSE: 0
+    PERL5OPT: -MDevel::Hide
+    DEVEL_HIDE_PM: Capture::Tiny
+# Workaround for https://github.com/garu/Data-Printer/issues/98
