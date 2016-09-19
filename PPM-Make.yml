@@ -1,12 +1,12 @@
 --- 
 match:
-  distribution: "/PPM-Make-0\.9902\."
+  distribution: '/PPM-Make-0\.9902\.'
 pl:
   eexpect:
     mode: anyorder
     talk:
-      - "\QAdd SOAP::Lite? [yes]"
+      - '\QAdd SOAP::Lite? [yes]'
       - "\n"
-      - "\QAdd PPM? [no]"
+      - '\QAdd PPM? [no]'
       - "\n"
 # newer versions don't prompt anymore
