@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/JSON-MaybeXS-\d'
+  perlconfig:
+    version: '^5\.8\.1$'
+pl:
+  args: ['PUREPERL_ONLY=1']
+# neither JSON::XS nor Cpanel::JSON::XS support that old perls
