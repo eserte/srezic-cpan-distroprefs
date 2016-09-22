@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/XML-Hash-LX-0\.0603\.'
+test:
+  env:
+    PERL_HASH_SEED: 1
+# https://rt.cpan.org/Ticket/Display.html?id=81645
