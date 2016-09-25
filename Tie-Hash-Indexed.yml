@@ -10,3 +10,10 @@ goto: 'MHX/Tie-Hash-Indexed-0.05_03.tar.gz'
 # 14 reverse dependencies, therefore -> patch! or goto!
 #
 # MHX/Tie-Hash-Indexed-0.05_03.tar.gz is fixed
+---
+match:
+  distribution: '/Tie-Hash-Indexed-0\.05_03\.'
+  perlconfig:
+    version: '^5\.25\.(3|4|5)$'
+patches:
+  - SREZIC/patches/Tie-Hash-Indexed-0.05_03-pull3.patch
