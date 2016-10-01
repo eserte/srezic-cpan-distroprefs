@@ -1498,5 +1498,6 @@ match:
     |PRBRENAN/Math-Modular-SquareRoot-1.001.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=117780
     |DCOLLINS/Perlwikipedia-1.5.2.tar.gz # tests fail since 2010 (see https://rt.cpan.org/Ticket/Display.html?id=117918) and occupy ~1h of wallclock times
     |MARTYLOO/DarkSky-API-0.3.tar.gz # asks for an API key
+    |LDACHARY/Catalog-1.02.tar.gz # interactive questions
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
