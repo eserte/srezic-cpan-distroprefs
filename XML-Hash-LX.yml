@@ -4,4 +4,5 @@ match:
 test:
   env:
     PERL_HASH_SEED: 1
+    PERL_PERTURB_KEYS: NO
 # https://rt.cpan.org/Ticket/Display.html?id=81645
