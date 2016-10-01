@@ -269,7 +269,6 @@ match:
     |.*/CIAO-Lib-Param-\d # needs cxcparam lib
     |.*/Data-LetterTree-\d # needs lettertree lib, not a freebsd port
     |.*/Convert-Ethiopic-\d # needs libeth, not in freebsd
-    |.*/Gtk2-ImageView-\d # missing library in freebsd
     |.*/String-Thai-Segmentation-\d # needs libwordcut
     |.*/Text-Migemo-\d # needs libmigemo
     |.*/Gtk2-WebKit-\d # needs webkit-1.0
