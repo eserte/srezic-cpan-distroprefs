@@ -1,0 +1,6 @@
+# List of distributions which need a redirect ("goto"), but
+# are also listed in 02.dangerous_cpan_distributions.yml
+---
+match:
+  distribution: 'BOOK/URI-Title-1.900.tar.gz'
+goto: 'BOOK/URI-Title-1.901.tar.gz'
