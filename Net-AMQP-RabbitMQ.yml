@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Net-AMQP-RabbitMQ-2\.200001\.'
+test:
+  env:
+    MQSKIPSSL: 1
+# certificate in t/ssl expired:
+# https://github.com/net-amqp-rabbitmq/net-amqp-rabbitmq/issues/128
