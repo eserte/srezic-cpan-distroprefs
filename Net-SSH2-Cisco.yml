@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Net-SSH2-Cisco-\d'
+test:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# question in test (router)
