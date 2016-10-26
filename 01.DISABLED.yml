@@ -503,6 +503,7 @@ match:
     |XSAWYERX/Test-SFTP-1.10.tar.gz # question in test -> https://github.com/xsawyerx/test-sftp/issues/1
     |VINSWORLD/Net-SSH2-Cisco-0.01.tar.gz # question in test (router)
     |VINSWORLD/Net-SSH2-Cisco-0.02.tar.gz # question in test (router)
+    |VINSWORLD/Net-SSH2-Cisco-0.03.tar.gz # question in test (router)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
