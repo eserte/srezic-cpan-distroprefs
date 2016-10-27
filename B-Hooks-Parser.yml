@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/B-Hooks-Parser-0\.17\.'
+  perlconfig:
+    version: '^5\.25\.[45]$'
+goto: ETHER/B-Hooks-Parser-0.18-TRIAL.tar.gz
