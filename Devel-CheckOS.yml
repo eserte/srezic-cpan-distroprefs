@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Devel-CheckOS-1\.77\."
+  distribution: '/Devel-CheckOS-1\.77\.'
 depends:
   configure_requires:
     File::Find::Rule: 0
