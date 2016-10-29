@@ -1,24 +1,33 @@
 --- 
 match:
-  distribution: "/Devel-CheckOS-\d"
-  perlconfig:
-    archname: "-freebsd"
-pl:
-  eexpect:
-    mode: anyorder
-    reuse: 1
-    timeout: 2
-    talk:
-      - "\QAre you using OSFeatures::POSIXShellRedirection? [Y/n/?] [Y]"
-      - "\n"
-      - "\QAre you using FreeBSD? [Y/n] [Y]"
-      - "\n"
-      - "\QAre you using Unix? [Y/n/?] [Y]"
-      - "\n"
-## Old questions:
-#      - "\QI think you're using OSFeatures::POSIXShellRedirection, is this right (multiple matches are OK)? [Y/n] [Y]"
+  distribution: "/Devel-CheckOS-1\.77\."
+depends:
+  configure_requires:
+    File::Find::Rule: 0
+# https://github.com/DrHyde/perl-modules-Devel-CheckOS/issues/16
+
+## Not needed anymore:
+#--- 
+#match:
+#  distribution: "/Devel-CheckOS-\d"
+#  perlconfig:
+#    archname: "-freebsd"
+#pl:
+#  eexpect:
+#    mode: anyorder
+#    reuse: 1
+#    timeout: 2
+#    talk:
+#      - "\QAre you using OSFeatures::POSIXShellRedirection? [Y/n/?] [Y]"
 #      - "\n"
-#      - "\QI think you're using FreeBSD, is this right\E.*\Q? [Y/n] [Y]"
+#      - "\QAre you using FreeBSD? [Y/n] [Y]"
 #      - "\n"
-#      - "\QI think you're using Unix, is this right\E.*\Q? [Y/n] [Y]"
+#      - "\QAre you using Unix? [Y/n/?] [Y]"
 #      - "\n"
+### Old questions:
+##      - "\QI think you're using OSFeatures::POSIXShellRedirection, is this right (multiple matches are OK)? [Y/n] [Y]"
+##      - "\n"
+##      - "\QI think you're using FreeBSD, is this right\E.*\Q? [Y/n] [Y]"
+##      - "\n"
+##      - "\QI think you're using Unix, is this right\E.*\Q? [Y/n] [Y]"
+##      - "\n"
