@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Data-Swap-0\.08\.'
+  perlconfig:
+    version: '^5\.25\.'
+patches:
+  - SREZIC/patches/Data-Swap-0.08-RT117618-SPROUT.patch
