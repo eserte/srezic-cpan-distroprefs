@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Lingua-EN-Tagger-0\.25\.'
+  perlconfig:
+    version: '^5\.25\.'
+patches:
+  - SREZIC/patches/Lingua-EN-Tagger-0.25-RT114491-MAT.patch
