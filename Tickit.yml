@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Tickit-0.5[6789]\.tar\.gz'
+  distribution: '/Tickit-0.(5[6789]|60)\.tar\.gz'
   perlconfig:
     archname: "-freebsd"
 patches:
