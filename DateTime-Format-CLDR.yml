@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QDateTime-Format-CLDR-1.17.tar.gz\E'
+patches:
+  - SREZIC/patches/DateTime-Format-CLDR-1.17-RT118286-MAROS.patch
