@@ -5,3 +5,5 @@ match:
     version: '^5\.25\.(2|3|4|5|6)$'
 patches:
   - SREZIC/patches/Modern-Perl-1.20150127-RT114690-SPROUT.patch
+# There's a newer Modern-Perl-1.20161005, but not indexed.
+# The mentioned patch is incomplete for that version.
