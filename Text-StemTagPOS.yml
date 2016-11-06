@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Text-StemTagPOS-0\.61\.'
+test:
+  env:
+    PERL_HASH_SEED: 0
+    PERL_PERTURB_KEYS: NO
+# https://rt.cpan.org/Ticket/Display.html?id=98869
