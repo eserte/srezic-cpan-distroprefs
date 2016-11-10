@@ -52,7 +52,6 @@ match:
      |\QAJOLMA/Gtk2-Ex-Geo-0.43.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.500.tar.gz\E
-     |\QAKHUETTEL/Lab-Measurement-3.511.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
      |\QAKRON/Mojolicious-Plugin-Notifications-0.10.tar.gz\E
      |\QAKRON/Mojolicious-Plugin-TagHelpers-MailToChiffre-0.04.tar.gz\E
@@ -67,6 +66,7 @@ match:
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
      |\QALEXBYK/Evo-0.0244.tar.gz\E
      |\QALEXBYK/Evo-0.0245.tar.gz\E
+     |\QALEXBYK/Mojo-Pua-0.007.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -125,6 +125,11 @@ match:
      |\QASPEER/WebDyne-Session-1.042.tar.gz\E
      |\QASPEER/WebDyne-Template-1.019.tar.gz\E
      |\QASPIERS/MySQL-Diff-0.33.tar.gz\E
+     |\QASPOSE/AsposeImagingCloud-ImagingApi-1.00.tar.gz\E
+     |\QASPOSE/AsposeSlidesCloud-SlidesApi-1.00.tar.gz\E
+     |\QASPOSE/AsposeStorageCloud-StorageApi-1.00.tar.gz\E
+     |\QASPOSE/AsposeTasksCloud-TasksApi-1.00.tar.gz\E
+     |\QASPOSE/AsposeWordsCloud-WordsApi-1.00.tar.gz\E
      |\QAUDREYT/Algorithm-Diff-XS-0.01.tar.gz\E
      |\QAUDREYT/App-SocialCalc-Multiplayer-20091119.tar.gz\E
      |\QAUDREYT/Locale-Maketext-Lexicon-0.71.tar.gz\E
@@ -448,9 +453,7 @@ match:
      |\QDROLSKY/MooseX-ClassAttribute-0.28.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
-     |\QDRTECH/Search-Elasticsearch-1.99.tar.gz\E
      |\QDRTECH/Search-Elasticsearch-2.03.tar.gz\E
-     |\QDRTECH/Search-Elasticsearch-Async-2.03.tar.gz\E
      |\QDRTECH/Search-Elasticsearch-Plugin-XPack-2.03.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
@@ -604,6 +607,7 @@ match:
      |\QGMPASSOS/Thread-Isolate-0.01.tar.gz\E
      |\QGMPASSOS/Wx-ActiveX-0.05.tar.gz\E
      |\QGMPASSOS/XML-Smart-1.3.1.tar.gz\E
+     |\QGNUSTAVO/SVN-Hooks-1.32.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.00.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.07.tar.gz\E
      |\QGOMOR/Metabrik-Repository-1.10.tar.gz\E
@@ -953,7 +957,6 @@ match:
      |\QJTAVERNI/HTML-Content-Extractor-0.01.tar.gz\E
      |\QJUERD/DBIx-Simple-1.26.tar.gz\E
      |\QJUSTIN/Telegram-Bot-0.004.tar.gz\E
-     |\QJV/Comics-0.09.tar.gz\E
      |\QJVANASCO/Authen-PluggableCaptcha-0.02.tar.gz\E
      |\QJWB/Bio-Gonzales-0.0546.tar.gz\E
      |\QJWIED/HTML-EP-0.1135.tar.gz\E
@@ -980,7 +983,6 @@ match:
      |\QKANEY/XML-ASCX12-0.03.tar.gz\E
      |\QKARASIK/IO-Lambda-1.25.tar.gz\E
      |\QKARASIK/Prima-1.48.tar.gz\E
-     |\QKARASIK/Prima-OpenGL-0.05.tar.gz\E
      |\QKARASIK/Win32-GuiTest-1.57.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.0.2.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.07.tar.gz\E
@@ -1205,6 +1207,7 @@ match:
      |\QMBRADSHAW/Mail-Milter-Authentication-v1.0.1.tar.gz\E
      |\QMCAUDILL/Net-Bot-IRC-NumericCodes-0.04.tar.gz\E
      |\QMCHANG/CGIGraph-0.9.tar.gz\E
+     |\QMCHE/Mojolicious-Plugin-RenderCGI-0.072.tar.gz\E
      |\QMCHE/Mojolicious-Plugin-RoutesAuthDBI-0.707.tar.gz\E
      |\QMDIETRICH/CloudApp-REST-0.01.tar.gz\E
      |\QMDIMEO/MPEG-ID3v2Tag-0.36.tar.gz\E
@@ -1570,7 +1573,7 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
-     |\QRSHADOW/Mojolicious-Plugin-Vparam-1.10.tar.gz\E
+     |\QRSHADOW/Mojolicious-Plugin-Vparam-1.18.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
      |\QRTKH/Raisin-0.4003.tar.gz\E
@@ -1693,6 +1696,7 @@ match:
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
      |\QSJDY/Mojo-Weixin-1.1.5.tar.gz\E
+     |\QSKAJI/App-cpm-0.211.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSLUDIN/Protocol-ACME-0.03.tar.gz\E
@@ -1799,6 +1803,7 @@ match:
      |\QTIMB/perl5.004_04.tar.gz\E
      |\QTIMBRODY/HTTP-OAI-3.28.tar.gz\E
      |\QTINITA/App-Spec-0.002.tar.gz\E
+     |\QTINITA/App-Spec-0.003.tar.gz\E
      |\QTINITA/HTML-Template-Compiled-0.97.tar.gz\E
      |\QTJENNESS/Starlink-AST-0.99.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
@@ -1978,6 +1983,7 @@ match:
      |\QYTURTLE/Nephia-0.84.tar.gz\E
      |\QYTURTLE/Nephia-Setup-Plugin-Assets-Bootstrap-0.02.tar.gz\E
      |\QYTURTLE/Nephia-Setup-Plugin-Assets-JQuery-0.02.tar.gz\E
+     |\QYTURTLE/Net-Azure-EventHubs-0.02.tar.gz\E
      |\QYUSUKEBE/App-revealup-0.14.tar.gz\E
      |\QYUSUKEBE/Shodo-0.07.tar.gz\E
      |\QYUTA/Cv-0.04.tar.gz\E
