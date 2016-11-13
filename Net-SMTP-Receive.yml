@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QNet-SMTP-Receive-0.301.tar.gz\E'
+  perlconfig:
+    version: '^5\.(23|24|25)\.'
+patches:
+  - SREZIC/patches/Net-SMTP-Receive-0.301-RT118739.patch
