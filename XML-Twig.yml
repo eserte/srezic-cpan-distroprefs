@@ -23,7 +23,7 @@ match:
 depends:
 # XXX probably only test_requires, but this is not accepted by the schema
   build_requires:
-    XML::Path: 0
+    XML::XPath: 0
 pl:
   args: ["-y"]
 # https://rt.cpan.org/Ticket/Display.html?id=118909
