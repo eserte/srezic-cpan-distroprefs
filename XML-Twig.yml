@@ -19,6 +19,16 @@ pl:
   args: ["-y"]
 --- 
 match:
+  distribution: '/XML-Twig-3\.50\.'
+depends:
+# XXX probably only test_requires, but this is not accepted by the schema
+  build_requires:
+    XML::Path: 0
+pl:
+  args: ["-y"]
+# https://rt.cpan.org/Ticket/Display.html?id=118909
+--- 
+match:
   distribution: '/XML-Twig-\d'
 pl:
   args: ["-y"]
