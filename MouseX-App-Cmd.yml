@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/MouseX-App-Cmd-0\.30\.'
+patches:
+  - SREZIC/patches/MouseX-App-Cmd-0.30-RT107068.patch
