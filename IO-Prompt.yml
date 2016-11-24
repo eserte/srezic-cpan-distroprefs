@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QIO-Prompt-0.997003.tar.gz\E'
+  perlconfig:
+    version: '^5\.25\.7'
+patches:
+  - SREZIC/patches/IO-Prompt-0.997003-RT118893.patch
