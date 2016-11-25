@@ -1,6 +1,23 @@
 --- 
 match:
   distribution: "/Filesys-SmbClient-\d"
+  perlconfig:
+# actually works only for debian/jessie, probably
+    archname: linux
+pl:
+  expect:
+    - "\QWhere can I find libsmbclient.h"
+    - "/usr/include/samba-4.0\n"
+    - "\QWhere can I find libsmbclient.so"
+    - "/usr/lib/x86_64-linux-gnu\n"
+    - "\QDo you want make tests"
+    - "no\n"
+    - "\QCompile module with trace to STDERR"
+    - "\n"
+# But does not compile anyway...
+--- 
+match:
+  distribution: "/Filesys-SmbClient-\d"
 pl:
   expect:
     - "\QWhere can I find libsmbclient.h"
