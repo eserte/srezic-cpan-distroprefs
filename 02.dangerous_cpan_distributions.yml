@@ -28,6 +28,7 @@ match:
      |\QADAMDH/WWW-Shopify-0.996.tar.gz\E
      |\QADAMDH/WWW-Shopify-0.99999.tar.gz\E
      |\QADAMDH/WWW-Shopify-Tools-Themer-0.10.tar.gz\E
+     |\QADAMJS/App-CharmKit-2.04.tar.gz\E
      |\QADAMK/Aspect-0.96.tar.gz\E
      |\QADAMK/Aspect-0.981.tar.gz\E
      |\QADAMK/Aspect-Library-Profiler-0.32.tar.gz\E
@@ -64,9 +65,6 @@ match:
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
-     |\QALEXBYK/Evo-0.0244.tar.gz\E
-     |\QALEXBYK/Evo-0.0245.tar.gz\E
-     |\QALEXBYK/Mojo-Pua-0.007.tar.gz\E
      |\QALEXK/Template-Plugin-TwoStage-0.06.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz\E
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
@@ -228,9 +226,9 @@ match:
      |\QBINARY/Quant-Framework-0.34.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
+     |\QBKB/JSON-Parse-0.44.tar.gz\E
      |\QBLAIZER/Games-2048-0.08.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
-     |\QBLHOTSKY/Git-Code-Review-1.1.tar.gz\E
      |\QBLM/Win32API-Registry-0.32.tar.gz\E
      |\QBLUEFEET/Data-Xslate-0.01.tar.gz\E
      |\QBLX/XSDSQL_20130120.tar.gz\E
@@ -551,6 +549,7 @@ match:
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
      |\QFBELTON/Template-Plugin-React-0.004.tar.gz\E
      |\QFELIPE/Crypt-RSA-Parse-0.02.tar.gz\E
+     |\QFELIPE/Net-ACME-0.03.tar.gz\E
      |\QFELLIOTT/WebService-Toggl-0.04.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFERRENCY/Text-MicroMason-2.20.tar.gz\E
@@ -1068,7 +1067,7 @@ match:
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
      |\QLAUSSER/Monitoring-GLPlugin-2.0.18.tar.gz\E
      |\QLAUSSER/Monitoring-GLPlugin-2.3.2.2.tar.gz\E
-     |\QLAUSSER/Monitoring-GLPlugin-2.3.4.tar.gz\E
+     |\QLAUSSER/Monitoring-GLPlugin-2.3.6.tar.gz\E
      |\QLBROCARD/App-Twimap-0.02.tar.gz\E
      |\QLBROCARD/Net-Cassandra-0.33.tar.gz\E
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
@@ -1217,6 +1216,7 @@ match:
      |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMENDEL/URI-redis-0.01.tar.gz\E
+     |\QMGRUNER/Pod-ProjectDocs-0.43.tar.gz\E
      |\QMGV/Acme-Evil-0.001.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMHOSKEN/Text-PDF-0.29a.tar.gz\E
@@ -1278,6 +1278,7 @@ match:
      |\QMOB/Forks-Super-0.29.tar.gz\E
      |\QMOB/Forks-Super-0.51.tar.gz\E
      |\QMOB/Forks-Super-0.68.tar.gz\E
+     |\QMOB/Forks-Super-0.86.tar.gz\E
      |\QMOCK/Apache-TieBucketBrigade-0.03.tar.gz\E
      |\QMOGAAL/Dansguardian-0.4.tar.gz\E
      |\QMONGODB/MongoDB-v0.708.4.0.tar.gz\E
@@ -1301,6 +1302,7 @@ match:
      |\QMRAMBERG/Catalyst-Model-Search-0.01.tar.gz\E
      |\QMRAMBERG/Class-DBI-Sweet-0.08.tar.gz\E
      |\QMRAMBERG/DBIx-Class-0.03002.tar.gz\E
+     |\QMSCHILLI/Log-Log4perl-1.47.tar.gz\E
      |\QMSCHILLI/Net-Evernote-Simple-0.01.tar.gz\E
      |\QMSCHOUT/Apache-AuthCookie-3.25.tar.gz\E
      |\QMSCHUETT/Text-AI-CRM114-0.04.tar.gz\E
@@ -1625,7 +1627,6 @@ match:
      |\QSARTAK/Pod-Cpandoc-0.01.tar.gz\E
      |\QSARTAK/Template-Declare-0.41.tar.gz\E
      |\QSAXJAZMAN/iodef/Iodef-Pb-Simple-0.01.tar.gz\E
-     |\QSBECK/Locale-Codes-3.39.tar.gz\E
      |\QSCAIN/Bio-GMOD-GenericGenePage-0.11.tar.gz\E
      |\QSCALDWELL/MooseX-Storage-IO-AmazonDynamoDB-0.01.tar.gz\E
      |\QSCESANO/Lego-Ldraw-0.5.7.1.tar.gz\E
@@ -1696,6 +1697,7 @@ match:
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
      |\QSJDY/Mojo-Weixin-1.1.5.tar.gz\E
+     |\QSJDY/Mojo-Weixin-1.2.2.tar.gz\E
      |\QSKAJI/App-cpm-0.211.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
      |\QSLANNING/Ogre-0.50.tar.gz\E
@@ -1997,8 +1999,9 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
+     |\QZDM/Pcore-ExtJS-v0.3.2.tar.gz\E
      |\QZDM/Pcore-Sphinx-v0.5.2.tar.gz\E
-     |\QZDM/Pcore-XMPP-v0.7.0.tar.gz\E
+     |\QZDM/Pcore-Sphinx-v0.6.0.tar.gz\E
      |\QZDM/Pcore-v0.23.20.tar.gz\E
      |\QZDM/Pcore-v0.24.2.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
