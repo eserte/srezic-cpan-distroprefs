@@ -5,3 +5,5 @@ pl:
   expect:
     - '\QDo you agree with the license above?'
     - "\n"
+# -> which actually means "no", so the build aborts and generates an "unknown" report
+# (but the build does not work anyway if "y" is entered)
