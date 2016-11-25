@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QIO-Interface-1.09.tar.gz\E'
+  perlconfig:
+    archname: -freebsd
+patches:
+  - SREZIC/patches/IO-Interface-1.09-RT101985.patch
