@@ -19,3 +19,7 @@ depends:
   build_requires:
     File::Next: 1.16
 # https://github.com/petdance/ack2/issues/602
+test:
+  env:
+    LC_ALL: C
+# https://github.com/petdance/ack2/issues/485
