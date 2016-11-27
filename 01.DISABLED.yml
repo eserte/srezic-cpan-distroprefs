@@ -263,7 +263,6 @@ match:
     |.*/Ogre-\d # no ogre installed here (freebsd), looks large, needs gnome
     |.*/Ogre-BetaGUI-\d # dito
     |.*/Physics-Udunits2-\d # no port for udunits
-    |.*/Speech-Recognizer-SPX-\d # missing prereqs on my freebsd system
     |.*/UnixODBC-\d # unixODBC exists on FreeBSD, but conflicts with iodbc, so skip this one
     |.*/Text-Scws-\d # what is libscws? does not seem to exist in the freebsd ports
     |.*/CIAO-Lib-Param-\d # needs cxcparam lib
