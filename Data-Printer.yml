@@ -2,7 +2,7 @@
 match:
   distribution: '/Data-Printer-0\.38\.'
   perlconfig:
-    version: '^5\.25\.(3|4|5|6|7)$'
+    version: '^5\.25\.(3|4|5|6|7|8)$'
 depends:
   configure_requires:
     Devel::Hide: 0
