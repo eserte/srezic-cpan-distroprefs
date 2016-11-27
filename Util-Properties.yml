@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Util-Properties-0\.10\.'
+depends:
+  configure_requires:
+    Digest::MD5::File: 0
+    IO::All: 0
+    LockFile::Simple: 0
+    Object::InsideOut: 0
+
+# https://rt.cpan.org/Ticket/Display.html?id=39175
