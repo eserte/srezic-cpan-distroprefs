@@ -5,4 +5,12 @@ depends:
   configure_requires:
     Log::StdLog: 0
     Util::Properties: 0
+    Data::Serializer: 0
+    File::Flock: 0
+    IO::All: 0
+    JSON: 0
+    LockFile::Simple: 0
+    Object::InsideOut: 0
+    XML::Twig: 0
+
 # https://rt.cpan.org/Ticket/Display.html?id=41692
