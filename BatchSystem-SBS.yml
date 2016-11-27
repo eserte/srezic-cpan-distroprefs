@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/BatchSystem-SBS-0\.41\.'
+depends:
+  configure_requires:
+    Log::StdLog: 0
+    Util::Properties: 0
+# https://rt.cpan.org/Ticket/Display.html?id=41692
