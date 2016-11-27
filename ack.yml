@@ -7,8 +7,15 @@ goto: 'PETDANCE/ack-2.13_06.tar.gz'
 # system ack is not installed.
 ---
 match:
-  distribution: '/ack-2\.14\.tar.gz'
+  distribution: '/ack-2\.14\.tar\.gz'
 test:
   env:
     LC_ALL: C
 # https://github.com/petdance/ack2/issues/485
+---
+match:
+  distribution: '/ack-2.15_02\.tar\.gz'
+depends:
+  build_requires:
+    File::Next: 1.16
+# https://github.com/petdance/ack2/issues/602
