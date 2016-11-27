@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Devel-Cover-1\.23\.'
+  perlconfig:
+    version: '^5\.25\.'
+patches:
+  - SREZIC/devel/patches/Devel-Cover-1.23-pull180-WOLFSAGE.patch
+# https://github.com/pjcj/Devel--Cover/issues/161
