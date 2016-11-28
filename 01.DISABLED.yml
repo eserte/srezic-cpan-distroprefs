@@ -365,7 +365,6 @@ match:
     |.*/LSF_Base_\d # needs /etc/lsf.conf, not in ports?
     |.*/LSF_Batch_\d # needs /etc/lsf.conf, not in ports?
     |.*/Lucene-Search-Highlight-\d # needs clucene, not in ports
-    |.*/Device-Serdisp-\d # needs -lserdisp, not in ports
     |.*/MonetDB- # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
     |.*/DBD-monetdb-\d # the OpenSource monetdb system (http://monetdb.cwi.nl), no freebsd port for it
     |.*/iodbc_ext_\d # no fbsd port for iodbc.h
