@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Lucy-0\.6\.0\.3\.'
+pl:
+  commandline: chmod u+w lib/Lucy/*.pod lib/LucyX/*/*.pod lib/Lucy/*/*.pod ; $PERL Build.PL
+# https://issues.apache.org/jira/browse/LUCY-316
