@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/B-Lint-1\.20\.'
+  perlconfig:
+    version: '5\.(21\.([789]|1\d)|(22|23|24|25)\.\d+)'
+patches:
+  - SREZIC/patches/B-Lint-1.20-RT101115-PPISAR.patch
