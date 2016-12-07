@@ -17,3 +17,9 @@ patches:
 # needed and some where it is not.
 #
 # IPC::Run 0.94 does not need any patching.
+---
+match:
+  distribution: '/IPC-Run-0\.94\.tar\.gz'
+  perlconfig:
+    archname: "MSWin32"
+goto: TODDR/IPC-Run-0.94_02.tar.gz
