@@ -1172,6 +1172,7 @@ match:
     |BULKDD/benchmark/Acme-Shining-\d # produces a lot of screen and report output (1MB per run)
     |SPLICE/Lingua-EN-Segmenter-0.1.tar.gz # is using ExtUtils::AutoInstall, see https://rt.cpan.org/Ticket/Display.html?id=87567
     |MISHIN/FamilyTreeInfo-2.3.24.tar.gz # https://github.com/mishin/Ftree-cpan/issues/2 - breaks other tests
+    |THOGEE/tagged-0.1.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=119185
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
