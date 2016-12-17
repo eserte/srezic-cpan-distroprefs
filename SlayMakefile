@@ -176,7 +176,8 @@ git-push:
 push-and-smoker-pull:	push smoker-pull
 
 smoker-pull:
-	fbsd-dsh -g moresmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull'
+	fbsd-dsh -g regularsmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull'
+	fbsd-dsh -g parttimesmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull' || true
 
 dd-prefs:
 	{
