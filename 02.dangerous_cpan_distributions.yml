@@ -205,6 +205,7 @@ match:
      |\QBBIRTH/MARC-XML-0.4.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
+     |\QBDFOY/Module-Extract-VERSION-1.111.tar.gz\E
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBDUGGAN/Rose-Planter-0.36.tar.gz\E
@@ -226,7 +227,6 @@ match:
      |\QBINARY/Quant-Framework-0.34.tar.gz\E
      |\QBINGOS/POE-Component-Server-IRC-1.40.tar.gz\E
      |\QBJEPS/B-JVM-Jasmin-0.01.tar.gz\E
-     |\QBKB/JSON-Parse-0.44.tar.gz\E
      |\QBLAIZER/Games-2048-0.08.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
      |\QBLM/Win32API-Registry-0.32.tar.gz\E
@@ -490,7 +490,6 @@ match:
      |\QEDAM/WWW-Bing-Search-0.010.tar.gz\E
      |\QEDAVIS/xmltv-0.5.31.tar.gz\E
      |\QEDENC/Catalyst-Plugin-SubRequest-0.20.tar.gz\E
-     |\QEDF/Geo-Coder-Many-0.27.tar.gz\E
      |\QEDMONSON/Games-Rezrov-0.15.tar.gz\E
      |\QEDPRATOMO/Algorithm-Permute-0.10.tar.gz\E
      |\QEDPRATOMO/DBD-InterBase-0.43.tar.gz\E
@@ -503,6 +502,7 @@ match:
      |\QEGERMAN/Lemonolap-Log4lemon-0.02.tar.gz\E
      |\QEILARA/MooseX-Role-Listenable-0.004.tar.gz\E
      |\QEILARA/XUL-Node-0.05.tar.gz\E
+     |\QEINHVERFR/PGObject-Util-DBChange-0.030.0.tar.gz\E
      |\QEISELEKD/sparse-decpp/C-sparse-0.05.tar.gz\E
      |\QEKAWAS/WSRF-Lite-0.8.3.0.tar.gz\E
      |\QELLIOTT/DBIx-Class-0.06002.tar.gz\E
@@ -515,6 +515,7 @@ match:
      |\QESUMMERS/HTML-DublinCore-0.3.tar.gz\E
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
+     |\QETHER/Test-Deep-UnorderedPairs-0.005.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -549,7 +550,6 @@ match:
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
      |\QFBELTON/Template-Plugin-React-0.004.tar.gz\E
      |\QFELIPE/Crypt-RSA-Parse-0.02.tar.gz\E
-     |\QFELIPE/Net-ACME-0.03.tar.gz\E
      |\QFELLIOTT/WebService-Toggl-0.04.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFERRENCY/Text-MicroMason-2.20.tar.gz\E
@@ -859,6 +859,7 @@ match:
      |\QJESSE/RTx-TicketlistTransactions-0.01.tar.gz\E
      |\QJESTER/Catalyst-Model-CDBI-Plain-0.02.tar.gz\E
      |\QJETTERO/Games-Go-SGF2misc-0.9781.tar.gz\E
+     |\QJFORGET/DateTime-Calendar-FrenchRevolutionary-0.13.tar.gz\E
      |\QJFRIED/Rex-0.57.0.tar.gz\E
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
@@ -887,6 +888,7 @@ match:
      |\QJINZANG/App-Followme-1.03.tar.gz\E
      |\QJINZANG/App-Followme-1.16.tar.gz\E
      |\QJJNAPIORK/Catalyst-Plugin-InjectionHelpers-0.007.tar.gz\E
+     |\QJJNAPIORK/Catalyst-View-Template-Pure-0.014.tar.gz\E
      |\QJJNAPIORK/DBIx-Class-Migration-0.044.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.02.tar.gz\E
      |\QJJNAPIORK/MooseX-Types-Structured-0.25.tar.gz\E
@@ -902,6 +904,7 @@ match:
      |\QJLMARTIN/Paws-0.27.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.25.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.51.tar.gz\E
+     |\QJMASLAK/IP-Random-1.001.tar.gz\E
      |\QJMASON/Mail-SpamAssassin-2.64.tar.gz\E
      |\QJMASON/Mail-SpamAssassin-3.1.9.tar.gz\E
      |\QJMASON/Mail-SpamAssassin-3.2.5.tar.gz\E
@@ -956,6 +959,7 @@ match:
      |\QJTAVERNI/HTML-Content-Extractor-0.01.tar.gz\E
      |\QJUERD/DBIx-Simple-1.26.tar.gz\E
      |\QJUSTIN/Telegram-Bot-0.004.tar.gz\E
+     |\QJV/App-PDF-Link-0.16.tar.gz\E
      |\QJVANASCO/Authen-PluggableCaptcha-0.02.tar.gz\E
      |\QJWB/Bio-Gonzales-0.0546.tar.gz\E
      |\QJWIED/HTML-EP-0.1135.tar.gz\E
@@ -1067,7 +1071,7 @@ match:
      |\QLAOMOI/SkypeAPI-0.05.tar.gz\E
      |\QLAUSSER/Monitoring-GLPlugin-2.0.18.tar.gz\E
      |\QLAUSSER/Monitoring-GLPlugin-2.3.2.2.tar.gz\E
-     |\QLAUSSER/Monitoring-GLPlugin-2.3.6.tar.gz\E
+     |\QLAUSSER/Monitoring-GLPlugin-2.3.7.tar.gz\E
      |\QLBROCARD/App-Twimap-0.02.tar.gz\E
      |\QLBROCARD/Net-Cassandra-0.33.tar.gz\E
      |\QLBROCARD/Test-WWW-Mechanize-Catalyst-0.45.tar.gz\E
@@ -1129,6 +1133,7 @@ match:
      |\QMADSKILL/QBit-WebInterface-0.025.tar.gz\E
      |\QMADSKILL/QBit-WebInterface-Routing-0.001.tar.gz\E
      |\QMADSKILL/QBit-WebInterface-Routing-0.002.tar.gz\E
+     |\QMADSKILL/QBit-WebInterface-Routing-0.007.tar.gz\E
      |\QMADWOLF/OpenCA-Crypto-0.9.1.1.1.tar.gz\E
      |\QMADWOLF/OpenCA-OpenSSL-0.9.91.tar.gz\E
      |\QMADZ/DSlib-2.12.tar.gz\E
@@ -1194,6 +1199,7 @@ match:
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-0.0100021.tar.gz\E
      |\QMAXHQ/Dist-Zilla-PluginBundle-Author-MAXHQ-3.2.0.tar.gz\E
      |\QMAXMIND/Business-MaxMind-1.57.tar.gz\E
+     |\QMAXMIND/Dist-Zilla-PluginBundle-MAXMIND-0.13.tar.gz\E
      |\QMAXMIND/Geo-IP-1.45.tar.gz\E
      |\QMAXMIND/MaxMind-DB-Reader-1.000007.tar.gz\E
      |\QMAXMIND/WebService-MinFraud-0.002000.tar.gz\E
@@ -1268,6 +1274,8 @@ match:
      |\QMLS/XML-Structured-1.0.tar.gz\E
      |\QMMCLERIC/Flux-1.02.tar.gz\E
      |\QMMIMS/Net-Twitter-3.13000.tar.gz\E
+     |\QMMIMS/Twitter-API-0.0105.tar.gz\E
+     |\QMMIMS/Twitter-API-0.0107.tar.gz\E
      |\QMMORGAN/MooseX-SlurpyConstructor-1.1.tar.gz\E
      |\QMNSMAR/GenOO-1.4.4.tar.gz\E
      |\QMNUNBERG/Constant-Generate-0.12.tar.gz\E
@@ -1419,8 +1427,8 @@ match:
      |\QNWCLARK/perl-5.8.9.tar.gz\E
      |\QNWELLNHOF/Clownfish-0.4.4.tar.gz\E
      |\QNWELLNHOF/Clownfish-0.5.1.tar.gz\E
-     |\QNWELLNHOF/Clownfish-0.6.0.3.tar.gz\E
      |\QNWELLNHOF/Email-MIME-RFC2047-0.93.tar.gz\E
+     |\QNWELLNHOF/Lucy-0.6.0.tar.gz\E
      |\QNWETTERS/Apache-Emulator-0.04.tar.gz\E
      |\QNWETTERS/WWW-AdServer-0.02.tar.gz\E
      |\QNWIGER/CGI-FormBuilder-3.06.tgz\E
@@ -1468,7 +1476,10 @@ match:
      |\QPERRETTDL/Test-Proto-0.011.tar.gz\E
      |\QPETDANCE/ack-1.96.tar.gz\E
      |\QPETERGAL/PGForth1.0.tar.gz\E
-     |\QPEVANS/Device-Chip-MAX7219-0.02.tar.gz\E
+     |\QPEVANS/Device-Chip-DS1307-0.02.tar.gz\E
+     |\QPEVANS/Device-Chip-INA219-0.03.tar.gz\E
+     |\QPEVANS/Device-Chip-MAX7219-0.03.tar.gz\E
+     |\QPEVANS/Device-Chip-MPL3115A2-0.04.tar.gz\E
      |\QPEVANS/FCGI-Async-0.21.tar.gz\E
      |\QPEVANS/circle-be-0.132150.tar.gz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
@@ -1535,6 +1546,7 @@ match:
      |\QREATMON/Net-Jabber-1.30.tar.gz\E
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
+     |\QREISINGE/App-Monport-0.11.tar.gz\E
      |\QRENEEB/OTRS-OPM-Analyzer-0.05.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
@@ -1575,10 +1587,8 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
-     |\QRSHADOW/Mojolicious-Plugin-Vparam-1.18.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
-     |\QRTKH/Raisin-0.4003.tar.gz\E
      |\QRURBAN/B-C-1.36.tar.gz\E
      |\QRURBAN/B-C-1.52.tar.gz\E
      |\QRURBAN/C-DynaLib-0.60.tar.gz\E
@@ -1627,6 +1637,7 @@ match:
      |\QSARTAK/Pod-Cpandoc-0.01.tar.gz\E
      |\QSARTAK/Template-Declare-0.41.tar.gz\E
      |\QSAXJAZMAN/iodef/Iodef-Pb-Simple-0.01.tar.gz\E
+     |\QSBECK/Date-Manip-6.56.tar.gz\E
      |\QSCAIN/Bio-GMOD-GenericGenePage-0.11.tar.gz\E
      |\QSCALDWELL/MooseX-Storage-IO-AmazonDynamoDB-0.01.tar.gz\E
      |\QSCESANO/Lego-Ldraw-0.5.7.1.tar.gz\E
@@ -1773,7 +1784,6 @@ match:
      |\QSUNDQUIST/Google-Ads-AdWords-Client-4.8.0.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
-     |\QSZABGAB/Devel-Timer-0.07.tar.gz\E
      |\QTAKERU/Catalyst-Controller-Atompub-0.5.4.tar.gz\E
      |\QTAKUJI/DateTimeX-Factory-0.03.tar.gz\E
      |\QTANIGUCHI/HTML-Entities-Numbered-0.03.tar.gz\E
@@ -1892,7 +1902,6 @@ match:
      |\QVANSTYN/RapidApp-0.99664.tar.gz\E
      |\QVANSTYN/RapidApp-0.99700.tar.gz\E
      |\QVARISD/Treex-Core-2.20151210.tar.gz\E
-     |\QVDB/Dist-Zilla-PluginBundle-Author-VDB-v0.11.1.tar.gz\E
      |\QVDB/Systemd-Daemon-0.06.tar.gz\E
      |\QVESELOSKY/Feed-Pipe-1.003.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
@@ -1927,8 +1936,6 @@ match:
      |\QVTI/Mojo-JSON-Any-0.990103.tar.gz\E
      |\QVVELOX/ZConf-Mail-1.4.1.tar.gz\E
      |\QWAIDER/Finance-Bank-IE-0.29.tar.gz\E
-     |\QWANGQ/App-Fasops-0.4.8.tar.gz\E
-     |\QWANGQ/App-RL-0.2.9.tar.gz\E
      |\QWBRASWELL/RPerl-1.000007.tar.gz\E
      |\QWBRASWELL/RPerl-1.100002.tar.gz\E
      |\QWBRASWELL/RPerl-1.300000.tar.gz\E
@@ -1942,6 +1949,7 @@ match:
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWROSS/Class-DBI-Factory-0.86.tar.gz\E
      |\QWVDB/Simulation-Automate-1.0.0.tar.gz\E
+     |\QWYANT/Astro-App-Satpass2-0.031.tar.gz\E
      |\QXAICRON/DBIx-QueryLog-0.06.tar.gz\E
      |\QXAICRON/JSON-WebToken-0.05.tar.gz\E
      |\QXAICRON/Module-Install-TestTarget-0.15.tar.gz\E
@@ -1999,11 +2007,15 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
+     |\QZDM/Pcore-Captcha-v0.8.0.tar.gz\E
      |\QZDM/Pcore-ExtJS-v0.3.2.tar.gz\E
+     |\QZDM/Pcore-Nginx-v0.10.1.tar.gz\E
      |\QZDM/Pcore-Sphinx-v0.5.2.tar.gz\E
      |\QZDM/Pcore-Sphinx-v0.6.0.tar.gz\E
+     |\QZDM/Pcore-WebDriver-v0.1.4.tar.gz\E
      |\QZDM/Pcore-v0.23.20.tar.gz\E
      |\QZDM/Pcore-v0.24.2.tar.gz\E
+     |\QZDM/Pcore-v0.24.5.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
