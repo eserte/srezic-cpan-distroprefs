@@ -692,7 +692,6 @@ match:
      |\QHITODE/App-PRT-0.16.tar.gz\E
      |\QHJHELGE/Tk-MListbox-1.09.tar.gz\E
      |\QHKCLARK/Catalyst-Plugin-StatusMessage-0.003000.tar.gz\E
-     |\QHOBBESTIG/Dancer-Plugin-Browser-1.130570.tar.gz\E
      |\QHOBBESTIG/MediaWikiUtils-0.141011.tar.gz\E
      |\QHOBBESTIG/Net-Gandi-0.12.tar.gz\E
      |\QHOCHSTEN/Catmandu-Breaker-0.02.tar.gz\E
@@ -1449,6 +1448,7 @@ match:
      |\QOVID/Test-Harness-3.26.tar.gz\E
      |\QOVID/Test-Harness-3.28.tar.gz\E
      |\QOVID/Test-Kit-0.101.tar.gz\E
+     |\QPACKY/JIRA-REST-Class-0.03.tar.gz\E
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
