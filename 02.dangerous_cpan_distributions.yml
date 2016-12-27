@@ -901,6 +901,7 @@ match:
      |\QJLLEROY/Tangram-2.04.tar.gz\E
      |\QJLMARTIN/Paws-0.22.tar.gz\E
      |\QJLMARTIN/Paws-0.27.tar.gz\E
+     |\QJLMARTIN/Paws-0.28.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.25.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.51.tar.gz\E
      |\QJMASLAK/IP-Random-1.001.tar.gz\E
@@ -1225,7 +1226,6 @@ match:
      |\QMGV/Acme-Evil-0.001.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMHOSKEN/Text-PDF-0.29a.tar.gz\E
-     |\QMICKEY/PONAPI-Server-0.002015.tar.gz\E
      |\QMICKEY/PONAPI-Server-0.002017.tar.gz\E
      |\QMICVU/HTTP-API-Client-0.01.tar.gz\E
      |\QMIKI/HTML-Feature-2.00006.tar.gz\E
@@ -1532,7 +1532,6 @@ match:
      |\QRADCLIFF/WebService-Eventful-1.0.tar.gz\E
      |\QRAM/Carp-Datum-0.1.2.tar.gz\E
      |\QRANDERSON/HTTP-WebTest-1.02.tar.gz\E
-     |\QRAPPAZF/Wx-Perl-DbLinker-0.004.tar.gz\E
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
      |\QRBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz\E
      |\QRBOW/WWW-SourceForge-0.70.tar.gz\E
