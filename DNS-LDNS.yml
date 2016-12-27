@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/DNS-LDNS-0\.52\.'
+  perlconfig:
+    osname: darwin
+patches:
+  - SREZIC/patches/DNS-LDNS-0.52-MacOSX.patch
