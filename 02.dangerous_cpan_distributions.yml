@@ -206,6 +206,7 @@ match:
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
      |\QBDFOY/Module-Extract-VERSION-1.111.tar.gz\E
+     |\QBDFOY/Polyglot-1.001.tar.gz\E
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBDUGGAN/Rose-Planter-0.36.tar.gz\E
@@ -417,6 +418,7 @@ match:
      |\QDJBURKE/Inline-SLang-0.06.tar.gz\E
      |\QDJH/Maypole-Plugin-Authorization-0.05.tar.gz\E
      |\QDJUNKIM/Statistics-RserveClient-0.04.tgz\E
+     |\QDJZORT/BZ-Client-1.072.tar.gz\E
      |\QDJZORT/Catalyst-View-TT-Alloy-0.00005.tar.gz\E
      |\QDKAMHOLZ/Catalyst-Plugin-Authentication-Store-DBIC-0.07.tar.gz\E
      |\QDKAMHOLZ/DBIx-Class-0.04001.tar.gz\E
@@ -502,7 +504,6 @@ match:
      |\QEGERMAN/Lemonolap-Log4lemon-0.02.tar.gz\E
      |\QEILARA/MooseX-Role-Listenable-0.004.tar.gz\E
      |\QEILARA/XUL-Node-0.05.tar.gz\E
-     |\QEINHVERFR/PGObject-Util-DBChange-0.030.0.tar.gz\E
      |\QEISELEKD/sparse-decpp/C-sparse-0.05.tar.gz\E
      |\QEKAWAS/WSRF-Lite-0.8.3.0.tar.gz\E
      |\QELLIOTT/DBIx-Class-0.06002.tar.gz\E
@@ -537,6 +538,7 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
+     |\QEXODIST/Test2-Harness-0.000011.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -549,7 +551,9 @@ match:
      |\QFAYLAND/Padre-Plugin-JavaScript-0.25.tar.gz\E
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
      |\QFBELTON/Template-Plugin-React-0.004.tar.gz\E
+     |\QFELIPE/Crypt-Perl-0.14.tar.gz\E
      |\QFELIPE/Crypt-RSA-Parse-0.02.tar.gz\E
+     |\QFELIPE/Net-ACME-0.094.tar.gz\E
      |\QFELLIOTT/WebService-Toggl-0.04.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFERRENCY/Text-MicroMason-2.20.tar.gz\E
@@ -899,7 +903,6 @@ match:
      |\QJLAWRENC/PDF-Labels-0.01.tar.gz\E
      |\QJLAWRENC/Paper-Specs-0.03.tar.gz\E
      |\QJLLEROY/Tangram-2.04.tar.gz\E
-     |\QJLMARTIN/Paws-0.22.tar.gz\E
      |\QJLMARTIN/Paws-0.27.tar.gz\E
      |\QJLMARTIN/Paws-0.28.tar.gz\E
      |\QJMACFARLA/Parse-Win32Registry-0.25.tar.gz\E
@@ -1019,6 +1022,7 @@ match:
      |\QKHS/Template-Reverse-0.04.tar.gz\E
      |\QKIMOTO/Mojolicious-Plugin-DBViewer-0.01.tar.gz\E
      |\QKIMOTO/Mojolicious-Plugin-SQLiteViewerLite-0.01.tar.gz\E
+     |\QKIMOTO/Object-Simple-3.1801.tar.gz\E
      |\QKIMOTO/Rstats-0.0105.tar.gz\E
      |\QKIMOTO/Rstats-0.0108.tar.gz\E
      |\QKIMOTO/Rstats-0.0126.tar.gz\E
@@ -1167,6 +1171,7 @@ match:
      |\QMANWAR/XML-XPath-1.25.tar.gz\E
      |\QMARCC/xml-tag-0.1.tar.gz\E
      |\QMARCLANG/ParallelUserAgent-2.54.tar.gz\E
+     |\QMARGHI/Mongol-1.3.tar.gz\E
      |\QMARIAB/WWW-TMDB-API0.03.tar.gz\E
      |\QMARKBUSH/NTLM-1.01.tar.gz\E
      |\QMARKF/Test-DatabaseRow-1.04.tar.gz\E
@@ -1223,7 +1228,6 @@ match:
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMENDEL/URI-redis-0.01.tar.gz\E
      |\QMGRUNER/Pod-ProjectDocs-0.43.tar.gz\E
-     |\QMGV/Acme-Evil-0.001.tar.gz\E
      |\QMHOSKEN/Font-TTF-Scripts-1.04.1.tar.gz\E
      |\QMHOSKEN/Text-PDF-0.29a.tar.gz\E
      |\QMICKEY/PONAPI-Server-0.002017.tar.gz\E
@@ -1448,7 +1452,7 @@ match:
      |\QOVID/Test-Harness-3.26.tar.gz\E
      |\QOVID/Test-Harness-3.28.tar.gz\E
      |\QOVID/Test-Kit-0.101.tar.gz\E
-     |\QPACKY/JIRA-REST-Class-0.03.tar.gz\E
+     |\QPACKY/JIRA-REST-Class-0.05.tar.gz\E
      |\QPAJAS/XML-XSH2-2.1.7.tar.gz\E
      |\QPAPIX/Nephia-Plugin-PlackSession-0.01.tar.gz\E
      |\QPAVELH/XML-Sablotron-0.97.tar.gz\E
@@ -1463,7 +1467,7 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLER/MooseX-Attribute-Chained-1.0.1.tar.gz\E
+     |\QPERLANCAR/Sah-Schemas-CPANMeta-0.002.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1588,6 +1592,7 @@ match:
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
+     |\QRTKH/Raisin-0.69.tar.gz\E
      |\QRURBAN/B-C-1.36.tar.gz\E
      |\QRURBAN/B-C-1.52.tar.gz\E
      |\QRURBAN/C-DynaLib-0.60.tar.gz\E
@@ -1706,8 +1711,10 @@ match:
      |\QSIMPLIFY/Net-Simplify-1.0.1.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
+     |\QSJDY/Mojo-Webqq-1.8.9.tar.gz\E
      |\QSJDY/Mojo-Weixin-1.1.5.tar.gz\E
      |\QSJDY/Mojo-Weixin-1.2.2.tar.gz\E
+     |\QSJDY/Mojo-Weixin-1.2.5.tar.gz\E
      |\QSKAJI/App-cpm-0.211.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
      |\QSLANNING/Ogre-0.50.tar.gz\E
