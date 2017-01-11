@@ -54,7 +54,7 @@ match:
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.500.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
-     |\QAKRON/Mojolicious-Plugin-Notifications-0.10.tar.gz\E
+     |\QAKRON/Mojolicious-Plugin-Notifications-0.12.tar.gz\E
      |\QAKRON/Mojolicious-Plugin-TagHelpers-MailToChiffre-0.04.tar.gz\E
      |\QAKXLIX/Sisimai-4.0.1.tar.gz\E
      |\QAKXLIX/Sisimai-4.0.2.tar.gz\E
@@ -1873,9 +1873,6 @@ match:
      |\QTOREAU/URL-List-0.02.tar.gz\E
      |\QTOSHIOITO/Gnuplot-Builder-0.02.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
-     |\QTRIZEN/Sidef-2.23.tar.gz\E
-     |\QTRIZEN/Sidef-2.24.tar.gz\E
-     |\QTRIZEN/Sidef-2.26.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/Jifty-1.10228.tar.gz\E
