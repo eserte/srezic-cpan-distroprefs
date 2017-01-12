@@ -1497,5 +1497,6 @@ match:
     |MARTYLOO/DarkSky-API-0.3.tar.gz # asks for an API key
     |LDACHARY/Catalog-1.02.tar.gz # interactive questions
     |MLARUE/0.1_02.zip # no real distribution name
+    |BES/Daemon-DaemonizeLight-0.01.tar.gz # eating too much memory, running forever...
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
