@@ -1498,5 +1498,6 @@ match:
     |LDACHARY/Catalog-1.02.tar.gz # interactive questions
     |MLARUE/0.1_02.zip # no real distribution name
     |BES/Daemon-DaemonizeLight-0.01.tar.gz # eating too much memory, running forever...
+    |BES/Daemon-DaemonizeLight-0.02.tar.gz # running forever...
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
