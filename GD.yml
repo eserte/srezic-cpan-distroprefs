@@ -38,11 +38,12 @@ match:
     archname: linux
     osvers: '^4\.8\.0-'
 cpanconfig:
-  prefer_installer: MB
+  prefer_installer: EUMM
 pl:
-  commandline: $PERL Build.PL
+  commandline: rm -f bdf_scripts/bdf2gdfont.pl; mv lib/GD.xs .; $PERL Makefile.PL
 patches:
   - SREZIC/patches/GD-2.56-RT114788-GREGOA.patch
+  - SREZIC/patches/GD-2.56-RT105407.patch
 # debian/stretch does not have gdlib-config anymore
 ---
 match:
