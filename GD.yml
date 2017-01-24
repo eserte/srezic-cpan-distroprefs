@@ -35,6 +35,19 @@ pl:
 match:
   distribution: '/GD-2\.56\.'
   perlconfig:
+    archname: linux
+    osvers: '^4\.8\.0-'
+cpanconfig:
+  prefer_installer: MB
+pl:
+  commandline: $PERL Build.PL
+patches:
+  - SREZIC/patches/GD-2.56-RT114788-GREGOA.patch
+# debian/stretch does not have gdlib-config anymore
+---
+match:
+  distribution: '/GD-2\.56\.'
+  perlconfig:
     archname: '(^darwin-|-freebsd)'
 cpanconfig:
   prefer_installer: MB
