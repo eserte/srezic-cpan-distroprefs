@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: '/Bio-Grid-Run-SGE-0\.038[012345]?\.'
-  env:
-    PERL_BATCH: yes
+  distribution: '/Bio-Grid-Run-SGE-0\.(034|037|038|042)'
+#  env:
+#    PERL_BATCH: yes
 disabled: 1
 # Tests use many scripts with default (system) perl --- this cannot work
 # Unfortunately in case of errors the tests run very very long.
