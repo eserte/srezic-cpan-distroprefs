@@ -378,7 +378,6 @@ match:
     |.*/Astro-SLA-\d # needs slalib.h, not in ports
     |.*/Bio-MedChunker-\d # insists on installing Bio-Medpost
     |.*/TUXEDO-\d # not in ports
-    |.*/Encode-TECkit-\d # TECkit not in ports
     |.*/Db-GTM-\d # needs gtm/mumps, not in ports
     |.*/LWES-\d # not in ports
     |.*/Net-Arping-\d # libnet (libnet-config) not in ports
