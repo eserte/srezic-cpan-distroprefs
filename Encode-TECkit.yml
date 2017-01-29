@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QEncode-TECkit-0.04.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+patches:
+  - SREZIC/patches/Encode-TECkit-0.04-RT120026.patch
