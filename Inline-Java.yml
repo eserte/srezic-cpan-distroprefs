@@ -40,7 +40,20 @@ pl:
     - '\QDo you wish to build the PerlInterpreter extension? [n]'
     - "\n"
 --- 
-# Valid only for Debian/wheezy and Debian/jessie with openjdk7 installed
+# Valid only for Debian/stretch (amd64) with openjdk8 installed
+# Also required: -nolimits!
+match:
+  distribution: '/Inline-Java-\d'
+  perlconfig:
+    archname: x86_64-linux
+    osvers: '^4\.8\.0-'
+pl:
+  args:
+    - J2SDK=/usr/lib/jvm/java-8-openjdk-amd64
+  env:
+    PERL_MM_USE_DEFAULT: 1
+--- 
+# Valid only for Debian/wheezy and Debian/jessie (amd64) with openjdk7 installed
 # Also required: -nolimits!
 match:
   distribution: '/Inline-Java-\d'
