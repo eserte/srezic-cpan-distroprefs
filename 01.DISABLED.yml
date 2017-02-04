@@ -1499,5 +1499,6 @@ match:
     |BES/Daemon-DaemonizeLight-0.03.tar.gz # running forever...
     |INA/Fake/Our/Fake-Our-0.07.tar.gz # self-dependency
     |LSKATZ/Kmer.tar.gz # no Makefile.PL
+    |NNMOS/API-Intis-1.00.tar.gz # no Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=120114
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
