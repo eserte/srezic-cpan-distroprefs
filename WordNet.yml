@@ -28,6 +28,20 @@ test:
 match:
   distribution: "/WordNet-.*"
   perlconfig:
+    archname: "^darwin"
+pl:
+  env:
+    WNHOME: /usr/local/Cellar/wordnet/3.1
+make:
+  env:
+    WNHOME: /usr/local/Cellar/wordnet/3.1
+test:
+  env:
+    WNHOME: /usr/local/Cellar/wordnet/3.1
+---
+match:
+  distribution: "/WordNet-.*"
+  perlconfig:
     archname: "-linux"
 # matches CentOS7
     osvers: '^3\.10\.0-042stab120\.6'
