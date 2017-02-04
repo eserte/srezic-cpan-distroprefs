@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Crypt-OpenSSL-X509-\d'
+  distribution: '/Crypt-OpenSSL-(X509|Random)-\d'
   perlconfig:
     archname: '^darwin'
 pl:
