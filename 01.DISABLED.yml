@@ -1498,5 +1498,6 @@ match:
     |BES/Daemon-DaemonizeLight-0.02.tar.gz # running forever...
     |BES/Daemon-DaemonizeLight-0.03.tar.gz # running forever...
     |INA/Fake/Our/Fake-Our-0.07.tar.gz # self-dependency
+    |LSKATZ/Kmer.tar.gz # no Makefile.PL
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
