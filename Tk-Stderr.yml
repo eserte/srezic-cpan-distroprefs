@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QTk-Stderr-1.2.tar.gz\E'
+patches:
+  - SREZIC/patches/Tk-Stderr-1.2-RT120217.patch
