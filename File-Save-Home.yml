@@ -1,8 +1,10 @@
 ---
 match:
-  distribution: '/File-Save-Home-\d'
+  distribution: '/File-Save-Home-0\.0\d\.'
 disabled: 1
 # https://rt.cpan.org/Ticket/Display.html?id=111637
 #
 # Not sure if ExtUtils-ModuleMaker or File-Save-Home is
 # to blame here.
+#
+# -> 0.09 is the bad one (maybe also earlier version), 0.10 seems to be OK.
