@@ -14,6 +14,6 @@ goto: 'MHX/Tie-Hash-Indexed-0.05_03.tar.gz'
 match:
   distribution: '/Tie-Hash-Indexed-0\.05_03\.'
   perlconfig:
-    version: '^5\.25\.(3|4|5|6|7)$'
+    version: '^5\.25\.(3|4|5|6|7|8|9|10)$'
 patches:
   - SREZIC/patches/Tie-Hash-Indexed-0.05_03-pull3.patch
