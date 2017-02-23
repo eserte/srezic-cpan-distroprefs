@@ -46,7 +46,7 @@ match:
   distribution: '/Inline-Java-\d'
   perlconfig:
     archname: x86_64-linux
-    osvers: '^(4\.4\.0-|4\.8\.0-)'
+    osvers: '^(4\.4\.0-|4\.8\.0-|4\.9\.0-)'
 pl:
   args:
     - J2SDK=/usr/lib/jvm/java-8-openjdk-amd64

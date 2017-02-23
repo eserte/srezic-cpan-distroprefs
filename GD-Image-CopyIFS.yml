@@ -3,7 +3,7 @@ match:
   distribution: '/GD-Image-CopyIFS-0\.25\.'
   perlconfig:
     archname: linux
-    osvers: '^4\.8\.0-'
+    osvers: '^4\.(8|9)\.0-'
 # gdlib-config does not exist anymore in stretch
 pl:
   eexpect:
