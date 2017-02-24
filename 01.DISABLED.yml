@@ -1502,5 +1502,9 @@ match:
     |LSKATZ/Kmer.tar.gz # no Makefile.PL
     |NNMOS/API-Intis-1.00.tar.gz # no Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=120114
     |RGARTON/Statistics-ANOVA-0.11.tar.gz # self dependency - https://rt.cpan.org/Ticket/Display.html?id=120133
+    |DFARRELL/WWW-IP-0.05.tar.gz # empty distribution - https://rt.cpan.org/Ticket/Display.html?id=120344
+    |DFARRELL/WWW-hmaip-0.03.tar.gz # empty distribution - https://rt.cpan.org/Ticket/Display.html?id=120354
+    |DFARRELL/WWW-canihazip-0.02.tar.gz # empty distribution - https://rt.cpan.org/Ticket/Display.html?id=120355
+    |DFARRELL/WWW-ipinfo-0.06.tar.gz  # empty distribution - no separate ticket
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
