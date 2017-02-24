@@ -1431,6 +1431,7 @@ match:
     |BINARY/Date-Utility-1.02.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=107346
     |JACOBY/Expect-1.32.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=108299
     |ZOWIE/Alien-Gnuplot-1.031 # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=109034
+    |ZOWIE/Alien-Gnuplot-1.032 # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=109034
     |.*/Games-Baseball-Scorecard-0.03 # probably more TeX prereqs needed than I have on my smokers
     |DDUMONT/Config-Model-Itself-2.001.tar.gz # tests hang on many systems
     |DDUMONT/Config-Model-Itself-2.002.tar.gz # tests hang on many systems
