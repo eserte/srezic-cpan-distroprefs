@@ -1,19 +1,9 @@
 ---
 match:
-  distribution: '/Unicode-LineBreak-\d'
+  distribution: '/\QUnicode-LineBreak-2016.003.tar.gz\E'
   perlconfig:
-    archname: '(-freebsd)'
-    osvers: '^[8]\.'
-pl:
-  args:
-    - '--disable-libthai'
-## perl Makefile.PL says:
-##   Version of your libthai is 0.1.5.  0.1.9 or later is required.  Update it or specify --disable-libthai option.
-## It seems that libthai 0.1.19 is now in
-## the ports, but it's not installed on
-## my systems.
-#test:
-#  commandline: "limits -t 30 make test"
-#comment: Runs forever on freebsd systems if libthai 0.1.5 is installed, ok with libthai 0.1.12+libdatrie 0.2.2
-#
-# Later: now libthai 0.1.22 is available in the ports, so restrict this to freebsd 8 only.
+    archname: '-freebsd'
+# Actually needed for all systems with EUMM >= 7.16, and
+# some non-GNU make versions (BSD make, maybe nmake and dmake...)
+patches:
+  - SREZIC/patches/Unicode-LineBreak-2016.003-RT117800.patch
