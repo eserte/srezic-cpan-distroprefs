@@ -1,9 +1,10 @@
 ---
 match:
-  distribution: '/\QUnicode-LineBreak-2016.003.tar.gz\E'
+  distribution: '/\QUnicode-LineBreak-\E(2016.003|2016.007_02)\.tar\.gz$'
   perlconfig:
     archname: '-freebsd'
 # Actually needed for all systems with EUMM >= 7.16, and
 # some non-GNU make versions (BSD make, maybe nmake and dmake...)
 patches:
   - SREZIC/patches/Unicode-LineBreak-2016.003-RT117800.patch
+# Individual ticket: https://rt.cpan.org/Ticket/Display.html?id=120370

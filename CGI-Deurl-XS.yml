@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/\QCGI-Deurl-XS-0.08.tar.gz\E'
+  perlconfig:
+    archname: '-freebsd'
+# Actually needed for all systems with EUMM >= 7.16, and
+# some non-GNU make versions (BSD make, maybe nmake and dmake...)
+patches:
+  - SREZIC/patches/CGI-Deurl-XS-0.08-RT117800.patch
+# Individual ticket: https://rt.cpan.org/Ticket/Display.html?id=120407
