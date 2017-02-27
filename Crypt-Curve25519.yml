@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/\QCrypt-Curve25519-0.05.tar.gz\E'
+  perlconfig:
+    archname: '-freebsd'
+# Actually needed for all systems with EUMM >= 7.16, and
+# some non-GNU make versions (BSD make, maybe nmake and dmake...)
+patches:
+  - SREZIC/patches/Crypt-Curve25519-0.05-RT117800.patch
