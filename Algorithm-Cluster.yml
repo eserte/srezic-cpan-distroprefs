@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/\QAlgorithm-Cluster-1.52.tar.gz\E'
+  perlconfig:
+    archname: '-freebsd'
+# Actually needed for all systems with EUMM >= 7.16, and
+# some non-GNU make versions (BSD make, maybe nmake and dmake...)
+patches:
+  - SREZIC/patches/Algorithm-Cluster-1.52-RT117800.patch
+# Individual report: https://rt.cpan.org/Ticket/Display.html?id=120442
