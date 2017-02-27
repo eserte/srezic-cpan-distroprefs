@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/\QMath-CDF-0.1.tar.gz\E'
+  perlconfig:
+    archname: '-freebsd'
+# Actually needed for all systems with EUMM >= 7.16, and
+# some non-GNU make versions (BSD make, maybe nmake and dmake...)
+patches:
+  - SREZIC/patches/Math-CDF-0.1-RT117800.patch
+# Individual ticket: https://rt.cpan.org/Ticket/Display.html?id=120432
