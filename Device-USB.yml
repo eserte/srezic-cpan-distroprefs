@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Device-USB-0\.36\.'
+pl:
+  commandline: rm -f USB.pm; mkdir -p examples; mv dump_usb.pl examples/; $PERL Makefile.PL
