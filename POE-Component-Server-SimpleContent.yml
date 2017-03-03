@@ -9,5 +9,7 @@ pl:
       - "\n"
       - '\QDo you want to install optional module File::MMagic [y/N]? [N]'
       - "\n"
+      - '\QDo you want to install optional module File::LibMagic [y/N] [N]'
+      - "\n"
     timeout: 120
     reuse: 1
