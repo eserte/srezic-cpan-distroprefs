@@ -2,8 +2,12 @@
 match:
   distribution: "/POE-Component-Server-SimpleContent-\d"
 pl:
-  expect:
-    - "\QDo you want to install optional module File::MMagic::XS [y/N]? [N]"
-    - "\n"
-    - "\QDo you want to install optional module File::MMagic [y/N]? [N]"
-    - "\n"
+  eexpect:
+    mode: anyorder
+    talk:
+      - "\QDo you want to install optional module File::MMagic::XS [y/N]? [N]"
+      - "\n"
+      - "\QDo you want to install optional module File::MMagic [y/N]? [N]"
+      - "\n"
+    timeout: 120
+    reuse: 1
