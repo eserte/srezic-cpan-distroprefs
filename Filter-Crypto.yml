@@ -21,11 +21,11 @@ pl:
       - "\n"
       - '\QWhich component(s) do you want to build?'
       - "\n"
-      - "Do you want to install 'crypt_file'\?"
+      - "Do you want to install 'crypt_file'"
       - "\n"
 ---
 match:
-  distribution: "/Filter-Crypto-\d"
+  distribution: '/Filter-Crypto-\d'
 pl:
   args:
     - "--defaults"
