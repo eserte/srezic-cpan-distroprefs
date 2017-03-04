@@ -1,27 +1,31 @@
 ---
 match:
+  distribution: '/Filter-Crypto-2\.07\.'
+  perlconfig:
+    osname: darwin
+pl:
+  eexpect:
+    timeout: 120
+    talk:
+      - 'Where is your OpenSSL( or SSLeay)?'
+      - "/usr/local/opt/openssl\n"
+      - '\QWhich cipher algorithm do you want to use?'
+      - "\n"
+      - '\QWhich mode of operation do you want to use?'
+      - "\n"
+      - '\QWhat key length (in bytes) do you want to use?'
+      - "\n"
+      - '\QHow do you want to specify or derive the key?'
+      - "\n"
+      - '\QWhich RNG do you want to use?'
+      - "\n"
+      - '\QWhich component(s) do you want to build?'
+      - "\n"
+      - "Do you want to install 'crypt_file'\?"
+      - "\n"
+---
+match:
   distribution: "/Filter-Crypto-\d"
 pl:
   args:
     - "--defaults"
-## Use now --defaults instead of interactive questions...
-#pl:
-#  eexpect:
-#    timeout: 5
-#    talk:
-#      - "\QWhere is your OpenSSL or SSLeay?"
-#      - "\n"
-#      - "\QWhich cipher algorithm do you want to use?"
-#      - "\n"
-#      - "\QWhich mode of operation do you want to use?"
-#      - "\n"
-#      - "\QWhat key length (in bytes) do you want to use?"
-#      - "\n"
-#      - "\QHow do you want to specify or derive the key?"
-#      - "\n"
-#      - "\QWhich RNG do you want to use?"
-#      - "\n"
-#      - "\QWhich component(s) do you want to build?"
-#      - "\n"
-#      - "\QDo you want to install 'crypt_file'?"
-#      - "\n"
