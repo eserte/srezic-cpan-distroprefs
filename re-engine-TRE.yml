@@ -7,3 +7,12 @@ match:
 # for some reason, freebsd 10 is fine...
 cpanconfig:
   make: "/usr/local/bin/gmake"
+---
+match:
+  distribution: '/\Qre-engine-TRE-0.09.tar.gz\E'
+  perlconfig:
+    osname: darwin
+    osvers: '^15\.'
+patches:
+  - SREZIC/patches/re-engine-TRE-0.09-issue4.patch
+# https://github.com/creaktive/re-engine-tre/issues/4
