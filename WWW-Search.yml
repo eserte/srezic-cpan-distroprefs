@@ -1,8 +1,0 @@
----
-match:
-  distribution: '/\QWWW-Search-2.515.tar.gz\E'
-  perlconfig:
-    version: '^5\.25\.\d+$'
-patches:
-  - SREZIC/patches/WWW-Search-2.515-RT114735.patch
-# Unescaped left brace in regex is illegal in regex
