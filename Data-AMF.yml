@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Data-AMF-\d'
+  distribution: '/Data-AMF-0\.09\.'
 depends:
   build_requires:
     Test::More: 0
