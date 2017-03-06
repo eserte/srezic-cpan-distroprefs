@@ -5,3 +5,4 @@ pl:
   expect:
     - "Import CPAN Author"
     - "n\n"
+# Exists only on BackPAN
