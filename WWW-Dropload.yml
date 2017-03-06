@@ -5,3 +5,4 @@ pl:
   expect:
     - "\QDo you want to skip the tests?"
     - "y\n"
+# exists only on BackPAN: http://cpan.metacpan.org/authors/id/D/DU/DUANEG/

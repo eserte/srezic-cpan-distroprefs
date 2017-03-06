@@ -5,3 +5,4 @@ pl:
   expect:
     - "\QPlease set your PROXY server for faster testing"
     - "\n"
+# See also 01.DISABLED entry
