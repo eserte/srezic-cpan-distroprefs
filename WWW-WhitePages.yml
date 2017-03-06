@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/WWW-WhitePages-\d"
+  distribution: '/WWW-WhitePages-\d'
 pl:
   expect:
-    - "Import CPAN Author"
+    - 'Import CPAN Author'
     - "n\n"
 # Exists only on BackPAN
