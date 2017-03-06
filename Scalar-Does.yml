@@ -1,6 +1,0 @@
----
-match:
-  distribution: '/Scalar-Does-0\.202\.'
-patches:
-  - SREZIC/patches/Scalar-Does-0.202-RT119030-PPISAR.patch
-# Fails with Test::More >= 1.302064
