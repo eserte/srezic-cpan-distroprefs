@@ -1,5 +1,0 @@
---- 
-match:
-  distribution: "LGODDARD/Tk-Wizard-2\.124\."
-goto: "LGODDARD/Tk-Wizard-2.123.tar.gz"
-comment: "completely broken"
