@@ -3,3 +3,8 @@ match:
   distribution: "/WWW-Dict-Leo-Org-1\.35\."
 patches:
   - "SREZIC/patches/WWW-Dict-Leo-Org-1.35-RT35543.patch"
+---
+match:
+  distribution: '/\QWWW-Dict-Leo-Org-1.45.tar.gz\E'
+patches:
+  - SREZIC/patches/WWW-Dict-Leo-Org-1.45-RT120563-ROHIEB.patch
