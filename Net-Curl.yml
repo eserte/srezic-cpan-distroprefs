@@ -1,0 +1,18 @@
+---
+match:
+  distribution: '/\QNet-Curl-0.37.tar.gz\E'
+  perlconfig:
+# FreeBSD 10 has too new curl
+    osname: freebsd
+    osvers: '^10\.'
+patches:
+  - SREZIC/patches/Net-Curl-0.37-issue18.patch
+---
+match:
+  distribution: '/\QNet-Curl-0.37.tar.gz\E'
+  perlconfig:
+# Debian/stretch has too new curl
+    osname: linux
+    osvers: '^(4\.8\.0-|4\.9\.0-)'
+patches:
+  - SREZIC/patches/Net-Curl-0.37-issue18.patch
