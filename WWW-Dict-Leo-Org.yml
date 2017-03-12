@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/WWW-Dict-Leo-Org-1\.35\."
+  distribution: '/WWW-Dict-Leo-Org-1\.35\.'
 patches:
   - "SREZIC/patches/WWW-Dict-Leo-Org-1.35-RT35543.patch"
 ---
