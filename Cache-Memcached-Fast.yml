@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/\QCache-Memcached-Fast-0.23.tar.gz\E'
+  distribution: '/Cache-Memcached-Fast-0\.(23|24)\.tar\.gz'
   perlconfig:
     archname: '-freebsd'
 # Actually needed for all systems with EUMM >= 7.16, and
