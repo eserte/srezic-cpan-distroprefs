@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/POE-Filter-SSL-0\.30\.'
+match:
+  distribution: '/Inline-Java-\d'
+  perlconfig:
+    archname: x86_64-linux
+    osvers: '^(4\.8\.0-|4\.9\.0-)'
+# Valid only for Debian/stretch (openssl 1.1.0!)
+patches:
+  - SREZIC/patches/POE-Filter-SSL-0.30-RT118536-GREGOA.patch
