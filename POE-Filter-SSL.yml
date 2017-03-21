@@ -1,8 +1,6 @@
 ---
 match:
   distribution: '/POE-Filter-SSL-0\.30\.'
-match:
-  distribution: '/Inline-Java-\d'
   perlconfig:
     archname: x86_64-linux
     osvers: '^(4\.8\.0-|4\.9\.0-)'
