@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QHTML-Tree-5.03.tar.gz\E'
+  perlconfig:
+    version: '^5\.25\.11$'
+patches:
+  - SREZIC/patches/HTML-Tree-5.03-RT120521.patch
