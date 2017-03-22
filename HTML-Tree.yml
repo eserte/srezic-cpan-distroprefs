@@ -5,3 +5,4 @@ match:
     version: '^5\.25\.11$'
 patches:
   - SREZIC/patches/HTML-Tree-5.03-RT120521.patch
+# . in @INC
