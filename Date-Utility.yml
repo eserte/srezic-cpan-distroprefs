@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Date-Utility-1\.07\.'
+depends:
+# XXX really test_requires, but this is not accepted by the schema
+  build_requires:
+    Test::Most: 0
+# https://github.com/binary-com/perl-Date-Utility/issues/18
