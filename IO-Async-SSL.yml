@@ -3,3 +3,12 @@ match:
   distribution: "/IO-Async-SSL-0\.01\."
 disabled: 1
 comment: "may kill the CPAN client if socat not found"
+---
+match:
+  distribution: '/\QIO-Async-SSL-0.19.tar.gz\E'
+  perlconfig:
+    archname: linux
+    osvers: '^4\.(8|9)\.0-'
+# Test failures seen only on stretch systems  
+patches:
+  - SREZIC/patches/IO-Async-SSL-0.19-RT120701.patch
