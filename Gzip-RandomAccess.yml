@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QGzip-RandomAccess-0.92.tar.gz\E'
+patches:
+  - SREZIC/patches/Gzip-RandomAccess-0.92-RT120746.patch
+# the
+#   make: don't know how to make test_dynamic 
+# problem
