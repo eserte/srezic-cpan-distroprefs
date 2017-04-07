@@ -31,6 +31,11 @@ disabled: 1
 # https://rt.cpan.org/Ticket/Display.html?id=105130
 ---
 match:
+  distribution: '/Forks-Super-0\.89\.'
+disabled: 1
+# Interactive ssh questions
+---
+match:
   distribution: '/Forks-Super-0.'
 pl:
   eexpect:
