@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/\QUnicode-LineBreak-\E(2016.003|2016.007_02)\.tar\.gz$'
+  distribution: '/\QUnicode-LineBreak-\E(2016.003|2016.007_02|2017.004)\.tar\.gz$'
   perlconfig:
     archname: '-freebsd'
 # Actually needed for all systems with EUMM >= 7.16, and
