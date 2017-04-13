@@ -15,20 +15,26 @@ disabled: 1
 # Compilation fails with some FreeBSD 9 installations (cvrsnica-freebsd-92)
 # but others are fine (cvrsnica), also FreeBSD 10 is fine
 ---
-comment: "I have wxWidgets on my system, but config program is named wxgtk2-2.6-config"
 match:
   distribution: '/Alien-wxWidgets-\d'
   perlconfig:
     archname: -freebsd
-pl: 
-  eexpect:
-    mode: anyorder
-    talk:
-      - 'Do you want to (?:fetch and )?build wxWidgets(?: from sources)?\? \[yes *\]'
-      - "\n"
-      - '\QWhich archive type?\E'
-      - "\n"
-      - '\QDo you want to enable Unicode support [yes ]'
-      - "\n"
-      - '\QDo you want to include OpenGL support\E'
-      - "\n"
+pl:
+  env:
+    AWX_WXWIDGETS-BUILD: no
+#  eexpect:
+#    mode: anyorder
+#    timeout: 60
+#    talk:
+#      - 'Do you want to(?: fetch and)? build wxWidgets(?: from sources)?\?'
+#      - "no\n"
+#      - '\QWhich archive type?\E'
+#      - "\n"
+#      - '\QDo you want to enable Unicode support [yes ]'
+#      - "\n"
+#      - '\QDo you want to include OpenGL support\E'
+#      - "\n"
+make:
+  env:
+    WX_CONFIG: wxgtk2u-3.0-config 
+# Prefer system Wx, faster to build and uses less disk space.
