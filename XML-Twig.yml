@@ -27,6 +27,7 @@ depends:
 pl:
   args: ["-y"]
 # https://rt.cpan.org/Ticket/Display.html?id=118909
+# -> Fixed, no problems with 3.52
 --- 
 match:
   distribution: '/XML-Twig-\d'
