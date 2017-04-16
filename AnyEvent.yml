@@ -6,3 +6,12 @@ match:
 disabled: 1
 # https://rt.cpan.org/Ticket/Display.html?id=106726
 # https://rt.perl.org/Ticket/Display.html?id=125952
+---
+match:
+  distribution: '/AnyEvent-7\.13\.'
+# fails with openssl 1.1.0 -> check for debian/stretch, sort of
+  perlconfig:
+    archname: linux
+    osvers: '^4\.(8|9)\.0-'
+patches:
+  - SREZIC/patches/AnyEvent-7.13-RT118584-MLEHMANN.patch
