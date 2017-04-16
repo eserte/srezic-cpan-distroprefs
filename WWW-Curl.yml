@@ -1,5 +1,14 @@
 ---
 match:
+  distribution: '/\QWWW-Curl-4.17.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+    osvers: '^10\.'
+patches:
+  - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
+# patch needed with curl 7.50.2 and later
+---
+match:
   distribution: '/WWW-Curl-4\.(15|16|17)\.'
   perlconfig:
     archname: 'freebsd$'
