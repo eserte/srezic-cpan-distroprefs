@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Crypt-OpenSSL-ECDSA-0\.08\.'
+# fails with openssl 1.1.0 -> check for debian/stretch, sort of
+  perlconfig:
+    archname: linux
+    osvers: '^4\.(8|9)\.0-'
+patches:
+  - SREZIC/patches/Crypt-OpenSSL-ECDSA-0.08-RT118330-PPISAR.patch
