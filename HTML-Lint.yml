@@ -9,3 +9,4 @@ test:
     PERL_PERTURB_KEYS: NO
 # https://github.com/petdance/html-lint/issues/39
 # hash randomization
+# -> fixed in later versions, e.g. 2.26
