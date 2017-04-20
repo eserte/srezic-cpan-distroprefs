@@ -15,3 +15,4 @@ patches:
 # https://rt.cpan.org/Ticket/Display.html?id=114537
 # Unescaped left brace in regex is illegal in regex
 # patch by KENTL
+# -> fixed in later versions (e.g. 6.06)
