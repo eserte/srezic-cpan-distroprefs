@@ -5,3 +5,4 @@ match:
     version: '^5\.25\.'
 patches:
   - SREZIC/patches/Lingua-EN-Tagger-0.25-RT114491-MAT.patch
+# -> fixed in later versions, e.g. 0.28
