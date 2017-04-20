@@ -5,3 +5,4 @@ match:
     version: '^5\.25\.\d+$'
 patches:
   - SREZIC/patches/I18N-Charset-1.414-RT115110.patch
+# -> fixed in 1.415
