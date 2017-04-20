@@ -17,6 +17,7 @@ patches:
   - SREZIC/patches/XML-Twig-3.49-RT105702.patch
 pl:
   args: ["-y"]
+# -> Fixed, no problems with 3.52
 --- 
 match:
   distribution: '/XML-Twig-3\.50\.'
