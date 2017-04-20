@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Devel-Cover-1.23-pull180-WOLFSAGE.patch
 # https://github.com/pjcj/Devel--Cover/issues/161
+# -> fixed in 1.24
