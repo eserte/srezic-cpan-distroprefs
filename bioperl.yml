@@ -25,6 +25,7 @@ pl:
 patches:
   - SREZIC/patches/BioPerl-1.006924-RT106756.patch
 # https://rt.cpan.org/Ticket/Display.html?id=106756 (my in my)
+# -> fixed in later versions (e.g. 1.007001)
 --- 
 match:
   distribution: '/BioPerl-\d'
