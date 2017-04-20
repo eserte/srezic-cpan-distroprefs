@@ -5,3 +5,5 @@ match:
     version: '^5\.(23|24|25)\.'
 patches:
   - SREZIC/patches/Net-SMTP-Receive-0.301-RT118739.patch
+# Note: there are no tests, so installation is also successful without the patch
+# (but leaves a broken module!)
