@@ -4,3 +4,4 @@ match:
   perlconfig:
     version: '^5\.25\.\d+$'
 goto: ETHER/B-Hooks-Parser-0.18-TRIAL.tar.gz
+# -> fixed in 0.19
