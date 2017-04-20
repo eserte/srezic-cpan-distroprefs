@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/HTML-Tree-5.03-RT120521.patch
 # . in @INC
+# -> 5.04 is fixed
