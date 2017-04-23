@@ -74,7 +74,7 @@ pl:
 # the explicit commandline.
 --- 
 match:
-  module: '/GD-2\.'
+  distribution: '/GD-2\.'
 # no interactivity in case libs/include files are missing
 pl:
   env:
