@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/PDL-NetCDF-4\.20\.'
+  perlconfig:
+    archname: 'x86_64-linux'
+# try to detect xenial or stretch
+    osvers: '^4\.(4|8|9)\.0-'
+pl:
+  env:
+    NETCDF_LIBDIR: /usr/lib/x86_64-linux-gnu
+# https://rt.cpan.org/Ticket/Display.html?id=121320
