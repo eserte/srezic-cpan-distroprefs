@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/IPC-MMA-\d'
+  perlconfig:
+# try to match CentOS7
+    osvers: '^3\.10\.0-.*\.el7\.x86_64'
+# no mm package available
+disabled: 1
+## in this case the whole harddisk would be searched for the nonexistent library
+#pl:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
