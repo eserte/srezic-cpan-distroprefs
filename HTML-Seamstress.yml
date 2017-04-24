@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/HTML-Seamstress-6\.112830\.'
+  perlconfig:
+    version: '^5\.(18|19|20|21|22|23|24|25|26)\.'
+test:
+  env:
+    PERL_HASH_SEED: 4
+    PERL_PERTURB_KEYS: NO
+# https://rt.cpan.org/Ticket/Display.html?id=110316
