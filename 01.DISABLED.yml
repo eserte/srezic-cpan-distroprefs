@@ -498,6 +498,7 @@ match:
     |.*/Forecast-IO-\d # test needs Forecast.io API key, interactively entered
     |.*/WebService-FogBugz-XML-\d # many questions
     |XSAWYERX/Test-SFTP-1.10.tar.gz # question in test -> https://github.com/xsawyerx/test-sftp/issues/1
+    |SLANNING/Wx-WidgetMaker-0.11.tar.gz # X11 window has to be closed
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   env:
     PERL_BATCH: yes
