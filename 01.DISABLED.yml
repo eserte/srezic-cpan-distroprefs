@@ -1508,5 +1508,6 @@ match:
     |DFARRELL/WWW-hmaip-0.03.tar.gz # empty distribution - https://rt.cpan.org/Ticket/Display.html?id=120354
     |DFARRELL/WWW-canihazip-0.02.tar.gz # empty distribution - https://rt.cpan.org/Ticket/Display.html?id=120355
     |DFARRELL/WWW-ipinfo-0.06.tar.gz  # empty distribution - no separate ticket
+    |VRAG/master.zip # hangs, looks like an naming accident
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
