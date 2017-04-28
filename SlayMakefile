@@ -336,6 +336,6 @@ _dangerous-cpan-distributions-commit:
 		    die "git commit failed";
 		}
 	    } else {
-		die "No diffs, nothing to commit.\n";
+		warn "No diffs, nothing to commit.\n";
 	    }
 	}
