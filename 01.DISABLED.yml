@@ -1348,7 +1348,6 @@ match:
     |.*/Plack-App-BeanstalkConsole-\d # not tested, see <20130531223444.GJ2094 <AT> tequila.etheridge.ca>
     |KSOLOMKO/Apache2-AuthCookieLDAP-1.10.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=86316
     |.*/MultilevelEscalation-[\d\.]+\.zip # not testable
-    |.*/ServiceNow-Simple-\d # needs a test system (?)
     |INA/japerl/japerl-0\.01\. # does not have a Makefile.PL, but a pMakefile.PL (?)
     |INA/japerl/japerl-0\.02\. # does not have a Makefile.PL, but a pMakefile.PL (?)
     |INA/japerl/japerl-0\.03\. # does not have a Makefile.PL, but a pMakefile.PL (?)
