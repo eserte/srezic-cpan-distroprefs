@@ -4,3 +4,6 @@ match:
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
+make:
+  env:
+    PERL_MM_USE_DEFAULT: 1
