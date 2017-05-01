@@ -908,7 +908,6 @@ match:
     |.*/AI-FANN-\d # needs -ldoublefann
     |KANE/CPANPLUS-0\.82\.tar.gz # wants my root password using sudo
     |.*/STAFService-\d # needs STAF 3
-    |.*/Lab-VISA-\d # needs libvisa
     |XXX.*/Search-Xapian-\d # needs xapian - at least debian/wheezy has libxapian-dev
     |.*/BS2000-LMS-\d # only for BS2000
     |.*/Patch-SREZIC-Tk- # not necessary anymore
