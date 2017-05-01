@@ -443,7 +443,7 @@ match:
     |.*/Gtk-Perl-0\.7009\. # interactive test
     |.*/HiPi-0.23.tar.gz # needs sudo for installation
     |.*/Imager-Album-0\.06\. # gtk based interactive test
-    |.*/Log-Dispatch-Tk-\d
+    |.*/Log-Dispatch-Tk-1\.8\.tar\.gz # probably because of possible interactive placement --- see https://rt.cpan.org/Ticket/Display.html?id=121483
     |.*/Mail-SendEasy-\d # wants smtp server etc. for tests
     |XXX.*/Math-Units-1\.3\. # in fact, not really interactive, but hangs because of "gunits -v" --- cannot reproduce problem anymore (fbsd9.2, fbsd10.0, debian/wheezy)
     |.*/MMM-Text-Search-\d # asks for a search term while testing
