@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Devel-CallParser-0\.002\.'
+  perlconfig:
+    useithreads: '^define$'
+patches:
+  - SREZIC/patches/Devel-CallParser-0.002-RT110623-NTYNI.patch
