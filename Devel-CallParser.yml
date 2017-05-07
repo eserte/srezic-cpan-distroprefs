@@ -5,3 +5,5 @@ match:
     useithreads: '^define$'
 patches:
   - SREZIC/patches/Devel-CallParser-0.002-RT110623-NTYNI.patch
+# This is also fixing the Kavorka problem described in
+# https://rt.cpan.org/Ticket/Display.html?id=109841
