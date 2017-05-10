@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/Config-Options-0\.08\.'
+depends:
+  configure_requires:
+    Devel::Hide: 0
+test:
+  env:
+    DEVEL_HIDE_VERBOSE: 0
+    PERL5OPT: -MDevel::Hide
+    DEVEL_HIDE_PM: Test::Pod::Coverage
+# https://rt.cpan.org/Ticket/Display.html?id=85067
