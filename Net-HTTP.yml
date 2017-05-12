@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Net-HTTP-6\.14\.'
+patches:
+  - SREZIC/patches/Net-HTTP-6.14-issue48-SKAJI.patch
