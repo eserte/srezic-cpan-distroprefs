@@ -2,6 +2,6 @@
 match:
   distribution: '/\QParse-Yapp-1.05.tar.gz\E'
   perlconfig:
-    version: '^5\.25\.\d+$'
+    version: '^5\.(25|26)\.\d+$'
 patches:
   - SREZIC/patches/Parse-Yapp-1.05-RT106685.patch
