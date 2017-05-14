@@ -1507,5 +1507,6 @@ match:
     |DFARRELL/WWW-canihazip-0.02.tar.gz # empty distribution - https://rt.cpan.org/Ticket/Display.html?id=120355
     |DFARRELL/WWW-ipinfo-0.06.tar.gz  # empty distribution - no separate ticket
     |VRAG/master.zip # hangs, looks like an naming accident
+    |HMBRAND/Text-CSV-0.007.tgz # really a perl6 distribution
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
