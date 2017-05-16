@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QApp-FatPacker-0.010007.tar.gz\E'
+patches:
+  - SREZIC/patches/App-FatPacker-0.010007-RT121701.patch
