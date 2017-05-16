@@ -10,7 +10,7 @@ match:
       \QAALLAN/Astro-Catalog-2.1.3.tar.gz\E
      |\QAANOAA/Hubot-Scripts-Bundle-0.1.1.tar.gz\E
      |\QAASSAD/Net-Whois-RIPE-2.005002.tar.gz\E
-     |\QABELTJE/Test-Smoke-1.6.tar.gz\E
+     |\QABELTJE/Test-Smoke-1.70.tar.gz\E
      |\QABH/Authen-Bitcard-0.87.tar.gz\E
      |\QABRAXXA/DBIx-Class-0.08195.tar.gz\E
      |\QABRAXXA/ExtJS-Generator-DBIC-0.002.tar.gz\E
@@ -41,7 +41,7 @@ match:
      |\QAEREAL/JSON-TypeInference-0.03.tar.gz\E
      |\QAFRYER/TUXEDO-2.05.tar.gz\E
      |\QAFRYER/Tuxedo-2.06.tar.gz\E
-     |\QAGENT/Lemplate-0.02.tar.gz\E
+     |\QAGENT/Lemplate-0.10.tar.gz\E
      |\QAGENT/Pugs-Compiler-Rule-0.28.tar.gz\E
      |\QAGJ/Csistck-0.0802.tar.gz\E
      |\QAGOE/Net-PSYC-0.15.tar.gz\E
@@ -516,8 +516,6 @@ match:
      |\QESUMMERS/HTML-DublinCore-0.3.tar.gz\E
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
-     |\QETHER/Hook-LexWrap-0.25.tar.gz\E
-     |\QETHER/Test-Deep-UnorderedPairs-0.005.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -539,8 +537,6 @@ match:
      |\QEWILHELM/Drawing/CAD-Drawing-0.10.tar.gz\E
      |\QEWILHELM/dotReader-v0.0.11.tar.gz\E
      |\QEWILHELM/dotReader-v0.11.1.tar.gz\E
-     |\QEXODIST/Test-Simple-1.302078.tar.gz\E
-     |\QEXODIST/Test2-Harness-0.000011.tar.gz\E
      |\QFALCONE/Module-Install-RTx-0.34.tar.gz\E
      |\QFALTER/Cikl-0.4.1.tar.gz\E
      |\QFANGLY/Bio-Community-0.001004.tar.gz\E
@@ -554,6 +550,7 @@ match:
      |\QFAYLAND/Padre-Plugin-XML-0.06.tar.gz\E
      |\QFBELTON/Template-Plugin-React-0.004.tar.gz\E
      |\QFELIPE/Net-ACME-0.094.tar.gz\E
+     |\QFELIPE/Net-WebSocket-0.023.tar.gz\E
      |\QFELLIOTT/WebService-Toggl-0.04.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
      |\QFERRENCY/Text-MicroMason-2.20.tar.gz\E
@@ -859,6 +856,7 @@ match:
      |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
      |\QJILLROWE/HPC-Runner-Command-3.0.1.tar.gz\E
      |\QJILLROWE/HPC-Runner-Command-3.1.0.tar.gz\E
+     |\QJILLROWE/HPC-Runner-Command-Plugin-Logger-Sqlite-0.0.4.tar.gz\E
      |\QJILLROWE/HPC-Runner-Slurm-2.52.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
      |\QJINZANG/App-Followme-0.92.tar.gz\E
@@ -999,7 +997,6 @@ match:
      |\QKHAMPTON/XML-SemanticDiff-0.95.tar.gz\E
      |\QKHAREC/App-Gnuget-1.0.tar.gz\E
      |\QKHS/Template-Reverse-0.04.tar.gz\E
-     |\QKIAVASH/mira/Mira-00.07.35.tar.gz\E
      |\QKIMOTO/DBIx-Custom-0.37.tar.gz\E
      |\QKIMOTO/Mojolicious-Plugin-DBViewer-0.01.tar.gz\E
      |\QKIMOTO/Mojolicious-Plugin-SQLiteViewerLite-0.01.tar.gz\E
@@ -1132,6 +1129,7 @@ match:
      |\QMAKAMAKA/JSON-1.15.tar.gz\E
      |\QMAKAMAKA/JSON-2.27.tar.gz\E
      |\QMAKAMAKA/JSON-2.61.tar.gz\E
+     |\QMAKAMAKA/JSON-2.90.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.94.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.95.tar.gz\E
      |\QMAKAMAKA/JSON-RPC-0.96.tar.gz\E
@@ -1228,6 +1226,7 @@ match:
      |\QMIKRA/Tk-MK-0.21.tar.gz\E
      |\QMINIMAL/Kelp-0.9015.tar.gz\E
      |\QMIRK/Net-Z3950-0.35.tar.gz\E
+     |\QMITHALDU/PPI-1.220.tar.gz\E
      |\QMITTI/Device-SerialPort-Xmodem-1.01.tar.gz\E
      |\QMIYAGAWA/Apache-Singleton-0.03.tar.gz\E
      |\QMIYAGAWA/CGI-Emulate-PSGI-0.18.tar.gz\E
@@ -1302,7 +1301,6 @@ match:
      |\QMRAMBERG/DBIx-Class-0.03002.tar.gz\E
      |\QMSCHILLI/Log-Log4perl-1.47.tar.gz\E
      |\QMSCHILLI/Net-Evernote-Simple-0.01.tar.gz\E
-     |\QMSCHOUT/Apache-AuthCookie-3.25.tar.gz\E
      |\QMSCHUETT/Text-AI-CRM114-0.04.tar.gz\E
      |\QMSCHWERN/Test-Legacy-1.2501.tar.gz\E
      |\QMSCHWERN/perl5i-v2.12.0.tar.gz\E
@@ -1354,6 +1352,8 @@ match:
      |\QNATHANL/Spreadsheet-WriteExcel-WebPivot2.tar.gz\E
      |\QNCLEATON/Test-Group-0.19.tar.gz\E
      |\QNEDKONZ/Algorithm-Diff-1.15.tar.gz\E
+     |\QNEILB/Acme-Playpen-0.21.tar.gz\E
+     |\QNEILB/Acme-Playpen-2.00.tar.gz\E
      |\QNEKOKAK/Clutch-0.03.tar.gz\E
      |\QNEKOKAK/Clutch-0.04.tar.gz\E
      |\QNEKOKAK/DBIx-Class-ProxyTable-0.01.tar.gz\E
@@ -1480,8 +1480,9 @@ match:
      |\QPHRED/SOAP-Lite-1.01.tar.gz\E
      |\QPHRED/WebService-Strava-0.02.tar.gz\E
      |\QPIETERDP/Datahub-Factory-0.01.tar.gz\E
-     |\QPIETERDP/Datahub-Factory-0.10.tar.gz\E
      |\QPIETERDP/Datahub-Factory-0.7.tar.gz\E
+     |\QPIETERDP/Datahub-Factory-1.1.tar.gz\E
+     |\QPIETERDP/Datahub-Factory-Arthub-0.03.tar.gz\E
      |\QPINE/Devel-Cover-Report-Codecov-0.02.tar.gz\E
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
@@ -1643,6 +1644,7 @@ match:
      |\QSCHUBIGER/DateTime-Format-Natural-0.94.tar.gz\E
      |\QSCHWIGON/Benchmark-Perl-Formance-Analyzer-0.006.tar.gz\E
      |\QSCHWIGON/Net-SSH-Perl-2.09.01.tar.gz\E
+     |\QSCOTTW/AnyEvent-Beanstalk-Worker-0.04.tar.gz\E
      |\QSDAGUE/ppt-0.12.tar.gz\E
      |\QSDERLE/Geo-Coder-US-0.21.tar.gz\E
      |\QSDERLE/Geo-GDAL-0.11.tar.gz\E
@@ -1686,6 +1688,7 @@ match:
      |\QSHLOMIF/Inline-Ruby-0.04.tar.gz\E
      |\QSHLOMIF/Test-Run-0.0302.tar.gz\E
      |\QSHLOMIF/XML-CompareML-v0.2.7.tar.gz\E
+     |\QSIMCOP/Sys-Linux-Namespace-0.012.tar.gz\E
      |\QSIMON/Finance-Bank-LloydsTSB-1.2.tar.gz\E
      |\QSIMON/Mail-Miner-1.01.tar.gz\E
      |\QSIMON/Text-Context-3.5.tar.gz\E
@@ -1874,7 +1877,6 @@ match:
      |\QTOREAU/URL-List-0.02.tar.gz\E
      |\QTOSHIOITO/Gnuplot-Builder-0.02.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
-     |\QTRIZEN/Sidef-2.37.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/Jifty-1.10228.tar.gz\E
@@ -1937,7 +1939,6 @@ match:
      |\QVOJ/RDF-Lazy-0.063.tar.gz\E
      |\QVOJ/RDF-Lazy-0.081.tar.gz\E
      |\QVOJ/SeeAlso-Server-0.57.tar.gz\E
-     |\QVRAG/Log-Any-Adapter-Multiplexor-001/Log-Any-Adapter-Multiplexor-0.01.tar.gz\E
      |\QVSESPB/App-MtAws-0.981.tar.gz\E
      |\QVSESPB/App-MtAws-1.059.tar.gz\E
      |\QVSESPB/App-MtAws-1.102.tar.gz\E
@@ -2017,7 +2018,8 @@ match:
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
      |\QZDM/Pcore-Captcha-v0.8.0.tar.gz\E
-     |\QZDM/Pcore-ExtJS-v0.3.2.tar.gz\E
+     |\QZDM/Pcore-Ext-v0.3.2.tar.gz\E
+     |\QZDM/Pcore-Ext-v0.4.0.tar.gz\E
      |\QZDM/Pcore-Nginx-v0.10.1.tar.gz\E
      |\QZDM/Pcore-Sphinx-v0.5.2.tar.gz\E
      |\QZDM/Pcore-Sphinx-v0.6.0.tar.gz\E
