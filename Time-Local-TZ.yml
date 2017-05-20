@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Time-Local-TZ-\d'
+  perlconfig:
+    myuname: 'freebsd cvrsnica.* 9.2-release'
+disabled: 1
+# old (and wrong) tz data on this system, causing tests to fail
