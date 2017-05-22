@@ -669,13 +669,11 @@ match:
     |.*/Pod-Simple-XHTML-BlendedCode-1\.003\. # probably asks invisible questions in Build.PL
     |.*/CGI-Ex-2\.(27|32)\. # waits for terminal input (why?) https://rt.cpan.org/Ticket/Display.html?id=48605
     |.*/Audio-aKodePlayer-0\.01\. # 10-player.t may hang
-    |.*/Alvis-Convert-0\.4\. # 1-read.t may hang
     |.*/REST-Application-0\.992\. # ttyin
     |.*/Net-Proxy-0\.12\. # 36ssl_tcp.t may hang
     |.*/Net-Proxy-0\.13\. # 36ssl_tcp.t may hang --- https://rt.cpan.org/Ticket/Display.html?id=100007
     |.*/Lingua-JA-Romanize-Japanese-0\.23\. # probably asking an invisible question
     |.*/Rubric-0\.145\. # t/www/www_main.t may hang
-    |.*/Alvis-Pipeline-0\.11\. # may hang on 1-read.t test
     |.*/HTML-Tempi-0\.01\. # test.pl may hang
     |XXX.*/File-FDpasser-0\.09\. # t12serv_cli.t may hang -> still hangs, but handled by wait-and-kill-cpan-smoker
     |.*/POE-Component-Child-1\.39\. # test may hang
