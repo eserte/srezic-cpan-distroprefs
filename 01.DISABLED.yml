@@ -22,7 +22,7 @@ match:
      |.*/Thread-Isolate-\d
      |.*/Thread-Queue-Duplex-\d
      |.*/Thread-RWLock-\d
-     |.*/Thread-Serialize-\d
+     |XXXXX.*/Thread-Serialize-\d # theoretically works also with unthreaded perl (through forks.pm)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   perlconfig:
     archname: "(i386-freebsd$|i386-freebsd-64int$|amd64-freebsd$)"
