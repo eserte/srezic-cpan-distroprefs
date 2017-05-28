@@ -1,8 +1,0 @@
----
-match:
-  distribution: '/Forks-Queue-0\.09\.'
-  perlconfig:
-    myuname: 'linux cvrsnica-wheezy'
-disabled: 1
-# Managed to kill the wheezy VM
-# Maybe similar to the Forks-Super problems?
