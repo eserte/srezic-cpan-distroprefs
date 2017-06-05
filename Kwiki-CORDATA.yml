@@ -3,5 +3,5 @@ match:
   distribution: "^CORDATA/Kwiki-"
   env:
     PERL_BATCH: yes
-disabled: 1
+#disabled: 1
 comment: "It seems that CORDATA abandoned all his (Kwiki) modules, see https://rt.cpan.org/Ticket/Display.html?id=57880"
