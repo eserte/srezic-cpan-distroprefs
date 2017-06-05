@@ -1062,7 +1062,7 @@ match:
     |.*/IO-Compress-Zlib-2\.014\.tar\.gz # circular dependency
     |PERLANCAR/Unix-Passwd-File-0.17.tar.gz # circular dependency
     |.*/IMAP-Admin-\d # wants passwords
-    |.*/Net-Netflix-\d # moved to WWW-Netflix
+    |.*/XXXNet-Netflix-\d # moved to WWW-Netflix --- but that's no reason to not test this dist
     |.*/Search-Circa-\d # wants a mysql database, many questions
     |.*/zxid-\d # it seems that the author does not want to make this module into a proper perl distribution, so exclude him from tests
     |VVELOX/.*\.pl$ # do not test perl scripts
