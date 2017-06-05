@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/Software-Packager-0\.09\.'
+depends:
+  configure_requires:
+    Devel::Hide: 0
+test:
+  env:
+    DEVEL_HIDE_VERBOSE: 0
+    PERL5OPT: -MDevel::Hide
+    DEVEL_HIDE_PM: Module::Signature
+# Workaround for failing signature test, see https://rt.cpan.org/Ticket/Display.html?id=112555
