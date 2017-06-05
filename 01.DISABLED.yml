@@ -1184,7 +1184,7 @@ match:
     |.*/XXXAlien-SVN-\d  # general svn problem 
     |.*/Catalyst-Model-SVN-\d # general svn problem 
     |.*/SVN-Mirror-\d # SVN::Core not installed
-    |.*/P5NCI-\d # to be analyzed
+    |.*/XXXP5NCI-\d # to be analyzed --- fails, but does not hang or so
     |.*/XXXMath-MPFR-\d # was a library problem, but no more with a recent mpfr-2.4.1_1
     |.*/XXXMath-GMPq-\d # was a library problem --- seems to be fine now!
     |.*/XXXMath-GMPz-\d # was a library problem --- seems to be fine now!
