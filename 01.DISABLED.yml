@@ -1074,7 +1074,7 @@ match:
     |TURNERJW/ptkftp.1.00.tgz # distro contains both files and directories, bad
     |.*/FreeHAL-\d # dangerous! some versions of this distro contain old version of version.pm
     |.*/Net-Peep-\d # needs a peep server
-    |.*/Text-NLP-Stanford-EntityExtract-\d # needs the Stanford Named Entity recogniser from http://nlp.stanford.edu/ner/index.shtml
+    |XXXXXX.*/Text-NLP-Stanford-EntityExtract-\d # needs the Stanford Named Entity recogniser from http://nlp.stanford.edu/ner/index.shtml
     |ANONWB/WWW-Patent-Page-0.106.0.tar.gz # dangerous if there are test failures, may destroy terminal or print via xterm!
     |BOKUTIN/WWW-Hashdb-0.01.tar.gz # endless loop
     |.*/DBIx-Librarian-\d # asks for password
