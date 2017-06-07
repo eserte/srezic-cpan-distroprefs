@@ -1,5 +1,12 @@
 ---
 match:
+  distribution: "/Inline-Python-0\.53\."
+  perlconfig:
+    myuname: 'linux prod3.bbbike.org'
+disabled: 1
+# mysterious OOMs on Ubuntu 16.04 smoker
+---
+match:
   distribution: "/Inline-Python-\d"
 pl:
   expect:
