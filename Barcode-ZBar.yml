@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Barcode-ZBar-0\.04\.'
+  perlconfig:
+    archname: freebsd
+depends:
+  configure_requires:
+    Devel::CheckLib: 0
+pl:
+  commandline: 'rm -rf inc/; $PERL Makefile.PL'
+# https://rt.cpan.org/Ticket/Display.html?id=122062
