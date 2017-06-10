@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Geo-Coder-XYZ-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
