@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Inline-Python-\d'
+pl:
+  expect:
+    - '\QUse which'
+    - "\n"
