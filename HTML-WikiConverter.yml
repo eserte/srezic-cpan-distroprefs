@@ -1,0 +1,14 @@
+---
+match:
+  distribution: '/\QHTML-WikiConverter-0.68.tar.gz\E'
+depends:
+  configure_requires:
+    Devel::Hide: 0
+test:
+  env:
+    DEVEL_HIDE_VERBOSE: 0
+    PERL5OPT: -MDevel::Hide
+    DEVEL_HIDE_PM: Test::Pod::Coverage
+# https://rt.cpan.org/Ticket/Display.html?id=87296
+patches:
+  - SREZIC/patches/HTML-WikiConverter-0.68-RT102916.patch
