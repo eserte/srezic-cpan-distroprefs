@@ -2,7 +2,8 @@
 match:
   distribution: '/\QHTML-Toc-1.12.tar.gz\E'
   perlconfig:
-    version: '^5\.(25|26|27)\.\d+$'
+    version: '^5\.(25|26)\.\d+$'
 patches:
   - SREZIC/patches/HTML-Toc-1.12-RT115109.patch
-# Just a warning, will be fatal in 5.30
+# Actually is not a problem anymore in 5.27.x,
+# currently just a warning, will be fatal in 5.30
