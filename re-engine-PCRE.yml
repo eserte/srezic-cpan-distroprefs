@@ -2,6 +2,6 @@
 match:
   distribution: '/\Qre-engine-PCRE-0.17.tar.gz\E'
   perlconfig:
-    version: '^5\.(23\.(4|5|6|7|8|9|10)|(24|25|26)\.)'
+    version: '^5\.(23\.(4|5|6|7|8|9|10)|(24|25|26|27)\.)'
 patches:
   - SREZIC/patches/re-engine-PCRE-0.17-RT108386.patch
