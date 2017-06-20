@@ -2,7 +2,7 @@
 match:
   distribution: '/Params-Classify-0\.013\.'
   perlconfig:
-    version: '^5\.(25\.(5|6|7|8|9|10|11|12)|(26\.\d+))$'
+    version: '^5\.(25\.(5|6|7|8|9|10|11|12)|((26|27)\.\d+))$'
 patches:
   - SREZIC/patches/Params-Classify-0.013-RT114490-RURBAN.patch
   - SREZIC/patches/Params-Classify-0.013-RT97070-RURBAN.patch
