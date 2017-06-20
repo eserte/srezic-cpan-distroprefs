@@ -2,6 +2,6 @@
 match:
   distribution: '/B-Hooks-OP-Check-EntersubForCV-0\.09\.'
   perlconfig:
-    version: '^5\.(21\.(4|5|6|7|8|9|10|11)|((22|23|24|25|26)\.\d+))$'
+    version: '^5\.(21\.(4|5|6|7|8|9|10|11)|((22|23|24|25|26|27)\.\d+))$'
 patches:
   - SREZIC/patches/B-Hooks-OP-Check-EntersubForCV-0.09-RT94945.patch
