@@ -5,3 +5,4 @@ match:
     version: '^5\.(25|26|27)\.\d+$'
 patches:
   - SREZIC/patches/HTML-Toc-1.12-RT115109.patch
+# Just a warning, will be fatal in 5.30
