@@ -2,7 +2,7 @@
 match:
   distribution: '/HTML-Seamstress-6\.112830\.'
   perlconfig:
-    version: '^5\.(18|19|20|21|22|23|24|25|26)\.'
+    version: '^5\.(18|19|20|21|22|23|24|25|26|27)\.'
 test:
   env:
     PERL_HASH_SEED: 4
