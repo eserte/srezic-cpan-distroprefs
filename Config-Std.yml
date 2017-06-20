@@ -2,6 +2,6 @@
 match:
   distribution: '/\QConfig-Std-0.901.tar.gz\E'
   perlconfig:
-    version: '^5\.(25|26)\.\d+$'
+    version: '^5\.(25|26|27)\.\d+$'
 patches:
   - SREZIC/patches/Config-Std-0.901-RT114342.patch
