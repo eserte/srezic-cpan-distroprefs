@@ -8,7 +8,7 @@ patches:
 match:
   distribution: '/\QNet-Server-2.008.tar.gz\E'
   perlconfig:
-    version: '^5\.(25|26)\.\d+$'
+    version: '^5\.(25|26|27)\.\d+$'
 patches:
   - SREZIC/patches/Net-Server-2.008-RT105512-TODDR.patch
 # POSIX::tmpnam -> File::Temp
