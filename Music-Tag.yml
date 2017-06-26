@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/Music-Tag-0\.4103\.'
+depends:
+  configure_requires:
+    Devel::Hide: 0
+test:
+  env:
+    DEVEL_HIDE_VERBOSE: 0
+    PERL5OPT: -MDevel::Hide
+    DEVEL_HIDE_PM: Test::Pod
+# https://rt.cpan.org/Ticket/Display.html?id=79059
