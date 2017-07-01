@@ -11,3 +11,5 @@ test:
     PERL_PERTURB_KEYS: 0
 # hash normalization victim, ticket+patch exist
 # https://rt.cpan.org/Ticket/Display.html?id=81564
+#
+# probably fixed in newer versions
