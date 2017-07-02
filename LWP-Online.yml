@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QLWP-Online-1.08.tar.gz\E'
+patches:
+  - SREZIC/patches/LWP-Online-1.08-RT114154.patch
+# Also addresses https://rt.cpan.org/Ticket/Display.html?id=122310
