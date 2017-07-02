@@ -1506,5 +1506,6 @@ match:
     |DFARRELL/WWW-ipinfo-0.06.tar.gz  # empty distribution - no separate ticket
     |VRAG/master.zip # hangs, looks like an naming accident
     |HMBRAND/Text-CSV-0.007.tgz # really a perl6 distribution
+    |WBRASWELL/Alien-PCRE2-0.004000.tar.gz # requested by author
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
