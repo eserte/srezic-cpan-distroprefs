@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Crypt-Libmcrypt-1\.0\.5\.'
+cpanconfig:
+  prefer_installer: EUMM
+# https://rt.cpan.org/Ticket/Display.html?id=122330
