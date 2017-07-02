@@ -43,8 +43,8 @@ match:
   distribution: "/WordNet-.*"
   perlconfig:
     archname: "-linux"
-# matches CentOS7
-    osvers: '^(3\.10\.0-042stab120\.6|3\.10\.0-.*\.el7\.)'
+# matches CentOS6 & CentOS7
+    osvers: '^(2\.6\.32-.*\.el6\.|3\.10\.0-042stab120\.6|3\.10\.0-.*\.el7\.)'
 pl:
   env:
     WNHOME: /usr/share/wordnet-3.0
