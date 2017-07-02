@@ -8,7 +8,7 @@
 # On Debian/Ubuntu it's the "wordnet" and "wordnet-sense-index" packages.
 ---
 match:
-  distribution: "/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)"
+  distribution: '/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)'
   perlconfig:
     archname: "-freebsd"
 # different installation directories probably on other systems
@@ -26,7 +26,7 @@ test:
     WNSEARCHDIR: /usr/local/share/WordNet
 ---
 match:
-  distribution: "/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)"
+  distribution: '/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)'
   perlconfig:
     archname: "^darwin"
 pl:
@@ -40,7 +40,7 @@ test:
     WNHOME: /usr/local/Cellar/wordnet/3.1
 ---
 match:
-  distribution: "/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)"
+  distribution: '/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)'
   perlconfig:
     archname: "-linux"
 # matches CentOS6 & CentOS7
@@ -56,7 +56,7 @@ test:
     WNHOME: /usr/share/wordnet-3.0
 ---
 match:
-  distribution: "/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)"
+  distribution: '/(Algorithm-TicketClusterer-1\.01\.|WordNet-.*)'
   perlconfig:
     archname: "-linux"
 # different installation directories probably on other distributions
