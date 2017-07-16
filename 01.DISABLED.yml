@@ -1507,5 +1507,7 @@ match:
     |VRAG/master.zip # hangs, looks like an naming accident
     |HMBRAND/Text-CSV-0.007.tgz # really a perl6 distribution
     |WBRASWELL/Alien-PCRE2-0.004000.tar.gz # requested by author
+    |STEFFENW/Locale-Utils-Autotranslator-1.005.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=122505
+    |STEFFENW/Locale-Utils-Autotranslator-1.005-withoutworldwriteables.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=122505
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
