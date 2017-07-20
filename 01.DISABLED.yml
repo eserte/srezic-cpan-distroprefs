@@ -876,6 +876,7 @@ match:
     |.*/RT-Authen-Federation-\d
     |.*/RT-Authen-OpenID-\d
     |.*/RT-Authen-PAUSE-\d
+    |.*/RT-Authen-Token-\d
     |.*/RT-BugTracker-Public-\d
     |.*/RT-BugTracker-\d
     |.*/RT-Condition-Complex-\d
