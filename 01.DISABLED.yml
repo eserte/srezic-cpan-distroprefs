@@ -415,6 +415,7 @@ match:
     |MICHALS/PMLTQ-1.0.0.tar.gz # tests hang (state lockf) (but would not succeed anyway because of dependency errors)
     |MICHALS/PMLTQ-1.0.1.tar.gz # dito
     |MICHALS/PMLTQ-1.1.0.tar.gz # dito
+    |.*/Alien-Google-GRPC-0\.06\. # fails anyway (gmake?), occupies much of disk space while building
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
