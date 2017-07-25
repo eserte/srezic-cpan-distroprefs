@@ -1,0 +1,13 @@
+---
+match:
+  distribution: '/Text-VimColor-0\.26\.'
+  perlconfig:
+    version: '^5\.(26|27)\.'
+pl:
+  env:
+    PERL_USE_UNSAFE_INC: 1
+test:
+  env:
+    PERL_USE_UNSAFE_INC: 1
+# https://rt.cpan.org/Ticket/Display.html?id=121756
+# Workaround without patch.
