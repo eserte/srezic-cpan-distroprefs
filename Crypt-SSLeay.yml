@@ -1,6 +1,16 @@
 ---
 match:
-  distribution: "/Crypt-SSLeay-\d"
+  distribution: '/Crypt-SSLeay-0\.72\.'
+  perlconfig:
+    version: '^5\.(26|27)\.'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+    PERL_USE_UNSAFE_INC: 1
+# https://rt.cpan.org/Ticket/Display.html?id=120862
+---
+match:
+  distribution: '/Crypt-SSLeay-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
