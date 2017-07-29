@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Linux-Smaps-0\.09\."
+  distribution: '/Linux-Smaps-0\.09\.'
 patches:
   - SREZIC/patches/Linux-Smaps-0.09-RT82131.patch
 ---
