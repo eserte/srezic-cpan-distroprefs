@@ -3,3 +3,11 @@ match:
   distribution: "/Linux-Smaps-0\.09\."
 patches:
   - SREZIC/patches/Linux-Smaps-0.09-RT82131.patch
+---
+match:
+  distribution: '/\QLinux-Smaps-0.13.tar.gz\E'
+  perlconfig:
+    osname: linux
+    osvers: '^4\.'
+patches:
+  - SREZIC/patches/Linux-Smaps-0.13-RT104515.patch
