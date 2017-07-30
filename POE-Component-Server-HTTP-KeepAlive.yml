@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/POE-Component-Server-HTTP-KeepAlive-0.(0302|0305|0307)"
-  perlconfig:
-    archname: -freebsd
-disabled: 1
-comment: "Test t/25_poco_simplehttp.t hangs, at least of freebsd"
