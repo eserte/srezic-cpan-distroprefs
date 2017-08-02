@@ -1511,6 +1511,6 @@ match:
     |WBRASWELL/Alien-PCRE2-0.004000.tar.gz # requested by author
     |STEFFENW/Locale-Utils-Autotranslator-1.005.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=122505
     |STEFFENW/Locale-Utils-Autotranslator-1.005-withoutworldwriteables.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=122505
-    |ILYAZ/modules/UI-KeyboardLayout-0.72b.tar.gz # permission problems
+    |ILYAZ/modules/UI-KeyboardLayout-0.72b.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=122691
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
