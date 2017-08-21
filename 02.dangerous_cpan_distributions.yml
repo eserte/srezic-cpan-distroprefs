@@ -518,6 +518,7 @@ match:
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
      |\QETHER/URI-1.71.tar.gz\E
+     |\QETJ/GraphQL-0.05.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -1005,6 +1006,7 @@ match:
      |\QKIMOTO/Rstats-0.0141.tar.gz\E
      |\QKIMOTO/SPVM-0.0216.tar.gz\E
      |\QKIMOTO/SPVM-0.0218.tar.gz\E
+     |\QKIMOTO/SPVM-0.0246.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
      |\QKITANO/CHI-Driver-MemcachedFast-0.01.tar.gz\E
@@ -1094,6 +1096,8 @@ match:
      |\QLKUNDRAK/RPM2-0.70.tar.gz\E
      |\QLMC/Net-Whois-RIPE-1.31.tar.gz\E
      |\QLNATION/Moonshine-Bootstrap-0.02.tar.gz\E
+     |\QLPRIETO/MooseX-DIC-0.1.0.tar.gz\E
+     |\QLPRIETO/MooseX-DIC-0.2.0.tar.gz\E
      |\QLSAUNDERS/DBIx-Class-Fixtures-1.000002.tar.gz\E
      |\QLTHEISEN/Footprintless-1.01.tar.gz\E
      |\QLTHEISEN/Footprintless-1.09.tar.gz\E
@@ -1388,6 +1392,7 @@ match:
      |\QNICS/Catmandu-BibTeX-0.03.tar.gz\E
      |\QNICS/Catmandu-OAI-0.02.tar.gz\E
      |\QNICS/Catmandu-Store-MongoDB-0.02.tar.gz\E
+     |\QNICS/WWW-ORCID-0.0101.tar.gz\E
      |\QNICZERO/Minion-Backend-Storable-6.101.tar.gz\E
      |\QNIERLEIN/Monitoring-Livestatus-0.74.tar.gz\E
      |\QNIGE/Goo-0.05.tar.gz\E
@@ -1455,7 +1460,6 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/Bencher-Scenarios-LogGer-0.011.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1482,6 +1486,7 @@ match:
      |\QPHRED/Apache-SizeLimit-0.96.tar.gz\E
      |\QPHRED/Apache-Test-1.36.tar.gz\E
      |\QPHRED/SOAP-Lite-1.01.tar.gz\E
+     |\QPHRED/SOAP-Lite-1.20.tar.gz\E
      |\QPHRED/WebService-Strava-0.02.tar.gz\E
      |\QPIETERDP/Datahub-Factory-0.01.tar.gz\E
      |\QPIETERDP/Datahub-Factory-0.7.tar.gz\E
@@ -1497,6 +1502,8 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
+     |\QPLICEASE/Alien-Role-Dino-0.03.tar.gz\E
+     |\QPLICEASE/App-RegexFileUtils-0.07.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
@@ -1753,6 +1760,7 @@ match:
      |\QSPRAGST/Sybase-Xfer-0.1.tar.gz\E
      |\QSPROUT/DBM-Deep-1.0016.tar.gz\E
      |\QSRCHULO/DigitalOcean-0.16.2.tar.gz\E
+     |\QSRDJAN/WebService-ILS-0.14.tar.gz\E
      |\QSREAGLE/DBD-Ingres-0.5209.tar.gz\E
      |\QSRL/Net-ICal-0.14.tar.gz\E
      |\QSRSHAH/Probe-MachineInfo-0.06.tar.gz\E
@@ -1760,6 +1768,8 @@ match:
      |\QSRZ/Archive-Tar-0.22.tar.gz\E
      |\QSSINYAGIN/SIAM-0.10.tar.gz\E
      |\QSSQQ/Spp-0.02.tar.gz\E
+     |\QSSQQ/Spp-0.04.tar.gz\E
+     |\QSSQQ/Spp-1.01.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.1.1.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.4.tar.gz\E
      |\QSTDWEIRD/Net-FreeIPA-0.0.7.tar.gz\E
@@ -2037,6 +2047,7 @@ match:
      |\QZDM/Pcore-Sphinx-v0.5.2.tar.gz\E
      |\QZDM/Pcore-Sphinx-v0.6.0.tar.gz\E
      |\QZDM/Pcore-WebDriver-v0.1.4.tar.gz\E
+     |\QZDM/Pcore-WebDriver-v0.7.3.tar.gz\E
      |\QZDM/Pcore-XMPP-v0.8.2.tar.gz\E
      |\QZDM/Pcore-XMPP-v0.9.0.tar.gz\E
      |\QZDM/Pcore-v0.23.20.tar.gz\E
