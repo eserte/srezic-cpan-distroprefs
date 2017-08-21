@@ -11,3 +11,6 @@ match:
     osvers: '^4\.'
 patches:
   - SREZIC/patches/Linux-Smaps-0.13-RT104515.patch
+test:
+  env:
+    LC_ALL: C
