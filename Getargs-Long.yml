@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Getargs-Long-\d'
+depends:
+  configure_requires:
+    URI::Escape: 0
+# https://rt.cpan.org/Ticket/Display.html?id=118700
