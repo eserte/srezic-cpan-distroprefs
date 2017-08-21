@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/\QAlgorithm-Cluster-1.(52|53).tar.gz\E'
+  distribution: '/Algorithm-Cluster-1\.(52|53)\.tar\.gz'
   perlconfig:
     archname: '-freebsd'
 # Actually needed for all systems with EUMM >= 7.16, and
