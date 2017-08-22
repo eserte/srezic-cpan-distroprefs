@@ -9,15 +9,26 @@ comment: "I don't have Oracle installed"
 match:
   distribution: '/DBD-Oracle-\d'
   perlconfig:
-    myuname: 'linux w1wc'
+    myuname: 'linux ws40601'
 pl:
   env:
-    LD_LIBRARY_PATH: /usr/lib/oracle/12.1/client64/lib/
+    LD_LIBRARY_PATH: /usr/lib/oracle/12.2/client64/lib/
+    ORACLE_HOME:     /usr/lib/oracle/12.2/client64
   args: ["-l"]
 make:
   env:
-    LD_LIBRARY_PATH: /usr/lib/oracle/12.1/client64/lib/
-comment: "On this machine oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm, oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm and oracle-instantclient12.1-sqlplus-12.1.0.2.0-1.x86_64.rpm (converted to debs) are installed"
+    LD_LIBRARY_PATH: /usr/lib/oracle/12.2/client64/lib/
+    ORACLE_HOME:     /usr/lib/oracle/12.2/client64
+# On this machine the following files are installed:
+#   oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm
+#   oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm
+#   oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
+# The files may be found on Oracle's "Instant Client Downloads for Linux x86-64" page
+# at the time of writing: http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html
+# The rpms have to be converted to debs using alien, i.e.
+#   sudo alien oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm
+# etc. and then:
+#   sudo dpkg --install oracle-instantclient12.2-basic_12.2.0.1.0-2_amd64.deb oracle-instantclient12.2-devel_12.2.0.1.0-2_amd64.deb oracle-instantclient12.2-sqlplus_12.2.0.1.0-2_amd64.deb
 ---
 match:
   distribution: '/DBD-Oracle-\d'
