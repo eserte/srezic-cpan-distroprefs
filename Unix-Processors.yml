@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QUnix-Processors-2.045.tar.gz\E'
+  perlconfig:
+    archname: "-freebsd"
+patches:
+  - SREZIC/patches/Unix-Processors-2.045-RT122943.patch
