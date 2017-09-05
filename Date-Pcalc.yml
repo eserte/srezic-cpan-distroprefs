@@ -26,3 +26,4 @@ pl:
   expect:
     - "\QInstall C/XS version (answer 'c') or pure-Perl version (answer 'p')?"
     - "p\n"
+# see RT#121130 and RT#76442
