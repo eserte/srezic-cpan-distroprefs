@@ -1,0 +1,6 @@
+---
+match:
+  distribution: 'CORNELIS/Data-Utilities-0.04.tar.gz'
+cpanconfig:
+  prefer_installer: EUMM
+# https://rt.cpan.org/Ticket/Display.html?id=103255
