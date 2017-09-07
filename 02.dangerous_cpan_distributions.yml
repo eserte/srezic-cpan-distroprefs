@@ -519,6 +519,7 @@ match:
      |\QESUMMERS/SRU-0.7.tar.gz\E
      |\QETHER/URI-1.71.tar.gz\E
      |\QETJ/GraphQL-0.05.tar.gz\E
+     |\QETJ/GraphQL-0.06.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -854,9 +855,12 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
+     |\QJILLROWE/BioX-Workflow-Command-2.0.10.tar.gz\E
+     |\QJILLROWE/BioX-Workflow-Command-2.2.1.tar.gz\E
      |\QJILLROWE/HPC-Runner-Command-3.0.1.tar.gz\E
      |\QJILLROWE/HPC-Runner-Command-3.1.0.tar.gz\E
      |\QJILLROWE/HPC-Runner-Command-3.2.3.tar.gz\E
+     |\QJILLROWE/HPC-Runner-Command-3.2.8.tar.gz\E
      |\QJILLROWE/HPC-Runner-Command-Plugin-Logger-Sqlite-0.0.4.tar.gz\E
      |\QJILLROWE/HPC-Runner-Slurm-2.52.tar.gz\E
      |\QJINZANG/App-Followme-0.89.tar.gz\E
@@ -934,6 +938,7 @@ match:
      |\QJUSTIN/Telegram-Bot-0.004.tar.gz\E
      |\QJVANASCO/Authen-PluggableCaptcha-0.02.tar.gz\E
      |\QJWB/Bio-Gonzales-0.0546.tar.gz\E
+     |\QJWB/Bio-Grid-Run-SGE-0.042.tar.gz\E
      |\QJWIED/HTML-EP-0.1135.tar.gz\E
      |\QJWIED/Mail-IspMailGate-1.1011.tar.gz\E
      |\QJWIED/Msql-Mysql-modules-1.1835.tar.gz\E
@@ -1372,6 +1377,8 @@ match:
      |\QNEKOYA/DBIx-Skinny-InflateColumn-DateTime-0.04.tar.gz\E
      |\QNES/Nes-1.02.tar.gz\E
      |\QNETSENSEI/Catmandu-Store-Datahub-0.01.tar.gz\E
+     |\QNETSENSEI/Datahub-Factory-1.5.tar.gz\E
+     |\QNETSENSEI/Datahub-Factory-Arthub-0.9.tar.gz\E
      |\QNEZUMI/MIME-Charset-1.011.3.tar.gz\E
      |\QNGLENN/Algorithm-AM-2.45.tar.gz\E
      |\QNGLENN/Algorithm-AM-3.02.tar.gz\E
@@ -1502,8 +1509,6 @@ match:
      |\QPLAVEN/Padre-0.92.tar.gz\E
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
-     |\QPLICEASE/Alien-Role-Dino-0.03.tar.gz\E
-     |\QPLICEASE/App-RegexFileUtils-0.07.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMAKHOLM/Plack-App-FakeApache-0.03.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
@@ -1535,6 +1540,7 @@ match:
      |\QPVERD/RTF-Parser-1.05.tar.gz\E
      |\QPYTHIAN/DBD-Oracle-1.46.tar.gz\E
      |\QPYTHIAN/DBD-Oracle-1.50.tar.gz\E
+     |\QQGARNIER/Libssh-Session-0.1.tar.gz\E
      |\QRADCLIFF/WebService-Eventful-1.0.tar.gz\E
      |\QRAJ/Lingua-IN-TGC-1.01.tar.gz\E
      |\QRAM/Carp-Datum-0.1.2.tar.gz\E
@@ -1555,6 +1561,7 @@ match:
      |\QREATMON/Net-XMPP-0.1.tar.gz\E
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREISINGE/App-Monport-0.11.tar.gz\E
+     |\QRENE/Grid-Layout-0.01.tar.gz\E
      |\QRENEEB/OTRS-OPM-Analyzer-0.05.tar.gz\E
      |\QRENTOCRON/Net-Flotum-0.09.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
@@ -1650,6 +1657,7 @@ match:
      |\QSARTAK/Pod-Cpandoc-0.01.tar.gz\E
      |\QSARTAK/Template-Declare-0.41.tar.gz\E
      |\QSAXJAZMAN/iodef/Iodef-Pb-Simple-0.01.tar.gz\E
+     |\QSBECK/Locale-Codes-3.53.tar.gz\E
      |\QSCAIN/Bio-GMOD-GenericGenePage-0.11.tar.gz\E
      |\QSCESANO/Lego-Ldraw-0.5.7.1.tar.gz\E
      |\QSCHOP/Data-ACL-0.01.tar.gz\E
@@ -1673,8 +1681,8 @@ match:
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
      |\QSHAY/perl-5.20.3.tar.gz\E
-     |\QSHAY/perl-5.22.4.tar.gz\E
-     |\QSHAY/perl-5.24.2.tar.bz2\E
+     |\QSHAY/perl-5.22.4.tar.bz2\E
+     |\QSHAY/perl-5.24.2.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
@@ -1735,7 +1743,6 @@ match:
      |\QSMITHFARM/App-Dochazka-Common-0.202.tar.gz\E
      |\QSMITHFARM/App-Dochazka-Common-0.206.tar.gz\E
      |\QSMITHFARM/App-Dochazka-REST-0.519.tar.gz\E
-     |\QSMITHFARM/App-MFILE-WWW-0.154.tar.gz\E
      |\QSMRZ/Encode-Arabic-14.1.tar.gz\E
      |\QSMUELLER/Attribute-Handlers-0.96.tar.gz\E
      |\QSMUELLER/Dumbbench-0.10.tar.gz\E
@@ -1767,9 +1774,7 @@ match:
      |\QSRSHAH/Test-Distribution-1.21.tar.gz\E
      |\QSRZ/Archive-Tar-0.22.tar.gz\E
      |\QSSINYAGIN/SIAM-0.10.tar.gz\E
-     |\QSSQQ/Spp-0.02.tar.gz\E
-     |\QSSQQ/Spp-0.04.tar.gz\E
-     |\QSSQQ/Spp-1.01.tar.gz\E
+     |\QSSQQ/Spp-1.07.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.1.1.tar.gz\E
      |\QSTARKY/Net-Peep-0.4.4.tar.gz\E
      |\QSTDWEIRD/Net-FreeIPA-0.0.7.tar.gz\E
@@ -2042,6 +2047,7 @@ match:
      |\QZDM/Pcore-Ext-v0.11.2.tar.gz\E
      |\QZDM/Pcore-Ext-v0.9.1.tar.gz\E
      |\QZDM/Pcore-Nginx-v0.10.1.tar.gz\E
+     |\QZDM/Pcore-PgSQL-v0.11.0.tar.gz\E
      |\QZDM/Pcore-PgSQL-v0.8.0.tar.gz\E
      |\QZDM/Pcore-SQLite-v0.8.2.tar.gz\E
      |\QZDM/Pcore-Sphinx-v0.5.2.tar.gz\E
