@@ -12,6 +12,15 @@ pl:
 ---
 match:
   distribution: '/Alien-CMake-\d'
+  perlconfig:
+    archname: MSWin32
+# No Expect.pm here
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+---
+match:
+  distribution: '/Alien-CMake-\d'
 pl:
   expect:
     - '\QWhat way do you wanna go'
