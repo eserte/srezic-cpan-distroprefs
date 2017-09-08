@@ -178,6 +178,7 @@ push-and-smoker-pull:	push smoker-pull
 smoker-pull:
 	fbsd-dsh -g regularsmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull'
 	fbsd-dsh -g parttimesmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull' || true
+	fbsd-dsh -g windowssmoker -c -M 'cd c:\Strawberry\cpan\prefs && git pull' || true
 
 dd-prefs:
 	{
