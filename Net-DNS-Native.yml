@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/\QNet-DNS-Native-0.08.tar.gz\E'
+  perlconfig:
+    archname: '-freebsd$'
+patches:
+  - SREZIC/patches/Net-DNS-Native-0.08-SREZIC-01.patch
+# Don't warn if perl process runs with
+# LD_PRELOAD=/usr/lib/libpthread.so
+# Only required on non-threaded freebsd installs.
+# Note that this is NOT the latest Net::DNS::Native version
