@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/\QSys-Info-Driver-Linux-0.7903.tar.gz\E'
+  perlconfig:
+    archname: "-linux"
+# matches CentOS6 & CentOS7, probably also RedHat, unfortunately
+    osvers: '^(2\.6\.32-.*\.el6\.|3\.10\.0-042stab120\.6|3\.10\.0-.*\.el7\.)'
+patches:
+  - SREZIC/patches/Sys-Info-Driver-Linux-0.7903-RT98099.patch
