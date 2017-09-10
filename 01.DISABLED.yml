@@ -1513,5 +1513,6 @@ match:
     |STEFFENW/Locale-Utils-Autotranslator-1.005-withoutworldwriteables.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=122505
     |ILYAZ/modules/UI-KeyboardLayout-0.72b.tar.gz # permission problems - https://rt.cpan.org/Ticket/Display.html?id=122691
     |KAKTUS/App-Environ-ClickHouse-Proxy-0.1.tar.gz # no Makefile.PL
+    |KAKTUS/App-Environ-ClickHouse-0.1.tar.gz # no Makefile.PL
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
