@@ -20,6 +20,17 @@ pl:
     PERL_MM_USE_DEFAULT: 1
 ---
 match:
+  distribution: '/Alien-CMake-0\.09\.'
+pl:
+  expect:
+    - '\QWhat way do you wanna go'
+    - "\n"
+depends:
+  build_requires:
+    File::Fetch: 0.50
+# File::Fetch with better https support, see https://rt.cpan.org/Ticket/Display.html?id=123022
+---
+match:
   distribution: '/Alien-CMake-\d'
 pl:
   expect:
