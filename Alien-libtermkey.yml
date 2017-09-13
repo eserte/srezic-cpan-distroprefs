@@ -3,7 +3,7 @@ match:
   distribution: '/Alien-libtermkey-0\.16\.'
   perlconfig:
     osname: freebsd
-    osvers: '^10\.'
+    osvers: '^(10|11)\.'
 #patches:
 #  - SREZIC/patches/Alien-libtermkey-0.16-RT91873.patch
 ## Does not work: src/Makefile only exists later, so it's not
