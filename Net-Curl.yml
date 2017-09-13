@@ -16,3 +16,7 @@ match:
     osvers: '^(4\.8\.0-|4\.9\.0-)'
 patches:
   - SREZIC/patches/Net-Curl-0.37-issue18.patch
+
+#
+# Net-Curl-0.39 works unpatched for freebsd 10 & 11
+#
