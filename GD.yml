@@ -79,3 +79,7 @@ match:
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
+#
+# newer GD versions (e.g. 2.66) don't need any
+# patches or other hacks
+#
