@@ -6,3 +6,6 @@ match:
     osvers: '^10\.'
 disabled: 1
 # perl Makefile.PL hangs on fbsd 10.0
+#
+# no problems with version 0.30.0
+#
