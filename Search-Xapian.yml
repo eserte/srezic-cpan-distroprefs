@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: '/Search-Xapian-1\.2\.23\.0\.'
+  distribution: '/Search-Xapian-1\.2\.(23|24)\.0\.'
   perlconfig:
     archname: freebsd
-    osvers: '^10\.'
+    osvers: '^(10|11)\.'
 pl:
   args:
     - CC=c++
