@@ -3,7 +3,7 @@ match:
   distribution: '/\QArchive-Unzip-Burst-0.08.tar.gz\E'
   perlconfig:
     osname: freebsd
-    osvers: '^10\.'
+    osvers: '^(10|11)\.'
 patches:
   - SREZIC/patches/Archive-Unzip-Burst-0.08-RT114245.patch
 # make it work with clang
