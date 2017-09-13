@@ -29,3 +29,6 @@ depends:
     'Alien::gmake': 0
 patches:
   - SREZIC/patches/Alien-uPB-0.04-RT113197.patch
+#
+# version 0.10 works on freebsd 10 + 11 systems, without patch
+#
