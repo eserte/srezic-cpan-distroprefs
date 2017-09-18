@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Net-Telnet-Cisco-\d"
+  distribution: '/Net-Telnet-Cisco-\d'
 test:
   env:
     PERL_MM_USE_DEFAULT: 1
