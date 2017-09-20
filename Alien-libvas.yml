@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Alien-libvas-\d'
+  perlconfig:
+    archname: "-linux"
+# matches CentOS6
+    osvers: '^(2\.6\.32-.*\.el6\.)'
+disabled: 1
+# Tests hang
