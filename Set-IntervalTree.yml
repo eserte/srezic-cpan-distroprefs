@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Set-IntervalTree-0\.11\.'
+  perlconfig:
+    archname: freebsd
+    osvers: '^(10|11)\.'
+pl:
+  args:
+    - CC=c++
+# https://rt.cpan.org/Ticket/Display.html?id=123098
