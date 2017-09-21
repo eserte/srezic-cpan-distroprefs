@@ -1,0 +1,17 @@
+---
+match:
+  distribution: '/Net-Pcap-0\.18\.'
+  perlconfig:
+    archname: freebsd
+    osvers: '^(10|11)\.'
+patches:
+  - SREZIC/patches/Net-Pcap-0.18-RT117831-PPISAR-2.patch
+---
+match:
+  distribution: '/Net-Pcap-0\.18\.'
+  perlconfig:
+    archname: linux
+# try to match debian/stretch
+    osvers: '^4\.9\.0-'
+patches:
+  - SREZIC/patches/Net-Pcap-0.18-RT117831-PPISAR-2.patch
