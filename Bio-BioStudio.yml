@@ -21,5 +21,7 @@ pl:
       - "\n"
       - '\QEnable SGE job farming?'
       - "\n"
+      - '\QEnable BLAST+ support?'
+      - "\n"
       - '\QEnable Cairo graphics support?'
       - "\n"
