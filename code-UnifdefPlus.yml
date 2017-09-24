@@ -5,3 +5,4 @@ match:
     archname: "(-freebsd|-linux)"
 disabled: 1
 # test.pl just eats CPU
+# https://rt.cpan.org/Ticket/Display.html?id=123118
