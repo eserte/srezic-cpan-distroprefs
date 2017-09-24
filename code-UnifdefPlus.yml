@@ -1,0 +1,7 @@
+---
+match:
+  distribution: 'JULVR/code-UnifdefPlus-v0.4.0.tar.gz'
+  perlconfig:
+    archname: "(-freebsd|-linux)"
+disabled: 1
+# test.pl just eats CPU
