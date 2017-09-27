@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Search-Xapian-1\.2\.(23|24)\.0\.'
+  distribution: '/Search-Xapian-1\.2\.(23|24|25)\.0\.'
   perlconfig:
     archname: freebsd
     osvers: '^(10|11)\.'
