@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Vlc-Engine-\d'
+  perlconfig:
+    myuname: 'freebsd cvrsnica-freebsd-(92|101)'
+disabled: 1
+# Not enough disk space for prereq packages
