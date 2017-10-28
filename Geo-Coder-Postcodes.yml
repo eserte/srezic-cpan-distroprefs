@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Geo-Coder-Postcodes-\d'
+pl:
+  args:
+    - --online-tests
+# Speedup --- otherwise a prompt would sit there for 60s.
