@@ -221,13 +221,6 @@ match:
     archname: "-freebsd"
 disabled: 1
 --- 
-comment: "freebsd has only rpm3, my system at least"
-match:
-  distribution: '/RPM4-\d'
-  perlconfig:
-    archname: "-freebsd"
-disabled: 1
---- 
 comment: "assumes GNU make, hangs with BSD make"
 match:
   distribution: '/rpm-build-perl-0\.6\.5\.'
