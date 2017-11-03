@@ -234,6 +234,16 @@ match:
   perlconfig:
     version: '^5\.00505$'
 disabled: 1
+---
+comment: "Not on Windows systems"
+match:
+  perlconfig:
+    archname: "MSWin32"
+  distribution: |
+    ^(?x:
+     .*/Unix-Passwd-File-0\.24\. # https://rt.cpan.org/Ticket/Display.html?id=123507
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
 #---
 #comment: "Not on my Linux system(s)"
 #match:
