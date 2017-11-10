@@ -5,6 +5,6 @@ match:
     version: '^5\.(18|19|[2-9]\d)\.'
 test:
   env:
-    PERL_HASH_SEED: 2
+    PERL_HASH_SEED: 11
     PERL_PERTURB_KEYS: NO
 # https://rt.cpan.org/Ticket/Display.html?id=110257
