@@ -3,8 +3,15 @@ match:
   distribution: '/Lithium-WebDriver-1\.0\.0\.'
   perlconfig:
     version: '^5\.(18|19|[2-9]\d)\.'
+depends:
+  requires:
+    Dancer: 0
+    Test::Output: 0
+# https://rt.cpan.org/Ticket/Display.html?id=110256
 test:
   env:
     PERL_HASH_SEED: 11
     PERL_PERTURB_KEYS: NO
 # https://rt.cpan.org/Ticket/Display.html?id=110257
+# XXX There's some kind of hash randomization involved, but it does not seem to be the classical
+#     one which can be fixed with PERL_HASH_SEED...
