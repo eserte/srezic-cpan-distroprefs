@@ -29,3 +29,12 @@ ______________________ D i s t r o P r e f s ______________________
                            X11-Xlib.dd[0]                           
 ```
 in the log output.
+
+*Details*: some of the distroprefs files make use of the "except"
+feature to automatically answers interactive questions. This feature
+requires an installed `Expect` module, so make sure that this module
+is installed. `Expect` does not work on Windows systems --- in this
+case the distroprefs files have to be rewritten. Often an environment
+variable for turning off the interactivity exists (e.g.
+`PERL_MM_USE_DEFAULT=1`), or `perl Makefile.PL` accepts further
+commandline arguments to set options.
