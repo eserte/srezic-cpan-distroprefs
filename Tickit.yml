@@ -5,3 +5,4 @@ match:
     archname: "-freebsd"
 patches:
   - SREZIC/patches/Tickit-0.59-RT114309.patch
+# Note: not needed in later Tickit versions.
