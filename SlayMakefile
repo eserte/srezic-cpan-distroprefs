@@ -340,3 +340,7 @@ _dangerous-cpan-distributions-commit:
 		warn "No diffs, nothing to commit.\n";
 	    }
 	}
+
+check-README.md:
+	pandoc README.md -w html -o /tmp/srezic-cpan-distroprefs-README.html --self-contained || exit 1
+	firefox /tmp/srezic-cpan-distroprefs-README.html
