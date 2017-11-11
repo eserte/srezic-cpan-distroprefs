@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QCGI-Info-0.64.tar.gz\E'
+patches:
+  - SREZIC/patches/CGI-Info-0.64-issue7.patch
