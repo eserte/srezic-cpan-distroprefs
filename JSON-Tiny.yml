@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QJSON-Tiny-0.56.tar.gz\E'
+  perlconfig:
+    version: '^5\.27\.'
+patches:
+  - SREZIC/patches/JSON-Tiny-0.56-RT122139-MAGNOLIA.patch
+# PR from https://github.com/daoswald/JSON-Tiny/pull/4
