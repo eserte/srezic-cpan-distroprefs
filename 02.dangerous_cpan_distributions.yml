@@ -199,7 +199,6 @@ match:
      |\QBAYSIDE/Catalyst-Plugin-CRUD-0.14.tar.gz\E
      |\QBAYSIDE/Catalyst-Plugin-CRUD-0.15.tar.gz\E
      |\QBBC/SQL-Shell-1.14.tar.gz\E
-     |\QBBIRTH/MARC-XML-0.4.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
      |\QBDFOY/Polyglot-1.001.tar.gz\E
@@ -2052,4 +2051,5 @@ match:
      |\QZSHENGLI/WWW-Xunlei-0.03.tar.gz\E
      |\QZURBORG/AnyEvent-Proc-0.102.tar.gz\E
      |\QZURBORG/Method-Signatures-WithDocumentation-0.001.tar.gz\E
+     |\QGMCHARLT/MARC-XML-0.93.tar.gz\E
     )$
