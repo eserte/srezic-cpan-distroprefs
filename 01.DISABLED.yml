@@ -1521,5 +1521,6 @@ match:
     |HALLORAN/fastQ_brew_2.0.zip   # no Makefile.PL
     |EFORBUS/Splunk-HEC-1.00.tar.gz # no Makefile.PL
     |HOLYGHOST/hollygame/HollyGame-0.tar.gz # no Makefile.PL (empty?)
+    |HOLYGHOST/HollyGame-0.1.tar.gz # empty distribution
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
