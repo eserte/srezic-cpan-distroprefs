@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/\QParallel-Prefork-0.18.tar.gz\E'
+  perlconfig:
+    osname: freebsd
+# Theoretically may happen also on other systems, but
+# freebsd seems to be affected most
+patches:
+  - SREZIC/patches/Parallel-Prefork-0.18-RT113449.patch
