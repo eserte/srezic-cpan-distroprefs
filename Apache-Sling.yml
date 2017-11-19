@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Apache-Sling-\d"
+  distribution: '/Apache-Sling-\d'
 pl:
   expect:
-    - "\QSkip external tests?"
+    - '\QSkip external tests?'
     - "y\n"

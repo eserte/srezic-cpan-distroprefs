@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Apache-Filter-\d"
+  distribution: '/Apache-Filter-\d'
 pl:
   expect:
-    - "\Q('!' to skip)"
+    - '\(.!. to skip\)'
     - "!\n"

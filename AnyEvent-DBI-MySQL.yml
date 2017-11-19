@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/AnyEvent-DBI-MySQL-\d"
+  distribution: '/AnyEvent-DBI-MySQL-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
