@@ -2,7 +2,7 @@
 match:
   module: "^Tk$"
   perlconfig:
-    version: "^5\.6\."
+    version: '^5\.6\.'
 
 goto: "NI-S/Tk800.025.tar.gz"
 
@@ -10,7 +10,7 @@ goto: "NI-S/Tk800.025.tar.gz"
 match:
   module: "^Tk$"
   perlconfig:
-    version: "^5\.00505$"
+    version: '^5\.00505$'
     archname: "^i386-freebsd$"
 disabled: 1
 comment: "Dumps core while building"
@@ -19,7 +19,7 @@ comment: "Dumps core while building"
 match:
   module: "^Tk$"
   perlconfig:
-    version: "^5\.005"
+    version: '^5\.005'
 
 goto: "NI-S/Tk-800.024.tar.gz"
 
