@@ -1,7 +1,10 @@
 ---
 match:
-  distribution: "/Apache2-AUS-\d"
+  distribution: '/Apache2-AUS-\d'
 pl:
-  expect:
-    - "\QWhat DSN should we use for database tests?"
-    - "0\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect:
+#    - '\QWhat DSN should we use for database tests?'
+#    - "0\n"
