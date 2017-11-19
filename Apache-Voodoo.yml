@@ -1,7 +1,15 @@
 ---
 match:
-  distribution: "/Apache-Voodoo-\d"
+  distribution: '/Apache-Voodoo-\d'
 pl:
-  expect:
-    - "\QWould you like me to add the dependencies to enable this feature? (y/n) [y]"
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# To avoid interactive questions
+#depends:
+#  configure_requires:
+#    SOAP::Transport::HTTP: 0
+#    Log::Log4perl: 0
+#pl:
+#  expect:
+#    - '\QWould you like me to add the dependencies to enable this feature? (y/n) [y]'
+#    - "\n"
