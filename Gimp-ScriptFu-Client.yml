@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Gimp-ScriptFu-Client-\d"
+  distribution: '/Gimp-ScriptFu-Client-\d'
 #disabled: 1
 # The tests only pass if you run
 #   gimp -b '(plug-in-script-fu-server 1 10008 "")'

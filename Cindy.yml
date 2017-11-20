@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Cindy-\d"
+  distribution: '/Cindy-\d'
 pl:
   expect:
-    - "\QDo you want to use CSS selectors?"
+    - '\QDo you want to use CSS selectors?'
     - "\n"

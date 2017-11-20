@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/MIME-Lite-\d"
+  distribution: '/MIME-Lite-\d'
 # Avoid interactive question, better to declare the missing dependencies
 # and anyway, Makefile.PL says that it's "strongly recommend that you
 # install them".

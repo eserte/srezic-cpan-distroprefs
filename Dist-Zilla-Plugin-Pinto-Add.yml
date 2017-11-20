@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Dist-Zilla-Plugin-Pinto-Add-\d"
+  distribution: '/Dist-Zilla-Plugin-Pinto-Add-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

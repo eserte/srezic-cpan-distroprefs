@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Astro-Sunrise-0\.91\."
+  distribution: '/Astro-Sunrise-0\.91\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

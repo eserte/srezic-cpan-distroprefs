@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Net-SNMPTrapd-\d"
+  distribution: '/Net-SNMPTrapd-\d'
   env:
     PERL_BATCH: yes
 test:
   expect:
-    - "\QContinue with tests?"
+    - '\QContinue with tests?'
     - "\n"

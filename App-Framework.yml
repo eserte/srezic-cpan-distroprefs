@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/App-Framework-\d"
+  distribution: '/App-Framework-\d'
 pl:
   eexpect:
     timeout: 30
     talk:
-      - "\QEnter your choices, separated by spaces (0=none, a=all): [a]"
+      - '\QEnter your choices, separated by spaces (0=none, a=all): [a]'
       - "\n"

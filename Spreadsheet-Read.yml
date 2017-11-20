@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Spreadsheet-Read-\d"
+  distribution: '/Spreadsheet-Read-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

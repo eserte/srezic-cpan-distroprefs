@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/HTML-FromMail-\d"
+  distribution: '/HTML-FromMail-\d'
 pl:
   eexpect:
     mode: anyorder
     talk:
-      - "\QDo you want to install Template::Magic? yes/no/all [y]"
+      - '\QDo you want to install Template::Magic? yes/no/all [y]'
       - "\n"
-      - "\QDo you want to install Image::Magick? yes/no/all [y]"
+      - '\QDo you want to install Image::Magick? yes/no/all [y]'
       - "n\n"

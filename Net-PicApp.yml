@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-PicApp-\d"
+  distribution: '/Net-PicApp-\d'
 pl:
   expect:
-    - "\QEnter your PicApp API Key"
+    - '\QEnter your PicApp API Key'
     - "\n"

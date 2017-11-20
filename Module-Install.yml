@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Module-Install-1\.(03|04)"
+  distribution: '/Module-Install-1\.(03|04)'
   env:
     PERL_BATCH: yes
 disabled: 1

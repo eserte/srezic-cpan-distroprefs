@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Geo-IP-\d"
+  distribution: '/Geo-IP-\d'
 # XXX This is a totally inaccurate proxy check for "CentOS4"
   perlconfig:
     osname: linux

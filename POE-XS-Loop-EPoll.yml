@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/POE-XS-Loop-EPoll-\d"
+  distribution: '/POE-XS-Loop-EPoll-\d'
 pl:
   args:
     - --default

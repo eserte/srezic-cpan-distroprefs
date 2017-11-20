@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/POE-Component-CPAN-SQLite-Info-\d"
+  distribution: '/POE-Component-CPAN-SQLite-Info-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

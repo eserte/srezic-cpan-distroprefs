@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/XAO-Base-\d"
+  distribution: '/XAO-Base-\d'
 pl:
   expect:
-    - "\QDirectory name"
+    - '\QDirectory name'
     - "\n"
-    - "\Is that OK"
+    - '\Is that OK'
     - "y\n"

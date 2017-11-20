@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/MarekPodHtml-0\.49\.tar\.gz"
+  distribution: '/MarekPodHtml-0\.49\.tar\.gz'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

@@ -7,12 +7,12 @@ disabled: 1
 comment: "Tests may hang miserably..."
 --- 
 match:
-  distribution: "/POE-Loop-EV-\d"
+  distribution: '/POE-Loop-EV-\d'
 pl:
   eexpect:
     mode: anyorder
     talk:
-      - "\QWould you like to skip the network tests?\E"
+      - '\QWould you like to skip the network tests?\E'
       - "y\n"
   env:
     PERL_AUTOINSTALL: --skip    

@@ -1,11 +1,11 @@
 --- 
 match:
-  distribution: "/WAIT-\d"
+  distribution: '/WAIT-\d'
 pl:
   expect:
-    - "\QWAIT database directory?"
+    - '\QWAIT database directory?'
     - "/tmp\n"
-    - "\Qpath|[+-]number"
+    - '\Qpath|[+-]number'
     - "q\n"
-    - "\Qpager"
+    - '\Qpager'
     - "\n"

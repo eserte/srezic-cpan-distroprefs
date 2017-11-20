@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/SWISH-Prog-\d"
+  distribution: '/SWISH-Prog-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

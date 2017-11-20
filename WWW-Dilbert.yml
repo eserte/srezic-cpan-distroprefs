@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/WWW-Dilbert-\d"
+  distribution: '/WWW-Dilbert-\d'
 pl:
   expect:
-    - "\QSend this anonymous information?"
+    - '\QSend this anonymous information?'
     - "n\n"

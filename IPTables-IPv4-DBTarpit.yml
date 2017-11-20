@@ -1,17 +1,17 @@
 --- 
 match:
-  distribution: "/IPtables-IPv4-DBTarpit-\d"
+  distribution: '/IPtables-IPv4-DBTarpit-\d'
 pl:
   expect:
-    - "\Qdbtarpit daemon install directory       : [/usr/local/sbin]"
+    - '\Qdbtarpit daemon install directory       : [/usr/local/sbin]'
     - "\n"
-    - "\Qshared library install directory        : [/usr/local/lib]"
+    - '\Qshared library install directory        : [/usr/local/lib]'
     - "\n"
-    - "\Qshared library header install directory : [/usr/local/include]"
+    - '\Qshared library header install directory : [/usr/local/include]'
     - "\n"
-    - "\Qdbtarpit database env/home directory    : [/var/run/dbtarpit]"
+    - '\Qdbtarpit database env/home directory    : [/var/run/dbtarpit]'
     - "\n"
-    - "\Qdbtarpit primary database name          : [tarpit]"
+    - '\Qdbtarpit primary database name          : [tarpit]'
     - "\n"
-    - "\Qdbtarpit secondary database name        : [archive]"
+    - '\Qdbtarpit secondary database name        : [archive]'
     - "\n"

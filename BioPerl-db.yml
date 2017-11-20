@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/BioPerl-db-\d"
+  distribution: '/BioPerl-db-\d'
 pl:
   expect:
     - "Have you already installed BioSQL"

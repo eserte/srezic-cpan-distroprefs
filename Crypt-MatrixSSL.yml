@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/Crypt-MatrixSSL-\d"
+  distribution: '/Crypt-MatrixSSL-\d'
 pl:
   expect:
-    - "\QDo you want to enable this test?"
+    - '\QDo you want to enable this test?'
 # currently default to y
     - "\n"

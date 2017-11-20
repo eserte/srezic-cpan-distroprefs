@@ -8,10 +8,10 @@ comment: |
     http://rt.cpan.org/Ticket/Display.html?id=40144
 
 match:
-  distribution: "/Net-SSLeay-1\.35\.tar\.gz"
+  distribution: '/Net-SSLeay-1\.35\.tar\.gz'
   perlconfig:
     osname: freebsd
-    osvers: "^[789]\."
+    osvers: '^[789]\.'
 patches:
   - SREZIC/patches/Net-SSLeay-1.35-PetrSalinger-01.patch
 pl:
@@ -20,7 +20,7 @@ pl:
     timeout: 60
     reuse: 1
     talk:
-      - "\QThese tests *will* *fail* if you do not have network connectivity\E"
+      - '\QThese tests *will* *fail* if you do not have network connectivity\E'
       - "n\n"
       - "Auto-install"
       - "y\n"
@@ -33,7 +33,7 @@ make:
     timeout: 60
     reuse: 1
     talk:
-      - "\QThese tests *will* *fail* if you do not have network connectivity\E"
+      - '\QThese tests *will* *fail* if you do not have network connectivity\E'
       - "n\n"
       - "Auto-install"
       - "y\n"
@@ -80,7 +80,7 @@ make:
 ---
 ## It seems that auto_install was removed in 1.33
 match:
-  distribution: "/Net-SSLeay-\d"
+  distribution: '/Net-SSLeay-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

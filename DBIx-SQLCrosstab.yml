@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/DBIx-SQLCrosstab-\d"
+  distribution: '/DBIx-SQLCrosstab-\d'
 test:
   expect:
-    - "\QDo you want to try the extended test"
+    - '\QDo you want to try the extended test'
     - "\n"

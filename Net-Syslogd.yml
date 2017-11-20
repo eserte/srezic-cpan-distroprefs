@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Net-Syslogd-\d"
+  distribution: '/Net-Syslogd-\d'
 test:
   env:
     PERL_MM_USE_DEFAULT: 1

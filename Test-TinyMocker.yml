@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Test-TinyMocker-0\.03\."
+  distribution: '/Test-TinyMocker-0\.03\.'
 patches:
 # https://rt.cpan.org/Ticket/Display.html?id=77680
   - "SREZIC/patches/Test-TinyMocker-0.03-SREZIC-01.patch"

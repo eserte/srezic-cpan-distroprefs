@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/WebService-Bitly-0\.0[1234]"
+  distribution: '/WebService-Bitly-0\.0[1234]'
 test:
   expect:
-    - "\Qinput bit.ly test user name"
+    - '\Qinput bit.ly test user name'
     - "\n"
-    - "\Qinput bit.ly test user api key"
+    - '\Qinput bit.ly test user api key'
     - "\n"

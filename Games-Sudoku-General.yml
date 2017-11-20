@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Games-Sudoku-General-\d"
+  distribution: '/Games-Sudoku-General-\d'
 pl:
   expect:
-    - "\QDo you want to install sudokug"
+    - '\QDo you want to install sudokug'
     - "n\n"

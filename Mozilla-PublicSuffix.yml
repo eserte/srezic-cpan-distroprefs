@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Mozilla-PublicSuffix-v?\d"
+  distribution: '/Mozilla-PublicSuffix-v?\d'
 pl:
   expect:
-    - "\QCheck for a new version of the Public Suffix List?"
+    - '\QCheck for a new version of the Public Suffix List?'
     - "\n"

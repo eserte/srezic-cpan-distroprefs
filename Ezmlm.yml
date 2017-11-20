@@ -1,13 +1,13 @@
 ---
 match:
-  distribution: "/Ezmlm-\d"
+  distribution: '/Ezmlm-\d'
 pl:
   expect:
-    - "\QEzmlm binary directory"
+    - '\QEzmlm binary directory'
     - "\n"
-    - "\QQmail base directory"
+    - '\QQmail base directory'
     - "\n"
-    - "\QIs gpg-ezmlm installed for encrypted mailing list support?"
+    - '\QIs gpg-ezmlm installed for encrypted mailing list support?'
     - "\n"
-    - "\QIs gnupg installed (for keyring support in encrypted mailing lists)?"
+    - '\QIs gnupg installed (for keyring support in encrypted mailing lists)?'
     - "\n"

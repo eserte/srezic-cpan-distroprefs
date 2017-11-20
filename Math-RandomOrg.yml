@@ -1,4 +1,4 @@
 ---
 match:
-  distribution: "/Math-RandomOrg-0\.04\."
+  distribution: '/Math-RandomOrg-0\.04\.'
 #goto: "GWILLIAMS/Math-RandomOrg-0.05_02.tar.gz"

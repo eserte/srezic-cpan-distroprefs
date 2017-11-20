@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Luka-\d"
+  distribution: '/Luka-\d'
 disabled: 1
 comment: "Fails with the below specified settings"
 pl:
   expect:
-    - "\QSMTP SERVER for the tests:"
+    - '\QSMTP SERVER for the tests:'
     - "localhost\n"
     - "USERNAME:"
     - "test\n"

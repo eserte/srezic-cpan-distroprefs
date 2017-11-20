@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/IMDB-Film-\d"
+  distribution: '/IMDB-Film-\d'
 pl:
   expect:
-    - "\QDo you want to perform online tests during \"make test\" phase? [no]"
+    - '\QDo you want to perform online tests during \"make test\" phase? [no]'
     - "\n"

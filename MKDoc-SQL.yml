@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/MKDoc-SQL-\d"
+  distribution: '/MKDoc-SQL-\d'
 disabled: 1
 comment: "Questions somewhat difficult to answer per Expect"

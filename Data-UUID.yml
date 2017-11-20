@@ -5,10 +5,10 @@
 #  - avoid interactive configuration (thanks, DAXIM)
 #
 match:
-  distribution: "/Data-UUID-(0\.|1\.[01]|1\.20[0123])"
+  distribution: '/Data-UUID-(0\.|1\.[01]|1\.20[0123])'
 pl:
   expect:
-    - "\QUUID state storage [\E(/tmp|.*Temp|/.*/tmp/.*)\Q]"
+    - '\QUUID state storage [\E(/tmp|.*Temp|/.*/tmp/.*)\Q]'
     - "\n"
-    - "\Qdefault umask [0007]"
+    - '\Qdefault umask [0007]'
     - "\n"

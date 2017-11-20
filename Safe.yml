@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Safe-2\.1[56]\."
-  perl: "^/usr/local/bin/perl(5|5\.8\.8)?$"
+  distribution: '/Safe-2\.1[56]\.'
+  perl: '^/usr/local/bin/perl(5|5\.8\.8)?$'
 disabled: 1
 comment: "Problem with BSDPAN, see http://rt.cpan.org//Ticket/Display.html?id=34060"
 

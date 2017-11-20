@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/HTML-DBTable-\d"
+  distribution: '/HTML-DBTable-\d'
 pl:
   expect:
-    - "\QDo you wish to skip database testing"
+    - '\QDo you wish to skip database testing'
     - "y\n"

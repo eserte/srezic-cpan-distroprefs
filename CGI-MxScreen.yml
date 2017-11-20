@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/CGI-MxScreen-\d"
+  distribution: '/CGI-MxScreen-\d'
 pl:
   expect:
-    - "\QStrip Carp::Datum calls in installed CGI::MxScreen?"
+    - '\QStrip Carp::Datum calls in installed CGI::MxScreen?'
     - "\n"

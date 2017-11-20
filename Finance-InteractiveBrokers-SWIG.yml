@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Finance-InteractiveBrokers-SWIG-\d"
+  distribution: '/Finance-InteractiveBrokers-SWIG-\d'
 pl:
   expect:
-    - "\Q/bin/swig"
+    - '\Q/bin/swig'
     - "\n"
-    - "\QAlien/InteractiveBrokers/IBJts"
+    - '\QAlien/InteractiveBrokers/IBJts'
     - "\n"
 disabled: 1
 comment: "disabled, because the prereq Finance-InteractiveBrokers-API is also disabled"

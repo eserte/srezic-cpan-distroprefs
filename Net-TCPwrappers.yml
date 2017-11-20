@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Net-TCPwrappers-\d"
+  distribution: '/Net-TCPwrappers-\d'
   perlconfig:
     archname: "linux"
 pl:
@@ -11,7 +11,7 @@ pl:
     - "\n"
 ---
 match:
-  distribution: "/Net-TCPwrappers-\d"
+  distribution: '/Net-TCPwrappers-\d'
 pl:
   expect:
     - '\Qdo you want to link against'

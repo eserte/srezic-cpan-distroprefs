@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Sepia-\d"
+  distribution: '/Sepia-\d'
 depends:
   configure_requires:
     PadWalker: 0

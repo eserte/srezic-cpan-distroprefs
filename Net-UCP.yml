@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Net-UCP-0\.40\.tar\.gz"
+  distribution: '/Net-UCP-0\.40\.tar\.gz'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

@@ -1,19 +1,19 @@
 --- 
 match:
-  distribution: "/IMAP-Admin-\d"
+  distribution: '/IMAP-Admin-\d'
 pl:
   eexpect:
     timeout: 2
     talk:
-      - "\QEnter server:"
+      - '\QEnter server:'
       - "\n"
-      - "\QEnter login:"
+      - '\QEnter login:'
       - "\n\n"
-      - "\QEnter password:"
+      - '\QEnter password:'
       - "\n"
-      - "\QTest using SSL(y/n)?"
+      - '\QTest using SSL(y/n)?'
       - "\n"
-      - "\QTest using CRAM(y/n)?"
+      - '\QTest using CRAM(y/n)?'
       - "\n"
-      - "\QEnter Port#:"
+      - '\QEnter Port#:'
       - "\n"

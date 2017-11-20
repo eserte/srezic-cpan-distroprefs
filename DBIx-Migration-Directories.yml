@@ -1,18 +1,18 @@
 ---
 match:
-  distribution: "/DBIx-Migration-Directories-\d"
+  distribution: '/DBIx-Migration-Directories-\d'
 pl:
   eexpect:
     mode: anyorder
     timeout: 5
     talk:
-      - "\QWhere should database schemas be installed?"
+      - '\QWhere should database schemas be installed?'
       - "/tmp/schemas\n"
-      - "\QDo you want to run the MySQL tests?"
+      - '\QDo you want to run the MySQL tests?'
       - "n\n"
-      - "\QDo you want to run the SQLite2 tests?"
+      - '\QDo you want to run the SQLite2 tests?'
       - "n\n"
-      - "\QDo you want to run the PostgreSQL tests?"
+      - '\QDo you want to run the PostgreSQL tests?'
       - "n\n"
 # possible distribution problem: asks if SQLite2 tests should be run, but 
 # does not create a dependency for it

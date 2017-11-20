@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Data-Encoder-0\.03\."
+  distribution: '/Data-Encoder-0\.03\.'
 #  env:
 #    PERL_BATCH: yes
 #depends:

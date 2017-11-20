@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Heap-Simple-XS-\d"
+  distribution: '/Heap-Simple-XS-\d'
 pl:
   args:
     - "-n"

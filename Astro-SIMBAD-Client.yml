@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Astro-SIMBAD-Client-\d+"
+  distribution: '/Astro-SIMBAD-Client-\d+'
   env:
     PERL_BATCH: yes
 pl:

@@ -1,9 +1,9 @@
 --- 
 match:
-  distribution: "/Baldrick-\d"
+  distribution: '/Baldrick-\d'
 pl:
   expect:
-    - "\Qselect an installation type: [private]"
+    - '\Qselect an installation type: [private]'
     - "\n"
-    - "\QBase installation directory: [/home/cpansand/cgi-bin/]"
+    - '\QBase installation directory: [/home/cpansand/cgi-bin/]'
     - "/tmp/cgi-bin\n"

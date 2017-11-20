@@ -1,13 +1,13 @@
 --- 
 match:
-  distribution: "/Module-CPANTS-ProcessCPAN-v?\d"
+  distribution: '/Module-CPANTS-ProcessCPAN-v?\d'
 pl:
   eexpect:
     mode: anyorder
     talk:
-      - "\QPlease specify the CPANTS \E(home|root)\Q directory:\E"
+      - '\QPlease specify the CPANTS \E(home|root)\Q directory:\E'
       - "/tmp/cpants\n"
-      - "\QPostgres DB user:"
+      - '\QPostgres DB user:'
       - "cpants\n"
-      - "\QPostgres DB password:"
+      - '\QPostgres DB password:'
       - "\n"

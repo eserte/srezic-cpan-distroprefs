@@ -1,9 +1,9 @@
 --- 
 match:
-  distribution: "/HTML-Menu-TreeView-\d"
+  distribution: '/HTML-Menu-TreeView-\d'
 pl:
   expect:
-    - "\QWhere is your Document root"
+    - '\QWhere is your Document root'
     - "/tmp\n"
-    - "\QWhere is your cgi-bin Directory"
+    - '\QWhere is your cgi-bin Directory'
     - "/tmp/cgi\n"

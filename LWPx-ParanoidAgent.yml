@@ -1,13 +1,13 @@
 ---
 match:
-  distribution: "/LWPx-ParanoidAgent-1\.04\.tar\.gz"
+  distribution: '/LWPx-ParanoidAgent-1\.04\.tar\.gz'
 patches:
   - SREZIC/patches/LWPx-ParanoidAgent-1.04-RUZ-01.patch
   - SREZIC/patches/LWPx-ParanoidAgent-1.04-SREZIC-01.patch 
   - SREZIC/patches/LWPx-ParanoidAgent-1.04-SREZIC-02.patch 
 ---
 match:
-  distribution: "/LWPx-ParanoidAgent-1\.07\.tar\.gz"
+  distribution: '/LWPx-ParanoidAgent-1\.07\.tar\.gz'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

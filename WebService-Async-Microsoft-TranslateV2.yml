@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/WebService-Async-Microsoft-TranslateV2-\d"
+  distribution: '/WebService-Async-Microsoft-TranslateV2-\d'
 test:
   expect:
-    - "\QDo you want to run the live tests"
+    - '\QDo you want to run the live tests'
     - "N\n"

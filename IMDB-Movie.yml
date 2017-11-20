@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/IMDB-Movie-\d"
+  distribution: '/IMDB-Movie-\d'
 test:
   expect:
-    - "\Qconnect to imdb.com server?"
+    - '\Qconnect to imdb.com server?'
     - "\n"

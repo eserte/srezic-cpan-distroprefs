@@ -1,21 +1,21 @@
 ---
 match:
-  distribution: "/LaTeX-CatSuit-\d"
+  distribution: '/LaTeX-CatSuit-\d'
 pl:
   expect:
-    - "\Qlatex path"
+    - '\Qlatex path'
     - "\n"
-    - "\Qpdflatex path"
+    - '\Qpdflatex path'
     - "\n"
-    - "\Qbibtex path"
+    - '\Qbibtex path'
     - "\n"
-    - "\Qmakeindex path"
+    - '\Qmakeindex path'
     - "\n"
-    - "\Qdvips path"
+    - '\Qdvips path'
     - "\n"
-    - "\Qdvipdfm path"
+    - '\Qdvipdfm path'
     - "\n"
-    - "\Qps2pdf path"
+    - '\Qps2pdf path'
     - "\n"
-    - "\Qpdf2ps path"
+    - '\Qpdf2ps path'
     - "\n"

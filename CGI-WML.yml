@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/CGI-WML-\d"
+  distribution: '/CGI-WML-\d'
 depends:
   configure_requires:
 # To avoid interactive questions

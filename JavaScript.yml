@@ -1,20 +1,20 @@
 --- 
 match:
-  distribution: "/JavaScript-\d"
+  distribution: '/JavaScript-\d'
   perlconfig:
     archname: "freebsd"
 pl:
   expect:
-    - "\QIs your SpiderMonkey compiled with JS_THREADSAFE (most things will fail if you answer wrong)? [y/N]"
+    - '\QIs your SpiderMonkey compiled with JS_THREADSAFE (most things will fail if you answer wrong)? [y/N]'
     - "y\n"
-    - "\QIs your SpiderMonkey compiled with support for unicode (t/23-unicode.t will fail if you answer wrong) ? [y/N] [N]"
+    - '\QIs your SpiderMonkey compiled with support for unicode (t/23-unicode.t will fail if you answer wrong) ? [y/N] [N]'
     - "n\n"
-    - "\QDo you want support for E4X (requires SpiderMonkey > 1.5) ? [y/N] [N]"
+    - '\QDo you want support for E4X (requires SpiderMonkey > 1.5) ? [y/N] [N]'
     - "\n"
 comment: "I see JS_THREADSAFE=YES in the port Makefile"
 ---
 match:
-  distribution: "/JavaScript-\d"
+  distribution: '/JavaScript-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

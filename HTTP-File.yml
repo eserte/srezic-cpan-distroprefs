@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/HTTP-File-\d"
+  distribution: '/HTTP-File-\d'
 disabled: 1
 comment: "Displays the contents of /tmp - I do not like this"
 #test:

@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Lingua-TreeTagger-Installer-\d"
+  distribution: '/Lingua-TreeTagger-Installer-\d'
 pl:
   expect:
-    - "\QChoose your platform"
+    - '\QChoose your platform'
     - "\n"
-    - "\QInstall language:"
+    - '\QInstall language:'
     - "\n"

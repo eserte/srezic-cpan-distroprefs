@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/iCal-Parser-HTML-\d"
+  distribution: '/iCal-Parser-HTML-\d'
 pl:
   expect:
-    - "\QWould you like to install ical2html, a command line frontend"
+    - '\QWould you like to install ical2html, a command line frontend'
     - "y\n"
 # last_checked: 2014-09-27 (RFRANKEL/iCal-Parser-HTML-1.07.tar.gz is still interactive)

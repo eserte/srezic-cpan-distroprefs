@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/Webinject-Gui-1\.52\."
+  distribution: '/Webinject-Gui-1\.52\.'
 disabled: 1
 comment: "https://rt.cpan.org/Ticket/Display.html?id=65999"

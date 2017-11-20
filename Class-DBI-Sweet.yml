@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Class-DBI-Sweet-0\.(09|10)\."
+  distribution: '/Class-DBI-Sweet-0\.(09|10)\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

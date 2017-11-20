@@ -1,15 +1,15 @@
 --- 
 match:
-  distribution: "/Net-DNS-\d"
+  distribution: '/Net-DNS-\d'
   perlconfig:
-    version: "^5\.00505$"
+    version: '^5\.00505$'
 pl: 
   expect:
-    - "\QDo you want to enable these tests?"
+    - '\QDo you want to enable these tests?'
     - "y\n"
 --- 
 match:
-  distribution: "/Net-DNS-\d"
+  distribution: '/Net-DNS-\d'
 pl: 
   args: 
     - --no-online-tests

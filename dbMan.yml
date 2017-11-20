@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/dbMan-\d"
+  distribution: '/dbMan-\d'
 pl:
   expect:
-    - "\QDo you want tab completation in command line version"
+    - '\QDo you want tab completation in command line version'
     - "y\n"
-    - "\QDo you want also curses version"
+    - '\QDo you want also curses version'
     - "y\n"
-    - "\QDo you want also Tk version"
+    - '\QDo you want also Tk version'
     - "y\n"

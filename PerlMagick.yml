@@ -1,7 +1,7 @@
 ---
 match:
 #  distribution: "^JCRISTY/PerlMagick-6.71(|-1).tar.gz"
-  distribution: "^JCRISTY/PerlMagick-6\."
+  distribution: '^JCRISTY/PerlMagick-6\.'
   env:
     PERL_BATCH: yes
 disabled: 1

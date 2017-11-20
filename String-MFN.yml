@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/String-MFN-\d"
+  distribution: '/String-MFN-\d'
 pl:
   expect:
-    - "\Q(Almost certianly NO if you are on Windows) [y]"
+    - '\Q(Almost certianly NO if you are on Windows) [y]'
     - "\n"

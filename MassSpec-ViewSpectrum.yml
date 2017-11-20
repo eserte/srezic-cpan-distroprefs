@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/MassSpec-ViewSpectrum-0\.05\."
+  distribution: '/MassSpec-ViewSpectrum-0\.05\.'
   env:
     PERL_PARALLEL_SMOKER: yes
 depends:

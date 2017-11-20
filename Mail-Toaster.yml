@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Mail-Toaster-\d"
+  distribution: '/Mail-Toaster-\d'
 #test:
 #  expect:
 #    - "\QPassword:"

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Mail-Box-\d"
+  distribution: '/Mail-Box-\d'
   env:
     PERL_BATCH: yes
 pl:
@@ -9,29 +9,29 @@ pl:
     MAILBOX_RUN_TESTS: y
 --- 
 match:
-  distribution: "/Mail-Box-\d"
+  distribution: '/Mail-Box-\d'
 pl:
   eexpect:
     timeout: 2
     mode: anyorder
     talk:
-      - "\QDo you want to install Mail::SpamAssassin?"
+      - '\QDo you want to install Mail::SpamAssassin?'
       - "n\n"
-      - "\QDo you want to install Mail::Internet?"
+      - '\QDo you want to install Mail::Internet?'
       - "\n"
-      - "\QDo you want to install Mail::Box::Parser::C?"
+      - '\QDo you want to install Mail::Box::Parser::C?'
       - "\n"
-      - "\QDo you want to install Mail::Transport::Dbx?"
+      - '\QDo you want to install Mail::Transport::Dbx?'
       - "\n"
-      - "\QDo you want to install Mail::IMAPClient?"
+      - '\QDo you want to install Mail::IMAPClient?'
       - "\n"
-      - "\QDo you want to install MIME::Entity?"
+      - '\QDo you want to install MIME::Entity?'
       - "\n"
-      - "\QDo you want to install HTML::TreeBuilder?"
+      - '\QDo you want to install HTML::TreeBuilder?'
       - "\n"
-      - "\QDo you want to install Time::HiRes?"
+      - '\QDo you want to install Time::HiRes?'
       - "\n"
-      - "\QDo you want to install HTML::FormatText?"
+      - '\QDo you want to install HTML::FormatText?'
       - "\n"
-      - "\QDo you want to run the (large set of) tests?"
+      - '\QDo you want to run the (large set of) tests?'
       - "\n"

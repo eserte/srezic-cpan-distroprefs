@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Tcl-Tk-\d"
+  distribution: '/Tcl-Tk-\d'
   perlconfig:
     archname: -freebsd
 pl:

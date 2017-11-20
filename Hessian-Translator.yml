@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Hessian-Translator-\d"
+  distribution: '/Hessian-Translator-\d'
 pl:
   expect:
-    - "\QNetwork connection available?"
+    - '\QNetwork connection available?'
     - "\n"

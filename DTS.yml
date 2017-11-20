@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/DTS-\d"
+  distribution: '/DTS-\d'
 pl:
   expect:
-    - "\QDo you want to enable extended tests? [no]"
+    - '\QDo you want to enable extended tests? [no]'
     - "\n"

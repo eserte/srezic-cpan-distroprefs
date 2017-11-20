@@ -1,12 +1,12 @@
 ---
 match:
-  distribution: "/DBM-Deep-1\.0013\."
+  distribution: '/DBM-Deep-1\.0013\.'
 depends:
   requires:
     FileHandle::Fmode: 0
 ---
 match:
-  distribution: "/DBM-Deep-[23456789]\."
+  distribution: '/DBM-Deep-[23456789]\.'
 cpanconfig:
   prefer_installer: "EUMM"
 # with MB too many question, solve one day...

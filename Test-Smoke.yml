@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/Test-Smoke-\d"
+  distribution: '/Test-Smoke-\d'
 pl:
   expect:
-    - "\QWhere would you like to install Test::Smoke?"
+    - '\QWhere would you like to install Test::Smoke?'
     - "/tmp/smoke\n"

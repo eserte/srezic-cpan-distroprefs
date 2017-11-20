@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-MirapointAdmin-\d"
+  distribution: '/Net-MirapointAdmin-\d'
 pl:
   expect:
-    - "\QDo you wish to enable live testing? [n]"
+    - '\QDo you wish to enable live testing? [n]'
     - "\n"

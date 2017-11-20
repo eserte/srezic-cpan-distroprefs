@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Test-MonitorSites-\d"
+  distribution: '/Test-MonitorSites-\d'
 pl:
   expect:
-    - "\QSend test email summaries to? [devnull@example.com]"
+    - '\QSend test email summaries to? [devnull@example.com]'
     - "\n"
-    - "\QSend test sms summaries to? [devnull@example.com]"
+    - '\QSend test sms summaries to? [devnull@example.com]'
     - "\n"

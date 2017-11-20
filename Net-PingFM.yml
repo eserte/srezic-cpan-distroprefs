@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-PingFM-\d"
+  distribution: '/Net-PingFM-\d'
 pl:
   expect:
-    - "\QRun online tests"
+    - '\QRun online tests'
     - "\n"

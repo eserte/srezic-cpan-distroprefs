@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/SharePoint-SOAPHandler-\d"
+  distribution: '/SharePoint-SOAPHandler-\d'
 pl:
   expect:
-    - "\QDo you want to run the live tests"
+    - '\QDo you want to run the live tests'
     - "\n"

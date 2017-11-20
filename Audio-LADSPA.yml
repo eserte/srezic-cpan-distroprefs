@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/Audio-LADSPA-\d"
+  distribution: '/Audio-LADSPA-\d'
 pl:
   expect:
-    - "\QDo you want to test audio output (requires Audio::Play)? y/n [n]"
+    - '\QDo you want to test audio output (requires Audio::Play)? y/n [n]'
     - "\n"

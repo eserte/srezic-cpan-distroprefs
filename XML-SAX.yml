@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/XML-SAX-\d"
+  distribution: '/XML-SAX-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

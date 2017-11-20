@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/FCGI-(0\.71\.|0\.71_01)"
+  distribution: '/FCGI-(0\.71\.|0\.71_01)'
   env:
     PERL_PARALLEL_SMOKER: yes
 disabled: 1

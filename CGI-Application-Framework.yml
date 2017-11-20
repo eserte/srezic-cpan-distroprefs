@@ -1,29 +1,29 @@
 ---
 match:
-  distribution: "/CGI-Application-Framework-\d"
+  distribution: '/CGI-Application-Framework-\d'
 pl:
   expect:
-    - "\QInstall examples"
+    - '\QInstall examples'
     - "\n"
-    - "\Qroot (pick a number or type a path)"
+    - '\Qroot (pick a number or type a path)'
     - "\n"
-    - "\Qframwork-root"
+    - '\Qframwork-root'
     - "\n"
-    - "\Qexamples-path"
+    - '\Qexamples-path'
     - "\n"
-    - "\Qexamples-url"
+    - '\Qexamples-url'
     - "\n"
-    - "\Qcgi-bin-path"
+    - '\Qcgi-bin-path'
     - "\n"
-    - "\Qcgi-bin-url"
+    - '\Qcgi-bin-url'
     - "\n"
-    - "\QExamples user"
+    - '\QExamples user'
     - "\n"
-    - "\QExamples group"
+    - '\QExamples group'
     - "\n"
-    - "\QWeb server user"
+    - '\QWeb server user'
     - "\n"
-    - "\QWeb server group"
+    - '\QWeb server group'
     - "\n"
-    - "\QIs this configuration correct?"
+    - '\QIs this configuration correct?'
     - "\n"

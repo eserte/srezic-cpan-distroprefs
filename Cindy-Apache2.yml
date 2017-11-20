@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Cindy-Apache2-\d"
+  distribution: '/Cindy-Apache2-\d'
 pl:
   expect:
-    - "\QDo you want to skip testing?"
+    - '\QDo you want to skip testing?'
     - "\n"

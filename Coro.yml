@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Coro-\d+"
+  distribution: '/Coro-\d+'
 pl:
   expect:
     - "Skip further questions and use defaults"

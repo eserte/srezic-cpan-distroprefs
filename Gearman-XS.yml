@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Gearman-XS-\d"
+  distribution: '/Gearman-XS-\d'
   env:
     HOSTNAME: devpc01-debian
 pl:

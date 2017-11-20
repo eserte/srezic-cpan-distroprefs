@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/IO-Stream-Proxy-HTTPS-\d"
+  distribution: '/IO-Stream-Proxy-HTTPS-\d'
 pl:
   expect:
-    - "\QRun tests which require internet connection [n]"
+    - '\QRun tests which require internet connection [n]'
     - "\n"

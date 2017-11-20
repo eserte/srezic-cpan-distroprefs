@@ -1,20 +1,20 @@
 ---
 match:
-  distribution: "/XML-Comma-\d"
+  distribution: '/XML-Comma-\d'
 make:
   eexpect:
     mode: anyorder
     timeout: 5
     talk:
-      - "\QXML::Comma comma_root [/usr/local/comma]"
+      - '\QXML::Comma comma_root [/usr/local/comma]'
       - "\n"
-      - "\Qmysql host [localhost]"
+      - '\Qmysql host [localhost]'
       - "\n"
-      - "\Qmysql database name [comma]"
+      - '\Qmysql database name [comma]'
       - "\n"
-      - "\Qmysql user [root]"
+      - '\Qmysql user [root]'
       - "\n"
-      - "\Qmysql password (WILL ECHO!)"
+      - '\Qmysql password (WILL ECHO!)'
       - "\n"
-      - "\Qextra DSN parameters (optional)"
+      - '\Qextra DSN parameters (optional)'
       - "\n"

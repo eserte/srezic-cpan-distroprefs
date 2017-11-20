@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/OpenPlugin-\d"
+  distribution: '/OpenPlugin-\d'
 pl:
   expect:
-    - "\Q[d]one"
+    - '\Q[d]one'
     - "d\n"

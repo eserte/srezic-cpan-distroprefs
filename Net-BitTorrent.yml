@@ -5,7 +5,7 @@ disabled: 1
 comment: "Missing x bits on directories in tarball"
 ---
 match:
-  distribution: "/Net-BitTorrent-\d"
+  distribution: '/Net-BitTorrent-\d'
 #test:
 #  expect:
 #    - "\QDo you want to perform these tests in addition to core tests? [no]"

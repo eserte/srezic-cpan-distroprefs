@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Devel-Leak-Object-0\.82\."
+  distribution: '/Devel-Leak-Object-0\.82\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

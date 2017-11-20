@@ -1,10 +1,10 @@
 ---
 match:
-  distribution: "/Inline-Tcl-\d"
+  distribution: '/Inline-Tcl-\d'
 pl:
   eexpect:
     reuse: 1
     mode: anyorder
     talk:
-      - "\QUse? (or enter alternative)"
+      - '\QUse? (or enter alternative)'
       - "\n"

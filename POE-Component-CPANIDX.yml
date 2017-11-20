@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/POE-Component-CPANIDX-\d"
+  distribution: '/POE-Component-CPANIDX-\d'
 pl:
   expect:
-    - "\QDo you want live network tests"
+    - '\QDo you want live network tests'
     - "\n"

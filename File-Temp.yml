@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "^\QTJENNESS/File-Temp-0.18.tar.gz\E$"
+  distribution: '^\QTJENNESS/File-Temp-0.18.tar.gz\E$'
   perlconfig:
     version: "^5.005"
 patches:

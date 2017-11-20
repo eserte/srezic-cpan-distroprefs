@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Gantry-Plugins-Session-\d"
+  distribution: '/Gantry-Plugins-Session-\d'
 pl:
   expect:
-    - "\Qdoes not exist, should I make it"
+    - '\Qdoes not exist, should I make it'
     - "\n"

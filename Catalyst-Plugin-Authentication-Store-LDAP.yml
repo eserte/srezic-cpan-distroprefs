@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/Catalyst-Plugin-Authentication-Store-LDAP-\d"
+  distribution: '/Catalyst-Plugin-Authentication-Store-LDAP-\d'
 disabled: 1
 comment: "This module is deprecated. Please use L<Catalyst::Authentication::Store::LDAP> instead."

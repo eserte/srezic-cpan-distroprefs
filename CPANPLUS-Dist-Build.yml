@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/CPANPLUS-Dist-Build-0\.32\."
+  distribution: '/CPANPLUS-Dist-Build-0\.32\.'
 disabled: 1
 comment: "t/01_CPANPLUS-Dist-Build-Constants.t runs forever, possibly because of http://rt.cpan.org/Public/Bug/Display.html?id=44857"

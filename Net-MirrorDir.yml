@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Net-(MirrorDir|UploadMirror|DownloadMirror)-\d"
+  distribution: '/Net-(MirrorDir|UploadMirror|DownloadMirror)-\d'
 ## sometimes MirrorDir seems to be interactive and sometimes not?!
 disabled: 1
 #test:

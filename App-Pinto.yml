@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/App-Pinto-\d"
+  distribution: '/App-Pinto-\d'
 pl:
   expect:
-    - "\QInstall Pinto?"
+    - '\QInstall Pinto?'
     - "\n"
-    - "\QInstall Pinto::Remote?"
+    - '\QInstall Pinto::Remote?'
     - "\n"
 # note: both defaults to "n", maybe I should say "y" instead?
 

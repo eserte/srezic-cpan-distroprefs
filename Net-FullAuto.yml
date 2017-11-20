@@ -10,7 +10,7 @@ disabled: 1
 ## - with 0.999999999944, tries to do "autoinstall"-like functionality
 ---
 match:
-  distribution: "/Net-FullAuto-0\.92\."
+  distribution: '/Net-FullAuto-0\.92\.'
   env:
     PERL_BATCH: yes
 disabled: 1

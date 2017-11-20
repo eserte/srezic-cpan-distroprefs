@@ -1,10 +1,10 @@
 ---
 match:
-  distribution: "/DbFramework-\d"
+  distribution: '/DbFramework-\d'
 pl:
   expect:
-    - "\Qeturn to continue"
+    - '\Qeturn to continue'
     - "\n"
-    - "\QEnter (space seperated) DBI drivers to test"
+    - '\QEnter (space seperated) DBI drivers to test'
     - " \n"
 

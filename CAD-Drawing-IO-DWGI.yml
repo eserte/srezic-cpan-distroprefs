@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/CAD-Drawing-IO-DWGI-\d"
+  distribution: '/CAD-Drawing-IO-DWGI-\d'
 disabled: 1
 comment: "Searching whole disk for adinit.dat without finding it..."

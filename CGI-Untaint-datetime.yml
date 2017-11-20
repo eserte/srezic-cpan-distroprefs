@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/CGI-Untaint-datetime-0\.06"
+  distribution: '/CGI-Untaint-datetime-0\.06'
   env:
     PERL_PARALLEL_SMOKER: yes
 disabled: 1

@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/Devel-Leak-0\.03"
+  distribution: '/Devel-Leak-0\.03'
 goto: "SREZIC/Devel-Leak-0.04.tar.gz"
 comment: "as long as I am not maintainer of Devel::Leak or PETDANCE is doing a release"

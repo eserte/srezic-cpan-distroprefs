@@ -1,23 +1,23 @@
 ---
 match:
-  distribution: "/PApp-\d"
+  distribution: '/PApp-\d'
 pl:
   expect:
-    - "\Qpapp library directory"
+    - '\Qpapp library directory'
     - "\n"
-    - "\Qdirectory for i18n tables"
+    - '\Qdirectory for i18n tables'
     - "\n"
-    - "\Qunique system id"
+    - '\Qunique system id'
     - "\n"
-    - "\Qpapp user id"
+    - '\Qpapp user id'
     - "\n"
-    - "\Qpapp group id"
+    - '\Qpapp group id'
     - "\n"
-    - "\Qpapp database"
+    - '\Qpapp database'
     - "\n"
-    - "\Qpapp database user"
+    - '\Qpapp database user'
     - "\n"
-    - "\Qpapp database password"
+    - '\Qpapp database password'
     - "\n"
-    - "\Qthe serverwide cipherkey"
+    - '\Qthe serverwide cipherkey'
     - "\n"

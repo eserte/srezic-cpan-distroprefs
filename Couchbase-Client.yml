@@ -1,17 +1,17 @@
 ---
 match:
-  distribution: "/Couchbase-Client-1\.0\.0\."
+  distribution: '/Couchbase-Client-1\.0\.0\.'
   perlconfig:
     archname: freebsd
-    osvers: "^8\."
+    osvers: '^8\.'
 disabled: 1
 # hangs with freebsd8
 ---
 match:
-  distribution: "/Couchbase-Client-\d"
+  distribution: '/Couchbase-Client-\d'
 pl:
   expect:
-    - "\QInstall bundled libraries? [y]"
+    - '\QInstall bundled libraries? [y]'
     - "\n"
 # checked with M/MN/MNUNBERG/Couchbase-Client-0.18.tar.gz
 # needs -lcouchbase, which does not exist for freebsd9, it seems

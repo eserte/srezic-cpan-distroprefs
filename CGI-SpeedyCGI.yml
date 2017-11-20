@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/CGI-SpeedyCGI-\d"
+  distribution: '/CGI-SpeedyCGI-\d'
 pl:
   expect:
-    - "\QCompile mod_speedycgi (default no)"
+    - '\QCompile mod_speedycgi (default no)'
     - "\n"

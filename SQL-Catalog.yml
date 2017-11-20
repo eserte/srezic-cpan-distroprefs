@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/SQL-Catalog-\d"
+  distribution: '/SQL-Catalog-\d'
 pl:
   eexpect:
     reuse: 1
     mode: anyorder
     timeout: 5
     talk:
-      - "\QFound previous configuration"
+      - '\QFound previous configuration'
       - "\n"

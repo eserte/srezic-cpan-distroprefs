@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/LWP-UserAgent-Determined-1\.05\."
+  distribution: '/LWP-UserAgent-Determined-1\.05\.'
 disabled: 1
 comment: "Test hangs, see https://rt.cpan.org/Ticket/Display.html?id=71491"

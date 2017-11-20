@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Time-y2038-20081106\."
+  distribution: '/Time-y2038-20081106\.'
 depends:
   configure_requires:
     ExtUtils::CBuilder: 0

@@ -283,9 +283,9 @@ pl:
     mode: anyorder
     reuse: 1
     talk:
-      - "\Q==> Auto-install the \E\d+\Q mandatory module(s) from CPAN? [y]"
+      - '\Q==> Auto-install the \E\d+\Q mandatory module(s) from CPAN? [y]'
       - "\n"
-      - "\Q==> Auto-install the \E\d+\Q optional module(s) from CPAN? [y]"
+      - '\Q==> Auto-install the \E\d+\Q optional module(s) from CPAN? [y]'
       - "\n"
-      - "\Q==> Auto-install the \E\d+\Q optional module(s) from CPAN? [n]"
+      - '\Q==> Auto-install the \E\d+\Q optional module(s) from CPAN? [n]'
       - "\n"

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Cache-Memcached-1\.26\.tar\.gz"
+  distribution: '/Cache-Memcached-1\.26\.tar\.gz'
   perlconfig:
     archname: "-freebsd"
 disabled: 1

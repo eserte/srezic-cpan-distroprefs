@@ -2,7 +2,7 @@
 match:
   distribution: "/CPAN-Reporter-1.04.tar.gz"
   perlconfig:
-    version: "^5\.00505$"
+    version: '^5\.00505$'
 patches:
   - SREZIC/patches/CPAN-Reporter-1.04-SREZIC-01.patch
 --- 

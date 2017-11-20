@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/XRI-\d"
+  distribution: '/XRI-\d'
 pl:
   expect:
-    - "\QWhere should the xriroots.xml be installed (default OK)?"
+    - '\QWhere should the xriroots.xml be installed (default OK)?'
     - "\n"

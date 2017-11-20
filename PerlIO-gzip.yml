@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/PerlIO-gzip-0\.18\."
+  distribution: '/PerlIO-gzip-0\.18\.'
   perlconfig:
     archname: "MSWin32"
 #  env:
@@ -12,7 +12,7 @@ patches:
 comment: "Generally the first patch is applicable to all OS, but effectively needed only on non-Unix systems"
 ---
 match:
-  distribution: "/PerlIO-gzip-0\.18\."
+  distribution: '/PerlIO-gzip-0\.18\.'
   perlconfig:
     version: '^(5\.19\.(8|9|1.)|5\.2.\.)'
 patches:

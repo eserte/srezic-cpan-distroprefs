@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/B-Size-0\.09\."
+  distribution: '/B-Size-0\.09\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

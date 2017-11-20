@@ -1,13 +1,13 @@
 ---
 match:
-  distribution: "/IPC-Shareable-0\.60\.tar\.gz"
+  distribution: '/IPC-Shareable-0\.60\.tar\.gz'
   perlconfig:
-    version: "^5\.10\."
+    version: '^5\.10\.'
 disabled: 1
 comment: "Seems to fail badly on all 5.10.x. Badly = hanging etc."
 ---
 match:
-  distribution: "/IPC-Shareable-0\.61\.tar\.gz"
+  distribution: '/IPC-Shareable-0\.61\.tar\.gz'
 test:
   env:
     LANG: C

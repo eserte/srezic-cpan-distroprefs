@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/XML-Xerces-\d"
+  distribution: '/XML-Xerces-\d'
   perlconfig:
     archname: freebsd
 pl:
@@ -20,7 +20,7 @@ pl:
 #    XERCES_INCLUDE: /usr/include/xercesc/util
 ---
 match:
-  distribution: "/XML-Xerces-\d"
+  distribution: '/XML-Xerces-\d'
 pl:
   env:
     XERCES_LIB: "/usr/local/lib"

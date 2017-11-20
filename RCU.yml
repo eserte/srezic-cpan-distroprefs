@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/RCU-\d"
+  distribution: '/RCU-\d'
 pl:
   expect:
-    - "\Qwhich interfaces to build>"
+    - '\Qwhich interfaces to build>'
     - "0\n"

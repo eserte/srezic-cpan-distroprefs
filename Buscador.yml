@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Buscador-\d"
+  distribution: '/Buscador-\d'
 pl:
   expect:
-    - "\Qwhere do we install to guv"
+    - '\Qwhere do we install to guv'
     - "\n"

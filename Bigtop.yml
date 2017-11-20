@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Bigtop-\d"
+  distribution: '/Bigtop-\d'
 pl:
   expect:
-    - "\QDo you want to install the tentmaker templates?"
+    - '\QDo you want to install the tentmaker templates?'
     - "\n"
-    - "\QPath for TentMaker templates"
+    - '\QPath for TentMaker templates'
     - "\n"

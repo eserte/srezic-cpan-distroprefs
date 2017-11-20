@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/(HTML-Window-|HTML-Menu-Pages-|HTML-TabWidget-|HTML-Editor-|HTML-Template-LZE-)\d"
+  distribution: '/(HTML-Window-|HTML-Menu-Pages-|HTML-TabWidget-|HTML-Editor-|HTML-Template-LZE-)\d'
 pl:
   expect:
-    - "\QWhere is your Document root ? [/srv/www/htdocs]"
+    - '\QWhere is your Document root ? [/srv/www/htdocs]'
     - "\n"
-    - "\QWhere is your cgi-bin Directory ? [/srv/www/cgi-bin]"
+    - '\QWhere is your cgi-bin Directory ? [/srv/www/cgi-bin]'
     - "\n"

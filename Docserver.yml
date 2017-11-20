@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Docserver-\d"
+  distribution: '/Docserver-\d'
 pl:
   expect:
-    - "\Qof the machine. [machine.domain.com:port]"
+    - '\Qof the machine. [machine.domain.com:port]'
     - "\n"

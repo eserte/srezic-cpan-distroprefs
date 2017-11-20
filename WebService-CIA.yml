@@ -1,10 +1,10 @@
 --- 
 match:
-  distribution: "/WebService-CIA-\d"
+  distribution: '/WebService-CIA-\d'
 pl:
   eexpect:
     mode: anyorder
     timeout: 2
     talk:
-      - "\QRun internet-based tests? [y ]"
+      - '\QRun internet-based tests? [y ]'
       - "\n"

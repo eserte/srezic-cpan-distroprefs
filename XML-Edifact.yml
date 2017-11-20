@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/XML-Edifact-\d"
+  distribution: '/XML-Edifact-\d'
 pl:
   expect:
-    - "\QURL for public documents"
+    - '\QURL for public documents'
     - "\n"
-    - "\QDirectory on this system"
+    - '\QDirectory on this system'
     - "\n"

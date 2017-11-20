@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/rrdpoller-\d"
+  distribution: '/rrdpoller-\d'
 pl:
   args:
     - DEFAULTS

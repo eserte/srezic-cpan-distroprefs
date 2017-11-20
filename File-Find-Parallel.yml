@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/File-Find-Parallel-\d"
+  distribution: '/File-Find-Parallel-\d'
 pl:
   expect:
-    - "\QInstall lncopies script? [N]"
+    - '\QInstall lncopies script? [N]'
     - "\n"

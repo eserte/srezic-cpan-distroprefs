@@ -12,5 +12,5 @@ match:
     )-\d|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 pl:
   expect:
-    - "\QDo you want to run live tests against an active SNMP agent? [n ]"
+    - '\QDo you want to run live tests against an active SNMP agent? [n ]'
     - "\n"

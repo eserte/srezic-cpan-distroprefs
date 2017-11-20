@@ -1,24 +1,24 @@
 --- 
 match:
-  distribution: "/LaTeX-Driver-\d+"
+  distribution: '/LaTeX-Driver-\d+'
   perlconfig:
     archname: "-freebsd"
 pl:
   expect:
-    - "\Qlatex path [/usr/local/bin/latex]"
+    - '\Qlatex path [/usr/local/bin/latex]'
     - "\n"
-    - "\Qpdflatex path [/usr/local/bin/pdflatex]"
+    - '\Qpdflatex path [/usr/local/bin/pdflatex]'
     - "\n"
-    - "\Qbibtex path [/usr/local/bin/bibtex]"
+    - '\Qbibtex path [/usr/local/bin/bibtex]'
     - "\n"
-    - "\Qmakeindex path [/usr/local/bin/makeindex]"
+    - '\Qmakeindex path [/usr/local/bin/makeindex]'
     - "\n"
-    - "\Qdvips path [/usr/local/bin/dvips]"
+    - '\Qdvips path [/usr/local/bin/dvips]'
     - "\n"
-    - "\Qdvipdfm path [/usr/local/bin/dvipdfm]"
+    - '\Qdvipdfm path [/usr/local/bin/dvipdfm]'
     - "\n"
-    - "\Qps2pdf path [/usr/local/bin/ps2pdf]"
+    - '\Qps2pdf path [/usr/local/bin/ps2pdf]'
     - "\n"
-    - "\Qpdf2ps path [/usr/local/bin/pdf2ps]"
+    - '\Qpdf2ps path [/usr/local/bin/pdf2ps]'
     - "\n"
 

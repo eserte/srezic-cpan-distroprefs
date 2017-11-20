@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Unix-SavedIDs-\d"
+  distribution: '/Unix-SavedIDs-\d'
 pl:
   expect:
-    - "\Qcurrenly non-existant file in your /tmp dir"
+    - '\Qcurrenly non-existant file in your /tmp dir'
     - "Y\n"

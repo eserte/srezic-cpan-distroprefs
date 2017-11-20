@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/POE-Loop-Prima-\d"
+  distribution: '/POE-Loop-Prima-\d'
 pl:
   expect:
-    - "\QWould you like to skip the network tests?"
+    - '\QWould you like to skip the network tests?'
     - "\n"

@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/POE-Component-Jabber-\d"
+  distribution: '/POE-Component-Jabber-\d'
 pl:
   expect:
-    - "\QWould you like to enable network tests"
+    - '\QWould you like to enable network tests'
     - "\n"

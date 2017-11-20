@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/EV-Stream-Proxy-HTTPS-\d"
+  distribution: '/EV-Stream-Proxy-HTTPS-\d'
 pl:
   expect:
-    - "\QRun tests which require internet connection"
+    - '\QRun tests which require internet connection'
 # defaults currently to n, respect default
     - "\n"

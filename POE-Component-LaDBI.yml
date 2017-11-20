@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/POE-Component-LaDBI-\d"
+  distribution: '/POE-Component-LaDBI-\d'
 pl:
   expect:
-    - "\QDo you want to test this module against a Database?"
+    - '\QDo you want to test this module against a Database?'
     - "n\n"

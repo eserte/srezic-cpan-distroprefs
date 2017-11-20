@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/IO-Stream-\d"
+  distribution: '/IO-Stream-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

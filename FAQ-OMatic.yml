@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/FAQ-OMatic-\d"
+  distribution: '/FAQ-OMatic-\d'
 make:
   expect:
-    - "\QPress enter to continue"
+    - '\QPress enter to continue'
     - "\n"

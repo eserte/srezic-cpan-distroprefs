@@ -17,8 +17,8 @@
 #disabled: 1
 ---
 match:
-  distribution: "/DBIx-DataModel-2\.\d+\.tar.gz"
+  distribution: '/DBIx-DataModel-2\.\d+\.tar.gz'
   perlconfig:
-    version: "^5\.8\.\d+"
+    version: '^5\.8\.\d+'
 disabled: 1
 # Seems to hang because of a syntax error with perl 5.8.x

@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-IRC-\d"
+  distribution: '/Net-IRC-\d'
 pl:
   expect:
-    - "\QI acknowledge that Net::IRC is unsupported and I wish to proceed."
+    - '\QI acknowledge that Net::IRC is unsupported and I wish to proceed.'
     - "I acknowledge that Net::IRC is unsupported and I wish to proceed.\n"

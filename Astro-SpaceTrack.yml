@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Astro-SpaceTrack-\d"
+  distribution: '/Astro-SpaceTrack-\d'
 #disabled: 1
 #comment: "XXX Currently disabled because -y does not work, though advertised"
 #pl:

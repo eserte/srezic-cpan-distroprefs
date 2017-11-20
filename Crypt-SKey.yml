@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Crypt-SKey-\d"
+  distribution: '/Crypt-SKey-\d'
 test:
   expect:
-    - "\QEnter secret password"
+    - '\QEnter secret password'
     - "pwd\n"

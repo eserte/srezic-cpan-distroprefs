@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Term-Title-\d"
+  distribution: '/Term-Title-\d'
 test:
   env:
     NONINTERACTIVE_TESTING: 1

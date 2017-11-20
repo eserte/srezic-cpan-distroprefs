@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/IO-BLOB-Pg-\d"
+  distribution: '/IO-BLOB-Pg-\d'
 pl:
   expect:
-    - "\QSkip Tests? [no]"
+    - '\QSkip Tests? [no]'
     - "yes\n"
 comment: "disabled tests because database is necessary"

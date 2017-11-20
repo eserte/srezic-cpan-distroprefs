@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Class-ReluctantORM-\d"
+  distribution: '/Class-ReluctantORM-\d'
 test:
   expect:
-    - "\QChoose (Sdg)"
+    - '\QChoose (Sdg)'
     - "s\n"

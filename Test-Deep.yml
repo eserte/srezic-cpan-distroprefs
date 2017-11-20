@@ -2,7 +2,7 @@
 match:
   distribution: "/Test-Deep-0.104.tar.gz"
   perlconfig:
-    version: "^5\.10\.1"
+    version: '^5\.10\.1'
 # Probably should cover everything > 5.10.0 and < 5.11.0
 patches:
   - SREZIC/patches/Test-Deep-0.104-CONVERTER-01.patch

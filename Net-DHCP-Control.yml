@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Net-DHCP-Control-\d"
+  distribution: '/Net-DHCP-Control-\d'
 disabled: 1
 comment: "question handling seems to be broken"
 pl:
   expect:
-    - "\Q(Default is YES) >>"
+    - '\Q(Default is YES) >>'
     - "no\n"
-    - "\Qfailover-name>"
+    - '\Qfailover-name>'
     - "\n"

@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-SenderBase-\d"
+  distribution: '/Net-SenderBase-\d'
 pl:
   expect:
-    - "\QSome of the tests do network checks. Would you like to run these?"
+    - '\QSome of the tests do network checks. Would you like to run these?'
     - "\n"

@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Mail-Salsa-\d"
+  distribution: '/Mail-Salsa-\d'
 pl:
   expect:
-    - "\QDirectory to install scripts"
+    - '\QDirectory to install scripts'
     - "\n"

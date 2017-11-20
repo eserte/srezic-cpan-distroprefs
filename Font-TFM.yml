@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Font-TFM-\d"
+  distribution: '/Font-TFM-\d'
 pl:
   expect:
-    - "(\QWhere should I search for tfm files\E|\QThe search path for tfm files\E)"
+    - '(\QWhere should I search for tfm files\E|\QThe search path for tfm files\E)'
     - "\n"

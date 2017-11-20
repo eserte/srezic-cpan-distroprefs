@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Data-Random-0\.06\."
+  distribution: '/Data-Random-0\.06\.'
   env:
     PERL_BATCH: yes
 test:
@@ -12,7 +12,7 @@ depends:
 comment: https://rt.cpan.org/Ticket/Display.html?id=73551
 ---
 match:
-  distribution: "/Data-Random-\d"
+  distribution: '/Data-Random-\d'
   env:
     PERL_BATCH: yes
 test:

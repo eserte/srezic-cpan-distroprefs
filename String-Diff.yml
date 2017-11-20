@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/String-Diff-0\.04\."
+  distribution: '/String-Diff-0\.04\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

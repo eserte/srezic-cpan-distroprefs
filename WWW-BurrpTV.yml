@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/WWW-BurrpTV-\d"
+  distribution: '/WWW-BurrpTV-\d'
 pl:
   expect:
-    - "\QDo you want to perform online tests during \"make test\" phase?"
+    - '\QDo you want to perform online tests during \"make test\" phase?'
     - "\n"

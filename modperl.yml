@@ -1,14 +1,14 @@
 ---
 comment: "have to be reviewed for the smokers"
 match:
-  distribution: "/mod_perl-\d"
+  distribution: '/mod_perl-\d'
   env:
     USER: cpansand
 disabled: 1
 ---
 comment: "have to be reviewed for the smokers"
 match:
-  distribution: "/mod_perl-\d"
+  distribution: '/mod_perl-\d'
   env:
     PERL_PARALLEL_SMOKER: yes
 disabled: 1

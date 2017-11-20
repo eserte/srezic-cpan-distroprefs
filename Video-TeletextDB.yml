@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Video-TeletextDB-\d"
+  distribution: '/Video-TeletextDB-\d'
 pl:
   expect:
-    - "\QInstall TeleCollect, a teletext collector for linux"
+    - '\QInstall TeleCollect, a teletext collector for linux'
     - "\n"
-    - "\QInstall TeleFcgi, a simple FastCGI program to view teletext"
+    - '\QInstall TeleFcgi, a simple FastCGI program to view teletext'
     - "\n"

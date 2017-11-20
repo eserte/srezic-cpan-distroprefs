@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/POE-Loop-Gtk-\d"
+  distribution: '/POE-Loop-Gtk-\d'
 pl:
   args:
     - --default

@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Gantry-Plugins-CookieCheck-\d"
+  distribution: '/Gantry-Plugins-CookieCheck-\d'
 pl:
   expect:
-    - "\Q/home/httpd/html/gantry does not exist, should I make it?"
+    - '\Q/home/httpd/html/gantry does not exist, should I make it?'
     - "n\n"

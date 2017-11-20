@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/XML-LibXML-SAX-ChunkParser-\d"
+  distribution: '/XML-LibXML-SAX-ChunkParser-\d'
 pl: 
   expect:
-    - "\QDo you want to modify ParserDetails.ini? [Y]\E"
+    - '\QDo you want to modify ParserDetails.ini? [Y]\E'
     - "n\n"
 comment: "Dangerous! Does not implement the SAX API!"

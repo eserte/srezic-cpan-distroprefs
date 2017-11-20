@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Gantry-Plugins-Uaf-\d"
+  distribution: '/Gantry-Plugins-Uaf-\d'
 pl:
   expect:
-    - "\Q/home/httpd/html/gantry does not exist, should I make it"
+    - '\Q/home/httpd/html/gantry does not exist, should I make it'
     - "n\n"

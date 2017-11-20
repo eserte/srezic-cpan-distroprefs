@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Devel-Maypole-\d"
+  distribution: '/Devel-Maypole-\d'
 pl:
   expect:
-    - "\QInstallation location"
+    - '\QInstallation location'
     - "14\n"

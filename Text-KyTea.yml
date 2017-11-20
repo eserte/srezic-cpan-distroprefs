@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Text-KyTea-\d"
+  distribution: '/Text-KyTea-\d'
   env:
     PERL_BATCH: yes
 disabled: 1

@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Business-Shipping-DataFiles-\d"
+  distribution: '/Business-Shipping-DataFiles-\d'
 pl:
   expect:
-    - "\QBusiness::Shipping::DataFiles data directory"
+    - '\QBusiness::Shipping::DataFiles data directory'
     - "\n"

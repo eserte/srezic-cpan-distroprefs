@@ -1,15 +1,15 @@
 ---
 match:
-  distribution: "/LockFile-NetLock-\d"
+  distribution: '/LockFile-NetLock-\d'
 pl:
   expect:
-    - "\QFTP host where you have directory creation privileges. []"
+    - '\QFTP host where you have directory creation privileges. []'
     - "\n"
-    - "\QCould not verify host name - try again?(y|n)"
+    - '\QCould not verify host name - try again?(y|n)'
     - "n\n"
-    - "\QUser name with directory creation privileges at . []"
+    - '\QUser name with directory creation privileges at . []'
     - "\n"
-    - "\QEnter password for . []"
+    - '\QEnter password for . []'
     - "\n"
-    - "\QEnter test directory path. [lockdir.lck]"
+    - '\QEnter test directory path. [lockdir.lck]'
     - "\n"

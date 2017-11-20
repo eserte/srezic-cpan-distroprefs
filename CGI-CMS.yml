@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/CGI-CMS-\d"
+  distribution: '/CGI-CMS-\d'
 pl:
   expect:
-    - "\Q Files chmod:  0755 [yes ]"
+    - '\Q Files chmod:  0755 [yes ]'
     - "\n"

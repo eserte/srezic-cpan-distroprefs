@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/List-BinarySearch-\d"
+  distribution: '/List-BinarySearch-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

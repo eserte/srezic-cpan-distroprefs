@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Template-DBI-\d"
+  distribution: '/Template-DBI-\d'
 pl:
   expect:
-    - "\QIt requires access to an existing test database"
+    - '\QIt requires access to an existing test database'
     - "n\n"

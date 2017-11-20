@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/MMM-Text-Search-\d"
+  distribution: '/MMM-Text-Search-\d'
 test:
   expect:
-    - "^\Q:"
+    - '^\Q:'
     - "1\n"

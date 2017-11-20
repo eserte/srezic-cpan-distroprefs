@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/WebTools-\d"
+  distribution: '/WebTools-\d'
 pl:
   expect:
-    - "\QPlease specify directory"
+    - '\QPlease specify directory'
     - "/tmp/webtools"

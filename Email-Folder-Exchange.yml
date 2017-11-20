@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Email-Folder-Exchange-\d"
+  distribution: '/Email-Folder-Exchange-\d'
 pl:
   expect:
-    - "\QDo you want to run the live tests [y/N]?  [N]"
+    - '\QDo you want to run the live tests [y/N]?  [N]'
     - "\n"

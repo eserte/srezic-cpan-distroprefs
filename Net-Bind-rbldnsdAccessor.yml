@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Net-Bind-rbldnsdAccessor-\d"
+  distribution: '/Net-Bind-rbldnsdAccessor-\d'
 disabled: 1
 comment: "Too many questions"
 #pl:

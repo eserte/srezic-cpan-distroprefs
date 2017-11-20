@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/OpenOffice-OODoc-\d"
+  distribution: '/OpenOffice-OODoc-\d'
 pl:
   expect:
-    - "\QIs that OK (y/n) ? [y]"
+    - '\QIs that OK (y/n) ? [y]'
     - "\n"

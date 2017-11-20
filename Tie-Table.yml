@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Tie-Table-\d"
+  distribution: '/Tie-Table-\d'
 test:
   expect:
-    - "\QDo you want me to test the module with a database server?"
+    - '\QDo you want me to test the module with a database server?'
     - "n\n"

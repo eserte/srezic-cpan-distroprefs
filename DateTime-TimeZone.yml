@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/DateTime-TimeZone-(1\.43|1\.44)\."
+  distribution: '/DateTime-TimeZone-(1\.43|1\.44)\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

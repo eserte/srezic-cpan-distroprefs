@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/TripleStore-\d"
+  distribution: '/TripleStore-\d'
 disabled: 1
 comment: "invisible question (the below one) also after installation"
 pl:
   expect:
-    - "\Q[2] Skip Tests"
+    - '\Q[2] Skip Tests'
     - "2\n"

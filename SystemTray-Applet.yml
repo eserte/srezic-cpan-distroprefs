@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/SystemTray-Applet-\d"
+  distribution: '/SystemTray-Applet-\d'
 pl:
   expect:
-    - "\QDo you want to install SystemTray::Applet::Gnome"
+    - '\QDo you want to install SystemTray::Applet::Gnome'
     - "\n"

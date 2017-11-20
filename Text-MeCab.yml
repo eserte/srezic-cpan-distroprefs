@@ -1,9 +1,9 @@
 --- 
 match:
-  distribution: "/Text-MeCab-\d"
+  distribution: '/Text-MeCab-\d'
 pl:
   expect:
-    - "\QPath to mecab config? "
+    - '\QPath to mecab config? '
     - "\n"
-    - "\QEncoding of your mecab dictionary?"
+    - '\QEncoding of your mecab dictionary?'
     - "\n"

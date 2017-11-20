@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/XML-SAX-ExpatXS-\d"
+  distribution: '/XML-SAX-ExpatXS-\d'
 pl:
   expect:
-    - "\QDo you want to alter ParserDetails.ini? [Y]"
+    - '\QDo you want to alter ParserDetails.ini? [Y]'
     - "\n"

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/DBIx-MyParse-\d"
+  distribution: '/DBIx-MyParse-\d'
 disabled: 1
 comment: "Needs pre-built mysql or so"
 #pl:

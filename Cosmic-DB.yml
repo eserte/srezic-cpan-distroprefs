@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Cosmic-DB-\d"
+  distribution: '/Cosmic-DB-\d'
 pl:
   expect:
-    - "(Do you want to enter test DB info|Do you want to change the current test DB info)\Q? [no]"
+    - '(Do you want to enter test DB info|Do you want to change the current test DB info)\Q? [no]'
     - "\n"

@@ -1,9 +1,9 @@
 --- 
 match:
-  distribution: "/Device-Davis-\d+"
+  distribution: '/Device-Davis-\d+'
 disabled: 1
 comment: "Test messes around with tty..."
 pl:
   expect:
-    - "\QEnter the full path to the tty to use"
+    - '\QEnter the full path to the tty to use'
     - "/dev/tty"

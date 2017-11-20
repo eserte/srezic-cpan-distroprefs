@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Bio-GMOD-\d"
+  distribution: '/Bio-GMOD-\d'
 pl:
   expect:
-    - "\QDo you want to run the Bio::GMOD::Monitor::* tests"
+    - '\QDo you want to run the Bio::GMOD::Monitor::* tests'
     - "\n"

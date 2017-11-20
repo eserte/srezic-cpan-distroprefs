@@ -1,9 +1,9 @@
 --- 
 match:
-  distribution: "/Net-SSH-Perl-1\.(34|35)\."
+  distribution: '/Net-SSH-Perl-1\.(34|35)\.'
   perlconfig:
     archname: freebsd
-    osvers: "^8\.0"
+    osvers: '^8\.0'
 patches:
   - "SREZIC/patches/Net-SSH-Perl-1.34-selecthack.patch"
 pl:
@@ -20,7 +20,7 @@ comment: "See https://rt.cpan.org/Ticket/Display.html?id=67586"
 #comment: "The 03-packet test hangs (seen with 5.8.8, and 5.12.x, and 5.14.0)"
 --- 
 match:
-  distribution: "/Net-SSH-Perl-\d"
+  distribution: '/Net-SSH-Perl-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

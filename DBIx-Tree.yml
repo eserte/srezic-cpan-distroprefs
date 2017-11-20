@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/DBIx-Tree-\d"
+  distribution: '/DBIx-Tree-\d'
 pl:
   expect:
-    - "\QDBI Connection String"
+    - '\QDBI Connection String'
     - "\n"
-    - "\QUser ID"
+    - '\QUser ID'
     - "\n"
-    - "\QPassword"
+    - '\QPassword'
     - "\n"

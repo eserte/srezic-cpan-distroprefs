@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/CPAN-WAIT-\d"
+  distribution: '/CPAN-WAIT-\d'
 pl:
   expect:
-    - "\QShould I run the tests anyway?"
+    - '\QShould I run the tests anyway?'
     - "\n"

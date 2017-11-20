@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/Inline-Ruby-\d"
+  distribution: '/Inline-Ruby-\d'
 pl:
   expect:
-    - "\QUse which"
+    - '\QUse which'
     - "\n"
 # first (default) is good enough

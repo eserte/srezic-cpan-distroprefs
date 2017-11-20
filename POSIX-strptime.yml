@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/POSIX-strptime-0\.10\."
+  distribution: '/POSIX-strptime-0\.10\.'
 depends:
   configure_requires:
     Devel::Hide: 0

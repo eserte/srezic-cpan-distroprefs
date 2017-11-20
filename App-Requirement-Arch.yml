@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/App-Requirement-Arch-\d"
+  distribution: '/App-Requirement-Arch-\d'
 pl:
   expect:
-    - "\QCreate a default template in your home directory? [no"
+    - '\QCreate a default template in your home directory? [no'
     - "\n"

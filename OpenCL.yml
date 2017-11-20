@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/OpenCL-\d"
+  distribution: '/OpenCL-\d'
 pl:
   expect:
-    - "\QPrefer OpenCL 1.1 over 1.2 functions"
+    - '\QPrefer OpenCL 1.1 over 1.2 functions'
     - "\n"

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/File-DirWalk-\d"
+  distribution: '/File-DirWalk-\d'
 ## The following was flawed, because it is also setting
 ## HOME for CPAN::Reporter, which was not able to
 ## send reports anymore.

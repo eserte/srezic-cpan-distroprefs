@@ -1,13 +1,13 @@
 --- 
 match:
-  distribution: "/Text-Restructured-\d"
+  distribution: '/Text-Restructured-\d'
 pl:
   expect:
-    - "\QURL for default cascading style sheet (or \E.none.\Q) [None]"
+    - '\QURL for default cascading style sheet (or \E.none.\Q) [None]'
     - "\n"
-    - "\QRun perl tainted (not required for safe operation) [No]"
+    - '\QRun perl tainted (not required for safe operation) [No]'
     - "\n"
-    - "\QURL where documentation will be installed (or \E.none.\Q) [None]"
+    - '\QURL where documentation will be installed (or \E.none.\Q) [None]'
     - "\n"
-    - "\QDoes this look right?"
+    - '\QDoes this look right?'
     - "\n"

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Win32-Registry-0\.10\."
+  distribution: '/Win32-Registry-0\.10\.'
 patches:
   - "SREZIC/patches/Win32-Registry-0.10-SREZIC-03.patch"
 ## This is the more accurate patch probably, but for some

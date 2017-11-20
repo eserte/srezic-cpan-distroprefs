@@ -1,15 +1,15 @@
 ---
 match:
-  distribution: "/Search-InvertedIndex-DB-Pg-\d"
+  distribution: '/Search-InvertedIndex-DB-Pg-\d'
 pl:
   expect:
-    - "\QDatabase name for testing:  [undef]"
+    - '\QDatabase name for testing:  [undef]'
     - "\n"
-    - "\QDatabase user:  [undef]"
+    - '\QDatabase user:  [undef]'
     - "\n"
-    - "\QDatabase password:  [undef]"
+    - '\QDatabase password:  [undef]'
     - "\n"
-    - "\QDatabase host (if needed):  [undef]"
+    - '\QDatabase host (if needed):  [undef]'
     - "\n"
-    - "\QPort number (if needed):  [undef]"
+    - '\QPort number (if needed):  [undef]'
     - "\n"

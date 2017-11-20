@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/HTTP-Lite-\d"
+  distribution: '/HTTP-Lite-\d'
 ## Tests are not interactive anymore (since when?)
 #test:
 #  expect:

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/CGI-Getopt-0\.13"
+  distribution: '/CGI-Getopt-0\.13'
   env:
     PERL_PARALLEL_SMOKER: yes
 disabled: 1

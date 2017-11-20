@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Rx-\d"
+  distribution: '/Rx-\d'
 pl:
   expect:
     - '\QWhere will the RxPerl source directory be constructed'

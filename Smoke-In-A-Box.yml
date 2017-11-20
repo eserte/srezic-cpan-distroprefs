@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/(smokeinabox|Smoke-In-A-Box)-\d"
+  distribution: '/(smokeinabox|Smoke-In-A-Box)-\d'
 pl:
   expect:
-    - "\QWhere do you want to install the cpansmokebox directory?"
+    - '\QWhere do you want to install the cpansmokebox directory?'
     - "\n"
-    - "\QDo you really wish to proceed? [y/N] [N]"
+    - '\QDo you really wish to proceed? [y/N] [N]'
     - "\n"

@@ -2,6 +2,6 @@
 match:
   distribution: '/Module-CoreList-5\.21\.3\.tar\.gz'
   perlconfig:
-    version: "^5\.20\.1$"
+    version: '^5\.20\.1$'
 disabled: 1
 # https://rt.perl.org/Public/Bug/Display.html?id=122670

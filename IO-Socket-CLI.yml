@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/IO-Socket-CLI-\d"
+  distribution: '/IO-Socket-CLI-\d'
 pl:
   expect:
-    - "\QDo you want to run the live tests (y/N)?"
+    - '\QDo you want to run the live tests (y/N)?'
     - "\n"

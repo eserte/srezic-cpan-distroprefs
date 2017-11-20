@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/GD-Chart-\d"
+  distribution: '/GD-Chart-\d'
 pl:
   expect:
-    - "\QBuild JPEG support"
+    - '\QBuild JPEG support'
     - "\n"
-    - "\QBuild Freetype support"
+    - '\QBuild Freetype support'
     - "\n"
-    - "\QBuild XPM support"
+    - '\QBuild XPM support'
     - "\n"

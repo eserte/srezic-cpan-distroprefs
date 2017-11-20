@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Net-Dict-\d"
+  distribution: '/Net-Dict-\d'
 pl:
   expect:
-    - "\Qwhat is the hostname for the DICT server?"
+    - '\Qwhat is the hostname for the DICT server?'
     - "\n"
-    - "\Qwhat is the port for the DICT server?"
+    - '\Qwhat is the port for the DICT server?'
     - "\n"

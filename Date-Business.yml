@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/Date-Business-\d"
+  distribution: '/Date-Business-\d'
 disabled: 1
 comment: "asks about reading the license"

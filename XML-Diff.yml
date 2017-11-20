@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/XML-Diff-0\.05\."
+  distribution: '/XML-Diff-0\.05\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-Zuora-\d"
+  distribution: '/Net-Zuora-\d'
 pl:
   expect:
-    - "\QRun live tests (needs username/password):  [No]"
+    - '\QRun live tests (needs username/password):  [No]'
     - "\n"

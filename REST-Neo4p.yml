@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/REST-Neo4p-v?\d"
+  distribution: '/REST-Neo4p-v?\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/POE-Loop-IO_Async-\d"
+  distribution: '/POE-Loop-IO_Async-\d'
 pl: 
   args:
     - --default

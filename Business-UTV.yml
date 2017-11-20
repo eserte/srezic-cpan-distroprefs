@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Business-UTV-\d"
+  distribution: '/Business-UTV-\d'
 pl:
   expect:
-    - "\QDo you wish to install the gnome2 applet"
+    - '\QDo you wish to install the gnome2 applet'
     - "\n"
-    - "\QDo you wish to install the windows system tray"
+    - '\QDo you wish to install the windows system tray'
     - "n\n"

@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Inline-ASM-\d"
+  distribution: '/Inline-ASM-\d'
 pl:
   expect:
-    - "\QWhat assembler would you like to use? [as]"
+    - '\QWhat assembler would you like to use? [as]'
     - "\n"
-    - "\QWhat flags do you want to pass to as by default? []"
+    - '\QWhat flags do you want to pass to as by default? []'
     - "\n"
-    - "\QWhat C compiler would you like to use? [gcc]"
+    - '\QWhat C compiler would you like to use? [gcc]'
     - "\n"

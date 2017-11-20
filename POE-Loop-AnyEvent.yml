@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/POE-Loop-AnyEvent-\d"
+  distribution: '/POE-Loop-AnyEvent-\d'
 pl:
   args:
     - --default

@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/Socialtext-Resting-\d+"
+  distribution: '/Socialtext-Resting-\d+'
 pl:
   expect:
-    - "\QPerform tests against Socialtext servers? [y]"
+    - '\QPerform tests against Socialtext servers? [y]'
     - "y\n"

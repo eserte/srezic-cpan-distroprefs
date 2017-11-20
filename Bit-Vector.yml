@@ -2,7 +2,7 @@
 match:
   distribution: 'STBEY/Bit-Vector-7\.2\.tar\.gz'
   perlconfig:
-    version: "^5\.(17\.11|18\.0)"
+    version: '^5\.(17\.11|18\.0)'
 patches:
   - SREZIC/patches/Bit-Vector-7.2-RT84250.patch
 --- 

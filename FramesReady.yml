@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/FramesReady-\d"
+  distribution: '/FramesReady-\d'
 pl:
   expect:
-    - "\QDo you want to enable these tests"
+    - '\QDo you want to enable these tests'
     - "\n"

@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Authen-Libwrap-\d"
+  distribution: '/Authen-Libwrap-\d'
 pl:
   eexpect:
     mode: anyorder

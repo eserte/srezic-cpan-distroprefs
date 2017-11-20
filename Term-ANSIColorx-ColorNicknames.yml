@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Term-ANSIColorx-ColorNicknames-\d"
+  distribution: '/Term-ANSIColorx-ColorNicknames-\d'
 pl:
   expect:
-    - "\Qinstall the STDOUT pipe highlighter \E\".*hi\"\Q?"
+    - '\Qinstall the STDOUT pipe highlighter \E\".*hi\"\Q?'
     - "n\n"

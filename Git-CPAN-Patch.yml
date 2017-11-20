@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Git-CPAN-Patch-\d"
+  distribution: '/Git-CPAN-Patch-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

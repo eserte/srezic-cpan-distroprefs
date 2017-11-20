@@ -1,33 +1,33 @@
 ---
 match:
-  distribution: "/Sys-Path-\d"
+  distribution: '/Sys-Path-\d'
 pl:
   expect:
-    - "\Qprefix"
+    - '\Qprefix'
     - "/tmp/sys-path\n"
-    - "\Qlocalstatedir"
+    - '\Qlocalstatedir'
     - "/tmp/sys-path/var\n"
-    - "\Qsysconfdir"
+    - '\Qsysconfdir'
     - "/tmp/sys-path/etc\n"
-    - "\Qdatadir"
+    - '\Qdatadir'
     - "/tmp/sys-path/share\n"
-    - "\Qdocdir"
+    - '\Qdocdir'
     - "/tmp/sys-path/doc\n"
-    - "\Qcache"
+    - '\Qcache'
     - "/tmp/sys-path/var/cache\n"
-    - "\Qlog"
+    - '\Qlog'
     - "/tmp/sys-path/var/log\n"
-    - "\Qspool"
+    - '\Qspool'
     - "/tmp/sys-path/var/spool\n"
-    - "\Qrun"
+    - '\Qrun'
     - "/tmp/sys-path/var/run\n"
-    - "\Qlock"
+    - '\Qlock'
     - "/tmp/sys-path/var/lock\n"
-    - "\localedir"
+    - '\localedir'
     - "/tmp/sys-path/share/locale\n"
-    - "\Qstate"
+    - '\Qstate'
     - "/tmp/sys-path/var/state\n"
-    - "\Qwebdir"
+    - '\Qwebdir'
     - "/tmp/sys-path/var/www\n"
-    - "\Qsrvdir"
+    - '\Qsrvdir'
     - "/tmp/sys-path/srv\n"

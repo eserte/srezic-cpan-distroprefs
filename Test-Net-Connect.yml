@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Test-Net-Connect-\d"
+  distribution: '/Test-Net-Connect-\d'
 pl:
   expect:
-    - "\Qhost:port"
+    - '\Qhost:port'
     - "\n"
-    - "\Qip:port"
+    - '\Qip:port'
     - "\n"
-    - "\Qhost:port"
+    - '\Qhost:port'
     - "\n"

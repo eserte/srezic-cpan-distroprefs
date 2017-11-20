@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/POE-Component-ControlPort-\d"
+  distribution: '/POE-Component-ControlPort-\d'
 pl:
   expect:
-    - "\QAny text other than Y or y will be be taken as a no"
+    - '\QAny text other than Y or y will be be taken as a no'
     - "n\n"

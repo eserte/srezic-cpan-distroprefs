@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Term-Caca-2\.0"
+  distribution: '/Term-Caca-2\.0'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

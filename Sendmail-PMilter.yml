@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Sendmail-PMilter-\d"
+  distribution: '/Sendmail-PMilter-\d'
 pl:
   expect:
-    - "\QDo you wish to install the Sendmail::Milter interface? [yes]"
+    - '\QDo you wish to install the Sendmail::Milter interface? [yes]'
     - "\n"

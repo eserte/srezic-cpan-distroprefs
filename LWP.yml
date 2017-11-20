@@ -1,7 +1,7 @@
 --- 
 comment: "The -n is just for not installing programs, not for non-interactivity"
 match:
-  distribution: "^GAAS/libwww-perl-5\.([0-7]\d\d|80\d|81[0-3])\."
+  distribution: '^GAAS/libwww-perl-5\.([0-7]\d\d|80\d|81[0-3])\.'
 pl: 
   eexpect:
     mode: anyorder
@@ -10,16 +10,16 @@ pl:
     # needs non-release CPAN.pm
     reuse: 1
     talk:
-      - "\QDo you want to enable these tests? [y]"
+      - '\QDo you want to enable these tests? [y]'
       - "\n"
-      - "\QDo you want to install lwp-\E(request|mirror|rget|download)\Q? [y]"
+      - '\QDo you want to install lwp-\E(request|mirror|rget|download)\Q? [y]'
       - "\n"
-      - "\QDo you want to install the \E(GET|HEAD|POST)\Q alias? [n]"
+      - '\QDo you want to install the \E(GET|HEAD|POST)\Q alias? [n]'
       - "y\n"
 --- 
 comment: "live tests disabled because jigsaw site is down"
 match:
-  distribution: "^GAAS/libwww-perl-5\.814\."
+  distribution: '^GAAS/libwww-perl-5\.814\.'
 pl:
   args:
     - "--aliases"

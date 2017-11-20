@@ -1,10 +1,10 @@
 ---
 match:
-  distribution: "/Captive-Portal-\d"
+  distribution: '/Captive-Portal-\d'
   perlconfig:
     archname: "linux"
 pl:
   expect:
-    - "\QShall we test the availabilty of RADIUS modules? [no ]"
+    - '\QShall we test the availabilty of RADIUS modules? [no ]'
     - "\n"
 # Captive::Portal is Linux-only, other systems won't get built

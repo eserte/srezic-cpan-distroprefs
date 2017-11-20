@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/BioPerl-DB-\d"
+  distribution: '/BioPerl-DB-\d'
 disabled: 1
 comment: "Too many questions..."
 #pl:

@@ -1,19 +1,19 @@
 ---
 match:
-  distribution: "/Class-DBI-Plugin-DateTime-\d"
+  distribution: '/Class-DBI-Plugin-DateTime-\d'
 pl:
   expect:
-    - "\Q [y]"
+    - '\Q [y]'
     - "n\n"
-    - "\Q [y]"
+    - '\Q [y]'
     - "n\n"
 ---
 # Old questions
 match:
-  distribution: "/Class-DBI-Plugin-DateTime-0\.04"
+  distribution: '/Class-DBI-Plugin-DateTime-0\.04'
 pl:
   expect:
-    - "\QClass::DBI::Plugin::DateTime::Pg"
+    - '\QClass::DBI::Plugin::DateTime::Pg'
     - "n\n"
-    - "\QClass::DBI::Plugin::DateTime::MySQL"
+    - '\QClass::DBI::Plugin::DateTime::MySQL'
     - "n\n"

@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/xDash-\d"
+  distribution: '/xDash-\d'
 pl:
   expect:
-    - "\QPlease enter the number of the option from"
+    - '\QPlease enter the number of the option from'
     - "2\n"
 # last_checked: 2014-09-27 (J/JW/JWACH/xDash-1.02.tar.gz is still interactive)

@@ -1,12 +1,12 @@
 --- 
 match:
   distribution: "^BYRNE/SOAP-Lite-0.69"
-  perl: "perl5\.9\.5d"
+  perl: 'perl5\.9\.5d'
 pl: 
   expect:
     - "see the detailed list"
     - "\n"
-    - "Do you want to proceed with this configuration\?"
+    - 'Do you want to proceed with this configuration\?'
     - "\n"
     - "Do you want to perform these tests in addition to core tests"
     - "\n"
@@ -19,23 +19,23 @@ pl:
   expect:
     - "see the detailed list"
     - "\n"
-    - "Do you want to proceed with this configuration\?"
+    - 'Do you want to proceed with this configuration\?'
     - "\n"
     - "Do you want to perform these tests in addition to core tests"
     - "\n"
 ---
 comment: "This is from 2004-02-26"
 match:
-  distribution: "^BYRNE/SOAP/SOAP-Lite-0\.60a\.tar\.gz$"
+  distribution: '^BYRNE/SOAP/SOAP-Lite-0\.60a\.tar\.gz$'
 disabled: 1
 --- 
 match:
-  distribution: "/SOAP-Lite-0\.716\."
+  distribution: '/SOAP-Lite-0\.716\.'
 pl: 
   expect:
     - "see the detailed list"
     - "\n"
-    - "Do you want to proceed with this configuration\?"
+    - 'Do you want to proceed with this configuration\?'
     - "\n"
 #    - "Do you want to perform these tests in addition to core tests"
 #    - "\n"
@@ -43,12 +43,12 @@ patches:
   - "SREZIC/patches/SOAP-Lite-0.716-RT85762.patch"
 --- 
 match:
-  distribution: "/SOAP-Lite-0\.\d"
+  distribution: '/SOAP-Lite-0\.\d'
 pl: 
   expect:
     - "see the detailed list"
     - "\n"
-    - "Do you want to proceed with this configuration\?"
+    - 'Do you want to proceed with this configuration\?'
     - "\n"
 #    - "Do you want to perform these tests in addition to core tests"
 #    - "\n"

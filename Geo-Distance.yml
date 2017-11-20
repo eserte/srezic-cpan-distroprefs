@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Geo-Distance-0\.14\."
+  distribution: '/Geo-Distance-0\.14\.'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

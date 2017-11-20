@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Xymon-Monitor-Informix-\d"
+  distribution: '/Xymon-Monitor-Informix-\d'
 pl:
   expect:
-    - "\QWhere would you like ifxcheck.pl installed"
+    - '\QWhere would you like ifxcheck.pl installed'
     - "\n"

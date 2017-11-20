@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/ResourcePool-Resource-SOAP-Lite-\d"
+  distribution: '/ResourcePool-Resource-SOAP-Lite-\d'
 pl:
   expect:
-    - "\QDo you want to perform these tests in addition to core tests? [yes]"
+    - '\QDo you want to perform these tests in addition to core tests? [yes]'
     - "\n"

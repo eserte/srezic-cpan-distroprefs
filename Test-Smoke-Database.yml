@@ -1,7 +1,7 @@
 --- 
 match:
-  distribution: "/Test-Smoke-Database-\d"
+  distribution: '/Test-Smoke-Database-\d'
 pl:
   expect:
-    - "\QDo you want to do advanced tests ? (others than load tests)"
+    - '\QDo you want to do advanced tests ? (others than load tests)'
     - "no\n"

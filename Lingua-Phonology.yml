@@ -1,10 +1,10 @@
 ---
 match:
-  distribution: "/Lingua-Phonology-\d"
+  distribution: '/Lingua-Phonology-\d'
 pl:
   expect:
-    - "\QAdd optional module Whatif as a prerequisite to be installed"
+    - '\QAdd optional module Whatif as a prerequisite to be installed'
     - "\n"
-    - "\QAdd optional module Graph as a prerequisite to be installed"
+    - '\QAdd optional module Graph as a prerequisite to be installed'
     - "\n"
 

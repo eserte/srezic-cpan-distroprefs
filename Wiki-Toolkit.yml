@@ -1,12 +1,12 @@
 ---
 match:
-  distribution: "/Wiki-Toolkit-\d"
+  distribution: '/Wiki-Toolkit-\d'
 pl:
   eexpect:
     mode: anyorder
     talk:
-      - "\QDatabase name for MySQL:"
+      - '\QDatabase name for MySQL:'
       - "\n"
-      - "\QDatabase name for Pg:"
+      - '\QDatabase name for Pg:'
       - "\n"
 

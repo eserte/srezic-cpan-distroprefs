@@ -1,13 +1,13 @@
 ---
 match:
-  distribution: "/NewsClipper-\d"
+  distribution: '/NewsClipper-\d'
 pl:
   expect:
-    - "\QAre you installing News Clipper as a [1] single user or [2] system-wide?"
+    - '\QAre you installing News Clipper as a [1] single user or [2] system-wide?'
     - "1\n"
-    - "\Q=> [/home/\E.*\Q/NewsClipper]"
+    - '\Q=> [/home/\E.*\Q/NewsClipper]'
     - "\n"
-    - "\Q=> [/home/\E.*\Q/NewsClipper/man]"
+    - '\Q=> [/home/\E.*\Q/NewsClipper/man]'
     - "\n"
-    - "\Q=> [/home/\E.*\Q/NewsClipper/etc]"
+    - '\Q=> [/home/\E.*\Q/NewsClipper/etc]'
     - "\n"

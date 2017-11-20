@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/HTML-WikiConverter-DokuWikiFCK-\d"
+  distribution: '/HTML-WikiConverter-DokuWikiFCK-\d'
 pl:
   expect:
-    - "\QDirectory Name:"
+    - '\QDirectory Name:'
     - "\n"

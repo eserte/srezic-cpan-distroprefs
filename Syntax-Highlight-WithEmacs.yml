@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/Syntax-Highlight-WithEmacs-0\.2\."
+  distribution: '/Syntax-Highlight-WithEmacs-0\.2\.'
   perlconfig:
     archname: freebsd
-    osvers: "^8\."
+    osvers: '^8\.'
 disabled: 1
 # Actually, it hangs for emacs 22, which is installed on my freebsd-8 system

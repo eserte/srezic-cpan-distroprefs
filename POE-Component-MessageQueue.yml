@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: "/POE-Component-MessageQueue-0\.2\.7"
+  distribution: '/POE-Component-MessageQueue-0\.2\.7'
 disabled: 1
 comment: "hangs (only freebsd?)"

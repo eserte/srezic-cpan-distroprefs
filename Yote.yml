@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Yote(-WebAppServer)?-\d"
+  distribution: '/Yote(-WebAppServer)?-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

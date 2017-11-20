@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/JSON-2\.53\."
+  distribution: '/JSON-2\.53\.'
   perlconfig:
-    version: "^5\.17\.(10|11)"
+    version: '^5\.17\.(10|11)'
 patches:
   - SREZIC/patches/JSON-2.53-RT84154.patch
 # hash (very) randomization problem
@@ -15,7 +15,7 @@ pl:
 #    JSON::XS: 0
 ---
 match:
-  distribution: "/JSON-[23456789]\."
+  distribution: '/JSON-[23456789]\.'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

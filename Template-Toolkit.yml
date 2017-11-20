@@ -1,29 +1,29 @@
 --- 
 match:
-  distribution: "/Template-Toolkit-2\.18\."
+  distribution: '/Template-Toolkit-2\.18\.'
 disabled: 1
 --- 
 match:
-  distribution: "/Template-Toolkit-2\.(0|1[0-79])\."
+  distribution: '/Template-Toolkit-2\.(0|1[0-79])\.'
 pl: 
   expect:
     - "Do you want to build the XS Stash module"
     - "y\n"
-    - "\QDo you want to use the XS Stash by default? [y]\E"
+    - '\QDo you want to use the XS Stash by default? [y]\E'
     - "y\n"
     - "Do you want to install these components"
     - "n\n"
 --- 
 match:
-  distribution: "/Template-Toolkit-\d"
+  distribution: '/Template-Toolkit-\d'
   perlconfig:
     version: "5.00505"
 comment: "No questions here at all"
 ---
 match:
-  distribution: "/Template-Toolkit-2\.24\."
+  distribution: '/Template-Toolkit-2\.24\.'
   perlconfig:
-    version: "^5\.(17\.11|18\.0)"
+    version: '^5\.(17\.11|18\.0)'
 patches:
   - SREZIC/patches/Template-Toolkit-2.24-RT84778.patch
   - SREZIC/patches/Template-Toolkit-2.24-RT85607.patch
@@ -31,7 +31,7 @@ pl:
   args: ["TT_ACCEPT=y"]
 ---
 match:
-  distribution: "/Template-Toolkit-2\.(1[789]|2[0-4])"
+  distribution: '/Template-Toolkit-2\.(1[789]|2[0-4])'
   env:
     # proxy checks for "@iconmobile"
     USER: "^(slavenr|live|livesrezic|prelive|prelivesrezic)$"
@@ -55,6 +55,6 @@ patches:
 # but works with 5.21.7
 --- 
 match:
-  distribution: "/Template-Toolkit-\d"
+  distribution: '/Template-Toolkit-\d'
 pl:
   args: ["TT_ACCEPT=y"]

@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Games-RolePlay-MapGen-\d"
+  distribution: '/Games-RolePlay-MapGen-\d'
 pl:
   expect:
-    - "\QInclude pre-reqs for the Image Exporters (just GD)?"
+    - '\QInclude pre-reqs for the Image Exporters (just GD)?'
     - "\n"
-    - "\QInclude pre-reqs for the Editor (Gtk2, POE, GD, et al)?"
+    - '\QInclude pre-reqs for the Editor (Gtk2, POE, GD, et al)?'
     - "\n"
-    - "\QInstall /usr/???/bin/grm_editor"
+    - '\QInstall /usr/???/bin/grm_editor'
     - "\n"

@@ -1,9 +1,9 @@
 ---
 match:
-  distribution: "/Data-Tabular-Dumper-\d"
+  distribution: '/Data-Tabular-Dumper-\d'
 pl:
   expect:
-    - "\QRequire Spreadsheet::WriteExcel? [n]"
+    - '\QRequire Spreadsheet::WriteExcel? [n]'
     - "\n"
-    - "\QRequire Text::CSV_XS? [n]"
+    - '\QRequire Text::CSV_XS? [n]'
     - "\n"

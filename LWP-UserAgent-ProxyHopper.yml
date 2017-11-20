@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/LWP-UserAgent-ProxyHopper-\d"
+  distribution: '/LWP-UserAgent-ProxyHopper-\d'
 pl:
   expect:
-    - "\QWould you like to run the run-through test"
+    - '\QWould you like to run the run-through test'
     - "n\n"

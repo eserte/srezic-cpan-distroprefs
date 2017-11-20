@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Log-Dispatch-DesktopNotification-\d"
+  distribution: '/Log-Dispatch-DesktopNotification-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

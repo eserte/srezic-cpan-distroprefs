@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/DBIx-SQLEngine-\d"
+  distribution: '/DBIx-SQLEngine-\d'
 pl:
   expect:
-    - "\QDo you want to define a list of DSNs to test against"
+    - '\QDo you want to define a list of DSNs to test against'
     - "\n"

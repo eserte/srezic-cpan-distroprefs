@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Livelink-DAV-\d"
+  distribution: '/Livelink-DAV-\d'
 pl:
   expect:
-    - "\QDo you want to run the live tests"
+    - '\QDo you want to run the live tests'
     - "n\n"

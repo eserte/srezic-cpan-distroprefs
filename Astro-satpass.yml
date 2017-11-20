@@ -1,6 +1,6 @@
 --- 
 match:
-  distribution: "/Astro-satpass-\d"
+  distribution: '/Astro-satpass-\d'
 # It seems that settings pl.args is onlypossible for EUMM?
 cpanconfig:
   prefer_installer: EUMM

@@ -6,7 +6,7 @@ comment: |
   only 40 wallclock secs.
 
 match:
-  distribution: "/Crypt-DSA-0\.14\."
+  distribution: '/Crypt-DSA-0\.14\.'
 pl: 
   args: ["--defaultdeps"]
 disabled: 1

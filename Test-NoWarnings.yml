@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/Test-NoWarnings-0\.84\.tar\.gz"
+  distribution: '/Test-NoWarnings-0\.84\.tar\.gz'
 #  env:
 #    PERL_TEST_UNPATCHED: ''
 patches:

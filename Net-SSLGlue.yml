@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-SSLGlue-\d"
+  distribution: '/Net-SSLGlue-\d'
 pl:
   expect:
-    - "\Q[y/N] [n]"
+    - '\Q[y/N] [n]'
     - "\n"

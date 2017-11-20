@@ -1,15 +1,15 @@
 ---
 match:
-  distribution: "/DBIx-Cookbook-\d"
+  distribution: '/DBIx-Cookbook-\d'
 pl:
   expect:
-    - "\Qusername"
+    - '\Qusername'
     - "\n"
-    - "\Qpassword"
+    - '\Qpassword'
     - "\n"
-    - "\Qhost"
+    - '\Qhost'
     - "\n"
-    - "\Qport"
+    - '\Qport'
     - "\n"
 # But does not work anyway, should probably be disabled...
 disabled: 1

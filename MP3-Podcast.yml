@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/MP3-Podcast-\d"
+  distribution: '/MP3-Podcast-\d'
 test:
   expect:
-    - "\QPlease enter a base directory with MP3s to create the podcast"
+    - '\QPlease enter a base directory with MP3s to create the podcast'
     - "\n"

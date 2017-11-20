@@ -1,12 +1,12 @@
 --- 
 match:
-  distribution: "/EV-\d"
+  distribution: '/EV-\d'
   perlconfig:
-    version: "^5\.005"
+    version: '^5\.005'
 comment: "No questions"
 --- 
 match:
-  distribution: "/EV-\d"
+  distribution: '/EV-\d'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1

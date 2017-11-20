@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: "/SQL-Statement-\d"
+  distribution: '/SQL-Statement-\d'
 pl:
   env:
     SQL_STATEMENT_WARN_UPDATE: sure

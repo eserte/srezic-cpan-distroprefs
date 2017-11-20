@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Sakai-Nakamura-\d"
+  distribution: '/Sakai-Nakamura-\d'
 pl:
   expect:
-    - "\QSkip external tests"
+    - '\QSkip external tests'
     - "y\n"
