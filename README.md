@@ -17,10 +17,9 @@ files you really need, so just copy or symlink these files only. Most
 files are named after the CPAN distribution (e.g. `X11-Xlib.yml` for the
 CPAN distribution `X11-Xlib`).
 
-Also make make sure that a YAML module is installed, either `YAML` or
-`YAML::Syck`. Not all of the files are compatible with `YAML::XS`
-(yet), so make sure that the CPAN configuration option `yaml_module`
-is *not* set to `YAML::XS`.
+Also make make sure that a YAML module is installed, either `YAML`,
+`YAML::Syck`, or `YAML::XS`. (In former versions of this repository
+not all YAML files were `YAML::XS` compatible, but this is solved now)
 
 *How to check if it worked*: While `CPAN.pm` is building a module, and a
 matching distropref file is found, you'll see something like
