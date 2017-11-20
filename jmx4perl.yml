@@ -1,18 +1,18 @@
 ---
 match:
-  distribution: "/jmx4perl-\d"
+  distribution: '/jmx4perl-\d'
   env:
     PERL_BATCH: yes
 pl:
   expect:
-    - "\QInstall 'jmx4perl'"
+    - '\QInstall \E.jmx4perl.'
     - "n\n"
-    - "\QInstall 'check_jmx4perl'"
+    - '\QInstall \E.check_jmx4perl.'
     - "n\n"
-    - "\QInstall 'cacti_jmx4perl'"
+    - '\QInstall \E.cacti_jmx4perl.'
     - "n\n"
-    - "\QInstall 'j4psh'"
+    - '\QInstall \E.j4psh.'
     - "n\n"
-    - "\QInstall 'jolokia'"
+    - '\QInstall \Ejolokia.'
     - "n\n"
 # last_checked: 2014-09-27 (R/RO/ROLAND/jmx4perl-1.10.tar.gz is still interactive)

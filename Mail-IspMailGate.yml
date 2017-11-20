@@ -1,41 +1,41 @@
 ---
 match:
-  distribution: "/Mail-IspMailGate-\d"
+  distribution: '/Mail-IspMailGate-\d'
 pl:
   expect:
-    - "\QPath of the tar program ('none' to disable tar):"
+    - '\QPath of the tar program (\Q.none.\E to disable tar):'
     - "\n"
-    - "\QPath of the sendmail program ('none' to disable sendmail):"
+    - '\QPath of the sendmail program (\Q.none.\E to disable sendmail):'
     - "\n"
-    - "\QPath of the gzip program ('none' to disable gzip):"
+    - '\QPath of the gzip program (\Q.none.\E to disable gzip):'
     - "\n"
-    - "\QPath of the unzip program ('none' to disable unzip):"
+    - '\QPath of the unzip program (\Q.none.\E to disable unzip):'
     - "\n"
-    - "\QPath of the unarj program ('none' to disable unarj):"
+    - '\QPath of the unarj program (\Q.none.\E to disable unarj):'
     - "\n"
-    - "\QPath of the lha program ('none' to disable lha):"
+    - '\QPath of the lha program (\Q.none.\E to disable lha):'
     - "\n"
-    - "\QPath of the antivir program ('none' to disable antivir):"
+    - '\QPath of the antivir program (\Q.none.\E to disable antivir):'
     - "\n"
-    - "\QPath of the pgp program ('none' to disable pgp):"
+    - '\QPath of the pgp program (\Q.none.\E to disable pgp):'
     - "\n"
-    - "\QDirectory for creating temporary files:"
+    - '\QDirectory for creating temporary files:'
     - "\n"
-    - "\QPath of Unix socket:"
+    - '\QPath of Unix socket:'
     - "\n"
-    - "\QPath of PID file:"
+    - '\QPath of PID file:'
     - "\n"
-    - "\QSyslog facility (see /etc/syslog.conf):"
+    - '\QSyslog facility (see /etc/syslog.conf):'
     - "\n"
-    - "\QUID that sendmail is using for executing external programs:"
+    - '\QUID that sendmail is using for executing external programs:'
     - "\n"
-    - "\QGID that sendmail is using for executing external programs:"
+    - '\QGID that sendmail is using for executing external programs:'
     - "\n"
-    - "\QOur default domain:"
+    - '\QOur default domain:'
     - "\n"
-    - "\QAdmins email address:"
+    - '\QAdmins email address:'
     - "\n"
-    - "\QMy email address, to use in reports:"
+    - '\QMy email address, to use in reports:'
     - "\n"
-    - "\QMail host to use for delivering mails:"
+    - '\QMail host to use for delivering mails:'
     - "\n"

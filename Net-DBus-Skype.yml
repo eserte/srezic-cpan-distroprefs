@@ -1,7 +1,7 @@
 ---
 match:
-  distribution: "/Net-DBus-Skype-\d"
+  distribution: '/Net-DBus-Skype-\d'
 pl:
   expect:
-    - "\QDo you want to install 'skype-action-handler'"
+    - '\QDo you want to install \E.skype-action-handler.'
     - "\n"

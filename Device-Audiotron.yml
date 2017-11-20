@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Device-Audiotron-\d"
+  distribution: '/Device-Audiotron-\d'
 test:
   expect:
-    - "\QEnter the Audiotron's IP address:"
+    - 'Enter the Audiotron.s IP address:'
     - "\n"
-    - "\QEnter the Audiotron's Username:"
+    - 'Enter the Audiotron.s Username:'
     - "\n"
-    - "\QEnter the Audiotron's Password:"
+    - 'Enter the Audiotron.s Password:'
     - "\n"

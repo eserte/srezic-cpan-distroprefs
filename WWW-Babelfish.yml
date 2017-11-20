@@ -1,8 +1,8 @@
 ---
 match:
-  distribution: "/WWW-Babelfish-\d"
+  distribution: '/WWW-Babelfish-\d'
 pl:
   expect:
-    - "\QSince you're connected to the internet, do you want to run a translation test"
+    - '\QSince you\E.\Qre connected to the internet, do you want to run a translation test'
     - "n\n"
 comment: "translation test is interactive"

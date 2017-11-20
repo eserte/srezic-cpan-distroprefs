@@ -1,7 +1,7 @@
 ---
 match:
 # The Generic Genome Browser
-  distribution: "/GBrowse-\d"
+  distribution: '/GBrowse-\d'
   env:
     PERL_BATCH: yes
 # This distroprefs is only suitable for smokers
@@ -9,21 +9,21 @@ disabled: 1
 # Too many questions
 pl:
   expect:
-    - "\QDirectory for GBrowse's config and support files? [/etc/gbrowse2]"
+    - 'Directory for GBrowse.s\Q config and support files? [/etc/gbrowse2]'
     - "/tmp/gbrowse2\n"
-    - "\QDirectory for GBrowse's static images & HTML files? [/usr/local/apache/htdocs]"
+    - 'Directory for GBrowse.s\Q static images & HTML files? [/usr/local/apache/htdocs]'
     - "/tmp/gbrowse-htdocs\n"
-    - "\QDirectory for GBrowse's temporary data [/var/tmp/gbrowse2]"
+    - 'Directory for GBrowse.s\Q temporary data [/var/tmp/gbrowse2]'
     - "/tmp/gbrowse2-tmp\n"
-    - "\QDirectory for GBrowse's example databases [/usr/local/apache/htdocs/databases]"
+    - 'Directory for GBrowse.s\Q example databases [/usr/local/apache/htdocs/databases]'
     - "/tmp/gbrowse2-databases\n"
-    - "\QApache CGI scripts directory? [/usr/local/apache/cgi-bin]"
+    - '\QApache CGI scripts directory? [/usr/local/apache/cgi-bin]'
     - "/tmp/gbrowse2-cgi-bin\n"
-    - "\QInternet port to run demo web site on (for demo)? [8000]"
+    - '\QInternet port to run demo web site on (for demo)? [8000]'
     - "\n"
-    - "\QApache loadable module directory (for demo)? [/usr/local/apache2/libexec]"
+    - '\QApache loadable module directory (for demo)? [/usr/local/apache2/libexec]'
     - "/tmp/gbrowse2-libexec\n"
-    - "\QUser account under which Apache daemon runs? [www]"
+    - '\QUser account under which Apache daemon runs? [www]'
     - "\n"
-    - "\QAutomatically update Apache config files to run GBrowse? [y]"
+    - '\QAutomatically update Apache config files to run GBrowse? [y]'
     - "n\n"

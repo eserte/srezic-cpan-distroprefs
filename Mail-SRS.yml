@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Mail-SRS-\d"
+  distribution: '/Mail-SRS-\d'
 pl:
   expect:
-    - "\QDo you want to install 'srs'"
+    - '\QDo you want to install \E.srs.'
     - "n\n"
-    - "\QDo you want to install 'srsd'"
+    - '\QDo you want to install \E.srsd.'
     - "n\n"
-    - "\QDo you want to install 'srsc'"
+    - '\QDo you want to install \E.srsc.'
     - "n\n"

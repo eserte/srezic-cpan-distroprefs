@@ -1,11 +1,11 @@
 ---
 match:
-  distribution: "/Text-Markdown-\d"
+  distribution: '/Text-Markdown-\d'
 pl:
   expect:
-    - "\QDo you want to install 'Markdown.pl'? [n]"
+    - '\QDo you want to install \E.Markdown.pl.\Q? [n]'
     - "\n"
-    - "\QDo you want to install 'MultiMarkdown.pl'? [n]"
+    - '\QDo you want to install \E.MultiMarkdown.pl.\Q? [n]'
     - "\n"
 ## Not asked anymore???
 #make:
