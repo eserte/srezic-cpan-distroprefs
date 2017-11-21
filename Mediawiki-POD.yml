@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QMediawiki-POD-0.06.tar.gz\E'
+patches:
+  - SREZIC/patches/Mediawiki-POD-0.06-RT109428.patch
