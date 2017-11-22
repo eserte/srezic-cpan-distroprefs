@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/Fsdb-2\.64\.'
+  perlconfig:
+    archname: -freebsd
+disabled: 1
+# Sometimes hangs in t/test_command.t while running the
+# cgi_to_db script, unkillable, in wchan "ufs", and
+# build directory renders unusable (all accesses from
+# other processes also hang)
+#
+# Seen in various FreeBSD versions (9.2, 10.3, 11.0)
