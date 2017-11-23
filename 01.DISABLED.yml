@@ -1448,6 +1448,8 @@ match:
     |VVELOX/Toader-1.2.0.tar.gz # missing Makefile.PL - https://rt.cpan.org/Ticket/Display.html?id=111012
     |FREW/App-Adenosine-2.001008.tar.gz # https://github.com/frioux/app-adenosine/issues/8 ("pp" script clashes with PAR-Packer's one)
     |GRAVATTJ/Backup-EZ-0.25.tar.gz # calls sudo which may ask for password
+    |GRAVATTJ/Backup-EZ-0.30.tar.gz # calls sudo which may ask for password
+    |GRAVATTJ/Backup-EZ-0.31.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
     |BDFOY/Bundle-BDFOY-20160101.tar.gz # recursive self-dependency
     |TOKUHIROM/mousex-getopt-0.35.tar.gz # MouseX-Getopt-0.36 exists, but the old one may be smoked in "devel" mode, probably because of different capitalization
     |RGARTON/Statistics-Sequences-Turns-0.11.tar.gz # recursive dependencies
