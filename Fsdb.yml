@@ -2,7 +2,8 @@
 match:
   distribution: '/Fsdb-2\.64\.'
   perlconfig:
-    archname: -freebsd
+    osname: freebsd
+    osvers: '^(9|10|11)\.'
 disabled: 1
 # Sometimes hangs in t/test_command.t while running the
 # cgi_to_db script, unkillable, in wchan "ufs", and
@@ -10,3 +11,7 @@ disabled: 1
 # other processes also hang)
 #
 # Seen in various FreeBSD versions (9.2, 10.3, 11.0)
+#
+# https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=224292
+#
+# Maybe fixed in 12.0-CURRENT?
