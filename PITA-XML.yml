@@ -18,3 +18,7 @@ test:
     PERL_PERTURB_KEYS: NO
 # https://rt.cpan.org/Ticket/Display.html?id=81592
 # hash randomization
+#
+# NOTE: workarounds does not work anymore with perl 5.27.7
+# --- there's a dot-in-inc problem, but also another
+# undebugged problem.
