@@ -12,9 +12,10 @@ match:
 patches:
   - SREZIC/patches/Net-Server-2.008-RT105512-TODDR.patch
 # POSIX::tmpnam -> File::Temp
+# Note: 2.009 exists and does not have the problem anymore
 ---
 match:
-  distribution: '/\QNet-Server-2.008.tar.gz\E'
+  distribution: '/Net-Server-(2.008|2.009)\.tar\.gz'
   env:
     USER: '\.'
 patches:
