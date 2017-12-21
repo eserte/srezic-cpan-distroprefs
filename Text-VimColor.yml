@@ -11,3 +11,5 @@ test:
     PERL_USE_UNSAFE_INC: 1
 # https://rt.cpan.org/Ticket/Display.html?id=121756
 # Workaround without patch.
+#
+# Note: Text-VimColor-0.28 seems to be fixed.

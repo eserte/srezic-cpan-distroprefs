@@ -5,3 +5,4 @@ match:
     version: '^5\.(25|26|27)\.\d+$'
 patches:
   - SREZIC/patches/Config-Std-0.901-RT114342.patch
+# Note: 0.903 is fixed
