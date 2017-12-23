@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QIPC-System-Simple-1.25.tar.gz\E'
+patches:
+  - SREZIC/patches/IPC-System-Simple-1.25-issue21-PPISAR.patch
+# Otherwise there are random failures with newer Test::More
+# from https://github.com/pjf/ipc-system-simple/pull/25
