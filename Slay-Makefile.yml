@@ -8,3 +8,5 @@ patches:
   - SREZIC/patches/Slay-Makefile-0.12-RT100500.patch
 # The Carp 1.25 problem
 # ... and the perl 5.21.x use strict message problem
+#
+# fixed in 0.12_50+0.13.
