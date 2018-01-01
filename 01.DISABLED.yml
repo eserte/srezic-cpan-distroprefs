@@ -214,13 +214,6 @@ match:
     archname: "-freebsd"
 disabled: 1
 ---
-comment: "no gnome old old gnome here"
-match:
-  distribution: '/(Device-Cdio-v)\d+'
-  perlconfig:
-    archname: "-freebsd"
-disabled: 1
---- 
 comment: "assumes GNU make, hangs with BSD make"
 match:
   distribution: '/rpm-build-perl-0\.6\.5\.'
