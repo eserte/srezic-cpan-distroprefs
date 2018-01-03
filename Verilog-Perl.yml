@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Verilog-Perl-3\.448\.'
+  perlconfig:
+# actually should match systems where make!=gmake (probably all BSDs...)
+    archname: "-freebsd"
+make:
+  commandline: gmake MAKE=gmake
+test:
+  commandline: gmake MAKE=gmake test
