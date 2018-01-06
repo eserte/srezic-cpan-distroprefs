@@ -415,6 +415,16 @@ match:
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
+comment: "Not on the fbsd 10 moker"
+match:
+  perlconfig:
+    myuname: "cvrsnica-freebsd-101"
+  distribution: |
+    ^(?x:
+     .*/Alien-MuPDF-0\.010\. # crashes the machine (with vfs errors), reason unknown
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+disabled: 1
+---
 comment: "Interactive configuration or tests"
 match:
   distribution: |
