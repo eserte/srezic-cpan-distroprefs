@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QXML-CanonicalizeXML-0.09.tar.gz\E'
+patches:
+  - SREZIC/patches/XML-CanonicalizeXML-0.09-RT124090.patch
+# another EUMM victim
