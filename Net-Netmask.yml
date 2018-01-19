@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/\QNet-Netmask-1.9022.tar.gz\E'
+  perlconfig:
+    archname: '-linux.*-ld'
+patches:
+  - SREZIC/patches/Net-Netmask-1.9022-BAYMAX.patch
+# https://rt.cpan.org/Ticket/Display.html?id=99184
+# https://github.com/muir/Net-Netmask/pull/8
