@@ -1,5 +1,8 @@
 ---
 match:
   distribution: '/Log-Trace-1\.070\.'
+  perlconfig:
+    version: '^5\.27\.(6|7|8)$'
 patches:
   - SREZIC/patches/Log-Trace-1.070-RT49409-SPROUT.patch
+# https://rt.cpan.org/Ticket/Display.html?id=49409
