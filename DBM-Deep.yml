@@ -7,10 +7,15 @@ depends:
 ---
 match:
   distribution: '/\QDBM-Deep-2.0014.tar.gz\E'
+  perlconfig:
+    version: '^5\.27\.(6|7|8)$'
 cpanconfig:
   prefer_installer: "EUMM"
 patches:
   - SREZIC/patches/DBM-Deep-2.0014-RT123811.patch
+# see also
+#   https://rt.perl.org/Ticket/Display.html?id=132493
+#   https://rt.cpan.org/Ticket/Display.html?id=123811
 ---
 match:
   distribution: '/DBM-Deep-[23456789]\.'
