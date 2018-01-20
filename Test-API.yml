@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/\QTest-API-0.008.tar.gz\E'
+  perlconfig:
+    version: '^5\.27\.(6|7|8)$'
+patches:
+  - SREZIC/patches/Test-API-0.008-pull6-SPROUT.patch
+# see also:
+#   https://github.com/dagolden/Test-API/issues/7
+#   https://github.com/dagolden/Test-API/pull/6
