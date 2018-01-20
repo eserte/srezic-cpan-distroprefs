@@ -6,6 +6,13 @@ depends:
     FileHandle::Fmode: 0
 ---
 match:
+  distribution: '/\QDBM-Deep-2.0014.tar.gz\E'
+cpanconfig:
+  prefer_installer: "EUMM"
+patches:
+  - SREZIC/patches/DBM-Deep-2.0014-RT123811.patch
+---
+match:
   distribution: '/DBM-Deep-[23456789]\.'
 cpanconfig:
   prefer_installer: "EUMM"
