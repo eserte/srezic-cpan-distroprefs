@@ -4,5 +4,6 @@ match:
   perlconfig:
     archname: freebsd
 # Already on BackPAN
-goto: "DMUEY/File-Copy-Recursive-0.39.tar.gz"
+goto: "DMUEY/File-Copy-Recursive-0.38.tar.gz"
 # https://rt.cpan.org/Ticket/Display.html?id=123964
+# 0.39 requires File-Slurp, which seems to fail with 5.27.8 @ freebsd
