@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Getopt-Long-Descriptive-\d'
+  perlconfig:
+    version: '^5\.27\.8$'
+patches:
+  - SREZIC/patches/Getopt-Long-Descriptive-0.100-JKEENAN.patch
