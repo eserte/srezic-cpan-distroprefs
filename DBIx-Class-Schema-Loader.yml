@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QDBIx-Class-Schema-Loader-0.07047.tar.gz\E'
+patches:
+  - SREZIC/patches/DBIx-Class-Schema-Loader-0.07047-RT123681.patch
