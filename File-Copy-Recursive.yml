@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/File-Copy-Recursive-0\.40\.'
+  perlconfig:
+    archname: freebsd
+# Already on BackPAN
+goto: "DMUEY/File-Copy-Recursive-0.39.tar.gz"
+# https://rt.cpan.org/Ticket/Display.html?id=123964
