@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Log-Trace-1\.070\.'
+patches:
+  - SREZIC/patches/Log-Trace-1.070-RT49409-SPROUT.patch
