@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QModule-ExtractUse-0.341.tar.gz\E'
+  perlconfig:
+    version: '5\.27\.8$'
+patches:
+  - SREZIC/patches/Module-ExtractUse-0.341-RT124146.patch
