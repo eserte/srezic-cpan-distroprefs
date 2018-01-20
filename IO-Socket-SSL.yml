@@ -10,6 +10,15 @@ pl:
 # see also https://rt.cpan.org/Ticket/Update.html?id=104731
 ---
 match:
+  distribution: '/IO-Socket-SSL-2\.052\.'
+  perlconfig:
+    myuname: 'freebsd ali(1|2|3)\.'
+pl:
+  env:
+    NO_NETWORK_TESTING: n
+# https://rt.cpan.org/Ticket/Display.html?id=124141
+---
+match:
   distribution: '/IO-Socket-SSL-\d'
 pl:
   env:
