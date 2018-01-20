@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Type-Tiny-1\.002001\.'
+  perlconfig:
+    version: '5\.27\.(6|7|8)$'
+patches:
+  - SREZIC/patches/Type-Tiny-1.002001-RT123408-SPROUT.patch
