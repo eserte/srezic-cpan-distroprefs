@@ -6,3 +6,7 @@ match:
 patches:
   - SREZIC/patches/Type-Tiny-1.002001-RT123408-SPROUT.patch
 # https://rt.cpan.org/Ticket/Display.html?id=123408
+#
+# Still fails on 5.27.7 with this patch, because of smartmatch/where/... changes
+#
+# Segfaults seen for t/00-begin.t on fbsd12 & 5.27.8
