@@ -5,3 +5,4 @@ match:
     version: '5\.27\.8$'
 patches:
   - SREZIC/patches/Module-ExtractUse-0.341-RT124146.patch
+# 0.342 is fixed
