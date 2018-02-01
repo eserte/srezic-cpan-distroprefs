@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/JSON-Tiny-0.56-RT122139-MAGNOLIA.patch
 # PR from https://github.com/daoswald/JSON-Tiny/pull/4
+# 0.58 is fixed
