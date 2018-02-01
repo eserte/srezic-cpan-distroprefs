@@ -5,3 +5,4 @@ match:
     version: '^5\.27\.8$'
 goto: RURBAN/B-Keywords-1.15.tar.gz
 # https://rt.cpan.org/Ticket/Display.html?id=124143
+# 1.18 is fixed
