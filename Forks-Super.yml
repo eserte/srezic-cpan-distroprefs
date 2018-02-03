@@ -31,7 +31,7 @@ disabled: 1
 # https://rt.cpan.org/Ticket/Display.html?id=105130
 ---
 match:
-  distribution: '/Forks-Super-0\.(89|90|91)\.'
+  distribution: '/Forks-Super-0\.(89|90|91|92)\.'
 disabled: 1
 # Interactive ssh questions
 ---
