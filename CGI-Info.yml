@@ -3,6 +3,10 @@ match:
   distribution: '/\QCGI-Info-0.64.tar.gz\E'
   perlconfig:
     version: '^5\.27\.'
-patches:
-  - SREZIC/patches/CGI-Info-0.64-issue7.patch
+#patches:
+#  - SREZIC/patches/CGI-Info-0.64-issue7.patch
 # problem with Sys::Hostname->hostname
+
+# Currently there's an indexing problem with the fixed 0.66 version
+# -> goto to the non-indexed latest version
+goto: NHORNE/CGI-Info-0.66.tar.gz
