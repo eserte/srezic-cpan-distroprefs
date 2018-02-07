@@ -43,5 +43,23 @@ make:
 ---
 match:
   distribution: '/DBD-Oracle-\d'
+  perlconfig:
+    archname: darwin
+disabled: 1
+# XXX Unfortunately this does not work, need more research
+pl:
+  env:
+    ORACLE_HOME: /Library/Oracle/instantclient_12_2
+    DYLD_LIBRARY_PATH: /Library/Oracle/instantclient_12_2
+make:
+  env:
+    ORACLE_HOME: /Library/Oracle/instantclient_12_2
+    DYLD_LIBRARY_PATH: /Library/Oracle/instantclient_12_2
+# Roughly followed instructions from http://www.perlmonks.org/?node_id=1156743
+# At the time of writing, version 12.2 is the current one, not
+# 11.2 as in the perlmonks post.
+---
+match:
+  distribution: '/DBD-Oracle-\d'
 disabled: 1
 comment: "No build instructions for this architecture"
