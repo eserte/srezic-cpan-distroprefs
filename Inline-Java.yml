@@ -11,15 +11,18 @@ pl:
 #    - J2SDK=/usr/local/openjdk6
 #    - J2SDK=/usr/local/openjdk7
     - J2SDK=/usr/local/openjdk8
-  expect:
-    - '\QDo you wish to build the JNI extension? [y]'
-    - "\n"
-#    - '\QPlease select from the above list which \'libjvm.so\' to use: [1]'
-#    - "\n"
-#    - '\QDo you wish to build the PerlNatives extension? [n]'
-#    - "\n"
-    - '\QDo you wish to build the PerlInterpreter extension? [n]'
-    - "\n"
+  eexpect:
+    timeout: 30
+    mode: anyorder
+    talk:
+      - '\QDo you wish to build the JNI extension? [y]'
+      - "\n"
+#      - '\QPlease select from the above list which \'libjvm.so\' to use: [1]'
+#      - "\n"
+#      - '\QDo you wish to build the PerlNatives extension? [n]'
+#      - "\n"
+      - '\QDo you wish to build the PerlInterpreter extension? [n]'
+      - "\n"
 --- 
 # XXX probably does not work
 match:
