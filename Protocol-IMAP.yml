@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Protocol-IMAP-0\.004\.'
+depends:
+  requires:
+    Mixin::Event::Dispatch: 0
+    curry: 0
+    Parser::MGC: 0
+    Future: 0
+# https://rt.cpan.org/Ticket/Display.html?id=90529
+
