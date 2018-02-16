@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Tie-Array-QueueExpire-1\.04\.'
+depends:
+  requires:
+    Data::Serializer: 0
+    feature: 0
+# https://rt.cpan.org/Ticket/Display.html?id=95090
