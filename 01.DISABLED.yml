@@ -1528,5 +1528,6 @@ match:
     |HOLYGHOST/hollygame/HollyGame-0.tar.gz # no Makefile.PL (empty?)
     |HOLYGHOST/HollyGame-0.1.tar.gz # empty distribution
     |HOLCAPEK/Perl-Critic-Policy-ProhibitSmartmatch-0.2.tar.gz # https://github.com/holcapek/perl5-Perl-Critic-Policy-ProhibitSmartmatch/pull/2
+    |TEODESIAN/Selenium-Remote-Driver-1.25.tar.gz # not recognized as a perl package (no toplevel directory)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
