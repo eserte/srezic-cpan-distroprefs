@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/MySQL-QueryMulti-0\.08\.'
+depends:
+# XXX probably only test_requires, but this is not accepted by the schema
+  build_requires:
+    Data::Compare: 0
+# https://rt.cpan.org/Ticket/Display.html?id=85142
+# But additionally fails if there's no mysql binary available.
