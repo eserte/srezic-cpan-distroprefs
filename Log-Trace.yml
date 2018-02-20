@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Log-Trace-1.070-RT49409-SPROUT.patch
 # https://rt.cpan.org/Ticket/Display.html?id=49409
+# Bleadperl change was reverted in 5.27.9, no patching needed anymore...
