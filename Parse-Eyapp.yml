@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Parse-Eyapp-1.182-RT105643.patch
 # Unescaped left brace in regex is deprecated
+# Fixed since 1.2
