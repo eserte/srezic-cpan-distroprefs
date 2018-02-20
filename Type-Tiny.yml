@@ -9,4 +9,5 @@ patches:
 #
 # Still fails on 5.27.7 with this patch, because of smartmatch/where/... changes
 #
-# Segfaults seen for t/00-begin.t on fbsd12 & 5.27.8
+# Segfaults seen for t/00-begin.t on fbsd12 & various perls
+# -> https://rt.cpan.org/Ticket/Display.html?id=124067
