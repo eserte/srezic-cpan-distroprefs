@@ -5,3 +5,4 @@ match:
     version: '^5\.27\.8$'
 patches:
   - SREZIC/patches/Getopt-Long-Descriptive-0.100-JKEENAN.patch
+# Getopt-Long-Descriptive-0.102 is fixed
