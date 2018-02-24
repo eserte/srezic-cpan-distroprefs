@@ -1,0 +1,12 @@
+---
+match:
+  distribution: 'JPEACOCK/version-0.9918.tar.gz'
+  perlconfig:
+    version: '^5\.27\.9$'
+disabled: 1
+# If version.pm from CPAN is installed into a 5.27.9
+# installation, then this perl is broken:
+# https://rt.perl.org/Ticket/Display.html?id=132903
+# 
+# Workaround if this happens:
+#   mv /opt/perl-5.27.9/lib/site_perl/5.27.9/x86_64-linux/auto/version/vxs/vxs.so{,---}
