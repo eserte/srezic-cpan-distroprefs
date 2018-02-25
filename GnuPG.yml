@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/GnuPG-0\.19\.tar.gz'
+  perlconfig:
+    osvers: '3.10.0-514.10.2.el7.x86_64'
+disabled: 1
+# CentOS6: tests are interactive
