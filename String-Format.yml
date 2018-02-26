@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/String-Format-\d'
+  perlconfig:
+    version: '^5\.27\.(8|9|1\d)$'
+patches:
+  - SREZIC/patches/String-Format-1.17-RT124147.patch
