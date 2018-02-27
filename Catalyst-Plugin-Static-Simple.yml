@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Catalyst-Plugin-Static-Simple-0\.34\.'
+patches:
+  - SREZIC/patches/Catalyst-Plugin-Static-Simple-0.34-RT124211-EMMANUEL_SEYMAN-2.patch
