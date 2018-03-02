@@ -1529,5 +1529,6 @@ match:
     |HOLCAPEK/Perl-Critic-Policy-ProhibitSmartmatch-0.2.tar.gz # https://github.com/holcapek/perl5-Perl-Critic-Policy-ProhibitSmartmatch/pull/2
     |TEODESIAN/Selenium-Remote-Driver-1.25.tar.gz # not recognized as a perl package (no toplevel directory)
     |CLAUDIOFS/Algorithm-Bertsekas-0.10.zip # no Makefile.PL
+    |AUTRIJUS/Language-MzScheme-0.09.tar.gz # fails compilation + avoid installing large packages (390-450MB)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
