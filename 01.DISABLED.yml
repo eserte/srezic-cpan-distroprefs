@@ -323,7 +323,6 @@ match:
     |.*/DCE-Perl-\d # no dce fbsd port
     |.*/IPC-XPA-\d # no fbsd port for libxpa
     |.*/Lingua-TH-Segmentation-\d # no fbsd port for -lwordcut
-    |.*/Language-MzScheme-\d # no fbsd port for mzscheme
     |.*/Math-Matlab-Engine-\d # no mathlab/-leng port 
     |.*/Mt-\d # needs some special device /dev/st0
     |.*/tux_perl-\d # needs tuxmodule.h
