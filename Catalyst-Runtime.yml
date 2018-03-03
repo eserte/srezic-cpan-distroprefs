@@ -19,3 +19,8 @@ match:
   perl: "/home/cpansand/var/ctps/5140RC0_2/install/perl-v5.13.11-389-g9b02939/bin/perl"
 disabled: 1
 comment: "Known to fail tests, don't spend in any time trying..."
+---
+match:
+  distribution: '/\QCatalyst-Runtime-5.90117.tar.gz\E'
+patches:
+  - SREZIC/patches/Catalyst-Runtime-5.90117-RT124459.patch
