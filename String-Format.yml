@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/String-Format-\d'
+  distribution: '/String-Format-1\.17\.'
   perlconfig:
     version: '^5\.27\.(8|9|1\d)$'
 patches:
