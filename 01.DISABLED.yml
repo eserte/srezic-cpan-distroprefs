@@ -1530,5 +1530,6 @@ match:
     |TEODESIAN/Selenium-Remote-Driver-1.25.tar.gz # not recognized as a perl package (no toplevel directory)
     |CLAUDIOFS/Algorithm-Bertsekas-0.10.zip # no Makefile.PL
     |AUTRIJUS/Language-MzScheme-0.09.tar.gz # fails compilation + avoid installing large packages (390-450MB)
+    |LEMBARK/Object-Trampoline-1.50.2.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=124677
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
