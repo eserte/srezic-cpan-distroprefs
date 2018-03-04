@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QClass-Tangram-1.57.tar.gz\E'
+  perlconfig:
+    version: '5\.(2[2-9]|[3-9]\d)\.'
+patches:
+  - SREZIC/patches/Class-Tangram-1.57-RT108841.patch
