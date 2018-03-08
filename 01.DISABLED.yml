@@ -412,6 +412,7 @@ match:
     |.*/Alien-Google-GRPC-0\.06\. # fails anyway (gmake?), occupies much of disk space while building
     |.*/Alien-Google-GRPC-0\.07\. # dito
     |KIWIROY/tmp/Alien-KentSrc-0.3.tar.gz # fails to build on freebsd (gmake?), big build directory
+    |KIWIROY/tmp/Alien-KentSrc-0.4.tar.gz # -"-
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
