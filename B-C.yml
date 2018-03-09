@@ -1,0 +1,7 @@
+---
+match:
+  distribution: 'RURBAN/B-C-1.55_07.tar.gz'
+  perlconfig:
+    myuname: 'freebsd ali[1-9]\.'
+disabled: 1
+# Disk fillups
