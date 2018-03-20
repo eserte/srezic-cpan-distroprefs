@@ -2,7 +2,7 @@
 match:
   distribution: 'JPEACOCK/version-0.9918.tar.gz'
   perlconfig:
-    version: '^5\.27\.9$'
+    version: '^5\.27\.(9|10)$'
 disabled: 1
 # If version.pm from CPAN is installed into a 5.27.9
 # installation, then this perl is broken:
