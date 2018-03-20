@@ -11,3 +11,4 @@ match:
 # https://rt.cpan.org/Ticket/Display.html?id=124329
 # -> goto to the non-indexed latest version
 goto: NHORNE/CGI-Info-0.66.tar.gz
+# 2018-03-20 --- no more indexing problem
