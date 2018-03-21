@@ -6,3 +6,9 @@ match:
 patches:
   - SREZIC/patches/Unicode-String-2.09-RT74354.patch
 # -> fixed in 2.10
+---
+match:
+  distribution: '/\QUnicode-String-2.10.tar.gz\E'
+patches:
+  - SREZIC/patches/Unicode-String-2.10-RT120200.patch
+# avoid installation of outdated Unicode::CharName
