@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QPlack-App-Proxy-0.29.tar.gz\E'
+patches:
+  - SREZIC/patches/Plack-App-Proxy-0.29-RT124233.patch
