@@ -1,5 +1,11 @@
 ---
 match:
+  distribution: '/Module-CoreList-\d+\..*'
+disabled: 1
+# Avoid possible downgrades --- cpan_smoke_modules/_wrapper3 is
+# unfortunately not smart enough to detect this situation.
+---
+match:
   distribution: '/Module-CoreList-5\.21\.3\.tar\.gz'
   perlconfig:
     version: '^5\.20\.1$'
