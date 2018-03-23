@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Module-Install-TestTarget-0\.19\.'
+  perlconfig:
+    version: '^5\.(22|23|24|25|26|27|28)\.'
+patches:
+  - SREZIC/patches/Module-Install-TestTarget-0.19-RT102922-PPISAR.patch 
