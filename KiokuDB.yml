@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/KiokuDB-0\.57\.'
+depends:
+  configure_requires:
+    Devel::Hide: 0
+test:
+  env:
+    DEVEL_HIDE_VERBOSE: 0
+    PERL5OPT: -MDevel::Hide
+    DEVEL_HIDE_PM: DateTime::Format::Strptime
+# https://github.com/kiokudb/kiokudb/issues/16
