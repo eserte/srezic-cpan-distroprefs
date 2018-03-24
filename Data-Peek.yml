@@ -1,6 +1,15 @@
 ---
 match:
   distribution: '/Data-Peek-\d'
+  perlconfig:
+    archname: MSWin32
+pl:
+  env:
+    AUTOMATED_TESTING: 1
+# no Expect on Windows
+---
+match:
+  distribution: '/Data-Peek-\d'
 pl:
   expect:
     - '\QDo you want to install module DP as a shortcut for Data::Peek ? [y]'
