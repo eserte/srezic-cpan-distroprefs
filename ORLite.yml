@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/ORLite-1\.98\.'
+patches:
+  - SREZIC/patches/ORLite-1.98-RT118460-GREGOA.patch
+# required with newer DBD::SQLite (>= 1.56)
