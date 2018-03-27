@@ -1534,5 +1534,6 @@ match:
     |AUTRIJUS/Language-MzScheme-0.09.tar.gz # fails compilation + avoid installing large packages (390-450MB)
     |LEMBARK/Object-Trampoline-1.50.2.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=124677
     |JGNI/Locale-CLDR-Locales-.*-v0.32.0-TRIAL.tar.gz # too many of these...
+    |IFUSCHINI/Apache2-ApacheMobileFilter-4.31.tar.gz ok # no Makefile.PL (empty?)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
