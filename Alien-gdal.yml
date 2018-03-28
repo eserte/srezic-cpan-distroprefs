@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: '/Alien-gdal-1\.00\.'
+  distribution: '/Alien-gdal-1\.(00|02)\.'
 disabled: 1
 # Compilation takes too much disk space.
