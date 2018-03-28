@@ -882,6 +882,7 @@ match:
     |.*/RT-Authen-CookieAuth-\d
     |.*/RT-Authen-ExternalAuth-\d
     |.*/RT-Authen-Federation-\d
+    |.*/RT-Authen-OAuth2-\d
     |.*/RT-Authen-OpenID-\d
     |.*/RT-Authen-PAUSE-\d
     |.*/RT-Authen-Token-\d
