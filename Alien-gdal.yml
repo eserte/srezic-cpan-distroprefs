@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Alien-gdal-1\.00\.'
+disabled: 1
+# Compilation takes too much disk space.
