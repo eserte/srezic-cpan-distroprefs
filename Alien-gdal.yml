@@ -2,4 +2,7 @@
 match:
   distribution: '/Alien-gdal-1\.(00|02)\.'
 disabled: 1
-# Compilation takes too much disk space.
+# Compilation takes too much disk space:
+# almost 10GB. A successful installation
+# would probably also take much space,
+# more than 2GB.
