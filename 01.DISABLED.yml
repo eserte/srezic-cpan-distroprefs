@@ -345,7 +345,7 @@ match:
     |.*/Statistics-R-\d # needs R package
     |.*/Statistics-Gap-\d # needs cluto
     |.*/Starlink-AST-\d # needs ast_link
-    |.*/Search-Namazu-\d # needs namazu
+    |XXX.*/Search-Namazu-\d # needs namazu
     |.*/Schedule-DRMAAc-\d # needs SGE_ROOT configured (and probably some prereqs)
     |.*/SAVI-Perl-\d # needs savi library
     |.*/PowerBuilder-ORCA-\d
