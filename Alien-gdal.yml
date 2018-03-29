@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Alien-gdal-1\.(00|02)\.'
+  distribution: '/Alien-gdal-1\.\d+'
 disabled: 1
 # Compilation takes too much disk space:
 # almost 10GB. A successful installation
