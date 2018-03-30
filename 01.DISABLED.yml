@@ -1537,5 +1537,6 @@ match:
     |JGNI/Locale-CLDR-Locales-.*-v0.32.0-TRIAL.tar.gz # too many of these...
     |IFUSCHINI/Apache2-ApacheMobileFilter-4.31.tar.gz # no Makefile.PL (empty?)
     |JGNI/Locale-CLDR-Locales-.*-v0.32.0-TRIAL3.tar.gz # too many of these...
+    |SCOTT/Attribute-Persistent-1.1.tar.gz # out of memory, see https://rt.cpan.org/Ticket/Display.html?id=34968
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
