@@ -9,7 +9,7 @@ comment: "Dangerous! Does not implement the SAX API!"
 # Since 0.00002 it does not add itself into ParserDetails.ini
 ---
 match:
-  distribution: '/\QXML-LibXML-SAX-ChunkParser-0.00005.tar.gz\E'
+  distribution: '/\QXML-LibXML-SAX-ChunkParser-0.00008.tar.gz\E'
 patches:
-  - SREZIC/patches/XML-LibXML-SAX-ChunkParser-0.00005-pull4.patch
+  - SREZIC/patches/XML-LibXML-SAX-ChunkParser-0.00008-pull4.patch
 # patch for newer XML::LibXML
