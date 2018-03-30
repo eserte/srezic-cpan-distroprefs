@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Chemistry-Mol-0\.37\.'
+patches:
+  - SREZIC/patches/Chemistry-Mol-0.37-RT115215-JKEENAN.patch
