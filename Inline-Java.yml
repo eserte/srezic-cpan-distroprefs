@@ -43,6 +43,19 @@ pl:
     - '\QDo you wish to build the PerlInterpreter extension? [n]'
     - "\n"
 --- 
+# Valid only for CentOS6 with openjdk8 installed
+# Also probably required: -nolimits!
+match:
+  distribution: '/Inline-Java-\d'
+  perlconfig:
+    archname: x86_64-linux
+    osvers: '^2\.6\.32-\d+\.\d+\.\d+\.el6\.'
+pl:
+  args:
+    - J2SDK=/usr/lib/jvm/java-1.8.0-openjdk.x86_64
+  env:
+    PERL_MM_USE_DEFAULT: 1
+--- 
 # Valid only for Debian/stretch and Ubuntu16.04 (amd64) with openjdk8 installed
 # Also required: -nolimits!
 match:
