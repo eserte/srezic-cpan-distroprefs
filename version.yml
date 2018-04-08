@@ -10,3 +10,10 @@ disabled: 1
 # 
 # Workaround if this happens:
 #   mv /opt/perl-5.27.9/lib/site_perl/5.27.9/x86_64-linux/auto/version/vxs/vxs.so{,---}
+---
+match:
+  distribution: 'JPEACOCK/version-0.9919.tar.gz'
+  perlconfig:
+    version: '5\.([6789]|1\d|20)\.'
+disabled: 1
+# https://rt.cpan.org/Ticket/Display.html?id=125042
