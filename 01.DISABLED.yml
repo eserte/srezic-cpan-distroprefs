@@ -1539,5 +1539,6 @@ match:
     |JGNI/Locale-CLDR-Locales-.*-v0.32.0-TRIAL3.tar.gz # too many of these...
     |SCOTT/Attribute-Persistent-1.1.tar.gz # out of memory, see https://rt.cpan.org/Ticket/Display.html?id=34968
     |KIMOTO/SPVM-0.0322.tar.gz # empty tarball - https://rt.cpan.org/Ticket/Display.html?id=125009
+    |JGNI/Locale-CLDR-Locales-.*-v0.32.0.tar.gz # too many of these...
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
