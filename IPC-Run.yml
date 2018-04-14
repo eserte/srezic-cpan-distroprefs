@@ -23,3 +23,11 @@ match:
   perlconfig:
     archname: "MSWin32"
 goto: TODDR/IPC-Run-0.94_02.tar.gz
+---
+match:
+  distribution: '/IPC-Run-0\.99\.tar\.gz'
+  perlconfig:
+    archname: "MSWin32"
+pl:
+  commandline: 'del t\timeout.t t\timer.t && perl Makefile.PL'
+# workaround for https://github.com/toddr/IPC-Run/issues/98
