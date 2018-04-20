@@ -7,3 +7,12 @@ match:
 goto: "DMUEY/File-Copy-Recursive-0.38.tar.gz"
 # https://rt.cpan.org/Ticket/Display.html?id=123964
 # 0.39 requires File-Slurp, which seems to fail with 5.27.8 @ freebsd
+---
+match:
+  distribution: '/File-Copy-Recursive-0\.41\.'
+depends:
+# XXX really test_requires, but this is not accepted by the schema
+  build_requires:
+    File::Find::Rule: 0
+# https://rt.cpan.org/Ticket/Display.html?id=125135
+# resolved, but not yet released
