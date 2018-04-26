@@ -393,6 +393,7 @@ match:
      |\QDAVOR/Statistics-R-IO/Statistics-R-IO-0.101.tar.gz\E
      |\QDBALMER/HTML-Chunks-1.5.tar.gz\E
      |\QDBAURAIN/Bio-FastParsers-0.173640.tar.gz\E
+     |\QDBAURAIN/Bio-MUST-Core-0.181000.tar.gz\E
      |\QDBAURAIN/Bio-MUST-Drivers-0.173510.tar.gz\E
      |\QDBR/App-pandoc-preprocess-0.3.1.tar.gz\E
      |\QDBROWNING/Business-Shipping-1.06.tar.gz\E
@@ -521,7 +522,6 @@ match:
      |\QESUMMERS/HTML-DublinCore-0.3.tar.gz\E
      |\QESUMMERS/MARC-Charset-0.6.tar.gz\E
      |\QESUMMERS/SRU-0.7.tar.gz\E
-     |\QETHER/Crypt-Random-Source-0.12.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -562,8 +562,6 @@ match:
      |\QFELIPE/Net-WebSocket-0.063.tar.gz\E
      |\QFELLIOTT/WebService-Toggl-0.04.tar.gz\E
      |\QFERRANCE/PDF-Template-0.05.tar.gz\E
-     |\QFERREIRA/Kevin-Command-kevin-0.2.0.tar.gz\E
-     |\QFERREIRA/Kevin-Command-kevin-0.4.1.tar.gz\E
      |\QFERRENCY/Text-MicroMason-2.20.tar.gz\E
      |\QFFFINKEL/Dist-Zilla-Plugin-RunByBranch-0.21.tar.gz\E
      |\QFLORA/Audio-File-0.02.tar.gz\E
@@ -807,6 +805,8 @@ match:
      |\QIVANYCH/Test-BDD-Cucumber-Definitions-0.18.tar.gz\E
      |\QIVANYCH/Test-BDD-Cucumber-Definitions-0.21.tar.gz\E
      |\QIVANYCH/Test-BDD-Cucumber-Definitions-0.31.tar.gz\E
+     |\QIVANYCH/Test-BDD-Cucumber-Definitions-0.38.tar.gz\E
+     |\QIVANYCH/Test-BDD-Cucumber-Definitions-0.39.tar.gz\E
      |\QIVORW/Bot-BasicBot-Pluggable-Module-RD-0.01.tar.gz\E
      |\QIWATA/Test-Docker-Image-0.04.tar.gz\E
      |\QIWOODHEAD/Freq-0.14.tar.gz\E
@@ -1037,6 +1037,7 @@ match:
      |\QKIMOTO/SPVM-0.0305.tar.gz\E
      |\QKIMOTO/SPVM-0.0320.tar.gz\E
      |\QKIMOTO/SPVM-0.0324.tar.gz\E
+     |\QKIMOTO/SPVM-0.0325.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
      |\QKITANO/CHI-Driver-MemcachedFast-0.01.tar.gz\E
@@ -1681,7 +1682,6 @@ match:
      |\QSCESANO/Lego-Ldraw-0.5.7.1.tar.gz\E
      |\QSCHOP/Data-ACL-0.01.tar.gz\E
      |\QSCHUBIGER/DateTime-Format-Natural-0.94.tar.gz\E
-     |\QSCHWIGON/Benchmark-Perl-Formance-Analyzer-0.006.tar.gz\E
      |\QSCHWIGON/Net-SSH-Perl-2.01.tar.gz\E
      |\QSCOTTW/AnyEvent-Beanstalk-Worker-0.04.tar.gz\E
      |\QSDAGUE/ppt-0.12.tar.gz\E
@@ -2074,6 +2074,8 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
+     |\QZDM/Pcore-v0.61.4.tar.gz\E
+     |\QZDM/Pcore-v0.62.1.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
