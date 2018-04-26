@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Benchmark-Perl-Formance-Plugin-Mandelbrot-0\.001\.'
+  perlconfig:
+    myuname: 'linux debian8'
+disabled: 1
+# hangs or fails without reports, with t/samplerun.t leftovers occupying whole RAM
+# only seen on debian8.dev5
