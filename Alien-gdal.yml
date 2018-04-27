@@ -1,8 +1,11 @@
 ---
 match:
-  distribution: '/Alien-gdal-1\.\d+'
+  distribution: '/Alien-gdal-1\.(01|02|03)'
 disabled: 1
 # Compilation takes too much disk space:
 # almost 10GB. A successful installation
 # would probably also take much space,
 # more than 2GB.
+#
+# 1.04 takes less disk space, see
+# https://github.com/shawnlaffan/perl-alien-gdal/issues/7#issuecomment-384144106
