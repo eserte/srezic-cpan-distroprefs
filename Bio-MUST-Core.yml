@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Bio-MUST-Core-0\.173620\.'
+  distribution: '/Bio-MUST-Core-0\.(173620|181170)\.'
   perlconfig:
     version: '^5\.([6789]|1[012])\.'
 disabled: 1
