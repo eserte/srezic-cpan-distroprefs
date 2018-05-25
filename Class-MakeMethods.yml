@@ -2,6 +2,6 @@
 match:
   distribution: '/\QClass-MakeMethods-1.01.tar.gz\E'
   perlconfig:
-    version: '^5\.(25|26|27)\.\d+$'
+    version: '^5\.(25|26|27|28)\.\d+$'
 patches:
   - SREZIC/patches/Class-MakeMethods-1.01-RT115108.patch
