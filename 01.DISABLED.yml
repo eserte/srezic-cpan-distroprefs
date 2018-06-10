@@ -1542,5 +1542,6 @@ match:
     |JGNI/Locale-CLDR-Locales-.*-v0.32.0.tar.gz # too many of these...
     |VLD/Algorithm-NCS-0.03.tar.gz # extra directory level --- https://rt.cpan.org/Ticket/Display.html?id=125137
     |VLD/Algorithm-NCS-0.04.tar.gz # extra directory level --- https://rt.cpan.org/Ticket/Display.html?id=125137
+    |FRITH/Desktop-Notify-0.3.2.tar.gz # broken tarball
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
