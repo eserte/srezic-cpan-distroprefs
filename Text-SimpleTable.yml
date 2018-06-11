@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Text-SimpleTable-2\.05\.'
+depends:
+  requires:
+    Unicode::LineBreak: 0
+# https://rt.cpan.org/Ticket/Display.html?id=125547
