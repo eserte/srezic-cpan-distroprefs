@@ -8,6 +8,7 @@ pl:
     PERL_MM_USE_DEFAULT: 1
     PERL_USE_UNSAFE_INC: 1
 # https://rt.cpan.org/Ticket/Display.html?id=120862
+# but may pass also without these env vars
 ---
 match:
   distribution: '/Crypt-SSLeay-\d'
