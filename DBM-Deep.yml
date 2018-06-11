@@ -16,6 +16,7 @@ patches:
 # see also
 #   https://rt.perl.org/Ticket/Display.html?id=132493
 #   https://rt.cpan.org/Ticket/Display.html?id=123811
+# -> 2.0016 is fixed
 ---
 match:
   distribution: '/DBM-Deep-[23456789]\.'
