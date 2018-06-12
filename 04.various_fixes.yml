@@ -5,7 +5,6 @@ match:
   distribution: |
     ^(?x:
      MCONNER/Devel-Decouple-v0.0.3.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=101285
-    |SDEN/URI-ParseSearchString-3.51.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=98073
     |.*/Sorauta-Cache-HTTP-Request-Image-0\.01\.
     |JOHND/Data-Properties-YAML-0.04.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=101286
     |JOHND/ASP4-1.087.tar.gz # META.yml here not problematic, but reverse deps has also to be handled...

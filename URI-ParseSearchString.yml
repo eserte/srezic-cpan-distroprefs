@@ -1,12 +1,16 @@
 ---
 match:
   distribution: '/URI-ParseSearchString-3\.51\.'
+cpanconfig:
+  yaml_module: 'YAML::Syck'
 depends:
   configure_requires:
-    Devel::Hide: 0
+    'Devel::Hide': 0
+    'YAML::Syck': 0
 test:
   env:
     DEVEL_HIDE_VERBOSE: 0
     PERL5OPT: -MDevel::Hide
     DEVEL_HIDE_PM: Test::Kwalitee
-# https://rt.cpan.org/Ticket/Display.html?id=88479
+# broken YAML: https://rt.cpan.org/Ticket/Display.html?id=88479
+# Test::Kwalitee hiding: https://rt.cpan.org/Ticket/Display.html?id=98073
