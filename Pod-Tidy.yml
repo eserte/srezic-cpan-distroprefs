@@ -2,4 +2,4 @@
 match:
   distribution: '/\QPod-Tidy-0.10.tar.gz\E'
 patches:
-  - SREZIC/patches/Pod-Tidy-0.10-RT51281.patch
+  - SREZIC/patches/Pod-Tidy-0.10-RT51281-2.patch
