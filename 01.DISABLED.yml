@@ -381,7 +381,7 @@ match:
     |.*/Bio-SamTools-\d # no port for samtools (or libbam.a)
     |.*/DBD-drizzle-\d # no port for libdrizzle
     |.*/JSONRPC-Transport-TCP-0.02.tar.gz # hangs
-    |.*/Pod-Wrap-0.01.tar.gz # deparse_cmp.t hangs, but only freebsd
+    |XXX.*/Pod-Wrap-0.01.tar.gz # deparse_cmp.t hangs, but only freebsd --- https://rt.cpan.org/Ticket/Display.html?id=99433 --- removed, because wait-and-kill-cpan-smoker entry exists
     |.*/Metabase-1.001.tar.gz # flatfile.t hangs, probably on all *BSD systems (locking?)
     |.*/IPC-AnyEvent-Gearman-0\.1\. # 01-ipc.t test hangs, 03-fork.t forks of a number of busy processes and hangs
     |.*/IPC-AnyEvent-Gearman-0\.3\. # 01-ipc.t test hangs, 03-fork.t forks of a number of busy processes and hangs
