@@ -1,5 +1,7 @@
 ---
 match:
   distribution: '/\QPod-Tidy-0.10.tar.gz\E'
+  perlconfig:
+    archname: '(^darwin-|freebsd|openbsd|netbsd)'
 patches:
   - SREZIC/patches/Pod-Tidy-0.10-RT51281-2.patch
