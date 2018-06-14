@@ -655,7 +655,7 @@ match:
   distribution: |
     ^(?x:
      .*/IPC-Shareable-0\.60\.
-    |.*/Pod-Tidy-0\.10\. # seems to work only on Linux, according to matrix, on FreeBSD the deparse cmp test hangs - hangs also on MacOSX https://rt.cpan.org/Ticket/Display.html?id=51281
+    |XXX.*/Pod-Tidy-0\.10\. # seems to work only on Linux, according to matrix, on FreeBSD the deparse cmp test hangs - hangs also on MacOSX https://rt.cpan.org/Ticket/Display.html?id=51281 --- now handled by wait-and-kill-cpan-smoker
     |.*/POE-Component-Omegle-0\.02\. # eating a lot of CPU (maybe only if WWW-Omegle could not be installed which can happen if HTTP-Async fails, which happens quite often)
     |.*/Template-Provider-HTTP-0\.02\. # simple.t may hang
     |.*/HTML-Tested-JavaScript-0\.25\. # GtkMozEmbed.t may hang
