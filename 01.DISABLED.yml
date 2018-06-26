@@ -1544,5 +1544,6 @@ match:
     |VLD/Algorithm-NCS-0.04.tar.gz # extra directory level --- https://rt.cpan.org/Ticket/Display.html?id=125137
     |FRITH/Desktop-Notify-0.3.2.tar.gz # broken tarball
     |PERLANCAR/Sah-Schemas-URL-0.007.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=125676
+    |MATTSIZLE/locale-country-eu-0.001.tar.gz # newer version mit correct capitalization exists (avoid smoking it with the "devel" option)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
