@@ -1,8 +1,17 @@
 --- 
 match:
   distribution: '/Tcl-\d'
+  perlconfig:
+    archname: freebsd
 pl:
-  args: ["--tclsh", "tclsh8.4"]
+  args: ["--tclsh", "tclsh8.6"]
+# On Linux systems (Debian, CentOS) there's
+# a tclsh installed which usually points to the
+# latest (or last) installed Tcl
+# FreeBSD has only version-specific tclsh
+# installed
+#
+## Old comment follows:
 # FreeBSD has tclsh8.4, tclsh8.5, and tclsh8.6
 # Building works only with tclsh8.4.
 # To build with 8.5 and 8.6, the --nousestubs has to be used.
