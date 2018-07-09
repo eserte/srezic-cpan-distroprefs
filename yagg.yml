@@ -18,6 +18,13 @@ pl:
       - "\n"
 ---
 match:
+  distribution: '/yagg-1\.4011\.'
+  perlconfig:
+    archname: '-linux'
+disabled: 1
+# Requires yapp, fails configuration if it does not exist
+---
+match:
   distribution: '/yagg-\d'
 pl:
   eexpect:
