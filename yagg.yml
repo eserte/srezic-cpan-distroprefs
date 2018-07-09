@@ -10,8 +10,10 @@ pl:
     talk:
       - '\QWould you like to install this package into a location other than the'
       - "\n"
-      - '\QWhere can I find your \"make\" executable?'
+      - '\QWhere can I find your \E"make"\Q executable?'
       - "/usr/local/bin/gmake\n"
+      - '\QWhere can I find your \E"find"\Q executable?'
+      - "/usr/bin/find\n"
       - 'Where can I find your .* executable'
       - "\n"
 ---
