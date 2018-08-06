@@ -1545,5 +1545,6 @@ match:
     |FRITH/Desktop-Notify-0.3.2.tar.gz # broken tarball
     |PERLANCAR/Sah-Schemas-URL-0.007.tar.gz # recursive dependency - https://rt.cpan.org/Ticket/Display.html?id=125676
     |MATTSIZLE/locale-country-eu-0.001.tar.gz # newer version mit correct capitalization exists (avoid smoking it with the "devel" option)
+    |JGNI/Locale-CLDR-Locales-.*-v0.33.0.tar.gz # too many of these...
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
