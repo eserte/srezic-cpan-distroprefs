@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QDebug-Flags-0.26.tar.gz\E'
+  perlconfig:
+    version: '^5\.(27\.(1|2|3|4|5|6|7|8|9|1\d)|((28)\.\d+))$'
+patches:
+  - SREZIC/patches/Debug-Flags-0.26-RT122307.patch
