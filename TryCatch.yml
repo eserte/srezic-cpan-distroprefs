@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QTryCatch-1.003002.tar.gz\E'
+patches:
+  - SREZIC/patches/TryCatch-1.003002-RT121846.patch
