@@ -1,5 +1,8 @@
 ---
 match:
   distribution: '/\QTryCatch-1.003002.tar.gz\E'
+  perlconfig:
+    version: '^5\.(26|27|28)\.'
 patches:
   - SREZIC/patches/TryCatch-1.003002-RT121846.patch
+# dot in @INC
