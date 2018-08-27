@@ -1549,6 +1549,7 @@ match:
     |JGNI/Locale-CLDR-Locales-.*-v0.33.0-TRIAL\d.tar.gz # too many of theese
     |DOCRIVERS/.* # a spammer
     |FULLHD/.* # a spammer
+    |FULLUHD/.* # a spammer
     |ULTRAHD/.* # a spammer
     |FULLHQ/.* # a spammer
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
