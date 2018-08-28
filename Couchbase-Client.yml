@@ -8,6 +8,16 @@ disabled: 1
 # hangs with freebsd8
 ---
 match:
+  distribution: '/\QCouchbase-Client-1.0.3.tar.gz\E'
+pl:
+  expect:
+    - '\QInstall bundled libraries? [y]'
+    - "\n"
+patches:
+  - SREZIC/patches/Couchbase-Client-1.0.3-RT126975.patch
+# patch probably needed for newer EUMM versions only
+---
+match:
   distribution: '/Couchbase-Client-\d'
 pl:
   expect:
