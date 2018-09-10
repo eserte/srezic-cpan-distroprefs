@@ -8,3 +8,4 @@ match:
 patches:
   - SREZIC/patches/Digest-SHA2-1.1.1-fbsd10.patch
 # module is deprecated anyway, but used as a dependency in some other CPAN distros
+# https://rt.cpan.org/Ticket/Display.html?id=110302
