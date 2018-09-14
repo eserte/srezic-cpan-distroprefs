@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Perl-Critic-Nits-v1.0.0.tar.gz'
+disabled: 1
+# Serious problems:
+# - https://rt.cpan.org/Ticket/Display.html?id=35440
+# - https://github.com/perl-weasel/weasel-widgets-dojo/issues/1#issuecomment-421268138
