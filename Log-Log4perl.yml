@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Log-Log4perl-1\.49\.tar\.gz$'
+  perlconfig:
+    archname: "MSWin32"
+goto: 'MSCHILLI/Log-Log4perl-1.47.tar.gz'
+# 1.48 and 1.49 fail tests on Windows systems
