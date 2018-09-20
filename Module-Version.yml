@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Module-Version-0\.13\.'
+patches:
+  - SREZIC/patches/Module-Version-0.13-MHASCH-01.patch
