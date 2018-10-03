@@ -2,6 +2,5 @@
 match:
   distribution: '/Apache-Sling-\d'
 pl:
-  expect:
-    - '\QSkip external tests?'
-    - "y\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1

@@ -762,16 +762,6 @@ match:
     |KABLAMO/Vim-Debug-0.8.tar.gz # maybe the same, not checked
     |KABLAMO/Vim-Debug-0.9.tar.gz # same
     |KABLAMO/Vim-Debug-0.10.tar.gz # same with 0.10, but 0.904 works at least
-    |.*/Apache-Sling-0.12.tar.gz # the Apache-Sling-Print.t hangs
-    |XEONTIME/Apache-Sling-0.13.tar.gz # test hangs with 5.13.6
-    |XEONTIME/Apache-Sling-0.14.tar.gz # locking problems, tests hang
-    |.*/Apache-Sling-0\.15\. # two hanging tests
-    |.*/Apache-Sling-0\.16\.tar.gz # same
-    |.*/Apache-Sling-0\.17\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\.18\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\.19\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\.21\.tar.gz # still hanging tests
-    |.*/Apache-Sling-0\..*\.tar.gz # still hanging tests with 0.22, disable forever
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.15.tar.gz # dito (and 05-search.t hangs)
