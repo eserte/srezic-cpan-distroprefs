@@ -757,11 +757,6 @@ match:
     |HAYAJO/Net-IPMessenger-Bot-0.01.tar.gz # also hanging
     |HAYAJO/Net-IPMessenger-Bot-0.02.tar.gz # also hanging
     |PEVANS/IO-Async-Loop-Glib-0.20.tar.gz # t/15share-child.t hangs
-    |KABLAMO/Vim-Debug-0.6.tar.gz # tests hang, anyway it does not work because VimDebug::Daemin prereq is N/A @ CPAN
-    |KABLAMO/Vim-Debug-0.7.tar.gz # same
-    |KABLAMO/Vim-Debug-0.8.tar.gz # maybe the same, not checked
-    |KABLAMO/Vim-Debug-0.9.tar.gz # same
-    |KABLAMO/Vim-Debug-0.10.tar.gz # same with 0.10, but 0.904 works at least
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.13.tar.gz # t/04-bind.t test hangs
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.14.tar.gz # dito
     |RUSSOZ/Net-LDAP-SimpleServer-0.0.15.tar.gz # dito (and 05-search.t hangs)
