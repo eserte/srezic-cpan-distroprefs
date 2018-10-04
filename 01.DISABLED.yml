@@ -1537,5 +1537,6 @@ match:
     |FULLUHD/.* # a spammer
     |ULTRAHD/.* # a spammer
     |FULLHQ/.* # a spammer
+    |JGNI/Locale-CLDR-Locales-.*-v0.33.1-TRIAL2 # too many of these...
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
