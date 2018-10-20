@@ -212,6 +212,7 @@ match:
      |\QBBC/SQL-Shell-1.14.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
+     |\QBDFOY/CPAN-PackageDetails-0.261.tar.gz\E
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBDUGGAN/Rose-Planter-0.36.tar.gz\E
@@ -690,6 +691,7 @@ match:
      |\QGUGU/Algorithm-FloodControl-2.000000.tar.gz\E
      |\QGUGU/Catalyst-Controller-RateLimit-0.17.tar.gz\E
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
+     |\QGUILLEM/Dpkg-1.19.1.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
      |\QGWYN/POE-Component-Daemon-0.1301.tar.gz\E
      |\QHAARG/Moo-2.001001.tar.gz\E
@@ -755,7 +757,6 @@ match:
      |\QIKALLEN/WebService-Technorati/WebService-Technorati-0.02.tar.gz\E
      |\QIKALLEN/XMLXOXO/XML-XOXO-0.03.tar.gz\E
      |\QIKEBE/Pickles-0.06.tar.gz\E
-     |\QIKLUFT/Slauth-0.01.tar.gz\E
      |\QIKRUGLOV/Sereal-Path-4.003.tar.gz\E
      |\QILLY/WebService-Moodle-Simple-0.05.tar.gz\E
      |\QILYAZ/C-Scan-0.72.tar.gz\E
@@ -894,7 +895,9 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.621.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.702.tar.gz\E
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
+     |\QJHTHORSEN/DOCSIS-ConfigFile-0.75.tar.gz\E
      |\QJHTHORSEN/Mojo-Redis-1.02.tar.gz\E
+     |\QJHTHORSEN/Mojolicious-Plugin-FastHelpers-0.01.tar.gz\E
      |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
      |\QJILLROWE/BioX-Workflow-Command-2.0.10.tar.gz\E
      |\QJILLROWE/BioX-Workflow-Command-2.2.1.tar.gz\E
@@ -1010,6 +1013,7 @@ match:
      |\QKAORU/Geo-Coder-Many-0.46-5.tar.gz\E
      |\QKARASIK/IO-Lambda-1.25.tar.gz\E
      |\QKARASIK/Prima-1.48.tar.gz\E
+     |\QKARASIK/Prima-1.52.tar.gz\E
      |\QKARASIK/Win32-GuiTest-1.57.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.0.2.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.07.tar.gz\E
@@ -1513,6 +1517,7 @@ match:
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
      |\QPERLANCAR/Sah-Schemas-Color-0.001.tar.gz\E
+     |\QPERLANCAR/Software-Catalog-1.0.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1555,6 +1560,7 @@ match:
      |\QPINE/Devel-Cover-Report-Codecov-0.19.tar.gz\E
      |\QPINE/Devel-Cover-Report-Codecov-0.23.tar.gz\E
      |\QPIOTO/Unix-Uptime-0.36.tar.gz\E
+     |\QPJACKLAM/Math-BigInt-1.999814.tar.gz\E
      |\QPJF/Finance-Quote-1.08.tar.gz\E
      |\QPJF/Finance-Quote-1.10.tar.gz\E
      |\QPKUBANEK/XML-Clean-1.010101.tar.gz\E
@@ -1791,7 +1797,6 @@ match:
      |\QSIMPLIFY/Net-Simplify-1.0.1.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.1000.tar.gz\E
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
-     |\QSJDY/Mojo-Webqq-2.1.4.tar.gz\E
      |\QSKAJI/App-cpm-0.211.tar.gz\E
      |\QSKAJI/App-cpm-0.972.tar.gz\E
      |\QSKAJI/Text-Xslate-v3.5.4.tar.gz\E
@@ -2000,6 +2005,7 @@ match:
      |\QUNERA/DBIx-DR-0.04.tar.gz\E
      |\QUNERA/DR-Msgpuck-0.02.tar.gz\E
      |\QUNERA/DR-Tarantool-0.17.tar.gz\E
+     |\QURI/File-Slurp-9999.19.tar.gz\E
      |\QUTASHIRO/App-optex-v0.0.15.tar.gz\E
      |\QUTASHIRO/App-optex-v0.0.4.tar.gz\E
      |\QUTASHIRO/App-sdif-4.3.0.tar.gz\E
@@ -2123,6 +2129,7 @@ match:
      |\QZBLAIR/Data-Formatter-Text-0.03.tar.gz\E
      |\QZBY/WebNano-0.001.tar.gz\E
      |\QZBY/WebNano-0.006.tar.gz\E
+     |\QZDM/Pcore-v0.74.2.tar.gz\E
      |\QZEMAN/Lingua-Interset-2.001.tar.gz\E
      |\QZENOG/Padre-Plugin-Vi-0.23.0.tar.gz\E
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
