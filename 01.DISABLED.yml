@@ -964,11 +964,10 @@ match:
     |.*/swd.tar.gz # wrong distname format
     |.*/RadiusPerl-\d # probably need things I do not have
     |.*/Mobile-Wurfl-\d # needs a database
-    |.*/XAO-Indexer-\d # needs a database
-    |.*/XAO-FS-\d # needs a database
-    |.*/XAO-ImageCache-\d # needs a database
-    |.*/XAO-Content-\d # needs a database
-    |.*/XAO-Catalogs-\d # needs a database
+    |.*/XAO-Indexer-\d # needs a database (2018-10: does not exist anymore?)
+    |.*/XAO-ImageCache-\d # needs a database (2018-10: does not exist anymore?)
+    |.*/XAO-Content-\d # needs a database (2018-10: does not exist anymore?)
+    |.*/XAO-Catalogs-\d # needs a database (2018-10: does not exist anymore?)
     |.*/Authen-Krb5-Admin-\d # asks questions
     |DCOPPIT/Benchmark-Timer-0.7100.tar.gz # problems with ExtUtils::AutoInstall
     |.*/Rsync-Config-\d # problems with ExtUtils::AutoInstall
@@ -1078,7 +1077,7 @@ match:
     |.*/MyConText-\d # needs a database
     |.*/Dyns-Client-\d # wants a user etc. (and I am using Net::DNS::DynDNS currently)
     |.*/XML-DB.tar.gz # asking for some xml db
-    |.*/XAO-MySQL-\d # needs a DSN
+    |.*/XAO-MySQL-\d # needs a DSN (2018-10: does not exist anymore?)
     |.*/Carp-Ensure-0.23.tar.gz # wrong usage of pod2html (stdin reads nothing...)
     |.*/HTML-Puzzle-\d # wants a database
     |.*/htpl-\d # hmm, whats this?
@@ -1128,7 +1127,6 @@ match:
     |.*/Server-Starter-0.04 # dito
     |.*/Ogre-AL-\d # neither exists as fbsd port nor as debian package, it seems
     |.*/WWW-Compete-\d # asks for an API key
-    |.*/XAO-Web-\d # needs a XAO::FS database for tests
     |.*/Alien-IUP-v\d # does a find over the whole (!) disk and building takes forever
     |.*/Math-Matlab-\d # mathlab not in freebsd ports and also not in debian
     |.*/Bio-Medpost-\d # needs medpost, not in ports and neither part of debian
