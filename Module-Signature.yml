@@ -25,3 +25,5 @@ pl:
   expect:
     - '\QImport PAUSE and author keys to GnuPG'
     - "n\n"
+# Not importing these keys may cause the test suite to fail.
+# Seen on a MacOSX system (but not sure about the conclusion)
