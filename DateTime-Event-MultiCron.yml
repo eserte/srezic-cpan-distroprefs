@@ -1,0 +1,7 @@
+---
+match:
+  distribution: 'NEVES/DateTime-Event-MultiCron-0.01.tar.gz'
+depends:
+  requires:
+    DateTime::Event::Cron: 0
+# https://rt.cpan.org/Ticket/Display.html?id=109301
