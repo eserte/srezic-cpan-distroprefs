@@ -78,6 +78,15 @@ make:
 #    PERL_AUTOINSTALL: --skip    
 #    PERL_EXTUTILS_AUTOINSTALL: --skip
 ---
+match:
+  distribution: '/Net-SSLeay-1\.85\.tar\.gz'
+  perlconfig:
+# match distributions where openssl 1.1.1 is installed
+    osname: freebsd
+    osvers: '^(12|13)\.'
+goto: RADIATOR/Net-SSLeay-1.86_06.tar.gz
+# https://rt.cpan.org/Ticket/Display.html?id=125218
+---
 ## It seems that auto_install was removed in 1.33
 match:
   distribution: '/Net-SSLeay-\d'
