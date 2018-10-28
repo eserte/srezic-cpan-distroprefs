@@ -10,7 +10,7 @@ pl:
 match:
   distribution: '/Prima-1\.53\.'
   env:
-    TRAVIS: true
+    TRAVIS_OS_NAME: linux
     # actually affects all older debian+ubuntu systems (jessie, trusty...)
 goto: KARASIK/Prima-1.52.tar.gz
 # https://github.com/dk/Prima/issues/57
