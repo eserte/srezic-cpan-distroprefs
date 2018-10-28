@@ -1,0 +1,19 @@
+---
+match:
+  distribution: '/Git-Repository-1\.322\.'
+  perlconfig:
+    # match systems with git 2.19.x
+    archname: -freebsd
+    osvers: '^(11|12|13)\.'
+patches:
+  - SREZIC/patches/Git-Repository-RT127282-BOOK.patch
+# already in the git repo, but not yet releases
+---
+match:
+  distribution: '/Git-Repository-1\.322\.'
+  perlconfig:
+    # match debian/buster system perl (buster also ships with git 2.19.x)
+    myuname: 'linux localhost 4.9.0 #1 smp debian 4.9.0 x86_64 gnulinux '
+patches:
+  - SREZIC/patches/Git-Repository-RT127282-BOOK.patch
+# already in the git repo, but not yet releases
