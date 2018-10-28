@@ -6,3 +6,11 @@ match:
 pl:
   args: ['X11BASE=/usr/local']
 # https://rt.cpan.org/Ticket/Display.html?id=91759
+---
+match:
+  distribution: '/Prima-1\.53\.'
+  env:
+    TRAVIS: true
+    # actually affects all older debian+ubuntu systems (jessie, trusty...)
+goto: KARASIK/Prima-1.52.tar.gz
+# https://github.com/dk/Prima/issues/57
