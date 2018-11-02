@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/WWW-Kickstarter-v1\.14\.0\.'
+depends:
+  configure_requires:
+    ExtUtils::MakeMaker: 7.00
+# an attempt to fix https://rt.cpan.org/Ticket/Display.html?id=127547
