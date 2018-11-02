@@ -63,6 +63,7 @@ match:
      |\QAKXLIX/Sisimai-4.17.2.tar.gz\E
      |\QAKXLIX/Sisimai-4.22.1.tar.gz\E
      |\QAKXLIX/Sisimai-4.22.3.tar.gz\E
+     |\QAKXLIX/Sisimai-v4.23.0.tar.gz\E
      |\QALANSZ/Decision-Markov-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-0.02.tar.gz\E
      |\QALEC/Finance-QuoteTW-v0.09.tar.gz\E
@@ -124,6 +125,7 @@ match:
      |\QASLEWIS/Games-Axmud-1.1.012.tar.gz\E
      |\QASLEWIS/Games-Axmud-1.1.050.tar.gz\E
      |\QASLEWIS/Games-Axmud-1.1.138.tar.gz\E
+     |\QASLEWIS/Games-Axmud-1.1.174.tar.gz\E
      |\QASNMTAP/ASNMTAP-3.000.005.tar.gz\E
      |\QASPA/IO-Socket-SSL-0.81.tar.gz\E
      |\QASPEER/WebDyne-1.207.tar.gz\E
@@ -623,7 +625,6 @@ match:
      |\QGGARAND/PerlQt-3.006.tar.gz\E
      |\QGIBUS/RT-Extension-ConditionalCustomFields-0.02.tar.gz\E
      |\QGIBUS/RT-Extension-RichtextCustomField-0.02.tar.gz\E
-     |\QGLBRUNE/Sim-OPT-0.135.tar.gz\E
      |\QGLEACH/Audio-TagLib-1.65.tar.gz\E
      |\QGLENNWOOD/Benchmark-Harness-1.07.tar.gz\E
      |\QGLENNWOOD/Bundle-WWW-Scraper-Housing-0.02.tar.gz\E
@@ -898,7 +899,6 @@ match:
      |\QJHOWELL/FAQ-OMatic-2.717.tar.gz\E
      |\QJHTHORSEN/DOCSIS-ConfigFile-0.75.tar.gz\E
      |\QJHTHORSEN/Mojo-Redis-1.02.tar.gz\E
-     |\QJHTHORSEN/Mojolicious-Plugin-FastHelpers-0.01.tar.gz\E
      |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
      |\QJILLROWE/BioX-Workflow-Command-2.0.10.tar.gz\E
      |\QJILLROWE/BioX-Workflow-Command-2.2.1.tar.gz\E
@@ -984,8 +984,7 @@ match:
      |\QJUERD/DBIx-Simple-1.26.tar.gz\E
      |\QJUSTIN/Telegram-Bot-0.004.tar.gz\E
      |\QJV/App-Music-PlayTab-2.027.tar.gz\E
-     |\QJV/Comics-1.07.tar.gz\E
-     |\QJV/Comics-1.08.tar.gz\E
+     |\QJV/Data-iRealPro-1.10.tar.gz\E
      |\QJVANASCO/Authen-PluggableCaptcha-0.02.tar.gz\E
      |\QJWB/Bio-Gonzales-0.0546.tar.gz\E
      |\QJWB/Bio-Grid-Run-SGE-0.042.tar.gz\E
@@ -1518,8 +1517,6 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/Sah-Schemas-Color-0.001.tar.gz\E
-     |\QPERLANCAR/Software-Catalog-1.0.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1573,7 +1570,6 @@ match:
      |\QPLENIGO/plenigo-2.0001.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
-     |\QPMPERRY/PDF-Builder-3.005.tar.gz\E
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
      |\QPMQS/Compress-Raw-Bzip2-2.005.tar.gz\E
      |\QPMURIAS/Mildew-0.01.tar.gz\E
@@ -1626,6 +1622,7 @@ match:
      |\QREHSACK/File-HomeDir-1.002.tar.gz\E
      |\QREISINGE/App-Monport-0.11.tar.gz\E
      |\QRENE/Grid-Layout-0.01.tar.gz\E
+     |\QRENEEB/Mojolicious-Command-generate-localplugin-0.01.tar.gz\E
      |\QRENEEB/Mojolicious-Plugin-FormFieldsFromJSON-0.32.tar.gz\E
      |\QRENEEB/Perl-Critic-OTRS-0.07.tar.gz\E
      |\QRENTOCRON/Net-Flotum-0.09.tar.gz\E
@@ -1906,6 +1903,7 @@ match:
      |\QTHALJEF/Pinto-0.097.tar.gz\E
      |\QTHHAMON/Lingua-Ogmios-0.01.tar.gz\E
      |\QTHHAMON/Lingua-YaTeA-0.5.tar.gz\E
+     |\QTHHAMON/Lingua-YaTeA-0.622.tar.gz\E
      |\QTHOMAS/Apache-DnsZone-0.1.tar.gz\E
      |\QTHORGIS/Config-Param-3.001000.tar.gz\E
      |\QTHOSPEL/Heap-Simple-0.06.tar.gz\E
@@ -1965,9 +1963,7 @@ match:
      |\QTOKUHIROM/Minilla-v0.3.0.tar.gz\E
      |\QTOKUHIROM/Minilla-v0.3.2.tar.gz\E
      |\QTOKUHIROM/Spellunker-v0.0.8.tar.gz\E
-     |\QTOMGRACEY/TaskPipe-0.01.tar.gz\E
      |\QTOMGRACEY/TaskPipe-0.03.tar.gz\E
-     |\QTOMGRACEY/TaskPipe-0.04.tar.gz\E
      |\QTOMITA/Acme-Ikamusume-0.06.tar.gz\E
      |\QTOMITA/Acme-Ikamusume-0.07.tar.gz\E
      |\QTOMITA/Acme-Lou-0.03.tar.gz\E
