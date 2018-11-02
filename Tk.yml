@@ -34,3 +34,10 @@ match:
   distribution: "SREZIC/Tk-804.031.tar.gz"
 goto: "SREZIC/Tk-804.031_503.tar.gz"
 
+--- 
+match:
+  distribution: "SREZIC/Tk-804.034.tar.gz"
+  perlconfig:
+    version: '^5\.29\.4$'
+disabled: 1
+# "Out of memory" errors, hangs etc.
