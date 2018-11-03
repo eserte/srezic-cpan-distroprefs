@@ -17,7 +17,14 @@ comment: "t/local/back.t kills everything (probably all perls), see http://code.
 match:
   distribution: '/WWW-Mechanize-1\.54\.tar.gz'
 disabled: 1
---- 
+---
+match:
+  distribution: 'OALDERS/WWW-Mechanize-1\.89\.tar\.gz'
+  perlconfig:
+    myuname: 'linux c1bm.rdu2.centos.org 3.10.0-514.16.1.el7.x86_64'
+disabled: 1
+# several t/local/* tests hang with system perl @ CentOS7
+---
 match:
   distribution: '/WWW-Mechanize-\d'
 pl: 
