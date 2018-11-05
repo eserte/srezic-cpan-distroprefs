@@ -3,3 +3,7 @@ match:
   distribution: '/\QLog-Dispatch-Screen-Color-0.04.tar.gz\E'
 patches:
   - SREZIC/patches/Log-Dispatch-Screen-Color-0.04-RT120329.patch
+  - SREZIC/patches/Log-Dispatch-Screen-Color-0.04-RT122868.patch
+# Two problems
+# - first patch fixes breakage by a change in Log-Dispatch
+# - second patch fixes a no-dot-in-@INC problem
