@@ -3,3 +3,4 @@ match:
   distribution: '/\QParallel-PreForkManager-1.20170417.tar.gz\E'
 patches:
   - SREZIC/patches/Parallel-PreForkManager-1.20170417-RT123560.patch
+# later versions are fixed
