@@ -21,3 +21,4 @@ test:
     PERL5OPT: -MDevel::Hide
     DEVEL_HIDE_PM: Test::Pod
 # Workaround for failing pod test, see https://rt.cpan.org/Ticket/Display.html?id=85686
+# fixed in later versions
