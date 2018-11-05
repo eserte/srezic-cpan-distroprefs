@@ -10,3 +10,4 @@ match:
   distribution: '/Dancer-1\.3134\.'
 patches:
   - SREZIC/patches/Dancer-1.3134-issue1107.patch
+# Current Dancer is at 1.3500 and does not need patching.
