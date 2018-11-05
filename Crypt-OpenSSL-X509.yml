@@ -9,3 +9,11 @@ patches:
   - SREZIC/patches/Crypt-OpenSSL-X509-1.807-various.patch
 # This patch upgrades the distribution to
 # https://github.com/dsully/perl-crypt-openssl-x509/commit/eb169806c23e0dd18e6178d72b73a698082cc115
+---
+match:
+  distribution: '/\QCrypt-OpenSSL-X509-1.811.tar.gz\E'
+  perlconfig:
+    version: '^5\.(26|27|28|29)\.'
+patches:
+  - SREZIC/patches/Crypt-OpenSSL-X509-1.811-issue71.patch
+# https://github.com/dsully/perl-crypt-openssl-x509/issues/71
