@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: 'RURBAN/B-C-1.55_(07|08).tar.gz'
+  distribution: 'RURBAN/B-C-1.55_(07|08|10).tar.gz'
   perlconfig:
     archname: freebsd
 #    myuname: 'freebsd ali[1-9]\.'
