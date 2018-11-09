@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Sys-Info-Base-0\.7804\.'
+  perlconfig:
+    version: '^5\.(26|27|28|29)\.'
+patches:
+  - SREZIC/patches/Sys-Info-Base-0.7804-RT121024-PPISAR.patch
+# https://rt.cpan.org/Ticket/Display.html?id=121024
+# dot in @INC
