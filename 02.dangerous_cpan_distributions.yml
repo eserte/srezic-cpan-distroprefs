@@ -122,9 +122,6 @@ match:
      |\QASCOPE/Image-Shoehorn-Gallery-0.21.tar.gz\E
      |\QASCOPE/Net-Google-0.62.tar.gz\E
      |\QASCOPE/XML-Filter-XML_Directory_2RSS-0.9.1.tar.gz\E
-     |\QASLEWIS/Games-Axmud-1.1.012.tar.gz\E
-     |\QASLEWIS/Games-Axmud-1.1.050.tar.gz\E
-     |\QASLEWIS/Games-Axmud-1.1.138.tar.gz\E
      |\QASLEWIS/Games-Axmud-1.1.174.tar.gz\E
      |\QASNMTAP/ASNMTAP-3.000.005.tar.gz\E
      |\QASPA/IO-Socket-SSL-0.81.tar.gz\E
@@ -984,7 +981,6 @@ match:
      |\QJUERD/DBIx-Simple-1.26.tar.gz\E
      |\QJUSTIN/Telegram-Bot-0.004.tar.gz\E
      |\QJV/App-Music-PlayTab-2.027.tar.gz\E
-     |\QJV/Data-iRealPro-1.10.tar.gz\E
      |\QJVANASCO/Authen-PluggableCaptcha-0.02.tar.gz\E
      |\QJWB/Bio-Gonzales-0.0546.tar.gz\E
      |\QJWB/Bio-Grid-Run-SGE-0.042.tar.gz\E
@@ -1622,9 +1618,6 @@ match:
      |\QREHSACK/File-HomeDir-1.002.tar.gz\E
      |\QREISINGE/App-Monport-0.11.tar.gz\E
      |\QRENE/Grid-Layout-0.01.tar.gz\E
-     |\QRENEEB/Mojolicious-Command-generate-localplugin-0.01.tar.gz\E
-     |\QRENEEB/Mojolicious-Plugin-FormFieldsFromJSON-0.32.tar.gz\E
-     |\QRENEEB/Perl-Critic-OTRS-0.07.tar.gz\E
      |\QRENTOCRON/Net-Flotum-0.09.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
@@ -1725,7 +1718,6 @@ match:
      |\QSARTAK/Pod-Cpandoc-0.01.tar.gz\E
      |\QSARTAK/Template-Declare-0.41.tar.gz\E
      |\QSAXJAZMAN/iodef/Iodef-Pb-Simple-0.01.tar.gz\E
-     |\QSBECK/Date-Manip-6.72.tar.gz\E
      |\QSCAIN/Bio-GMOD-GenericGenePage-0.11.tar.gz\E
      |\QSCESANO/Lego-Ldraw-0.5.7.1.tar.gz\E
      |\QSCHOP/Data-ACL-0.01.tar.gz\E
@@ -1858,6 +1850,8 @@ match:
      |\QSTEVAN/Method-Traits-0.05.tar.gz\E
      |\QSTEVAN/Moxie-0.03.tar.gz\E
      |\QSTEVAN/Promises-0.07.tar.gz\E
+     |\QSTEVIED/Dancer2-Plugin-MarkdownFilesToHTML-0.004.tar.gz\E
+     |\QSTEVIED/Dancer2-Plugin-MarkdownFilesToHTML-0.007.tar.gz\E
      |\QSTRYTOAST/Plucene-1.20.tar.gz\E
      |\QSTUIFZAND/Sleep-0.0.3.tar.gz\E
      |\QSUKRIA/Dancer-1.150.tar.gz\E
