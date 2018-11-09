@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Sys-Info-0\.78\.'
+  perlconfig:
+    version: '^5\.(26|27|28|29)\.'
+patches:
+  - SREZIC/patches/Sys-Info-0.78-RT120898-JKEENAN.patch
+# https://rt.cpan.org/Ticket/Display.html?id=120898
+# dot in @INC
