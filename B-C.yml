@@ -6,3 +6,10 @@ match:
 #    myuname: 'freebsd ali[1-9]\.'
 disabled: 1
 # Disk fillups
+---
+match:
+  distribution: 'RURBAN/B-C-1.55_(07|08|10).tar.gz'
+  perlconfig:
+    myuname: 'linux .*\.fc28\.x86_64'
+disabled: 1
+# Disk fillups
