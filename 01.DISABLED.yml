@@ -1536,5 +1536,6 @@ match:
     |ULTRAHD/.* # a spammer
     |FULLHQ/.* # a spammer
     |JGNI/Locale-CLDR-Locales-.*-v0.33.1-TRIAL2 # too many of these...
+    |LDIDRY/Mojolicious-Plugin-ZipBomb-0.01.tar.gz # no Makefile.PL
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
