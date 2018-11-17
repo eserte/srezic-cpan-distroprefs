@@ -17,3 +17,13 @@ match:
 patches:
   - SREZIC/patches/Crypt-OpenSSL-VerifyX509-0.10-RT121214-REUTNERFISCHER.patch
 # but t/02-verify-good-cert.t fails here with a "certificate signature failure"
+---
+match:
+  distribution: '/Crypt-OpenSSL-VerifyX509-0\.10\.'
+# fails with openssl 1.1.0 -> check for freebsd 12+13
+  perlconfig:
+    archname: freebsd
+    osvers: '^(12|13)\.'
+patches:
+  - SREZIC/patches/Crypt-OpenSSL-VerifyX509-0.10-RT121214-REUTNERFISCHER.patch
+# but t/03-verify-bad-cert.t fails on freebsd 13
