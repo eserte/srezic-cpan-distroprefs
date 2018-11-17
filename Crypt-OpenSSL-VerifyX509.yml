@@ -1,9 +1,9 @@
 ---
 match:
   distribution: '/Crypt-OpenSSL-VerifyX509-0\.10\.'
-# fails with openssl 1.1.0 -> check for debian/stretch, sort of
+# fails with openssl 1.1.0 -> check for debian/stretch and Ubuntu 18.04, sort of
   perlconfig:
     archname: linux
-    osvers: '^4\.(8|9)\.0-'
+    osvers: '^4\.(8|9|15)\.0'
 patches:
   - SREZIC/patches/Crypt-OpenSSL-VerifyX509-0.10-RT121214-REUTNERFISCHER.patch
