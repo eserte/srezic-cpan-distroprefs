@@ -7,3 +7,13 @@ match:
     osvers: '^4\.(8|9|15)\.0'
 patches:
   - SREZIC/patches/Crypt-OpenSSL-VerifyX509-0.10-RT121214-REUTNERFISCHER.patch
+---
+match:
+  distribution: '/Crypt-OpenSSL-VerifyX509-0\.10\.'
+# fails with openssl 1.1.0 -> check for Fedora 28
+  perlconfig:
+    archname: linux
+    osvers: '\.fc28\.'
+patches:
+  - SREZIC/patches/Crypt-OpenSSL-VerifyX509-0.10-RT121214-REUTNERFISCHER.patch
+# but t/02-verify-good-cert.t fails here with a "certificate signature failure"
