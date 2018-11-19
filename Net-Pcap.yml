@@ -11,8 +11,8 @@ match:
   distribution: '/Net-Pcap-0\.18\.'
   perlconfig:
     archname: linux
-# try to match debian/stretch
-    osvers: '^4\.9\.0-'
+# try to match debian/stretch and higher
+    osvers: '^4\.(8|9|15)\.0'
 patches:
   - SREZIC/patches/Net-Pcap-0.18-RT117831-PPISAR-2.patch
 ---
