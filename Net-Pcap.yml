@@ -6,6 +6,10 @@ match:
     osvers: '^(10|11|12|13)\.'
 patches:
   - SREZIC/patches/Net-Pcap-0.18-RT117831-PPISAR-2.patch
+# Note: libpcap is typically included in the base
+# system, but the newer 1.9.0 may be installed as a
+# package. In this case, the RH patch (see below in
+# the fedora section) is required, too.
 ---
 match:
   distribution: '/Net-Pcap-0\.18\.'
