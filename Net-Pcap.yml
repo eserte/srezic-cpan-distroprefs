@@ -15,3 +15,11 @@ match:
     osvers: '^4\.9\.0-'
 patches:
   - SREZIC/patches/Net-Pcap-0.18-RT117831-PPISAR-2.patch
+---
+match:
+  distribution: '/Net-Pcap-0\.18\.'
+  perlconfig:
+    archname: linux
+    osvers: '\.fc(27|28|29)\.'
+patches:
+  - SREZIC/patches/Net-Pcap-0.18-RT127685-RH1485429.patch
