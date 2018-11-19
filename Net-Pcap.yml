@@ -3,7 +3,7 @@ match:
   distribution: '/Net-Pcap-0\.18\.'
   perlconfig:
     archname: freebsd
-    osvers: '^(10|11|12)\.'
+    osvers: '^(10|11|12|13)\.'
 patches:
   - SREZIC/patches/Net-Pcap-0.18-RT117831-PPISAR-2.patch
 ---
