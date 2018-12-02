@@ -15,6 +15,14 @@ pl:
 #    JSON::XS: 0
 ---
 match:
+  distribution: '/\QJSON-2.97001.tar.gz\E'
+patches:
+  - SREZIC/patches/JSON-2.97001-RT127741.patch
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+---
+match:
   distribution: '/JSON-[23456789]\.'
 pl:
   env:
