@@ -1,5 +1,11 @@
 ---
 match:
   distribution: '/PerlPowerTools-\d'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+# last -> when testing only then nothing needs to be disabled.
+---
+match:
+  distribution: '/PerlPowerTools-\d'
 disabled: 1
 comment: 'installs scripts to .../bin, may be unexpected for other applications'
