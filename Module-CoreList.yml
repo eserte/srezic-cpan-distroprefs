@@ -1,6 +1,12 @@
 ---
 match:
   distribution: '/Module-CoreList-\d+\..*'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+# last -> when testing only then nothing needs to be disabled.
+---
+match:
+  distribution: '/Module-CoreList-\d+\..*'
 disabled: 1
 # Avoid possible downgrades --- cpan_smoke_modules/_wrapper3 is
 # unfortunately not smart enough to detect this situation.
