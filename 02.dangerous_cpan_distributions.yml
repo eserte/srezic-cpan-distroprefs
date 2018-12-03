@@ -29,8 +29,6 @@ match:
      |\QADAMDH/WWW-Shopify-0.99999.tar.gz\E
      |\QADAMDH/WWW-Shopify-Liquid-0.06.tar.gz\E
      |\QADAMDH/WWW-Shopify-Tools-Themer-0.10.tar.gz\E
-     |\QADAMJS/App-CharmKit-2.04.tar.gz\E
-     |\QADAMJS/App-CharmKit-2.07.tar.gz\E
      |\QADAMK/Aspect-0.96.tar.gz\E
      |\QADAMK/Aspect-0.981.tar.gz\E
      |\QADAMK/Aspect-Library-Profiler-0.32.tar.gz\E
@@ -123,6 +121,7 @@ match:
      |\QASCOPE/Net-Google-0.62.tar.gz\E
      |\QASCOPE/XML-Filter-XML_Directory_2RSS-0.9.1.tar.gz\E
      |\QASLEWIS/Games-Axmud-1.1.174.tar.gz\E
+     |\QASLEWIS/Games-Axmud-1.1.273.tar.gz\E
      |\QASNMTAP/ASNMTAP-3.000.005.tar.gz\E
      |\QASPA/IO-Socket-SSL-0.81.tar.gz\E
      |\QASPEER/WebDyne-1.207.tar.gz\E
@@ -298,6 +297,7 @@ match:
      |\QCALID/ZMQ-FFI-0.10.tar.gz\E
      |\QCALID/ZMQ-FFI-0.19.tar.gz\E
      |\QCALID/ZMQ-FFI-1.02.tar.gz\E
+     |\QCANID/Data-ObjectStore-2.01.tar.gz\E
      |\QCANID/Data-RecordStore-1.09.tar.gz\E
      |\QCANID/Data-RecordStore-2.03.tar.gz\E
      |\QCANID/Yote-2.02.tar.gz\E
@@ -360,7 +360,10 @@ match:
      |\QCORNELIUS/App-I18N-0.013.tar.gz\E
      |\QCORNELIUS/I18N-Handle-0.02.tar.gz\E
      |\QCORNELIUS/Plack-Middleware-OAuth-0.071.tar.gz\E
+     |\QCOUDOT/Lemonldap-NG-Handler-1.9.18.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Handler-1.9.5.tar.gz\E
+     |\QCOUDOT/Lemonldap-NG-Manager-1.9.18.tar.gz\E
+     |\QCOUDOT/Lemonldap-NG-Portal-1.9.18.tar.gz\E
      |\QCPANEL/cPanel-PublicAPI-2.2.1.tar.gz\E
      |\QCPANIC/WebService-Shippo-0.0.1.tar.gz\E
      |\QCPANIC/WebService-Shippo-0.0.11.tar.gz\E
@@ -422,7 +425,6 @@ match:
      |\QDCOPPIT/Mail-Mbox-MessageParser-1.5104.tar.gz\E
      |\QDCOPPIT/Module-Install-Bugtracker-0.0300.tar.gz\E
      |\QDCOPPIT/yagg-1.4004.tar.gz\E
-     |\QDDUMONT/Software-LicenseMoreUtils-0.003.tar.gz\E
      |\QDELANO/Data-All-0.025.tar.gz\E
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDGL/App-redisp-0.11.tar.gz\E
@@ -541,6 +543,7 @@ match:
      |\QESUMMERS/SRU-0.7.tar.gz\E
      |\QETHER/File-Temp-0.2306.tar.gz\E
      |\QETHER/Plack-Middleware-LogErrors-0.002.tar.gz\E
+     |\QETJ/Event-1.26.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -689,7 +692,9 @@ match:
      |\QGUGOD/self-0.34.tar.gz\E
      |\QGUGU/Algorithm-FloodControl-2.000000.tar.gz\E
      |\QGUGU/Catalyst-Controller-RateLimit-0.17.tar.gz\E
+     |\QGUIDO/Qgoda-0.9.4.tar.gz\E
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
+     |\QGUIDO/libintl-perl-1.30.tar.gz\E
      |\QGUILLEM/Dpkg-1.19.1.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
      |\QGWYN/POE-Component-Daemon-0.1301.tar.gz\E
@@ -805,6 +810,7 @@ match:
      |\QINGY/Lingy-0.0.2.tar.gz\E
      |\QINGY/Module-Compile-0.34.tar.gz\E
      |\QINGY/Parse-Pegex-0.01.tar.gz\E
+     |\QINGY/TestML-0.54.tar.gz\E
      |\QINGY/WikiText-0.18.tar.gz\E
      |\QINTERMINE/Webservice-InterMine-0.9604.tar.gz\E
      |\QINTERMINE/Webservice-InterMine-0.9913.tar.gz\E
@@ -1072,6 +1078,7 @@ match:
      |\QKIMOTO/SPVM-0.0365.tar.gz\E
      |\QKIMOTO/SPVM-0.0368.tar.gz\E
      |\QKIMOTO/SPVM-0.0380.tar.gz\E
+     |\QKIMOTO/SPVM-0.0390.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
      |\QKITANO/CHI-Driver-MemcachedFast-0.01.tar.gz\E
@@ -1167,6 +1174,7 @@ match:
      |\QLPRIETO/MooseX-DIC-0.1.0.tar.gz\E
      |\QLPRIETO/MooseX-DIC-0.2.0.tar.gz\E
      |\QLSAUNDERS/DBIx-Class-Fixtures-1.000002.tar.gz\E
+     |\QLSKATZ/Mashtree-0.35.4.tar.gz\E
      |\QLTHEISEN/Footprintless-1.01.tar.gz\E
      |\QLTHEISEN/Footprintless-1.09.tar.gz\E
      |\QLTHEISEN/IPC-Open3-Callback-1.09.tar.gz\E
@@ -1275,13 +1283,13 @@ match:
      |\QMDIETRICH/CloudApp-REST-0.01.tar.gz\E
      |\QMDIMEO/MPEG-ID3v2Tag-0.36.tar.gz\E
      |\QMDOM/App-dategrep-0.58.tar.gz\E
-     |\QMDOOTSON/HiPi-0.50.tar.gz\E
      |\QMDOOTSON/HiPi-0.70.tar.gz\E
      |\QMDOOTSON/HiPi-0.71.tar.gz\E
      |\QMDOWNING/Apache-Sybase-CTlib-1.02.tar.gz\E
      |\QMEKK/OAuthomatic-0.02.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.2703.tar.gz\E
      |\QMEKK/Passwd-Keyring-Auto-0.3003.tar.gz\E
+     |\QMEMOWE/EventStore-Tiny-0.51.tar.gz\E
      |\QMENDEL/DBIx-Class-MooseColumns-0.11.tar.gz\E
      |\QMENDEL/URI-redis-0.01.tar.gz\E
      |\QMGRUNER/Pod-ProjectDocs-0.43.tar.gz\E
@@ -1315,6 +1323,7 @@ match:
      |\QMKRULL/Ruby-VersionManager-0.003020.tar.gz\E
      |\QMKUL/Net-RRP-0.03.tar.gz\E
      |\QMKUTTER/SOAP-Lite-0.715.tar.gz\E
+     |\QMLAWREN/App-githook-perltidy-0.12.2.tar.gz\E
      |\QMLAWREN/OptArgs2-0.0.10.tar.gz\E
      |\QMLEHMANN/AnyEvent-MP-1.30.tar.gz\E
      |\QMLEHMANN/Gimp-1.211.tar.gz\E
@@ -1447,8 +1456,6 @@ match:
      |\QNICS/WWW-ORCID-0.0101.tar.gz\E
      |\QNICZERO/Minion-Backend-Storable-6.101.tar.gz\E
      |\QNIERLEIN/Monitoring-Livestatus-0.74.tar.gz\E
-     |\QNIGE/Goo-0.05.tar.gz\E
-     |\QNIGE/Goo-0.08.tar.gz\E
      |\QNIGELM/HTML-FormFu-2.05.tar.gz\E
      |\QNIKC/SVN-Web-0.53.tar.gz\E
      |\QNILSONSFJ/Catalyst-View-Component-SubInclude-0.07.tar.gz\E
@@ -1482,6 +1489,7 @@ match:
      |\QOAXLIN/MemcacheDBI-0.02.tar.gz\E
      |\QOBRADOVIC/SNA-Network-0.19.tar.gz\E
      |\QOCBNET/CSS-Sass-v3.2.1.tar.gz\E
+     |\QOETIKER/CallBackery-0.14.2.tar.gz\E
      |\QOLIVER/App-Netdisco-2.035006.tar.gz\E
      |\QOLIVER/App-Netdisco-2.036011.tar.gz\E
      |\QOLIVER/App-Netdisco-2.039015.tar.gz\E
@@ -1718,6 +1726,7 @@ match:
      |\QSARTAK/Pod-Cpandoc-0.01.tar.gz\E
      |\QSARTAK/Template-Declare-0.41.tar.gz\E
      |\QSAXJAZMAN/iodef/Iodef-Pb-Simple-0.01.tar.gz\E
+     |\QSBECK/Date-Manip-6.73.tar.gz\E
      |\QSCAIN/Bio-GMOD-GenericGenePage-0.11.tar.gz\E
      |\QSCESANO/Lego-Ldraw-0.5.7.1.tar.gz\E
      |\QSCHOP/Data-ACL-0.01.tar.gz\E
@@ -1735,12 +1744,14 @@ match:
      |\QSEYN/Safe-Hole-0.10.tar.gz\E
      |\QSGLADKOV/Kafka-0.12.tar.gz\E
      |\QSGRAHAM/Template-Benchmark-1.08.tar.gz\E
+     |\QSHANCOCK/Perl-Tidy-20181119.tar.gz\E
      |\QSHANTANU/Device-L3GD20-0.003.tar.gz\E
      |\QSHANTANU/Device-LPS331AP-0.003.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.005.tar.gz\E
      |\QSHANTANU/Device-LSM303DLHC-0.006.tar.gz\E
      |\QSHAY/perl-5.20.3.tar.gz\E
      |\QSHAY/perl-5.22.4.tar.gz\E
+     |\QSHAY/perl-5.26.3.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-4.31.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-5.02.tar.gz\E
      |\QSHENJ/Yahoo-Marketing-APT-1.03.tar.gz\E
@@ -1852,6 +1863,7 @@ match:
      |\QSTEVAN/Promises-0.07.tar.gz\E
      |\QSTEVIED/Dancer2-Plugin-MarkdownFilesToHTML-0.004.tar.gz\E
      |\QSTEVIED/Dancer2-Plugin-MarkdownFilesToHTML-0.007.tar.gz\E
+     |\QSTEVIED/Dancer2-Plugin-Menu-0.001.tar.gz\E
      |\QSTRYTOAST/Plucene-1.20.tar.gz\E
      |\QSTUIFZAND/Sleep-0.0.3.tar.gz\E
      |\QSUKRIA/Dancer-1.150.tar.gz\E
@@ -2010,6 +2022,7 @@ match:
      |\QVDB/Systemd-Daemon-0.06.tar.gz\E
      |\QVESELOSKY/Feed-Pipe-1.003.tar.gz\E
      |\QVICTORF/Grid-Request-0.11.tar.gz\E
+     |\QVICTORF/Grid-Request-0.12.tar.gz\E
      |\QVICTORF/Grid-Request-0.5.tar.gz\E
      |\QVIPUL/Crypt-RSA-1.96.tar.gz\E
      |\QVKON/Tcl-Tk-0.76.tar.gz\E
@@ -2125,11 +2138,6 @@ match:
      |\QZENOG/Padre-Plugin-YAML-0.01.tar.gz\E
      |\QZEROLIU/Bio-KEGGI-v0.1.2.tar.gz\E
      |\QZMUGHAL/Alien-Leptonica-0.006.tar.gz\E
-     |\QZMUGHAL/Alien-MuPDF-0.004.tar.gz\E
-     |\QZMUGHAL/Data-TestImage-0.001.tar.gz\E
-     |\QZMUGHAL/Devel-IPerl-0.001.tar.gz\E
-     |\QZMUGHAL/Devel-IPerl-0.006.tar.gz\E
-     |\QZMUGHAL/Renard-Curie-0.002.tar.gz\E
      |\QZOFFIX/POE-Component-Bundle-WebDevelopment-1.001004.tar.gz\E
      |\QZOFFIX/XTaTIK-0.002001.tar.gz\E
      |\QZPMORGAN/Gtk2-Hexgrid-0.05.tar.gz\E
