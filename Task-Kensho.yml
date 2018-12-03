@@ -1,8 +1,13 @@
 ---
 match:
   distribution: '/Task-Kensho-\d'
-disabled:
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
 comment: "too many deps, may explode PERL5LIB"
-#pl:
-#  env:
-#    PERL_MM_USE_DEFAULT: 1
+---
+match:
+  distribution: '/Task-Kensho-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
