@@ -1,6 +1,8 @@
 ---
 match:
   distribution: '/Task-Kensho-\d'
-pl:
-  env:
-    PERL_MM_USE_DEFAULT: 1
+disabled:
+comment: "too many deps, may explode PERL5LIB"
+#pl:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
