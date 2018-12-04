@@ -69,6 +69,20 @@ pl:
   env:
     PERL_MM_USE_DEFAULT: 1
 --- 
+# Valid only for Ubuntu 18.04 with openjdk11 installed
+# Also required: -nolimits!
+match:
+  distribution: '/Inline-Java-\d'
+  perlconfig:
+    archname: x86_64-linux
+    osvers: '^(4\.15\.0-)'
+pl:
+  args:
+    - J2SDK=/usr/lib/jvm/java-11-openjdk-amd64
+  env:
+    PERL_MM_USE_DEFAULT: 1
+--- 
+# MUST BE LAST!
 # Valid only for Debian/wheezy and Debian/jessie (amd64) with openjdk7 installed
 # Also required: -nolimits!
 match:
