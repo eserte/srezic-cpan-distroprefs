@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/App-Stacktrace-0\.09\.'
+  perlconfig:
+    osname: darwin
+disabled: 1
+# gdb command in tests hangs
