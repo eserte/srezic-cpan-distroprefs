@@ -4,4 +4,6 @@ match:
   perlconfig:
     osname: darwin
 disabled: 1
-# gdb command in tests hangs
+# gdb command in tests hangs:
+# "Developer Tools Access versucht, die Steuerung eines anderen Prozesses zu uebernehmen"
+# Is this Apple SIP?
