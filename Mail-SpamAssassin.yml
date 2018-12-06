@@ -33,15 +33,18 @@ test:
 --- 
 match:
   distribution: '/Mail-SpamAssassin-\d'
-pl: 
-  expect:
-    - '\Qdefault text: [the administrator of that system]\E'
-    - "\n"
-
-test: 
-  args: []
-
-  env: {}
-
-  expect: []
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl: 
+#  expect:
+#    - '\Qdefault text: [the administrator of that system]\E'
+#    - "\n"
+#
+#test: 
+#  args: []
+#
+#  env: {}
+#
+#  expect: []
 
