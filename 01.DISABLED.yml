@@ -1539,5 +1539,6 @@ match:
     |LDIDRY/Mojolicious-Plugin-ZipBomb-0.01.tar.gz # no Makefile.PL
     |ADAMS/.* # a spammer
     |EDF/perl5-Data-MoneyCurrency-0.04.tar.gz # probably superseded by Data-MoneyCurrency without "perl5-" prefix
+    |GRAVATTJ/Backup-EZ-0.36.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
