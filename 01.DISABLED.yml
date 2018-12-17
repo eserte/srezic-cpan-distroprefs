@@ -1540,5 +1540,6 @@ match:
     |ADAMS/.* # a spammer
     |EDF/perl5-Data-MoneyCurrency-0.04.tar.gz # probably superseded by Data-MoneyCurrency without "perl5-" prefix
     |GRAVATTJ/Backup-EZ-0.36.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
+    |JGNI/Locale-CLDR-Locales-.*-v0.34.0-TRIAL # too many of these...
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
