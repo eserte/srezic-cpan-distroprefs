@@ -1,9 +1,18 @@
 ---
 match:
   distribution: '/Crypt-OpenSSL-ECDSA-0\.08\.'
-# fails with openssl 1.1.0 -> check for debian/stretch, sort of
+# fails with openssl 1.1.0 -> check for debian/stretch and newer, sort of, and for fedora28
   perlconfig:
     archname: linux
-    osvers: '^4\.(8|9)\.0-'
+    osvers: '^(4\.(8|9|15|18)\.0|4\..*\.fc28\.)'
+patches:
+  - SREZIC/patches/Crypt-OpenSSL-ECDSA-0.08-RT118330-PPISAR.patch
+---
+match:
+  distribution: '/Crypt-OpenSSL-ECDSA-0\.08\.'
+# fails with openssl 1.1.0 -> check for newer freebsd
+  perlconfig:
+    archname: freebsd
+    osvers: '^(12|13)\.'
 patches:
   - SREZIC/patches/Crypt-OpenSSL-ECDSA-0.08-RT118330-PPISAR.patch
