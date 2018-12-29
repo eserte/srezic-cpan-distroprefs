@@ -1542,5 +1542,6 @@ match:
     |GRAVATTJ/Backup-EZ-0.36.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
     |JGNI/Locale-CLDR-Locales-.*-v0.34.0-TRIAL # too many of these...
     |TVDW/AnyEvent-YACurl-0.01.tar.gz # incompatible make causing hangs?
+    |TVDW/AnyEvent-YACurl-0.02.tar.gz # "
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
