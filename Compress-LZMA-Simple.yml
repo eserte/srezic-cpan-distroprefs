@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Compress-LZMA-Simple-\d'
+  perlconfig:
+    archname: 'freebsd'
+disabled: 1
+# Testing this distribution would install (via CPAN::Plugin::Sysdeps)
+# a conflicting lzma library, and that would cause failures of
+# Compress-Raw-Lzma. So disable this one, as the other module
+# is still actively developed and works on more OS.
+# See also https://rt.cpan.org/Ticket/Display.html?id=125046
