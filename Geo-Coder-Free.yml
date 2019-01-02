@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Geo-Coder-Free-0\.16\.'
+disabled: 1
+# Too large --- build directory is almost 3GB
