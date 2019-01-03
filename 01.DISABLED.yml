@@ -1544,6 +1544,7 @@ match:
     |TVDW/AnyEvent-YACurl-0.01.tar.gz # incompatible make causing hangs? https://rt.cpan.org/Ticket/Display.html?id=128154
     |TVDW/AnyEvent-YACurl-0.02.tar.gz # "
     |TVDW/AnyEvent-YACurl-0.03.tar.gz # "
+    |TVDW/AnyEvent-YACurl-0.04.tar.gz # "
     |GRAVATTJ/Backup-EZ-0.39.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
