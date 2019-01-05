@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QApp-ClusterSSH-v4.13.2.tar.gz\E'
+patches:
+  - SREZIC/patches/App-ClusterSSH-v4.13.2-issue110.patch
+# workaround for https://github.com/duncs/clusterssh/issues/110
