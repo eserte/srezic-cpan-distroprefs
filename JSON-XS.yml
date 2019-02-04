@@ -6,3 +6,9 @@ match:
 patches:
   - SREZIC/patches/JSON-XS-2.33-RT84151.patch
 # hash (very) randomization problem
+---
+match:
+  distribution: '/JSON-XS-\d'
+pl:
+  env:
+    PERL_CANARY_STABILITY_NOPROMPT: 1
