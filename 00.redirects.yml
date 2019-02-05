@@ -4,6 +4,7 @@
 match:
   distribution: 'BOOK/URI-Title-1.900.tar.gz'
 goto: 'BOOK/URI-Title-1.901.tar.gz'
+# https://rt.cpan.org/Ticket/Display.html?id=117810
 ---
 match:
   distribution: '/Net-SSH2-0\.67\.'
