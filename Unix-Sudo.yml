@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Unix-Sudo-\d'
+disabled: 1
+# asks for sudo password

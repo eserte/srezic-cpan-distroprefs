@@ -1551,6 +1551,5 @@ match:
     |GRAVATTJ/Backup-EZ-0.39.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
     |OALDERS/lazy-0.000009.tar.gz # Out of memory errors, or sometimes endless loops generating huge logfiles --- https://github.com/oalders/lazy/issues/1
     |SYBER/XS-Install-1.0.2.tar.gz # self-dependency --- 1.0.3 is fixed
-    |DCANTRELL/Unix-Sudo-1.tar.gz # asks for sudo password
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
