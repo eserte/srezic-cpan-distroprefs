@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/XML-DOM-XPath-0\.14\.'
+patches:
+  - SREZIC/patches/XML-DOM-XPath-0.14-RT115098-SPROUT.patch
