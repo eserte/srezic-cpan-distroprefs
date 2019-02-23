@@ -1,10 +1,9 @@
 --- 
 match:
   distribution: '/Lingua-JA-Romanize-Japanese-\d'
-make: &bla
+make:
   eexpect:
     timeout: 20
     talk:
       - '\QDo you wish to download these files? [y]'
       - "n\n"
-test: *bla
