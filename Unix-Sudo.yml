@@ -3,3 +3,25 @@ match:
   distribution: '/Unix-Sudo-\d'
 disabled: 1
 # asks for sudo password
+
+## The following would properly make Makefile.PL terminate,
+## but for some reason without generating a report, even
+## no NA report.
+#---
+#match:
+#  distribution: '/Unix-Sudo-\d'
+#pl:
+#  eexpect:
+#    talk:
+#      - 'and some perl code as root:'
+#      - "\n"
+#      - 'and some perl code as root:'
+#      - "\n"
+#      - 'and some perl code as root:'
+#      - "\n"
+#    # I would expect that reuse:1 makes duplication of
+#    # the talk patterns unnecessary, but this does
+#    # not seem to be the case...
+#    reuse: 1
+#    anyorder: 1
+#    timeout: 60
