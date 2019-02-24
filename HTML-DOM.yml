@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/HTML-DOM-0\.058\.'
+patches:
+  - SREZIC/patches/HTML-DOM-0.058-RT127251-JKEENAN.patch
+# fix for https://rt.cpan.org/Ticket/Display.html?id=127251
