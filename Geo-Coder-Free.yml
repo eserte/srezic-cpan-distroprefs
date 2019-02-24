@@ -4,3 +4,5 @@ match:
 disabled: 1
 # Too large --- build directory of 0.16 is almost 3GB
 # Disable also later versions...
+#
+# 0.17: still too large
