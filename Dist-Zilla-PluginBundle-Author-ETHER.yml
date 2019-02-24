@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Dist-Zilla-PluginBundle-Author-ETHER-\d'
+disabled: 1
+# Cannot be built on test-only systems (without installing thing)
+# --- typically killed after some hours (out of memory?)
