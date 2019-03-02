@@ -18,6 +18,7 @@
     our $DISTROPREFS_SCHEMA;
     our $TEST_ALSO_YAML_XS;
     our $YAML_XS_CERTIFIED_UNTIL_COMMIT_ID = '6a3b2e64f49f963e73adccc3a223096669033b40';
+    our $DSH = $^O eq 'freebsd' ? 'fbsd-dsh' : 'dsh';
 
     sub load_distroprefs_schema {
         return $DISTROPREFS_SCHEMA if $DISTROPREFS_SCHEMA;
@@ -190,9 +191,9 @@ git-push:
 push-and-smoker-pull:	push smoker-pull
 
 smoker-pull:
-	fbsd-dsh -g regularsmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull'
-	fbsd-dsh -g parttimesmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull' || true
-	fbsd-dsh -g windowssmoker -c -M 'cd c:\Strawberry\cpan\prefs && git pull' || true
+	$DSH -g regularsmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull'
+	$DSH -g parttimesmoker -c -M 'cd .cpan/prefs && PATH=$HOME/bin/sh:$PATH slaymake pull' || true
+	$DSH -g windowssmoker -c -M 'cd c:\Strawberry\cpan\prefs && git pull' || true
 
 dd-prefs:
 	{
