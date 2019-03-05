@@ -3,4 +3,5 @@ match:
   distribution: '/Coro-Multicore-\d'
 pl:
   env:
-    CORO_MULTICORE_CHECK: n
+    CORO_MULTICORE_CHECK: 0
+    PERL_MM_USE_DEFAULT: 1
