@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Coro-Multicore-\d'
+pl:
+  env:
+    CORO_MULTICORE_CHECK: n
