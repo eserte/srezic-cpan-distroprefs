@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Dist-Zilla-PluginBundle-Author-PLICEASE-\d'
+  distribution: '/Dist-Zilla-PluginBundle-Author-Plicease-\d'
   env:
     CPAN_SMOKE_MODULES_ACTION: test
 disabled: 1
