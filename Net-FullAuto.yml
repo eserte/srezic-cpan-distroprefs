@@ -1,32 +1,24 @@
+# It looks like Net::FullAuto will NEVER be really testable
+# by cpan smokers. Currently (0.999988) it additionally does
+# strange things by using CPAN.pm inside Makefile.PL to
+# install dependencies.
 ---
 match:
   distribution: "/Net-FullAuto-"
   env:
     PERL_BATCH: yes
 disabled: 1
-## Frequent releases, but no chances for successful testing...
-## - test wants to create a directory under /var
-## - under some conditions the whole disk is searched for BerkeleyDB
-## - with 0.999999999944, tries to do "autoinstall"-like functionality
----
-match:
-  distribution: '/Net-FullAuto-0\.92\.'
-  env:
-    PERL_BATCH: yes
-disabled: 1
-# interactive questions:
-# sed 's/^#[ ]*\(.\)editor[ ]*[=].*/\1editor = '';/g' <blib/lib/Net/FullAuto/Custom/fa_conf.pm >tmp_conf.pm
-# mv tmp_conf.pm blib/lib/Net/FullAuto/Custom/fa_conf.pm
-# override r-xr-xr-x  cpansand/cpansand for blib/lib/Net/FullAuto/Custom/fa_conf.pm? (y/n [n])   
+
+## Answering "2" will terminate the build process.
+## On some systems this will cause a DISCARD entry
+## in reports-sent.db --- preferred, because this
+## distro won't be tested again. However on other
+## systems this does not happen. So currently
+## it's completely disabled.
 #---
 #match:
-#  distribution: "/Net-FullAuto-\d"
+#  distribution: '/Net-FullAuto-\d'
 #pl:
 #  expect:
-#    - "\QPLEASE ENTER A CHOICE:"
-#    - "1\n"
-
-# It looks like Net::FullAuto will NEVER be really testable
-# by cpan smokers. Currently (0.999988) it additionally does
-# strange things by using CPAN.pm inside Makefile.PL to
-# install dependencies.
+#    - '\QPLEASE ENTER A CHOICE:'
+#    - "2\n"
