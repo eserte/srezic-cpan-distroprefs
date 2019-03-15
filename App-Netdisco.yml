@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/App-Netdisco-2\.'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
+# Depends on SNMP::Info, which depends on non-CPAN module SNMP
+# so no chances for reports; and in test-only systems the
+# dependency list is too large.
