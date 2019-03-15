@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/ExtUtils-ModuleMaker-\d'
+  distribution: '/ExtUtils-ModuleMaker-0\.(55|56)\.'
 disabled: 1
 # https://rt.cpan.org/Ticket/Display.html?id=111637
 #
