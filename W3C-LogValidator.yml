@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QW3C-LogValidator-1.5.tar.gz\E'
+patches:
+  - SREZIC/patches/W3C-LogValidator-1.5-RT117591.patch
