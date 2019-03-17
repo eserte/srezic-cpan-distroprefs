@@ -6,3 +6,6 @@ test:
     LC_ALL: C
 # https://rt.cpan.org/Ticket/Display.html?id=84499
 # https://rt.cpan.org/Ticket/Display.html?id=94922
+#
+# But forcing the installation may cause problems
+# in other modules, see https://github.com/yanick/Term-Caca/issues/4
