@@ -17,3 +17,4 @@ match:
 patches:
   - SREZIC/patches/Crypt-OpenSSL-X509-1.811-issue71.patch
 # https://github.com/dsully/perl-crypt-openssl-x509/issues/71
+# Version 1.812 is fixed.
