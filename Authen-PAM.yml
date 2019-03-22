@@ -3,3 +3,4 @@ match:
   distribution: '/Authen-PAM-0\.16\.'
 disabled: 1
 # Interactive test (test.pl)
+# https://rt.cpan.org/Ticket/Display.html?id=56859
