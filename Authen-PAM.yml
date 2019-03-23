@@ -1,6 +1,8 @@
 ---
 match:
   distribution: '/Authen-PAM-0\.16\.'
+  perlconfig:
+    archname: linux
 disabled: 1
-# Interactive test (test.pl)
+# Interactive test on linux (test.pl), but not interactive on freebsd systems
 # https://rt.cpan.org/Ticket/Display.html?id=56859
