@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QHTTP-Headers-Fast-0.21.tar.gz\E'
+patches:
+  - SREZIC/patches/HTTP-Headers-Fast-0.21-issue11.patch
