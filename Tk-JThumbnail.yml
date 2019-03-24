@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Tk-JThumbnail-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1
