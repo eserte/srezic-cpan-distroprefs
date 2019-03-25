@@ -2,8 +2,11 @@
 match:
   distribution: '/Inline-CPP-\d'
 pl:
-  expect:
-    - 'What (default )?C\+\+ compiler would you like to use\?'
-    - "\n"
-    - '\QWhat default libraries would you like to include?'
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect:
+#    - 'What (default )?C\+\+ compiler would you like to use\?'
+#    - "\n"
+#    - '\QWhat default libraries would you like to include?'
+#    - "\n"
