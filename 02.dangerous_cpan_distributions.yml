@@ -189,6 +189,7 @@ match:
      |\QAWNCORP/Data-Object-0.42.tar.gz\E
      |\QAWNCORP/Data-Object-0.61.tar.gz\E
      |\QAWNCORP/Data-Object-0.91.tar.gz\E
+     |\QAWNCORP/Data-Object-0.92.tar.gz\E
      |\QAWNCORP/Data-Object-Autobox-0.05.tar.gz\E
      |\QAWNCORP/Data-Seek-0.06.tar.gz\E
      |\QAWNCORP/Data-Seek-0.08.tar.gz\E
@@ -552,7 +553,6 @@ match:
      |\QESUMMERS/SRU-0.7.tar.gz\E
      |\QETHER/File-Temp-0.2306.tar.gz\E
      |\QETHER/Plack-Middleware-LogErrors-0.002.tar.gz\E
-     |\QETJ/Event-1.26.tar.gz\E
      |\QEVO/Class-MakeMethods-1.0.14.tar.gz\E
      |\QEVO/Class-MakeMethods-1.007.tar.gz\E
      |\QEVO/Class-MakeMethods-1.009.tar.gz\E
@@ -619,7 +619,6 @@ match:
      |\QFROGGS/Mojolicious-Plugin-InputValidation-0.02.tar.gz\E
      |\QFSEITZ/Quiq-1.129.tar.gz\E
      |\QFSEITZ/Quiq-1.131.tar.gz\E
-     |\QFSEITZ/Quiq-1.134.tar.gz\E
      |\QFUKAI/Qiniu-0.01.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
@@ -952,6 +951,7 @@ match:
      |\QJLAWRENC/PDF-Labels-0.01.tar.gz\E
      |\QJLAWRENC/Paper-Specs-0.03.tar.gz\E
      |\QJLLEROY/Tangram-2.04.tar.gz\E
+     |\QJLMARTIN/Cfn-0.02.tar.gz\E
      |\QJLMARTIN/CloudDeploy-1.06.tar.gz\E
      |\QJLMARTIN/Kubernetes-REST-0.01.tar.gz\E
      |\QJLMARTIN/Paws-0.31.tar.gz\E
@@ -1040,6 +1040,7 @@ match:
      |\QKARASIK/IO-Lambda-1.25.tar.gz\E
      |\QKARASIK/Prima-1.48.tar.gz\E
      |\QKARASIK/Prima-1.52.tar.gz\E
+     |\QKARASIK/Prima-1.54.tar.gz\E
      |\QKARASIK/Win32-GuiTest-1.57.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.0.2.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.07.tar.gz\E
@@ -1553,7 +1554,6 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
-     |\QPERLANCAR/File-RsyBak-0.360.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1605,6 +1605,7 @@ match:
      |\QPLAVEN/Padre-0.94.tar.gz\E
      |\QPLAVEN/Padre-0.96.tar.gz\E
      |\QPLENIGO/plenigo-2.0001.tar.gz\E
+     |\QPLICEASE/Alien-Build-1.60.tar.gz\E
      |\QPLOCKABY/Prancer-0.09.tar.gz\E
      |\QPMATTHEWS/GOOGLE-ADWORDS-PERL-CLIENT-2.12.0.tar.gz\E
      |\QPMQS/BerkeleyDB-0.02.tar.gz\E
@@ -1921,6 +1922,7 @@ match:
      |\QSUNDQUIST/Google-Ads-AdWords-Client-4.8.0.tar.gz\E
      |\QSUNDQUIST/Google-Ads-AdWords-Client-5.0.0.tar.gz\E
      |\QSUNDQUIST/Google-Ads-AdWords-Client-5.2.0.tar.gz\E
+     |\QSUNDQUIST/Google-Ads-AdWords-Client-5.7.0.tar.gz\E
      |\QSUNNAVY/IP-QQWry-0.0.16.tar.gz\E
      |\QSWALTERS/autobox-Core-0.5.tar.gz\E
      |\QSYBER/XS-Install-1.0.0.tar.gz\E
@@ -1956,6 +1958,7 @@ match:
      |\QTIMBRODY/HTTP-OAI-3.28.tar.gz\E
      |\QTINITA/App-Spec-0.002.tar.gz\E
      |\QTINITA/App-Spec-0.003.tar.gz\E
+     |\QTINITA/YAML-PP-0.010.tar.gz\E
      |\QTJENNESS/Starlink-AST-0.99.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
