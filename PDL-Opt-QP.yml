@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/PDL-Opt-QP-0\.27\.'
+  perlconfig:
+    archname: freebsd
+    osvers: '^(9|10)\.'
+disabled: 1
+# The 'blas' dependency also seems to pull gcc7 in, which is a quite heavy dependency
+# Additionally, the module does not have a chance to build because it depends on ExtUtils::F77
