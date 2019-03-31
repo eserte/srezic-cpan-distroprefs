@@ -708,7 +708,6 @@ match:
     |XAICRON/Module-Install-TestTarget-0.13. # hangs, probably because of the MI::RPM::WriteAll problem
     |XAICRON/Module-Install-TestTarget-0.15. # hangs, probably because of the MI::RPM::WriteAll problem
     |BRADFITZ/TheSchwartz-Worker-PubSubHubbubPublish-1.00.tar.gz # hangs
-    |BINGOS/POE-Component-CPAN-Mirror-Multiplexer-0.04.tar.gz # tests may hang
     |DOY/IO-Socket-Telnet-HalfDuplex-0.02.tar.gz # tests may hang
     |MUIR/modules/Log-Parallel-0.303.tar.gz # jobqueue test may hang
     |MSCHOUT/Apache-Profiler-0.10.tar.gz # may hang
