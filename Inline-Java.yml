@@ -82,6 +82,19 @@ pl:
   env:
     PERL_MM_USE_DEFAULT: 1
 --- 
+# Valid only for Fedora 28 & 29 with openjdk8 installed
+# Also required: -nolimits!
+match:
+  distribution: '/Inline-Java-\d'
+  perlconfig:
+    archname: x86_64-linux
+    osvers: '\.fc(28|29)\.'
+pl:
+  args:
+    - J2SDK=/usr/lib/jvm/java
+  env:
+    PERL_MM_USE_DEFAULT: 1
+--- 
 # MUST BE LAST!
 # Valid only for Debian/wheezy and Debian/jessie (amd64) with openjdk7 installed
 # Also required: -nolimits!
