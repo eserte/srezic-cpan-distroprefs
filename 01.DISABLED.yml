@@ -1547,7 +1547,7 @@ match:
     |TVDW/AnyEvent-YACurl-0.06.tar.gz # "
     |TVDW/AnyEvent-YACurl-0.06_001.tar.gz # "
     |GRAVATTJ/Backup-EZ-0.39.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
-    |OALDERS/lazy-0.000009.tar.gz # Out of memory errors, or sometimes endless loops generating huge logfiles --- https://github.com/oalders/lazy/issues/1
+    |XXXOALDERS/lazy-0.000009.tar.gz # Out of memory errors, or sometimes endless loops generating huge logfiles --- https://github.com/oalders/lazy/issues/1
     |SYBER/XS-Install-1.0.2.tar.gz # self-dependency --- 1.0.3 is fixed
     |.*/Acme-DependOnEverything-\d # not useful
     |TURNERJW/Tk-JThumbnail-2.0.tar.gz # interactive X program
