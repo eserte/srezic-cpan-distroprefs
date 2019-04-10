@@ -1269,7 +1269,6 @@ match:
     |.*/Class-Tables-\d # wants a dsn for tests
     |.*/Authen-Krb5-Easy-\d # wants path to kerberos libraries etc.
     |.*/DBIx-NamedDSN-\d # asks for a path for configuration files
-    |.*/DBIx-Tree-NestedSet-\d # asks for RDBMS to test
     |.*/ALPM-\d # no port for freebsd
     |.*/Mail-IMAPFolderSearch-\d # wants an imap server for test
     |.*/SPOPSx-Ginsu-\d # wants a test database
