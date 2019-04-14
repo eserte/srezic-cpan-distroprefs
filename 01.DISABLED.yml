@@ -310,7 +310,6 @@ match:
     |.*/IPTables-libiptc-\d # no freebsd package, probably linux-centric
     |.*/Crypt-Cracklib-\d # exists as freebsd port, but crack.h is not installed by default
     |.*/Lingua-PT-Speaker-\d # needs some mbrola library
-    |.*/pcsc-perl-\d+ # needs something running (but freebsd port is available)
     |.*/Device-Velleman-K8055-Fuse-\d # I don't think that I can use this
     |.*/PDF-OCR-\d # needs tesseract
     |.*/LibTracker-Client-\d # freebsd package exists, but hard too install on my old 6.1 system
