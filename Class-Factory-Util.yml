@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Class-Factory-Util-1\.7\.'
+cpanconfig:
+  prefer_installer: MB
+# avoid interactive questions
+# https://rt.cpan.org/Ticket/Display.html?id=127916
