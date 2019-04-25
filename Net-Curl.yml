@@ -23,7 +23,7 @@ match:
     osname: freebsd
     osvers: '^(11|12|13)\.'
 patches:
-  - SREZIC/patches/Net-Curl-0.39-issue29.patch
+  - SREZIC/patches/Net-Curl-0.39-issue29-2.patch
 # see https://github.com/sparky/perl-Net-Curl/issues/29
 ---
 match:
@@ -32,4 +32,4 @@ match:
     # match debian/buster system perl
     myuname: 'linux localhost 4.9.0 #1 smp debian 4.9.0 x86_64 gnulinux '
 patches:
-  - SREZIC/patches/Net-Curl-0.39-issue29.patch
+  - SREZIC/patches/Net-Curl-0.39-issue29-2.patch
