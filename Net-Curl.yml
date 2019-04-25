@@ -16,7 +16,20 @@ match:
     osvers: '^(4\.8\.0-|4\.9\.0-)'
 patches:
   - SREZIC/patches/Net-Curl-0.37-issue18.patch
-
-#
-# Net-Curl-0.39 works unpatched for freebsd 10 & 11
-#
+---
+match:
+  distribution: '/\QNet-Curl-0.39.tar.gz\E'
+  perlconfig:
+    osname: freebsd
+    osvers: '^(11|12|13)\.'
+patches:
+  - SREZIC/patches/Net-Curl-0.39-issue29.patch
+# see https://github.com/sparky/perl-Net-Curl/issues/29
+---
+match:
+  distribution: '/\QNet-Curl-0.39.tar.gz\E'
+  perlconfig:
+    # match debian/buster system perl
+    myuname: 'linux localhost 4.9.0 #1 smp debian 4.9.0 x86_64 gnulinux '
+patches:
+  - SREZIC/patches/Net-Curl-0.39-issue29.patch
