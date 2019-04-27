@@ -1,3 +1,12 @@
+---
+match:
+  distribution: '/\QInline-0.82.tar.gz\E'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+patches:
+  - SREZIC/patches/Inline-0.82-PR73.patch
+# Fix issue https://github.com/ingydotnet/inline-pm/issues/72
 --- 
 match:
   distribution: '/Inline-\d'
