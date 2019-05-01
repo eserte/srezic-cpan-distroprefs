@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Lingua-Slavic-Numbers-0\.03\.'
+  perlconfig:
+    version: '^5\.(26|27|28|29|30)\.'
+patches:
+  - SREZIC/patches/Lingua-Slavic-Numbers-0.03-RT116382-JKEENAN.patch
