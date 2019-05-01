@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Alien-NSS-0\.23\.'
+depends:
+  configure_requires:
+    'Alien::Base::ModuleBuild': 0
