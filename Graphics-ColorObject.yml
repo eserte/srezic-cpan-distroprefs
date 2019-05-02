@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Graphics-ColorObject-0\.5\.0\.'
+depends:
+  requires:
+    Graphics::ColorNames::HTML: 0
+    Graphics::ColorNames::Windows: 0
+    Graphics::ColorNames::Netscape: 0
+# https://rt.cpan.org/Ticket/Display.html?id=127300
