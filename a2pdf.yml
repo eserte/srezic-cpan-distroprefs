@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/a2pdf-1\.13\.'
+depends:
+  requires:
+    Switch: 0
+# https://rt.cpan.org/Ticket/Display.html?id=124913
