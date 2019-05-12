@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Perl6-Export-Attrs-0\.000006\.'
+depends:
+  requires:
+    PadWalker: 0
+# https://rt.cpan.org/Ticket/Display.html?id=107603
