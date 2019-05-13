@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Authen-SASL-XS-1\.00\.'
+depends:
+  configure_requires:
+    'Devel::CheckLib': 0
+# https://rt.cpan.org/Ticket/Display.html?id=98973
