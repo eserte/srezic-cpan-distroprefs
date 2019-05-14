@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Net-IDN-Encode-2\.500\.'
+  perlconfig:
+    version: '^5\.(29|30)\.'
+patches:
+  - SREZIC/patches/Net-IDN-Encode-2.500-KHW.patch
