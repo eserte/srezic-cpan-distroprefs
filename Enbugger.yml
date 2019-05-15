@@ -2,6 +2,8 @@
 match:
   distribution: '/Enbugger-2\.016\.'
   perlconfig:
-    version: '^(5\.19\.([6789]|1.)|5\.2\d\.)'
+    version: '^(5\.19\.([6789]|1.)|5\.2[01234]\.)'
 patches:
   - SREZIC/patches/Enbugger-2.016-RT95079.patch 
+# newer perls need more patching, at least this one:
+# https://rt.cpan.org/Ticket/Display.html?id=118324
