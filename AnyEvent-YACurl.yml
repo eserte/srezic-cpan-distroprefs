@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/AnyEvent-YACurl-0\.0\d'
+  perlconfig:
+    archname: freebsd
+disabled: 1
+# incompatible make causing hangs? https://rt.cpan.org/Ticket/Display.html?id=128154
