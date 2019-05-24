@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/MPV-Simple-\d'
+  perlconfig:
+    myuname: '^(freebsd 93amd64-default-job-01|freebsd cvrsnica-freebsd-92|freebsd 103amd64-quarterly-job-16|freebsd cvrsnica-freebsd-101.herceg.de)'
+disabled: 1
+# Smoker too small (cvrsnica 92 & 101) for the required system package & dependencies
