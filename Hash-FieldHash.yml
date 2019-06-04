@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Hash-FieldHash-0\.15\.'
+  perlconfig:
+    version: '^5\.(26|27|28|29|30)\.'
+pl:
+  env:
+    PERL_USE_UNSAFE_INC: 1
+# https://github.com/gfx/p5-Hash-FieldHash/issues/4
