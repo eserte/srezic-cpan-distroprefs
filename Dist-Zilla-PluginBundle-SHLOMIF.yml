@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Dist-Zilla-PluginBundle-SHLOMIF-\d'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
+# Takes quite long.
+
