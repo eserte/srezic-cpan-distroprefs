@@ -1541,5 +1541,7 @@ match:
     |SYBER/XS-Install-1.0.2.tar.gz # self-dependency --- 1.0.3 is fixed
     |.*/Acme-DependOnEverything-\d # not useful
     |TURNERJW/Tk-JThumbnail-2.0.tar.gz # interactive X program
+    |PRBRENAN/Dita-GB-Standard-20190721.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=130134
+    |PRBRENAN/Data-Edit-Xml-Xref-20190721.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=130134
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
