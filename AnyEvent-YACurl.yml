@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/AnyEvent-YACurl-0\.0\d'
+  distribution: '/AnyEvent-YACurl-0\.(0\d|1\d)'
   perlconfig:
     archname: freebsd
 disabled: 1
