@@ -7,3 +7,4 @@ pl:
   env:
     PERL_USE_UNSAFE_INC: 1
 # https://github.com/gfx/p5-Hash-FieldHash/issues/4
+# --- however, does not seem to fail everywhere, e.g. seen passes without distroprefs help with 5.31.3
