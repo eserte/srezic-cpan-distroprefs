@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Lingua-Slavic-Numbers-0.03-RT116382-JKEENAN.patch
   - SREZIC/patches/Lingua-Slavic-Numbers-0.03-RT116382.patch
+# however, the regexp deprecation is not yet fatal in 5.31.x (seen with 5.31.3)
