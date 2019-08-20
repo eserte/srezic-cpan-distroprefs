@@ -286,7 +286,6 @@ match:
      |\QBRADFITZ/DJabberd-0.81.tar.gz\E
      |\QBRADFITZ/MogileFS-Client-1.03.tar.gz\E
      |\QBRADFITZ/mogilefs-server-2.07.tar.gz\E
-     |\QBRAINBUZ/Vote-Count-0.017.tar.gz\E
      |\QBRAINTREE/Net-Braintree-0.28.0.tar.gz\E
      |\QBRAMBLE/Padre-Plugin-Swarm-0.11.tar.gz\E
      |\QBRIANSKI/Number-Range-Regex-0.20.tgz\E
@@ -1771,7 +1770,6 @@ match:
      |\QSEKIA/Algorithm-LibLinear-0.08.tar.gz\E
      |\QSEMANTICO/Test-XML-0.06.tar.gz\E
      |\QSEMANTICO/Test-XML-0.07.tar.gz\E
-     |\QSEYHAN/HTML-STable-0.01.tar.gz\E
      |\QSEYN/Safe-Hole-0.10.tar.gz\E
      |\QSGLADKOV/Kafka-0.12.tar.gz\E
      |\QSGRAHAM/Template-Benchmark-1.08.tar.gz\E
@@ -2021,7 +2019,6 @@ match:
      |\QTSUCCHI/Test-Module-Used-0.2.4.tar.gz\E
      |\QTURNERJW/StreamFinder-1.00.tar.gz\E
      |\QTURNERJW/Tk-HMListbox-3.00.tar.gz\E
-     |\QTURNSTEP/DBD-Pg-3.7.3.tar.gz\E
      |\QTVIGNAUD/URPM-5.21.tar.gz\E
      |\QTWENRICH/DBD-Solid-0.11a.tar.gz\E
      |\QTWH/Bio-GMOD-0.02.tar.gz\E
