@@ -26,6 +26,20 @@ disabled: 1
 # several t/local/* tests hang with system perl @ CentOS7
 ---
 match:
+  distribution: 'OALDERS/WWW-Mechanize-1\.91\.tar\.gz'
+patches:
+  - SREZIC/patches/WWW-Mechanize-1.92-PR280-SKAJI.patch
+pl: 
+  eexpect:
+    mode: anyorder
+    talk:
+      - "Do you want to install the mech-dump utility"
+      - "y\n"
+# see
+# - https://github.com/libwww-perl/WWW-Mechanize/issues/278
+# - https://github.com/libwww-perl/WWW-Mechanize/pull/280
+---
+match:
   distribution: '/WWW-Mechanize-\d'
 pl: 
   eexpect:
