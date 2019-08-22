@@ -21,3 +21,12 @@ match:
 patches:
   - SREZIC/patches/Net-Server-2.008-RT85586.patch
 # patch fixes the "dot in user/group name" problem
+---
+match:
+  distribution: '/Net-Server-2.009\.tar\.gz'
+  perlconfig:
+    # Try to match debian/buster (self-compiled or system perl)
+    myuname: '(linux debian10|linux localhost 4.9.0)'
+patches:
+  - SREZIC/patches/Net-Server-2.009-RT126923-PPISAR.patch 
+# https://rt.cpan.org/Ticket/Display.html?id=126923
