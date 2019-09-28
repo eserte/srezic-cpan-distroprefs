@@ -8,3 +8,12 @@ match:
 patches:
   - SREZIC/patches/Crypt-Curve25519-0.05-RT117800.patch
 # Individual report: https://github.com/ajgb/crypt-curve25519/issues/5
+---
+match:
+  distribution: '/\QCrypt-Curve25519-0.06.tar.gz\E'
+  perlconfig:
+    # match debian/buster system and self-compiled perl
+    myuname: '(linux localhost 4.9.0 #1 smp debian 4.9.0 x86_64 gnulinux|linux .* 4.19.0-\d+-amd64)'
+patches:
+  - SREZIC/patches/Crypt-Curve25519-0.06-PR10-ANOTHERLINK.patch
+# https://github.com/ajgb/crypt-curve25519/issues/9
