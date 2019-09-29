@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QLog-Handler-0.88.tar.gz\E'
+  perlconfig:
+    version: '^5\.(31)\.'
+patches:
+  - SREZIC/patches/Log-Handler-0.88-JKEENAN.patch
+# from https://rt.cpan.org/Ticket/Display.html?id=125842
