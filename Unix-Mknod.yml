@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QUnix-Mknod-0.04.tar.gz\E'
+  perlconfig:
+    archname: linux
+    # Actually required for systems with glibc-2.27.9000
+patches:
+  - SREZIC/patches/Unix-Mknod-0.04-RT124687-PPISAR.patch
