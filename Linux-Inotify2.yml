@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QLinux-Inotify2-2.1.tar.gz\E'
+  perlconfig:
+    myuname: 'linux .*\.el6\.'
+patches:
+  - SREZIC/patches/Linux-Inotify2-2.1-RT130646-TODDR.patch
