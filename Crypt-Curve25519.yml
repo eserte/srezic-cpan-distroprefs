@@ -12,8 +12,8 @@ patches:
 match:
   distribution: '/\QCrypt-Curve25519-0.06.tar.gz\E'
   perlconfig:
-    # match debian/buster system, self-compiled perl, centos8 and fedora28
-    myuname: '(linux localhost 4.9.0 #1 smp debian 4.9.0 x86_64 gnulinux|linux .* 4.19.0-\d+-amd64|linux .*\.el8[_.]|linux .*\.fc28\.)'
+    # match debian/buster system, self-compiled perl, debian/bullseye self-compiled perl, Ubuntu 19.10 self-compiled perl, centos8 and fedora28
+    myuname: '(linux localhost 4.9.0 #1 smp debian 4.9.0 x86_64 gnulinux|linux .* 4.19.0-\d+-amd64|5.3.0-2-amd64 #1 smp debian|5.3.0-24-generic #26-ubuntu|linux .*\.el8[_.]|linux .*\.fc28\.)'
 patches:
   - SREZIC/patches/Crypt-Curve25519-0.06-PR10-ANOTHERLINK.patch
 # https://github.com/ajgb/crypt-curve25519/issues/9
