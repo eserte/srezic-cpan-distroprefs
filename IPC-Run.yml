@@ -31,3 +31,12 @@ match:
 pl:
   commandline: 'del t\timeout.t t\timer.t && perl Makefile.PL'
 # workaround for https://github.com/toddr/IPC-Run/issues/98
+---
+match:
+  distribution: '/\QIPC-Run-20180523.0.tar.gz\E'
+  perlconfig:
+    myuname: 'linux.*\.el8[_.]'
+# Actually patch is needed for systems with existing sss group files
+# https://github.com/toddr/IPC-Run/issues/130
+patches:
+  - SREZIC/patches/IPC-Run-20180523.0-issue130.patch
