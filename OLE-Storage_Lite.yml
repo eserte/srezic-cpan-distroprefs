@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QOLE-Storage_Lite-0.19.tar.gz\E'
+patches:
+  - SREZIC/patches/OLE-Storage_Lite-0.19-RT124513-bitcardbmw.patch
+# RT #124513
+# Proposed patch was manually amended because of line ending problems.
