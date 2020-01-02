@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QDate-ICal-2.678.tar.gz\E'
+patches:
+  - SREZIC/patches/Date-ICal-2.678-RT124548-bitcardbmw.patch
