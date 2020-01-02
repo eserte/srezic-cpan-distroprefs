@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QTimeDate-2.30.tar.gz\E'
+patches:
+  - SREZIC/patches/TimeDate-2.30-RT124509-bitcardbmw.patch
