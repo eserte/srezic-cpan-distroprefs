@@ -1,5 +1,0 @@
----
-match:
-  distribution: "DAEMON/App-Betting-Toolkit-"
-disabled: 0
-# too many failing releases in short period
