@@ -1,7 +1,0 @@
----
-match:
-  distribution: '/Class-MethodMaker-2\.18\.'
-  perlconfig:
-    version: '^5\.19\.[4567]$'
-patches:
-  - SREZIC/patches/Class-MethodMaker-2.18-RT88934.patch
