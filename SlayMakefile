@@ -17,7 +17,6 @@
 
     our $DISTROPREFS_SCHEMA;
     our $TEST_ALSO_YAML_XS;
-    our $YAML_XS_CERTIFIED_UNTIL_COMMIT_ID = '6a3b2e64f49f963e73adccc3a223096669033b40';
     our $DSH = $^O eq 'freebsd' ? 'fbsd-dsh' : 'dsh';
 
     sub load_distroprefs_schema {
@@ -256,32 +255,6 @@ validate-all-yaml-xs:
 		    local $TEST_ALSO_YAML_XS = 1;
 		    if (validate_distroprefs($yml)) {
 			push @error_files, $yml;
-		    }
-		}
-		if (@error_files) { die "Found YAML::XS errors on following files:\n" . join("\n", @error_files) . "\n" }
-		else { "Validation OK.\n" }
-	}
-
-# If this is slow (because of the git operation), then
-# try a "git gc".
-# Not needed anymore --- all distoprefs files are now valid for YAML-XS
-validate-certified-yaml-xs:
-	{
-		our $YAML_XS_CERTIFIED_UNTIL_COMMIT_ID;
-		my $certified_files = file_to_latest_commitid($YAML_XS_CERTIFIED_UNTIL_COMMIT_ID);
-		my @error_files;
-		for my $yml (do { opendir my $dh, '.' or die $!; grep { /\.yml$/ } readdir $dh }) {
-		    next if !exists $certified_files->{$yml};
-		    my $target = ".validated_certified/$yml";
-		    if (!-e $target || -M _ > -M $yml) {
-			warn "validate certified yaml: $yml ...\n";
-			our $TEST_ALSO_YAML_XS = 1;
-			local $TEST_ALSO_YAML_XS = 1;
-			if (validate_distroprefs($yml)) {
-			    push @error_files, $yml;
-		        } else {
-			    touch $target;
-			}
 		    }
 		}
 		if (@error_files) { die "Found YAML::XS errors on following files:\n" . join("\n", @error_files) . "\n" }
