@@ -1,9 +1,0 @@
----
-match:
-  distribution: '/Compress-LZO-1\.08\.'
-  perlconfig:
-    archname: '-(freebsd|linux)'
-patches:
-  - SREZIC/patches/Compress-LZO-1.08-RT86115.patch
-  - SREZIC/patches/Compress-LZO-1.08-RT46544.patch
-  - SREZIC/patches/Compress-LZO-1.08-RT86115-linux.patch
