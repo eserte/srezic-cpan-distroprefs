@@ -5,3 +5,4 @@ match:
     archname: freebsd
 pl:
   args: ["--with-libidn=/usr/local/lib", "--with-libidn-inc=/usr/local/include"]
+# Still needed, checked with freebsd 11 .. 13
