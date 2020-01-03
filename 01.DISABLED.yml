@@ -1546,5 +1546,6 @@ match:
     |TURNERJW/Tk-JThumbnail-2.0.tar.gz # interactive X program
     |PRBRENAN/Dita-GB-Standard-20190721.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=130134
     |PRBRENAN/Data-Edit-Xml-Xref-20190721.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=130134
+    |.*/Alien-Archive-Npk-\d # interactive configuration, does not work anyway due to unavailable remote file, only on BackPAN
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1

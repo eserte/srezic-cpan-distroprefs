@@ -1,7 +1,0 @@
----
-match:
-  distribution: '/Alien-Archive-Npk-\d'
-pl:
-  expect:
-    - '\QSelect?'
-    - "\n"
