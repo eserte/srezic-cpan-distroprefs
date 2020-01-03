@@ -1,8 +1,0 @@
---- 
-comment: "bleadperl 31194 broke the test suite, also 5.00505 problems"
-match:
-  distribution: "^MSERGEANT/XML-Parser-2.34.tar.gz"
-#  env:
-#    PERL_TEST_UNPATCHED: ''
-patches:
-  - "SREZIC/patches/XML-Parser-2.34-SREZIC-01.patch"
