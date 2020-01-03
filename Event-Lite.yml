@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/Event-Lite-(0.002|1.010)"
-  perlconfig:
-    archname: freebsd
-disabled: 1
-comment: "Hanging multiple times"
