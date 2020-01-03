@@ -3,7 +3,7 @@ match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
   perlconfig:
     archname: freebsd
-    osvers: '^(10|11)\.'
+    osvers: '^(10)\.'
 patches:
   - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
 # patch needed with curl 7.50.2 and later
@@ -12,12 +12,11 @@ match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
   perlconfig:
     archname: freebsd
-    osvers: '^(12|13)\.'
+    osvers: '^(11|12|13)\.'
 patches:
   - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
   - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
 # patches needed with curl 7.66.0
-# XXX maybe also for freebsd11 needed, not yet checked
 ---
 match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
