@@ -1,7 +1,0 @@
----
-match:
-  distribution: "/Gitalist-0.00000[12]"
-  perlconfig:
-    archname: freebsd
-disabled: 1
-comment: test hangs
