@@ -7,3 +7,5 @@ match:
 # Limit patching to linux --- does not compile on darwin & freebsd
 patches:
   - SREZIC/patches/re-engine-RE2-0.13-RT108357.patch
+# For 5.29.x and newer there's another problem, without patch yet:
+# https://rt.cpan.org/Ticket/Display.html?id=129585
