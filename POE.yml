@@ -38,6 +38,16 @@ pl:
     - --default
 patches:
   - SREZIC/patches/POE-1.366-RT103842.patch
+---
+match:
+  distribution: '/\QPOE-1.367.tar.gz\E'
+  perlconfig:
+    version: '5\.31\.(5|6|7)$'
+pl:
+  args:
+    - --default
+patches:
+  - SREZIC/patches/POE-1.367-RT130664-BINGOS-2.patch
 --- 
 comment: "https://rt.cpan.org/Ticket/Display.html?id=110045 (make install causes problems in build dir cleanup)"
 match:
