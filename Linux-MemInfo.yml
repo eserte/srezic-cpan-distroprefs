@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QLinux-MemInfo-0.03.tar.gz\E'
+patches:
+  - SREZIC/patches/Linux-MemInfo-0.03-RT93079.patch
