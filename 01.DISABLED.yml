@@ -1540,6 +1540,7 @@ match:
     |GRAVATTJ/Backup-EZ-0.36.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
     |JGNI/Locale-CLDR-Locales-.*-v0.34.0-TRIAL # too many of these...
     |GRAVATTJ/Backup-EZ-0.39.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
+    |GRAVATTJ/Backup-EZ-0.42.tar.gz # calls sudo which may ask for password --- https://rt.cpan.org/Ticket/Display.html?id=123719
     |OALDERS/lazy-0.000009.tar.gz # Out of memory errors, or sometimes endless loops generating huge logfiles --- https://github.com/oalders/lazy/issues/1
     |SYBER/XS-Install-1.0.2.tar.gz # self-dependency --- 1.0.3 is fixed
     |.*/Acme-DependOnEverything-\d # not useful
