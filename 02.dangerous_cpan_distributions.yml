@@ -263,7 +263,6 @@ match:
      |\QBRONSON/Term-ShellUI-0.86.tar.gz\E
      |\QBROQ/Gitalist-0.003006.tar.gz\E
      |\QBROQ/Gitalist-0.004004.tar.gz\E
-     |\QBRTASTIC/Bitcoin-Crypto-0.02.tar.gz\E
      |\QBRUCEK/IO-Multiplex-1.00.tar.gz\E
      |\QBRUMMETT/Devel-hdb-0.23.tar.gz\E
      |\QBRUMMETT/UR-0.46.tar.gz\E
@@ -1538,6 +1537,7 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/Bencher-Backend-1.046.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1582,6 +1582,7 @@ match:
      |\QPIETERDP/Datahub-Factory-1.1.tar.gz\E
      |\QPIETERDP/Datahub-Factory-Arthub-0.03.tar.gz\E
      |\QPIETERDP/Datahub-Factory-Arthub-0.8.tar.gz\E
+     |\QPIETRO/FTN-Crypt-0.5.1.tar.gz\E
      |\QPINE/Devel-Cover-Report-Codecov-0.02.tar.gz\E
      |\QPINE/Devel-Cover-Report-Codecov-0.19.tar.gz\E
      |\QPINE/Devel-Cover-Report-Codecov-0.23.tar.gz\E
@@ -2019,7 +2020,7 @@ match:
      |\QTSKIRVIN/newslib-0.82b.tar.gz\E
      |\QTSUCCHI/Test-Module-Used-0.2.4.tar.gz\E
      |\QTURNERJW/Tk-HMListbox-3.00.tar.gz\E
-     |\QTVIGNAUD/URPM-v5.23.2.4.tar.gz\E
+     |\QTVIGNAUD/URPM-v5.24.1.tar.gz\E
      |\QTWENRICH/DBD-Solid-0.11a.tar.gz\E
      |\QTWH/Bio-GMOD-0.02.tar.gz\E
      |\QTWH/Bio-GMOD-0.022.tar.gz\E
