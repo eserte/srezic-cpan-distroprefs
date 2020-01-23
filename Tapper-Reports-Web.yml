@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Tapper-Reports-Web-\d'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
+# Dependency list too large for test-only systems.
