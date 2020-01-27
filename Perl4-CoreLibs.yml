@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QPerl4-CoreLibs-0.004.tar.gz\E'
+patches:
+  - SREZIC/patches/Perl4-CoreLibs-0.004-RT131341-GREGOA.patch
