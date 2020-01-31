@@ -1551,6 +1551,6 @@ match:
     |OETIKER/Mojo-SOAP-Client-0.1.5.tar.gz # recursive dependency - https://github.com/oposs/mojo-soap-client/issues/4
     |OETIKER/Mojolicious-Plugin-SOAP-Server-0.1.3.tar.gz # recursive dependency - no issue tracker available
     |NIKOLAS/POSIX-AtFork-0.03.tar.gz # empty tarball --- https://rt.cpan.org/Ticket/Display.html?id=131358
-    |PLICEASE/Acme-Alien-DontPanic-1.9800.tar.gz # recursive dependency with endless loop in CPAN.pm --- https://github.com/Perl5-Alien/Acme-Alien-DontPanic/issues/4
+    |PLICEASE/Alien-Base-ModuleBuild-1.10.tar.gz # recursive dependency with endless loop in CPAN.pm --- https://github.com/Perl5-Alien/Acme-Alien-DontPanic/issues/4
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
