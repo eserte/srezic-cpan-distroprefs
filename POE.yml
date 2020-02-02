@@ -63,7 +63,7 @@ test:
 --- 
 comment: "Or if you prefer to follow the defaults..."
 match:
-  distribution: '^RCAPUTO/POE-\d'
+  distribution: '/POE-\d'
 pl: 
   args:
     - --default
