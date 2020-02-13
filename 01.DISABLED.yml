@@ -1085,7 +1085,6 @@ match:
     |.*/Msql-Mysql-modules-\d # this for sure is obsolete
     |.*/DBIx-Broker-\d # needs database
     |.*/Arch-\d # needs tom lord's arch installed
-    |.*/Bio-Maxd-\d # needs a database
     |.*/Bundle-Cobalt-0\.04\. # test explicitely says "do not install this module"
     |.*/DBO-\d # wants a database
     |.*/DBIx-Schema-\d # needs a database for test
