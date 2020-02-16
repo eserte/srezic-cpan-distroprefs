@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/PPR-0.000024\.tar\.gz'
+match:
+  perlconfig:
+    version: '^5\.20\.'
+disabled: 1
+# Out of memory errors, known problem. May cause loaded system (i.e. wheezy smoker).
