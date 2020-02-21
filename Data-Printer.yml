@@ -13,3 +13,9 @@ test:
     DEVEL_HIDE_PM: Capture::Tiny
 # Workaround for https://github.com/garu/Data-Printer/issues/98
 # -> 0.39 is fixed.
+---
+match:
+  distribution: '/Data-Printer-0\.40\.'
+goto: "GARU/Data-Printer-0.99_020.tar.gz"
+# Fails with newer YAML::Syck:
+# https://github.com/garu/Data-Printer/issues/142
