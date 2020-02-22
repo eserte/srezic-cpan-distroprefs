@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QData-Throttler-0.08.tar.gz\E'
+patches:
+  - SREZIC/patches/Data-Throttler-0.08-RT131699.patch
+# https://rt.cpan.org/Ticket/Display.html?id=131699
+# https://rt.cpan.org/Ticket/Display.html?id=131703
