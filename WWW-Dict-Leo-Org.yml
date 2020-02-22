@@ -8,3 +8,9 @@ match:
   distribution: '/\QWWW-Dict-Leo-Org-1.45.tar.gz\E'
 patches:
   - SREZIC/patches/WWW-Dict-Leo-Org-1.45-RT120563-ROHIEB.patch
+---
+match:
+  distribution: '/\QWWW-Dict-Leo-Org-2.02.tar.gz\E'
+patches:
+  - SREZIC/patches/WWW-Dict-Leo-Org-2.02-RT131926.patch
+# starting on 2020-02-22 or so, queries with umlauts do not work anymore
