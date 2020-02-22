@@ -19,3 +19,10 @@ match:
 goto: "GARU/Data-Printer-0.99_020.tar.gz"
 # Fails with newer YAML::Syck:
 # https://github.com/garu/Data-Printer/issues/142
+---
+match:
+  distribution: '/\QData-Printer-0.99_020.tar.gz\E'
+patches:
+  - SREZIC/patches/Data-Printer-0.99_020-issue136-GARU.patch
+# fix for https://github.com/garu/Data-Printer/issues/136
+# (problem if Mojo::JSON is also installed)
