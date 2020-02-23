@@ -1549,5 +1549,6 @@ match:
     |OETIKER/Mojolicious-Plugin-SOAP-Server-0.1.3.tar.gz # recursive dependency - no issue tracker available
     |NIKOLAS/POSIX-AtFork-0.03.tar.gz # empty tarball --- https://rt.cpan.org/Ticket/Display.html?id=131358
     |PLICEASE/Alien-Base-ModuleBuild-1.10.tar.gz # recursive dependency with endless loop in CPAN.pm --- https://github.com/Perl5-Alien/Acme-Alien-DontPanic/issues/4
+    |PERLANCAR/Role-TinyCommons-Tree-0.121.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=131944
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
