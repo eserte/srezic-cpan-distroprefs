@@ -41,3 +41,10 @@ match:
     version: '^5\.29\.4$'
 disabled: 1
 # "Out of memory" errors, hangs etc.
+--- 
+match:
+  distribution: "SREZIC/Tk-804.034.tar.gz"
+  perlconfig:
+    version: '^5\.31\.([5-9]|\d\d)$'
+goto: "SREZIC/Tk-804.034_500.tar.gz"
+# fix for removed utf8 case functions
