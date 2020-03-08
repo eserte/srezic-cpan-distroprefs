@@ -1037,7 +1037,7 @@ match:
     |.*/Tk-Pgplot-\d # needs a patches pgplot
     |.*/Zucchini-\d # asks for a password
     |.*/Fax-Hylafax-Client-\d # needs a configured hylafax server
-    |.*/Hardware-1Wire-HA7Net-\d # needs some 1wire device
+    |.*/Hardware-1Wire-HA7Net-\d # needs some 1wire device; invisible interactive questions in test suite
     |.*/MyLibrary-\d # needs a database
     |.*/Net-BobrDobr-\d # needs an API key
     |.*/Apache-Backhand-\d # needs mod_backhand, usually not available
