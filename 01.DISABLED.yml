@@ -1551,5 +1551,6 @@ match:
     |PLICEASE/Alien-Base-ModuleBuild-1.10.tar.gz # recursive dependency with endless loop in CPAN.pm --- https://github.com/Perl5-Alien/Acme-Alien-DontPanic/issues/4
     |PERLANCAR/Role-TinyCommons-Tree-0.121.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=131944
     |AWNCORP/Faker-1.01.tar.gz # recursive dependency - https://github.com/iamalnewkirk/faker/issues/16
+    |AWNCORP/Test-Auto-0.07.tar.gz # recursive dependency
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
