@@ -1562,5 +1562,6 @@ match:
     |PERLANCAR/Role-TinyCommons-Tree-0.121.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=131944
     |AWNCORP/Faker-1.01.tar.gz # recursive dependency - https://github.com/iamalnewkirk/faker/issues/16
     |AWNCORP/Test-Auto-0.07.tar.gz # recursive dependency
+    |AWNCORP/FlightRecorder-0.03.tar.gz # recursive dependency
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
