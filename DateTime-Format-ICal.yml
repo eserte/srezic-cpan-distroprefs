@@ -1,0 +1,7 @@
+---
+match:
+  distribution: 'DROLSKY/DateTime-Format-ICal-0.09.tar.gz'
+depends:
+  configure_requires:
+    Module::Build: 0
+# https://rt.cpan.org/Ticket/Display.html?id=131314

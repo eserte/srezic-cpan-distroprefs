@@ -1,0 +1,7 @@
+---
+match:
+  distribution: 'TEQUETER/Net-Route-v0.02.tar.gz'
+depends:
+  configure_requires:
+    Module::Build: 0
+# https://rt.cpan.org/Ticket/Display.html?id=132160

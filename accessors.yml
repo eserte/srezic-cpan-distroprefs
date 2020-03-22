@@ -1,0 +1,7 @@
+---
+match:
+  distribution: 'SPURKIS/accessors-1.01.tar.gz'
+depends:
+  configure_requires:
+    Module::Build: 0
+# https://rt.cpan.org/Ticket/Display.html?id=131811
