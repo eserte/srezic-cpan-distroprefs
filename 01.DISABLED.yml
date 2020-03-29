@@ -207,13 +207,6 @@ match:
     archname: "(-freebsd|-linux|MSWin32|cygwin)"
 disabled: 1
 # freebsd has dtrace, but the option -h is not supported
---- 
-comment: "no filesystem with quotas available"
-match:
-  distribution: '/Quota-\d+'
-  perlconfig:
-    archname: "-freebsd"
-disabled: 1
 ---
 comment: "assumes GNU make, hangs with BSD make"
 match:
