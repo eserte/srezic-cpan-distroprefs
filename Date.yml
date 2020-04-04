@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Date-5.0.3.tar.gz'
+  perlconfig:
+    myuname: 'freebsd cloud2.bbbike.org 13.0-current'
+pl:
+  env:
+    CC: 'clang++90'
+# Default c++ on fbsd 13 (llvmorg-10.0.0-0-gd32170dbd5b) crashes
