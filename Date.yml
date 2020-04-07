@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Date-5.0.3.tar.gz'
+  distribution: '/Date-(5.0.3|5.0.4)\.tar\.gz'
   perlconfig:
     myuname: '(freebsd cloud2.bbbike.org 13.0-current|freebsd head-amd64-default-job-01 13.0-current freebsd)'
 pl:
