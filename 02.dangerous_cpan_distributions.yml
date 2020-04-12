@@ -176,6 +176,7 @@ match:
      |\QAWNCORP/Faker-0.04.tar.gz\E
      |\QAWNCORP/Faker-0.09.tar.gz\E
      |\QAWNCORP/Faker-0.12.tar.gz\E
+     |\QAWNCORP/Faker-1.01.tar.gz\E
      |\QAWNCORP/Scrappy-0.62.tar.gz\E
      |\QAWNCORP/Validation-Class-2.3.4.tar.gz\E
      |\QAWNCORP/Validation-Class-3.0.0.tar.gz\E
@@ -225,7 +226,9 @@ match:
      |\QBJOERN/Grammar-Graph-0.02.tar.gz\E
      |\QBLAIZER/Games-2048-0.08.tar.gz\E
      |\QBLBLACK/DBIx-Class-Schema-Loader-0.02007.tar.gz\E
+     |\QBLIAKO/Statistics-Covid-0.21.tar.gz\E
      |\QBLM/Win32API-Registry-0.32.tar.gz\E
+     |\QBLUHM/OPCUA-Open62541-0.005.tar.gz\E
      |\QBLX/XSDSQL_20130120.tar.gz\E
      |\QBMAMES/MIDI-XML-0.02.tar.gz\E
      |\QBMIDD/perl5.00402-bindist04-msvcAlpha.tar.gz\E
@@ -475,6 +478,7 @@ match:
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
      |\QDRTECH/Search-Elasticsearch-Plugin-XPack-2.03.tar.gz\E
+     |\QDRTECH/Search-Elasticsearch-Plugin-XPack-6.00.tar.gz\E
      |\QDRUOSO/KiokuDB-Backend-DBI-1.18.tar.gz\E
      |\QDRUXA/Morpheus-0.32.tar.gz\E
      |\QDRZIGMAN/Game-WordBrain-0.1.1.tar.gz\E
@@ -619,7 +623,6 @@ match:
      |\QGAAS/Unicode-String-2.09.tar.gz\E
      |\QGAAS/libwww-perl-5.837.tar.gz\E
      |\QGABOR/Text-Format0.52+NWrap0.11.tar.gz\E
-     |\QGAISSMAI/Config-Scoped-0.13.tar.gz\E
      |\QGANGLION/Audio-Nama-1.208.tar.gz\E
      |\QGARU/Padre-Plugin-Catalyst-0.09.tar.gz\E
      |\QGAUDEON/FuseBead-From-PNG-0.02.tar.gz\E
@@ -701,6 +704,7 @@ match:
      |\QGUGU/Algorithm-FloodControl-2.000000.tar.gz\E
      |\QGUGU/Catalyst-Controller-RateLimit-0.17.tar.gz\E
      |\QGUIDO/Qgoda-0.9.4.tar.gz\E
+     |\QGUIDO/Qgoda-0.9.6.tar.gz\E
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
      |\QGUILLEM/Dpkg-1.19.1.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
@@ -1035,8 +1039,6 @@ match:
      |\QKANE/File-Fetch-0.08.tar.gz\E
      |\QKANE/IPC-Cmd-0.22.tar.gz\E
      |\QKANEY/XML-ASCX12-0.03.tar.gz\E
-     |\QKARASIK/IO-Lambda-1.28.tar.gz\E
-     |\QKARASIK/Prima-1.52.tar.gz\E
      |\QKARASIK/Prima-1.54.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.0.2.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.07.tar.gz\E
@@ -1162,6 +1164,7 @@ match:
      |\QLEEJO/Business-GoCardless-0.34.tar.gz\E
      |\QLEIF/tidyview-1.12.tar.gz\E
      |\QLEIRA/HTTP-Recorder-0.02.tar.gz\E
+     |\QLEONT/Dist-Zilla-Plugin-MetaMergeFile-0.002.tar.gz\E
      |\QLEONT/Dist-Zilla-PluginBundle-LEONT-0.012.tar.gz\E
      |\QLEONT/Linux-Epoll-0.004.tar.gz\E
      |\QLEONT/Module-Build-0.4005.tar.gz\E
@@ -1182,6 +1185,7 @@ match:
      |\QLKUNDRAK/RPM2-0.70.tar.gz\E
      |\QLLAP/Net-Amazon-S3-0.84.tar.gz\E
      |\QLMC/Net-Whois-RIPE-1.31.tar.gz\E
+     |\QLNATION/Eliza-Chatbot-0.08.tar.gz\E
      |\QLNATION/Moonshine-Bootstrap-0.02.tar.gz\E
      |\QLPRIETO/MooseX-DIC-0.1.0.tar.gz\E
      |\QLPRIETO/MooseX-DIC-0.2.0.tar.gz\E
@@ -1404,6 +1408,7 @@ match:
      |\QMSTROUT/Moo-0.091014.tar.gz\E
      |\QMSTROUT/Object-Remote-0.003002.tar.gz\E
      |\QMSTROUT/Web-Simple-0.020.tar.gz\E
+     |\QMTHURN/WWW-Search-Ebay-3.054.tar.gz\E
      |\QMTW/Bio-RNA-RNAaliSplit-v0.10.tar.gz\E
      |\QMTW/Bio-ViennaNGS-v0.17.tar.gz\E
      |\QMUDLER/GitInsight-0.05.tar.gz\E
@@ -1544,6 +1549,7 @@ match:
      |\QPERFSONAR/perfSONAR_PS-Services-PingER-0.08.tar.gz\E
      |\QPERIGRIN/Adam-0.09.tar.gz\E
      |\QPERIGRIN/MooseX-POE-0.211.tar.gz\E
+     |\QPERLANCAR/Data-CSel-WrapStruct-0.004.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
@@ -1830,7 +1836,6 @@ match:
      |\QSIXAPART/WWW-TypePad-0.2000.tar.gz\E
      |\QSKAJI/Text-Xslate-v3.5.4.tar.gz\E
      |\QSKIPPY/Bio-Affymetrix-0.1.tar.gz\E
-     |\QSKX/Device-Osram-Lightify-0.7.1.tar.gz\E
      |\QSLANNING/Ogre-0.50.tar.gz\E
      |\QSLOYD/Chart-GGPlot-0.0001.tar.gz\E
      |\QSLUDIN/Protocol-ACME-0.03.tar.gz\E
@@ -2017,6 +2022,7 @@ match:
      |\QTOREAU/URL-List-0.02.tar.gz\E
      |\QTOSHIOITO/Gnuplot-Builder-0.02.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
+     |\QTRIZEN/Sidef-3.90.tar.gz\E
      |\QTSCANLAN/NetworkInfo-Discovery-0.09.tar.gz\E
      |\QTSIBLEY/App-RecordStream-4.0.7.tar.gz\E
      |\QTSIBLEY/Jifty-1.10228.tar.gz\E
@@ -2044,12 +2050,13 @@ match:
      |\QUTASHIRO/App-Greple-subst-2.05.tar.gz\E
      |\QUTASHIRO/App-optex-v0.0.15.tar.gz\E
      |\QUTASHIRO/App-optex-v0.0.4.tar.gz\E
-     |\QUTASHIRO/App-sdif-4.13.3.tar.gz\E
      |\QUTASHIRO/App-sdif-4.3.0.tar.gz\E
      |\QUTASHIRO/Getopt-EX-v1.10.1.tar.gz\E
      |\QVADZ/WebService-SlimTimer-0.001.tar.gz\E
      |\QVANAMBURG/CGI-Application-Structured-0.004.tar.gz\E
      |\QVANAMBURG/VANAMBURG-Magic-0.03.tar.gz\E
+     |\QVANHOESEL/OpenTracing-Interface-0.13.tar.gz\E
+     |\QVANHOESEL/OpenTracing-Interface-0.14.tar.gz\E
      |\QVANSTYN/RapidApp-0.99333.tar.gz\E
      |\QVANSTYN/RapidApp-0.99664.tar.gz\E
      |\QVANSTYN/RapidApp-0.99700.tar.gz\E
@@ -2074,7 +2081,6 @@ match:
      |\QVOJ/Data-Beacon-0.2.5.tar.gz\E
      |\QVOJ/Data-Beacon-0.2.7.tar.gz\E
      |\QVOJ/PICA-Data-0.22.tar.gz\E
-     |\QVOJ/PICA-Data-1.02.tar.gz\E
      |\QVOJ/PICA-Record-0.36.tar.gz\E
      |\QVOJ/PICA-Record-0.38.tar.gz\E
      |\QVOJ/PICA-Record-0.47.tar.gz\E
