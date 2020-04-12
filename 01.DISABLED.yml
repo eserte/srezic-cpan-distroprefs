@@ -1166,6 +1166,7 @@ match:
     |THOGEE/tagged-0.1.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=119185
     |PJACKLAM/Math-BigInt-Parts-0.03.tar.gz # "module is now redundant"
     |LNATION/Mxpress-PDF-0.19.tar.gz # bundles unauthorized modules (and maybe also tries to install them?), see https://rt.cpan.org/Ticket/Display.html?id=132327
+    |LNATION/Mxpress-PDF-0.20.tar.gz # -"-
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
