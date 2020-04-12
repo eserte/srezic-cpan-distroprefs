@@ -1165,6 +1165,7 @@ match:
     |MISHIN/FamilyTreeInfo-2.3.24.tar.gz # https://github.com/mishin/Ftree-cpan/issues/2 - breaks other tests
     |THOGEE/tagged-0.1.tar.gz # https://rt.cpan.org/Ticket/Display.html?id=119185
     |PJACKLAM/Math-BigInt-Parts-0.03.tar.gz # "module is now redundant"
+    |LNATION/Mxpress-PDF-0.19.tar.gz # bundles unauthorized modules (and maybe also tries to install them?), see https://rt.cpan.org/Ticket/Display.html?id=132327
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
