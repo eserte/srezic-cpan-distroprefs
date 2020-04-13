@@ -82,12 +82,12 @@ pl:
   env:
     PERL_MM_USE_DEFAULT: 1
 --- 
-# Valid only for Fedora 28 & 29 and CentOS8 with some jdk
+# Valid only for Fedora 28 & 29 and CentOS 7 & 8 with some jdk
 # -memlimit must not be set or not set too low!
 match:
   distribution: '/Inline-Java-\d'
   perlconfig:
-    osvers: '(\.fc(28|29)\.|\.el8[_.])'
+    osvers: '(\.fc(28|29)\.|\.el7\.|\.el8[_.])'
 pl:
   args:
     - J2SDK=/usr/lib/jvm/java
