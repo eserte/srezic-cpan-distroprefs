@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Text-Bidi-2\.15\.'
+  perlconfig:
+    archname: linux
+test:
+  commandline: 'ulimit -v 1048576; make test'
+# Known memory leak: https://rt.cpan.org/Ticket/Display.html?id=108739
