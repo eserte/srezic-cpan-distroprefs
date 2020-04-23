@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/gettext-1\.05\.'
+  distribution: '/gettext-(1\.05|1\.07)\.'
   perlconfig:
     osname: freebsd
 pl:
