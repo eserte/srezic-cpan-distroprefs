@@ -2,8 +2,21 @@
 match:
   distribution: '/gettext-(1\.05|1\.07)\.'
   perlconfig:
-    osname: freebsd
+    osname: "freebsd"
 pl:
   env:
     CC: 'cc -L/usr/local/lib -I/usr/local/include'
 # see https://rt.cpan.org/Ticket/Display.html?id=16098
+---
+match:
+  distribution: '/gettext-(1\.07)\.'
+  perlconfig:
+    osname: "darwin"
+pl:
+  env:
+    CC: 'cc -I/usr/local/opt/gettext/include -L/usr/local/opt/gettext/lib'
+make:
+  args:
+    - 'CC=cc -I/usr/local/opt/gettext/include'
+    - 'LD=cc -L/usr/local/opt/gettext/lib -lintl'
+# see https://github.com/vandry/Perl-Locale-gettext/issues/1
