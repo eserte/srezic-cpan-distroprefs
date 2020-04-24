@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/URPM-v\d'
+  perlconfig:
+    osname: "darwin"
+make:
+  args:
+    - 'CC=cc -I/usr/local/opt/gettext/include'
+    - 'LD=cc -L/usr/local/opt/gettext/lib -lintl'
+# Similar issue like https://github.com/vandry/Perl-Locale-gettext/issues/1
+# However, tests are failing: Symbol not found: _lua_strlen
