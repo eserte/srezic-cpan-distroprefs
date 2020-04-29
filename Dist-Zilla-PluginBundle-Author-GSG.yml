@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Dist-Zilla-PluginBundle-Author-GSG-\d'
+  distribution: '/Dist-Zilla-PluginBundle-Author-GSG-v?\d'
   env:
     CPAN_SMOKE_MODULES_ACTION: test
 disabled: 1
