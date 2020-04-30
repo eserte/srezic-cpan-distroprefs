@@ -5,4 +5,4 @@ match:
     osname: darwin
 pl:
   env:
-    PKG_CONFIG_PATH: /usr/local/Cellar/libffi/3.0.13/lib/pkgconfig
+    PKG_CONFIG_PATH: /usr/local/opt/libffi/lib/pkgconfig
