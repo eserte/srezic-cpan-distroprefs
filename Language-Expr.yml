@@ -3,7 +3,7 @@ match:
   distribution: '/Language-Expr-0\.29\.tar.gz'
   perlconfig:
     version: '^5\.20\.'
-    myuname: 'cvrsnica-wheezy'
+    myuname: '(cvrsnica-wheezy|cvrsnica-freebsd-101)'
 disabled: 1
 # Out of memory errors, known problem. May cause loaded system (i.e. wheezy smoker).
 # See also PPR.yml
