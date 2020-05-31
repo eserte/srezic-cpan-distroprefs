@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Net-SNMP-Mixin-CiscoDot1qVlanStatic-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
