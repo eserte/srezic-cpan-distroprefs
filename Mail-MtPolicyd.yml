@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Mail-MtPolicyd-2\.04\.'
+disabled: 1
+# large leftover test processes may cause memory problems
+# dependency Mail::RBL almost nowhere successfully installable
