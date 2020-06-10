@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Dist-Zilla-PluginBundle-Author-IOANR-v?\d'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
+# Takes a very long time on test-only systems (without installing thing)
