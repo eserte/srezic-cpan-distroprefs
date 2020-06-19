@@ -87,6 +87,17 @@ match:
 goto: RADIATOR/Net-SSLeay-1.86_07.tar.gz
 # https://rt.cpan.org/Ticket/Display.html?id=125218
 ---
+match:
+  distribution: '/Net-SSLeay-1\.88\.tar\.gz'
+  perlconfig:
+    # proxy match for Ubuntu 20.04
+    myuname: '5.4.0-26-generic #30-ubuntu'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+patches:
+  - SREZIC/patches/Net-SSLeay-1.88-RT132425-debian.patch
+---
 ## It seems that auto_install was removed in 1.33
 match:
   distribution: '/Net-SSLeay-\d'
