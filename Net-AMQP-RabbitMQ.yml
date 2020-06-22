@@ -6,3 +6,9 @@ test:
     MQSKIPSSL: 1
 # certificate in t/ssl expired:
 # https://github.com/net-amqp-rabbitmq/net-amqp-rabbitmq/issues/128
+---
+match:
+  distribution: '/\QNet-AMQP-RabbitMQ-2.40007.tar.gz\E'
+patches:
+  - SREZIC/patches/Net-AMQP-RabbitMQ-2.40007-PR195-cpanelscott.patch
+# see https://github.com/net-amqp-rabbitmq/net-amqp-rabbitmq/pull/195 --- bundled certificate expired
