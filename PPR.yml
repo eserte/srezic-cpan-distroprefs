@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/PPR-(0.000024|0.000026|0.000027)\.tar\.gz'
+  distribution: '/PPR-(0.000024|0.000026|0.000027|0.000028)\.tar\.gz'
   perlconfig:
     version: '^5\.20\.'
 disabled: 1
