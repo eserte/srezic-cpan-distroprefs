@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Alien-PCRE2-0\.015000\.'
+  perlconfig:
+    archname: freebsd
+    osvers: '^(12|13)\.\d+'
+pl:
+  env:
+    ALIEN_INSTALL_TYPE: share
+# The system pcre2 does not work, t/02_pcre2_config.t fails
+# https://rt.cpan.org/Ticket/Display.html?id=127872
