@@ -2,7 +2,7 @@
 match:
   distribution: '/FFI-Platypus-Lang-Pascal-\d'
   perlconfig:
-    myuname: 'linux debian10'
+    myuname: 'linux (debian9|debian10|ubuntu16|ubuntu18)'
 # VM is large enough to have fp-compiler installed (~236MB)
 ---
 match:
