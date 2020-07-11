@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/FFI-Platypus-Lang-Pascal-\d'
+  perlconfig:
+    myuname: 'linux debian10'
+# VM is large enough to have fp-compiler installed (~236MB)
+---
+match:
+  distribution: '/FFI-Platypus-Lang-Pascal-\d'
+disabled: 1
+# do not test on other smokers
