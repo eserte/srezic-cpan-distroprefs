@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/INA/mb-\d+\.\d+'
+disabled: 1
+# undeletable leftovers: https://rt.cpan.org/Ticket/Display.html?id=133020
