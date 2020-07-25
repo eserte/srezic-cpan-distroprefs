@@ -91,7 +91,7 @@ match:
   distribution: '/Net-SSLeay-1\.88\.tar\.gz'
   perlconfig:
     # proxy match for Ubuntu 20.04
-    myuname: '(5.4.0-26-generic #30-ubuntu|5.4.0-33-generic #37-ubuntu|5.4.0-37-generic #41-ubuntu)'
+    myuname: '(5.4.0-26-generic #30-ubuntu|5.4.0-33-generic #37-ubuntu|5.4.0-37-generic #41-ubuntu|5.6.0-1018-oem #18-ubuntu)'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
