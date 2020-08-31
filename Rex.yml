@@ -1,0 +1,15 @@
+---
+match:
+  distribution: '/Rex-\d'
+pl:
+  eexpect:
+    reuse: 1
+    mode: anyorder
+    timeout: 5
+    talk:
+      - '\Qinstall Support custom output formatters? [y/N] [N]'
+      - "\n"
+      - '\Qinstall Support database tasks and describing host groups in a database? [y/N] [N]'
+      - "\n"
+      - '\Qinstall Support describing host groups in XML format? [y/N] [N]'
+      - "\n"
