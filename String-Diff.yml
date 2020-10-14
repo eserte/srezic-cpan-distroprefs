@@ -6,3 +6,9 @@ match:
 patches:
   - SREZIC/patches/String-Diff-0.04-unbundle-YAML-2.patch
 comment: "https://rt.cpan.org/Ticket/Display.html?id=71678"
+---
+match:
+  distribution: '/\QString-Diff-0.07.tar.gz\E'
+patches:
+  - SREZIC/patches/String-Diff-0.07-issue7-neo1ite.patch
+# https://github.com/yappo/p5-String-Diff/issues/7#issuecomment-707994900
