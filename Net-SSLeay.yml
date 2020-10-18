@@ -90,8 +90,8 @@ goto: RADIATOR/Net-SSLeay-1.86_07.tar.gz
 match:
   distribution: '/Net-SSLeay-1\.88\.tar\.gz'
   perlconfig:
-    # proxy match for Ubuntu 20.04
-    myuname: '(5.4.0-26-generic #30-ubuntu|5.4.0-33-generic #37-ubuntu|5.4.0-37-generic #41-ubuntu|5.4.0-42-generic #46-ubuntu|5.6.0-1018-oem #18-ubuntu)'
+    # proxy match for Ubuntu 20.04 and (self-compiled perl on) Debian/bullseye
+    myuname: '(5.4.0-26-generic #30-ubuntu|5.4.0-33-generic #37-ubuntu|5.4.0-37-generic #41-ubuntu|5.4.0-42-generic #46-ubuntu|5.6.0-1018-oem #18-ubuntu|5.3.0-2-amd64 #1 smp debian|5.4.0-4-amd64 #1 smp debian|5.6.0-2-amd64 #1 smp debian)'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
