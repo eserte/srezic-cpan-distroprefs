@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Fsdb-2\.64\.'
+  distribution: '/Fsdb-2\.(64|70)\.'
   perlconfig:
     osname: freebsd
     osvers: '^(9|10|11)\.'
