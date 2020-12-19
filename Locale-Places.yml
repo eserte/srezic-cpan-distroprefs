@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Locale-Places-\d'
+# otherwise tries to run CPAN.pm within Makefile.PL
+pl:
+  env:
+    AUTOMATED_TESTING: 1
