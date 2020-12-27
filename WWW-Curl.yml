@@ -75,13 +75,14 @@ match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
   perlconfig:
     archname: linux
-    osvers: '^5\.9\.0'
-patches:
-  - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
-  - SREZIC/patches/WWW-Curl-4.17-RT120736.patch
-  - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
-  - SREZIC/patches/WWW-Curl-4.17-RT132197-PPISAR.patch 
-# patches needed with curl found on debian/buster
+    osvers: '^(5\.3\.0|5\.9\.0)'
+# XXX does not work --- needs more patch care
+#patches:
+#  - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
+#  - SREZIC/patches/WWW-Curl-4.17-RT120736.patch
+#  - SREZIC/patches/WWW-Curl-4.17-PR24-ERRONEOUS1.patch
+## patches needed with curl found on debian/bullseye
+## basically the 2nd patch is a combination of previously seen patches, but put into one to avoid conflicts
 ---
 match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
