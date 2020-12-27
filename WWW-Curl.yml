@@ -75,6 +75,18 @@ match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
   perlconfig:
     archname: linux
+    osvers: '^5\.9\.0'
+patches:
+  - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
+  - SREZIC/patches/WWW-Curl-4.17-RT120736.patch
+  - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
+  - SREZIC/patches/WWW-Curl-4.17-RT132197-PPISAR.patch 
+# patches needed with curl found on debian/buster
+---
+match:
+  distribution: '/\QWWW-Curl-4.17.tar.gz\E'
+  perlconfig:
+    archname: linux
     osvers: '\.fc28\.'
 patches:
   - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
