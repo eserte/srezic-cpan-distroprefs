@@ -39,12 +39,24 @@ patches:
 ---
 match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
+  perlconfig:
+    archname: linux
+    osvers: '^5\.4\.0'
+patches:
+  - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
+  - SREZIC/patches/WWW-Curl-4.17-RT120736.patch
+  - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
+# patches needed with curl found on Ubuntu 20.04 (focal)
+---
+match:
+  distribution: '/\QWWW-Curl-4.17.tar.gz\E'
   env:
     TRAVIS_OS_NAME: linux
 patches:
   - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
   - SREZIC/patches/WWW-Curl-4.17-RT120736.patch
-# same as prefs section above
+  - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
+# same as prefs sections above
 # but linux distribution detection on container systems does not work (depends on host kernel), so we use a workaround instead (environment variable)
 ---
 match:
