@@ -12,11 +12,23 @@ match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
   perlconfig:
     archname: freebsd
-    osvers: '^(11|12|13)\.'
+    osvers: '^(11|12)\.'
 patches:
   - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
   - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
 # patches needed with curl 7.66.0
+---
+match:
+  distribution: '/\QWWW-Curl-4.17.tar.gz\E'
+  perlconfig:
+    archname: freebsd
+    osvers: '^(13)\.'
+patches:
+  - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
+  - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
+  - SREZIC/patches/WWW-Curl-4.17-RT132197-freebsd-2.patch 
+# patches needed with curl 7.69.0
+# need a variant patch for RT132197 (not the PPISAR one), as the patch for RT130591 changes the same line
 ---
 match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
