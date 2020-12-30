@@ -1563,5 +1563,6 @@ match:
     |XXXAWNCORP/FlightRecorder-0.03.tar.gz # recursive dependency --- allow again
     |JMEHNLE/net-address-ip-local/Net-Address-IP-Local-0.1.2.tar.gz # no passes, probably uses Module::Build compat mode in Makefile.PL
     |BASEBAND/Wireless-Radar.tar.gz # no Makefile.PL
+    |NHORNE/Genealogy-ObituaryDailyTimes-\d+\.\d+\.tar\.gz # database too large
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
