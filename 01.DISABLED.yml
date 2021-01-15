@@ -1564,6 +1564,5 @@ match:
     |JMEHNLE/net-address-ip-local/Net-Address-IP-Local-0.1.2.tar.gz # no passes, probably uses Module::Build compat mode in Makefile.PL
     |BASEBAND/Wireless-Radar.tar.gz # no Makefile.PL
     |NHORNE/Genealogy-ObituaryDailyTimes-\d+\.\d+\.tar\.gz # database too large
-    |BDFOY/Bundle-BDFOY-20210113 # possibly too many dependencies?
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1

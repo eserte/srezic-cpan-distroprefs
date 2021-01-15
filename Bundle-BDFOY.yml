@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Bundle-BDFOY-\d'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
+# Possibly too many deps, may explode PERL5LIB
