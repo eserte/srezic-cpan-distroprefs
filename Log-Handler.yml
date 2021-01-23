@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Log-Handler-0.88-JKEENAN.patch
 # from https://rt.cpan.org/Ticket/Display.html?id=125842
+# later versions (at least 0.90) are OK
