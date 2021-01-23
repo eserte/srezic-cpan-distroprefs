@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QBibTeX-Parser-1.02.tar.gz\E'
+patches:
+  - SREZIC/patches/BibTeX-Parser-1.02-RT133929-PPISAR.patch
