@@ -416,6 +416,7 @@ match:
   distribution: |
     ^(?x:
      .*/Alien-MuPDF-0\.010\. # crashes the machine (with vfs errors), reason unknown
+     .*/Art-World-0\.18\. # huge memory consumption
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
