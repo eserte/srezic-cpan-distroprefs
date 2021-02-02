@@ -16,6 +16,6 @@ test:
 ---
 match:
   distribution: '/Data-Printer-0\.40\.'
-goto: "GARU/Data-Printer-0.99_022.tar.gz"
+goto: "GARU/Data-Printer-0.99_023.tar.gz"
 # Fails with newer YAML::Syck:
 # https://github.com/garu/Data-Printer/issues/142
