@@ -1,7 +1,0 @@
----
-match:
-  distribution: '/Data-Structure-Util-0.15.tar.gz'
-  perlconfig:
-    version: '^5\.(19|2\d)\.'
-patches:
-  - SREZIC/patches/Data-Structure-Util-0.15-RT88257.patch
