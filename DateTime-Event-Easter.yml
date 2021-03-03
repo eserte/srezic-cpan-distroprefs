@@ -1,5 +1,0 @@
----
-match:
-  distribution: '/DateTime-Event-Easter-1\.04\.'
-patches:
-  - SREZIC/patches/DateTime-Event-Easter-1.04-RT79041.patch
