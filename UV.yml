@@ -1,9 +1,10 @@
 ---
 match:
-  distribution: '/UV-\d'
+  distribution: '/UV-0\.\d'
   perlconfig:
 # probably all BSDs...
     archname: "-freebsd"
 make:
   commandline: gmake MAKE=gmake
 # https://rt.cpan.org/Ticket/Display.html?id=105015
+# -> resolved, UV-1.x does not seem to require gmake anymore
