@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QMooseX-App-1.41.tar.gz\E'
+patches:
+  - SREZIC/patches/MooseX-App-1.41-PR66-MOSES.patch
+# Fix for https://github.com/maros/MooseX-App/issues/62
