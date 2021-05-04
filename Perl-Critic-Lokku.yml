@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Perl-Critic-Lokku-0.003.tar.gz'
+  perlconfig:
+    version: '5\.33\.(7|8|9)$'
+patches:
+  - SREZIC/patches/Perl-Critic-Lokku-issue7.patch
