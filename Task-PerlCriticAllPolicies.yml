@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Task-PerlCriticAllPolicies-\d'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
+comment: "too many deps, some have serious problems (recursive dependencies...)"
