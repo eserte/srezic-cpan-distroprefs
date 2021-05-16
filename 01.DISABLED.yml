@@ -1566,5 +1566,6 @@ match:
     |BASEBAND/Wireless-Radar.tar.gz # no Makefile.PL
     |NHORNE/Genealogy-ObituaryDailyTimes-\d+\.\d+\.tar\.gz # database too large
     |JHTHORSEN/Mojo-IOLoop-ReadWriteFork-0.42.tar.gz # endless loop, filling logs
+    |CONTRA/Acme-Prereq-Itself-\d+\.\d+\.tar\.gz # cannot be installed or tested, see module name
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
