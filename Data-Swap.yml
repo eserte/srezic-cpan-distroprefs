@@ -2,6 +2,6 @@
 match:
   distribution: '/Data-Swap-0\.08\.'
   perlconfig:
-    version: '^5\.(25|26|27|28|29|30|31|32|33)\.'
+    version: '^5\.(25|26|27|28|29|30|31|32|33|34)\.'
 patches:
   - SREZIC/patches/Data-Swap-0.08-RT117618-SPROUT.patch
