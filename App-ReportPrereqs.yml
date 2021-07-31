@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/App-ReportPrereqs-\d'
+pl:
+  env:
+    AUTOMATED_TESTING: 1
+# set AUTOMATED_TESTING do run xt tests (wished by author)
