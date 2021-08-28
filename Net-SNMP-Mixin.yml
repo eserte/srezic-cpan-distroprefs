@@ -10,6 +10,7 @@ match:
     |Net-SNMP-Mixin-Dot1qFdb
     |Net-SNMP-Mixin-IpRouteTable
     |Net-SNMP-Mixin-ArubaCX-Dot1qFdb
+    |Net-SNMP-Mixin-ArubaCX-VlanStatic
     )-\d|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 pl:
   expect:
