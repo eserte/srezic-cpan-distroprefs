@@ -1567,5 +1567,6 @@ match:
     |NHORNE/Genealogy-ObituaryDailyTimes-\d+\.\d+\.tar\.gz # database too large
     |JHTHORSEN/Mojo-IOLoop-ReadWriteFork-0.42.tar.gz # endless loop, filling logs
     |CONTRA/Acme-Prereq-Itself-\d+\.\d+\.tar\.gz # cannot be installed or tested, see module name
+    |DJERIUS/Iterator-Flex-0.12.tar.gz # endless loop on some systems (Use of uninitialized value $_ in numeric ge (>=) at t/Common/igrep.t line 9.)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
