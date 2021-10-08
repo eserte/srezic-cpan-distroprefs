@@ -902,6 +902,7 @@ match:
     |.*/RT-View-Directory-\d
     |.*/RT-View-Tree-\d
     |.*/RTFM-Extension-ArticleTemplates-\d
+    |.*/RTIR-Extension-MISP-\d
     |.*/NBU-\d # needs NetBackup
     |.*/Lingua-CollinsParser-\d # needs some grammar files
     |.*/AI-FANN-\d # needs -ldoublefann
