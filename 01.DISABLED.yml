@@ -1569,5 +1569,6 @@ match:
     |JHTHORSEN/Mojo-IOLoop-ReadWriteFork-0.42.tar.gz # endless loop, filling logs
     |CONTRA/Acme-Prereq-Itself-\d+\.\d+\.tar\.gz # cannot be installed or tested, see module name
     |DJERIUS/Iterator-Flex-0\.(12|13)\.tar.gz # endless loop on some systems (Use of uninitialized value $_ in numeric ge (>=) at t/Common/igrep.t line 9.)
+    |.*/Chess-Plisco-0\.4\. # generating a lot of output, maybe endless loop?
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
