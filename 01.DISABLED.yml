@@ -1571,6 +1571,6 @@ match:
     |DJERIUS/Iterator-Flex-0\.(12|13)\.tar.gz # endless loop on some systems (Use of uninitialized value $_ in numeric ge (>=) at t/Common/igrep.t line 9.)
     |.*/Chess-Plisco-0\.4\. # generating a lot of output, maybe endless loop?
     |.*/Crypt-Perl-0\.37_12\. # tests ignore XCPU and run for hours...
-    |RBWOHLFAR/ETL-Pipeline-3.10.tar.gz # empty tarball
+    |RBWOHLFAR/ETL-Pipeline-3.10.tar.gz # empty tarball, https://rt.cpan.org/Ticket/Display.html?id=140764
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
