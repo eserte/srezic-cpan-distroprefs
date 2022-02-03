@@ -2,12 +2,5 @@
 match:
   distribution: '/Neo4j-Bolt-\d'
 pl:
-  eexpect:
-    mode: anyorder
-    talk:
-      - '\QEnter the directory containing the library'
-      - "\n"
-      - '\QEnter local libneo4j-client build directory'
-      - "\n"
-      - '\QWould you like to perform read-only tests on a local database'
-      - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
