@@ -9,3 +9,8 @@ cpanconfig:
 # tar: Ignoring malformed pax extended attribute
 # tar: Error exit delayed from previous errors.
 ## centos7 also shows warnings, but untar is successful
+#
+# -> Does not work! As a workaround, set the cpan conf manually, e.g.
+#
+#     cpan_smoke_modules -skiptested YAML-As-Parsed -cpanconf prefer_external_tar=0
+#
