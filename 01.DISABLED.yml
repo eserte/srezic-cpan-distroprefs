@@ -1234,7 +1234,6 @@ match:
     |.*/PDF-Haru-\d # FreeBSD is currently at 2.0.8, but module needs 2.1.0 (missing header file)
     |.*/IPTables-IPv4-DBTarpit-\d # too many questions...
     |.*/Redland-\d # until mysql stuff is fixed... libmysqlclient.so: undefined reference to `gethostbyname_r'
-    |STUIFZAND/Sleep-0.0.4.tar.gz # hangs with perl 5.8.8, 5.10.0
     |.*/Video-ZVBI-0\.2\.4 # needs setting of an env variable, check!
     |GWYN/POE-Component-Generic-0.1100.tar.gz # hangs (sometimes), see http://www.nntp.perl.org/group/perl.cpan.testers/2008/04/msg1386605.html
     |.*/PDL-Graphics-OpenGL-Perl-OpenGL-\d # errors while compiling, check if OpenGL is alright: In file included from glut_util.h:4, from OpenGL.xs:29: /usr/X11R6/include/GL/glut.h:531: error: syntax error before "glutInit"
