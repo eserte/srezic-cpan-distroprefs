@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/YAML-As-Parsed-\d'
+  perlconfig:
+    myuname: 'freebsd cvrsnica-freebsd-(92|101)'
+cpanconfig:
+  prefer_external_tar: 0
+## external tar fails with
+# tar: Ignoring malformed pax extended attribute
+# tar: Error exit delayed from previous errors.
+## centos7 also shows warnings, but untar is successful
