@@ -1054,7 +1054,7 @@ match:
     |.*/Relations-Abstract-\d # seems to need a database
     |.*/perlhbm-\d # needs hb-config
     |.*/tinyperl-1.0-580-win32\. # seems to be dangerous - defining another Config.pm in @INC!
-    |.*/Java-\d # needs running Java server
+    |.*/Java-\d+\.\d+\.tar\.gz # needs running Java server
     |.*/Business-OnlinePayment-Exact-\d # needs account
     |.*/Net-Trac-0\.01_01\.tar\.gz # kills the smoker
     |.*/Lingua-BrillTagger-\d # needs some files like CONTEXTUALRULEFILE for tests
