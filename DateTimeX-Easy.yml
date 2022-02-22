@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QDateTimeX-Easy-0.089.tar.gz\E'
+patches:
+  - SREZIC/patches/DateTimeX-Easy-0.089-PR7-RHPIZARRO.patch
