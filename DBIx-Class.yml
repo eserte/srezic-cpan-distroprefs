@@ -9,6 +9,13 @@ goto: 'RIBASUSHI/DBIx-Class-0.08250_06.tar.gz'
 # see https://rt.cpan.org/Public/Bug/Display.html?id=91947
 ---
 match:
+  distribution: '/\QDBIx-Class-0.082842.tar.gz\E'
+  perlconfig:
+    version: '^5\.35\.9'
+patches:
+  - SREZIC/patches/DBIx-Class-0.082842-PR143-LEONT.patch
+---
+match:
   distribution: '/DBIx-Class-\d'
   perlconfig:
 # essentially Unix-like systems:
