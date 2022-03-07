@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Furl-3\.14\.'
+test:
+  env:
+    LOCALDOMAIN: domain.invalid
+# Workaround for https://github.com/tokuhirom/Furl/issues/128
