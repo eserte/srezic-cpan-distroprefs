@@ -295,7 +295,7 @@ remove-outdated-valid:
 	}
 
 # find_dangerous_cpan_distributions.pl can be found in:
-#   git://github.com/eserte/cpan-testers-parallelsmoker.git
+#   https://github.com/eserte/cpan-testers-parallelsmoker.git
 # subdirectory utils
 dangerous-cpan-distributions:
 	{ warn "Be patient, loading CPAN index first...\n" }
