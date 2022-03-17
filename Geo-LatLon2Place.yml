@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Geo-LatLon2Place-\d'
+pl:
+  eexpect:
+    timeout: 360
+    talk:
+      - '\QUse embedded tinycdb library'
+      - "y\n"
