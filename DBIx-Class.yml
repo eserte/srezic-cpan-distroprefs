@@ -11,7 +11,7 @@ goto: 'RIBASUSHI/DBIx-Class-0.08250_06.tar.gz'
 match:
   distribution: '/\QDBIx-Class-0.082842.tar.gz\E'
   perlconfig:
-    version: '^5\.35\.9'
+    version: '^5\.35\.(9|1\d)'
 patches:
   - SREZIC/patches/DBIx-Class-0.082842-PR143-LEONT.patch
 ---
