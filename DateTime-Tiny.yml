@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/DateTime-Tiny-1\.04\.'
+  distribution: '/DateTime-Tiny-1\.(04|07)\.'
 depends:
   configure_requires:
     Devel::Hide: 0
@@ -10,3 +10,4 @@ test:
     PERL5OPT: -MDevel::Hide
     DEVEL_HIDE_PM: DateTime::Locale
 # Workaround for failing test, see https://rt.cpan.org/Public/Bug/Display.html?id=108636
+# Workaround works also for 1.07: https://github.com/dagolden/DateTime-Tiny/issues/2
