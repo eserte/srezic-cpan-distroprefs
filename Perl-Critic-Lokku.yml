@@ -5,3 +5,11 @@ match:
     version: '5\.(33\.(7|8|9)|(34|35|36)\.\d+)$'
 patches:
   - SREZIC/patches/Perl-Critic-Lokku-issue7.patch
+#---
+## Perl-Critic-Lokku is only available from BackPAN. The following rule
+## tries to reroute the installation automatically to the last known
+## distribution, however this does not work. Nevertheless leaving it
+## for documentation purposes.
+#match:
+#  module: '^Perl::Critic::Policy::TryTiny::(ProhibitExitingSubroutine|RequireCatch)$'
+#goto: FLIMM/Perl-Critic-Lokku-0.003.tar.gz
