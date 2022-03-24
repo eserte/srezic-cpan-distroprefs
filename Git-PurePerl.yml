@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QGit-PurePerl-0.53.tar.gz\E'
+patches:
+  - SREZIC/patches/Git-PurePerl-0.53-RT141798.patch
