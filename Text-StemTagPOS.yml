@@ -16,3 +16,4 @@ test:
     PERL_HASH_SEED: 0
     PERL_PERTURB_KEYS: NO
 # https://rt.cpan.org/Ticket/Display.html?id=98869
+# Note: workaround with these values does not work for 5.35.10
