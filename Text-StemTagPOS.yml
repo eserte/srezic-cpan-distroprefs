@@ -2,7 +2,7 @@
 match:
   distribution: '/Text-StemTagPOS-0\.61\.'
   perlconfig:
-    version: '^5\.(26|27|28)\.'
+    version: '^5\.((26|27|28)\.|35\.10)'
 test:
   env:
     PERL_HASH_SEED: 2
@@ -16,4 +16,3 @@ test:
     PERL_HASH_SEED: 0
     PERL_PERTURB_KEYS: NO
 # https://rt.cpan.org/Ticket/Display.html?id=98869
-# Note: workaround with these values does not work for 5.35.10
