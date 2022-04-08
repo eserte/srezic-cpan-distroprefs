@@ -80,6 +80,7 @@ match:
      |\QALEXMASS/bioinfo/InSilicoSpectro-0.9.9.tar.gz\E
      |\QALEXMV/Jifty-0.91117.tar.gz\E
      |\QALEXMV/RT-Extension-FormTools-0.50.tar.gz\E
+     |\QALEXPAN/Dancer2-Plugin-FormValidator-0.13.tar.gz\E
      |\QALGERNON/Babble-0.02.tar.gz\E
      |\QALGERNON/Babble-0.05.tar.gz\E
      |\QALGERNON/Babble-0.07.tar.gz\E
@@ -504,11 +505,6 @@ match:
      |\QEASR/ONTO-PERL/ONTO-PERL-1.35.tar.gz\E
      |\QEBASSI/Clutter-1.002.tar.gz\E
      |\QEBAY/eBay-API-0.22.tar.gz\E
-     |\QEBRUNI/HTML-Puzzle-0.07.tar.gz\E
-     |\QEBRUNI/Puzzle-0.05.tar.gz\E
-     |\QEBRUNI/Puzzle-0.07.tar.gz\E
-     |\QEBRUNI/Puzzle-0.17.tar.gz\E
-     |\QEBRUNI/RadioMobile-0.06.tar.gz\E
      |\QECOCODE/Finance-Quote-1.37.tar.gz\E
      |\QECOCODE/Finance-Quote-1.47.tar.gz\E
      |\QECOCODE/Finance-Quote-1.49.tar.gz\E
@@ -609,15 +605,6 @@ match:
      |\QFREDERICD/Koha-Contrib-Tamil-0.057.tar.gz\E
      |\QFREW/Web-Simple-0.004.tar.gz\E
      |\QFRODWITH/POEx-Role-PSGIServer-1.110670.tar.gz\E
-     |\QFSEITZ/Quiq-1.131.tar.gz\E
-     |\QFSEITZ/Quiq-1.139.tar.gz\E
-     |\QFSEITZ/Quiq-1.154.tar.gz\E
-     |\QFSEITZ/Quiq-1.162.tar.gz\E
-     |\QFSEITZ/Quiq-1.164.tar.gz\E
-     |\QFSEITZ/Quiq-1.169.tar.gz\E
-     |\QFSEITZ/Quiq-1.173.tar.gz\E
-     |\QFSEITZ/Quiq-1.185.tar.gz\E
-     |\QFSEITZ/Quiq-1.186.tar.gz\E
      |\QFUKAI/Qiniu-0.01.tar.gz\E
      |\QFVANDUN/Net-DHCP-0.11.tar.gz\E
      |\QFXN/Net-Fluidinfo-0.43.tar.gz\E
@@ -1091,8 +1078,6 @@ match:
      |\QKIMOTO/Rstats-0.0140.tar.gz\E
      |\QKIMOTO/Rstats-0.0141.tar.gz\E
      |\QKIMOTO/Rstats-0.0149.tar.gz\E
-     |\QKIMOTO/SPVM-0.0948.tar.gz\E
-     |\QKIMOTO/SPVM-0.9011.tar.gz\E
      |\QKING/Clipboard-0.10.tar.gz\E
      |\QKING/Clipboard-0.13.tar.gz\E
      |\QKITAK/Acme-Speed-0.0.2.tar.gz\E
@@ -1549,6 +1534,7 @@ match:
      |\QPERLANCAR/App-perlmv-0.604.tar.gz\E
      |\QPERLANCAR/Bencher-Scenario-BinarySearch-0.002.tar.gz\E
      |\QPERLANCAR/Bencher-Scenario-CmdLineParsingModules-0.080.tar.gz\E
+     |\QPERLANCAR/Bencher-Scenarios-StringFunctions-0.005.tar.gz\E
      |\QPERLANCAR/ColorThemes-Test-0.006.tar.gz\E
      |\QPERLANCAR/JSON-Color-0.131.tar.gz\E
      |\QPERLANCAR/Perinci-CmdLine-Lite-1.911.tar.gz\E
@@ -1556,7 +1542,6 @@ match:
      |\QPERLANCAR/Sah-Schemas-Sah-0.9.49.0.tar.gz\E
      |\QPERLANCAR/Sah-Schemas-Sah-0.9.49.1.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
-     |\QPERLSRVDE/DNS-Hetzner-0.02.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
      |\QPERRAD/CORBA-Cplusplus-0.40.tar.gz\E
      |\QPERRAD/CORBA-Perl-0.40.tar.gz\E
@@ -1665,7 +1650,6 @@ match:
      |\QREFLOG/Lyrics-Fetcher-0.3.1.tar.gz\E
      |\QREHSACK/File-HomeDir-1.002.tar.gz\E
      |\QRENE/Grid-Layout-0.01.tar.gz\E
-     |\QRENEEB/DNS-Hetzner-0.01.tar.gz\E
      |\QREYNOLDS/IO-Capture-0.03.tar.gz\E
      |\QRGARCIA/perl-5.9.5.tar.gz\E
      |\QRGEOFFREY/ExtUtils-ModuleMaker-0.204.tar.gz\E
