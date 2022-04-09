@@ -1572,5 +1572,6 @@ match:
     |.*/Crypt-Perl-0\.37_12\. # tests ignore XCPU and run for hours...
     |RBWOHLFAR/ETL-Pipeline-3.10.tar.gz # empty tarball, https://rt.cpan.org/Ticket/Display.html?id=140764
     |ESALEBU/Narrator\s+\(\d+\)-withoutworldwriteables.tar.gz # invalid distname, empty dist
+    |PMQS/zipdetails-2.100.tar.gz # disk fillup
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
