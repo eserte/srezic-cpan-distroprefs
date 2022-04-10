@@ -1572,6 +1572,7 @@ match:
     |.*/Crypt-Perl-0\.37_12\. # tests ignore XCPU and run for hours...
     |RBWOHLFAR/ETL-Pipeline-3.10.tar.gz # empty tarball, https://rt.cpan.org/Ticket/Display.html?id=140764
     |ESALEBU/Narrator\s+\(\d+\)-withoutworldwriteables.tar.gz # invalid distname, empty dist
-    |PMQS/zipdetails-2.\d+.tar.gz # disk fillup, zipdetails-2.100/t/files/0010-apache-commons-compress/input.bin is larger than 2GB; 2.101 too
+    |PMQS/zipdetails-2.\d+\.tar\.gz # disk fillup, zipdetails-2.100/t/files/0010-apache-commons-compress/input.bin is larger than 2GB
+    |PMQS/App-zipdetails-2.\d+\.tar\.gz # 2.101 too
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
