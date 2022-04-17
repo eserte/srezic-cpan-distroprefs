@@ -1275,7 +1275,6 @@ match:
     |.*/Class-DBI-DB2-\d # asks questions
     |.*/DBIx-PasswordIniFile-\d # asks questions about database conn
     |.*/Class-Tables-\d # wants a dsn for tests
-    |.*/Authen-Krb5-Easy-\d # wants path to kerberos libraries etc.
     |.*/DBIx-NamedDSN-\d # asks for a path for configuration files
     |.*/ALPM-\d # no port for freebsd
     |.*/Mail-IMAPFolderSearch-\d # wants an imap server for test

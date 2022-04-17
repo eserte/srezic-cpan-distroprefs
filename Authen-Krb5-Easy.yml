@@ -1,0 +1,13 @@
+---
+match:
+  distribution: '/Authen-Krb5-Easy-\d'
+pl:
+  expect:
+    - '\QEnter path to kerberos libraries'
+    - "\n"
+    - '\QEnter path to kerberos headers'
+    - "\n"
+test:
+  expect:
+    - '\QEnter keytab file (or \E.\Qnone\E.\Q to skip further tests)'
+    - "none\n"
