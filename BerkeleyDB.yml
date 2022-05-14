@@ -18,8 +18,8 @@ match:
     osvers: '^10\.'
 pl:
   env:
-    BERKELEYDB_INCLUDE: /usr/local/include/db48
-    BERKELEYDB_LIB: /usr/local/lib/db48
+    BERKELEYDB_INCLUDE: /usr/local/include/db5
+    BERKELEYDB_LIB: /usr/local/lib/db5
 ---
 match:
   distribution: '/BerkeleyDB-\d'
@@ -36,5 +36,5 @@ match:
     archname: amd64-freebsd
 pl:
   env:
-    BERKELEYDB_INCLUDE: /usr/local/include/db48
-    BERKELEYDB_LIB: /usr/local/lib/db48
+    BERKELEYDB_INCLUDE: /usr/local/include/db5
+    BERKELEYDB_LIB: /usr/local/lib/db5
