@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QDevel-Caller-2.06.tar.gz\E'
+  perlconfig:
+    version: '^5\.37\.(3|4)$'
+patches:
+  - SREZIC/patches/Devel-Caller-2.06-RT144051-HYDAHY.patch
