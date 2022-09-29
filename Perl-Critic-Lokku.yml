@@ -2,7 +2,7 @@
 match:
   distribution: '/Perl-Critic-Lokku-0.003.tar.gz'
   perlconfig:
-    version: '5\.(33\.(7|8|9)|(34|35|36)\.\d+)$'
+    version: '5\.(33\.(7|8|9)|(34|35|36|37)\.\d+)$'
 patches:
   - SREZIC/patches/Perl-Critic-Lokku-issue7.patch
 #---
