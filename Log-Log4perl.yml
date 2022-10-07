@@ -5,3 +5,13 @@ match:
     archname: "MSWin32"
 goto: 'MSCHILLI/Log-Log4perl-1.47.tar.gz'
 # 1.48 and 1.49 fail tests on Windows systems
+---
+match:
+  distribution: '/\QLog-Log4perl-1.56.tar.gz\E'
+  perlconfig:
+    version: '^5\.37\.4$'
+patches:
+  - SREZIC/patches/Log-Log4perl-1.56-PR119-TONYC-2.patch
+# https://github.com/mschilli/log4perl/pull/119
+# https://github.com/Perl/perl5/issues/20208
+# https://github.com/Perl/perl5/issues/20207
