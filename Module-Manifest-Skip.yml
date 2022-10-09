@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QModule-Manifest-Skip-0.23.tar.gz\E'
+patches:
+  - SREZIC/patches/Module-Manifest-Skip-0.23-PR8-PPISAR.patch
