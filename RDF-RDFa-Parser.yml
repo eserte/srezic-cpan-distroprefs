@@ -2,10 +2,13 @@
 match:
   distribution: '/RDF-RDFa-Parser-1\.097\.tar\.gz'
 ## Module::Package cannot be installed due to failing Module::Install::ManifestSkip,
+## and even if that one is patched, then the next problem happens in Module::Install::Admin::ScanDeps, see
+## https://rt.cpan.org/Ticket/Display.html?id=71565 and https://github.com/Perl-Toolchain-Gang/Module-Install/pull/64
 ## so it's not useful to apply these workarounds.
 #depends:
 #  configure_requires:
 #    inc::Module::Package: 0
+#    Module::Package::RDF: 0
 #pl:
 #  commandline: 'rm -rf inc/; $PERL Makefile.PL'
 ## https://rt.cpan.org/Ticket/Display.html?id=134367
