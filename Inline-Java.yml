@@ -106,3 +106,9 @@ pl:
 #    - J2SDK=/usr/lib/jvm/java-7-openjdk-amd64
 #  env:
 #    PERL_MM_USE_DEFAULT: 1
+--- 
+match:
+  distribution: '/Inline-Java-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
