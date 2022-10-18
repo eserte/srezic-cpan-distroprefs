@@ -1,0 +1,6 @@
+---
+match:
+  distribution: 'OLEG/Net-Proxy-Type-0.09.tar.gz'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
