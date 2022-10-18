@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Geo-Coder-Abbreviations-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+# speed up Makefile.PL, it waits a minute for an interactive question
