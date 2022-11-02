@@ -1574,5 +1574,6 @@ match:
     |PMQS/zipdetails-2.\d+\.tar\.gz # disk fillup, zipdetails-2.100/t/files/0010-apache-commons-compress/input.bin is larger than 2GB
     |PMQS/App-zipdetails-2.101\.tar\.gz # 2.101 too -> https://github.com/pmqs/zipdetails/issues/5
     |GLLORE/App-SeismicUnixGui-0.80_0.tar.gz # interactive build
+    |WOUTER/Alien-ffmpeg-0.105.tar.gz # possible endless loop in Build (Use of uninitialized value $unkpos in subtraction (-) at /opt/perl-5.37.4/lib/5.37.4/Text/Balanced.pm line 1008.)
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
