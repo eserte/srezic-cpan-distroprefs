@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/Apache2-SSI-\d'
+  perlconfig:
+    archname: linux
+    osvers: '\.fc\d+\..'
+test:
+  commandline: 'ulimit -v 1048576; make test'
+# Memory problems seen on fedora36 smoker, seems to crash half of the system
