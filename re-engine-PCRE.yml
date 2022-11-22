@@ -9,7 +9,7 @@ patches:
 match:
   distribution: '/\Qre-engine-PCRE-0.17.tar.gz\E'
   perlconfig:
-    version: '^5\.(29|30|31|32|33|34)\.'
+    version: '^5\.(29|30|31|32|33|34|35|36|37)\.'
 patches:
   - SREZIC/patches/re-engine-PCRE-0.17-RT108386.patch
   - SREZIC/patches/re-engine-PCRE-0.17-RT129403.patch
