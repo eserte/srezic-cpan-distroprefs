@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Object-Import-1.004-RT106769.patch
 # See also https://rt.cpan.org/Ticket/Display.html?id=127498
+# 1.005 is fixed.
