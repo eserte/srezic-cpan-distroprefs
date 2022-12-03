@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Tk-JBrowseEntry-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1
+# Prevent interactive dialog.
