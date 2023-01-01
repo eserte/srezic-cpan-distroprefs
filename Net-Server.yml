@@ -31,3 +31,11 @@ patches:
   - SREZIC/patches/Net-Server-2.009-RT126923-PPISAR.patch 
 # https://rt.cpan.org/Ticket/Display.html?id=126923
 # https://rt.cpan.org/Ticket/Display.html?id=132245 (duplicate)
+---
+match:
+  distribution: '/\QNet-Server-2.013.tar.gz\E'
+  perlconfig:
+    useithreads: '^$'
+patches:
+  - SREZIC/patches/Net-Server-2.013-RT145672.patch
+# https://rt.cpan.org/Ticket/Display.html?id=145672
