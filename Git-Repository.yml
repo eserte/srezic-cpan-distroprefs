@@ -7,7 +7,7 @@ match:
     osvers: '^(11|12|13)\.'
 patches:
   - SREZIC/patches/Git-Repository-RT127282-BOOK.patch
-# already in the git repo, but not yet releases
+# already in the git repo, but not yet released
 ---
 match:
   distribution: '/Git-Repository-1\.322\.'
@@ -16,4 +16,10 @@ match:
     myuname: 'linux localhost 4.9.0 #1 smp debian 4.9.0 x86_64 gnulinux '
 patches:
   - SREZIC/patches/Git-Repository-RT127282-BOOK.patch
-# already in the git repo, but not yet releases
+# already in the git repo, but not yet released
+---
+match:
+  distribution: '/\QGit-Repository-1.325.tar.gz\E'
+patches:
+  - SREZIC/patches/Git-Repository-1.325-PR22-JANPAZ.patch
+# see https://github.com/book/Git-Repository/pull/22
