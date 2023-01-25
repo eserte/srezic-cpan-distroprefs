@@ -21,5 +21,5 @@ patches:
 match:
   distribution: '/\QGit-Repository-1.325.tar.gz\E'
 patches:
-  - SREZIC/patches/Git-Repository-1.325-PR22-JANPAZ.patch
+  - SREZIC/patches/Git-Repository-1.325-RT144889-SREZIC.patch
 # see https://github.com/book/Git-Repository/pull/22
