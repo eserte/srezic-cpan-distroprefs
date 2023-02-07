@@ -8,3 +8,9 @@ cpanconfig:
   make: "/usr/local/bin/gmake"
 # with BSD make a build error happens:
 #   cc: zstd/libzstd.o: No such file or directory
+---
+match:
+  distribution: '/Sereal-Encoder-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
