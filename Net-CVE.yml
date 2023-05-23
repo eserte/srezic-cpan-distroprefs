@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Net-CVE-\d'
+pl:
+  env:
+    AUTOMATED_TESTING: 1
