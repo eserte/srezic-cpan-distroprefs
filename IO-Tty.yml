@@ -9,3 +9,13 @@ disabled: 1
 #
 # IO-Tty-0.10 creates IO::Tty::Constant dynamically,
 # so PAUSE does not see it.
+
+---
+match:
+  distribution: '/\QIO-Tty-1.17.tar.gz\E'
+# actually newer clang versions are affected, for now patch on all freebsd systems
+  perlconfig:
+    archname: freebsd
+patches:
+  - SREZIC/patches/IO-Tty-1.17-issue23-KRAJ.patch
+# from https://github.com/toddr/IO-Tty/pull/35
