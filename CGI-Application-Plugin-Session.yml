@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QCGI-Application-Plugin-Session-1.05.tar.gz\E'
+patches:
+  - SREZIC/patches/CGI-Application-Plugin-Session-1.05-RT149959.patch
