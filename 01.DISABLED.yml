@@ -1576,5 +1576,6 @@ match:
     |GLLORE/App-SeismicUnixGui-0.8\d.*.tar.gz # interactive build (seen with 0.80 .. 0.82)
     |WOUTER/Alien-ffmpeg-0.105.tar.gz # possible endless loop in Build (Use of uninitialized value ... /opt/perl-5.37.4/lib/5.37.4/Text/Balanced.pm line 1008.)
     |WBRASWELL/Alien-Bazel-0.02.tar.gz # left-over large java processes
+    |JGNI/Locale-CLDR-Locales-Bg-v0.34.2-TRIAL1.tar.gz # massive amount of warnings
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
