@@ -1578,5 +1578,6 @@ match:
     |WBRASWELL/Alien-Bazel-0.02.tar.gz # left-over large java processes
     |JGNI/Locale-CLDR-Locales-Bg-v0.34.2-TRIAL1.tar.gz # massive amount of warnings
     |JGNI/Locale-CLDR-Locales-Ca-v0.34.2-TRIAL1.tar.gz # another one with massive warnings
+    |JGNI/Locale-CLDR-Locales-.*-v0.34.2-TRIAL1.tar.gz # disable all because of further problems
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
