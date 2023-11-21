@@ -1580,5 +1580,6 @@ match:
     |JGNI/Locale-CLDR-Locales-Ca-v0.34.2-TRIAL1.tar.gz # another one with massive warnings
     |JGNI/Locale-CLDR-Locales-.*-v0.34.2-TRIAL1.tar.gz # disable all because of further problems
     |JAVONET/JavonetPerlSdk-v2.1.9.tar.gz # big distribution (1GB), no tests
+    |JAVONET/JavonetPerlSdk-v2.1.11.tar.gz # big distribution (1GB), no tests
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
