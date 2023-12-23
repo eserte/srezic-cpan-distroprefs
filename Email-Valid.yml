@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\QEmail-Valid-1.203.tar.gz\E'
+patches:
+  - SREZIC/patches/Email-Valid-1.203-issue53.patch
