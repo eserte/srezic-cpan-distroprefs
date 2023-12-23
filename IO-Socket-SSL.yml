@@ -19,6 +19,15 @@ pl:
 # https://rt.cpan.org/Ticket/Display.html?id=124141
 ---
 match:
+  distribution: '/IO-Socket-SSL-2\.084\.'
+pl:
+  env:
+    NO_NETWORK_TESTING: 1
+# https://github.com/noxxi/p5-io-socket-ssl/issues/148
+# Actually this is not a problem with this version, but
+# a problem with one of the tested external servers.
+---
+match:
   distribution: '/IO-Socket-SSL-\d'
 pl:
   env:
