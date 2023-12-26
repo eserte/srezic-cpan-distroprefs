@@ -22,11 +22,11 @@ match:
   distribution: '/IO-Socket-SSL-2\.084\.'
 pl:
   env:
-    NO_NETWORK_TESTING: 0
+    NO_NETWORK_TESTING: n
 # https://github.com/noxxi/p5-io-socket-ssl/issues/148
 # Actually this is not a problem with this version, but
 # a problem with one of the tested external servers.
-# -> As the server is fixed, this is now set to 0
+# -> As the server is fixed, this is now set to n
 ---
 match:
   distribution: '/IO-Socket-SSL-\d'
