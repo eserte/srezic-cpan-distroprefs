@@ -33,7 +33,7 @@ pl:
 match:
   distribution: '/BerkeleyDB-\d'
   perlconfig:
-    archname: amd64-freebsd
+    archname: '(arm64|amd64|aarch64)-freebsd'
 pl:
   env:
     BERKELEYDB_INCLUDE: /usr/local/include/db5
