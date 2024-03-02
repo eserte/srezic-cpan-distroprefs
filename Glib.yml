@@ -30,3 +30,11 @@ match:
   perlconfig:
     archname: 'linux'
 goto: XAOC/Glib-1.302.tar.gz
+---
+match:
+  distribution: '/Glib-1\.3294\.'
+  perlconfig:
+    osname: darwin
+pl:
+  env:
+    PKG_CONFIG_PATH: /usr/local/opt/libffi/lib/pkgconfig
