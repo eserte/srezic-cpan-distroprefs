@@ -8,3 +8,11 @@ match:
 patches:
   - SREZIC/patches/Pango-1.226-RT109330.patch
 # resolved, but no release yet
+---
+match:
+  distribution: '/Pango-1\.227\.'
+  perlconfig:
+    osname: darwin
+pl:
+  env:
+    PKG_CONFIG_PATH: /usr/local/opt/libffi/lib/pkgconfig
