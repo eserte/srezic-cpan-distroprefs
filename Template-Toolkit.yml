@@ -29,19 +29,6 @@ patches:
   - SREZIC/patches/Template-Toolkit-2.24-RT85607.patch
 pl:
   args: ["TT_ACCEPT=y"]
----
-match:
-  distribution: '/Template-Toolkit-2\.(1[789]|2[0-4])'
-  env:
-    # proxy checks for "@iconmobile"
-    USER: "^(slavenr|live|livesrezic|prelive|prelivesrezic)$"
-patches:
-  # The "cease warnings" patch
-  - SREZIC/patches/Template-2.22-SREZIC-01.patch
-  # The "cease replace warnings" patch
-  - SREZIC/patches/Template-2.24-SREZIC-replacewarnings.patch
-pl:
-  args: ["TT_ACCEPT=y"]
 --- 
 match:
   distribution: '/\QTemplate-Toolkit-2.26.tar.gz\E'
