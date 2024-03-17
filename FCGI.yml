@@ -1,9 +1,0 @@
----
-match:
-  distribution: '/FCGI-(0\.71\.|0\.71_01)'
-  env:
-    PERL_PARALLEL_SMOKER: yes
-disabled: 1
-# flapping results
-# see for example http://www.cpantesters.org/cpan/report/11c2c63c-ca05-11df-bcc2-915f984c9764
-# and http://matrix.cpantesters.org/?dist=FCGI&maxver=
