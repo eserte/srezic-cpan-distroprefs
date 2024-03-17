@@ -11,17 +11,6 @@
 #    |.*/Apache-Peek-\d # needs modperl 2
 #    |.*/CPAN-Search-Lite-\d # needs modperl 2
 --- 
-comment: "This prefs works only on a specific Debian machine."
-match:
-  distribution: '/mod_perl-2\.0\.7\.'
-  perlconfig:
-    archname: -linux
-  env:
-    HOSTNAME: dev08
-pl: 
-  args:
-    - MP_APXS=/usr/bin/apxs2
---- 
 comment: "Another debian machine."
 match:
   distribution: '/mod_perl-2\.0\.(8|9)\.'
@@ -29,9 +18,6 @@ match:
     archname: -linux
 # workaround for specifying eserte.dev2... host
     myuname: '^linux eserte 3.2.0-4-amd64'
-## XXX usually not defined as an environment variable, just a local variable
-#  env:
-#    HOST: eserte
 pl: 
   args:
     - MP_APXS=/usr/bin/apxs2
