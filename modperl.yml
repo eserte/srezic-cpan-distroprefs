@@ -44,23 +44,3 @@ pl:
     - "y\n"
 test:
   commandline: 'env PWD=`pwd` make test'
---- 
-comment: "This prefs works only on a specific Debian machine."
-match:
-  distribution: "^GOZER/mod_perl-1.30"
-  perlconfig:
-    archname: -linux
-  env:
-    HOSTNAME: devpc01-debian
-pl: 
-  args:
-    - EVERYTHING=1
-  expect:
-    - "Please tell me where I can find your apache src"
-    - "/usr/local/src/apache_1.3.34/src\n"
-    - "Configure mod_perl with "
-    - "y\n"
-    - "Shall I build httpd.*for you"
-    - "y\n"
-patches:
-  - "SREZIC/patches/mod_perl-1.30-SREZIC-01.patch"
