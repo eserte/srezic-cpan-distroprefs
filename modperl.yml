@@ -3,7 +3,7 @@ comment: "have to be reviewed for the smokers"
 match:
   distribution: '/mod_perl-\d'
   env:
-    USER: cpansand
+    CPAN_SMOKE_MODULES_ACTION: .+
 disabled: 1
 ---
 comment: "have to be reviewed for the smokers"
