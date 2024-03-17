@@ -15,14 +15,6 @@ patches:
 # Note: 2.009 exists and does not have the problem anymore
 ---
 match:
-  distribution: '/Net-Server-(2.008|2.009)\.tar\.gz'
-  env:
-    USER: '\.'
-patches:
-  - SREZIC/patches/Net-Server-2.008-RT85586.patch
-# patch fixes the "dot in user/group name" problem
----
-match:
   distribution: '/Net-Server-2.009\.tar\.gz'
   perlconfig:
     # Try to match debian/buster (self-compiled or system perl) or Ubuntu 20.04
