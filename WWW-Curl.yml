@@ -62,17 +62,6 @@ patches:
 ---
 match:
   distribution: '/\QWWW-Curl-4.17.tar.gz\E'
-  env:
-    TRAVIS_OS_NAME: linux
-patches:
-  - SREZIC/patches/WWW-Curl-4.17-RT117793.patch
-  - SREZIC/patches/WWW-Curl-4.17-RT120736.patch
-  - SREZIC/patches/WWW-Curl-4.17-RT130591.patch
-# same as prefs sections above
-# but linux distribution detection on container systems does not work (depends on host kernel), so we use a workaround instead (environment variable)
----
-match:
-  distribution: '/\QWWW-Curl-4.17.tar.gz\E'
   perlconfig:
     archname: linux
     osvers: '^(5\.3\.0|5\.9\.0)'
