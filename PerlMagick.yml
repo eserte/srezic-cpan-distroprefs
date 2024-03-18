@@ -1,30 +1,22 @@
----
-match:
-#  distribution: "^JCRISTY/PerlMagick-6.71(|-1).tar.gz"
-  distribution: '^JCRISTY/PerlMagick-6\.'
-  env:
-    PERL_BATCH: yes
-disabled: 1
-# XXX avoid testing this over and over again...
+# Image::Magick (aka PerlMagick) is known to work only exactly
+# specific imagemagick releases, i.e. usually it does not
+# work with an imagemagick already installed from the
+# system's package manager.
+#
+# To install a matching Image::Magick e.g. for a self-compiled
+# perl you can use the following helper scripts on
+# Debian Linux and FreeBSD:
+#
+#   https://github.com/eserte/srezic-misc/blob/master/scripts/install-imagemagick-on-debian.pl
+#   https://github.com/eserte/srezic-misc/blob/master/scripts/install-imagemagick-on-freebsd.pl
+#
+# Please make sure to read the comments, as the installation
+# process is not always smooth.
 --- 
 #comment: "Usually only works with current source which comes with PerlMagick anyway"
 match:
-  distribution: "^JCRISTY/PerlMagick-"
-  perlconfig:
-    osname: freebsd
-    osvers: 8.0-release
-  env:
-    PERL_PARALLEL_SMOKER: "^(|no)$"
-goto: /usr/local/src/work/ImageMagick-6.5.5-10/PerlMagick/.
+  distribution: '^JCRISTY/(Image-Magick-|PerlMagick-)\d'
 test:
   env:
     DISPLAY: ""
---- 
-#comment: "Usually only works with current source which comes with PerlMagick anyway"
-match:
-  distribution: "^JCRISTY/PerlMagick-"
-#disabled: 1
-test:
-  env:
-    DISPLAY: ""
-# no display, so "display" will not be used
+# no display, so possibly interactive tests using the "display" command will be skipped
