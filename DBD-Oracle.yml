@@ -2,14 +2,7 @@
 match:
   distribution: '/DBD-Oracle-\d'
   env:
-    DOMAINNAME: herceg.de
-disabled: 1
-comment: "I don't have Oracle installed"
----
-match:
-  distribution: '/DBD-Oracle-\d'
-  perlconfig:
-    myuname: 'linux ws40601'
+    PERL_ORACLECLIENTLIB_INSTALLED: "12.2"
 pl:
   env:
     LD_LIBRARY_PATH: /usr/lib/oracle/12.2/client64/lib/
@@ -34,6 +27,8 @@ match:
   distribution: '/DBD-Oracle-\d'
   perlconfig:
     archname: 'x86_64-linux'
+  env:
+    PERL_ORACLECLIENTLIB_INSTALLED: "11.2"
 pl:
   env:
     LD_LIBRARY_PATH: /usr/lib/oracle/11.2/client64/lib/
@@ -45,6 +40,8 @@ match:
   distribution: '/DBD-Oracle-\d'
   perlconfig:
     archname: darwin
+  env:
+    PERL_ORACLECLIENTLIB_INSTALLED: "12.2"
 disabled: 1
 # XXX Unfortunately this does not work, need more research
 pl:
