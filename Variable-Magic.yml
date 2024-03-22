@@ -12,3 +12,4 @@ match:
     version: '^5\.39\.(7|8)'
 patches:
   - SREZIC/patches/Variable-Magic-0.63-RT151104-DAVEM.patch
+# 0.64 is fixed
