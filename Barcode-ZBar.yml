@@ -9,3 +9,10 @@ depends:
 pl:
   commandline: 'rm -rf inc/; $PERL Makefile.PL'
 # https://rt.cpan.org/Ticket/Display.html?id=122062
+---
+match:
+  distribution: '/Barcode-ZBar-0\.10\.'
+  perlconfig:
+    myuname: '.*linux cabulja 4\.'
+goto: SPADIX/Barcode-ZBar-0.04.tar.gz
+# older Linux versions need the older Barcode::ZBar
