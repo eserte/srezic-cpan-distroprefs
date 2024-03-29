@@ -1,6 +1,6 @@
 ---
 match:
-  distribution: '/Barcode-ZBar-0\.04\.'
+  distribution: '/Barcode-ZBar-0\.(04|10)\.'
   perlconfig:
     archname: freebsd
 depends:
