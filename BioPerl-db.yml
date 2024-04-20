@@ -1,7 +1,0 @@
----
-match:
-  distribution: '/BioPerl-db-\d'
-pl:
-  expect:
-    - "Have you already installed BioSQL"
-    - "\n"

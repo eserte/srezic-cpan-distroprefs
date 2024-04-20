@@ -21,3 +21,11 @@ comment: "Too many questions..."
 #    - "\n"
 #    - "\QName of your existing Biosql database, as it is known to your RDBMS (optional, '' for none)?"
 #    - "\n"
+
+---
+match:
+  distribution: '/BioPerl-db-\d'
+pl:
+  expect:
+    - "Have you already installed BioSQL"
+    - "\n"
