@@ -5,3 +5,4 @@ match:
     version: '^5\.39\.(4|5|6|7|8|9)$'
 patches:
   - SREZIC/patches/Devel-Size-0.83-RT149902.patch
+# patch was included in 0.83_50
