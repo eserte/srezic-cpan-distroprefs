@@ -1,15 +1,12 @@
-#---
-#match:
-#  distribution: '/BerkeleyDB-\d'
-#  perlconfig:
-#    osname: darwin
-#pl:
-#  env:
-#    BERKELEYDB_LIB: /usr/local/lib
-#    BERKELEYDB_INCLUDE: /usr/local/include
-#    BERKELEYDB_NAME: -ldb-6
-## No distroprefs support needed anymore (checked with MacOSX 10.14),
-## but probably still requires "brew install berkeley-db"
+---
+match:
+  distribution: '/BerkeleyDB-\d'
+  perlconfig:
+    osname: darwin
+pl:
+  env:
+    BERKELEYDB_LIB: /usr/local/opt/berkeley-db/lib
+    BERKELEYDB_INCLUDE: /usr/local/opt/berkeley-db/include
 ---
 match:
   distribution: '/BerkeleyDB-\d'
