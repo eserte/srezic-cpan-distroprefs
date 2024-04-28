@@ -5,6 +5,17 @@ match:
     archname: freebsd
 pl:
   args:
-    - INC=-I/usr/local/include/db48
-    - LIBS="-L/usr/local/lib -ldb-4.8"
-# requires installation of "db48" package
+    - INC=-I/usr/local/include/db18
+    - LIBS="-L/usr/local/lib/db18 -ldb"
+# requires installation of "db18" package
+# however, 1.92 has test failures
+---
+match:
+  distribution: '/BDB-\d'
+  perlconfig:
+    archname: darwin
+pl:
+  args:
+    - INC=-I/usr/local/opt/berkeley-db/include
+    - LIBS="-L/usr/local/opt/berkeley-db/lib -ldb"
+# requires installation of corresponding brew package, see sysdeps
