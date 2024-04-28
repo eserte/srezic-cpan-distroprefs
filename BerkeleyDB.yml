@@ -36,5 +36,5 @@ match:
     archname: '(arm64|amd64|aarch64)-freebsd'
 pl:
   env:
-    BERKELEYDB_INCLUDE: /usr/local/include/db5
-    BERKELEYDB_LIB: /usr/local/lib/db5
+    BERKELEYDB_INCLUDE: /usr/local/include/db18
+    BERKELEYDB_LIB: /usr/local/lib/db18
