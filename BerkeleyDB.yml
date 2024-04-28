@@ -35,3 +35,13 @@ pl:
   env:
     BERKELEYDB_INCLUDE: /usr/local/include/db18
     BERKELEYDB_LIB: /usr/local/lib/db18
+---
+match:
+  distribution: '/BerkeleyDB-\d'
+  perlconfig:
+    archname: linux
+    # match fedora (10-99)
+    osvers: '\.fc\d\d\.'
+pl:
+  env:
+    BERKELEYDB_NAME: -ldb-5
