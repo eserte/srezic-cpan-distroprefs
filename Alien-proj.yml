@@ -1,0 +1,29 @@
+---
+match:
+  distribution: '/\QAlien-proj-1.27.tar.gz\E'
+  perlconfig:
+    archname: "-linux"
+    osvers: '^3\.10\.0-.*\.el7\.'
+pl:
+  env:
+    ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
+make:
+  env:
+    ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
+patches:
+  - SREZIC/patches/Alien-proj-1.27-proj-version-lt.patch
+---
+match:
+  distribution: '/\QAlien-proj-1.27.tar.gz\E'
+# try to match Debian/stretch
+  perlconfig:
+    osname: linux
+    osvers: '^(4\.8\.0-|4\.9\.0-)'
+pl:
+  env:
+    ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
+make:
+  env:
+    ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
+patches:
+  - SREZIC/patches/Alien-proj-1.27-proj-version-lt.patch
