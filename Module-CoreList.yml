@@ -7,6 +7,12 @@ match:
 ---
 match:
   distribution: '/Module-CoreList-\d+\..*'
+  perlconfig:
+    version: '^5\.(8|9|1\d|2\d|30|31|32|33|34|35|36|37)\.'
+# unlikely a downgrade for these older perl versions
+---
+match:
+  distribution: '/Module-CoreList-\d+\..*'
 disabled: 1
 # Avoid possible downgrades --- cpan_smoke_modules/_wrapper3 is
 # unfortunately not smart enough to detect this situation.
