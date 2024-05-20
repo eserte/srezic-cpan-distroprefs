@@ -4,6 +4,7 @@ match:
   perlconfig:
     archname: "-linux"
     osvers: '^3\.10\.0-.*\.el7\.'
+# proj 9.x.x does not work as it expects a newer c++ (newer warning switches...)
 pl:
   env:
     ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
@@ -19,6 +20,23 @@ match:
   perlconfig:
     osname: linux
     osvers: '^(4\.8\.0-|4\.9\.0-)'
+# proj 9.x.x does not work as it expects a newer c++ (newer warning switches...)
+pl:
+  env:
+    ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
+make:
+  env:
+    ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
+patches:
+  - SREZIC/patches/Alien-proj-1.27-proj-version-lt.patch
+---
+match:
+  distribution: '/\QAlien-proj-1.27.tar.gz\E'
+# try to match Debian/buster
+  perlconfig:
+    osname: linux
+    osvers: '^(4\.9\.0$|4\.19\.0-)'
+# with proj 9.x.x there are linker problems with sqlite
 pl:
   env:
     ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
