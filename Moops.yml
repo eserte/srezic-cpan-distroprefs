@@ -2,6 +2,6 @@
 match:
   distribution: '/\QMoops-0.038.tar.gz\E'
   perlconfig:
-    version: '^5\.(38|39)\.'
+    version: '^5\.(38|39|40)\.'
 patches:
   - SREZIC/patches/Moops-0.038-issue21-GREENEG.patch

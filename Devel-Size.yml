@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Devel-Size-0.83-RT149902.patch
 # patch was included in 0.83_50
+# Devel-Size-0.84 is released and passes

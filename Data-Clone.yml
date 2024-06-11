@@ -5,3 +5,4 @@ match:
     version: '^5\.(37\.(6|7|8|9|10|11)|(38|39)\.)'
 patches:
   - SREZIC/patches/Data-Clone-0.004-PR3-DEMERPHQ.patch
+# later Data::Clone versions (e.g. 0.006) are fixed
