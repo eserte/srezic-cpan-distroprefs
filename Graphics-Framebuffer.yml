@@ -4,3 +4,4 @@ match:
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
+    GFB_IGNORE_X: 1
