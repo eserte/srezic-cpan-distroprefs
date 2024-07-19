@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Genealogy-Wills-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1
