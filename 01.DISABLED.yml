@@ -434,11 +434,7 @@ comment: "Interactive configuration or tests"
 match:
   distribution: |
     ^(?x:
-      TURNERJW/Tk-JBrowseEntry-4.70.tar.gz
-    |TURNERJW/Tk-JBrowseEntry-4.74.tar.gz
-    |TURNERJW/Tk-JBrowseEntry-5.23.tar.gz
-    |TURNERJW/Tk-JBrowseEntry-5.24.tar.gz
-    |JNK/Tk-QuickTk-0.92.tar.gz
+      JNK/Tk-QuickTk-0.92.tar.gz
     |.*/ApacheBench-\d # wants some URLs
     |.*/Aut-\d # asks for a password
     |.*/Authen-CyrusSASL-\d
@@ -1548,7 +1544,6 @@ match:
     |OALDERS/lazy-0.000009.tar.gz # Out of memory errors, or sometimes endless loops generating huge logfiles --- https://github.com/oalders/lazy/issues/1
     |SYBER/XS-Install-1.0.2.tar.gz # self-dependency --- 1.0.3 is fixed
     |.*/Acme-DependOnEverything-\d # not useful
-    |TURNERJW/Tk-JThumbnail-2.0.tar.gz # interactive X program
     |PRBRENAN/Dita-GB-Standard-20190721.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=130134
     |PRBRENAN/Data-Edit-Xml-Xref-20190721.tar.gz # recursive dependency --- https://rt.cpan.org/Ticket/Display.html?id=130134
     |.*/Alien-Archive-Npk-\d # interactive configuration, does not work anyway due to unavailable remote file, only on BackPAN
