@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/Tk-JFileDialog-\d'
+test:
+  env:
+    AUTOMATED_TESTING: 1

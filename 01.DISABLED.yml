@@ -486,7 +486,6 @@ match:
     |.*/Tk-GridEntry-\d
     |.*/Tk-HistMenu-\d
     |.*/Tk-Image-Cut-\d
-    |.*/Tk-JFileDialog-\d
     |.*/Tk-LabPopEntry-0.05.tar.gz
     |.*/Tk-LockDisplay-\d
     |.*/Tk-MListbox-\d
