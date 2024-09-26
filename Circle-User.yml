@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/Circle-User-0\.06\.'
+disabled: 1
+# see https://rt.cpan.org/Ticket/Display.html?id=155774
