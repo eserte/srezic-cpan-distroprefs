@@ -5,3 +5,5 @@ match:
     version: '5\.(37\.1\d|(37|38|39|40)\.\d+)'
 patches:
   - SREZIC/patches/Method-Signatures-20170211-RT149458-GREGOA.patch
+# With perl 5.41.x there's more breakage due to
+# given/when/switch removal --- no patch for that.
