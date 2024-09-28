@@ -11,3 +11,10 @@ patches:
 #
 # Segfaults seen for t/00-begin.t on fbsd12 & various perls
 # -> https://rt.cpan.org/Ticket/Display.html?id=124067
+
+---
+match:
+  distribution: '/Type-Tiny-2\.004000\.tar\.gz'
+  perlconfig:
+    version: '^5\.41\.'
+goto: T/TO/TOBYINK/Type-Tiny-2.005_002.tar.gz
