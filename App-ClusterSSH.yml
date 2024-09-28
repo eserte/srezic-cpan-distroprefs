@@ -8,6 +8,6 @@ patches:
 match:
   distribution: '/\QApp-ClusterSSH-4.16.tar.gz\E'
   perlconfig:
-    version: '^5\.(37|38|39|40)\.\d+$'
+    version: '^5\.(37|38|39|40|41)\.\d+$'
 patches:
   - SREZIC/patches/App-ClusterSSH-4.16-PR150-TMANCILL.patch
