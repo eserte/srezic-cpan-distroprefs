@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QPlack-Test-Agent-1.5.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+patches:
+  - SREZIC/patches/Plack-Test-Agent-1.5-no-modern-perl.patch
+# Modern::Perl is problematic: https://rt.cpan.org/Ticket/Display.html?id=155822
