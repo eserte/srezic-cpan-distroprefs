@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/\Qcommon-sense-3.75.tar.gz\E'
+patches:
+  - SREZIC/patches/common-sense-3.75-RT154926.patch
