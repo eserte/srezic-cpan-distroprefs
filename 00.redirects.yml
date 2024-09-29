@@ -10,3 +10,10 @@ match:
   distribution: '/Net-SSH2-0\.67\.'
 goto: SALVA/Net-SSH2-0.68.tar.gz
 # Workaround indexing problem: https://rt.cpan.org/Ticket/Display.html?id=124502
+---
+match:
+  distribution: '/SQL-Translator-1\.64\.'
+# Currently there's an indexing problem
+# https://github.com/dbsrgits/sql-translator/issues/174
+# -> goto to the non-indexed latest version
+goto: VEESH/SQL-Translator-1.65.tar.gz
