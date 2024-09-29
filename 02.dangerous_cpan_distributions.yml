@@ -11,6 +11,7 @@ match:
       \QAALLAN/Astro-Catalog-2.1.3.tar.gz\E
      |\QAANOAA/Hubot-Scripts-Bundle-0.1.1.tar.gz\E
      |\QAAR/Net-SPID-0.12.tar.gz\E
+     |\QABALAMA/Acrux-0.04.tar.gz\E
      |\QABALAMA/App-MBUtiny-1.09.tar.gz\E
      |\QABALAMA/App-MonM-1.05.tar.gz\E
      |\QABALAMA/App-MonM-Notifier-1.01.tar.gz\E
@@ -19,12 +20,12 @@ match:
      |\QABALAMA/MPMinus-1.20.tar.gz\E
      |\QABALAMA/MToken-1.03.tar.gz\E
      |\QABALAMA/WWW-MLite-1.05.tar.gz\E
+     |\QABALAMA/WWW-Suffit-Client-1.02.tar.gz\E
      |\QABALAMA/WWW-Suffit-Server-1.01.tar.gz\E
+     |\QABALAMA/WWW-Suffit-Server-1.10.tar.gz\E
      |\QABBYPAN/Novel-Robot-0.42.tar.gz\E
      |\QABELTJE/V-0.16.tar.gz\E
      |\QABIGAIL/Regexp-Sudoku-2022022401.tar.gz\E
-     |\QABRETT/App-SFDC-0.13.tar.gz\E
-     |\QABRETT/WWW-SFDC-0.25.tar.gz\E
      |\QABW/Template-Toolkit-1.07.tar.gz\E
      |\QACALPINI/Win32-GUI-0.0.558.tar.gz\E
      |\QACCARDO/HTML-Element-Replacer-0.03.tar.gz\E
@@ -62,7 +63,6 @@ match:
      |\QAJNN/Neo4j-Driver-0.33.tar.gz\E
      |\QAKALINUX/Devel-Agent-0.006.tar.gz\E
      |\QAKAPLAN/Devel-NYTProf-1.15.tar.gz\E
-     |\QAKHUETTEL/Lab-Measurement-3.880.tar.gz\E
      |\QAKHUETTEL/Lab-Measurement-3.881.tar.gz\E
      |\QAKIYM/Skype-Any-0.03.tar.gz\E
      |\QAKXLIX/Sisimai-4.0.1.tar.gz\E
@@ -147,6 +147,8 @@ match:
      |\QASPOSE/AsposeCellsCloud-CellsApi-23.12.tar.gz\E
      |\QASPOSE/AsposeCellsCloud-CellsApi-23.6.tar.gz\E
      |\QASPOSE/AsposeCellsCloud-CellsApi-23.9.tar.gz\E
+     |\QASPOSE/AsposeCellsCloud-CellsApi-24.4.tar.gz\E
+     |\QASPOSE/AsposeCellsCloud-CellsApi-24.5.1.tar.gz\E
      |\QASPOSE/AsposeImagingCloud-ImagingApi-0.tar.gz\E
      |\QASPOSE/AsposeSlidesCloud-SlidesApi-1.03.tar.gz\E
      |\QASPOSE/AsposeSlidesCloud-SlidesApi-20.09.tar.gz\E
@@ -210,6 +212,7 @@ match:
      |\QBAYSIDE/Catalyst-Plugin-CRUD-0.15.tar.gz\E
      |\QBBIRTH/Win32-SerialPort-0.19.tar.gz\E
      |\QBBYRD/Acme-Web-PodDisplay-0.90.tar.gz\E
+     |\QBDFOY/CPAN-Audit-20240414.001.tar.gz\E
      |\QBDUGGAN/Clustericious-0.9908.tar.gz\E
      |\QBDUGGAN/Mojolicious-Plugin-Toto-0.08.tar.gz\E
      |\QBDUGGAN/Rose-Planter-0.36.tar.gz\E
@@ -286,10 +289,9 @@ match:
      |\QBRONSON/Term-ShellUI-0.86.tar.gz\E
      |\QBROQ/Gitalist-0.003006.tar.gz\E
      |\QBROQ/Gitalist-0.004004.tar.gz\E
-     |\QBRTASTIC/Bitcoin-Crypto-1.008.tar.gz\E
      |\QBRTASTIC/Bitcoin-Crypto-2.003.tar.gz\E
-     |\QBRTASTIC/Form-Tiny-2.16.tar.gz\E
      |\QBRTASTIC/Game-TileMap-0.002.tar.gz\E
+     |\QBRTASTIC/Kelp-Module-Symbiosis-1.14.tar.gz\E
      |\QBRUCEK/IO-Multiplex-1.00.tar.gz\E
      |\QBRUMMETT/Devel-hdb-0.23.tar.gz\E
      |\QBRUMMETT/UR-0.46.tar.gz\E
@@ -298,6 +300,7 @@ match:
      |\QBUDNEY/Email-Fingerprint-0.37.tar.gz\E
      |\QBUDNEY/Email-Fingerprint-0.47.tar.gz\E
      |\QBULB/Config-Maker-0.001.tar.gz\E
+     |\QBURAK/App-Oozie-0.017.tar.gz\E
      |\QBYRNE/SOAP-Lite-0.69.tar.gz\E
      |\QBYRNE/SOAP/SOAP-Lite-0.60a.tar.gz\E
      |\QBYTEROCK/MooseX-AuthorizedMethodRoles-0.00.05.tar.gz\E
@@ -338,6 +341,7 @@ match:
      |\QCHEVALIER/Google-Ads-GoogleAds-Client-17.0.0.tar.gz\E
      |\QCHEVALIER/Google-Ads-GoogleAds-Client-19.0.0.tar.gz\E
      |\QCHEVALIER/Google-Ads-GoogleAds-Client-21.0.0.tar.gz\E
+     |\QCHEVALIER/Google-Ads-GoogleAds-Client-23.0.0.tar.gz\E
      |\QCHGOVUK/MojoX-Plugin-AnyCache-0.01.tar.gz\E
      |\QCHILTS/SRS-EPP-Proxy-0.21.tar.gz\E
      |\QCHIM/Dist-Zilla-PluginBundle-Author-CHIM-0.052002.tar.gz\E
@@ -369,6 +373,7 @@ match:
      |\QCODECHILD/XML-Bare-0.07.tar.gz\E
      |\QCOFFEE/Lazy-Util-0.002.tar.gz\E
      |\QCOFFEE/Time-C-0.001.tar.gz\E
+     |\QCOLINK/SVG-Estimate-1.0116.tar.gz\E
      |\QCOLLINS/LEGO-NXT-1.40.tar.gz\E
      |\QCOLLINS/LEGO-NXT-1.42.tar.gz\E
      |\QCONTYK/Tangerine-0.10.tar.gz\E
@@ -382,9 +387,9 @@ match:
      |\QCORNELIUS/App-I18N-0.013.tar.gz\E
      |\QCORNELIUS/I18N-Handle-0.02.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Common-2.0.15.1.tar.gz\E
-     |\QCOUDOT/Lemonldap-NG-Common-2.18.1.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Handler-2.0.14.tar.gz\E
      |\QCOUDOT/Lemonldap-NG-Manager-2.0.15.tar.gz\E
+     |\QCPANIC/DBIx-Squirrel-1.4.2.tar.gz\E
      |\QCRENZ/Module-Find-0.13.tar.gz\E
      |\QCRLCU/Mojolicious-Plugin-Events-0.3.1.tar.gz\E
      |\QCROMEDOME/Dancer2-0.301001.tar.gz\E
@@ -440,6 +445,7 @@ match:
      |\QDBROWNING/Business-Shipping-2.03.tar.gz\E
      |\QDBUCHMAN/MegaDistro-0.01.tar.gz\E
      |\QDCANTRELL/Data-CompactReadonly-0.0.6.tar.gz\E
+     |\QDCANTRELL/Devel-CheckOS-2.03.tar.gz\E
      |\QDCLINTON/Cache-Cache-0.09.tar.gz\E
      |\QDCLINTON/Cache-Cache-0.99.tar.gz\E
      |\QDCONWAY/Class-Contract-1.00.tar.gz\E
@@ -452,7 +458,9 @@ match:
      |\QDELANO/Data-All-0.036.tar.gz\E
      |\QDEPESZ/Pg-SQL-PrettyPrinter-0.11.tar.gz\E
      |\QDERF/Travel-Routing-DE-HAFAS-0.01.tar.gz\E
+     |\QDERF/Travel-Status-DE-DBWagenreihung-0.14.tar.gz\E
      |\QDERF/Travel-Status-DE-DeutscheBahn-3.01.tar.gz\E
+     |\QDERF/Travel-Status-DE-VRR-2.02.tar.gz\E
      |\QDERIV/Myriad-0.001.tar.gz\E
      |\QDERIV/Myriad-0.010.tar.gz\E
      |\QDEXTER/Plack-App-Proxy-Backend-HTTP-Tiny-0.0100.tar.gz\E
@@ -508,6 +516,7 @@ match:
      |\QDROLSKY/DateTime-TimeZone-2.55.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-2.56.tar.gz\E
      |\QDROLSKY/DateTime-TimeZone-2.57.tar.gz\E
+     |\QDROLSKY/DateTime-TimeZone-2.62.tar.gz\E
      |\QDROLSKY/Dist-Zilla-PluginBundle-DROLSKY-1.19.tar.gz\E
      |\QDRRHO/RDF-AllegroGraph-Easy-0.01.tar.gz\E
      |\QDRRHO/TM-1.45.tar.gz\E
@@ -549,6 +558,7 @@ match:
      |\QEGERMAN/Lemonldap-Config-Parameters-1.03.tar.gz\E
      |\QEGERMAN/Lemonldap-Handlers-CAS-1.0.tar.gz\E
      |\QEGERMAN/Lemonolap-Log4lemon-0.02.tar.gz\E
+     |\QEHUELS/Protocol-Sys-Virt-v10.3.9.tar.gz\E
      |\QEHUELS/Sys-Virt-IO-Async-0.0.3.tar.gz\E
      |\QEILARA/MooseX-Role-Listenable-0.004.tar.gz\E
      |\QEILARA/XUL-Node-0.05.tar.gz\E
@@ -646,6 +656,7 @@ match:
      |\QGBARR/IO-Tty-0.04.tar.gz\E
      |\QGBOUGARD/FusionInventory-Agent-2.3.19.tar.gz\E
      |\QGBROWN/Net-EPP-0.24.tar.gz\E
+     |\QGBROWN/Net-RDAP-0.25.tar.gz\E
      |\QGDT/Net-SecurityCenter-0.206.tar.gz\E
      |\QGDT/URI-PackageURL-2.04.tar.gz\E
      |\QGENEHACK/App-GitGitr-0.901.tar.gz\E
@@ -728,6 +739,7 @@ match:
      |\QGUIDO/Qgoda-0.9.4.tar.gz\E
      |\QGUIDO/Qgoda-0.9.6.tar.gz\E
      |\QGUIDO/libintl-perl-1.19.tar.gz\E
+     |\QGUILLEM/Dpkg-1.20.9.tar.gz\E
      |\QGUILLEM/Dpkg-1.21.22.tar.gz\E
      |\QGWADEJ/Net-DAV-Server-1.304.tar.gz\E
      |\QGWYN/POE-Component-Daemon-0.1301.tar.gz\E
@@ -899,6 +911,7 @@ match:
      |\QIX/libservlet-0.9.1.tar.gz\E
      |\QJACKMANEY/Hypatia-Chart-Clicker-0.01.tar.gz\E
      |\QJAMADAM/Mojolicious-Plugin-PlackMiddleware-0.19.tar.gz\E
+     |\QJANESKIL/Tools/Daje-Generate-0.04.tar.gz\E
      |\QJANPAZ/DBD-XBase-1.05.tar.gz\E
      |\QJANPAZ/RayApp-1.145.tar.gz\E
      |\QJANPAZ/RayApp-2.002.tar.gz\E
@@ -916,10 +929,7 @@ match:
      |\QJBD/Pistachio-0.08.tar.gz\E
      |\QJBLAKEY/Crypt-Enigma-1.1.tar.gz\E
      |\QJBRYAN/AI-NeuralNet-BackProp-0.77.zip\E
-     |\QJDEGUEST/Module-Generic-v0.21.1.tar.gz\E
      |\QJDEGUEST/Net-API-REST-v0.8.1.tar.gz\E
-     |\QJDEGUEST/Net-API-Stripe-0.8.tar.gz\E
-     |\QJDEGUEST/Net-API-Stripe-1.0.tar.gz\E
      |\QJDHEDDEN/Object-InsideOut-4.02.tar.gz\E
      |\QJDS/DBIx-Table-TestDataGenerator-0.003.tar.gz\E
      |\QJDS/DBIx-Table-TestDataGenerator-0.004.tar.gz\E
@@ -943,203 +953,6 @@ match:
      |\QJFRIED/Rex-1.2.1.tar.gz\E
      |\QJGARVIN/Finance-Bank-Wachovia-0.3.tar.gz\E
      |\QJGAZELEY/App-PhotoDB-0.04.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Af-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Agq-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ak-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Am-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ar-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-As-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Asa-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ast-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Bas-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Be-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Bem-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Bez-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Bg-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Bm-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Bn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Bo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Br-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Brx-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ca-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ccp-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ce-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ceb-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Cgg-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Chr-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ckb-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Cs-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Cy-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Da-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Dav-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-De-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Dje-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Doi-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Dsb-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Dua-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Dyo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Dz-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ebu-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ee-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-El-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-En-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Eo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Es-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Et-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Eu-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ewo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fa-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fi-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fil-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fr-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fur-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Fy-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ga-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Gd-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Gl-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Gsw-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Gu-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Guz-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Gv-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ha-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Haw-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-He-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Hi-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Hr-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Hsb-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Hu-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Hy-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Id-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ig-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ii-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Is-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-It-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ja-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Jgo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Jmc-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Jv-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ka-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kab-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kam-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kde-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kea-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kgp-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Khq-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ki-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kk-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kkj-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kl-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kln-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Km-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ko-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kok-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ksb-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ksf-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ksh-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ku-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Kw-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ky-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lag-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lb-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lg-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lkt-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ln-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lrc-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lt-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lu-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Luo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Luy-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Lv-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mai-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mas-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mer-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mfe-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mg-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mgh-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mgo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mi-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mk-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ml-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mr-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ms-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mt-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mua-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-My-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Mzn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Naq-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nb-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nd-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nds-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ne-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nl-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nmg-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nnh-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nus-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Nyn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Om-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Or-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Os-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Pcm-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Pl-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ps-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Pt-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Qu-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Rm-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Rn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ro-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Rof-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ru-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Rw-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Rwk-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sa-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sah-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Saq-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sbp-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sc-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Se-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Seh-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ses-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sg-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Si-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sk-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sl-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Smn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sn-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-So-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sq-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sv-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Sw-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ta-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Te-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Teo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Tg-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Th-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ti-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Tk-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-To-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Tr-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Tt-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Tzm-v0.44.0.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ug-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Uk-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Ur-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Vi-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Vun-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Wae-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Wo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Xh-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Xog-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Yav-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Yi-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Yo-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Yrl-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Zgh-v0.40.1.tar.gz\E
-     |\QJGNI/Locale-CLDR-Locales-Zu-v0.40.1.tar.gz\E
      |\QJGOULAH/MooseX-LogDispatch-1.1003.tar.gz\E
      |\QJHALLOCK/Gapp-0.26-withoutworldwriteables.tar.gz\E
      |\QJHALLOCK/Gapp-App-0.007.tar.gz\E
@@ -1147,7 +960,6 @@ match:
      |\QJHELWIG/WWW-PivotalTracker-0.17.tar.gz\E
      |\QJHI/perl-5.7.2.tar.gz\E
      |\QJHORWITZ/Krb4-0.93.tar.gz\E
-     |\QJHTHORSEN/DOCSIS-ConfigFile-0.75.tar.gz\E
      |\QJHTHORSEN/JSON-Validator-4.25.tar.gz\E
      |\QJILLROWE/BioX-Workflow-0.10.tar.gz\E
      |\QJILLROWE/BioX-Workflow-Command-2.0.10.tar.gz\E
@@ -1249,6 +1061,8 @@ match:
      |\QJUSTIN/Telegram-Bot-0.004.tar.gz\E
      |\QJUSTIN/Telegram-Bot-0.012.tar.gz\E
      |\QJV/App-Music-PlayTab-2.027.tar.gz\E
+     |\QJV/JSON-Relaxed-0.052.tar.gz\E
+     |\QJV/JSON-Relaxed-0.090.tar.gz\E
      |\QJVANASCO/Authen-PluggableCaptcha-0.02.tar.gz\E
      |\QJWB/Bio-Gonzales-0.0546.tar.gz\E
      |\QJWB/Bio-Grid-Run-SGE-0.042.tar.gz\E
@@ -1272,7 +1086,6 @@ match:
      |\QKANE/File-Fetch-0.08.tar.gz\E
      |\QKANE/IPC-Cmd-0.22.tar.gz\E
      |\QKANEY/XML-ASCX12-0.03.tar.gz\E
-     |\QKARASIK/Prima-1.68.tar.gz\E
      |\QKARASIK/Prima-1.70.tar.gz\E
      |\QKARJALA/BoardStreams-v0.0.23.tar.gz\E
      |\QKARUPA/Sledge-Template-Xslate-0.0.2.tar.gz\E
@@ -1411,11 +1224,14 @@ match:
      |\QLETO/Math-GSL-0.40.tar.gz\E
      |\QLGEHLEN/SVG-Rasterize-0.003006.tar.gz\E
      |\QLHELION/Helios-2.81.tar.gz\E
+     |\QLHRST/OpenSearch-0.03.tar.gz\E
+     |\QLHRST/OpenSearch-0.90.tar.gz\E
      |\QLIJINFENG/MYDan-0.1.12.tar.gz\E
      |\QLIJINFENG/MYDan-0.1.2.tar.gz\E
      |\QLIKEHIKE/CGI-OptimalQuery-0.19.tar.gz\E
      |\QLIKEHIKE/CGI-OptimalQuery-0.22.tar.gz\E
      |\QLINNIN/Business-PayPal-SDK-0.11.tar.gz\E
+     |\QLION/Data-URIID-v0.05.tar.gz\E
      |\QLITTLEURL/XML-NmapParser-0.02.tar.gz\E
      |\QLJEPSON/CGI-Ex-2.44.tar.gz\E
      |\QLKUNDRAK/RPM2-0.70.tar.gz\E
@@ -1511,6 +1327,7 @@ match:
      |\QMATEU/Weather-WWO-0.04.tar.gz\E
      |\QMATHEW/Locale-MakePhrase-0.4.tar.gz\E
      |\QMATHIAS/App-ArduinoBuilder/App-ArduinoBuilder-0.04.tar.gz\E
+     |\QMATHIAS/Dist-Setup/App-PTP-1.13.tar.gz\E
      |\QMATHIAS/SQL-Exec/SQL-Exec-0.09.tar.gz\E
      |\QMATTBM/DNS-ZoneFile-0.92.tar.gz\E
      |\QMATTP/Data-Perl-0.001005.tar.gz\E
@@ -1534,6 +1351,7 @@ match:
      |\QMBRADSHAW/Mail-BIMI-1.20200226.tar.gz\E
      |\QMBRADSHAW/Mail-Milter-Authentication-v1.0.1.tar.gz\E
      |\QMBRADSHAW/Mail-TLSRPT-1.20200306.1.tar.gz\E
+     |\QMCAST/Test-Unit-0.25.tar.gz\E
      |\QMCAUDILL/Net-Bot-IRC-NumericCodes-0.04.tar.gz\E
      |\QMCHANG/CGIGraph-0.9.tar.gz\E
      |\QMCHE/Mojolicious-Plugin-RenderCGI-0.072.tar.gz\E
@@ -1700,10 +1518,8 @@ match:
      |\QNGLENN/Algorithm-AM-2.45.tar.gz\E
      |\QNGLENN/Algorithm-AM-3.02.tar.gz\E
      |\QNGRAHAM/Poker-Eval-0.02.tar.gz\E
-     |\QNHORNE/Genealogy-ObituaryDailyTimes-0.10.tar.gz\E
      |\QNHORNE/Genealogy-Wills-0.03.tar.gz\E
      |\QNHORNE/Geo-Coder-Free-0.34.tar.gz\E
-     |\QNHORNE/Locale-Places-0.10.tar.gz\E
      |\QNICS/Catmandu-0.0102.tar.gz\E
      |\QNICS/Catmandu-0.04.tar.gz\E
      |\QNICS/Catmandu-0.0402.tar.gz\E
@@ -1766,6 +1582,7 @@ match:
      |\QOETIKER/Mojo-SOAP-Client-0.1.0.tar.gz\E
      |\QOKELLO/uHTML-1.06.tar.gz\E
      |\QOLIVER/App-Netdisco-2.075003.tar.gz\E
+     |\QOLIVER/App-Netdisco-2.077011.tar.gz\E
      |\QOLIVER/Catalyst-Plugin-AutoCRUD-1.112770.tar.gz\E
      |\QOLIVER/Net-Appliance-Session-2.111080.tar.gz\E
      |\QOLIVER/Net-Appliance-Session-3.122530.tar.gz\E
@@ -1806,9 +1623,11 @@ match:
      |\QPERLANCAR/AppBase-Sort-0.004.tar.gz\E
      |\QPERLANCAR/Bencher-Scenario-Perl-Startup-0.053.tar.gz\E
      |\QPERLANCAR/Data-Unixish-1.572.tar.gz\E
+     |\QPERLANCAR/Locale-ID-Province-0.110.tar.gz\E
      |\QPERLANCAR/Sah-Schemas-Data-Sah-0.002.tar.gz\E
      |\QPERLANCAR/Sah-Schemas-Str-0.017.tar.gz\E
      |\QPERLANCAR/TableDataBundle-Business-ID-BPOM-20230207.0.0.tar.gz\E
+     |\QPERLANCAR/TableDataRoles-Standard-0.024.tar.gz\E
      |\QPERLANCAR/URI-Info-0.003.tar.gz\E
      |\QPERLJEDI/Net-Kubernetes-0.08.tar.gz\E
      |\QPERRAD/CORBA-C-2.60.tar.gz\E
@@ -1835,7 +1654,6 @@ match:
      |\QPEVANS/circle-fe-term-0.222060.tar.gz\E
      |\QPEVANS/circle-fe-term-0.232470.tar.gz\E
      |\QPEVANS/perl-5.34.3.tar.gz\E
-     |\QPEVANS/perl-5.36.3.tar.gz\E
      |\QPFEIFFER/makepp-2.0.98.2.tgz\E
      |\QPFISCHER/Getopt-Awesome-0.1.0.tar.gz\E
      |\QPFISCHER/Test-System-0.02.tar.gz\E
@@ -1910,6 +1728,7 @@ match:
      |\QRADCLIFF/WebService-Eventful-1.0.tar.gz\E
      |\QRAM/Carp-Datum-0.1.2.tar.gz\E
      |\QRANDERSON/HTTP-WebTest-1.02.tar.gz\E
+     |\QRAWLEYFOW/SlapbirdAPM-Agent-Dancer2-0.007.tar.gz\E
      |\QRAZZOR/Bio-DOOP-DOOP-1.03.tar.gz\E
      |\QRBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz\E
      |\QRBUELS/Bio-Chado-Schema-0.06001.tar.gz\E
@@ -1941,7 +1760,6 @@ match:
      |\QRIZEN/Facebook-Graph-1.0900.tar.gz\E
      |\QRIZEN/Facebook-Graph-1.1101.tar.gz\E
      |\QRJBS/Data-Rx-0.200007.tar.gz\E
-     |\QRJBS/perl-5.38.0.tar.gz\E
      |\QRKIES/Tk-Workspace-1.75.tar.gz\E
      |\QRKOBES/Apache-GeoIP-1.63.tar.gz\E
      |\QRKRIMEN/Doc-Simply-0.03.tar.gz\E
@@ -1975,6 +1793,7 @@ match:
      |\QROOTLEVEL/Net-SMS-2.13.tar.gz\E
      |\QROTH/Config-Objective-0.9.1.tar.gz\E
      |\QRPORRES/SNMP-LogParser-1.10178.tar.gz\E
+     |\QRRWO/DBIx-Class-Helper-WindowFunctions-v0.4.0.tar.gz\E
      |\QRSRCHBOY/MooseX-AutoDestruct-0.008.tar.gz\E
      |\QRSYMES/CGI-Panel-0.96.tar.gz\E
      |\QRTKH/Raisin-0.69.tar.gz\E
@@ -2079,6 +1898,7 @@ match:
      |\QSHIBAZAKI/WebService-Bitly-0.04.tar.gz\E
      |\QSHIBAZAKI/WebService-Bitly-0.05.tar.gz\E
      |\QSHIBUYA/Amon2-Setup-Flavor-Teng-0.02.tar.gz\E
+     |\QSHLOMIF/App-Git-Info-0.6.1.tar.gz\E
      |\QSHLOMIF/Games-ABC_Path-Generator-v0.1.0.tar.gz\E
      |\QSHLOMIF/XML-Grammar-Fiction-0.16.0.tar.gz\E
      |\QSHOOTNIX/ActiveRecord-Simple-0.94.tar.gz\E
@@ -2157,6 +1977,8 @@ match:
      |\QSRI/Mojolicious-7.94.tar.gz\E
      |\QSRI/Mojolicious-8.11.tar.gz\E
      |\QSRI/Mojolicious-8.19.tar.gz\E
+     |\QSRI/Mojolicious-9.36.tar.gz\E
+     |\QSRI/Mojolicious-9.37.tar.gz\E
      |\QSRI/Mojolicious-Plugin-Status-1.02.tar.gz\E
      |\QSRL/Net-ICal-0.14.tar.gz\E
      |\QSRSHAH/Probe-MachineInfo-0.06.tar.gz\E
@@ -2231,6 +2053,7 @@ match:
      |\QTIMB/DBI-1.634.tar.gz\E
      |\QTIMB/perl5.004_04.tar.gz\E
      |\QTIMBRODY/HTTP-OAI-3.28.tar.gz\E
+     |\QTINITA/YAML-LibYAML-0.89.tar.gz\E
      |\QTJENNESS/Starlink-AST-0.99.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.66.tar.gz\E
      |\QTJHLADISH/Bio-NEXUS-0.67.tar.gz\E
@@ -2284,7 +2107,6 @@ match:
      |\QTOMITA/Acme-Samurai-0.02.tar.gz\E
      |\QTOMMY/File-Util-4.132140.tar.gz\E
      |\QTOMYHERO/Catalyst-Plugin-Log-Colorful-0.12.tar.gz\E
-     |\QTONYC/Imager-1.023.tar.gz\E
      |\QTORBJORN/App-CatalystStarter-Bloated-v0.9.1.tar.gz\E
      |\QTOSHIOITO/Gnuplot-Builder-0.02.tar.gz\E
      |\QTRAVAIL/DBIx-Class-Schema-Slave-0.01100.tar.gz\E
@@ -2302,6 +2124,7 @@ match:
      |\QTURNERJW/StreamFinder-2.17.tar.gz\E
      |\QTURNERJW/StreamFinder-2.21.tar.gz\E
      |\QTURNERJW/StreamFinder-2.23.tar.gz\E
+     |\QTURNERJW/Tk-TextHighlight-1.2.tar.gz\E
      |\QTWENRICH/DBD-Solid-0.11a.tar.gz\E
      |\QTWH/Bio-GMOD-0.02.tar.gz\E
      |\QTWH/Bio-GMOD-0.022.tar.gz\E
@@ -2388,6 +2211,7 @@ match:
      |\QWBRASWELL/RPerl-1.700000.tar.gz\E
      |\QWBRASWELL/RPerl-2.450000.tar.gz\E
      |\QWBRASWELL/RPerl-3.200000.tar.gz\E
+     |\QWDAEMS/SpeL-Wizard-20240615.tar.gz\E
      |\QWEAV/DBIx-Perform-0.05.tar.gz\E
      |\QWEBORAMA/Riak-Light-0.052.tar.gz\E
      |\QWEBORAMA/WebService-Zaqar-0.004.tar.gz\E
@@ -2405,6 +2229,7 @@ match:
      |\QWJIAN/MColPro-1.12.tar.gz\E
      |\QWKI/Catalyst-View-ByCode-0.11.tar.gz\E
      |\QWLMB/Photonic-0.019.tar.gz\E
+     |\QWLMB/Photonic-0.021.tar.gz\E
      |\QWOLDRICH/App-pimpd-0.348.tar.gz\E
      |\QWORTHMINE/Data-Pokemon-Go-0.07.tar.gz\E
      |\QWORTHMINE/Date-Cutoff-JP-0.03.tar.gz\E
