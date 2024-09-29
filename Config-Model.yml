@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/\QConfig-Model-2.154.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+patches:
+  - SREZIC/patches/Config-Model-2.154-issue35.patch
