@@ -16,6 +16,13 @@ patches:
   - SREZIC/patches/DBIx-Class-0.082842-PR143-LEONT.patch
 ---
 match:
+  distribution: '/\QDBIx-Class-0.082843.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+patches:
+  - SREZIC/patches/DBIx-Class-0.082843-RT155847.patch
+---
+match:
   distribution: '/DBIx-Class-\d'
   perlconfig:
 # essentially Unix-like systems:
