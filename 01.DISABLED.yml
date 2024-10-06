@@ -1578,5 +1578,6 @@ match:
     |NHORNE/Locale-Places-0.09.tar.gz # too many warnings, disk may fill up
     |JAVONET/JavonetPerlSdk-v2\.1\.\d+\.tar.gz # usually big distribution (1GB)
     |JAVONET/JavonetPerlSdk-v2\.4\.\d+\.tar.gz # "
+    |JAVONET/JavonetPerlSdk-v2\.5\.\d+\.tar.gz # "
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
