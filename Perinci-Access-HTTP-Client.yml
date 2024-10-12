@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/\QPerinci-Access-HTTP-Client-0.24.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+depends:
+  requires:
+    match::smart: 0
+patches:
+  - SREZIC/patches/Perinci-Access-HTTP-Client-0.24-RT155843.patch
+# https://rt.cpan.org/Ticket/Display.html?id=155843
+# smartmatch -> match::smart
