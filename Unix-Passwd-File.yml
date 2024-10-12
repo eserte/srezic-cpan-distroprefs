@@ -1,0 +1,12 @@
+---
+match:
+  distribution: '/\QUnix-Passwd-File-0.251.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+depends:
+  requires:
+    match::smart: 0
+patches:
+  - SREZIC/patches/Unix-Passwd-File-0.251-RT156060.patch
+# https://rt.cpan.org/Ticket/Display.html?id=156060
+# This replaces ~~ by |M| from match::smart
