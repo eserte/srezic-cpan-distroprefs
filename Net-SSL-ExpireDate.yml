@@ -9,3 +9,4 @@ depends:
 pl:
   commandline: 'rm -rf inc/Test/More.pm; $PERL Makefile.PL'
 # https://rt.cpan.org/Ticket/Display.html?id=132824
+# Seems to be fixed with Net-SSL-ExpireDate-1.24_1
