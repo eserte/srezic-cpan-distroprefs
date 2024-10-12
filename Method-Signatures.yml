@@ -5,5 +5,10 @@ match:
     version: '5\.(37\.1\d|(37|38|39|40)\.\d+)'
 patches:
   - SREZIC/patches/Method-Signatures-20170211-RT149458-GREGOA.patch
+---
+match:
+  distribution: '/\QMethod-Signatures-20170211.tar.gz\E'
+patches:
+  - SREZIC/patches/Method-Signatures-20170211-RT156057.patch
 # With perl 5.41.x there's more breakage due to
-# given/when/switch removal --- no patch for that.
+# given/when/switch removal --- it's necessary to skip many tests.
