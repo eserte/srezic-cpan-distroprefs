@@ -8,6 +8,8 @@ patches:
 ---
 match:
   distribution: '/\QMethod-Signatures-20170211.tar.gz\E'
+  perlconfig:
+    version: '5\.(41)\.\d+'
 patches:
   - SREZIC/patches/Method-Signatures-20170211-RT156057.patch
 # With perl 5.41.x there's more breakage due to
