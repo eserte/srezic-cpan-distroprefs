@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/\QTest-utf8-1.02.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+patches:
+  - SREZIC/patches/Test-utf8-1.02-RT154915.patch
+# https://rt.cpan.org/Ticket/Display.html?id=154915
+# remove all tests with "isn't"
