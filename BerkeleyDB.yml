@@ -45,3 +45,15 @@ match:
 pl:
   env:
     BERKELEYDB_NAME: -ldb-5
+---
+match:
+  distribution: '/BerkeleyDB-0\.65\.'
+  perlconfig:
+    version: '^5\.41\.'
+depends:
+  configure_requires:
+    Test::More: 0
+    Test::Builder: 0
+pl:
+  commandline: 'rm -rf t/Test/More.pm t/Test/Builder.pm; $PERL Makefile.PL'
+# https://github.com/pmqs/BerkeleyDB/issues/12
