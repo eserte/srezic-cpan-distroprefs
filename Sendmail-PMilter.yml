@@ -2,6 +2,8 @@
 match:
   distribution: '/Sendmail-PMilter-\d'
 pl:
-  expect:
-    - '\QDo you wish to install the Sendmail::Milter interface? [yes]'
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#  expect:
+#    - '\QDo you wish to install the Sendmail::Milter interface? [yes]'
+#    - "\n"
