@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QTry-Catch-1.1.0.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+patches:
+  - SREZIC/patches/Try-Catch-1.1.0-RT156085.patch
+# https://rt.cpan.org/Ticket/Display.html?id=156085
