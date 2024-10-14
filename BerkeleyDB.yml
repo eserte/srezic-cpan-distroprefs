@@ -57,3 +57,4 @@ depends:
 pl:
   commandline: 'rm -rf t/Test/More.pm t/Test/Builder.pm; $PERL Makefile.PL'
 # https://github.com/pmqs/BerkeleyDB/issues/12
+# Fixed in 0.66
