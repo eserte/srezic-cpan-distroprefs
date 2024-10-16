@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QClone-Any-1.01.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.'
+patches:
+  - SREZIC/patches/Clone-Any-1.01-RT156178.patch
+# https://rt.cpan.org/Ticket/Display.html?id=156178
