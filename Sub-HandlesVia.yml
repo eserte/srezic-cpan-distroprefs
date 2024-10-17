@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QSub-HandlesVia-0.050000.tar.gz\E'
+patches:
+  - SREZIC/patches/Sub-HandlesVia-0.050000-PR15-WATERKIP.patch
+# Patch taken from https://github.com/tobyink/p5-sub-handlesvia/pull/15/commits/f3103ae752582fb2b10bd76565c673db3a7442e3
