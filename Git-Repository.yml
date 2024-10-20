@@ -22,4 +22,6 @@ match:
   distribution: '/\QGit-Repository-1.325.tar.gz\E'
 patches:
   - SREZIC/patches/Git-Repository-1.325-RT144889-SREZIC.patch
+  - SREZIC/patches/Git-Repository-1.325-PR23-JANPAZ.patch
 # see https://github.com/book/Git-Repository/pull/22
+# see https://github.com/book/Git-Repository/pull/23 and https://rt.cpan.org/Ticket/Display.html?id=155717 - needed for git >= 2.39.x
