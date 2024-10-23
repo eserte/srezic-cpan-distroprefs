@@ -2,7 +2,7 @@
 match:
   distribution: '/Scope-Upper-0\.34\.'
   perlconfig:
-    version: '^5\.41\.4$'
+    version: '^5\.41\.(4|5)$'
 patches:
   - SREZIC/patches/Scope-Upper-0.34-RT154985-JKEENAN.patch
 # https://rt.cpan.org/Ticket/Display.html?id=154985
