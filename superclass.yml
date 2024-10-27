@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\Qsuperclass-0.003.tar.gz\E'
+  perlconfig:
+    version: '^5\.41.(3|4|5)$'
+patches:
+  - SREZIC/patches/superclass-0.003-issue5.patch
+# https://github.com/dagolden/superclass/issues/5 (old package separator)
