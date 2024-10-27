@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QMD5-2.03.tar.gz\E'
+  perlconfig:
+    version: '^5\.41.(3|4|5)$'
+patches:
+  - SREZIC/patches/MD5-2.03-RT156477.patch
+# https://rt.cpan.org/Ticket/Display.html?id=156477 (old package separator)
