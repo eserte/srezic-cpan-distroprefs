@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QDBIx-Class-Candy-0.005003.tar.gz\E'
+  perlconfig:
+    version: '^5\.41\.(4|5)$'
+patches:
+  - SREZIC/patches/DBIx-Class-Candy-0.005003-issue18.patch
+# https://github.com/frioux/DBIx-Class-Candy/issues/18 (given/when removal)
