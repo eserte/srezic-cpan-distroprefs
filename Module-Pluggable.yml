@@ -3,6 +3,7 @@ match:
   distribution: '/Module-Pluggable-6\.2\.'
   env:
     # proxy check for root user (e.g. in docker)
+    # unfortunately does not work within github action where HOME=/github/home is set
     HOME: /root
 patches:
   - SREZIC/patches/Module-Pluggable-6.2-RT156367-SKIM.patch
