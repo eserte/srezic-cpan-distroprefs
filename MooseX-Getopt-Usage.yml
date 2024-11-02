@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QMooseX-Getopt-Usage-0.24.tar.gz\E'
+patches:
+  - SREZIC/patches/MooseX-Getopt-Usage-0.24-issue16.patch
+# https://github.com/markpitchless/moosex-getopt-usage/issues/16 (fix for newer Getopt::Long)
