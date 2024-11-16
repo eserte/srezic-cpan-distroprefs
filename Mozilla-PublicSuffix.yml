@@ -2,6 +2,9 @@
 match:
   distribution: '/Mozilla-PublicSuffix-v?\d'
 pl:
-  expect:
-    - '\QCheck for a new version of the Public Suffix List?'
-    - "\n"
+  env:
+    PERL_MM_USE_DEFAULT: 1
+#pl:
+#  expect:
+#    - '\QCheck for a new version of the Public Suffix List?'
+#    - "\n"
