@@ -48,6 +48,7 @@ test:
 # Building on Windows 10 currently fails, this distropref
 # section just skips two tests if running under
 # a bbbike dist build (create_customized_strawberry.pl)
+# https://github.com/noxxi/p5-io-socket-ssl/issues/161
 ---
 match:
   distribution: '/IO-Socket-SSL-\d'
