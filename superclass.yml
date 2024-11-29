@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/superclass-0.003-issue5.patch
 # https://github.com/dagolden/superclass/issues/5 (old package separator)
+# 5.41.6+ do not need anymore a patch

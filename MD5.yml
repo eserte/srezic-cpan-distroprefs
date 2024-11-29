@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/MD5-2.03-RT156477.patch
 # https://rt.cpan.org/Ticket/Display.html?id=156477 (old package separator)
+# 5.41.6+ do not need anymore a patch
