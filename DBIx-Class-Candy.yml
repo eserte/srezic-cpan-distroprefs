@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/DBIx-Class-Candy-0.005003-issue18.patch
 # https://github.com/frioux/DBIx-Class-Candy/issues/18 (given/when removal)
+# 0.005004 is fixed
