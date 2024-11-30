@@ -2,7 +2,9 @@
 match:
   distribution: '/\QClone-Any-1.01.tar.gz\E'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 patches:
   - SREZIC/patches/Clone-Any-1.01-RT156178.patch
 # https://rt.cpan.org/Ticket/Display.html?id=156178
+# old package separator
+# not problematic anymore with perl 5.41.6+

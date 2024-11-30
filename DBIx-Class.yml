@@ -18,9 +18,11 @@ patches:
 match:
   distribution: '/\QDBIx-Class-0.082843.tar.gz\E'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 patches:
   - SREZIC/patches/DBIx-Class-0.082843-RT155847.patch
+# old package separator https://rt.cpan.org/Ticket/Display.html?id=155847
+# patch not needed anymore with perl 5.41.6+
 ---
 match:
   distribution: '/DBIx-Class-\d'

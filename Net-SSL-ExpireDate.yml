@@ -2,11 +2,12 @@
 match:
   distribution: '/Net-SSL-ExpireDate-1\.24\.'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 depends:
   configure_requires:
     Test::More: 0
 pl:
   commandline: 'rm -rf inc/Test/More.pm; $PERL Makefile.PL'
 # https://rt.cpan.org/Ticket/Display.html?id=132824
-# Seems to be fixed with Net-SSL-ExpireDate-1.24_1
+# Seems to be fixed with Net-SSL-ExpireDate-1.24_1 ... and Net-SSL-ExpireDate-1.25.tar.gz is out now
+# And anyway not needed anymore with 5.41.6+

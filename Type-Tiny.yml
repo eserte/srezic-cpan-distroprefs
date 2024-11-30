@@ -16,5 +16,6 @@ patches:
 match:
   distribution: '/Type-Tiny-2\.004000\.tar\.gz'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 goto: T/TO/TOBYINK/Type-Tiny-2.005_002.tar.gz
+# fixed with stable TOBYINK/Type-Tiny-2.006000.tar.gz

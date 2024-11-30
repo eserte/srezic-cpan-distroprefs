@@ -2,10 +2,11 @@
 match:
   distribution: '/Exporter-AutoClean-0\.01\.'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 depends:
   configure_requires:
     Test::More: 0
 pl:
   commandline: 'rm -rf inc/Test/More.pm inc/Test/Builder.pm; $PERL Makefile.PL'
 # https://rt.cpan.org/Ticket/Display.html?id=155298
+# not needed anymore with perl 5.41.6+

@@ -2,10 +2,11 @@
 match:
   distribution: '/Convert-Binary-C-0\.84\.'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 depends:
   configure_requires:
     Test::More: 0
 pl:
   commandline: 'rm -rf support/; $PERL Makefile.PL'
 # https://github.com/mhx/Convert-Binary-C/issues/11
+# in the meantime, 0.85 is out with a fix

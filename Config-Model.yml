@@ -5,3 +5,4 @@ match:
     version: '^5\.41\.'
 patches:
   - SREZIC/patches/Config-Model-2.154-issue35.patch
+# Config-Model-2.155 is fixed

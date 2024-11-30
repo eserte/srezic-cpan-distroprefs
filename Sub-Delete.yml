@@ -2,7 +2,7 @@
 match:
   distribution: '/\QSub-Delete-1.00002.tar.gz\E'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 depends:
   configure_requires:
     Test::More: 0
@@ -10,3 +10,4 @@ pl:
   commandline: 'rm -rf t/Test/; $PERL Makefile.PL'
 patches:
   - SREZIC/patches/Sub-Delete-1.00002-RT146682.patch
+# not needed anymore with 5.41.6+

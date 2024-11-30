@@ -2,10 +2,11 @@
 match:
   distribution: '/Statistics-Regression-0\.53\.'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(3|4|5)$'
 depends:
   configure_requires:
     Test::More: 0
 pl:
   commandline: 'rm -rf inc/Test/; $PERL Makefile.PL'
 # https://rt.cpan.org/Ticket/Display.html?id=155820
+# not needed anymore with perl 5.41.6+
