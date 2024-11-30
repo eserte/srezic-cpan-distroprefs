@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/HTML-HTML5-Writer-0\.201\.'
+  perlconfig:
+    version: '^5\.(40|41)\.'
+pl:
+  commandline: 'rm -rf inc/Scalar inc/unicore inc/YAML; $PERL Makefile.PL'
+# https://rt.cpan.org/Ticket/Display.html?id=157587
+# CPAN::Meta::YAML->errstr and $CPAN::Meta::YAML::errstr is deprecated ...
