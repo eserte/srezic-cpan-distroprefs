@@ -1,5 +1,7 @@
 ---
 match:
-  distribution: '/Circle-User-0\.06\.'
+  distribution: '/Circle-User-\d'
 disabled: 1
 # see https://rt.cpan.org/Ticket/Display.html?id=155774
+# permissions of home directory may be destroyed
+# seen for 0.06 and 0.07
