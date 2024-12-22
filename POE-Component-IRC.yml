@@ -2,7 +2,7 @@
 match:
   distribution: '/\QPOE-Component-IRC-6.93.tar.gz\E'
   perlconfig:
-    version: '^5\.41\.(4|5|6)$'
+    version: '^5\.41\.(4|5|6|7)$'
 patches:
   - SREZIC/patches/POE-Component-IRC-6.93-RT157738.patch
 # precedence problem
