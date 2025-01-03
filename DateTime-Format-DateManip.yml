@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/DateTime-Format-DateManip-0\.04\.'
+depends:
+  configure_requires:
+    Module::Build: 0
