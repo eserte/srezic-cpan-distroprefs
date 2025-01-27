@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '^ETHER/'
+test:
+  env:
+    AUTOMATED_TESTING: 1
+# for authors who enable more diagnostics if AUTOMATED_TESTING=1 is set
