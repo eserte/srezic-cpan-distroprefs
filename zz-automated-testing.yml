@@ -1,6 +1,12 @@
 ---
 match:
   distribution: '^ETHER/'
+pl:
+  env:
+    AUTOMATED_TESTING: 1
+make:
+  env:
+    AUTOMATED_TESTING: 1
 test:
   env:
     AUTOMATED_TESTING: 1
