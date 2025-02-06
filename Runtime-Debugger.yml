@@ -1,5 +1,5 @@
 ---
 match:
-  distribution: '/Runtime-Debugger-1\.09\.'
+  distribution: '/Runtime-Debugger-1\.(09|10)\.'
 disabled: 1
 # Tries problematic things in Build.PL: installing system packages, running cpanm
