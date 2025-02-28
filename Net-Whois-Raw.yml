@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QNet-Whois-Raw-2.99040.tar.gz\E'
+patches:
+  - SREZIC/patches/Net-Whois-Raw-2.99040-PR29.patch
+# allow RIPE addresses to work again
