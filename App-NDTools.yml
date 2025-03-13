@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/\QApp-NDTools-0.6.3.tar.gz\E'
+patches:
+  - SREZIC/patches/App-NDTools-0.6.3-RT155819.patch
+# https://rt.cpan.org/Ticket/Display.html?id=155819
