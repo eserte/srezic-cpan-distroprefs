@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/YAML-Diff-\d'
+depends:
+# XXX really test_requires, but this is not accepted by the schema
+  build_requires:
+    IO::All: 0
+    YAML::XS: 0
+# https://github.com/ingydotnet/yaml-diff-pm/issues/1
