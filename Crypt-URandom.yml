@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/Crypt-URandom-0\.53\.'
+test:
+  env:
+    LC_ALL: C
+# t/getrandom.t may fail with non-English locale
+# https://github.com/david-dick/crypt-urandom/issues/18
