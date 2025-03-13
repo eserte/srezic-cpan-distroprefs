@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/Test-LWP-UserAgent-0\.036\.'
+test:
+  env:
+    AUTOMATED_TESTING: 0
+# https://rt.cpan.org/Public/Bug/Display.html?id=161079
+# Actually this distropref file exist to be evaluated
+# before zz-automated-testing.yml and avoid setting
+# AUTOMATED_TESTING=1
