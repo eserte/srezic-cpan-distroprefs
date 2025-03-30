@@ -2,6 +2,7 @@
 match:
   distribution: '/\Qcommon-sense-3.75.tar.gz\E'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(0|1|2|3|4|5|6|7|8)$'
 patches:
   - SREZIC/patches/common-sense-3.75-RT154926.patch
+# with perl 5.41.9 and newer, smartmatch is again available
