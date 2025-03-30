@@ -2,15 +2,18 @@
 match:
   distribution: '/\QMethod-Signatures-20170211.tar.gz\E'
   perlconfig:
-    version: '5\.(37\.1\d|(37|38|39|40)\.\d+)'
-patches:
-  - SREZIC/patches/Method-Signatures-20170211-RT149458-GREGOA.patch
----
-match:
-  distribution: '/\QMethod-Signatures-20170211.tar.gz\E'
-  perlconfig:
-    version: '5\.(41)\.\d+'
+    version: '^5\.41\.(0|1|2|3|4|5|6|7|8)$'
 patches:
   - SREZIC/patches/Method-Signatures-20170211-RT156057.patch
 # With perl 5.41.x there's more breakage due to
 # given/when/switch removal --- it's necessary to skip many tests.
+# 
+# with perl 5.41.9 and newer, smartmatch is again available
+# (and the next distroprefs document should match)
+---
+match:
+  distribution: '/\QMethod-Signatures-20170211.tar.gz\E'
+  perlconfig:
+    version: '5\.(37\.1\d|(37|38|39|40|41)\.\d+)'
+patches:
+  - SREZIC/patches/Method-Signatures-20170211-RT149458-GREGOA.patch
