@@ -2,7 +2,7 @@
 match:
   distribution: '/\QPerinci-Import-0.03.tar.gz\E'
   perlconfig:
-    version: '^5\.41\.'
+    version: '^5\.41\.(0|1|2|3|4|5|6|7|8)$'
 depends:
   requires:
     match::smart: 0
@@ -10,3 +10,4 @@ patches:
   - SREZIC/patches/Perinci-Import-0.03-RT156063.patch
 # https://rt.cpan.org/Ticket/Display.html?id=156063
 # smartmatch -> match::smart
+# with perl 5.41.9 and newer, smartmatch is again available
