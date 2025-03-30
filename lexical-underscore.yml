@@ -2,8 +2,9 @@
 match:
   distribution: '/\Qlexical-underscore-0.004.tar.gz\E'
   perlconfig:
-    version: '^5\.41\.(3|4|5|6|7)$'
+    version: '^5\.41\.(3|4|5|6|7|8)$'
 patches:
   - SREZIC/patches/lexical-underscore-0.004-RT157814.patch
 # https://rt.cpan.org/Ticket/Display.html?id=157814
 # switch (given/when) removal
+# with perl 5.41.9 and newer, smartmatch is again available
