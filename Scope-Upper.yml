@@ -6,3 +6,4 @@ match:
 patches:
   - SREZIC/patches/Scope-Upper-0.34-RT154985-JKEENAN.patch
 # https://rt.cpan.org/Ticket/Display.html?id=154985
+# newer 5.41.x (since when?) do not need patching
