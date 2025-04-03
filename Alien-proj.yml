@@ -15,7 +15,7 @@ patches:
   - SREZIC/patches/Alien-proj-1.27-proj-version-lt.patch
 ---
 match:
-  distribution: '/\QAlien-proj-1.27.tar.gz\E'
+  distribution: '/Alien-proj-(1\.27|1\.30)\.tar\.gz'
 # try to match Debian/stretch
   perlconfig:
     osname: linux
@@ -31,7 +31,7 @@ patches:
   - SREZIC/patches/Alien-proj-1.27-proj-version-lt.patch
 ---
 match:
-  distribution: '/\QAlien-proj-1.27.tar.gz\E'
+  distribution: '/Alien-proj-(1\.27|1\.30)\.tar\.gz'
 # try to match Debian/buster
   perlconfig:
     osname: linux
@@ -45,3 +45,4 @@ make:
     ALIEN_PROJ_CONFIG_ARGS: '--proj-version-lt=9.0.0'
 patches:
   - SREZIC/patches/Alien-proj-1.27-proj-version-lt.patch
+# the patch still works with 1.30 with fuzz 2
