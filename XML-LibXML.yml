@@ -13,3 +13,10 @@ test:
   env:
     LC_ALL: C
 # https://rt.cpan.org/Ticket/Display.html?id=97805
+---
+match:
+  distribution: '/XML-LibXML-2\.0210\.'
+patches:
+  - SREZIC/patches/XML-LibXML-2.0210-PR87-NWELLNHOF.patch
+# https://github.com/shlomif/perl-XML-LibXML/pull/87
+# https://rt.cpan.org/Ticket/Display.html?id=156899 (and more)
