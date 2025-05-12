@@ -120,6 +120,13 @@ patches:
   - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
 # https://github.com/radiator-software/p5-net-ssleay/pull/520
 ---
+match:
+  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+  perlconfig:
+    osname: openbsd
+patches:
+  - SREZIC/patches/Net-SSLeay-1.94-PR485-DEMONFOO.patch
+---
 ## It seems that auto_install was removed in 1.33
 match:
   distribution: '/Net-SSLeay-\d'
