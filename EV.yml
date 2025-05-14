@@ -1,5 +1,17 @@
 --- 
 match:
+  distribution: '/\QEV-4.34.tar.gz\E'
+  perlconfig:
+    version: '5\.41\.'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+patches:
+  - SREZIC/patches/EV-4.34-RT156069-LEONT.patch
+# https://github.com/Perl/perl5/issues/22353
+# https://rt.cpan.org/Ticket/Display.html?id=156069
+--- 
+match:
   distribution: '/EV-\d'
   perlconfig:
     version: '^5\.005'
