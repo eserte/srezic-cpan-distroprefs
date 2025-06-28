@@ -2,7 +2,7 @@
 match:
   distribution: '/\QEV-4.34.tar.gz\E'
   perlconfig:
-    version: '5\.41\.'
+    version: '5\.(41|42)\.'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
