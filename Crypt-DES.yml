@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/\QCrypt-DES-2.07.tar.gz\E'
+  perlconfig:
+    archname: linux
+    # match fedora 42 (comes with gcc 15)
+    osvers: '\.fc42\.'
+patches:
+  - SREZIC/patches/Crypt-DES-2.07-RT133363-FEDORA.patch
