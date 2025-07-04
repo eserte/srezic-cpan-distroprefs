@@ -1,0 +1,11 @@
+---
+match:
+  distribution: '/Alien-cmake3-\d'
+# try to match Debian/stretch, which comes with cmake 3.7.2
+# which is too old for some usages (e.g. building Alien::proj)
+  perlconfig:
+    osname: linux
+    osvers: '^(4\.8\.0-|4\.9\.0-)'
+pl:
+  env:
+    ALIEN_INSTALL_TYPE: share
