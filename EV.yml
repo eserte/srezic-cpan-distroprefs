@@ -10,6 +10,7 @@ patches:
   - SREZIC/patches/EV-4.34-RT156069-LEONT.patch
 # https://github.com/Perl/perl5/issues/22353
 # https://rt.cpan.org/Ticket/Display.html?id=156069
+# alternatively an unofficial dev release could be used: https://metacpan.org/release/MAUKE/EV-4.34_002
 --- 
 match:
   distribution: '/EV-\d'
