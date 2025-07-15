@@ -1,5 +1,15 @@
 ---
 match:
+  distribution: '/DBD-Pg-3\.18\.0\.'
+  perlconfig:
+    gccversion: '^15\.'
+pl:
+  args:
+    - OPTIMIZE="-std=gnu17"
+# https://github.com/bucardo/dbdpg/issues/147#issuecomment-3071561414
+# https://github.com/bucardo/dbdpg/issues/135
+---
+match:
   distribution: '/DBD-Pg-'
 pl:
   env:
