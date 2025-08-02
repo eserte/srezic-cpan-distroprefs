@@ -1,0 +1,29 @@
+---
+match:
+  distribution: '/DBD-MariaDB-\d'
+  perlconfig:
+    osname: darwin
+pl:
+  args:
+    - --cflags=-I/opt/homebrew/opt/mysql-client/include/mysql
+    - "--libs=-L/opt/homebrew/opt/mysql-client/lib -lmysqlclient"
+  env:
+    LDFLAGS: "-L/opt/homebrew/opt/mysql-client/lib"
+    CPPFLAGS: "-I/opt/homebrew/opt/mysql-client/include/mysql"
+make:
+  env:
+    LDFLAGS: "-L/opt/homebrew/opt/mysql-client/lib"
+    CPPFLAGS: "-I/opt/homebrew/opt/mysql-client/include/mysql"
+# mysql-client is keg-only, which means it was not symlinked into /opt/homebrew,
+# because it conflicts with mysql (which contains client libraries).
+#...
+# For compilers to find mysql-client you may need to set:
+#   export LDFLAGS="-L/opt/homebrew/opt/mysql-client/lib"
+#   export CPPFLAGS="-I/opt/homebrew/opt/mysql-client/include"
+#
+# and:
+#
+# Failed to determine directory of mysql.h. Use
+#   perl Makefile.PL --cflags=-I<dir>
+# Failed to determine directory of MariaDB or MySQL client library. Use
+#   perl Makefile.PL --libs="-L<dir> -l<library>"
