@@ -114,6 +114,20 @@ match:
     osname: linux
     # hack to detect debian:trixie
     config_args: '.*-DDEBIAN.*5.40.1.*'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+patches:
+  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
+# https://github.com/radiator-software/p5-net-ssleay/pull/520
+---
+match:
+  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+  perlconfig:
+    osname: linux
+    # another hack to detect debian:trixie
+    osvers: '\+deb13-'
+pl:
   env:
     PERL_MM_USE_DEFAULT: 1
 patches:
