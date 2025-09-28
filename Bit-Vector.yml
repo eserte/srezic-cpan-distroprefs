@@ -21,11 +21,22 @@ match:
 goto: "ANDK/Bit-Vector-7.2-TRIAL.tar.gz"
 # Bit-Vector 7.2 does not have problems
 ---
+# self-compiled on fedora 42+
 match:
   distribution: '/\QBit-Vector-7.4.tar.gz\E'
   perlconfig:
     archname: linux
     # match fedora 42 (comes with gcc 15)
     osvers: '\.fc42\.'
+patches:
+  - SREZIC/patches/Bit-Vector-7.4-RT165142-BIGFOOT.patch
+---
+# system perl on fedora 42+
+match:
+  distribution: '/\QBit-Vector-7.4.tar.gz\E'
+  perlconfig:
+    archname: linux
+    # match gcc 15
+    gccversion: '^15\.'
 patches:
   - SREZIC/patches/Bit-Vector-7.4-RT165142-BIGFOOT.patch
