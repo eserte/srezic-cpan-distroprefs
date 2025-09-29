@@ -1,0 +1,5 @@
+---
+match:
+  distribution: '/builtin-Backport-0\.02\.'
+disabled: 1
+# See discussion in https://rt.cpan.org/Ticket/Display.html?id=158702
