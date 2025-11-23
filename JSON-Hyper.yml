@@ -2,8 +2,11 @@
 match:
   distribution: '/JSON-Hyper-0\.011\.'
   perlconfig:
-    version: '^5\.(40|41)\.'
+    version: '^5\.(40|41|42)\.'
 pl:
   commandline: 'rm -rf inc/Scalar inc/unicore inc/utf8 inc/YAML; $PERL Makefile.PL'
 # https://rt.cpan.org/Ticket/Display.html?id=157586
 # CPAN::Meta::YAML->errstr and $CPAN::Meta::YAML::errstr is deprecated ...
+#
+# For some reason this is not working anymore for perl 5.43.5:
+#    Can't locate YAML/Tiny.pm in @INC (you may need to install the YAML::Tiny module) (@INC entries checked: inc /var/tmp/cpansmoker-1000/2025112313/CPAN-Reporter-lib-GEyH /opt/perl-5.43.5/lib/site_perl/5.43.5/x86_64-linux /opt/perl-5.43.5/lib/site_perl/5.43.5 /opt/perl-5.43.5/lib/5.43.5/x86_64-linux /opt/perl-5.43.5/lib/5.43.5 .) at inc/Module/Install/TrustMetaYml.pm line 23.
