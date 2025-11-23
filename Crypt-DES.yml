@@ -7,3 +7,12 @@ match:
     osvers: '\.fc42\.'
 patches:
   - SREZIC/patches/Crypt-DES-2.07-RT133363-FEDORA.patch
+---
+match:
+  distribution: '/\QCrypt-DES-2.07.tar.gz\E'
+  perlconfig:
+    osname: linux
+    # another hack to detect debian:trixie
+    osvers: '\+deb13-'
+patches:
+  - SREZIC/patches/Crypt-DES-2.07-RT133363-FEDORA.patch
