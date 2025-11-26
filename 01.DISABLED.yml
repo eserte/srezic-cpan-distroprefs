@@ -1579,6 +1579,7 @@ match:
     |JAVONET/JavonetPerlSdk-v2\.1\.\d+\.tar.gz # usually big distribution (1GB)
     |JAVONET/JavonetPerlSdk-v2\.4\.\d+\.tar.gz # "
     |JAVONET/JavonetPerlSdk-v2\.5\.\d+\.tar.gz # "
+    |JAVONET/JavonetPerlSdk-v2\.6\.\d+\.tar.gz # "
     |.*/Acme-CuckooMith-.* # dangerous, overwrites DBIx::Class
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
