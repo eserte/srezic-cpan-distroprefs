@@ -2,8 +2,9 @@
 match:
   distribution: '/Log-Trace-1\.070\.'
   perlconfig:
-    version: '^5\.27\.(6|7|8)$'
+    version: '^5\.(27\.(6|7|8)|43\.(3|4|5))$'
 patches:
   - SREZIC/patches/Log-Trace-1.070-RT49409-SPROUT.patch
 # https://rt.cpan.org/Ticket/Display.html?id=49409
 # Bleadperl change was reverted in 5.27.9, no patching needed anymore...
+# But it looks that the patch is again needed in perl 5.43.x, approx. since 5.43.3.
