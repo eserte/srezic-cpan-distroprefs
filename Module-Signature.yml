@@ -16,6 +16,22 @@
 ---
 match:
   distribution: '/Module-Signature-\d'
+  perlconfig:
+    myuname: '.*linux cabulja '
+depends:
+  configure_requires:
+    Crypt::OpenPGP: 0
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+test:
+  env:
+    GNUPGHOME: /tmp
+# it seems that 3-verify.t fails under some conditions (expired keys in keyring?),
+# so it could help to work with an empty .gnupg directory
+---
+match:
+  distribution: '/Module-Signature-\d'
   env:
     PERL_BATCH: yes
 depends:
