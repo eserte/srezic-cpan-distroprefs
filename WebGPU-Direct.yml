@@ -1,0 +1,6 @@
+---
+match:
+  distribution: '/WebGPU-Direct-\d'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
