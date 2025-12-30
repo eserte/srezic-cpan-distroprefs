@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Dist-Zilla-PluginBundle-Starter-Git-v?\d'
+  env:
+    CPAN_SMOKE_MODULES_ACTION: test
+disabled: 1
+# Takes quite long.
