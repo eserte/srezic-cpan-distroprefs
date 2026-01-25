@@ -149,6 +149,19 @@ patches:
 match:
   distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
   perlconfig:
+    osname: linux
+    # match fedora 42+32 (comes with gcc 15)
+    osvers: '\.(fc42|fc43)\.'
+pl:
+  env:
+    PERL_MM_USE_DEFAULT: 1
+patches:
+  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
+# https://github.com/radiator-software/p5-net-ssleay/pull/520
+---
+match:
+  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+  perlconfig:
     osname: openbsd
 patches:
   - SREZIC/patches/Net-SSLeay-1.94-PR485-DEMONFOO.patch

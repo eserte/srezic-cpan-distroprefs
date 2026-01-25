@@ -23,7 +23,7 @@ match:
   distribution: '/\QYAML-Syck-\E(1\.34|1\.36)\Q.tar.gz\E'
   perlconfig:
     archname: linux
-    # match fedora 42 (comes with gcc 15)
+    # match fedora 42+43 (comes with gcc 15)
     osvers: '\.(fc42|fc43)\.'
 patches:
   - SREZIC/patches/YAML-Syck-1.34-issue61-SHLOMIF.patch
