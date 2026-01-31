@@ -1,0 +1,13 @@
+---
+match:
+  distribution: '/IO-Socket-IP-(0\.(4[2-9]|[5-9])|[1-9]\.)'
+  perlconfig:
+    version: '^5\.([89]|1[0-3])\.'
+goto: PEVANS/IO-Socket-IP-0.41.tar.gz
+---
+match:
+  distribution: '/IO-Socket-IP-0\.41\.'
+  perlconfig:
+    version: '^5\.([89]|1[0-3])\.'
+cpanconfig:
+  allow_installing_outdated_dists: yes
