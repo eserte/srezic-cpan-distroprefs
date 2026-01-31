@@ -150,8 +150,8 @@ match:
   distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
   perlconfig:
     osname: linux
-    # match fedora 43
-    osvers: '\.fc43\.'
+    # match fedora 43 and el9 (e.g. rockylinux9)
+    osvers: '\.(fc43|el9_\d+)\.'
 pl:
   env:
     PERL_MM_USE_DEFAULT: 1
