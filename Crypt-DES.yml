@@ -4,7 +4,7 @@ match:
   perlconfig:
     archname: linux
     # match fedora 42 (comes with gcc 15)
-    osvers: '\.fc42\.'
+    osvers: '\.fc(42|43)\.'
 patches:
   - SREZIC/patches/Crypt-DES-2.07-RT133363-FEDORA.patch
 ---
