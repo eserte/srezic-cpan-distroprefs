@@ -98,6 +98,11 @@ pl:
 patches:
   - SREZIC/patches/Net-SSLeay-1.88-RT132425-debian.patch
 ---
+## NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
+## Instead of using this series of patches
+## it would probably be easier to just goto to
+## https://metacpan.org/release/ETHER/Net-SSLeay-1.95_01
+## NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
 match:
   distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
   perlconfig:
