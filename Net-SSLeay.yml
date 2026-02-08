@@ -98,78 +98,79 @@ pl:
 patches:
   - SREZIC/patches/Net-SSLeay-1.88-RT132425-debian.patch
 ---
-## NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
-## Instead of using this series of patches
-## it would probably be easier to just goto to
+## Simplify the series of patches and always use
 ## https://metacpan.org/release/ETHER/Net-SSLeay-1.95_01
-## NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE
+## even if it is not exactly needed
 match:
   distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
-  perlconfig:
-    osname: darwin
-  env:
-    PERL_MM_USE_DEFAULT: 1
-patches:
-  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
-# https://github.com/radiator-software/p5-net-ssleay/pull/520
----
-match:
-  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
-  perlconfig:
-    osname: linux
-    # hack to detect debian:trixie
-    config_args: '.*-DDEBIAN.*5.40.1.*'
-pl:
-  env:
-    PERL_MM_USE_DEFAULT: 1
-patches:
-  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
-# https://github.com/radiator-software/p5-net-ssleay/pull/520
----
-match:
-  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
-  perlconfig:
-    osname: linux
-    # another hack to detect debian:trixie
-    osvers: '\+deb13-'
-pl:
-  env:
-    PERL_MM_USE_DEFAULT: 1
-patches:
-  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
-# https://github.com/radiator-software/p5-net-ssleay/pull/520
----
-match:
-  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
-  perlconfig:
-# workaround for specifying a system where linuxbrew is installed with a newer openssl than the ubuntu 24.04 provided one
-    myuname: '^linux w0mrr '
-pl:
-  env:
-    PERL_MM_USE_DEFAULT: 1
-patches:
-  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
-# https://github.com/radiator-software/p5-net-ssleay/pull/520
----
-match:
-  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
-  perlconfig:
-    osname: linux
-    # match fedora 43 and el9 (e.g. rockylinux9)
-    osvers: '\.(fc43|el9_\d+)\.'
-pl:
-  env:
-    PERL_MM_USE_DEFAULT: 1
-patches:
-  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
-# https://github.com/radiator-software/p5-net-ssleay/pull/520
----
-match:
-  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
-  perlconfig:
-    osname: openbsd
-patches:
-  - SREZIC/patches/Net-SSLeay-1.94-PR485-DEMONFOO.patch
+goto: ETHER/Net-SSLeay-1.95_01.tar.gz
+#match:
+#  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+#  perlconfig:
+#    osname: darwin
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
+#patches:
+#  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
+## https://github.com/radiator-software/p5-net-ssleay/pull/520
+#---
+#match:
+#  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+#  perlconfig:
+#    osname: linux
+#    # hack to detect debian:trixie
+#    config_args: '.*-DDEBIAN.*5.40.1.*'
+#pl:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
+#patches:
+#  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
+## https://github.com/radiator-software/p5-net-ssleay/pull/520
+#---
+#match:
+#  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+#  perlconfig:
+#    osname: linux
+#    # another hack to detect debian:trixie
+#    osvers: '\+deb13-'
+#pl:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
+#patches:
+#  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
+## https://github.com/radiator-software/p5-net-ssleay/pull/520
+#---
+#match:
+#  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+#  perlconfig:
+## workaround for specifying a system where linuxbrew is installed with a newer openssl than the ubuntu 24.04 provided one
+#    myuname: '^linux w0mrr '
+#pl:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
+#patches:
+#  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
+## https://github.com/radiator-software/p5-net-ssleay/pull/520
+#---
+#match:
+#  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+#  perlconfig:
+#    osname: linux
+#    # match fedora 43 and el9 (e.g. rockylinux9)
+#    osvers: '\.(fc43|el9_\d+)\.'
+#pl:
+#  env:
+#    PERL_MM_USE_DEFAULT: 1
+#patches:
+#  - SREZIC/patches/Net-SSLeay-1.94-GHPR520-2.patch
+## https://github.com/radiator-software/p5-net-ssleay/pull/520
+#---
+#match:
+#  distribution: '/\QNet-SSLeay-1.94.tar.gz\E'
+#  perlconfig:
+#    osname: openbsd
+#patches:
+#  - SREZIC/patches/Net-SSLeay-1.94-PR485-DEMONFOO.patch
 ---
 ## It seems that auto_install was removed in 1.33
 match:
