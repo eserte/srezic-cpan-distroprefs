@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/\QLWP-Protocol-https-6.14.tar.gz\E'
+  perlconfig:
+    archname: linux
+    # match fedora (10-99) and el9 (e.g. rockylinux9)
+    osvers: '\.(fc\d\d|el9_\d+)\.'
+patches:
+  - SREZIC/patches/LWP-Protocol-https-6.14-PR91.patch
+# https://github.com/libwww-perl/LWP-Protocol-https/issues/80
