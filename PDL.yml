@@ -15,13 +15,15 @@ test:
 # In the devel series some failing tests are skipped if AUTOMATED_TESTING is set.
 # chm asked me to do this; the failing tests will be worked on before release.
 # Also, try this on freebsd systems with "normal" make.
---- 
-match:
-  module: "^PDL$"
-  perlconfig:
-# probably all BSDs...
-    archname: "-freebsd"
-cpanconfig:
-  make: "/usr/local/bin/gmake"
-## The below rule is disturbing my smoker: must not be called with sudo!!!
-#  make_install_make_command: "sudo gmake"
+
+## Not needed anymore: seems to build @ freebsd with normal make
+#--- 
+#match:
+#  module: "^PDL$"
+#  perlconfig:
+## probably all BSDs...
+#    archname: "-freebsd"
+#cpanconfig:
+#  make: "/usr/local/bin/gmake"
+### The below rule is disturbing my smoker: must not be called with sudo!!!
+##  make_install_make_command: "sudo gmake"
