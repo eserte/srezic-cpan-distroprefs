@@ -1581,5 +1581,6 @@ match:
     |JAVONET/JavonetPerlSdk-v2\.5\.\d+\.tar.gz # "
     |JAVONET/JavonetPerlSdk-v2\.6\.\d+\.tar.gz # "
     |.*/Acme-CuckooMith-.* # dangerous, overwrites DBIx::Class
+    |PETAMEM/Task-Lingua-PetaMem-\d # no need to test this
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
