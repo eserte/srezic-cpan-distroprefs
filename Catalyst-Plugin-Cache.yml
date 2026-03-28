@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Catalyst-Plugin-Cache-0\.12\.'
+depends:
+  requires:
+    Class::Accessor::Fast: 0
+# see https://rt.cpan.org/Ticket/Display.html?id=130217
