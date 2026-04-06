@@ -8,6 +8,17 @@ patches:
 # hash (very) randomization problem
 ---
 match:
+  distribution: '/\QJSON-XS-4.04.tar.gz\E'
+  perlconfig:
+    archname: '^(aarch64|arm64)-'
+    uselongdouble: 'define'
+pl:
+  env:
+    PERL_CANARY_STABILITY_NOPROMPT: 1
+patches:
+  - SREZIC/patches/JSON-XS-4.04-RT154165-SISYPHUS.patch
+---
+match:
   distribution: '/JSON-XS-\d'
 pl:
   env:
