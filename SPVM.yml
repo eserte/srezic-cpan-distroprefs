@@ -1,0 +1,9 @@
+---
+match:
+  distribution: '/SPVM-\d'
+  perlconfig:
+    osname: "(freebsd|netbsd|openbsd)"
+cpanconfig:
+  make: gmake
+# recent SPVM requires GNU make
+# see https://github.com/yuki-kimoto/SPVM/issues/856
