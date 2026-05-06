@@ -1,5 +1,13 @@
 ---
 match:
+  distribution: '/PDL-v?\d.*\.tar\.gz'
+  perlconfig:
+    archname: "-freebsd"
+    osvers: '^9\.'
+disabled: 1
+comment: "Does not compile anyway with old freebsd 9.x compiler"
+---
+match:
   distribution: 'CHM/PDL-2.4.3_\d+.tar.gz'
 disabled: 1
 comment: "Do not need to test old devel versions"
