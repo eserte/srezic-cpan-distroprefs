@@ -1586,5 +1586,6 @@ match:
     |TIMKA/Runtime-Debugger-1.13.tar.gz # tries to use apt or similar
     |MANWAR/Class-Mite-v0.1.1.tar.gz # possibly conflicts with other distributions, see https://github.com/manwar/Class-Mite/issues/2
     |MICVU/PAX-0.031.tar.gz # big leftover temporary files
+    |MICVU/Developer-Dashboard-4\..*\.tar.gz # may fork a lot of hanging processes, seen on fbsd14
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
