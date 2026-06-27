@@ -6,3 +6,10 @@ match:
 patches:
   - SREZIC/patches/Net-IDN-Encode-2.500-KHW.patch
 # 5.30.0 and up works unpatched
+---
+match:
+  distribution: '/Net-IDN-Encode-2\.500\.'
+  perlconfig:
+    version: '^5\.44\.'
+    osvers: '^6\.12\.\d+\+deb13-'
+goto: ETHER/Net-IDN-Encode-2.501-TRIAL.tar.gz
