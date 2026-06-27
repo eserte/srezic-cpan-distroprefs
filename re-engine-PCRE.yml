@@ -13,4 +13,7 @@ match:
 patches:
   - SREZIC/patches/re-engine-PCRE-0.17-RT108386.patch
   - SREZIC/patches/re-engine-PCRE-0.17-RT129403.patch
-# XXX another compilation error with 5.43.5, needs to be analyzed
+# another compilation error with 5.43.5 + 5.44.0-RC1:
+# https://github.com/avar/re-engine-pcre/issues/7
+# Currently without patch.
+
