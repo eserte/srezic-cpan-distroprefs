@@ -7,3 +7,24 @@ cpanconfig:
   make: gmake
 # recent SPVM requires GNU make
 # see https://github.com/yuki-kimoto/SPVM/issues/856
+---
+match:
+  distribution: |
+    ^(?x:
+       /SPVM-Digest-MD5-\d
+       /SPVM-Digest-SHA-\d
+       /SPVM-Errno-\d
+       /SPVM-Math-\d
+       /SPVM-MIME-Base64-\d
+       /SPVM-Regex-\d
+       /SPVM-Sys-\d
+       /SPVM-Thread-\d
+       /SPVM-Unicode-\d
+       /SPVM-Unicode-Normalize-\d
+    )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  perlconfig:
+    osname: "(freebsd|netbsd|openbsd)"
+cpanconfig:
+  make: gmake
+# recent SPVM::Sys requires GNU make
+# see https://github.com/yuki-kimoto/SPVM-Sys/issues/113#issuecomment-4748538688
