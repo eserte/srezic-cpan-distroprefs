@@ -1,0 +1,10 @@
+---
+match:
+  distribution: '/File-LibMagic-\d'
+  perlconfig:
+    myuname: '^darwin.*arm64'
+pl:
+  args:
+    - "--lib=/opt/homebrew/lib"
+    - "--include=/opt/homebrew/include"
+# lib/include settings required for arm64 macs
