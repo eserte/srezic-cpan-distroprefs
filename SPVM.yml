@@ -11,16 +11,16 @@ cpanconfig:
 match:
   distribution: |
     ^(?x:
-       /SPVM-Digest-MD5-\d
-       /SPVM-Digest-SHA-\d
-       /SPVM-Errno-\d
-       /SPVM-Math-\d
-       /SPVM-MIME-Base64-\d
-       /SPVM-Regex-\d
-       /SPVM-Sys-\d
-       /SPVM-Thread-\d
-       /SPVM-Unicode-\d
-       /SPVM-Unicode-Normalize-\d
+     .*/SPVM-Digest-MD5-\d
+    |.*/SPVM-Digest-SHA-\d
+    |.*/SPVM-Errno-\d
+    |.*/SPVM-Math-\d
+    |.*/SPVM-MIME-Base64-\d
+    |.*/SPVM-Regex-\d
+    |.*/SPVM-Sys-\d
+    |.*/SPVM-Thread-\d
+    |.*/SPVM-Unicode-\d
+    |.*/SPVM-Unicode-Normalize-\d
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   perlconfig:
     osname: "(freebsd|netbsd|openbsd)"
