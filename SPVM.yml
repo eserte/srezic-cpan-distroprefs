@@ -11,7 +11,8 @@ cpanconfig:
 match:
   distribution: |
     ^(?x:
-     .*/SPVM-Digest-MD5-\d
+     .*/SPVM-Compress-Raw-Zlib-\d
+    |.*/SPVM-Digest-MD5-\d
     |.*/SPVM-Digest-SHA-\d
     |.*/SPVM-Errno-\d
     |.*/SPVM-Math-\d
