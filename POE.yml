@@ -61,6 +61,12 @@ pl:
 test:
   commandline: "touch -t 197001010000 mylib/gen-tests.perl; ls -al mylib/gen-tests.perl; make test"
 --- 
+match:
+  distribution: '^BINGOS/POE-1\.370\.tar\.gz$'
+disabled: 1
+# temporarily disabled because endless loops tests on some systems filling logs up
+# XXX needs more investigation
+---
 comment: "Or if you prefer to follow the defaults..."
 match:
   distribution: '/POE-\d'
