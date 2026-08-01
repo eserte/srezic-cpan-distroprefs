@@ -31,6 +31,16 @@ pl:
 # -> Fixed, no problems with 3.52
 --- 
 match:
+  distribution: '/XML-Twig-3\.54\.'
+depends:
+# XXX probably only test_requires, but this is not accepted by the schema
+  build_requires:
+    LWP: 0
+pl:
+  args: ["-y"]
+# https://github.com/mirod/xmltwig/issues/46
+--- 
+match:
   distribution: '/XML-Twig-\d'
 pl:
   args: ["-y"]
