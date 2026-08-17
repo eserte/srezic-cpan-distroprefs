@@ -1588,5 +1588,6 @@ match:
     |MICVU/PAX-0.031.tar.gz # big leftover temporary files
     |MICVU/Developer-Dashboard-4\..*\.tar.gz # may fork a lot of hanging processes, seen on fbsd14
     |LNATION/Open-API-0.09.tar.gz # takes much time if some prereqs are met (Hyperman installed?), killing processes
+    |LNATION/Open-API-0.10.tar.gz # -"-
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
