@@ -1,0 +1,7 @@
+---
+match:
+  distribution: '/Open-API-0\.\d'
+test:
+  commandline: 'ulimit -v 1048576; make test'
+# Memory problems seen on debian12+13, ubuntu24.04 and problematic behavior on fedora43
+# Versions 0.09 + 0.10 are completely disabled.
