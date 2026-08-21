@@ -3,6 +3,7 @@ match:
   distribution: 'LNATION/Open-API-\d+'
 disabled: 1
 # takes much time if some prereqs are met (Hyperman installed?), killing processes, crashing machine
+# https://rt.cpan.org/Ticket/Display.html?id=180951
 ---
 match:
   distribution: '/Open-API-0\.\d'
