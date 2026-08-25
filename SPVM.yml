@@ -18,6 +18,14 @@ match:
     |.*/SPVM-Math-\d
     |.*/SPVM-MIME-Base64-\d
     |.*/SPVM-Regex-\d
+    |.*/SPVM-Resource-Coro-\d
+    |.*/SPVM-Resource-Eigen-\d
+    |.*/SPVM-Resource-Libpng-\d
+    |.*/SPVM-Resource-RE2-\d
+    |.*/SPVM-Resource-SQLite-\d
+    |.*/SPVM-Resource-SocketUtil-\d
+    |.*/SPVM-Resource-Utf8proc-\d
+    |.*/SPVM-Resource-Zlib-\d
     |.*/SPVM-Sys-\d
     |.*/SPVM-Thread-\d
     |.*/SPVM-Unicode-\d
