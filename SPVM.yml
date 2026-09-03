@@ -25,6 +25,7 @@ match:
     |.*/SPVM-Resource-SQLite-\d
     |.*/SPVM-Resource-SocketUtil-\d
     |.*/SPVM-Resource-Utf8proc-\d
+    |.*/SPVM-Resource-UV-\d
     |.*/SPVM-Resource-Zlib-\d
     |.*/SPVM-Sys-\d
     |.*/SPVM-Thread-\d
