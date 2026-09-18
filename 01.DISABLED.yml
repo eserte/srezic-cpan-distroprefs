@@ -1587,5 +1587,6 @@ match:
     |MANWAR/Class-Mite-v0.1.1.tar.gz # possibly conflicts with other distributions, see https://github.com/manwar/Class-Mite/issues/2
     |MICVU/PAX-0.031.tar.gz # big leftover temporary files
     |MICVU/Developer-Dashboard-4\..*\.tar.gz # may fork a lot of hanging processes, seen on fbsd14
+    |SPEEVES/Apache-AuthNetLDAP-0.33.tar.gz # possibly using autoinstall, bypassing mod_perl.yml
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
