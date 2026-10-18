@@ -406,6 +406,7 @@ match:
     |.*/Alien-Google-GRPC-0\.07\. # dito
     |KIWIROY/tmp/Alien-KentSrc-0.3.tar.gz # fails to build on freebsd (gmake?), big build directory
     |KIWIROY/tmp/Alien-KentSrc-0.4.tar.gz # -"-
+    |SANKO/Alien-SDL3-v3.4.19.tar.gz # test suite seems to hang and is not detectable by wait-and-kill-cpan-smoker
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
 --- 
