@@ -408,6 +408,7 @@ match:
     |KIWIROY/tmp/Alien-KentSrc-0.4.tar.gz # -"-
     |SANKO/Alien-SDL3-v3.4.19.tar.gz # test suite seems to hang and is not detectable by wait-and-kill-cpan-smoker
     |SANKO/Alien-SDL3-v3.4.20.tar.gz # -"-
+    |SANKO/Alien-SDL3-v3\.4\.\d+\.tar\.gz # -"-
     |SANKO/SDL3-v0.0.6.tar.gz # -"-
     )|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 disabled: 1
