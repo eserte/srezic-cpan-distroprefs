@@ -1,0 +1,8 @@
+---
+match:
+  distribution: '/\QTest-Fork-0.02.tar.gz\E'
+  perlconfig:
+    version: '^5\.45\.(4|5)'
+patches:
+  - SREZIC/patches/Test-Fork-0.02-RT181697-HYDAHY.patch
+# BBC: https://github.com/Perl/perl5/issues/24889
